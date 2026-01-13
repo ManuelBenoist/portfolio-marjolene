@@ -1,0 +1,24 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Create UX Specification Documents",
+			"type": "shell",
+			"command": "PowerShell",
+			"args": [
+				"-Command",
+				"Write-Host 'UX Specification files will be created...'; Get-Date"
+			]
+		},
+		{
+			"label": "Create Architecture Document",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-Command",
+				"Write-Host 'Architecture document creation task initialized'"
+			]
+		}
+	]
+}
