@@ -1,1 +1,54 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400&family=Montserrat:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--color-background: #FBFAF6;
+	--color-primary: #2E3D8B;
+	--color-accent: #C94E54;
+	--color-gray-text: #4A5565;
+	--color-stroke: #D1D5DC;
+}
+
+html, body {
+	height: 100%;
+	background-color: var(--color-background);
+	color: var(--color-gray-text);
+	font-family: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Averia Serif Libre", serif;
+	color: var(--color-primary);
+}
+
+/* Utility helpers matching PRD spacing tokens */
+.section-padding-desktop {
+	padding-top: 96px;
+	padding-bottom: 96px;
+}
+
+.section-padding-mobile {
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
+.card {
+	border-radius: 10px;
+	border: 1px solid var(--color-stroke);
+	background-color: white;
+}
+
+.btn-pill {
+	border-radius: 100px;
+}
+
+/* Small accessibility helpers */
+a:focus {
+	outline: 3px solid rgba(46,61,139,0.2);
+	outline-offset: 2px;
+}
