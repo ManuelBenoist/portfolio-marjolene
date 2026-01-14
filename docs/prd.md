@@ -89,7 +89,7 @@ La refonte adresse deux besoins critiques : (1) **Crédibilité** – un site mo
 
 **NFR2** : Temps de chargement page < 3s sur connexion 4G (mobile)
 
-**NFR3** : Architecture statique (SSG Nuxt3) déployée sur GitHub Pages
+**NFR3** : Architecture statique (SSG Nuxt4) déployée sur GitHub Pages
 
 **NFR4** : Contenu stocké en JSON statique (pas de base de données)
 
@@ -249,7 +249,7 @@ Breakpoints :
 ```
 marjolene-lasne/
 ├── src/
-│   ├── pages/              # Pages Nuxt3
+│   ├── pages/              # Pages Nuxt4
 │   ├── components/         # Composants réutilisables
 │   ├── layouts/            # Layouts
 │   ├── assets/             # Styles, images statiques
@@ -273,7 +273,7 @@ marjolene-lasne/
 **Monolith Statique (SSG)**
 
 - Site vitrine = pas microservices
-- Nuxt3 SSG génère HTML statique pré-rendu
+- Nuxt4 SSG génère HTML statique pré-rendu
 - GitHub Pages = pas de server backend
 - Processus : Dev local → `npm run generate` → GitHub Actions → GitHub Pages automatique
 
@@ -291,7 +291,7 @@ marjolene-lasne/
 
 ### 4.4 Technical Stack
 
-- ✅ Framework : Nuxt3 (Vue.js)
+- ✅ Framework : Nuxt4 (Vue.js)
 - ✅ Styling : TailwindCSS
 - ✅ Hosting : GitHub Pages
 - ✅ Repository : GitHub (Monorepo)
@@ -311,7 +311,7 @@ marjolene-lasne/
 
 | Semaine | Focus | Livrables |
 |---------|-------|-----------|
-| **Sem 1** | Infrastructure + Design | Nuxt3 setup, CI/CD, Figma wireframes 5 pages |
+| **Sem 1** | Infrastructure + Design | Nuxt4 setup, CI/CD, Figma wireframes 5 pages |
 | **Sem 2** | Design system + Pages skeleton | TailwindCSS tokens, components, pages structure |
 | **Sem 3** | Features principales | Galeries, formulaire, contenu JSON |
 | **Sem 4** | Finalisations + Launch | Optimisations, migration URLs, tests, déploiement |
@@ -319,11 +319,11 @@ marjolene-lasne/
 ### 5.2 Epic Breakdown
 
 **Epic 1: Foundation & Infrastructure (Semaine 1)**
-- Objective : Établir base projet Nuxt3, Git/CI-CD, déploiement automatisé GitHub Pages + canary page fonctionnelle
+- Objective : Établir base projet Nuxt4, Git/CI-CD, déploiement automatisé GitHub Pages + canary page fonctionnelle
 - Prerequisite : Aucun
 - Duration : 3 jours
 - Key Stories :
-  1. Nuxt3 project setup + package.json
+  1. Nuxt4 project setup + package.json
   2. GitHub repo configuration + branch protection
   3. GitHub Actions workflow pour build/deploy
   4. Canary page (hello world) déployée sur GitHub Pages
@@ -895,7 +895,7 @@ Domain Components:
 **Refonte site Marjolène Lasne – PRD Finalisé**
 
 - **Scope MVP** : 5 pages, FR/EN, design DIY, 4 semaines
-- **Tech** : Nuxt3 SSG + GitHub Pages, JSON content
+- **Tech** :  Nuxt4 SSG + GitHub Pages, JSON content
 - **Success** : >= 90 Lighthouse, 2x contact rate, launch 09 Feb 2026
 - **Team** : PM + Designer DIY + Dev (fulltime) + Marjolène feedback
 - **Next** : Start Phase 1 design immediately (templates Figma + wireframes)
