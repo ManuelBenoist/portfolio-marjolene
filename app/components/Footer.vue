@@ -22,8 +22,18 @@
         <div class="flex-1 min-w-[220px] mb-8 lg:mb-0">
           <div class="font-heading text-lg footer-title mb-2">Contact</div>
           <ul class="space-y-1">
-            <li class="flex items-center gap-2"><span class="i-mdi-email-outline text-lg"></span> marjolene.lasne@example.com</li>
-            <li class="flex items-center gap-2"><span class="i-mdi-phone-outline text-lg"></span> +33 6 12 34 56 78</li>
+            <li class="flex items-center gap-2">
+              <Icon icon="lucide:mail" class="w-5 h-5 shrink-0" />
+                <span class="break-words">
+                    marjolene.lasne@example.com
+                </span>
+            </li>
+            <li class="flex items-center gap-2">
+              <Icon icon="lucide:phone" class="w-5 h-5 shrink-0" />
+                <span class="whitespace-nowrap">
+                  +33 6 12 34 56 78
+                </span>
+            </li>
             <li>Atelier en Provence<br/>Visites sur rendez-vous</li>
           </ul>
         </div>
@@ -31,9 +41,15 @@
         <div class="flex-1 min-w-[170px]">
           <div class="font-heading text-lg footer-title mb-2">Suivez-moi</div>
           <div class="flex gap-4 mt-2">
-            <a href="#" aria-label="Instagram" class="hover:text-white text-footer-text text-2xl"><span class="i-mdi-instagram"></span></a>
-            <a href="#" aria-label="Facebook" class="hover:text-white text-footer-text text-2xl"><span class="i-mdi-facebook"></span></a>
-            <a href="#" aria-label="LinkedIn" class="hover:text-white text-footer-text text-2xl"><span class="i-mdi-linkedin"></span></a>
+            <a href="#" aria-label="Instagram" class="hover:text-white text-footer-text text-2xl">
+              <Icon icon="mdi:instagram" width="28" height="28" />
+            </a>
+            <a href="#" aria-label="Facebook" class="hover:text-white text-footer-text text-2xl">
+              <Icon icon="mdi:facebook" width="28" height="28" />
+            </a>
+            <a href="#" aria-label="LinkedIn" class="hover:text-white text-footer-text text-2xl">
+              <Icon icon="mdi:linkedin" width="28" height="28" />
+            </a>
           </div>
         </div>
       </div>
@@ -45,7 +61,7 @@
         </div>
       </div>
     </div>
-    </footer>
+  </footer>
 </template>
 
 
@@ -74,5 +90,6 @@
 
 
 <script setup>
+import { Icon } from '@iconify/vue'
 const year = new Date().getFullYear()
 </script>
