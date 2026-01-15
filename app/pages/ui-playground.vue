@@ -20,6 +20,32 @@
       <h2 class="text-2xl font-heading mb-4">Language Switcher</h2>
       <LanguageSwitcher />
     </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-heading mb-4">Painting Card</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
+        <PaintingCard
+          image="/peintures/marjo-peinture-1.avif"
+          title="Roussillon aux fleurs sauvages"
+          technique="Huile sur toile"
+          dimensions="80cm x 120cm"
+        />
+        <PaintingCard
+          image="/peintures/marjo-peinture-2.avif"
+          title="Roussillon aux fleurs sauvages"
+          technique="Huile sur toile"
+          dimensions="80cm x 120cm"
+        />
+        <PaintingCard
+          image="/peintures/marjo-peinture-3.avif"
+          title="Roussillon aux fleurs sauvages"
+          technique="Huile sur toile"
+          dimensions="80cm x 120cm"
+        />
+
+      </div>
+    </section>
+
   </div>
 </template>
 
