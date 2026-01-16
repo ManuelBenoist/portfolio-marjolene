@@ -22,6 +22,16 @@
 
     <section class="mb-8 section-demo">
       <h2 class="text-2xl font-heading mb-4">Painting Card</h2>
+      <PaintingCard
+        image="/peintures/marjo-peinture-1.avif"
+        title="Roussillon aux fleurs sauvages"
+        technique="Huile sur toile"
+        dimensions="80cm x 120cm"
+      />
+    </section>
+
+    <section class="mb-8 section-demo">
+      <h2 class="text-2xl font-heading mb-4">CardGrid</h2>
       <CardGrid
         :items="[
           { image: '/peintures/marjo-peinture-1.avif', title: 'Roussillon aux fleurs sauvages', technique: 'Huile sur toile', dimensions: '80cm x 120cm' },
@@ -31,6 +41,7 @@
         :cardComponent="PaintingCard"
       />
     </section>
+
     <section class="mb-8 section-demo">
       <h2 class="text-2xl font-heading mb-4">Section Title</h2>
         <SectionTitle
@@ -66,6 +77,71 @@
         ]"
       />
     </section>
+
+    <!--<section class="mb-8 section-demo">-->
+      <h2 class="text-2xl font-heading mb-4">Foulard Card (in grid test)</h2>
+      <CardGrid
+        :items="[
+          {
+            title: 'Collection Méditerranée',
+            description: 'Inspiration méditerranéenne aux couleurs vibrantes du Sud de la France.',
+            colors: [
+              { id: 'azur', label: 'Azur', hex: '#2E5EB8' },
+              { id: 'rouge', label: 'Rouge', hex: '#C94E54' },
+              { id: 'vert', label: 'Vert', hex: '#2DBA6C' }
+            ],
+            materials: [
+              { id: 'soie', label: 'Soie' },
+              { id: 'soie-coton', label: 'Soie & Coton' },
+              { id: 'modal', label: 'Modal' }
+            ],
+            sizes: ['70x70 cm', '90x90 cm', '140x140 cm'],
+            baseImage: { src: '/foulards/foulard-marjo-bleu.avif', alt: 'Foulard Collection Méditerranée' },
+            variantImages: [
+              { src: '/foulards/foulard-marjo-bleu.avif', colorId: 'azur', materialId: 'soie', alt: 'Foulard azur soie' },
+              { src: '/foulards/foulard-marjo-vert.avif', colorId: 'vert', materialId: 'soie', alt: 'Foulard vert soie' }
+            ]
+          },
+          {
+            title: 'Collection Rouge',
+            description: 'Foulard aux tons rouges et chauds.',
+            colors: [
+              { id: 'rouge', label: 'Rouge', hex: '#C94E54' },
+              { id: 'azur', label: 'Azur', hex: '#2E5EB8' }
+            ],
+            materials: [
+              { id: 'soie', label: 'Soie' },
+              { id: 'modal', label: 'Modal' }
+            ],
+            sizes: ['70x70 cm', '90x90 cm'],
+            baseImage: { src: '/foulards/foulard-marjo-bleu.avif', alt: 'Foulard Collection Rouge' },
+            variantImages: [
+              { src: '/foulards/foulard-marjo-bleu.avif', colorId: 'azur', materialId: 'soie', alt: 'Foulard azur soie' },
+              { src: '/foulards/foulard-marjo-bleu.avif', colorId: 'rouge', materialId: 'soie', alt: 'Foulard rouge soie' }
+            ]
+          },
+          {
+            title: 'Collection Rouge',
+            description: 'Foulard aux tons rouges et chauds.',
+            colors: [
+              { id: 'rouge', label: 'Rouge', hex: '#C94E54' },
+              { id: 'azur', label: 'Azur', hex: '#2E5EB8' }
+            ],
+            materials: [
+              { id: 'soie', label: 'Soie' },
+              { id: 'modal', label: 'Modal' }
+            ],
+            sizes: ['70x70 cm', '90x90 cm'],
+            baseImage: { src: '/foulards/foulard-marjo-bleu.avif', alt: 'Foulard Collection Rouge' },
+            variantImages: [
+              { src: '/foulards/foulard-marjo-bleu.avif', colorId: 'azur', materialId: 'soie', alt: 'Foulard azur soie' },
+              { src: '/foulards/foulard-marjo-bleu.avif', colorId: 'rouge', materialId: 'soie', alt: 'Foulard rouge soie' }
+            ]
+          }
+        ]"
+        :cardComponent="FoulardCard"
+      />
+    <!--</section>-->
     
   </div>
 </template>
@@ -92,4 +168,5 @@ import PaintingCard from "../components/PaintingCard.vue"
 import SectionTitle from "../components/SectionTitle.vue"
 import Filter from "../components/Filter.vue"
 import TitleImageContent from "../components/TitleImageContent.vue"
+import FoulardCard from "../components/FoulardCard.vue"
 </script>
