@@ -23,27 +23,14 @@
 
     <section class="mb-8">
       <h2 class="text-2xl font-heading mb-4">Painting Card</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
-        <PaintingCard
-          image="/peintures/marjo-peinture-1.avif"
-          title="Roussillon aux fleurs sauvages"
-          technique="Huile sur toile"
-          dimensions="80cm x 120cm"
-        />
-        <PaintingCard
-          image="/peintures/marjo-peinture-2.avif"
-          title="Roussillon aux fleurs sauvages"
-          technique="Huile sur toile"
-          dimensions="80cm x 120cm"
-        />
-        <PaintingCard
-          image="/peintures/marjo-peinture-3.avif"
-          title="Roussillon aux fleurs sauvages"
-          technique="Huile sur toile"
-          dimensions="80cm x 120cm"
-        />
-
-      </div>
+      <CardGrid
+        :items="[
+          { image: '/peintures/marjo-peinture-1.avif', title: 'Roussillon aux fleurs sauvages', technique: 'Huile sur toile', dimensions: '80cm x 120cm' },
+          { image: '/peintures/marjo-peinture-2.avif', title: 'Roussillon', technique: 'Huile sur toile', dimensions: '80cm x 120cm' },
+          { image: '/peintures/marjo-peinture-3.avif', title: 'Roussillon aux fleurs sauvages', technique: 'Huile sur toile', dimensions: '80cm x 120cm' }
+        ]"
+        :cardComponent="PaintingCard"
+      />
     </section>
 
   </div>
@@ -53,4 +40,6 @@
 // Page used for visual QA of components and layout
 import Header from "../components/Header.vue"
 import Footer from "../components/Footer.vue"
+import CardGrid from "../components/CardGrid.vue"
+import PaintingCard from "../components/PaintingCard.vue"
 </script>
