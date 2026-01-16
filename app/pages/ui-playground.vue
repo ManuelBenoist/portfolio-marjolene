@@ -38,6 +38,19 @@
         subtitle="Découvrez une sélection d'œuvres originales, inspirées par les paysages méditerranéens et la lumière du Sud."
       />
     </section>
+
+    <section class="mb-8 section-demo">
+      <h2 class="text-2xl font-heading mb-4">Filter Component</h2>
+      <Filter
+        title="Collections"
+        :items="[
+          { label: 'Toutes', value: 'all' },
+          { label: 'Paysages', value: 'paysages' },
+          { label: 'Terrasses & Marchés', value: 'terrasses' },
+        ]"
+        v-model="selected"
+    />
+    </section>
   </div>
 </template>
 
@@ -61,4 +74,5 @@ import Footer from "../components/Footer.vue"
 import CardGrid from "../components/CardGrid.vue"
 import PaintingCard from "../components/PaintingCard.vue"
 import SectionTitle from "../components/SectionTitle.vue"
+import Filter from "../components/Filter.vue"
 </script>
