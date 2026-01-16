@@ -51,6 +51,22 @@
         v-model="selected"
     />
     </section>
+
+    <section class="mb-8 section-demo">
+      <h2 class="text-2xl font-heading mb-4">Title Image Content</h2>
+      <TitleImageContent
+        title="Biographie"
+        image="/Marjolène-Lasne.png"
+        caption="Marjolène Lasne , ses pinceaux et son chevalet"
+        position="left"
+        :paragraphs="[
+          'Marjolène Lasne est une artiste peintre française basée en Provence. Son œuvre, profondément ancrée dans la lumière méditerranéenne, explore les paysages, les terrasses et les scènes d\'intérieur avec une sensibilité unique.',
+          'Formée aux Beaux-Arts de Paris, elle développe rapidement un style personnel caractérisé par des compositions lumineuses et des palettes de couleurs chaudes inspirées du Sud de la France. Son travail a été exposé dans de nombreuses galeries en France et à l\'international.',
+          'Elle partage désormais son temps entre la création, l\'enseignement et les résidences artistiques. Passionnée par la transmission de son art, Marjolène anime régulièrement des ateliers et accompagne des artistes émergents dans leur développement artistique.'
+        ]"
+      />
+    </section>
+    
   </div>
 </template>
 
@@ -75,4 +91,5 @@ import CardGrid from "../components/CardGrid.vue"
 import PaintingCard from "../components/PaintingCard.vue"
 import SectionTitle from "../components/SectionTitle.vue"
 import Filter from "../components/Filter.vue"
+import TitleImageContent from "../components/TitleImageContent.vue"
 </script>
