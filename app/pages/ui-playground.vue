@@ -132,7 +132,7 @@
           },
           {
             title: 'Collection Rouge',
-            description: 'Foulard aux tons rouges et chauds.',
+            description: 'Foulard aux tons rouges et chauds.Foulard aux tons rouges et chauds.Foulard aux tons rouges et chauds.Foulard aux tons rouges et chauds.Foulard aux tons rouges et chauds.Foulard aux tons rouges et chauds.Foulard aux tons rouges et chauds.Foulard aux tons rouges et chauds.Foulard aux tons rouges et chauds.',
             colors: [
               { id: 'rouge', label: 'Rouge', hex: '#C94E54' },
               { id: 'azur', label: 'Azur', hex: '#2E5EB8' }
