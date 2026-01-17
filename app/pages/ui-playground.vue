@@ -21,6 +21,15 @@
     </section>
 
     <section class="mb-8 section-demo">
+      <h2 class="text-2xl font-heading mb-4">FilterItem</h2>
+      <div class="flex gap-2 flex-wrap">
+        <FilterItem label="Paysages" :selected="true" @click="() => console.log('FilterItem clicked')" />
+        <FilterItem label="Terrasses & Marchés" :selected="false" @click="() => console.log('FilterItem clicked')" />
+        <FilterItem label="Scènes d'intérieur" :selected="false" @click="() => console.log('FilterItem clicked')" />
+      </div>
+    </section>
+
+    <section class="mb-8 section-demo">
       <h2 class="text-2xl font-heading mb-4">Painting Card</h2>
       <PaintingCard
         image="/peintures/marjo-peinture-1.avif"
@@ -59,8 +68,9 @@
           { label: 'Paysages', value: 'paysages' },
           { label: 'Terrasses & Marchés', value: 'terrasses' },
         ]"
-        v-model="selected"
-    />
+        v-model="filterSelected"
+      />
+      <div class="mt-2 text-sm text-gray-500">Valeur sélectionnée : {{ filterSelected }}</div>
     </section>
 
     <section class="mb-8 section-demo">
@@ -78,7 +88,7 @@
       />
     </section>
 
-    <!--<section class="mb-8 section-demo">-->
+    <section class="mb-8 section-demo">
       <h2 class="text-2xl font-heading mb-4">Foulard Card (in grid test)</h2>
       <CardGrid
         :items="[
@@ -141,7 +151,9 @@
         ]"
         :cardComponent="FoulardCard"
       />
-    <!--</section>-->
+    </section>
+
+
     
   </div>
 </template>
@@ -160,7 +172,7 @@
 
 
 <script setup>
-// Page used for visual QA of components and layout
+import { ref } from 'vue'
 import Header from "../components/Header.vue"
 import Footer from "../components/Footer.vue"
 import CardGrid from "../components/CardGrid.vue"
@@ -169,4 +181,7 @@ import SectionTitle from "../components/SectionTitle.vue"
 import Filter from "../components/Filter.vue"
 import TitleImageContent from "../components/TitleImageContent.vue"
 import FoulardCard from "../components/FoulardCard.vue"
+import FilterItem from "~/components/FilterItem.vue"
+
+const filterSelected = ref('all')
 </script>
