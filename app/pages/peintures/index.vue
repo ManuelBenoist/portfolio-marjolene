@@ -79,9 +79,6 @@ const { data: paintings, pending } = await useAsyncData<Painting[]>(
   () => $fetch('/content/peintures.json')
 )
 
-console.log('✅ Paintings loaded:', paintings.value)
-console.log('✅ Pending:', pending.value)
-
 // Filter state
 const selectedCollection = ref<string>('')
 const selectedTechnique = ref<string>('')
@@ -97,7 +94,6 @@ const collectionOptions = computed(() => {
       value: col
     }))
   ]
-  console.log('✅ collectionOptions:', options)
   return options
 })
 
@@ -112,7 +108,6 @@ const techniqueOptions = computed(() => {
       value: tech
     }))
   ]
-  console.log('✅ techniqueOptions:', options)
   return options
 })
 
@@ -130,14 +125,8 @@ const filteredPaintings = computed(() => {
     to: `/peintures/${painting.slug}`
   }))
   
-  console.log('✅ filteredPaintings:', filtered)
-  console.log('✅ selectedCollection:', selectedCollection.value)
-  console.log('✅ selectedTechnique:', selectedTechnique.value)
   return filtered
 })
-
-// Wrapper component to handle NuxtLink
-console.log('✅ PaintingCardWrapper component:', PaintingCardWrapper)
 
 </script>
 
