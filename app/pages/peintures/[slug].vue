@@ -1,17 +1,17 @@
 <template>
   <div class="relative min-h-screen bg-background text-gray-text">
-    <div class="w-full flex justify-end pt-4 pb-2 sm:pt-8 sm:pb-6">
+    <div class="w-full flex justify-end pt-4 pb-4 sm:pt-8 sm:pb-8">
       <NuxtLink
         class="flex items-center gap-2 text-xs font-medium uppercase tracking-[0.35em] text-gray-text transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
         to="/peintures"
         aria-label="Retour aux œuvres"
       >
-        <span class="text-2xl font-medium text-gray-text">×</span>
+        <iconify-icon icon="mdi:close" class="text-3xl"></iconify-icon>
         <span class="sm:inline text-gray-text font-medium">Retour aux œuvres</span>
       </NuxtLink>
     </div>
 
-    <div class="mx-auto flex min-h-screen max-w-6xl flex-col px-6 pb-0 pt-0 gap-6 lg:px-10">
+    <div class="mx-auto flex max-w-6xl flex-col px-6 pb-0 pt-0 gap-6 lg:px-10">
       <Transition name="gallery-fade" mode="out-in" appear>
         <div
           v-if="painting"
@@ -53,13 +53,9 @@
 
             <div>
               <p class="text-sm font-medium text-primary/70">Vous avez une question&nbsp;?</p>
-              <NuxtLink
-                class="mt-4 inline-flex items-center justify-center rounded-btn bg-primary px-8 py-3 text-base font-medium uppercase tracking-wide text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background hover:bg-accent"
+              <ContactButton
                 :to="contactLink"
-                aria-label="Contacter l'artiste au sujet de l'œuvre"
-              >
-                Contacter l'artiste
-              </NuxtLink>
+              />
             </div>
           </div>
         </div>
@@ -90,7 +86,7 @@
           :aria-label="`Voir la peinture précédente : ${previousPainting.title}`"
           @click.native="scrollToTop"
         >
-          <span aria-hidden="true" class="text-xl text-gray-text font-bold">←</span>
+          <iconify-icon icon="mdi:chevron-left" class="text-3xl"></iconify-icon>
           <div class="flex flex-col gap-1 tracking-normal">
             <span class="text-[11px] font-bold uppercase tracking-[0.35em] text-gray-text">Peinture précédente</span>
             <span class="text-base capitalize text-primary">
@@ -103,7 +99,7 @@
           class="flex items-center gap-3 text-gray-text/30"
           aria-disabled="true"
         >
-          <span aria-hidden="true" class="text-xl text-gray-text/30 font-bold">←</span>
+          <iconify-icon icon="mdi:chevron-left" class="text-3xl"></iconify-icon>
           <span class="text-[11px] uppercase tracking-[0.35em]">Début de la collection</span>
         </span>
 
@@ -120,7 +116,7 @@
               {{ nextPainting.title }}
             </span>
           </div>
-          <span aria-hidden="true" class="text-xl text-gray-text">→</span>
+          <iconify-icon icon="mdi:chevron-right" class="text-3xl"></iconify-icon>
         </NuxtLink>
         <span
           v-else
@@ -128,7 +124,7 @@
           aria-disabled="true"
         >
           <span class="text-[11px] uppercase tracking-[0.35em]">Fin de la collection</span>
-          <span aria-hidden="true" class="text-xl text-gray-text/30">→</span>
+          <iconify-icon icon="mdi:chevron-right" class="text-3xl"></iconify-icon>
         </span>
       </nav>
     </div>
