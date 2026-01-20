@@ -53,6 +53,8 @@
 </template>
 
 <script setup lang="ts">
+  definePageMeta({ layout: 'grid' })
+
 import { ref, computed } from 'vue'
 import SectionTitle from '~/components/SectionTitle.vue'
 import Filter from '~/components/Filter.vue'
