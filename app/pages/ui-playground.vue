@@ -153,6 +153,11 @@
       />
     </section>
 
+    <section class="mb-8 section-demo">
+      <h2 class="text-2xl font-heading mb-4">Timeline Bar</h2>
+      <Timeline />
+    </section>
+
 
     
   </div>
@@ -182,6 +187,7 @@ import Filter from "../components/Filter.vue"
 import TitleImageContent from "../components/TitleImageContent.vue"
 import FoulardCard from "../components/FoulardCard.vue"
 import FilterItem from "~/components/FilterItem.vue"
+import Timeline from '~/components/timeline/Timeline.vue'
 
 const filterSelected = ref('all')
 </script>
