@@ -49,11 +49,7 @@
         </section>
       </div>
     </div>
-  <style scoped>
-  .foulard-header {
-    min-height: 80px;
-  }
-  </style>
+
   </article>
 </template>
 
@@ -179,5 +175,8 @@ const activeSize = computed(() =>
 <style scoped>
 .font-montserrat {
   font-family: 'Montserrat', sans-serif;
+}
+.foulard-header {
+  min-height: 80px;
 }
 </style>

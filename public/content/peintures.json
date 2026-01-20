@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "terrasse-mediterraneenne",
+    "title": "Terrasse Méditerranéenne",
+    "collection": "Paysages",
+    "description": "Évocation lumineuse d'une terrasse provençale, baignée de soleil et de couleurs chaudes.",
+    "dimensions": "80x120 cm",
+    "technique": "Acrylique sur toile",
+    "image": "/peintures/marjo-peinture-1.avif",
+    "metaDescription": "Tableau lumineux de Marjolène Lasne, terrasse provençale en acrylique."
+  },
+  {
+    "slug": "champs-herbes-sauvages",
+    "title": "Champs d'herbes sauvages",
+    "collection": "Terrasses & Marchés",
+    "description": "Paysage abstrait vibrant, hommage à la nature sauvage du sud.",
+    "dimensions": "60x90 cm",
+    "technique": "Acrylique sur toile",
+    "image": "/peintures/marjo-peinture-2.avif"
+  },
+  {
+    "slug": "roussillon-fleurs-sauvages",
+    "title": "Roussillon aux fleurs sauvages",
+    "collection": "Terrasses & Marchés",
+    "description": "Scène colorée inspirée des champs de Roussillon, explosion de fleurs.",
+    "dimensions": "100x100 cm",
+    "technique": "Acrylique sur toile",
+    "image": "/peintures/marjo-peinture-3.avif"
+  }
+]
