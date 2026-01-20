@@ -1,6 +1,6 @@
 <template>
   <div class="relative min-h-screen bg-background text-gray-text">
-    <div class="w-full flex justify-end pt-4 pb-4 sm:pt-8 sm:pb-8">
+    <div class="w-full flex justify-end pt-4 pb-4 sm:pt-8 sm:pb-10">
       <NuxtLink
         class="flex items-center gap-2 text-xs font-medium uppercase tracking-[0.35em] text-gray-text transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
         to="/peintures"
