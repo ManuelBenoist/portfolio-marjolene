@@ -7,7 +7,7 @@
     </h1>
     <p
       v-if="subtitle"
-      class="text-xl text-[#4A5565] font-montserrat break-words max-w-[50%]"
+      class="text-xl text-[#4A5565] font-montserrat break-words"
       style="word-break: break-word; hyphens: auto;"
     >
       {{ subtitle }}
