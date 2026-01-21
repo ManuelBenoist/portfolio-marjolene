@@ -21,7 +21,7 @@
           v-for="item in menuItems" 
           :key="item.path"
           :to="item.path"
-          class="font-heading text-4xl sm:text-5xl text-primary hover:text-accent transition-colors duration-300"
+          class="font-heading text-4xl sm:text-5xl text-primary hover:text-accent transition-colors duration-150"
         >
           {{ item.label }}
         </NuxtLink>
@@ -61,7 +61,7 @@
             v-for="item in menuItems" 
             :key="item.path"
             :to="item.path"
-            class="group font-heading text-5xl xl:text-6xl 2xl:text-7xl text-primary transition-all duration-300 hover:text-accent hover:scale-105 origin-right"
+              class="group font-heading text-5xl xl:text-6xl 2xl:text-7xl text-primary transition-all duration-150 hover:text-accent hover:scale-105 origin-right"
             @mouseenter="activeImage = item.image"
           >
             {{ item.label }}
