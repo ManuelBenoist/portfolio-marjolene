@@ -13,7 +13,7 @@
     </div>
 
     <!-- Main Content -->
-    <div class="mx-auto max-w-7xl px-6 sm:px-12 md:px-24 pb-16">
+    <div class="mx-auto max-w-screen-2xl px-6 sm:px-8 lg:px-12 pb-16">
       <Transition name="page-fade" mode="out-in" appear>
         <!-- Foulard Found -->
         <div
@@ -23,16 +23,21 @@
         >
           <!-- Left Column: Images -->
           <div class="flex flex-col gap-4">
-            <!-- Main Image -->
-            <figure class="relative aspect-square w-full overflow-hidden rounded-2xl bg-white shadow-sm">
+            <!-- Main Image (always first image) -->
+            <button
+              type="button"
+              class="relative aspect-square w-full overflow-hidden bg-white shadow-sm cursor-zoom-in focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54]"
+              :aria-label="`Agrandir l'image de ${foulard.title}`"
+              @click="openLightbox(0)"
+            >
               <img
-                :src="activeImage.src"
-                :alt="activeImage.alt || foulard.title"
+                :src="activeImages[0].src"
+                :alt="activeImages[0].alt || foulard.title"
                 class="h-full w-full object-cover transition-opacity duration-300"
                 loading="lazy"
                 decoding="async"
               />
-            </figure>
+            </button>
 
             <!-- Thumbnail Gallery: 2 per row, skip main image -->
             <div v-if="activeImages.length > 1" class="flex flex-col gap-2">
@@ -43,11 +48,9 @@
                   v-for="(image, idx) in activeImages.slice(1)"
                   :key="idx"
                   type="button"
-                  class="relative aspect-square w-full h-auto overflow-hidden rounded-xl bg-white shadow-sm transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54]"
-                  :class="(idx + 1) === activeImageIndex ? 'ring-2 ring-[#C94E54] scale-[1.02]' : 'opacity-70 hover:opacity-100'"
-                  :aria-label="`Voir image ${idx + 2}`"
-                  :aria-pressed="(idx + 1) === activeImageIndex"
-                  @click="activeImageIndex = idx + 1"
+                  class="relative aspect-square w-full h-auto overflow-hidden bg-white shadow-sm transition-all duration-200 cursor-zoom-in focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54] opacity-80 hover:opacity-100"
+                  :aria-label="`Agrandir l'image ${idx + 2}`"
+                  @click="openLightbox(idx + 1)"
                 >
                   <img
                     :src="image.src"
@@ -163,6 +166,13 @@
         </div>
       </Transition>
     </div>
+
+    <!-- Image Lightbox -->
+    <ImageLightbox
+      v-model:show="isLightboxOpen"
+      v-model="activeImageIndex"
+      :images="activeImages"
+    />
   </div>
 </template>
 
@@ -174,8 +184,9 @@ import ColorSwatch from '~/components/ColorSwatch.vue'
 import MaterialBadge from '~/components/MaterialBadge.vue'
 import SizeList from '~/components/SizeList.vue'
 import ContactButton from '~/components/ContactButton.vue'
+import ImageLightbox from '~/components/ImageLightbox.vue'
 
-definePageMeta({ layout: 'grid' })
+definePageMeta({ layout: 'wide' })
 
 // Types adaptés à la nouvelle structure
 interface ImageSource {
@@ -227,6 +238,12 @@ const selectedColorId = ref<string | null>(colorOptions.value[0]?.id ?? null)
 const selectedMaterialId = ref<string | null>(null)
 const selectedSizeId = ref<string | null>(foulard.value?.sizes[0]?.id ?? null)
 const activeImageIndex = ref(0)
+const isLightboxOpen = ref(false)
+
+function openLightbox(index: number) {
+  activeImageIndex.value = index
+  isLightboxOpen.value = true
+}
 
 // Met à jour la matière disponible selon la couleur sélectionnée
 const materialOptions = computed(() => {
