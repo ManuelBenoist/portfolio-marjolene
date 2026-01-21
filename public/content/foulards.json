@@ -3,33 +3,63 @@
     "slug": "collection-jardin-secret",
     "title": "Collection Jardin Secret",
     "description": "Motifs floraux délicats inspirés des jardins provençaux.",
-    "colors": [
-      { "id": "orange", "label": "Orange", "hex": "#E8A54B" },
-      { "id": "rose", "label": "Rose", "hex": "#E8B4B8" },
-      { "id": "vert", "label": "Vert", "hex": "#4A7C59" }
-    ],
     "sizes": [
       { "id": "70x70", "label": "70x70 cm" },
       { "id": "90x90", "label": "90x90 cm" },
       { "id": "140x140", "label": "140x140 cm" }
     ],
-    "materials": [
-      { "id": "soie", "label": "Soie" },
-      { "id": "soie-coton", "label": "Soie & Coton" },
-      { "id": "modal", "label": "Modal" }
-    ],
-    "images": [
-      { "src": "/foulards/foulard-marjo-bleu.avif", "alt": "Foulard Jardin Secret vue principale" },
-      { "src": "/foulards/foulard-marjo-vert.avif", "alt": "Foulard Jardin Secret porté" },
-      { "src": "/foulards/foulard-marjo-bleu.avif", "alt": "Foulard Jardin Secret vue principale" },
-      { "src": "/foulards/foulard-marjo-vert.avif", "alt": "Foulard Jardin Secret porté" },
-      { "src": "/foulards/foulard-marjo-vert.avif", "alt": "Foulard Jardin Secret porté" },
-      { "src": "/foulards/foulard-marjo-bleu.avif", "alt": "Foulard Jardin Secret vue principale" }
-    ],
-    "details": {
-      "dimensions": "70x70 cm",
-      "material": "Soie",
-      "color": "Lavande"
+    "colors": {
+      "orange": {
+        "id": "orange",
+        "label": "Orange",
+        "hex": "#E8A54B",
+        "materials": {
+          "soie": {
+            "id": "soie",
+            "label": "Soie",
+            "images": [
+              { "src": "/foulards/jardin-secret/orange/soie-1.avif", "alt": "Foulard Jardin Secret Orange en soie - vue principale" },
+              { "src": "/foulards/jardin-secret/orange/soie-2.avif", "alt": "Foulard Jardin Secret Orange en soie - porté" },
+              { "src": "/foulards/jardin-secret/orange/soie-3.avif", "alt": "Foulard Jardin Secret Orange en soie - zoom" }
+            ]
+          },
+          "soie-coton": {
+            "id": "soie-coton",
+            "label": "Soie & Coton",
+            "images": [
+              { "src": "/foulards/jardin-secret/orange/soie-coton-1.avif", "alt": "Foulard Jardin Secret Orange en soie & coton" }
+            ]
+          }
+        }
+      },
+      "rose": {
+        "id": "rose",
+        "label": "Rose",
+        "hex": "#E8B4B8",
+        "materials": {
+          "soie": {
+            "id": "soie",
+            "label": "Soie",
+            "images": [
+              { "src": "/foulards/jardin-secret/rose/soie-1.avif", "alt": "Foulard Jardin Secret Rose en soie" }
+            ]
+          }
+        }
+      },
+      "vert": {
+        "id": "vert",
+        "label": "Vert",
+        "hex": "#4A7C59",
+        "materials": {
+          "modal": {
+            "id": "modal",
+            "label": "Modal",
+            "images": [
+              { "src": "/foulards/jardin-secret/vert/modal-1.avif", "alt": "Foulard Jardin Secret Vert en modal" }
+            ]
+          }
+        }
+      }
     },
     "mentions": [
       "Pièce unique fabriquée en France",
@@ -42,25 +72,39 @@
     "slug": "collection-mediterranee",
     "title": "Collection Méditerranée",
     "description": "Les couleurs vives de la côte méditerranéenne capturées sur soie.",
-    "colors": [
-      { "id": "bleu", "label": "Bleu Azur", "hex": "#2E5A8B" },
-      { "id": "turquoise", "label": "Turquoise", "hex": "#40B5AD" }
-    ],
     "sizes": [
       { "id": "90x90", "label": "90x90 cm" },
       { "id": "140x140", "label": "140x140 cm" }
     ],
-    "materials": [
-      { "id": "soie", "label": "Soie" },
-      { "id": "modal", "label": "Modal" }
-    ],
-    "images": [
-      { "src": "/foulards/foulard-marjo-bleu.avif", "alt": "Foulard Méditerranée vue principale" }
-    ],
-    "details": {
-      "dimensions": "90x90 cm",
-      "material": "Soie",
-      "color": "Bleu Azur"
+    "colors": {
+      "bleu": {
+        "id": "bleu",
+        "label": "Bleu Azur",
+        "hex": "#2E5A8B",
+        "materials": {
+          "soie": {
+            "id": "soie",
+            "label": "Soie",
+            "images": [
+              { "src": "/foulards/mediterranee/bleu/soie-1.avif", "alt": "Foulard Méditerranée Bleu Azur en soie - vue principale" }
+            ]
+          }
+        }
+      },
+      "turquoise": {
+        "id": "turquoise",
+        "label": "Turquoise",
+        "hex": "#40B5AD",
+        "materials": {
+          "modal": {
+            "id": "modal",
+            "label": "Modal",
+            "images": [
+              { "src": "/foulards/mediterranee/turquoise/modal-1.avif", "alt": "Foulard Méditerranée Turquoise en modal" }
+            ]
+          }
+        }
+      }
     },
     "mentions": [
       "Pièce unique fabriquée en France",

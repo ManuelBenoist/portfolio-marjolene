@@ -35,12 +35,12 @@
             </figure>
 
             <!-- Thumbnail Gallery: 2 per row, skip main image -->
-            <div v-if="foulard.images.length > 1" class="flex flex-col gap-2">
+            <div v-if="activeImages.length > 1" class="flex flex-col gap-2">
               <div
                 class="grid grid-cols-2 gap-2 w-full"
               >
                 <button
-                  v-for="(image, idx) in foulard.images.slice(1)"
+                  v-for="(image, idx) in activeImages.slice(1)"
                   :key="idx"
                   type="button"
                   class="relative aspect-square w-full h-auto overflow-hidden rounded-xl bg-white shadow-sm transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54]"
@@ -79,7 +79,7 @@
                 Couleur : 
                 <span class="font-semibold text-[#2E3D8B]">{{ activeColor?.label || '—' }}</span>
               </div>
-              <ColorSwatch v-model="selectedColorId" :options="foulard.colors" />
+              <ColorSwatch v-model="selectedColorId" :options="colorOptions" />
             </section>
 
             <!-- Size Selection -->
@@ -97,7 +97,7 @@
                 Matière : 
                 <span class="font-semibold text-[#2E3D8B]">{{ activeMaterial?.label || '—' }}</span>
               </div>
-              <MaterialBadge v-model="selectedMaterialId" :options="foulard.materials" />
+              <MaterialBadge v-model="selectedMaterialId" :options="materialOptions" />
             </section>
 
             <!-- Separator -->
@@ -177,41 +177,28 @@ import ContactButton from '~/components/ContactButton.vue'
 
 definePageMeta({ layout: 'grid' })
 
-// Types
-interface ColorOption {
-  id: string
-  label: string
-  hex: string
-}
-
-interface SizeOption {
-  id: string
-  label: string
-}
-
-interface MaterialOption {
-  id: string
-  label: string
-}
-
+// Types adaptés à la nouvelle structure
 interface ImageSource {
   src: string
   alt?: string
 }
-
+interface Material {
+  id: string
+  label: string
+  images: ImageSource[]
+}
+interface Color {
+  id: string
+  label: string
+  hex: string
+  materials: Record<string, Material>
+}
 interface Foulard {
   slug: string
   title: string
   description: string
-  colors: ColorOption[]
-  sizes: SizeOption[]
-  materials: MaterialOption[]
-  images: ImageSource[]
-  details: {
-    dimensions: string
-    material: string
-    color: string
-  }
+  colors: Record<string, Color>
+  sizes: { id: string; label: string }[]
   mentions: string[]
   metaDescription?: string
 }
@@ -223,64 +210,85 @@ const { data: foulardsData, pending } = await useAsyncData<Foulard[]>(
   'foulards-detail',
   () => $fetch('/content/foulards.json')
 )
-
 const foulards = computed(() => foulardsData.value ?? [])
-const currentIndex = computed(() =>
-  foulards.value.findIndex((item) => item.slug === String(route.params.slug))
+const foulard: ComputedRef<Foulard | null | undefined> = computed(() =>
+  foulards.value.find((item) => item.slug === String(route.params.slug))
 )
-
 // 404 handling
-if (currentIndex.value === -1 && !pending.value) {
+if (!foulard.value && !pending.value) {
   throw createError({ statusCode: 404, statusMessage: 'Foulard introuvable' })
 }
 
-const foulard: ComputedRef<Foulard | null | undefined> = computed(() =>
-  currentIndex.value >= 0 ? foulards.value[currentIndex.value] : null
-)
-
 // Reactive State
-const selectedColorId = ref<string | null>(null)
+const colorOptions = computed(() =>
+  foulard.value ? Object.values(foulard.value.colors).map(({ id, label, hex }) => ({ id, label, hex })) : []
+)
+const selectedColorId = ref<string | null>(colorOptions.value[0]?.id ?? null)
 const selectedMaterialId = ref<string | null>(null)
-const selectedSizeId = ref<string | null>(null)
+const selectedSizeId = ref<string | null>(foulard.value?.sizes[0]?.id ?? null)
 const activeImageIndex = ref(0)
 
-// Initialize selections when foulard data loads
+// Met à jour la matière disponible selon la couleur sélectionnée
+const materialOptions = computed(() => {
+  if (!foulard.value || !selectedColorId.value) return []
+  const color = foulard.value.colors[selectedColorId.value]
+  return color ? Object.values(color.materials).map(({ id, label }) => ({ id, label })) : []
+})
+
+// Initialisation des sélections
 watch(
   () => foulard.value,
   (newFoulard) => {
     if (newFoulard) {
-      if (newFoulard.colors.length > 0) {
-        selectedColorId.value = newFoulard.colors[0].id
-      }
-      if (newFoulard.materials.length > 0) {
-        selectedMaterialId.value = newFoulard.materials[0].id
-      }
-      if (newFoulard.sizes.length > 0) {
-        selectedSizeId.value = newFoulard.sizes[0].id
-      }
+      const colorIds = Object.keys(newFoulard.colors)
+      selectedColorId.value = colorIds[0] ?? null
+      const firstColor = colorIds[0] ? newFoulard.colors[colorIds[0]] : null
+      const materialIds = firstColor ? Object.keys(firstColor.materials) : []
+      selectedMaterialId.value = materialIds[0] ?? null
+      selectedSizeId.value = newFoulard.sizes[0]?.id ?? null
       activeImageIndex.value = 0
     }
   },
   { immediate: true }
 )
 
-// Computed Values
+// Met à jour la matière quand la couleur change
+watch(
+  () => selectedColorId.value,
+  (newColorId) => {
+    if (foulard.value && newColorId) {
+      const color = foulard.value.colors[newColorId]
+      const materialIds = color ? Object.keys(color.materials) : []
+      selectedMaterialId.value = materialIds[0] ?? null
+      activeImageIndex.value = 0
+    }
+  }
+)
+
 const activeColor = computed(() =>
-  foulard.value?.colors.find((c) => c.id === selectedColorId.value) ?? null
+  selectedColorId.value && foulard.value ? foulard.value.colors[selectedColorId.value] : null
 )
 const activeMaterial = computed(() =>
-  foulard.value?.materials.find((m) => m.id === selectedMaterialId.value) ?? null
+  activeColor.value && selectedMaterialId.value ? activeColor.value.materials[selectedMaterialId.value] : null
 )
 const activeSize = computed(() =>
   foulard.value?.sizes.find((s) => s.id === selectedSizeId.value) ?? null
 )
 
-const activeImage = computed(() => {
-  if (!foulard.value || foulard.value.images.length === 0) {
-    return { src: '/foulards/foulard-marjo-bleu.avif', alt: 'Foulard' }
+const activeImages = computed(() => {
+  if (activeMaterial.value && activeMaterial.value.images.length > 0) {
+    return activeMaterial.value.images
   }
-  return foulard.value.images[activeImageIndex.value] ?? foulard.value.images[0]
+  // fallback: images d'une autre matière de la couleur
+  if (activeColor.value) {
+    const mats = Object.values(activeColor.value.materials)
+    if (mats.length > 0) return mats[0].images
+  }
+  // fallback: image générique
+  return [{ src: '/foulards/foulard-marjo-bleu.avif', alt: 'Foulard' }]
 })
+
+const activeImage = computed(() => activeImages.value[activeImageIndex.value] ?? activeImages.value[0])
 
 // Plus besoin de thumbnailRows ni imageIndexInList : grid-cols-2 natif
 
@@ -307,7 +315,7 @@ const metaTitle = computed(() =>
 const metaDescription = computed(
   () => foulard.value?.metaDescription ?? foulard.value?.description ?? fallbackDescription
 )
-const metaImage = computed(() => foulard.value?.images[0]?.src ?? '/foulards/foulard-marjo-bleu.avif')
+const metaImage = computed(() => activeImages.value[0]?.src ?? '/foulards/foulard-marjo-bleu.avif')
 
 useSeoMeta({
   title: metaTitle,
