@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "collection-jardin-secret",
+    "title": "Collection Jardin Secret",
+    "description": "Motifs floraux délicats inspirés des jardins provençaux.",
+    "colors": [
+      { "id": "orange", "label": "Orange", "hex": "#E8A54B" },
+      { "id": "rose", "label": "Rose", "hex": "#E8B4B8" },
+      { "id": "vert", "label": "Vert", "hex": "#4A7C59" }
+    ],
+    "sizes": [
+      { "id": "70x70", "label": "70x70 cm" },
+      { "id": "90x90", "label": "90x90 cm" },
+      { "id": "140x140", "label": "140x140 cm" }
+    ],
+    "materials": [
+      { "id": "soie", "label": "Soie" },
+      { "id": "soie-coton", "label": "Soie & Coton" },
+      { "id": "modal", "label": "Modal" }
+    ],
+    "images": [
+      { "src": "/foulards/foulard-marjo-bleu.avif", "alt": "Foulard Jardin Secret vue principale" },
+      { "src": "/foulards/foulard-marjo-vert.avif", "alt": "Foulard Jardin Secret porté" },
+      { "src": "/foulards/foulard-marjo-bleu.avif", "alt": "Foulard Jardin Secret vue principale" },
+      { "src": "/foulards/foulard-marjo-vert.avif", "alt": "Foulard Jardin Secret porté" },
+      { "src": "/foulards/foulard-marjo-vert.avif", "alt": "Foulard Jardin Secret porté" },
+      { "src": "/foulards/foulard-marjo-bleu.avif", "alt": "Foulard Jardin Secret vue principale" }
+    ],
+    "details": {
+      "dimensions": "70x70 cm",
+      "material": "Soie",
+      "color": "Lavande"
+    },
+    "mentions": [
+      "Pièce unique fabriquée en France",
+      "Dessin original de l'artiste",
+      "Entretien : Nettoyage à sec recommandé"
+    ],
+    "metaDescription": "Foulard en soie Jardin Secret par Marjolène Lasne, motifs floraux inspirés de Provence."
+  },
+  {
+    "slug": "collection-mediterranee",
+    "title": "Collection Méditerranée",
+    "description": "Les couleurs vives de la côte méditerranéenne capturées sur soie.",
+    "colors": [
+      { "id": "bleu", "label": "Bleu Azur", "hex": "#2E5A8B" },
+      { "id": "turquoise", "label": "Turquoise", "hex": "#40B5AD" }
+    ],
+    "sizes": [
+      { "id": "90x90", "label": "90x90 cm" },
+      { "id": "140x140", "label": "140x140 cm" }
+    ],
+    "materials": [
+      { "id": "soie", "label": "Soie" },
+      { "id": "modal", "label": "Modal" }
+    ],
+    "images": [
+      { "src": "/foulards/foulard-marjo-bleu.avif", "alt": "Foulard Méditerranée vue principale" }
+    ],
+    "details": {
+      "dimensions": "90x90 cm",
+      "material": "Soie",
+      "color": "Bleu Azur"
+    },
+    "mentions": [
+      "Pièce unique fabriquée en France",
+      "Dessin original de l'artiste",
+      "Entretien : Nettoyage à sec recommandé"
+    ],
+    "metaDescription": "Foulard en soie Méditerranée par Marjolène Lasne, couleurs de la côte azuréenne."
+  }
+]
