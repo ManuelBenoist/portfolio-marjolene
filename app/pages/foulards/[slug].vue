@@ -40,9 +40,9 @@
             </button>
 
             <!-- Thumbnail Gallery: 2 per row, skip main image -->
-            <div v-if="activeImages.length > 1" class="flex flex-col gap-2">
+            <div v-if="activeImages.length > 1" class="flex flex-col gap-4">
               <div
-                class="grid grid-cols-2 gap-2 w-full"
+                class="grid grid-cols-2 gap-4 w-full"
               >
                 <button
                   v-for="(image, idx) in activeImages.slice(1)"
