@@ -1,9 +1,9 @@
 <template>
   <div class="min-h-screen bg-[#FBFAF6] text-[#4A5565]">
     <!-- Back Navigation -->
-    <div class="w-full px-6 sm:px-12 md:px-24 pt-6 pb-4">
+    <div class="w-full px-6 sm:px-12 md:px-24 pt-6 pb-6">
       <NuxtLink
-        class="inline-flex items-center gap-2 text-sm font-medium text-[#2E3D8B] transition-colors hover:text-[#C94E54] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54] focus-visible:ring-offset-2"
+        class="inline-flex items-center gap-2 text-sm font-medium uppercase font-['Montserrat'] text-[rgb(74,85,101)] transition-colors hover:text-[#C94E54] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54] focus-visible:ring-offset-2"
         to="/foulards"
         aria-label="Retour aux foulards"
       >
