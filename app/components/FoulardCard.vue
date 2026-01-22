@@ -1,12 +1,13 @@
 <template>
-  <article class="w-full bg-white rounded-[18px] p-4 flex flex-col gap-4 shadow-sm border border-[#F0ECE1] max-w-[340px] mx-auto">
-    <div class="w-full aspect-square">
+  <article class="w-full max-w-[340px] mx-auto bg-white rounded-[18px] shadow-sm border border-[#F0ECE1] flex flex-col overflow-hidden">
+    <!-- Image pleine largeur -->
+    <div class="w-full aspect-square bg-[#F8F8F8]">
       <ImageBlock
         :base-image="baseImage"
         :variant-images="variantImages"
         :selected-color-id="selectedColorId"
         :selected-material-id="selectedMaterialId"
-        class="w-full h-full"
+        class="w-full h-full object-cover"
       />
     </div>
 

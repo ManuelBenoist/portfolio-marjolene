@@ -69,6 +69,51 @@
     "metaDescription": "Foulard en soie Jardin Secret par Marjolène Lasne, motifs floraux inspirés de Provence."
   },
   {
+    "slug": "collection-orange-sanguine",
+    "title": "Collection Orange Sanguine",
+    "description": "Les couleurs vives de la côte méditerranéenne capturées sur soie.",
+    "sizes": [
+      { "id": "90x90", "label": "90x90 cm" },
+      { "id": "140x140", "label": "140x140 cm" }
+    ],
+    "colors": {
+      "bleu": {
+        "id": "bleu",
+        "label": "Bleu Azur",
+        "hex": "#2E5A8B",
+        "materials": {
+          "soie": {
+            "id": "soie",
+            "label": "Soie",
+            "images": [
+              { "src": "/foulards/mediterranee/bleu/soie-1.avif", "alt": "Foulard Méditerranée Bleu Azur en soie - vue principale" }
+            ]
+          }
+        }
+      },
+      "turquoise": {
+        "id": "turquoise",
+        "label": "Turquoise",
+        "hex": "#40B5AD",
+        "materials": {
+          "modal": {
+            "id": "modal",
+            "label": "Modal",
+            "images": [
+              { "src": "/foulards/mediterranee/turquoise/modal-1.avif", "alt": "Foulard Méditerranée Turquoise en modal" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Pièce unique fabriquée en France",
+      "Dessin original de l'artiste",
+      "Entretien : Nettoyage à sec recommandé"
+    ],
+    "metaDescription": "Foulard en soie Méditerranée par Marjolène Lasne, couleurs de la côte azuréenne."
+  },
+  {
     "slug": "collection-mediterranee",
     "title": "Collection Méditerranée",
     "description": "Les couleurs vives de la côte méditerranéenne capturées sur soie.",
