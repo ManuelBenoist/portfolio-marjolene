@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-background text-gray-text">
     <Header />
-    <main :class="mainClass">
+    <main>
       <div class="max-w-[72rem] mx-auto px-6 py-12">
         <slot />
       </div>
@@ -13,6 +13,5 @@
 <script setup>
   import Header from '../components/Header.vue'
   import Footer from '../components/Footer.vue'
-import { inject } from 'vue'
-const mainClass = inject('mainClass', 'pt-16')
+  import { inject } from 'vue'
 </script>

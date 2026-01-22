@@ -1,0 +1,57 @@
+[
+  {
+    "id": "stages",
+    "title": "Stages",
+    "description": "Cours de peinture et stages d'initiation aux techniques acrylique, huile et aquarelle",
+    "items": [
+      "À la demande, individuels ou collectifs (max 8 pers)",
+      "Organisés dans l'atelier à Roussillon",
+      "Pour enfants et adultes",
+      "Possibilité de peindre sur le motif (en extérieur)"
+    ],
+    "imageSrc": "/peintures/marjo-peinture-1.avif",
+    "imageAlt": "Atelier de peinture avec stages et initiation",
+    "position": "right"
+  },
+  {
+    "id": "design-textile",
+    "title": "Design textile",
+    "description": "Dans le cadre de sa participation au salon Première Vision 2015 à Paris, Marjolène propose également des imprimés",
+    "items": [
+      "Création manuelle (aquarelle, crayon, collage) puis traitement Photoshop",
+      "Designs variés : florales, géométriques",
+      "Commandes possibles"
+    ],
+    "imageSrc": "/peintures/marjo-peinture-2.avif",
+    "imageAlt": "Design textile et imprimés de Marjolène",
+    "position": "left"
+  },
+  {
+    "id": "gites",
+    "title": "Gîtes et chambres d'hôtes",
+    "description": "Découvrez un havre de paix à Roussillon en Provence. Des gîtes et chambres d'hôtes chaleureuses pour un séjour inoubliable.",
+    "items": [
+      "Accueil d'hôtes à Roussillon",
+      "Logements modernes et élégants avec goût",
+      "Observation directe possible de la vie Provence-sud",
+      "Dégustations locale pour découvrir la Provence"
+    ],
+    "imageSrc": "/peintures/marjo-peinture-2.avif",
+    "imageAlt": "Gîtes et chambres d'hôtes à Roussillon",
+    "position": "right"
+  },
+  {
+    "id": "commandes-visites",
+    "title": "Commandes et visites de l'atelier",
+    "description": "L'artiste propose des commandes d'aquarelles et de visites sur mesure. On peut, sur rendez-vous, rencontrer l'artiste dans son atelier.",
+    "items": [
+      "Reproduction d'image en peinture peuvent être proposées",
+      "Suites au-on montrer paysages, portraits, natures-mortes",
+      "Disponibilités limitées pour discuter en personne",
+      "Sur la demande d'un rendez-vous"
+    ],
+    "imageSrc": "/peintures/marjo-peinture-4.avif",
+    "imageAlt": "Atelier et commandes de peinture",
+    "position": "left"
+  }
+]

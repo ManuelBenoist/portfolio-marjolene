@@ -193,6 +193,91 @@
       />
     </section>
 
+    <section class="mb-8 section-demo">
+      <h2 class="text-2xl font-heading mb-4">Autres Activités Page</h2>
+      <div class="border-l-4 border-yellow-500 bg-yellow-50 p-4 mb-6">
+        <p class="text-sm text-gray-700">
+          Full page preview with 4 activity sections in alternating layout
+        </p>
+      </div>
+      <div class="min-h-screen bg-[#FBFAF6]">
+        <div class="flex-1 px-6 sm:px-12 md:px-24">
+          <div class="max-w-[72rem] mx-auto py-12">
+            <SectionTitle 
+              title="Autres activités" 
+              subtitle="Pour aller au-delà de la peinture, Marjolène vous propose diverses activités et services"
+            />
+            <div class="border-t border-[#D1D5DC] mt-8 mb-12"></div>
+            <div class="space-y-24">
+            <ActivitiesSection
+              title="Stages"
+              description="Cours de peinture et stages d'initiation aux techniques acrylique, huile et aquarelle"
+              :items="[
+                'À la demande, individuels ou collectifs (max 8 pers)',
+                'Organisés dans l\'atelier à Roussillon',
+                'Pour enfants et adultes',
+                'Possibilité de peindre sur le motif (en extérieur)'
+              ]"
+              imageSrc="/peintures/marjo-peinture-1.avif"
+              imageAlt="Atelier de peinture avec stages et initiation"
+              position="right"
+              buttonLabel="Contacter l'artiste"
+              buttonAriaLabel="Contacter l'artiste"
+              to="#contact"
+            />
+            <ActivitiesSection
+              title="Design textile"
+              description="Dans le cadre de sa participation au salon Première Vision 2015 à Paris, Marjolène propose également des imprimés"
+              :items="[
+                'Création manuelle (aquarelle, crayon, collage) puis traitement Photoshop',
+                'Designs variés : florales, géométriques',
+                'Commandes possibles'
+              ]"
+              imageSrc="/peintures/marjo-peinture-2.avif"
+              imageAlt="Design textile et imprimés de Marjolène"
+              position="left"
+              buttonLabel="Contacter l'artiste"
+              buttonAriaLabel="Contacter l'artiste"
+              to="#contact"
+            />
+            <ActivitiesSection
+              title="Gîtes et chambres d'hôtes"
+              description="Découvrez un havre de paix à Roussillon en Provence. Des gîtes et chambres d'hôtes chaleureuses pour un séjour inoubliable."
+              :items="[
+                'Accueil d\'hôtes à Roussillon',
+                'Logements modernes et élégants avec goût',
+                'Observation directe possible de la vie Provence-sud',
+                'Dégustations locale pour découvrir la Provence'
+              ]"
+              imageSrc="/peintures/marjo-peinture-3.avif"
+              imageAlt="Gîtes et chambres d'hôtes à Roussillon"
+              position="right"
+              buttonLabel="Découvrir les logements"
+              buttonAriaLabel="Découvrir les logements"
+              :to="`https://www.unairdevacances.art`"
+            />
+            <ActivitiesSection
+              title="Commandes et visites de l'atelier"
+              description="L'artiste propose des commandes d'aquarelles et de visites sur mesure. On peut, sur rendez-vous, rencontrer l'artiste dans son atelier."
+              :items="[
+                'Reproduction d\'image en peinture peuvent être proposées',
+                'Suites au-on montrer paysages, portraits, natures-mortes',
+                'Disponibilités limitées pour discuter en personne',
+                'Sur la demande d\'un rendez-vous'
+              ]"
+              imageSrc="/peintures/marjo-peinture-4.avif"
+              imageAlt="Atelier et commandes de peinture"
+              position="left"
+              buttonLabel="Contacter l'artiste"
+              buttonAriaLabel="Contacter l'artiste"
+              to="#contact"
+            />
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     
   </div>
 </template>
@@ -223,6 +308,7 @@ import FoulardCard from "../components/FoulardCard.vue"
 import FilterItem from "~/components/FilterItem.vue"
 import Timeline from '~/components/timeline/Timeline.vue'
 import ActivitiesSection from '~/components/ActivitiesSection.vue'
+import LanguageSwitcher from '~/components/LanguageSwitcher.vue'
 
 const filterSelected = ref('all')
 </script>

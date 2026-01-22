@@ -23,7 +23,26 @@
       
       <!-- Contact Button - aligned with image bottom -->
       <div class="mt-auto pt-6">
-        <ContactButton :to="to" :label="buttonLabel" :aria-label="buttonAriaLabel" />
+        <!-- Internal link -->
+        <NuxtLink
+          v-if="!isExternalLink"
+          class="mt-4 inline-flex items-center justify-center rounded-btn bg-primary px-8 py-3 text-base font-medium uppercase tracking-wide text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background hover:bg-accent"
+          :to="to as RouteLocationRaw"
+          :aria-label="buttonAriaLabel"
+        >
+          {{ buttonLabel }}
+        </NuxtLink>
+        <!-- External link -->
+        <a
+          v-else
+          :href="to as string"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mt-4 inline-flex items-center justify-center rounded-btn bg-primary px-8 py-3 text-base font-medium uppercase tracking-wide text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background hover:bg-accent"
+          :aria-label="buttonAriaLabel"
+        >
+          {{ buttonLabel }}
+        </a>
       </div>
     </div>
 
@@ -44,16 +63,21 @@ interface Props {
   imageSrc: string
   imageAlt?: string
   position?: 'left' | 'right'
-  to?: RouteLocationRaw
+  to?: RouteLocationRaw | string
   buttonLabel?: string
   buttonAriaLabel?: string
 }
 
-withDefaults(defineProps<Props>(), {
+const props = withDefaults(defineProps<Props>(), {
   imageAlt: 'Section image',
   position: 'right',
   to: '#',
   buttonLabel: 'Contacter l\'artiste',
   buttonAriaLabel: 'Contacter l\'artiste',
+})
+
+// Check if the link is external (starts with http)
+const isExternalLink = computed(() => {
+  return typeof props.to === 'string' && props.to.startsWith('http')
 })
 </script>
