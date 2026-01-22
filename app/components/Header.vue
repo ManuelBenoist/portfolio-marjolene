@@ -85,12 +85,7 @@ import { ref } from 'vue'
 import LanguageSwitcher from './LanguageSwitcher.vue'
 const menuOpen = ref(false)
 </script>
-.fade-enter-active, .fade-leave-active {
-  transition: opacity 0.3s;
-}
-.fade-enter-from, .fade-leave-to {
-  opacity: 0;
-}
+
 
 <style scoped>
 .header-link {
@@ -105,12 +100,10 @@ const menuOpen = ref(false)
 }
 .header-link:hover, .header-link:focus {
   color: #C94E54;
-  text-decoration: underline;
   outline: none;
   transform: scale(1.06);
 }
 .header-link.router-link-exact-active {
   color: #C94E54;
-  text-decoration: underline;
 }
 </style>

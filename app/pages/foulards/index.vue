@@ -8,6 +8,9 @@
         subtitle="Découvrez une collection de foulards en soie, inspirés par les couleurs et motifs de Provence"
       />
 
+      <!-- Separator -->
+      <hr class="border-t border-[#E5DFD3] mb-10" />
+
       <!-- Loading state -->
       <div v-if="pending" class="text-center py-12">
         <p class="text-[#4A5565]">Chargement des foulards...</p>
@@ -15,11 +18,8 @@
 
       <!-- Gallery -->
       <template v-else>
-        <div v-if="foulards && foulards.length > 0">
-          <CardGrid 
-            :items="foulards" 
-            :card-component="FoulardCardWrapper"
-          />
+        <div v-if="foulardsForGrid.length">
+          <FoulardGrid :items="foulardsForGrid" />
         </div>
 
         <div v-else class="text-center py-12">
@@ -31,11 +31,17 @@
 </template>
 
 <script setup lang="ts">
+// Fetch raw data
+const { data: rawFoulards, pending } = await useAsyncData<RawFoulard[]>(
+  'foulards-page',
+  () => $fetch('/content/foulards.json')
+)
+import { computed } from 'vue'
+
 definePageMeta({ layout: 'grid' })
 
 import SectionTitle from '~/components/SectionTitle.vue'
-import CardGrid from '~/components/CardGrid.vue'
-import FoulardCardWrapper from '~/components/FoulardCardWrapper.vue'
+import FoulardGrid from '~/components/FoulardGrid.vue'
 
 interface ColorOption {
   id: string
@@ -58,28 +64,39 @@ interface ImageSource {
   alt?: string
 }
 
-interface Foulard {
+// Raw JSON structure (nested colors/materials)
+interface RawMaterial {
+  id: string
+  label: string
+  images: ImageSource[]
+}
+
+interface RawColor {
+  id: string
+  label: string
+  hex: string
+  materials: Record<string, RawMaterial>
+}
+
+interface RawFoulard {
   slug: string
   title: string
   description: string
-  colors: ColorOption[]
   sizes: SizeOption[]
-  materials: MaterialOption[]
-  images: ImageSource[]
-  details: {
-    dimensions: string
-    material: string
-    color: string
-  }
-  mentions: string[]
-  metaDescription?: string
+  colors: Record<string, RawColor>
 }
 
-// Fetch data
-const { data: foulards, pending } = await useAsyncData<Foulard[]>(
-  'foulards-page',
-  () => $fetch('/content/foulards.json')
-)
+// Pour FoulardGrid : on passe un tableau d'objets {slug, title, description, colors, sizes}
+const foulardsForGrid = computed(() => {
+  if (!rawFoulards.value) return []
+  return rawFoulards.value.map(foulard => ({
+    slug: foulard.slug,
+    title: foulard.title,
+    description: foulard.description,
+    colors: Object.values(foulard.colors),
+    sizes: foulard.sizes
+  }))
+})
 
 // SEO
 useSeoMeta({

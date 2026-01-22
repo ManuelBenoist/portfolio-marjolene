@@ -1,182 +1,182 @@
 <template>
-  <article class="w-full bg-white rounded-[18px] p-4 flex flex-col gap-4 shadow-sm border border-[#F0ECE1] max-w-[340px] mx-auto">
-    <div class="w-full aspect-square">
-      <ImageBlock
-        :base-image="baseImage"
-        :variant-images="variantImages"
-        :selected-color-id="selectedColorId"
-        :selected-material-id="selectedMaterialId"
-        class="w-full h-full"
+  <article
+    class="bg-white rounded-2xl shadow-sm overflow-hidden w-full max-w-[420px] cursor-pointer transition-shadow hover:shadow-md"
+    @click="navigateToDetail"
+  >
+    
+    <!-- IMAGE -->
+    <div class="aspect-square w-full overflow-hidden bg-[#F8F6F2]">
+      <img
+        v-if="currentImage"
+        :src="currentImage.src"
+        :alt="currentImage.alt"
+        class="w-full h-full object-cover"
+        loading="lazy"
       />
     </div>
 
-    <div class="flex flex-col gap-0 flex-1">
-      <div class="foulard-header px-5 pt-3 pb-2">
-        <h3 class="font-['Averia_Serif_Libre'] text-[1.5rem] text-[#2E3D8B] font-light">
-          {{ title }}
-        </h3>
-        <p class="text-[#4A5565] text-base font-montserrat">
-          {{ description }}
-        </p>
+    <!-- CONTENT -->
+    <div class="p-6">
+
+      <!-- TITLE -->
+      <h2 class="text-[1.6rem] text-[#2E3D8B] font-['Averia_Serif_Libre'] leading-tight mb-2">
+        {{ title }}
+      </h2>
+
+      <!-- DESCRIPTION -->
+      <p class="text-[#4A5565] text-sm mb-5">
+        {{ description }}
+      </p>
+
+      <!-- COLOR -->
+      <div class="mb-5" @click.stop>
+        <div class="text-xs uppercase tracking-wider text-[#4A5565] mb-2">
+          Couleur :
+          <span class="font-semibold">{{ currentColor?.label }}</span>
+        </div>
+
+        <ColorSwatch
+          v-model="selectedColor"
+          :options="colorOptions"
+        />
       </div>
-      <div class="flex-1 flex flex-col justify-end px-5 pb-5">
-        <section class="flex flex-col gap-2">
-          <div class="text-sm font-montserrat text-[#4A5565]">
-            Couleur :
-            <span class="text-[#2E3D8B] font-semibold">
-              {{ activeColor?.label || '—' }}
-            </span>
-          </div>
-          <ColorSwatch v-model="selectedColorId" :options="colors" />
-        </section>
-        <section class="flex flex-col gap-2 mt-2">
-          <div class="text-sm font-montserrat text-[#4A5565]">
-            Matière :
-            <span class="text-[#2E3D8B] font-semibold">
-              {{ activeMaterial?.label || '—' }}
-            </span>
-          </div>
-          <MaterialBadge v-model="selectedMaterialId" :options="materials" />
-        </section>
-        <section class="flex flex-col gap-2 mt-2">
-          <div class="text-sm font-montserrat text-[#4A5565]">
-            Tailles disponibles :
-            <span class="text-[#2E3D8B] font-semibold">
-              {{ activeSize?.label || '—' }}
-            </span>
-          </div>
-          <SizeList v-model="selectedSizeId" :sizes="normalizedSizes" />
-        </section>
+
+      <!-- MATERIAL -->
+      <div class="mb-5" @click.stop>
+        <div class="text-xs uppercase tracking-wider text-[#4A5565] mb-2">
+          Matière :
+          <span class="font-semibold">{{ currentMaterial?.label }}</span>
+        </div>
+
+        <MaterialBadge
+          v-model="selectedMaterial"
+          :options="materialOptions"
+        />
+      </div>
+
+      <!-- SIZES -->
+      <div @click.stop>
+        <div class="text-xs uppercase tracking-wider text-[#4A5565] mb-2">
+          Tailles :
+        </div>
+
+        <SizeList
+          v-model="selectedSize"
+          :sizes="sizeList"
+        />
       </div>
     </div>
-
   </article>
 </template>
 
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
+import ColorSwatch from './ColorSwatch.vue'
+import MaterialBadge from './MaterialBadge.vue'
+import SizeList from './SizeList.vue'
 
-import ColorSwatch from '~/components/ColorSwatch.vue'
-import ImageBlock from '~/components/ImageBlock.vue'
-import MaterialBadge from '~/components/MaterialBadge.vue'
-import SizeList from '~/components/SizeList.vue'
+interface Image {
+  src: string
+  alt: string
+}
 
-type ColorOption = {
+interface Material {
+  id: string
+  label: string
+  images: Image[]
+}
+
+interface Color {
   id: string
   label: string
   hex: string
+  materials: Record<string, Material>
 }
 
-type MaterialOption = {
-  id: string
-  label: string
-}
+const props = defineProps<{
+  slug?: string
+  title: string
+  description: string
+  sizes: Array<{ id: string; label: string }> | Record<string, { id: string; label: string }>
+  colors: Record<string, Color> | Color[]
+}>()
 
-type SizeOption = string | { id: string; label: string }
+/* ----------------------------------
+   STATE
+---------------------------------- */
 
-type NormalizedSize = { id: string; label: string }
+const selectedColor = ref<string | null>(null)
+const selectedMaterial = ref<string | null>(null)
+const selectedSize = ref<string | null>(null)
 
-type ImageSource = {
-  src: string
-  alt?: string
-}
+/* ----------------------------------
+   INITIALIZATION
+---------------------------------- */
 
-type VariantImage = ImageSource & {
-  colorId?: string | null
-  materialId?: string | null
-}
 
-const props = withDefaults(
-  defineProps<{
-    title: string
-    description: string
-    colors?: ColorOption[]
-    materials?: MaterialOption[]
-    sizes?: SizeOption[]
-    baseImage: ImageSource
-    variantImages?: VariantImage[]
-  }>(),
-  {
-    colors: () => [],
-    materials: () => [],
-    sizes: () => [],
-    variantImages: () => [],
-  }
-)
+const colorList = computed(() => Array.isArray(props.colors) ? props.colors : Object.values(props.colors))
+const sizeList = computed(() => Array.isArray(props.sizes) ? props.sizes : Object.values(props.sizes))
 
-const selectedColorId = ref<string | null>(null)
-const selectedMaterialId = ref<string | null>(null)
-const selectedSizeId = ref<string | null>(null)
+const firstColor = colorList.value[0]
+selectedColor.value = firstColor?.id ?? null
 
-const normalizedSizes = computed<NormalizedSize[]>(() => {
-  return props.sizes.map((size) =>
-    typeof size === 'string'
-      ? { id: size, label: size }
-      : { id: size.id, label: size.label }
-  )
+
+watch(selectedColor, (newColor) => {
+  const color = colorList.value.find((c) => c.id === newColor)
+  if (!color) return
+  const firstMaterial = Object.values(color.materials)[0]
+  selectedMaterial.value = firstMaterial?.id ?? null
+}, { immediate: true })
+
+selectedSize.value = sizeList.value?.[0]?.id ?? null
+
+/* ----------------------------------
+   COMPUTED
+---------------------------------- */
+
+const currentColor = computed(() => {
+  if (!selectedColor.value) return null
+  return colorList.value.find((c) => c.id === selectedColor.value) || null
 })
 
-watch(
-  () => props.colors,
-  (value) => {
-    if (!value.length) {
-      selectedColorId.value = null
-      return
-    }
+const materialOptions = computed(() => {
+  if (!currentColor.value) return []
+  return Object.values(currentColor.value.materials).map((m) => ({
+    id: m.id,
+    label: m.label
+  }))
+})
 
-    if (!value.some((option) => option.id === selectedColorId.value)) {
-      selectedColorId.value = value[0].id
-    }
-  },
-  { immediate: true }
-)
+const colorOptions = computed(() => {
+  return colorList.value.map((c) => ({
+    id: c.id,
+    label: c.label,
+    hex: c.hex
+  }))
+})
 
-watch(
-  () => props.materials,
-  (value) => {
-    if (!value.length) {
-      selectedMaterialId.value = null
-      return
-    }
+const currentMaterial = computed(() => {
+  if (!currentColor.value || !selectedMaterial.value) return null
+  return currentColor.value.materials[selectedMaterial.value]
+})
 
-    if (!value.some((option) => option.id === selectedMaterialId.value)) {
-      selectedMaterialId.value = value[0].id
-    }
-  },
-  { immediate: true }
-)
+const currentImage = computed(() => {
+  return currentMaterial.value?.images?.[0] ?? null
+})
 
-watch(
-  () => normalizedSizes.value,
-  (value) => {
-    if (!value.length) {
-      selectedSizeId.value = null
-      return
-    }
+/* ----------------------------------
+   NAVIGATION
+---------------------------------- */
 
-    if (!value.some((option) => option.id === selectedSizeId.value)) {
-      selectedSizeId.value = value[0].id
+function navigateToDetail() {
+  if (!props.slug) return
+  navigateTo({
+    path: `/foulards/${props.slug}`,
+    query: {
+      color: selectedColor.value ?? undefined,
+      material: selectedMaterial.value ?? undefined,
+      size: selectedSize.value ?? undefined
     }
-  },
-  { immediate: true }
-)
-
-const activeColor = computed(() =>
-  props.colors.find((option) => option.id === selectedColorId.value)
-)
-const activeMaterial = computed(() =>
-  props.materials.find((option) => option.id === selectedMaterialId.value)
-)
-const activeSize = computed(() =>
-  normalizedSizes.value.find((option) => option.id === selectedSizeId.value)
-)
+  })
+}
 </script>
-
-<style scoped>
-.font-montserrat {
-  font-family: 'Montserrat', sans-serif;
-}
-.foulard-header {
-  min-height: 80px;
-}
-</style>

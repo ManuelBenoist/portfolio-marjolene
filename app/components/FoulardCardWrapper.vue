@@ -1,14 +1,14 @@
 <template>
   <NuxtLink 
-    :to="`/foulards/${item.slug}`"
+    :to="`/foulards/${slug}`"
     class="block transition-transform hover:scale-[1.02] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
   >
     <FoulardCard
-      :title="item.title"
-      :description="item.description"
-      :colors="item.colors"
-      :materials="item.materials"
-      :sizes="item.sizes"
+      :title="title"
+      :description="description"
+      :colors="colors"
+      :materials="materials"
+      :sizes="sizes"
       :base-image="baseImage"
       :variant-images="[]"
     />
@@ -16,7 +16,6 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
 import FoulardCard from '~/components/FoulardCard.vue'
 
 interface ColorOption {
@@ -40,24 +39,13 @@ interface ImageSource {
   alt?: string
 }
 
-interface FoulardItem {
+const props = defineProps<{
   slug: string
   title: string
   description: string
   colors: ColorOption[]
   sizes: SizeOption[]
   materials: MaterialOption[]
-  images: ImageSource[]
-}
-
-const props = defineProps<{
-  item: FoulardItem
+  baseImage: ImageSource
 }>()
-
-const baseImage = computed(() => {
-  if (props.item.images && props.item.images.length > 0) {
-    return props.item.images[0]
-  }
-  return { src: '/foulards/foulard-marjo-bleu.avif', alt: props.item.title }
-})
 </script>

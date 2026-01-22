@@ -69,6 +69,51 @@
     "metaDescription": "Foulard en soie Jardin Secret par Marjolène Lasne, motifs floraux inspirés de Provence."
   },
   {
+    "slug": "collection-orange-sanguine",
+    "title": "Collection Orange Sanguine",
+    "description": "Les couleurs vives de la côte méditerranéenne capturées sur soie.",
+    "sizes": [
+      { "id": "90x90", "label": "90x90 cm" },
+      { "id": "140x140", "label": "140x140 cm" }
+    ],
+    "colors": {
+      "bleu": {
+        "id": "bleu",
+        "label": "Bleu Azur",
+        "hex": "#2E5A8B",
+        "materials": {
+          "soie": {
+            "id": "soie",
+            "label": "Soie",
+            "images": [
+              { "src": "/foulards/mediterranee/bleu/soie-1.avif", "alt": "Foulard Méditerranée Bleu Azur en soie - vue principale" }
+            ]
+          }
+        }
+      },
+      "turquoise": {
+        "id": "turquoise",
+        "label": "Turquoise",
+        "hex": "#40B5AD",
+        "materials": {
+          "modal": {
+            "id": "modal",
+            "label": "Modal",
+            "images": [
+              { "src": "/foulards/mediterranee/turquoise/modal-1.avif", "alt": "Foulard Méditerranée Turquoise en modal" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Pièce unique fabriquée en France",
+      "Dessin original de l'artiste",
+      "Entretien : Nettoyage à sec recommandé"
+    ],
+    "metaDescription": "Foulard en soie Méditerranée par Marjolène Lasne, couleurs de la côte azuréenne."
+  },
+  {
     "slug": "collection-mediterranee",
     "title": "Collection Méditerranée",
     "description": "Les couleurs vives de la côte méditerranéenne capturées sur soie.",
@@ -112,5 +157,142 @@
       "Entretien : Nettoyage à sec recommandé"
     ],
     "metaDescription": "Foulard en soie Méditerranée par Marjolène Lasne, couleurs de la côte azuréenne."
+  },
+  {
+    "slug": "foulard-une-couleur-une-matiere",
+    "title": "Foulard Unique",
+    "description": "Un foulard avec une seule couleur et une seule matière.",
+    "sizes": [
+      { "id": "50x50", "label": "50x50 cm" }
+    ],
+    "colors": {
+      "noir": {
+        "id": "noir",
+        "label": "Noir profond",
+        "hex": "#000000",
+        "materials": {
+          "laine": {
+            "id": "laine",
+            "label": "Laine",
+            "images": [
+              { "src": "/foulards/unique/noir/laine-1.avif", "alt": "Foulard noir en laine" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": ["Edition limitée"],
+    "metaDescription": "Foulard noir en laine, édition limitée."
+  },
+  {
+    "slug": "foulard-description-longue",
+    "title": "Foulard Description Longue",
+    "description": "Ce foulard est une ode à la créativité. Il a été conçu pour tester la robustesse de l'affichage des descriptions très longues dans l'interface utilisateur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisi nec erat. Suspendisse potenti. Proin ac neque nec sapien cursus dictum. Etiam euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisi nec erat. Suspendisse potenti. Proin ac neque nec sapien cursus dictum.",
+    "sizes": [
+      { "id": "100x100", "label": "100x100 cm" },
+      { "id": "200x200", "label": "200x200 cm" }
+    ],
+    "colors": {
+      "arc-en-ciel": {
+        "id": "arc-en-ciel",
+        "label": "Arc-en-ciel",
+        "hex": "#FFFFFF",
+        "materials": {
+          "polyester": {
+            "id": "polyester",
+            "label": "Polyester",
+            "images": [
+              { "src": "/foulards/longdesc/arc-en-ciel/polyester-1.avif", "alt": "Foulard arc-en-ciel en polyester" }
+            ]
+          },
+          "soie": {
+            "id": "soie",
+            "label": "Soie",
+            "images": [
+              { "src": "/foulards/longdesc/arc-en-ciel/soie-1.avif", "alt": "Foulard arc-en-ciel en soie" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test de description longue",
+      "Plusieurs tailles disponibles",
+      "Plusieurs matières"
+    ],
+    "metaDescription": "Foulard avec description très longue pour test UI."
+  },
+  {
+    "slug": "foulard-multi-couleurs-multi-matieres",
+    "title": "Foulard Multi Couleurs & Matières",
+    "description": "Exemple avec beaucoup de couleurs et de matières.",
+    "sizes": [
+      { "id": "30x30", "label": "30x30 cm" },
+      { "id": "60x60", "label": "60x60 cm" },
+      { "id": "120x120", "label": "120x120 cm" }
+    ],
+    "colors": {
+      "rouge": {
+        "id": "rouge",
+        "label": "Rouge vif",
+        "hex": "#FF0000",
+        "materials": {
+          "soie": {
+            "id": "soie",
+            "label": "Soie",
+            "images": [
+              { "src": "/foulards/multi/rouge/soie-1.avif", "alt": "Foulard rouge en soie" }
+            ]
+          },
+          "coton": {
+            "id": "coton",
+            "label": "Coton",
+            "images": [
+              { "src": "/foulards/multi/rouge/coton-1.avif", "alt": "Foulard rouge en coton" }
+            ]
+          }
+        }
+      },
+      "bleu": {
+        "id": "bleu",
+        "label": "Bleu ciel",
+        "hex": "#00BFFF",
+        "materials": {
+          "laine": {
+            "id": "laine",
+            "label": "Laine",
+            "images": [
+              { "src": "/foulards/multi/bleu/laine-1.avif", "alt": "Foulard bleu en laine" }
+            ]
+          },
+          "soie": {
+            "id": "soie",
+            "label": "Soie",
+            "images": [
+              { "src": "/foulards/multi/bleu/soie-1.avif", "alt": "Foulard bleu en soie" }
+            ]
+          }
+        }
+      },
+      "vert": {
+        "id": "vert",
+        "label": "Vert pomme",
+        "hex": "#7FFF00",
+        "materials": {
+          "coton": {
+            "id": "coton",
+            "label": "Coton",
+            "images": [
+              { "src": "/foulards/multi/vert/coton-1.avif", "alt": "Foulard vert en coton" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multi couleurs et matières",
+      "Affichage complexe"
+    ],
+    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
   }
 ]

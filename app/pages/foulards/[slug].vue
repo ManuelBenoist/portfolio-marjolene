@@ -85,15 +85,6 @@
               <ColorSwatch v-model="selectedColorId" :options="colorOptions" />
             </section>
 
-            <!-- Size Selection -->
-            <section class="flex flex-col gap-2">
-              <div class="text-sm font-medium text-[#4A5565]">
-                Taille : 
-                <span class="font-semibold text-[#2E3D8B]">{{ activeSize?.label || '—' }}</span>
-              </div>
-              <SizeList v-model="selectedSizeId" :sizes="foulard.sizes" />
-            </section>
-
             <!-- Material Selection -->
             <section class="flex flex-col gap-2">
               <div class="text-sm font-medium text-[#4A5565]">
@@ -103,22 +94,31 @@
               <MaterialBadge v-model="selectedMaterialId" :options="materialOptions" />
             </section>
 
+            <!-- Size Selection -->
+            <section class="flex flex-col gap-2">
+              <div class="text-sm font-medium text-[#4A5565]">
+                Taille : 
+                <span class="font-semibold text-[#2E3D8B]">{{ activeSize?.label || '—' }}</span>
+              </div>
+              <SizeList v-model="selectedSizeId" :sizes="foulard.sizes" />
+            </section>
+
             <!-- Separator -->
             <div class="border-t border-[#E5E1D6]"></div>
 
             <!-- Selection Summary -->
             <dl class="space-y-3 text-sm">
               <div class="flex items-baseline justify-between">
-                <dt class="text-[#4A5565]">Dimensions</dt>
-                <dd class="font-medium text-[#2E3D8B]">{{ activeSize?.label || '—' }}</dd>
+                <dt class="text-[#4A5565]">Couleur</dt>
+                <dd class="font-medium text-[#2E3D8B]">{{ activeColor?.label || '—' }}</dd>
               </div>
               <div class="flex items-baseline justify-between">
                 <dt class="text-[#4A5565]">Matière</dt>
                 <dd class="font-medium text-[#2E3D8B]">{{ activeMaterial?.label || '—' }}</dd>
               </div>
               <div class="flex items-baseline justify-between">
-                <dt class="text-[#4A5565]">Couleur</dt>
-                <dd class="font-medium text-[#2E3D8B]">{{ activeColor?.label || '—' }}</dd>
+                <dt class="text-[#4A5565]">Taille</dt>
+                <dd class="font-medium text-[#2E3D8B]">{{ activeSize?.label || '—' }}</dd>
               </div>
             </dl>
 
@@ -252,17 +252,34 @@ const materialOptions = computed(() => {
   return color ? Object.values(color.materials).map(({ id, label }) => ({ id, label })) : []
 })
 
-// Initialisation des sélections
+// Initialisation des sélections (priorité aux query params)
 watch(
   () => foulard.value,
   (newFoulard) => {
     if (newFoulard) {
       const colorIds = Object.keys(newFoulard.colors)
-      selectedColorId.value = colorIds[0] ?? null
-      const firstColor = colorIds[0] ? newFoulard.colors[colorIds[0]] : null
-      const materialIds = firstColor ? Object.keys(firstColor.materials) : []
-      selectedMaterialId.value = materialIds[0] ?? null
-      selectedSizeId.value = newFoulard.sizes[0]?.id ?? null
+      const queryColor = route.query.color as string | undefined
+      const queryMaterial = route.query.material as string | undefined
+      const querySize = route.query.size as string | undefined
+
+      // Couleur : utiliser query param si valide, sinon première couleur
+      selectedColorId.value = (queryColor && colorIds.includes(queryColor))
+        ? queryColor
+        : (colorIds[0] ?? null)
+
+      // Matière : utiliser query param si valide pour la couleur sélectionnée
+      const selectedColor = selectedColorId.value ? newFoulard.colors[selectedColorId.value] : null
+      const materialIds = selectedColor ? Object.keys(selectedColor.materials) : []
+      selectedMaterialId.value = (queryMaterial && materialIds.includes(queryMaterial))
+        ? queryMaterial
+        : (materialIds[0] ?? null)
+
+      // Taille : utiliser query param si valide
+      const sizeIds = newFoulard.sizes.map(s => s.id)
+      selectedSizeId.value = (querySize && sizeIds.includes(querySize))
+        ? querySize
+        : (newFoulard.sizes[0]?.id ?? null)
+
       activeImageIndex.value = 0
     }
   },
