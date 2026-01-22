@@ -85,15 +85,6 @@
               <ColorSwatch v-model="selectedColorId" :options="colorOptions" />
             </section>
 
-            <!-- Size Selection -->
-            <section class="flex flex-col gap-2">
-              <div class="text-sm font-medium text-[#4A5565]">
-                Taille : 
-                <span class="font-semibold text-[#2E3D8B]">{{ activeSize?.label || '—' }}</span>
-              </div>
-              <SizeList v-model="selectedSizeId" :sizes="foulard.sizes" />
-            </section>
-
             <!-- Material Selection -->
             <section class="flex flex-col gap-2">
               <div class="text-sm font-medium text-[#4A5565]">
@@ -103,22 +94,31 @@
               <MaterialBadge v-model="selectedMaterialId" :options="materialOptions" />
             </section>
 
+            <!-- Size Selection -->
+            <section class="flex flex-col gap-2">
+              <div class="text-sm font-medium text-[#4A5565]">
+                Taille : 
+                <span class="font-semibold text-[#2E3D8B]">{{ activeSize?.label || '—' }}</span>
+              </div>
+              <SizeList v-model="selectedSizeId" :sizes="foulard.sizes" />
+            </section>
+
             <!-- Separator -->
             <div class="border-t border-[#E5E1D6]"></div>
 
             <!-- Selection Summary -->
             <dl class="space-y-3 text-sm">
               <div class="flex items-baseline justify-between">
-                <dt class="text-[#4A5565]">Dimensions</dt>
-                <dd class="font-medium text-[#2E3D8B]">{{ activeSize?.label || '—' }}</dd>
+                <dt class="text-[#4A5565]">Couleur</dt>
+                <dd class="font-medium text-[#2E3D8B]">{{ activeColor?.label || '—' }}</dd>
               </div>
               <div class="flex items-baseline justify-between">
                 <dt class="text-[#4A5565]">Matière</dt>
                 <dd class="font-medium text-[#2E3D8B]">{{ activeMaterial?.label || '—' }}</dd>
               </div>
               <div class="flex items-baseline justify-between">
-                <dt class="text-[#4A5565]">Couleur</dt>
-                <dd class="font-medium text-[#2E3D8B]">{{ activeColor?.label || '—' }}</dd>
+                <dt class="text-[#4A5565]">Taille</dt>
+                <dd class="font-medium text-[#2E3D8B]">{{ activeSize?.label || '—' }}</dd>
               </div>
             </dl>
 

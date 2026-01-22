@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-[#FBFAF6] flex flex-col">
     <!-- Main Content -->
-    <main class="flex-1 px-6 sm:px-12 md:px-24 py-12">
+    <main class="flex-1 px-6 sm:px-12 md:px-24">
       <!-- Page Header -->
       <SectionTitle 
         title="Foulards"
