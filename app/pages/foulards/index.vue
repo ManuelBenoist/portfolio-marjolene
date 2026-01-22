@@ -18,11 +18,8 @@
 
       <!-- Gallery -->
       <template v-else>
-        <div v-if="transformedFoulards && transformedFoulards.length > 0">
-          <CardGrid 
-            :items="transformedFoulards" 
-            :card-component="FoulardCardWrapper"
-          />
+        <div v-if="foulardsForGrid.length">
+          <FoulardGrid :items="foulardsForGrid" />
         </div>
 
         <div v-else class="text-center py-12">
@@ -34,13 +31,17 @@
 </template>
 
 <script setup lang="ts">
+// Fetch raw data
+const { data: rawFoulards, pending } = await useAsyncData<RawFoulard[]>(
+  'foulards-page',
+  () => $fetch('/content/foulards.json')
+)
 import { computed } from 'vue'
 
 definePageMeta({ layout: 'grid' })
 
 import SectionTitle from '~/components/SectionTitle.vue'
-import CardGrid from '~/components/CardGrid.vue'
-import FoulardCardWrapper from '~/components/FoulardCardWrapper.vue'
+import FoulardGrid from '~/components/FoulardGrid.vue'
 
 interface ColorOption {
   id: string
@@ -85,66 +86,15 @@ interface RawFoulard {
   colors: Record<string, RawColor>
 }
 
-// Transformed structure for cards
-interface TransformedFoulard {
-  slug: string
-  title: string
-  description: string
-  colors: ColorOption[]
-  sizes: SizeOption[]
-  materials: MaterialOption[]
-  baseImage: ImageSource
-}
-
-// Fetch raw data
-const { data: rawFoulards, pending } = await useAsyncData<RawFoulard[]>(
-  'foulards-page',
-  () => $fetch('/content/foulards.json')
-)
-
-// Transform nested data to flat structure for cards
-const transformedFoulards = computed<TransformedFoulard[]>(() => {
+// Pour FoulardGrid : on passe un tableau d'objets {title, description, colors, sizes}
+const foulardsForGrid = computed(() => {
   if (!rawFoulards.value) return []
-
-  return rawFoulards.value.map((foulard) => {
-    // Extract colors as flat array
-    const colors: ColorOption[] = Object.values(foulard.colors).map((color) => ({
-      id: color.id,
-      label: color.label,
-      hex: color.hex,
-    }))
-
-    // Extract unique materials from all colors
-    const materialsMap = new Map<string, MaterialOption>()
-    Object.values(foulard.colors).forEach((color) => {
-      Object.values(color.materials).forEach((material) => {
-        if (!materialsMap.has(material.id)) {
-          materialsMap.set(material.id, { id: material.id, label: material.label })
-        }
-      })
-    })
-    const materials: MaterialOption[] = Array.from(materialsMap.values())
-
-    // Extract first available image for the card preview
-    let baseImage: ImageSource = { src: '/foulards/foulard-marjo-bleu.avif', alt: foulard.title }
-    const firstColor = Object.values(foulard.colors)[0]
-    if (firstColor) {
-      const firstMaterial = Object.values(firstColor.materials)[0]
-      if (firstMaterial && firstMaterial.images && firstMaterial.images.length > 0) {
-        baseImage = firstMaterial.images[0]
-      }
-    }
-
-    return {
-      slug: foulard.slug,
-      title: foulard.title,
-      description: foulard.description,
-      colors,
-      sizes: foulard.sizes,
-      materials,
-      baseImage,
-    }
-  })
+  return rawFoulards.value.map(foulard => ({
+    title: foulard.title,
+    description: foulard.description,
+    colors: Object.values(foulard.colors),
+    sizes: foulard.sizes
+  }))
 })
 
 // SEO
