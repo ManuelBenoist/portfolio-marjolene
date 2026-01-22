@@ -3,6 +3,7 @@
     <FoulardCard
       v-for="item in items"
       :key="item.slug || item.title"
+      :slug="item.slug"
       :title="item.title"
       :description="item.description"
       :colors="item.colors"

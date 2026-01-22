@@ -252,17 +252,34 @@ const materialOptions = computed(() => {
   return color ? Object.values(color.materials).map(({ id, label }) => ({ id, label })) : []
 })
 
-// Initialisation des sélections
+// Initialisation des sélections (priorité aux query params)
 watch(
   () => foulard.value,
   (newFoulard) => {
     if (newFoulard) {
       const colorIds = Object.keys(newFoulard.colors)
-      selectedColorId.value = colorIds[0] ?? null
-      const firstColor = colorIds[0] ? newFoulard.colors[colorIds[0]] : null
-      const materialIds = firstColor ? Object.keys(firstColor.materials) : []
-      selectedMaterialId.value = materialIds[0] ?? null
-      selectedSizeId.value = newFoulard.sizes[0]?.id ?? null
+      const queryColor = route.query.color as string | undefined
+      const queryMaterial = route.query.material as string | undefined
+      const querySize = route.query.size as string | undefined
+
+      // Couleur : utiliser query param si valide, sinon première couleur
+      selectedColorId.value = (queryColor && colorIds.includes(queryColor))
+        ? queryColor
+        : (colorIds[0] ?? null)
+
+      // Matière : utiliser query param si valide pour la couleur sélectionnée
+      const selectedColor = selectedColorId.value ? newFoulard.colors[selectedColorId.value] : null
+      const materialIds = selectedColor ? Object.keys(selectedColor.materials) : []
+      selectedMaterialId.value = (queryMaterial && materialIds.includes(queryMaterial))
+        ? queryMaterial
+        : (materialIds[0] ?? null)
+
+      // Taille : utiliser query param si valide
+      const sizeIds = newFoulard.sizes.map(s => s.id)
+      selectedSizeId.value = (querySize && sizeIds.includes(querySize))
+        ? querySize
+        : (newFoulard.sizes[0]?.id ?? null)
+
       activeImageIndex.value = 0
     }
   },

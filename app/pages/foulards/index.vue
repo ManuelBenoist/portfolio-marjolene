@@ -86,10 +86,11 @@ interface RawFoulard {
   colors: Record<string, RawColor>
 }
 
-// Pour FoulardGrid : on passe un tableau d'objets {title, description, colors, sizes}
+// Pour FoulardGrid : on passe un tableau d'objets {slug, title, description, colors, sizes}
 const foulardsForGrid = computed(() => {
   if (!rawFoulards.value) return []
   return rawFoulards.value.map(foulard => ({
+    slug: foulard.slug,
     title: foulard.title,
     description: foulard.description,
     colors: Object.values(foulard.colors),

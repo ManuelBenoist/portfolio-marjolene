@@ -1,5 +1,8 @@
 <template>
-  <article class="bg-white rounded-2xl shadow-sm overflow-hidden w-full max-w-[420px]">
+  <article
+    class="bg-white rounded-2xl shadow-sm overflow-hidden w-full max-w-[420px] cursor-pointer transition-shadow hover:shadow-md"
+    @click="navigateToDetail"
+  >
     
     <!-- IMAGE -->
     <div class="aspect-square w-full overflow-hidden bg-[#F8F6F2]">
@@ -26,7 +29,7 @@
       </p>
 
       <!-- COLOR -->
-      <div class="mb-5">
+      <div class="mb-5" @click.stop>
         <div class="text-xs uppercase tracking-wider text-[#4A5565] mb-2">
           Couleur :
           <span class="font-semibold">{{ currentColor?.label }}</span>
@@ -39,7 +42,7 @@
       </div>
 
       <!-- MATERIAL -->
-      <div class="mb-5">
+      <div class="mb-5" @click.stop>
         <div class="text-xs uppercase tracking-wider text-[#4A5565] mb-2">
           Matière :
           <span class="font-semibold">{{ currentMaterial?.label }}</span>
@@ -52,7 +55,7 @@
       </div>
 
       <!-- SIZES -->
-      <div>
+      <div @click.stop>
         <div class="text-xs uppercase tracking-wider text-[#4A5565] mb-2">
           Tailles :
         </div>
@@ -160,4 +163,20 @@ const currentMaterial = computed(() => {
 const currentImage = computed(() => {
   return currentMaterial.value?.images?.[0] ?? null
 })
+
+/* ----------------------------------
+   NAVIGATION
+---------------------------------- */
+
+function navigateToDetail() {
+  if (!props.slug) return
+  navigateTo({
+    path: `/foulards/${props.slug}`,
+    query: {
+      color: selectedColor.value ?? undefined,
+      material: selectedMaterial.value ?? undefined,
+      size: selectedSize.value ?? undefined
+    }
+  })
+}
 </script>
