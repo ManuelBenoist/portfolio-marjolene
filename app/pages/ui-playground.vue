@@ -158,6 +158,40 @@
       <Timeline />
     </section>
 
+    <section class="mb-8 section-demo">
+      <h2 class="text-2xl font-heading mb-4">Activities Section - Image Right</h2>
+      <ActivitiesSection
+        title="Stages"
+        description="Cours de peinture et stages d'initiation aux techniques acrylique, huile et aquarelle."
+        :items="[
+          'À la demande, individues ou collectifs (max 8 pers)',
+          'Organisés dans l\'atelier à Roussillon',
+          'Pour enfants et adultes',
+          'Possibilité de peindre sur le motif (en extérieur)'
+        ]"
+        imageSrc="/peintures/marjo-peinture-1.avif"
+        imageAlt="Atelier de peinture avec chevalet et peintures"
+        position="right"
+        :to="{ name: 'index' }"
+      />
+    </section>
+
+    <section class="mb-8 section-demo">
+      <h2 class="text-2xl font-heading mb-4">Activities Section - Image Left</h2>
+      <ActivitiesSection
+        title="Design textile"
+        description="Dans le cadre de sa participation au salon Première Vision 2015 à Paris, Marjolène propose également des imprimés."
+        :items="[
+          'Création manuelle (aquarelle, crayon, collage) puis traitement Photoshop si nécessaire',
+          'Designs variés : florales, géométriques...',
+          'Commandes possibles'
+        ]"
+        imageSrc="/foulards/foulard-marjo-bleu.avif"
+        imageAlt="Design textile avec motifs rouges et oranges"
+        position="left"
+        :to="{ name: 'index' }"
+      />
+    </section>
 
     
   </div>
@@ -188,6 +222,7 @@ import TitleImageContent from "../components/TitleImageContent.vue"
 import FoulardCard from "../components/FoulardCard.vue"
 import FilterItem from "~/components/FilterItem.vue"
 import Timeline from '~/components/timeline/Timeline.vue'
+import ActivitiesSection from '~/components/ActivitiesSection.vue'
 
 const filterSelected = ref('all')
 </script>
