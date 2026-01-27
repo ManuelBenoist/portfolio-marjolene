@@ -3,11 +3,11 @@
     <div class="w-full flex justify-end pt-4 pb-4 sm:pt-8 sm:pb-10">
       <NuxtLink
         class="flex items-center gap-2 text-xs font-medium uppercase tracking-[0.35em] text-gray-text transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
-        to="/peintures"
-        aria-label="Retour aux œuvres"
+        :to="localePath('/peintures')"
+        :aria-label="$t('common.back')"
       >
         <iconify-icon icon="mdi:close" class="text-3xl"></iconify-icon>
-        <span class="sm:inline text-gray-text font-medium">Retour aux œuvres</span>
+        <span class="sm:inline text-gray-text font-medium">{{ $t('peintures.backToGallery') || 'Retour aux œuvres' }}</span>
       </NuxtLink>
     </div>
 
@@ -38,11 +38,11 @@
 
             <dl class="space-y-4 text-base">
               <div class="flex items-baseline justify-between border-b border-stroke pb-3">
-                <dt class="font-medium text-gray-text">Dimensions</dt>
+                <dt class="font-medium text-gray-text">{{ $t('peintures.dimensions') }}</dt>
                 <dd class="font-medium">{{ painting.dimensions }}</dd>
               </div>
               <div class="flex items-baseline justify-between border-b border-stroke pb-3">
-                <dt class="font-medium text-gray-text">Technique</dt>
+                <dt class="font-medium text-gray-text">{{ $t('peintures.technique') }}</dt>
                 <dd class="font-medium">{{ painting.technique }}</dd>
               </div>
             </dl>
@@ -52,7 +52,7 @@
             </p>
 
             <div>
-              <p class="text-sm font-medium text-primary/70">Vous avez une question&nbsp;?</p>
+              <p class="text-sm font-medium text-primary/70">{{ $t('common.haveQuestion') }}</p>
               <ContactButton
                 :to="contactLink"
               />
@@ -64,14 +64,14 @@
           v-else-if="pending"
           class="flex flex-1 items-center justify-center text-sm text-gray-text"
         >
-          Chargement de l'œuvre…
+          {{ $t('common.loading') || 'Chargement…' }}
         </div>
 
         <div
           v-else
           class="flex flex-1 items-center justify-center text-center"
         >
-          <p class="text-lg text-primary font-medium">Peinture introuvable.</p>
+          <p class="text-lg text-primary font-medium">{{ $t('peintures.notFound') || 'Peinture introuvable.' }}</p>
         </div>
       </Transition>
 
@@ -82,13 +82,13 @@
         <NuxtLink
           v-if="previousPainting"
           class="group flex items-center gap-3 font-bold tracking-[0.35em] text-gray-text transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
-          :to="`/peintures/${previousPainting.slug}`"
-          :aria-label="`Voir la peinture précédente : ${previousPainting.title}`"
+          :to="localePath(`/peintures/${previousPainting.slug}`)"
+          :aria-label="$t('common.previous') + ': ' + previousPainting.title"
           @click.native="scrollToTop"
         >
           <iconify-icon icon="mdi:chevron-left" class="text-3xl"></iconify-icon>
           <div class="flex flex-col gap-1 tracking-normal">
-            <span class="text-[11px] font-bold uppercase tracking-[0.35em] text-gray-text">Peinture précédente</span>
+            <span class="text-[11px] font-bold uppercase tracking-[0.35em] text-gray-text">{{ $t('peintures.previousPainting') || 'Peinture précédente' }}</span>
             <span class="text-base capitalize text-primary">
               {{ previousPainting.title }}
             </span>
@@ -100,18 +100,18 @@
           aria-disabled="true"
         >
           <iconify-icon icon="mdi:chevron-left" class="text-3xl"></iconify-icon>
-          <span class="text-[11px] uppercase tracking-[0.35em]">Début de la collection</span>
+          <span class="text-[11px] uppercase tracking-[0.35em]">{{ $t('peintures.startCollection') || 'Début de la collection' }}</span>
         </span>
 
         <NuxtLink
           v-if="nextPainting"
           class="group flex items-center gap-3 font-bold tracking-[0.35em] text-gray-text transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
-          :to="`/peintures/${nextPainting.slug}`"
-          :aria-label="`Voir la peinture suivante : ${nextPainting.title}`"
+          :to="localePath(`/peintures/${nextPainting.slug}`)"
+          :aria-label="$t('common.next') + ': ' + nextPainting.title"
           @click.native="scrollToTop"
         >
           <div class="flex flex-col gap-1 tracking-normal text-right">
-            <span class="text-[11px] font-bold uppercase tracking-[0.35em] text-gray-text">Peinture suivante</span>
+            <span class="text-[11px] font-bold uppercase tracking-[0.35em] text-gray-text">{{ $t('peintures.nextPainting') || 'Peinture suivante' }}</span>
             <span class="text-base capitalize text-primary">
               {{ nextPainting.title }}
             </span>
@@ -123,7 +123,7 @@
           class="flex items-center gap-3 text-gray-text/30"
           aria-disabled="true"
         >
-          <span class="text-[11px] uppercase tracking-[0.35em]">Fin de la collection</span>
+          <span class="text-[11px] uppercase tracking-[0.35em]">{{ $t('peintures.endCollection') || 'Fin de la collection' }}</span>
           <iconify-icon icon="mdi:chevron-right" class="text-3xl"></iconify-icon>
         </span>
       </nav>
@@ -134,15 +134,8 @@
 <script setup lang="ts">
 definePageMeta({ layout: 'gallery' })
 
-// import { onMounted, onUnmounted } from 'vue'
-// onMounted(() => {
-//   document.body.classList.add('overflow-hidden')
-// })
-// onUnmounted(() => {
-//   document.body.classList.remove('overflow-hidden')
-// })
-// import type { ComputedRef } from 'vue'
-
+const { t } = useI18n()
+const localePath = useLocalePath()
 const route = useRoute()
 
 // Typed structure expected from content/peintures.json
@@ -157,10 +150,7 @@ interface Painting {
   metaDescription?: string
 }
 
-const { data: paintingsData, pending } = await useAsyncData<Painting[]>(
-  'peintures-page',
-  () => $fetch('/content/peintures.json')
-)
+const { data: paintingsData, pending } = await useLocalizedContent<Painting[]>('peintures')
 
 const paintings = computed(() => paintingsData.value ?? [])
 const currentIndex = computed(() =>
@@ -184,9 +174,9 @@ const nextPainting = computed(() =>
 )
 
 const contactLink = computed(() => {
-  if (!painting.value) return { path: '/contact' }
+  if (!painting.value) return { path: localePath('/contact') }
   return {
-    path: '/contact',
+    path: localePath('/contact'),
     query: {
       oeuvre: painting.value.title,
       technique: painting.value.technique,

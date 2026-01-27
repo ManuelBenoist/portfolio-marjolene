@@ -4,8 +4,8 @@
       <div class="max-w-[72rem] mx-auto">
         <!-- Section Title -->
         <SectionTitle
-          title="L'Artiste"
-          subtitle="Découvrez le parcours et la passion de Marjolène Lasne, peintre française inspirée par la lumière méditerranéenne et la beauté du Sud de la France."
+          :title="$t('artiste.pageTitle')"
+          :subtitle="$t('artiste.pageSubtitle')"
         />
 
         <!-- Divider -->
@@ -26,7 +26,7 @@
         <!-- Timeline Section -->
         <div class="w-screen relative left-1/2 right-1/2 -mx-[50vw] bg-[#C94E54]/[0.04] py-16 px-8 mb-16">
           <div class="max-w-7xl mx-auto">
-            <h2 class="text-[2.5rem] font-['Averia_Serif_Libre'] font-light text-[#C94E54] mb-8">Parcours et formation</h2>
+            <h2 class="text-[2.5rem] font-['Averia_Serif_Libre'] font-light text-[#C94E54] mb-8">{{ $t('artiste.parcours') }}</h2>
             <Timeline />
           </div>
         </div>
@@ -74,10 +74,7 @@ interface ArtisteContent {
   studio: StudioSection
 }
 
-const { data: artisteContent } = await useAsyncData<ArtisteContent>(
-  'artiste-content',
-  () => $fetch('/content/artiste.json')
-)
+const { data: artisteContent } = await useLocalizedContent<ArtisteContent>('artiste')
 </script>
 
 <style scoped>

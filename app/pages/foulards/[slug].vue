@@ -4,11 +4,11 @@
     <div class="w-full px-6 sm:px-12 md:px-24 pt-6 pb-6">
       <NuxtLink
         class="inline-flex items-center gap-2 text-sm font-medium uppercase font-['Montserrat'] text-[rgb(74,85,101)] transition-colors hover:text-[#C94E54] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54] focus-visible:ring-offset-2"
-        to="/foulards"
-        aria-label="Retour aux foulards"
+        :to="localePath('/foulards')"
+        :aria-label="$t('foulards.backToGallery')"
       >
         <iconify-icon icon="mdi:arrow-left" class="text-xl"></iconify-icon>
-        <span>Retour aux foulards</span>
+        <span>{{ $t('foulards.backToGallery') }}</span>
       </NuxtLink>
     </div>
 
@@ -79,7 +79,7 @@
             <!-- Color Selection -->
             <section class="flex flex-col gap-2">
               <div class="text-sm font-medium text-[#4A5565]">
-                Couleur : 
+                {{ $t('foulards.color') }} : 
                 <span class="font-semibold text-[#2E3D8B]">{{ activeColor?.label || '—' }}</span>
               </div>
               <ColorSwatch v-model="selectedColorId" :options="colorOptions" />
@@ -88,7 +88,7 @@
             <!-- Material Selection -->
             <section class="flex flex-col gap-2">
               <div class="text-sm font-medium text-[#4A5565]">
-                Matière : 
+                {{ $t('foulards.material') }} : 
                 <span class="font-semibold text-[#2E3D8B]">{{ activeMaterial?.label || '—' }}</span>
               </div>
               <MaterialBadge v-model="selectedMaterialId" :options="materialOptions" />
@@ -97,7 +97,7 @@
             <!-- Size Selection -->
             <section class="flex flex-col gap-2">
               <div class="text-sm font-medium text-[#4A5565]">
-                Taille : 
+                {{ $t('foulards.size') }} : 
                 <span class="font-semibold text-[#2E3D8B]">{{ activeSize?.label || '—' }}</span>
               </div>
               <SizeList v-model="selectedSizeId" :sizes="foulard.sizes" />
@@ -109,15 +109,15 @@
             <!-- Selection Summary -->
             <dl class="space-y-3 text-sm">
               <div class="flex items-baseline justify-between">
-                <dt class="text-[#4A5565]">Couleur</dt>
+                <dt class="text-[#4A5565]">{{ $t('foulards.color') }}</dt>
                 <dd class="font-medium text-[#2E3D8B]">{{ activeColor?.label || '—' }}</dd>
               </div>
               <div class="flex items-baseline justify-between">
-                <dt class="text-[#4A5565]">Matière</dt>
+                <dt class="text-[#4A5565]">{{ $t('foulards.material') }}</dt>
                 <dd class="font-medium text-[#2E3D8B]">{{ activeMaterial?.label || '—' }}</dd>
               </div>
               <div class="flex items-baseline justify-between">
-                <dt class="text-[#4A5565]">Taille</dt>
+                <dt class="text-[#4A5565]">{{ $t('foulards.size') }}</dt>
                 <dd class="font-medium text-[#2E3D8B]">{{ activeSize?.label || '—' }}</dd>
               </div>
             </dl>
@@ -125,8 +125,8 @@
             <!-- CTA Button -->
             <ContactButton
               :to="contactLink"
-              label="Contacter l'artiste"
-              aria-label="Contacter l'artiste pour ce foulard"
+              :label="$t('common.contactArtist')"
+              :aria-label="$t('common.contactArtist')"
               class="w-full justify-center"
             />
 
@@ -148,7 +148,7 @@
           v-else-if="pending"
           class="flex min-h-[50vh] items-center justify-center"
         >
-          <p class="text-sm text-[#4A5565]">Chargement du foulard…</p>
+          <p class="text-sm text-[#4A5565]">{{ $t('common.loading') }}</p>
         </div>
 
         <!-- Not Found State -->
@@ -156,12 +156,12 @@
           v-else
           class="flex min-h-[50vh] flex-col items-center justify-center gap-4"
         >
-          <p class="text-lg font-medium text-[#2E3D8B]">Foulard introuvable.</p>
+          <p class="text-lg font-medium text-[#2E3D8B]">{{ $t('foulards.notFound') || 'Foulard introuvable.' }}</p>
           <NuxtLink
-            to="/foulards"
+            :to="localePath('/foulards')"
             class="text-sm text-[#C94E54] underline hover:no-underline"
           >
-            Retour à la collection
+            {{ $t('foulards.backToCollection') || 'Retour à la collection' }}
           </NuxtLink>
         </div>
       </Transition>
@@ -187,6 +187,9 @@ import ContactButton from '~/components/ContactButton.vue'
 import ImageLightbox from '~/components/ImageLightbox.vue'
 
 definePageMeta({ layout: 'wide' })
+
+const { t } = useI18n()
+const localePath = useLocalePath()
 
 // Types adaptés à la nouvelle structure
 interface ImageSource {
@@ -217,10 +220,7 @@ interface Foulard {
 // Route & Data Fetching
 const route = useRoute()
 
-const { data: foulardsData, pending } = await useAsyncData<Foulard[]>(
-  'foulards-detail',
-  () => $fetch('/content/foulards.json')
-)
+const { data: foulardsData, pending } = await useLocalizedContent<Foulard[]>('foulards')
 const foulards = computed(() => foulardsData.value ?? [])
 const foulard: ComputedRef<Foulard | null | undefined> = computed(() =>
   foulards.value.find((item) => item.slug === String(route.params.slug))
@@ -328,9 +328,9 @@ const activeImage = computed(() => activeImages.value[activeImageIndex.value] ??
 
 // Contact link with query params
 const contactLink = computed(() => {
-  if (!foulard.value) return { path: '/contact' }
+  if (!foulard.value) return { path: localePath('/contact') }
   return {
-    path: '/contact',
+    path: localePath('/contact'),
     query: {
       sujet: 'foulard',
       produit: foulard.value.title,

@@ -4,13 +4,13 @@
     <main class="flex-1 px-6 sm:px-12 md:px-24">
       <!-- Page Header -->
       <SectionTitle 
-        title="Peintures"
-        subtitle="Découvrez une sélection d'œuvres originales, inspirées par les paysages, l'ambiance des Terrasses et la Lumière du Sud"
+        :title="$t('peintures.pageTitle')"
+        :subtitle="$t('peintures.pageSubtitle')"
       />
 
       <!-- Loading state -->
       <div v-if="pending" class="text-center py-12">
-        <p class="text-[#4A5565]">Chargement des peintures...</p>
+        <p class="text-[#4A5565]">{{ $t('common.loading') || 'Chargement...' }}</p>
       </div>
 
       <!-- Filters Section -->
@@ -27,7 +27,7 @@
             <!-- Techniques Filter -->
             <Filter
               v-model="selectedTechnique"
-              title="Techniques"
+              :title="$t('peintures.filterTechnique')"
               :items="techniqueOptions"
             />
           </div>
@@ -45,7 +45,7 @@
         </div>
 
         <div v-else class="text-center py-12">
-          <p class="text-[#4A5565]">Aucune peinture ne correspond à votre sélection.</p>
+          <p class="text-[#4A5565]">{{ $t('peintures.noResults') || 'Aucune peinture ne correspond à votre sélection.' }}</p>
         </div>
       </template>
     </main>
@@ -62,6 +62,9 @@ import CardGrid from '~/components/CardGrid.vue'
 import PaintingCard from '~/components/PaintingCard.vue'
 import PaintingCardWrapper from '~/components/PaintingCardWrapper.vue'
 
+const { t } = useI18n()
+const localePath = useLocalePath()
+
 interface Painting {
   slug: string
   title: string
@@ -73,11 +76,8 @@ interface Painting {
   metaDescription?: string
 }
 
-// Fetch data
-const { data: paintings, pending } = await useAsyncData<Painting[]>(
-  'peintures-page',
-  () => $fetch('/content/peintures.json')
-)
+// Fetch data with locale awareness
+const { data: paintings, pending } = await useLocalizedContent<Painting[]>('peintures')
 
 // Filter state
 const selectedCollection = ref<string>('')
@@ -88,7 +88,7 @@ const collectionOptions = computed(() => {
   if (!paintings.value) return []
   const collections = [...new Set(paintings.value.map(p => p.collection))]
   const options = [
-    { label: 'Toutes', value: '' },
+    { label: t('peintures.filterAll'), value: '' },
     ...collections.map(col => ({
       label: col,
       value: col
@@ -102,7 +102,7 @@ const techniqueOptions = computed(() => {
   if (!paintings.value) return []
   const techniques = [...new Set(paintings.value.map(p => p.technique))]
   const options = [
-    { label: 'Toutes', value: '' },
+    { label: t('peintures.filterAll'), value: '' },
     ...techniques.map(tech => ({
       label: tech,
       value: tech
@@ -122,7 +122,7 @@ const filteredPaintings = computed(() => {
   }).map(painting => ({
     ...painting,
     component: PaintingCard,
-    to: `/peintures/${painting.slug}`
+    to: localePath(`/peintures/${painting.slug}`)
   }))
   
   return filtered

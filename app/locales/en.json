@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "artiste": "The Artist",
+    "peintures": "Paintings",
+    "foulards": "Scarves",
+    "autresActivites": "Other Activities",
+    "contact": "Contact",
+    "accueil": "Home"
+  },
+  "common": {
+    "contactArtist": "Contact the artist",
+    "haveQuestion": "Do you have a question?",
+    "back": "Back",
+    "previous": "Previous",
+    "next": "Next",
+    "seeMore": "See more",
+    "close": "Close",
+    "loading": "Loading..."
+  },
+  "home": {
+    "imageAlt": "Image for {item}"
+  },
+  "artiste": {
+    "pageTitle": "The Artist",
+    "pageSubtitle": "Discover the artistic universe of Marjolène Lasne",
+    "biographie": "Biography",
+    "parcours": "Career and Training",
+    "atelier": "Studio and Exhibition Space",
+    "collections": "Private Collections"
+  },
+  "peintures": {
+    "pageTitle": "Paintings",
+    "pageSubtitle": "Explore the painting collections of Marjolène Lasne",
+    "filterAll": "All",
+    "filterPaysages": "Landscapes",
+    "filterTerrasseMarches": "Terraces & Markets",
+    "filterScenesInterieur": "Interior Scenes",
+    "filterTechnique": "Technique",
+    "dimensions": "Dimensions",
+    "technique": "Technique",
+    "noResults": "No paintings match your selection.",
+    "backToGallery": "Back to works",
+    "notFound": "Painting not found.",
+    "previousPainting": "Previous painting",
+    "nextPainting": "Next painting",
+    "startCollection": "Start of collection",
+    "endCollection": "End of collection"
+  },
+  "foulards": {
+    "pageTitle": "Scarves",
+    "pageSubtitle": "Discover the silk scarves of Marjolène Lasne",
+    "colors": "Colors",
+    "color": "Color",
+    "materials": "Materials",
+    "material": "Material",
+    "sizes": "Sizes",
+    "size": "Size",
+    "soie": "Silk",
+    "soieCoton": "Silk & Cotton",
+    "modal": "Modal",
+    "care": "Care",
+    "inspiration": "Inspiration",
+    "noResults": "No scarves available at the moment.",
+    "backToGallery": "Back to scarves",
+    "notFound": "Scarf not found.",
+    "backToCollection": "Back to collection"
+  },
+  "activites": {
+    "pageTitle": "Other Activities",
+    "pageSubtitle": "Workshops, textile design, accommodation and studio visits",
+    "discoverAccommodations": "Discover accommodations"
+  },
+  "contact": {
+    "pageTitle": "Contact",
+    "pageSubtitle": "Get in touch with Marjolène Lasne",
+    "formName": "Full name",
+    "formEmail": "Email",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formSend": "Send",
+    "subjectGeneral": "General inquiry",
+    "subjectPeinture": "About a painting",
+    "subjectFoulard": "About a scarf",
+    "subjectStage": "Workshop / Studio",
+    "subjectAutre": "Other",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "successMessage": "Your message has been sent successfully. Thank you!",
+    "errorMessage": "An error occurred. Please try again."
+  },
+  "footer": {
+    "aboutArtist": "About the Artist",
+    "description": "Painter based in Provence, specializing in Mediterranean landscapes and the light of the South.",
+    "navigation": "Navigation",
+    "contactInfo": "Contact",
+    "followUs": "Follow me",
+    "legalMentions": "Legal Mentions",
+    "privacyPolicy": "Privacy Policy",
+    "allRightsReserved": "All rights reserved.",
+    "studioLocation": "Studio in Provence",
+    "visitsByAppointment": "Visits by appointment"
+  },
+  "timeline": {
+    "expositionsPersonnelles": "Solo Exhibitions",
+    "salons": "Art Fairs",
+    "prix": "Awards and Honors",
+    "loading": "Timeline in preparation.",
+    "noData": "No data for this period."
+  },
+  "accessibility": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "languageSwitcher": "Language selector"
+  }
+}

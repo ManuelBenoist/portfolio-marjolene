@@ -4,8 +4,8 @@
       <div class="max-w-[72rem] mx-auto">
         <!-- Section Title -->
         <SectionTitle 
-          title="Autres activités" 
-          subtitle="Pour aller au-delà de la peinture, Marjolène vous propose diverses activités et services"
+          :title="$t('activites.pageTitle')" 
+          :subtitle="$t('activites.pageSubtitle')"
         />
         
         <!-- Separator Line -->
@@ -35,6 +35,9 @@
 <script setup lang="ts">
 import type { RouteLocationRaw } from 'vue-router'
 
+const { t } = useI18n()
+const localePath = useLocalePath()
+
 interface Activity {
   id: string
   title: string
@@ -47,12 +50,19 @@ interface Activity {
 
 const activities = ref<Activity[]>([])
 
-// Fetch activities data
-const { data: activitiesData } = await useFetch('/content/activites.json')
+// Fetch activities data with locale awareness
+const { data: activitiesData } = await useLocalizedContent<Activity[]>('activites')
 
 if (activitiesData.value) {
   activities.value = activitiesData.value as Activity[]
 }
+
+// Watch for locale changes
+watch(activitiesData, (newData) => {
+  if (newData) {
+    activities.value = newData as Activity[]
+  }
+})
 
 // Routing logic based on activity type
 const getRouteTo = (activityId: string): string | { path: string; query?: Record<string, string> } => {
@@ -62,7 +72,7 @@ const getRouteTo = (activityId: string): string | { path: string; query?: Record
   // Liens vers la page contact avec préremplissage selon l'activité
   const activity = activities.value.find(a => a.id === activityId)
   return {
-    path: '/contact',
+    path: localePath('/contact'),
     query: {
       sujet: 'activite',
       activite: activity?.title || activityId
@@ -73,8 +83,8 @@ const getRouteTo = (activityId: string): string | { path: string; query?: Record
 // Button label logic
 const getButtonLabel = (activityId: string): string => {
   if (activityId === 'gites') {
-    return 'Découvrir les logements'
+    return t('activites.discoverAccommodations') || 'Découvrir les logements'
   }
-  return 'Contacter l\'artiste'
+  return t('common.contactArtist')
 }
 </script>

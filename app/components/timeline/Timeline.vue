@@ -10,7 +10,7 @@
     />
 
     <p v-else class="text-center text-sm text-[#4A5565]/70">
-      Chronologie en cours de préparation.
+      {{ $t('timeline.loading') || 'Chronologie en cours de préparation.' }}
     </p>
 
     <div v-if="hasEntries" class="w-full flex justify-center">
@@ -21,15 +21,12 @@
 
 <script lang="ts" setup>
 
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 import TimelineBar from './TimelineBar.vue'
 import TimelineContent from './TimelineContent.vue'
 
 
-const { data: entriesData, pending, error } = await useAsyncData<TimelineEntry[]>(
-  'timeline-frise',
-  () => $fetch('/content/frise.json')
-)
+const { data: entriesData, pending, error } = await useLocalizedContent<TimelineEntry[]>('frise')
 
 const entries = computed(() => entriesData.value || [])
 

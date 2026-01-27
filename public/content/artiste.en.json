@@ -1,0 +1,25 @@
+{
+  "biography": {
+    "title": "Biography",
+    "image": "/Marjolène-Lasne.png",
+    "caption": "Marjolène Lasne, her brushes and easel",
+    "position": "left",
+    "paragraphs": [
+      "Marjolène Lasne is a French painter based in Provence. Her work, deeply rooted in Mediterranean light, explores landscapes, terraces, and interior scenes with a unique sensitivity.",
+      "Trained at the Beaux-Arts de Paris, she quickly developed a personal style characterized by luminous compositions and warm color palettes inspired by the South of France. Her work has been exhibited in numerous galleries in France and internationally.",
+      "She now divides her time between creating, teaching, and artistic residencies. Passionate about sharing her art, Marjolène regularly conducts workshops and supports emerging artists in their artistic development."
+    ]
+  },
+  "studio": {
+    "title": "Studio and Exhibition Space",
+    "image": "/peintures/marjo-peinture-1.avif",
+    "caption": "Marjolène's studio in Roussillon",
+    "position": "right",
+    "paragraphs": [
+      "Marjolène's studio is located in the heart of Roussillon, in Provence, in a former ochre quarry transformed into a vibrant creative space. This is where her artistic universe takes shape, cradled by Mediterranean colors and landscapes.",
+      "This space regularly welcomes visitors interested in her creative process. Marjolène organizes private visits and workshops where she shares her passion for painting and color.",
+      "Featuring a large workspace with exceptional natural light, the studio is also a meeting place for artists. Marjolène hosts regular workshops, artistic residencies, and temporary exhibitions.",
+      "For visits or information about workshops, please contact her via the Contact page or directly at [email address]."
+    ]
+  }
+}

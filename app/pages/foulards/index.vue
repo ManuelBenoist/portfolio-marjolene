@@ -4,8 +4,8 @@
     <main class="flex-1 px-6 sm:px-12 md:px-24">
       <!-- Page Header -->
       <SectionTitle 
-        title="Foulards"
-        subtitle="Découvrez une collection de foulards en soie, inspirés par les couleurs et motifs de Provence"
+        :title="$t('foulards.pageTitle')"
+        :subtitle="$t('foulards.pageSubtitle')"
       />
 
       <!-- Separator -->
@@ -13,7 +13,7 @@
 
       <!-- Loading state -->
       <div v-if="pending" class="text-center py-12">
-        <p class="text-[#4A5565]">Chargement des foulards...</p>
+        <p class="text-[#4A5565]">{{ $t('common.loading') || 'Chargement...' }}</p>
       </div>
 
       <!-- Gallery -->
@@ -23,7 +23,7 @@
         </div>
 
         <div v-else class="text-center py-12">
-          <p class="text-[#4A5565]">Aucun foulard disponible pour le moment.</p>
+          <p class="text-[#4A5565]">{{ $t('foulards.noResults') || 'Aucun foulard disponible pour le moment.' }}</p>
         </div>
       </template>
     </main>
@@ -31,11 +31,9 @@
 </template>
 
 <script setup lang="ts">
-// Fetch raw data
-const { data: rawFoulards, pending } = await useAsyncData<RawFoulard[]>(
-  'foulards-page',
-  () => $fetch('/content/foulards.json')
-)
+// Fetch raw data with locale awareness
+const { data: rawFoulards, pending } = await useLocalizedContent<RawFoulard[]>('foulards')
+
 import { computed } from 'vue'
 
 definePageMeta({ layout: 'grid' })

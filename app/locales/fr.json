@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "artiste": "L'Artiste",
+    "peintures": "Peintures",
+    "foulards": "Foulards",
+    "autresActivites": "Autres activités",
+    "contact": "Contact",
+    "accueil": "Accueil"
+  },
+  "common": {
+    "contactArtist": "Contacter l'artiste",
+    "haveQuestion": "Vous avez une question ?",
+    "back": "Retour",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "seeMore": "Voir plus",
+    "close": "Fermer",
+    "loading": "Chargement..."
+  },
+  "home": {
+    "imageAlt": "Image pour {item}"
+  },
+  "artiste": {
+    "pageTitle": "L'Artiste",
+    "pageSubtitle": "Découvrez l'univers artistique de Marjolène Lasne",
+    "biographie": "Biographie",
+    "parcours": "Parcours et formation",
+    "atelier": "Atelier et lieu d'exposition",
+    "collections": "Collections privées"
+  },
+  "peintures": {
+    "pageTitle": "Peintures",
+    "pageSubtitle": "Explorez les collections de peintures de Marjolène Lasne",
+    "filterAll": "Toutes",
+    "filterPaysages": "Paysages",
+    "filterTerrasseMarches": "Terrasses & Marchés",
+    "filterScenesInterieur": "Scènes d'intérieur",
+    "filterTechnique": "Technique",
+    "dimensions": "Dimensions",
+    "technique": "Technique",
+    "noResults": "Aucune peinture ne correspond à votre sélection.",
+    "backToGallery": "Retour aux œuvres",
+    "notFound": "Peinture introuvable.",
+    "previousPainting": "Peinture précédente",
+    "nextPainting": "Peinture suivante",
+    "startCollection": "Début de la collection",
+    "endCollection": "Fin de la collection"
+  },
+  "foulards": {
+    "pageTitle": "Foulards",
+    "pageSubtitle": "Découvrez les foulards en soie de Marjolène Lasne",
+    "colors": "Couleurs",
+    "color": "Couleur",
+    "materials": "Matières",
+    "material": "Matière",
+    "sizes": "Tailles",
+    "size": "Taille",
+    "soie": "Soie",
+    "soieCoton": "Soie & Coton",
+    "modal": "Modal",
+    "care": "Entretien",
+    "inspiration": "Inspiration",
+    "noResults": "Aucun foulard disponible pour le moment.",
+    "backToGallery": "Retour aux foulards",
+    "notFound": "Foulard introuvable.",
+    "backToCollection": "Retour à la collection"
+  },
+  "activites": {
+    "pageTitle": "Autres activités",
+    "pageSubtitle": "Stages, design textile, hébergement et visites d'atelier",
+    "discoverAccommodations": "Découvrir les logements"
+  },
+  "contact": {
+    "pageTitle": "Contact",
+    "pageSubtitle": "Prenez contact avec Marjolène Lasne",
+    "formName": "Nom et prénom",
+    "formEmail": "Email",
+    "formSubject": "Sujet",
+    "formMessage": "Message",
+    "formSend": "Envoyer",
+    "subjectGeneral": "Question générale",
+    "subjectPeinture": "À propos d'une peinture",
+    "subjectFoulard": "À propos d'un foulard",
+    "subjectStage": "Stage / Atelier",
+    "subjectAutre": "Autre",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "email": "Email",
+    "successMessage": "Votre message a bien été envoyé. Merci !",
+    "errorMessage": "Une erreur est survenue. Veuillez réessayer."
+  },
+  "footer": {
+    "aboutArtist": "À propos de l'artiste",
+    "description": "Artiste peintre basée en Provence, spécialisée dans les paysages méditerranéens et la lumière du Sud.",
+    "navigation": "Navigation",
+    "contactInfo": "Contact",
+    "followUs": "Suivez-moi",
+    "legalMentions": "Mentions légales",
+    "privacyPolicy": "Politique de confidentialité",
+    "allRightsReserved": "Tous droits réservés.",
+    "studioLocation": "Atelier en Provence",
+    "visitsByAppointment": "Visites sur rendez-vous"
+  },
+  "timeline": {
+    "expositionsPersonnelles": "Expositions personnelles",
+    "salons": "Salons",
+    "prix": "Prix et distinctions",
+    "loading": "Chronologie en cours de préparation.",
+    "noData": "Aucune donnée pour cette période."
+  },
+  "accessibility": {
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "languageSwitcher": "Sélecteur de langue"
+  }
+}

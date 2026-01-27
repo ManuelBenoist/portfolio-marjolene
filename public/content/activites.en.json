@@ -1,0 +1,57 @@
+[
+  {
+    "id": "stages",
+    "title": "Workshops",
+    "description": "Painting courses and introductory workshops on acrylic, oil, and watercolor techniques",
+    "items": [
+      "On request, individual or group (max 8 people)",
+      "Organized in the studio in Roussillon",
+      "For children and adults",
+      "Possibility to paint on location (outdoors)"
+    ],
+    "imageSrc": "/peintures/marjo-peinture-1.avif",
+    "imageAlt": "Painting workshop with courses and introductions",
+    "position": "right"
+  },
+  {
+    "id": "design-textile",
+    "title": "Textile Design",
+    "description": "As part of her participation in the Première Vision 2015 show in Paris, Marjolène also offers prints",
+    "items": [
+      "Manual creation (watercolor, pencil, collage) then Photoshop processing",
+      "Various designs: floral, geometric",
+      "Custom orders available"
+    ],
+    "imageSrc": "/peintures/marjo-peinture-2.avif",
+    "imageAlt": "Textile design and prints by Marjolène",
+    "position": "left"
+  },
+  {
+    "id": "gites",
+    "title": "Holiday Rentals and B&B",
+    "description": "Discover a haven of peace in Roussillon, Provence. Warm holiday rentals and bed & breakfast for an unforgettable stay.",
+    "items": [
+      "Guest accommodation in Roussillon",
+      "Modern and tastefully elegant lodgings",
+      "Direct observation of Provence-south life possible",
+      "Local tastings to discover Provence"
+    ],
+    "imageSrc": "/peintures/marjo-peinture-2.avif",
+    "imageAlt": "Holiday rentals and B&B in Roussillon",
+    "position": "right"
+  },
+  {
+    "id": "commandes-visites",
+    "title": "Commissions and Studio Visits",
+    "description": "The artist offers watercolor commissions and custom visits. By appointment, you can meet the artist in her studio.",
+    "items": [
+      "Image reproduction in painting can be offered",
+      "Following landscapes, portraits, still lifes can be shown",
+      "Limited availability for in-person discussions",
+      "Upon request for an appointment"
+    ],
+    "imageSrc": "/peintures/marjo-peinture-4.avif",
+    "imageAlt": "Studio and painting commissions",
+    "position": "left"
+  }
+]

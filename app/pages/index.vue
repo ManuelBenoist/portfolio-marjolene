@@ -6,7 +6,7 @@
     <div class="flex flex-col items-center justify-center min-h-screen px-6 lg:hidden">
       <!-- Logo centré -->
       <div class="mb-12 mt-8">
-        <NuxtLink to="/" aria-label="Accueil">
+        <NuxtLink :to="localePath('/')" :aria-label="$t('nav.accueil')">
           <img 
             src="/logo.jpg" 
             alt="Marjolène Lasne" 
@@ -20,7 +20,7 @@
         <NuxtLink 
           v-for="item in menuItems" 
           :key="item.path"
-          :to="item.path"
+          :to="localePath(item.path)"
           class="font-heading text-4xl sm:text-5xl text-primary hover:text-accent transition-colors duration-150"
         >
           {{ item.label }}
@@ -41,7 +41,7 @@
       <div class="relative flex flex-col justify-center px-12 xl:px-20">
         <!-- Logo en haut à gauche -->
         <div class="absolute top-8 left-8 xl:left-12">
-          <NuxtLink to="/" aria-label="Accueil">
+          <NuxtLink :to="localePath('/')" :aria-label="$t('nav.accueil')">
             <img 
               src="/logo.jpg" 
               alt="Marjolène Lasne" 
@@ -60,7 +60,7 @@
           <NuxtLink 
             v-for="item in menuItems" 
             :key="item.path"
-            :to="item.path"
+            :to="localePath(item.path)"
               class="group font-heading text-5xl xl:text-6xl 2xl:text-7xl text-primary transition-all duration-150 hover:text-accent hover:scale-105 origin-right"
             @mouseenter="activeImage = item.image"
           >
@@ -88,42 +88,45 @@
 <script setup>
 definePageMeta({ layout: false })
 
-// Menu items avec leurs images associées
-const menuItems = [
+const { t } = useI18n()
+const localePath = useLocalePath()
+
+// Menu items avec leurs images associées (computed for reactivity on locale change)
+const menuItems = computed(() => [
   { 
-    label: "L'Artiste", 
+    label: t('nav.artiste'), 
     path: '/artiste', 
     image: '/peintures/marjo-peinture-1.avif' 
   },
   { 
-    label: 'Peintures', 
+    label: t('nav.peintures'), 
     path: '/peintures', 
     image: '/peintures/marjo-peinture-2.avif' 
   },
   { 
-    label: 'Foulards', 
+    label: t('nav.foulards'), 
     path: '/foulards', 
     image: '/foulards/foulard-marjo-bleu.avif' 
   },
   { 
-    label: 'Autres activités', 
+    label: t('nav.autresActivites'), 
     path: '/autres-activites', 
     image: '/peintures/marjo-peinture-4.avif' 
   },
   { 
-    label: 'Contact', 
+    label: t('nav.contact'), 
     path: '/contact', 
     image: '/peintures/marjo-peinture-5.avif' 
   },
-]
+])
 
 // Image active (par défaut: première image)
-const activeImage = ref(menuItems[0].image)
+const activeImage = ref('/peintures/marjo-peinture-1.avif')
 
 // Alt text dynamique basé sur l'image active
 const activeImageAlt = computed(() => {
-  const item = menuItems.find(i => i.image === activeImage.value)
-  return item ? `Image pour ${item.label}` : 'Œuvre de Marjolène Lasne'
+  const item = menuItems.value.find(i => i.image === activeImage.value)
+  return item ? t('home.imageAlt', { item: item.label }) : 'Œuvre de Marjolène Lasne'
 })
 </script>
 

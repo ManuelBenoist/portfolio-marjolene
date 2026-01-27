@@ -1,0 +1,298 @@
+[
+  {
+    "slug": "collection-jardin-secret",
+    "title": "Secret Garden Collection",
+    "description": "Delicate floral patterns inspired by Provençal gardens.",
+    "sizes": [
+      { "id": "70x70", "label": "70x70 cm" },
+      { "id": "90x90", "label": "90x90 cm" },
+      { "id": "140x140", "label": "140x140 cm" }
+    ],
+    "colors": {
+      "orange": {
+        "id": "orange",
+        "label": "Orange",
+        "hex": "#E8A54B",
+        "materials": {
+          "soie": {
+            "id": "soie",
+            "label": "Silk",
+            "images": [
+              { "src": "/foulards/jardin-secret/orange/soie-1.avif", "alt": "Secret Garden Orange Scarf in silk - main view" },
+              { "src": "/foulards/jardin-secret/orange/soie-2.avif", "alt": "Secret Garden Orange Scarf in silk - worn" },
+              { "src": "/foulards/jardin-secret/orange/soie-3.avif", "alt": "Secret Garden Orange Scarf in silk - close-up" }
+            ]
+          },
+          "soie-coton": {
+            "id": "soie-coton",
+            "label": "Silk & Cotton",
+            "images": [
+              { "src": "/foulards/jardin-secret/orange/soie-coton-1.avif", "alt": "Secret Garden Orange Scarf in silk & cotton" }
+            ]
+          }
+        }
+      },
+      "rose": {
+        "id": "rose",
+        "label": "Pink",
+        "hex": "#E8B4B8",
+        "materials": {
+          "soie": {
+            "id": "soie",
+            "label": "Silk",
+            "images": [
+              { "src": "/foulards/jardin-secret/rose/soie-1.avif", "alt": "Secret Garden Pink Scarf in silk" }
+            ]
+          }
+        }
+      },
+      "vert": {
+        "id": "vert",
+        "label": "Green",
+        "hex": "#4A7C59",
+        "materials": {
+          "modal": {
+            "id": "modal",
+            "label": "Modal",
+            "images": [
+              { "src": "/foulards/jardin-secret/vert/modal-1.avif", "alt": "Secret Garden Green Scarf in modal" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Unique piece made in France",
+      "Original design by the artist",
+      "Care: Dry cleaning recommended"
+    ],
+    "metaDescription": "Silk scarf Secret Garden by Marjolène Lasne, floral patterns inspired by Provence."
+  },
+  {
+    "slug": "collection-orange-sanguine",
+    "title": "Blood Orange Collection",
+    "description": "The vibrant colors of the Mediterranean coast captured on silk.",
+    "sizes": [
+      { "id": "90x90", "label": "90x90 cm" },
+      { "id": "140x140", "label": "140x140 cm" }
+    ],
+    "colors": {
+      "bleu": {
+        "id": "bleu",
+        "label": "Azure Blue",
+        "hex": "#2E5A8B",
+        "materials": {
+          "soie": {
+            "id": "soie",
+            "label": "Silk",
+            "images": [
+              { "src": "/foulards/mediterranee/bleu/soie-1.avif", "alt": "Mediterranean Azure Blue Scarf in silk - main view" }
+            ]
+          }
+        }
+      },
+      "turquoise": {
+        "id": "turquoise",
+        "label": "Turquoise",
+        "hex": "#40B5AD",
+        "materials": {
+          "modal": {
+            "id": "modal",
+            "label": "Modal",
+            "images": [
+              { "src": "/foulards/mediterranee/turquoise/modal-1.avif", "alt": "Mediterranean Turquoise Scarf in modal" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Unique piece made in France",
+      "Original design by the artist",
+      "Care: Dry cleaning recommended"
+    ],
+    "metaDescription": "Silk scarf Mediterranean by Marjolène Lasne, colors of the Azure coast."
+  },
+  {
+    "slug": "collection-mediterranee",
+    "title": "Mediterranean Collection",
+    "description": "The vibrant colors of the Mediterranean coast captured on silk.",
+    "sizes": [
+      { "id": "90x90", "label": "90x90 cm" },
+      { "id": "140x140", "label": "140x140 cm" }
+    ],
+    "colors": {
+      "bleu": {
+        "id": "bleu",
+        "label": "Azure Blue",
+        "hex": "#2E5A8B",
+        "materials": {
+          "soie": {
+            "id": "soie",
+            "label": "Silk",
+            "images": [
+              { "src": "/foulards/mediterranee/bleu/soie-1.avif", "alt": "Mediterranean Azure Blue Scarf in silk - main view" }
+            ]
+          }
+        }
+      },
+      "turquoise": {
+        "id": "turquoise",
+        "label": "Turquoise",
+        "hex": "#40B5AD",
+        "materials": {
+          "modal": {
+            "id": "modal",
+            "label": "Modal",
+            "images": [
+              { "src": "/foulards/mediterranee/turquoise/modal-1.avif", "alt": "Mediterranean Turquoise Scarf in modal" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Unique piece made in France",
+      "Original design by the artist",
+      "Care: Dry cleaning recommended"
+    ],
+    "metaDescription": "Silk scarf Mediterranean by Marjolène Lasne, colors of the Azure coast."
+  },
+  {
+    "slug": "foulard-une-couleur-une-matiere",
+    "title": "Unique Scarf",
+    "description": "A scarf with a single color and a single material.",
+    "sizes": [
+      { "id": "50x50", "label": "50x50 cm" }
+    ],
+    "colors": {
+      "noir": {
+        "id": "noir",
+        "label": "Deep Black",
+        "hex": "#000000",
+        "materials": {
+          "laine": {
+            "id": "laine",
+            "label": "Wool",
+            "images": [
+              { "src": "/foulards/unique/noir/laine-1.avif", "alt": "Black wool scarf" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": ["Limited edition"],
+    "metaDescription": "Black wool scarf, limited edition."
+  },
+  {
+    "slug": "foulard-description-longue",
+    "title": "Long Description Scarf",
+    "description": "This scarf is an ode to creativity. It was designed to test the robustness of displaying very long descriptions in the user interface. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisi nec erat. Suspendisse potenti. Proin ac neque nec sapien cursus dictum. Etiam euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisi nec erat. Suspendisse potenti. Proin ac neque nec sapien cursus dictum.",
+    "sizes": [
+      { "id": "100x100", "label": "100x100 cm" },
+      { "id": "200x200", "label": "200x200 cm" }
+    ],
+    "colors": {
+      "arc-en-ciel": {
+        "id": "arc-en-ciel",
+        "label": "Rainbow",
+        "hex": "#FFFFFF",
+        "materials": {
+          "polyester": {
+            "id": "polyester",
+            "label": "Polyester",
+            "images": [
+              { "src": "/foulards/longdesc/arc-en-ciel/polyester-1.avif", "alt": "Rainbow polyester scarf" }
+            ]
+          },
+          "soie": {
+            "id": "soie",
+            "label": "Silk",
+            "images": [
+              { "src": "/foulards/longdesc/arc-en-ciel/soie-1.avif", "alt": "Rainbow silk scarf" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Long description test",
+      "Multiple sizes available",
+      "Multiple materials"
+    ],
+    "metaDescription": "Scarf with very long description for UI testing."
+  },
+  {
+    "slug": "foulard-multi-couleurs-multi-matieres",
+    "title": "Multi Colors & Materials Scarf",
+    "description": "Example with many colors and materials.",
+    "sizes": [
+      { "id": "30x30", "label": "30x30 cm" },
+      { "id": "60x60", "label": "60x60 cm" },
+      { "id": "120x120", "label": "120x120 cm" }
+    ],
+    "colors": {
+      "rouge": {
+        "id": "rouge",
+        "label": "Vivid Red",
+        "hex": "#FF0000",
+        "materials": {
+          "soie": {
+            "id": "soie",
+            "label": "Silk",
+            "images": [
+              { "src": "/foulards/multi/rouge/soie-1.avif", "alt": "Red silk scarf" }
+            ]
+          },
+          "coton": {
+            "id": "coton",
+            "label": "Cotton",
+            "images": [
+              { "src": "/foulards/multi/rouge/coton-1.avif", "alt": "Red cotton scarf" }
+            ]
+          }
+        }
+      },
+      "bleu": {
+        "id": "bleu",
+        "label": "Sky Blue",
+        "hex": "#00BFFF",
+        "materials": {
+          "laine": {
+            "id": "laine",
+            "label": "Wool",
+            "images": [
+              { "src": "/foulards/multi/bleu/laine-1.avif", "alt": "Blue wool scarf" }
+            ]
+          },
+          "soie": {
+            "id": "soie",
+            "label": "Silk",
+            "images": [
+              { "src": "/foulards/multi/bleu/soie-1.avif", "alt": "Blue silk scarf" }
+            ]
+          }
+        }
+      },
+      "vert": {
+        "id": "vert",
+        "label": "Apple Green",
+        "hex": "#7FFF00",
+        "materials": {
+          "coton": {
+            "id": "coton",
+            "label": "Cotton",
+            "images": [
+              { "src": "/foulards/multi/vert/coton-1.avif", "alt": "Green cotton scarf" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Multi colors and materials test",
+      "Complex display"
+    ],
+    "metaDescription": "Scarf with many colors and materials."
+  }
+]

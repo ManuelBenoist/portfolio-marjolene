@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "terrasse-mediterraneenne",
+    "title": "Mediterranean Terrace",
+    "collection": "Landscapes",
+    "description": "A luminous evocation of a Provençal terrace, bathed in sunlight and warm colors.",
+    "dimensions": "80x120 cm",
+    "technique": "Acrylic on canvas",
+    "image": "/peintures/marjo-peinture-1.avif",
+    "metaDescription": "Luminous painting by Marjolène Lasne, Provençal terrace in acrylic."
+  },
+  {
+    "slug": "champs-herbes-sauvages",
+    "title": "Wild Grass Fields",
+    "collection": "Terraces & Markets",
+    "description": "A vibrant abstract landscape, a tribute to the wild nature of the South.",
+    "dimensions": "60x90 cm",
+    "technique": "Acrylic on canvas",
+    "image": "/peintures/marjo-peinture-2.avif"
+  },
+  {
+    "slug": "roussillon-fleurs-sauvages",
+    "title": "Roussillon with Wild Flowers",
+    "collection": "Terraces & Markets",
+    "description": "A colorful scene inspired by the fields of Roussillon, an explosion of flowers.",
+    "dimensions": "100x100 cm",
+    "technique": "Acrylic on canvas",
+    "image": "/peintures/marjo-peinture-3.avif"
+  }
+]
