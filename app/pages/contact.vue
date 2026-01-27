@@ -30,7 +30,7 @@
                   </div>
                   <div>
                     <div class="font-bold text-[#2E3D8B] mb-1">Email</div>
-                    <div class="text-[#4A5565]">contact@marjolene-lasne.com</div>
+                    <div class="text-[#4A5565]">marjolenelasne@gmail.com</div>
                   </div>
                 </div>
 
@@ -41,7 +41,7 @@
                   </div>
                   <div>
                     <div class="font-bold text-[#2E3D8B] mb-1">Téléphone</div>
-                    <div class="text-[#4A5565]">+33 6 12 34 56 78</div>
+                    <div class="text-[#4A5565]">+33 6 08 77 08 24</div>
                   </div>
                 </div>
 
@@ -51,9 +51,9 @@
                     <Icon icon="lucide:map-pin" class="w-5 h-5" />
                   </div>
                   <div>
-                    <div class="font-bold text-[#2E3D8B] mb-1">Adresse atelier</div>
+                    <div class="font-bold text-[#2E3D8B] mb-1">Adresse de l'atelier</div>
                     <div class="text-[#4A5565] leading-relaxed">
-                      Chemin des Oliviers<br>
+                      11 place de l'Abbé Avon<br>
                       84220 Roussillon<br>
                       France
                     </div>
