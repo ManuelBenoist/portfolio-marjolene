@@ -80,10 +80,16 @@ interface Image {
   alt: string
 }
 
+interface Size {
+  id: string
+  label: string
+}
+
 interface Material {
   id: string
   label: string
   images: Image[]
+  sizes: Size[]
 }
 
 interface Color {
@@ -97,7 +103,6 @@ const props = defineProps<{
   slug?: string
   title: string
   description: string
-  sizes: Array<{ id: string; label: string }> | Record<string, { id: string; label: string }>
   colors: Record<string, Color> | Color[]
 }>()
 
@@ -115,20 +120,26 @@ const selectedSize = ref<string | null>(null)
 
 
 const colorList = computed(() => Array.isArray(props.colors) ? props.colors : Object.values(props.colors))
-const sizeList = computed(() => Array.isArray(props.sizes) ? props.sizes : Object.values(props.sizes))
 
 const firstColor = colorList.value[0]
 selectedColor.value = firstColor?.id ?? null
-
 
 watch(selectedColor, (newColor) => {
   const color = colorList.value.find((c) => c.id === newColor)
   if (!color) return
   const firstMaterial = Object.values(color.materials)[0]
   selectedMaterial.value = firstMaterial?.id ?? null
+  // Initialise la taille avec la première taille de la première matière
+  selectedSize.value = firstMaterial?.sizes?.[0]?.id ?? null
 }, { immediate: true })
 
-selectedSize.value = sizeList.value?.[0]?.id ?? null
+// Réinitialise la taille quand la matière change
+watch(selectedMaterial, (newMaterial) => {
+  const color = colorList.value.find((c) => c.id === selectedColor.value)
+  if (!color || !newMaterial) return
+  const material = color.materials[newMaterial]
+  selectedSize.value = material?.sizes?.[0]?.id ?? null
+})
 
 /* ----------------------------------
    COMPUTED
@@ -158,6 +169,10 @@ const colorOptions = computed(() => {
 const currentMaterial = computed(() => {
   if (!currentColor.value || !selectedMaterial.value) return null
   return currentColor.value.materials[selectedMaterial.value]
+})
+
+const sizeList = computed(() => {
+  return currentMaterial.value?.sizes ?? []
 })
 
 const currentImage = computed(() => {

@@ -1,62 +1,42 @@
 [
   {
-    "slug": "collection-jardin-secret",
-    "title": "Collection Jardin Secret",
-    "description": "Motifs floraux délicats inspirés des jardins provençaux.",
-    "sizes": [
-      { "id": "70x70", "label": "70x70 cm" },
-      { "id": "90x90", "label": "90x90 cm" },
-      { "id": "140x140", "label": "140x140 cm" }
-    ],
+    "slug": "pivoines",
+    "title": "Pivoines",
+    "description": "...",
     "colors": {
-      "orange": {
-        "id": "orange",
-        "label": "Orange",
-        "hex": "#E8A54B",
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Rose dégradé",
+        "hex": "#000000",
         "materials": {
-          "soie": {
-            "id": "soie",
-            "label": "Soie",
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie ",
             "images": [
               { "src": "/foulards/jardin-secret/orange/soie-1.avif", "alt": "Foulard Jardin Secret Orange en soie - vue principale" },
               { "src": "/foulards/jardin-secret/orange/soie-2.avif", "alt": "Foulard Jardin Secret Orange en soie - porté" },
               { "src": "/foulards/jardin-secret/orange/soie-3.avif", "alt": "Foulard Jardin Secret Orange en soie - zoom" }
-            ]
-          },
-          "soie-coton": {
-            "id": "soie-coton",
-            "label": "Soie & Coton",
-            "images": [
-              { "src": "/foulards/jardin-secret/orange/soie-coton-1.avif", "alt": "Foulard Jardin Secret Orange en soie & coton" }
-            ]
+            ],
+              "sizes": [
+              { "id": "64x64", "label": "64x64 cm" }
+              ]
           }
         }
       },
-      "rose": {
-        "id": "rose",
-        "label": "Rose",
-        "hex": "#E8B4B8",
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Rose dégradé orange",
+        "hex": "#000000",
         "materials": {
-          "soie": {
-            "id": "soie",
-            "label": "Soie",
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
             "images": [
               { "src": "/foulards/jardin-secret/rose/soie-1.avif", "alt": "Foulard Jardin Secret Rose en soie" }
-            ]
-          }
-        }
-      },
-      "vert": {
-        "id": "vert",
-        "label": "Vert",
-        "hex": "#4A7C59",
-        "materials": {
-          "modal": {
-            "id": "modal",
-            "label": "Modal",
-            "images": [
-              { "src": "/foulards/jardin-secret/vert/modal-1.avif", "alt": "Foulard Jardin Secret Vert en modal" }
-            ]
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+              ]
           }
         }
       }
@@ -69,38 +49,51 @@
     "metaDescription": "Foulard en soie Jardin Secret par Marjolène Lasne, motifs floraux inspirés de Provence."
   },
   {
-    "slug": "collection-orange-sanguine",
-    "title": "Collection Orange Sanguine",
-    "description": "Les couleurs vives de la côte méditerranéenne capturées sur soie.",
-    "sizes": [
-      { "id": "90x90", "label": "90x90 cm" },
-      { "id": "140x140", "label": "140x140 cm" }
-    ],
+    "slug": "hibiscus",
+    "title": "Hibiscus",
+    "description": "...",
     "colors": {
-      "bleu": {
-        "id": "bleu",
-        "label": "Bleu Azur",
-        "hex": "#2E5A8B",
+      "rouge-degrade-orange": {
+        "id": "rouge-degrade-orange",
+        "label": "Rouge dégradé orange",
+        "hex": "#000000",
         "materials": {
-          "soie": {
-            "id": "soie",
-            "label": "Soie",
+          "bandes-mousseline-et-satin-de-soie": {
+            "id": "bandes-mousseline-et-satin-de-soie",
+            "label": "Bandes mousseline et satin de soie",
             "images": [
               { "src": "/foulards/mediterranee/bleu/soie-1.avif", "alt": "Foulard Méditerranée Bleu Azur en soie - vue principale" }
+            ],
+            "sizes": [
+              { "id": "64x64", "label": "64x64 cm" }
             ]
           }
         }
       },
-      "turquoise": {
-        "id": "turquoise",
-        "label": "Turquoise",
-        "hex": "#40B5AD",
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Rose dégradé",
+        "hex": "#000000",
         "materials": {
-          "modal": {
-            "id": "modal",
-            "label": "Modal",
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
             "images": [
               { "src": "/foulards/mediterranee/turquoise/modal-1.avif", "alt": "Foulard Méditerranée Turquoise en modal" }
+            ],
+            "sizes": [
+              { "id": "64x64", "label": "64x64 cm" },
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              { "src": "/foulards/mediterranee/turquoise/modal-1.avif", "alt": "Foulard Méditerranée Turquoise en modal" }
+            ],
+            "sizes": [
+              { "id": "64x64", "label": "64x64 cm" }
             ]
           }
         }
@@ -117,10 +110,6 @@
     "slug": "collection-mediterranee",
     "title": "Collection Méditerranée",
     "description": "Les couleurs vives de la côte méditerranéenne capturées sur soie.",
-    "sizes": [
-      { "id": "90x90", "label": "90x90 cm" },
-      { "id": "140x140", "label": "140x140 cm" }
-    ],
     "colors": {
       "bleu": {
         "id": "bleu",
@@ -132,6 +121,10 @@
             "label": "Soie",
             "images": [
               { "src": "/foulards/mediterranee/bleu/soie-1.avif", "alt": "Foulard Méditerranée Bleu Azur en soie - vue principale" }
+            ],
+            "sizes": [
+              { "id": "90x90", "label": "90x90 cm" },
+              { "id": "140x140", "label": "140x140 cm" }
             ]
           }
         }
@@ -146,6 +139,10 @@
             "label": "Modal",
             "images": [
               { "src": "/foulards/mediterranee/turquoise/modal-1.avif", "alt": "Foulard Méditerranée Turquoise en modal" }
+            ],
+            "sizes": [
+              { "id": "90x90", "label": "90x90 cm" },
+              { "id": "140x140", "label": "140x140 cm" }
             ]
           }
         }
@@ -162,9 +159,6 @@
     "slug": "foulard-une-couleur-une-matiere",
     "title": "Foulard Unique",
     "description": "Un foulard avec une seule couleur et une seule matière.",
-    "sizes": [
-      { "id": "50x50", "label": "50x50 cm" }
-    ],
     "colors": {
       "noir": {
         "id": "noir",
@@ -176,6 +170,9 @@
             "label": "Laine",
             "images": [
               { "src": "/foulards/unique/noir/laine-1.avif", "alt": "Foulard noir en laine" }
+            ],
+            "sizes": [
+              { "id": "50x50", "label": "50x50 cm" }
             ]
           }
         }
@@ -188,10 +185,6 @@
     "slug": "foulard-description-longue",
     "title": "Foulard Description Longue",
     "description": "Ce foulard est une ode à la créativité. Il a été conçu pour tester la robustesse de l'affichage des descriptions très longues dans l'interface utilisateur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisi nec erat. Suspendisse potenti. Proin ac neque nec sapien cursus dictum. Etiam euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisi nec erat. Suspendisse potenti. Proin ac neque nec sapien cursus dictum.",
-    "sizes": [
-      { "id": "100x100", "label": "100x100 cm" },
-      { "id": "200x200", "label": "200x200 cm" }
-    ],
     "colors": {
       "arc-en-ciel": {
         "id": "arc-en-ciel",
@@ -203,6 +196,10 @@
             "label": "Polyester",
             "images": [
               { "src": "/foulards/longdesc/arc-en-ciel/polyester-1.avif", "alt": "Foulard arc-en-ciel en polyester" }
+            ],
+            "sizes": [
+              { "id": "100x100", "label": "100x100 cm" },
+              { "id": "200x200", "label": "200x200 cm" }
             ]
           },
           "soie": {
@@ -210,6 +207,10 @@
             "label": "Soie",
             "images": [
               { "src": "/foulards/longdesc/arc-en-ciel/soie-1.avif", "alt": "Foulard arc-en-ciel en soie" }
+            ],
+            "sizes": [
+              { "id": "100x100", "label": "100x100 cm" },
+              { "id": "200x200", "label": "200x200 cm" }
             ]
           }
         }
@@ -226,11 +227,6 @@
     "slug": "foulard-multi-couleurs-multi-matieres",
     "title": "Foulard Multi Couleurs & Matières",
     "description": "Exemple avec beaucoup de couleurs et de matières.",
-    "sizes": [
-      { "id": "30x30", "label": "30x30 cm" },
-      { "id": "60x60", "label": "60x60 cm" },
-      { "id": "120x120", "label": "120x120 cm" }
-    ],
     "colors": {
       "rouge": {
         "id": "rouge",
@@ -242,6 +238,11 @@
             "label": "Soie",
             "images": [
               { "src": "/foulards/multi/rouge/soie-1.avif", "alt": "Foulard rouge en soie" }
+            ],
+            "sizes": [
+              { "id": "30x30", "label": "30x30 cm" },
+              { "id": "60x60", "label": "60x60 cm" },
+              { "id": "120x120", "label": "120x120 cm" }
             ]
           },
           "coton": {
@@ -249,6 +250,11 @@
             "label": "Coton",
             "images": [
               { "src": "/foulards/multi/rouge/coton-1.avif", "alt": "Foulard rouge en coton" }
+            ],
+            "sizes": [
+              { "id": "30x30", "label": "30x30 cm" },
+              { "id": "60x60", "label": "60x60 cm" },
+              { "id": "120x120", "label": "120x120 cm" }
             ]
           }
         }
@@ -263,6 +269,11 @@
             "label": "Laine",
             "images": [
               { "src": "/foulards/multi/bleu/laine-1.avif", "alt": "Foulard bleu en laine" }
+            ],
+            "sizes": [
+              { "id": "30x30", "label": "30x30 cm" },
+              { "id": "60x60", "label": "60x60 cm" },
+              { "id": "120x120", "label": "120x120 cm" }
             ]
           },
           "soie": {
@@ -270,6 +281,11 @@
             "label": "Soie",
             "images": [
               { "src": "/foulards/multi/bleu/soie-1.avif", "alt": "Foulard bleu en soie" }
+            ],
+            "sizes": [
+              { "id": "30x30", "label": "30x30 cm" },
+              { "id": "60x60", "label": "60x60 cm" },
+              { "id": "120x120", "label": "120x120 cm" }
             ]
           }
         }
@@ -284,6 +300,11 @@
             "label": "Coton",
             "images": [
               { "src": "/foulards/multi/vert/coton-1.avif", "alt": "Foulard vert en coton" }
+            ],
+            "sizes": [
+              { "id": "30x30", "label": "30x30 cm" },
+              { "id": "60x60", "label": "60x60 cm" },
+              { "id": "120x120", "label": "120x120 cm" }
             ]
           }
         }

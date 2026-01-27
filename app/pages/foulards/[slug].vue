@@ -100,7 +100,7 @@
                 Taille : 
                 <span class="font-semibold text-[#2E3D8B]">{{ activeSize?.label || '—' }}</span>
               </div>
-              <SizeList v-model="selectedSizeId" :sizes="foulard.sizes" />
+              <SizeList v-model="selectedSizeId" :sizes="sizeOptions" />
             </section>
 
             <!-- Separator -->
@@ -193,10 +193,15 @@ interface ImageSource {
   src: string
   alt?: string
 }
+interface Size {
+  id: string
+  label: string
+}
 interface Material {
   id: string
   label: string
   images: ImageSource[]
+  sizes: Size[]
 }
 interface Color {
   id: string
@@ -209,7 +214,6 @@ interface Foulard {
   title: string
   description: string
   colors: Record<string, Color>
-  sizes: { id: string; label: string }[]
   mentions: string[]
   metaDescription?: string
 }
@@ -236,7 +240,7 @@ const colorOptions = computed(() =>
 )
 const selectedColorId = ref<string | null>(colorOptions.value[0]?.id ?? null)
 const selectedMaterialId = ref<string | null>(null)
-const selectedSizeId = ref<string | null>(foulard.value?.sizes[0]?.id ?? null)
+const selectedSizeId = ref<string | null>(null)
 const activeImageIndex = ref(0)
 const isLightboxOpen = ref(false)
 
@@ -250,6 +254,12 @@ const materialOptions = computed(() => {
   if (!foulard.value || !selectedColorId.value) return []
   const color = foulard.value.colors[selectedColorId.value]
   return color ? Object.values(color.materials).map(({ id, label }) => ({ id, label })) : []
+})
+
+// Récupère les tailles disponibles selon la matière sélectionnée
+const sizeOptions = computed(() => {
+  if (!activeMaterial.value) return []
+  return activeMaterial.value.sizes ?? []
 })
 
 // Initialisation des sélections (priorité aux query params)
@@ -275,10 +285,13 @@ watch(
         : (materialIds[0] ?? null)
 
       // Taille : utiliser query param si valide
-      const sizeIds = newFoulard.sizes.map(s => s.id)
+      const selectedMaterial = selectedMaterialId.value && selectedColor
+        ? selectedColor.materials[selectedMaterialId.value]
+        : null
+      const sizeIds = selectedMaterial?.sizes?.map(s => s.id) ?? []
       selectedSizeId.value = (querySize && sizeIds.includes(querySize))
         ? querySize
-        : (newFoulard.sizes[0]?.id ?? null)
+        : (selectedMaterial?.sizes?.[0]?.id ?? null)
 
       activeImageIndex.value = 0
     }
@@ -286,7 +299,7 @@ watch(
   { immediate: true }
 )
 
-// Met à jour la matière quand la couleur change
+// Met à jour la matière et les tailles quand la couleur change
 watch(
   () => selectedColorId.value,
   (newColorId) => {
@@ -299,6 +312,16 @@ watch(
   }
 )
 
+// Met à jour la taille quand la matière change
+watch(
+  () => selectedMaterialId.value,
+  (newMaterialId) => {
+    if (activeMaterial.value && newMaterialId) {
+      selectedSizeId.value = activeMaterial.value.sizes?.[0]?.id ?? null
+    }
+  }
+)
+
 const activeColor = computed(() =>
   selectedColorId.value && foulard.value ? foulard.value.colors[selectedColorId.value] : null
 )
@@ -306,7 +329,7 @@ const activeMaterial = computed(() =>
   activeColor.value && selectedMaterialId.value ? activeColor.value.materials[selectedMaterialId.value] : null
 )
 const activeSize = computed(() =>
-  foulard.value?.sizes.find((s) => s.id === selectedSizeId.value) ?? null
+  activeMaterial.value?.sizes.find((s) => s.id === selectedSizeId.value) ?? null
 )
 
 const activeImages = computed(() => {
