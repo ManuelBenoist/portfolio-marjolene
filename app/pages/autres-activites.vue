@@ -55,11 +55,19 @@ if (activitiesData.value) {
 }
 
 // Routing logic based on activity type
-const getRouteTo = (activityId: string): string | { name: string } => {
+const getRouteTo = (activityId: string): string | { path: string; query?: Record<string, string> } => {
   if (activityId === 'gites') {
     return 'https://www.unairdevacances.art'
   }
-  return '#contact'
+  // Liens vers la page contact avec préremplissage selon l'activité
+  const activity = activities.value.find(a => a.id === activityId)
+  return {
+    path: '/contact',
+    query: {
+      sujet: 'activite',
+      activite: activity?.title || activityId
+    }
+  }
 }
 
 // Button label logic

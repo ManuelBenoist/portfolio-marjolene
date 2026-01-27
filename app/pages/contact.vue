@@ -235,8 +235,10 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import { Icon } from '@iconify/vue'
+
+const route = useRoute()
 
 // SEO Meta
 useHead({
@@ -261,6 +263,35 @@ const form = ref({
   email: '',
   subject: '',
   message: ''
+})
+
+/**
+ * Préremplissage du formulaire selon les query params
+ * - Depuis peinture : ?oeuvre=Titre&technique=Acrylique
+ * - Depuis foulard : ?sujet=foulard&produit=Nom&couleur=X&taille=Y&matiere=Z
+ * - Depuis activité : ?sujet=activite&activite=Nom
+ */
+onMounted(() => {
+  const { oeuvre, technique, sujet, produit, couleur, taille, matiere, activite } = route.query
+
+  if (oeuvre) {
+    // Préremplissage depuis une page peinture
+    form.value.subject = 'Informations sur une œuvre'
+    form.value.message = `Bonjour,\n\nJe souhaite obtenir des informations sur l'œuvre « ${oeuvre} »${technique ? ` (${technique})` : ''}.\n\nCordialement,`
+  } else if (sujet === 'foulard' && produit) {
+    // Préremplissage depuis une page foulard
+    form.value.subject = 'Informations sur une œuvre'
+    const details = [
+      couleur ? `couleur ${couleur}` : null,
+      taille ? `taille ${taille}` : null,
+      matiere ? `matière ${matiere}` : null
+    ].filter(Boolean).join(', ')
+    form.value.message = `Bonjour,\n\nJe souhaite obtenir des informations sur le foulard « ${produit} »${details ? ` (${details})` : ''}.\n\nCordialement,`
+  } else if (sujet === 'activite' && activite) {
+    // Préremplissage depuis la page autres activités
+    form.value.subject = 'Question générale'
+    form.value.message = `Bonjour,\n\nJe souhaite obtenir des informations sur l'activité « ${activite} ».\n\nCordialement,`
+  }
 })
 
 // ID Formspree - REMPLACER "TON_ID" PAR L'ID RÉEL DU FORMULAIRE FORMSPREE
@@ -318,7 +349,7 @@ const handleSubmit = async () => {
       }, 5000);
     } else if (data?.errors && Array.isArray(data.errors)) {
       errors.value = data.errors
-        .map((err) => err?.message || 'Erreur inconnue dans le formulaire.')
+        .map((err: { message?: string }) => err?.message || 'Erreur inconnue dans le formulaire.')
         .filter(Boolean);
     } else if (data?.error) {
       errors.value = [data.error];
