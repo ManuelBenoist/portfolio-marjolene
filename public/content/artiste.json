@@ -4,10 +4,11 @@
     "image": "/Marjolène-Lasne.png",
     "caption": "Marjolène Lasne, ses pinceaux et son chevalet",
     "position": "left",
-    "paragraphs": [
-      "Marjolène Lasne est une artiste peintre française basée en Provence. Son œuvre, profondément ancrée dans la lumière méditerranéenne, explore les paysages, les terrasses et les scènes d'intérieur avec une sensibilité unique.",
-      "Formée aux Beaux-Arts de Paris, elle développe rapidement un style personnel caractérisé par des compositions lumineuses et des palettes de couleurs chaudes inspirées du Sud de la France. Son travail a été exposé dans de nombreuses galeries en France et à l'international.",
-      "Elle partage désormais son temps entre la création, l'enseignement et les résidences artistiques. Passionnée par la transmission de son art, Marjolène anime régulièrement des ateliers et accompagne des artistes émergents dans leur développement artistique."
+  "paragraphs": [
+      "Diplômée de l’École d’Architecture de Paris-Conflans, Marjolène Lasne exerce d’abord son métier d’architecte pendant cinq années. Cette formation nourrit durablement son regard, son sens des volumes et de la composition.",
+      "Elle choisit ensuite de se consacrer pleinement à la peinture. Depuis 1984, ses œuvres sont exposées régulièrement en galeries et figurent dans des collections privées en France et à l’étranger.",
+      "Installée à Roussillon, au cœur de la Provence, elle réalise des peintures à l’huile aux couleurs lumineuses et chatoyantes, inspirées par la lumière du Luberon, les paysages, les terrasses et les scènes de vie du village.",
+      "À partir de ses aquarelles et de ses huiles, elle crée également des foulards en soie imprimés en édition limitée. Chaque modèle prolonge son univers pictural et permet de porter la peinture autrement."
     ]
   },
   "studio": {
@@ -16,10 +17,10 @@
     "caption": "L'atelier de Marjolène à Roussillon",
     "position": "right",
     "paragraphs": [
-      "L'atelier de Marjolène est situé au cœur de Roussillon, en Provence, dans une ancienne carrière d'ocre transformée en espace créatif vibrant. C'est ici que prend forme son univers artistique, bercé par les couleurs et les paysages méditerranéens.",
-      "Cet espace accueille régulièrement des visiteurs intéressés par son processus créatif. Marjolène organise des visites privées et des ateliers où elle partage sa passion pour la peinture et la couleur.",
-      "Créateur d'un grand espace de travail doté d'une lumière naturelle exceptionnelle, l'atelier est aussi un lieu de rencontre entre artistes. Marjolène y organise des stages réguliers, des résidences artistiques et des expositions temporaires.",
-      "Pour des visites ou des informations sur les ateliers, n'hésitez pas à la contacter via la page Contact ou directement à [adresse email]."
+      "Au cœur du village de Roussillon, dans le Luberon, Marjolène Lasne vous accueille dans son atelier-galerie. C’est ici qu’elle crée et expose ses peintures à l’huile les plus récentes.",
+      "Ce lieu d’exposition permet de découvrir ses œuvres originales dans un cadre authentique et lumineux, en lien direct avec l’environnement provençal qui inspire sa palette.",
+      "La visite de l’atelier est aussi un moment d’échange privilégié avec l’artiste : découvrir ses toiles, ses palettes, ses huiles et son univers de création.",
+      "Les visites se font sur rendez-vous. N’hésitez pas à nous contacter pour organiser votre venue."
     ]
   }
 }
