@@ -59,7 +59,7 @@
 <script setup lang="ts">
   definePageMeta({ layout: 'grid' })
 
-import { ref, computed } from 'vue'
+import { computed, watch } from 'vue'
 import SectionTitle from '~/components/SectionTitle.vue'
 import Filter from '~/components/Filter.vue'
 import CardGrid from '~/components/CardGrid.vue'
@@ -100,9 +100,27 @@ const paintings = computed<Painting[]>(() => {
   return result
 })
 
-// Filter state
-const selectedCollection = ref<string>('')
-const selectedTechnique = ref<string>('')
+// Filter state - useState pour persister entre navigations, synchro avec URL pour liens partageables
+const route = useRoute()
+const router = useRouter()
+
+// Initialiser depuis l'URL si présent (deep linking / refresh)
+const getQueryParam = (key: string): string => {
+  const value = route.query[key]
+  return (Array.isArray(value) ? value[0] : value) as string || ''
+}
+
+const selectedCollection = useState<string>('peintures-filter-collection', () => getQueryParam('collection'))
+const selectedTechnique = useState<string>('peintures-filter-technique', () => getQueryParam('technique'))
+
+// Synchroniser les changements de filtres vers l'URL (sans polluer l'historique)
+watch([selectedCollection, selectedTechnique], ([newCollection, newTechnique]) => {
+  const query: Record<string, string | undefined> = {}
+  if (newCollection) query.collection = newCollection
+  if (newTechnique) query.technique = newTechnique
+  
+  router.replace({ query })
+}, { immediate: false })
 
 // Extract unique collections from the keys
 const collectionOptions = computed(() => {
