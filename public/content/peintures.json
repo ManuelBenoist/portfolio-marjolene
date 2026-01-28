@@ -1,34 +1,5 @@
 {
   "collections": {
-    "Paysages": [
-      {
-        "slug": "terrasse-mediterraneenne",
-        "title": "Terrasse Méditerranéenne",
-        "description": "Évocation lumineuse d'une terrasse provençale, baignée de soleil et de couleurs chaudes.",
-        "dimensions": "80x120 cm",
-        "technique": "Acrylique sur toile",
-        "image": "/peintures/marjo-peinture-1.avif",
-        "metaDescription": "Tableau lumineux de Marjolène Lasne, terrasse provençale en acrylique."
-      }
-    ],
-    "Terrasses & Marchés": [
-      {
-        "slug": "champs-herbes-sauvages",
-        "title": "Champs d'herbes sauvages",
-        "description": "Paysage abstrait vibrant, hommage à la nature sauvage du sud.",
-        "dimensions": "60x90 cm",
-        "technique": "Acrylique sur toile",
-        "image": "/peintures/marjo-peinture-2.avif"
-      },
-      {
-        "slug": "roussillon-fleurs-sauvages",
-        "title": "Roussillon aux fleurs sauvages",
-        "description": "Scène colorée inspirée des champs de Roussillon, explosion de fleurs.",
-        "dimensions": "100x100 cm",
-        "technique": "Acrylique sur toile",
-        "image": "/peintures/marjo-peinture-3.avif"
-      }
-    ],
     "Scènes d'Intérieurs": [
       {
         "slug": "diva-venitienne",
@@ -45,6 +16,136 @@
         "dimensions": "20x20 cm",
         "technique": "Acrylique sur toile",
         "image": "/peintures/scenes-d-interieurs/duo_au_piano.jpg"
+      },
+      {
+        "slug": "confidences-des-deux-amies",
+        "title": "Confidences des deux amies",
+        "description": "",
+        "dimensions": "46x38 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/scenes-d-interieurs/confidences_des_deux_amies.jpg"
+      },
+      {
+        "slug": "conversation-a-saint-germain-des-pres",
+        "title": "Conversation à Saint-Germain-des-Prés",
+        "description": "",
+        "dimensions": "55x46 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/scenes-d-interieurs/conversation_a_saint_germain_des_pres.jpg"
+      },
+      {
+        "slug": "autour-d-un-verre-a-venise",
+        "title": "Autour d'un verre à Venise (diptyque)",
+        "description": "",
+        "dimensions": "55x46 cm x2",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/scenes-d-interieurs/autour_d'un_verre_a_venise_diptyque.png"
+      },
+      {
+        "slug": "le-temps-suspendu",
+        "title": "Le Temps Suspendu",
+        "description": "",
+        "dimensions": "92x73 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/scenes-d-interieurs/le_temps_suspendu.jpg"
+      },
+      {
+        "slug": "pause-apéritive",
+        "title": "Pause Apéritive (diptyque)",
+        "description": "",
+        "dimensions": "30x60 cm x2",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/scenes-d-interieurs/pause_aperitive_diptyque.png"
+      }
+    ],
+    "Terrasses et Marchés": [
+      {
+        "slug": "terrasse-ombragee",
+        "title": "Terrasse Ombragée",
+        "description": "",
+        "dimensions": "81x65 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/terrasses-et-marches/terrasse_ombragee.jpg"
+      },
+      {
+        "slug": "detente-a-gordes",
+        "title": "Détente à Gordes",
+        "description": "",
+        "dimensions": "",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/terrasses-et-marches/detente_a_gordes.jpg"
+      },
+      {
+        "slug": "roussillon-aux-fleurs-sauvages",
+        "title": "Roussillon aux fleurs sauvages",
+        "description": "",
+        "dimensions": "",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/terrasses-et-marches/roussillon_aux_fleurs_sauvages.jpg"
+      },
+      {
+        "slug": "la-marchande-de-legumes",
+        "title": "La Marchande de Légumes",
+        "description": "",
+        "dimensions": "",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/terrasses-et-marches/la_marchande_de_legumes.jpg"
+      },
+      {
+        "slug": "en-terrasse-parmi-les-fleurs",
+        "title": "En Terrasse Parmi Les fleurs",
+        "description": "",
+        "dimensions": "",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/terrasses-et-marches/en_terrasse_parmi_les_fleurs.jpg"
+      },
+      {
+        "slug": "a-la-terrasse-du-fournil",
+        "title": "À la Terrasse du Fournil",
+        "description": "",
+        "dimensions": "73x50 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/terrasses-et-marches/a_la_terrasse_du_fournil.jpg"
+      },
+      {
+        "slug": "pause-aperitive-au-soleil-provencal",
+        "title": "Pause Apéritive (diptyque)",
+        "description": "",
+        "dimensions": "",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/terrasses-et-marches/pause_aperitive_au_soleil_provencal.jpg"
+      },
+      {
+        "slug": "promenade-d-ete-en-famille-a-roussillon",
+        "title": "Promenade d'été en famille à Roussillon",
+        "description": "",
+        "dimensions": "65x54 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/terrasses-et-marches/promenade_d_ete_en_famille_a_roussillon.jpg"
+      },
+      {
+        "slug": "les-heures-douces-a-la-fontaine",
+        "title": "Les Heures Douces à la Fontaine",
+        "description": "",
+        "dimensions": "",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/terrasses-et-marches/les_heures_douces_a_la_fontaine.jpg"
+      },
+      {
+        "slug": "detente-au-jardin",
+        "title": "Détente au Jardin",
+        "description": "",
+        "dimensions": "",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/terrasses-et-marches/detente_au_jardin.jpg"
+      },
+      {
+        "slug": "le-marche-de-roussillon",
+        "title": "Le Marché de Roussillon",
+        "description": "",
+        "dimensions": "",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/terrasses-et-marches/le_marche_de_roussillon.jpg"
       }
     ]
   }
