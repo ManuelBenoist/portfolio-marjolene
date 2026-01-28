@@ -30,7 +30,12 @@
 
           <div class="flex flex-col gap-8 text-lg">
             <div>
-              <p class="text-xs font-bold uppercase tracking-[0.55em] text-primary/70">Collection {{ painting.collection }}</p>
+              <NuxtLink 
+                :to="`/peintures?collection=${encodeURIComponent(painting.collection)}`"
+                class="text-xs font-bold uppercase tracking-[0.55em] text-primary/70 hover:text-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+              >
+                Collection {{ painting.collection }}
+              </NuxtLink>
               <h1 class="mt-4 font-heading text-4xl text-primary sm:text-5xl">
                 {{ painting.title }}
               </h1>

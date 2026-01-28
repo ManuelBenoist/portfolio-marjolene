@@ -113,6 +113,19 @@ const getQueryParam = (key: string): string => {
 const selectedCollection = useState<string>('peintures-filter-collection', () => getQueryParam('collection'))
 const selectedTechnique = useState<string>('peintures-filter-technique', () => getQueryParam('technique'))
 
+// Synchroniser l'URL vers le state quand on arrive sur la page (ex: depuis un lien de collection)
+watch(() => route.query, (newQuery) => {
+  const urlCollection = (Array.isArray(newQuery.collection) ? newQuery.collection[0] : newQuery.collection) as string || ''
+  const urlTechnique = (Array.isArray(newQuery.technique) ? newQuery.technique[0] : newQuery.technique) as string || ''
+  
+  if (selectedCollection.value !== urlCollection) {
+    selectedCollection.value = urlCollection
+  }
+  if (selectedTechnique.value !== urlTechnique) {
+    selectedTechnique.value = urlTechnique
+  }
+}, { immediate: true })
+
 // Synchroniser les changements de filtres vers l'URL (sans polluer l'historique)
 watch([selectedCollection, selectedTechnique], ([newCollection, newTechnique]) => {
   const query: Record<string, string | undefined> = {}
