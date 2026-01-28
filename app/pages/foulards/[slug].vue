@@ -221,10 +221,7 @@ interface Foulard {
 // Route & Data Fetching
 const route = useRoute()
 
-const { data: foulardsData, pending } = await useAsyncData<Foulard[]>(
-  'foulards-detail',
-  () => $fetch('/content/foulards.json')
-)
+const { data: foulardsData, pending } = await useContent<Foulard[]>('foulards.json')
 const foulards = computed(() => foulardsData.value ?? [])
 const foulard: ComputedRef<Foulard | null | undefined> = computed(() =>
   foulards.value.find((item) => item.slug === String(route.params.slug))

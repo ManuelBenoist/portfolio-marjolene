@@ -1,11 +1,11 @@
 <template>
   <article
-    class="bg-white rounded-2xl shadow-sm overflow-hidden w-full max-w-[420px] cursor-pointer transition-shadow hover:shadow-md"
+    class="bg-white rounded-2xl overflow-hidden w-full max-w-[420px] cursor-pointer card-premium"
     @click="navigateToDetail"
   >
     
     <!-- IMAGE -->
-    <div class="aspect-square w-full overflow-hidden bg-[#F8F6F2]">
+    <div class="aspect-square w-full overflow-hidden bg-[#F8F6F2] image-reveal">
       <img
         v-if="currentImage"
         :src="currentImage.src"

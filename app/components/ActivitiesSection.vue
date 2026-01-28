@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:flex-row gap-8" :class="{ 'md:flex-row-reverse': position === 'left' }">
+  <div v-reveal class="flex flex-col md:flex-row gap-8" :class="{ 'md:flex-row-reverse': position === 'left' }">
     <!-- Text Content -->
     <div class="flex flex-col justify-start md:w-1/2">
       <!-- Title -->
@@ -26,7 +26,7 @@
         <!-- Internal link -->
         <NuxtLink
           v-if="!isExternalLink"
-          class="mt-4 inline-flex items-center justify-center rounded-btn bg-primary px-8 py-3 text-base font-medium uppercase tracking-wide text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background hover:bg-accent"
+          class="mt-4 inline-flex items-center justify-center rounded-btn bg-primary px-8 py-3 text-base font-medium uppercase tracking-wide text-white btn-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background hover:bg-accent"
           :to="to as RouteLocationRaw"
           :aria-label="buttonAriaLabel"
         >
@@ -38,7 +38,7 @@
           :href="to as string"
           target="_blank"
           rel="noopener noreferrer"
-          class="mt-4 inline-flex items-center justify-center rounded-btn bg-primary px-8 py-3 text-base font-medium uppercase tracking-wide text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background hover:bg-accent"
+          class="mt-4 inline-flex items-center justify-center rounded-btn bg-primary px-8 py-3 text-base font-medium uppercase tracking-wide text-white btn-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background hover:bg-accent"
           :aria-label="buttonAriaLabel"
         >
           {{ buttonLabel }}
@@ -47,8 +47,8 @@
     </div>
 
     <!-- Image Content -->
-    <div class="md:w-1/2">
-      <img :src="imageSrc" :alt="imageAlt" class="h-auto w-full rounded-[12px] object-cover" />
+    <div class="md:w-1/2 image-reveal">
+      <img :src="imageSrc" :alt="imageAlt" class="h-auto w-full rounded-[12px] object-cover" loading="lazy" />
     </div>
   </div>
 </template>

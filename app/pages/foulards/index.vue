@@ -32,10 +32,7 @@
 
 <script setup lang="ts">
 // Fetch raw data
-const { data: rawFoulards, pending } = await useAsyncData<RawFoulard[]>(
-  'foulards-page',
-  () => $fetch('/content/foulards.json')
-)
+const { data: rawFoulards, pending } = await useContent<RawFoulard[]>('foulards.json')
 import { computed } from 'vue'
 
 definePageMeta({ layout: 'grid' })

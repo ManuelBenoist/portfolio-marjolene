@@ -1,9 +1,9 @@
 <template>
   <div
-    class="bg-[#FBFAF6] rounded-[18px] p-6 flex flex-col gap-6 transition-all duration-200 hover:shadow-xl hover:-translate-y-1 group"
+    class="bg-[#FBFAF6] rounded-[18px] p-6 flex flex-col gap-6 card-premium group"
   >
     <div
-      class="w-full h-[360px] overflow-hidden flex items-center justify-center"
+      class="w-full h-[360px] overflow-hidden flex items-center justify-center image-reveal"
       style="background-color: rgba(251, 250, 246, 0.8);"
     >
       <img

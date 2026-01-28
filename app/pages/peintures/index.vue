@@ -74,10 +74,7 @@ interface Painting {
 }
 
 // Fetch data
-const { data: paintings, pending } = await useAsyncData<Painting[]>(
-  'peintures-page',
-  () => $fetch('/content/peintures.json')
-)
+const { data: paintings, pending } = await useContent<Painting[]>('peintures.json')
 
 // Filter state
 const selectedCollection = ref<string>('')

@@ -19,5 +19,26 @@ export default defineNuxtConfig({
         },
       ],
     },
+    // Page transitions for premium navigation feel
+    pageTransition: {
+      name: 'page',
+      mode: 'out-in',
+    },
+  },
+  // Static site generation configuration
+  nitro: {
+    prerender: {
+      // Don't fail on 404 errors during prerender (some routes may be dynamically generated)
+      failOnError: false,
+      // Crawl links to discover all pages
+      crawlLinks: true,
+    },
+    // Serve public files correctly during prerender
+    publicAssets: [
+      {
+        dir: 'public',
+        baseURL: '/',
+      },
+    ],
   },
 })

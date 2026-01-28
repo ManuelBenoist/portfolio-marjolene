@@ -1,9 +1,9 @@
 <template>
-  <div class="w-full bg-[#FBFAF6] rounded-[12px] p-8">
+  <div v-reveal class="w-full bg-[#FBFAF6] rounded-[12px] p-8">
     <h2 class="text-[2.5rem] font-['Averia_Serif_Libre'] font-light text-[#C94E54] mb-6">{{ title }}</h2>
     <div :class="['flex flex-col md:flex-row gap-8 items-start', position === 'right' ? 'md:flex-row-reverse' : '']">
-      <div class="md:w-1/2 w-full flex flex-col">
-        <img :src="image" :alt="caption || title" class="rounded-[12px] w-full object-cover mb-2" />
+      <div class="md:w-1/2 w-full flex flex-col image-reveal">
+        <img :src="image" :alt="caption || title" class="rounded-[12px] w-full object-cover mb-2" loading="lazy" />
         <span v-if="caption" class="italic text-[#4A5565] text-sm mt-1">{{ caption }}</span>
       </div>
       <div class="md:w-1/2 w-full">

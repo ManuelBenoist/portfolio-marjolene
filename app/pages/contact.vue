@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-[#FBFAF6]">
     <main class="flex-1 px-6 sm:px-12 md:px-24">
-      <div class="max-w-[72rem] mx-auto animate-fade-in">
+      <div class="max-w-[72rem] mx-auto">
         <!-- Section Title -->
         <SectionTitle 
           title="Contact" 
@@ -12,7 +12,7 @@
         <div class="border-t border-[#D1D5DC] mt-8 mb-12"></div>
 
         <!-- Grille principale 2 colonnes -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
+        <div v-reveal class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
           
           <!-- COLONNE GAUCHE : Informations -->
           <div class="space-y-10">
@@ -372,21 +372,6 @@ const handleSubmit = async () => {
 </script>
 
 <style scoped>
-.animate-fade-in {
-  animation: fadeIn 0.6s ease-out forwards;
-}
-
-@keyframes fadeIn {
-  from { 
-    opacity: 0; 
-    transform: translateY(10px); 
-  }
-  to { 
-    opacity: 1; 
-    transform: translateY(0); 
-  }
-}
-
 /* Style pour le heading */
 .font-heading {
   font-family: 'Averia Serif Libre', serif;

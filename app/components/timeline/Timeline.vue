@@ -26,10 +26,7 @@ import TimelineBar from './TimelineBar.vue'
 import TimelineContent from './TimelineContent.vue'
 
 
-const { data: entriesData, pending, error } = await useAsyncData<TimelineEntry[]>(
-  'timeline-frise',
-  () => $fetch('/content/frise.json')
-)
+const { data: entriesData, pending, error } = await useContent<TimelineEntry[]>('frise.json')
 
 const entries = computed(() => entriesData.value || [])
 

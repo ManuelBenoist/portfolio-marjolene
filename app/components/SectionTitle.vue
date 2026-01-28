@@ -1,7 +1,7 @@
 <template>
-  <div class="mb-8">
+  <div v-reveal class="mb-8">
     <h1
-      class="text-[4rem] leading-none font-['Averia_Serif_Libre'] font-light text-[#2E3D8B] mb-4"
+      class="text-[4rem] leading-none font-['Averia_Serif_Libre'] font-light text-[#2E3D8B] mb-4 title-underline"
     >
       {{ title }}
     </h1>

@@ -157,10 +157,7 @@ interface Painting {
   metaDescription?: string
 }
 
-const { data: paintingsData, pending } = await useAsyncData<Painting[]>(
-  'peintures-page',
-  () => $fetch('/content/peintures.json')
-)
+const { data: paintingsData, pending } = await useContent<Painting[]>('peintures.json')
 
 const paintings = computed(() => paintingsData.value ?? [])
 const currentIndex = computed(() =>

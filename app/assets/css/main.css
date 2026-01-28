@@ -52,3 +52,227 @@ a:focus {
 	outline: 3px solid rgba(46,61,139,0.2);
 	outline-offset: 2px;
 }
+
+/* ============================================
+   PREMIUM ANIMATIONS
+   Lightweight, GPU-accelerated, respects prefers-reduced-motion
+   ============================================ */
+
+/* Page Transitions */
+.page-enter-active,
+.page-leave-active {
+	transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.page-enter-from {
+	opacity: 0;
+	transform: translateY(12px);
+}
+
+.page-leave-to {
+	opacity: 0;
+	transform: translateY(-8px);
+}
+
+/* Scroll Reveal Animations - consistent 0.5s timing */
+.reveal-hidden {
+	opacity: 0;
+	transform: translateY(20px);
+	will-change: opacity, transform;
+}
+
+.revealed {
+	opacity: 1;
+	transform: translateY(0);
+	transition: 
+		opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+		transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+	transition-delay: var(--reveal-delay, 0ms);
+}
+
+/* Staggered Grid Items - starts visible, animation triggered by JS */
+.stagger-item {
+	opacity: 1;
+	transform: translateY(0);
+	transition: 
+		opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+		transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+	transition-delay: var(--stagger-delay, 0ms);
+}
+
+/* Hidden state applied by JS before animation */
+.stagger-item.stagger-hidden {
+	opacity: 0;
+	transform: translateY(20px);
+}
+
+.stagger-item.revealed {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Premium Card Hover Effects */
+.card-premium {
+	transition: 
+		transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+		box-shadow 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+	will-change: transform;
+}
+
+.card-premium:hover {
+	transform: translateY(-6px);
+	box-shadow: 
+		0 20px 40px -12px rgba(46, 61, 139, 0.15),
+		0 8px 16px -8px rgba(46, 61, 139, 0.1);
+}
+
+/* Image Reveal Effect */
+.image-reveal {
+	overflow: hidden;
+	position: relative;
+}
+
+.image-reveal img {
+	transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.image-reveal:hover img {
+	transform: scale(1.03);
+}
+
+/* Subtle fade-in for images on load */
+.img-fade {
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+.img-fade.loaded {
+	opacity: 1;
+}
+
+/* Title underline animation */
+.title-underline {
+	position: relative;
+	display: inline-block;
+}
+
+.title-underline::after {
+	content: '';
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background: var(--color-accent);
+	transition: width 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.title-underline:hover::after,
+.revealed .title-underline::after {
+	width: 100%;
+}
+
+/* Timeline item animations */
+.timeline-item {
+	opacity: 0;
+	transform: translateX(-20px);
+	transition: 
+		opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+		transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+	transition-delay: var(--timeline-delay, 0ms);
+}
+
+.timeline-item.revealed {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+/* Button hover micro-interaction */
+.btn-hover {
+	position: relative;
+	overflow: hidden;
+	transition: transform 0.2s ease;
+}
+
+.btn-hover:hover {
+	transform: scale(1.02);
+}
+
+.btn-hover:active {
+	transform: scale(0.98);
+}
+
+/* Menu item animations for landing page */
+.menu-item-animate {
+	opacity: 0;
+	transform: translateX(-30px);
+	transition: 
+		opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+		transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+	transition-delay: var(--menu-delay, 0ms);
+}
+
+.menu-item-animate.menu-visible {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+/* Logo fade in */
+.logo-animate {
+	opacity: 0;
+	transform: scale(0.95);
+	transition: 
+		opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+		transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.logo-animate.logo-visible {
+	opacity: 1;
+	transform: scale(1);
+}
+
+/* Image panel animation */
+.image-panel-animate {
+	opacity: 0;
+	transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+	transition-delay: 0.3s;
+}
+
+.image-panel-animate.panel-visible {
+	opacity: 1;
+}
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+	}
+	
+	.page-enter-active,
+	.page-leave-active {
+		transition: none;
+	}
+	
+	.reveal-hidden,
+	.stagger-item,
+	.stagger-item.stagger-hidden,
+	.timeline-item,
+	.menu-item-animate,
+	.logo-animate,
+	.image-panel-animate {
+		opacity: 1;
+		transform: none;
+	}
+	
+	.card-premium:hover {
+		transform: none;
+	}
+	
+	.image-reveal:hover img {
+		transform: none;
+	}
+}

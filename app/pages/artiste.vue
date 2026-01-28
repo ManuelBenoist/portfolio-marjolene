@@ -91,10 +91,7 @@ interface ArtisteContent {
   studio: StudioSection
 }
 
-const { data: artisteContent } = await useAsyncData<ArtisteContent>(
-  'artiste-content',
-  () => $fetch('/content/artiste.json')
-)
+const { data: artisteContent } = await useContent<ArtisteContent>('artiste.json')
 </script>
 
 <style scoped>
