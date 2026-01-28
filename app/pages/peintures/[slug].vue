@@ -157,9 +157,28 @@ interface Painting {
   metaDescription?: string
 }
 
-const { data: paintingsData, pending } = await useContent<Painting[]>('peintures.json')
+interface PeinturesData {
+  collections: Record<string, Omit<Painting, 'collection'>[]>
+}
 
-const paintings = computed(() => paintingsData.value ?? [])
+const { data: peinturesData, pending } = await useContent<PeinturesData>('peintures.json')
+
+// Flatten paintings from grouped structure and add collection property
+const paintings = computed<Painting[]>(() => {
+  if (!peinturesData.value?.collections) return []
+  
+  const result: Painting[] = []
+  for (const [collectionName, collectionPaintings] of Object.entries(peinturesData.value.collections)) {
+    for (const painting of collectionPaintings) {
+      result.push({
+        ...painting,
+        collection: collectionName
+      })
+    }
+  }
+  return result
+})
+
 const currentIndex = computed(() =>
   paintings.value.findIndex((item) => item.slug === String(route.params.slug))
 )
@@ -221,17 +240,15 @@ function scrollToTop(e: Event) {
 @media (min-width: 1024px) {
   .gallery-fade-enter-active,
   .gallery-fade-leave-active {
-    transition: opacity 400ms ease, transform 400ms ease;
+    transition: opacity 200ms ease;
   }
   .gallery-fade-enter-from,
   .gallery-fade-leave-to {
     opacity: 0;
-    transform: translateY(24px);
   }
   .gallery-fade-enter-to,
   .gallery-fade-leave-from {
     opacity: 1;
-    transform: translateY(0);
   }
   figure img {
     max-height: 60vh !important;

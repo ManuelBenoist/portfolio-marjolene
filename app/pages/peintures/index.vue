@@ -37,16 +37,20 @@
         </div>
 
         <!-- Gallery -->
-        <div v-if="filteredPaintings.length > 0">
-          <CardGrid 
-            :items="filteredPaintings" 
-            :card-component="PaintingCardWrapper"
-          />
-        </div>
+        <Transition name="filter-fade" mode="out-in">
+          <div :key="filterKey">
+            <div v-if="filteredPaintings.length > 0">
+              <CardGrid 
+                :items="filteredPaintings" 
+                :card-component="PaintingCardWrapper"
+              />
+            </div>
 
-        <div v-else class="text-center py-12">
-          <p class="text-[#4A5565]">Aucune peinture ne correspond à votre sélection.</p>
-        </div>
+            <div v-else class="text-center py-12">
+              <p class="text-[#4A5565]">Aucune peinture ne correspond à votre sélection.</p>
+            </div>
+          </div>
+        </Transition>
       </template>
     </main>
   </div>
@@ -73,17 +77,37 @@ interface Painting {
   metaDescription?: string
 }
 
-// Fetch data
-const { data: paintings, pending } = await useContent<Painting[]>('peintures.json')
+interface PeinturesData {
+  collections: Record<string, Omit<Painting, 'collection'>[]>
+}
+
+// Fetch data (now grouped by collections)
+const { data: peinturesData, pending } = await useContent<PeinturesData>('peintures.json')
+
+// Flatten paintings from grouped structure and add collection property
+const paintings = computed<Painting[]>(() => {
+  if (!peinturesData.value?.collections) return []
+  
+  const result: Painting[] = []
+  for (const [collectionName, collectionPaintings] of Object.entries(peinturesData.value.collections)) {
+    for (const painting of collectionPaintings) {
+      result.push({
+        ...painting,
+        collection: collectionName
+      })
+    }
+  }
+  return result
+})
 
 // Filter state
 const selectedCollection = ref<string>('')
 const selectedTechnique = ref<string>('')
 
-// Extract unique collections
+// Extract unique collections from the keys
 const collectionOptions = computed(() => {
-  if (!paintings.value) return []
-  const collections = [...new Set(paintings.value.map(p => p.collection))]
+  if (!peinturesData.value?.collections) return []
+  const collections = Object.keys(peinturesData.value.collections)
   const options = [
     { label: 'Toutes', value: '' },
     ...collections.map(col => ({
@@ -96,7 +120,7 @@ const collectionOptions = computed(() => {
 
 // Extract unique techniques
 const techniqueOptions = computed(() => {
-  if (!paintings.value) return []
+  if (!paintings.value.length) return []
   const techniques = [...new Set(paintings.value.map(p => p.technique))]
   const options = [
     { label: 'Toutes', value: '' },
@@ -110,7 +134,7 @@ const techniqueOptions = computed(() => {
 
 // Filter paintings
 const filteredPaintings = computed(() => {
-  if (!paintings.value) return []
+  if (!paintings.value.length) return []
   
   const filtered = paintings.value.filter(painting => {
     const matchesCollection = !selectedCollection.value || painting.collection === selectedCollection.value
@@ -125,7 +149,35 @@ const filteredPaintings = computed(() => {
   return filtered
 })
 
+const filterKey = computed(() => `${selectedCollection.value}::${selectedTechnique.value}`)
+
 </script>
 
 <style scoped>
+.filter-fade-enter-active,
+.filter-fade-leave-active {
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+.filter-fade-enter-from,
+.filter-fade-leave-to {
+  opacity: 0;
+  transform: translateY(6px);
+}
+.filter-fade-enter-to,
+.filter-fade-leave-from {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .filter-fade-enter-active,
+  .filter-fade-leave-active {
+    transition: none;
+  }
+  .filter-fade-enter-from,
+  .filter-fade-leave-to {
+    opacity: 1;
+    transform: none;
+  }
+}
 </style>
