@@ -109,9 +109,9 @@
       },
       {
         "slug": "pause-aperitive-au-soleil-provencal",
-        "title": "Pause Apéritive (diptyque)",
+        "title": "Pause Apéritive au Soleil Provençal",
         "description": "",
-        "dimensions": "",
+        "dimensions": "50x50 cm",
         "technique": "Acrylique sur toile",
         "image": "/peintures/terrasses-et-marches/pause_aperitive_au_soleil_provencal.jpg"
       },
@@ -146,6 +146,112 @@
         "dimensions": "",
         "technique": "Acrylique sur toile",
         "image": "/peintures/terrasses-et-marches/le_marche_de_roussillon.jpg"
+      }
+    ],
+    "Paysages": [
+      {
+        "slug": "camargue-secrete",
+        "title": "Camargue Secrète",
+        "description": "",
+        "dimensions": "50x50 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/paysages/camargue_secrete.jpg"
+      },
+      {
+        "slug": "reflets-emeraude",
+        "title": "Reflets Émeraude",
+        "description": "",
+        "dimensions": "40x80 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/paysages/reflets_emeraude.jpg"
+      },
+      {
+        "slug": "symphonie-automnale",
+        "title": "Symphonie Automnale",
+        "description": "",
+        "dimensions": "20x20 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/paysages/symphonie_automnale.jpg"
+      },
+      {
+        "slug": "paysage-pourpre-et-vernillon",
+        "title": "Paysage Pourpre et Vernillon",
+        "description": "",
+        "dimensions": "20x20 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/paysages/paysage_pourpre_et_vernillon.jpg"
+      },
+      {
+        "slug": "roussillon_au_soleil_joyeux",
+        "title": "Roussillon au Soleil Joyeux",
+        "description": "",
+        "dimensions": "",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/paysages/roussillon_au_soleil_joyeux.jpg"
+      },
+      {
+        "slug": "printemps-à-bonnieux",
+        "title": "Printemps à Bonnieux",
+        "description": "",
+        "dimensions": "60x60 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/paysages/printemps_a_bonnieux.jpg"
+      },
+      {
+        "slug": "de-pourpre-et-d-azur",
+        "title": "De Pourpre et d'Azur",
+        "description": "",
+        "dimensions": "30x30 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/paysages/de_pourpre_et_d_azur.jpg"
+      },
+      {
+        "slug": "les-vignes-de-bonnieux",
+        "title": "Les Vignes de Bonnieux",
+        "description": "",
+        "dimensions": "80x80 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/paysages/les_vignes_de_bonnieux.jpg"
+      },
+      {
+        "slug": "gordes-aux-iris",
+        "title": "Gordes aux Iris",
+        "description": "",
+        "dimensions": "50x50 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/paysages/gordes_aux_iris.jpg"
+      },
+      {
+        "slug": "dune-dans-le-vent",
+        "title": "Dune dans le Vent",
+        "description": "",
+        "dimensions": "73x60 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/paysages/dune_dans_le_vent.jpg"
+      },
+      {
+        "slug": "parfums-secrets-de-provence",
+        "title": "Parfums Secrets de Provence",
+        "description": "",
+        "dimensions": "73x60 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/paysages/parfums_secrets_de_provence.jpg"
+      },
+      {
+        "slug": "champs-d'herbes-sauvages",
+        "title": "Champs d'Herbes Sauvages",
+        "description": "",
+        "dimensions": "65x54 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/paysages/champs_d_herbes_sauvages.jpg"
+      },
+      {
+        "slug": "paysage-pourpre-et-vernillon-au-soleil-couchant",
+        "title": "Paysage Pourpre et Vernillon au Soleil Couchant",
+        "description": "",
+        "dimensions": "20x20 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/paysages/paysage_pourpre_et_vernillon_au_soleil_couchant.jpg"
       }
     ]
   }
