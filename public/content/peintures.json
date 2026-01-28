@@ -28,6 +28,24 @@
         "technique": "Acrylique sur toile",
         "image": "/peintures/marjo-peinture-3.avif"
       }
+    ],
+    "Scènes d'Intérieurs": [
+      {
+        "slug": "diva-venitienne",
+        "title": "Diva Vénitienne",
+        "description": "",
+        "dimensions": "80x80 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/scenes-d-interieurs/diva_venitienne.jpg"
+      },
+      {
+        "slug": "duo-au-piano",
+        "title": "Duo au piano",
+        "description": "",
+        "dimensions": "20x20 cm",
+        "technique": "Acrylique sur toile",
+        "image": "/peintures/scenes-d-interieurs/duo_au_piano.jpg"
+      }
     ]
   }
 }
