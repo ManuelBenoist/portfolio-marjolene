@@ -272,7 +272,7 @@ const form = ref({
  * - Depuis activité : ?sujet=activite&activite=Nom
  */
 onMounted(() => {
-  const { oeuvre, technique, sujet, produit, couleur, taille, matiere, activite } = route.query
+  const { oeuvre, technique, sujet, produit, couleur, taille, matiere, activite, message } = route.query
 
   if (oeuvre) {
     // Préremplissage depuis une page peinture
@@ -291,6 +291,12 @@ onMounted(() => {
     // Préremplissage depuis la page autres activités
     form.value.subject = 'Question générale'
     form.value.message = `Bonjour,\n\nJe souhaite obtenir des informations sur l'activité « ${activite} ».\n\nCordialement,`
+  } else if (sujet === 'artiste') {
+    // Préremplissage depuis la page artiste
+    form.value.subject = 'Question générale'
+    form.value.message = message && typeof message === 'string' && message.trim().length > 0
+      ? message
+      : `Bonjour,\n\nJe souhaite contacter l'artiste Marjolène Lasne.\n\nCordialement,`
   }
 })
 

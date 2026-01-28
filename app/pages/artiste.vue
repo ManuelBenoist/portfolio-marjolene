@@ -45,7 +45,16 @@
             <p class="text-[#4A5565] text-lg font-montserrat leading-relaxed mb-4">
               {{ artisteContent.studio.paragraphs[artisteContent.studio.paragraphs.length - 2] }}
             </p>
-            <ContactButton to="/contact" label="Contacter l'artiste" />
+            <ContactButton
+              :to="{
+                path: '/contact',
+                query: {
+                  sujet: 'artiste',
+                  message: `Bonjour,\n\nJe souhaite contacter l'artiste Marjolène Lasne.\n\nCordialement,`
+                }
+              }"
+              label="Contacter l'artiste"
+            />
           </div>
         </div>
       </div>

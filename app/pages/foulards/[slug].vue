@@ -306,18 +306,34 @@ watch(
     if (foulard.value && newColorId) {
       const color = foulard.value.colors[newColorId]
       const materialIds = color ? Object.keys(color.materials) : []
-      selectedMaterialId.value = materialIds[0] ?? null
+      const newMaterialId = materialIds[0] ?? null
+      selectedMaterialId.value = newMaterialId
+      
+      // Sélectionner directement la première taille de la nouvelle matière
+      if (newMaterialId && color) {
+        const material = color.materials[newMaterialId]
+        selectedSizeId.value = material?.sizes?.[0]?.id ?? null
+      } else {
+        selectedSizeId.value = null
+      }
+      
       activeImageIndex.value = 0
     }
   }
 )
 
-// Met à jour la taille quand la matière change
+// Met à jour la taille quand la matière change (seulement si changement manuel)
 watch(
   () => selectedMaterialId.value,
-  (newMaterialId) => {
-    if (activeMaterial.value && newMaterialId) {
-      selectedSizeId.value = activeMaterial.value.sizes?.[0]?.id ?? null
+  (newMaterialId, oldMaterialId) => {
+    // Ne rien faire si c'est le premier appel (oldMaterialId undefined) 
+    // car le watcher de couleur gère déjà ce cas
+    if (oldMaterialId === undefined) return
+    
+    if (foulard.value && selectedColorId.value && newMaterialId) {
+      const color = foulard.value.colors[selectedColorId.value]
+      const material = color?.materials[newMaterialId]
+      selectedSizeId.value = material?.sizes?.[0]?.id ?? null
     }
   }
 )
