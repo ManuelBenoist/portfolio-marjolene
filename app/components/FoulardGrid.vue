@@ -7,7 +7,6 @@
       :title="item.title"
       :description="item.description"
       :colors="item.colors"
-      :sizes="item.sizes"
     />
   </div>
 </template>

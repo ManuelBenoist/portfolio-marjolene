@@ -39,8 +39,14 @@
             :image="artisteContent.studio.image"
             :caption="artisteContent.studio.caption"
             :position="artisteContent.studio.position"
-            :paragraphs="artisteContent.studio.paragraphs"
+            :paragraphs="artisteContent.studio.paragraphs.slice(0, -1)"
           />
+          <div v-if="artisteContent">
+            <p class="text-[#4A5565] text-lg font-montserrat leading-relaxed mb-4">
+              {{ artisteContent.studio.paragraphs[artisteContent.studio.paragraphs.length - 2] }}
+            </p>
+            <ContactButton to="/contact" label="Contacter l'artiste" />
+          </div>
         </div>
       </div>
     </main>
@@ -52,6 +58,8 @@ import { ref, computed } from 'vue'
 import SectionTitle from '~/components/SectionTitle.vue'
 import TitleImageContent from '~/components/TitleImageContent.vue'
 import Timeline from '~/components/timeline/Timeline.vue'
+
+import ContactButton from '~/components/ContactButton.vue'
 
 interface BiographySection {
   title: string

@@ -1,62 +1,42 @@
 [
   {
-    "slug": "collection-jardin-secret",
-    "title": "Collection Jardin Secret",
-    "description": "Motifs floraux délicats inspirés des jardins provençaux.",
-    "sizes": [
-      { "id": "70x70", "label": "70x70 cm" },
-      { "id": "90x90", "label": "90x90 cm" },
-      { "id": "140x140", "label": "140x140 cm" }
-    ],
+    "slug": "pivoines",
+    "title": "Pivoines",
+    "description": "...",
     "colors": {
-      "orange": {
-        "id": "orange",
-        "label": "Orange",
-        "hex": "#E8A54B",
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Rose dégradé",
+        "hex": "#000000",
         "materials": {
-          "soie": {
-            "id": "soie",
-            "label": "Soie",
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie ",
             "images": [
               { "src": "/foulards/jardin-secret/orange/soie-1.avif", "alt": "Foulard Jardin Secret Orange en soie - vue principale" },
               { "src": "/foulards/jardin-secret/orange/soie-2.avif", "alt": "Foulard Jardin Secret Orange en soie - porté" },
               { "src": "/foulards/jardin-secret/orange/soie-3.avif", "alt": "Foulard Jardin Secret Orange en soie - zoom" }
-            ]
-          },
-          "soie-coton": {
-            "id": "soie-coton",
-            "label": "Soie & Coton",
-            "images": [
-              { "src": "/foulards/jardin-secret/orange/soie-coton-1.avif", "alt": "Foulard Jardin Secret Orange en soie & coton" }
-            ]
+            ],
+              "sizes": [
+              { "id": "64x64", "label": "64x64 cm" }
+              ]
           }
         }
       },
-      "rose": {
-        "id": "rose",
-        "label": "Rose",
-        "hex": "#E8B4B8",
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Rose dégradé orange",
+        "hex": "#000000",
         "materials": {
-          "soie": {
-            "id": "soie",
-            "label": "Soie",
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
             "images": [
               { "src": "/foulards/jardin-secret/rose/soie-1.avif", "alt": "Foulard Jardin Secret Rose en soie" }
-            ]
-          }
-        }
-      },
-      "vert": {
-        "id": "vert",
-        "label": "Vert",
-        "hex": "#4A7C59",
-        "materials": {
-          "modal": {
-            "id": "modal",
-            "label": "Modal",
-            "images": [
-              { "src": "/foulards/jardin-secret/vert/modal-1.avif", "alt": "Foulard Jardin Secret Vert en modal" }
-            ]
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+              ]
           }
         }
       }
@@ -69,113 +49,202 @@
     "metaDescription": "Foulard en soie Jardin Secret par Marjolène Lasne, motifs floraux inspirés de Provence."
   },
   {
-    "slug": "collection-orange-sanguine",
-    "title": "Collection Orange Sanguine",
-    "description": "Les couleurs vives de la côte méditerranéenne capturées sur soie.",
-    "sizes": [
-      { "id": "90x90", "label": "90x90 cm" },
-      { "id": "140x140", "label": "140x140 cm" }
-    ],
+    "slug": "hibiscus",
+    "title": "Hibiscus",
+    "description": "...",
     "colors": {
-      "bleu": {
-        "id": "bleu",
-        "label": "Bleu Azur",
-        "hex": "#2E5A8B",
-        "materials": {
-          "soie": {
-            "id": "soie",
-            "label": "Soie",
-            "images": [
-              { "src": "/foulards/mediterranee/bleu/soie-1.avif", "alt": "Foulard Méditerranée Bleu Azur en soie - vue principale" }
-            ]
-          }
-        }
-      },
-      "turquoise": {
-        "id": "turquoise",
-        "label": "Turquoise",
-        "hex": "#40B5AD",
-        "materials": {
-          "modal": {
-            "id": "modal",
-            "label": "Modal",
-            "images": [
-              { "src": "/foulards/mediterranee/turquoise/modal-1.avif", "alt": "Foulard Méditerranée Turquoise en modal" }
-            ]
-          }
-        }
-      }
-    },
-    "mentions": [
-      "Pièce unique fabriquée en France",
-      "Dessin original de l'artiste",
-      "Entretien : Nettoyage à sec recommandé"
-    ],
-    "metaDescription": "Foulard en soie Méditerranée par Marjolène Lasne, couleurs de la côte azuréenne."
-  },
-  {
-    "slug": "collection-mediterranee",
-    "title": "Collection Méditerranée",
-    "description": "Les couleurs vives de la côte méditerranéenne capturées sur soie.",
-    "sizes": [
-      { "id": "90x90", "label": "90x90 cm" },
-      { "id": "140x140", "label": "140x140 cm" }
-    ],
-    "colors": {
-      "bleu": {
-        "id": "bleu",
-        "label": "Bleu Azur",
-        "hex": "#2E5A8B",
-        "materials": {
-          "soie": {
-            "id": "soie",
-            "label": "Soie",
-            "images": [
-              { "src": "/foulards/mediterranee/bleu/soie-1.avif", "alt": "Foulard Méditerranée Bleu Azur en soie - vue principale" }
-            ]
-          }
-        }
-      },
-      "turquoise": {
-        "id": "turquoise",
-        "label": "Turquoise",
-        "hex": "#40B5AD",
-        "materials": {
-          "modal": {
-            "id": "modal",
-            "label": "Modal",
-            "images": [
-              { "src": "/foulards/mediterranee/turquoise/modal-1.avif", "alt": "Foulard Méditerranée Turquoise en modal" }
-            ]
-          }
-        }
-      }
-    },
-    "mentions": [
-      "Pièce unique fabriquée en France",
-      "Dessin original de l'artiste",
-      "Entretien : Nettoyage à sec recommandé"
-    ],
-    "metaDescription": "Foulard en soie Méditerranée par Marjolène Lasne, couleurs de la côte azuréenne."
-  },
-  {
-    "slug": "foulard-une-couleur-une-matiere",
-    "title": "Foulard Unique",
-    "description": "Un foulard avec une seule couleur et une seule matière.",
-    "sizes": [
-      { "id": "50x50", "label": "50x50 cm" }
-    ],
-    "colors": {
-      "noir": {
-        "id": "noir",
-        "label": "Noir profond",
+      "rouge-degrade-orange": {
+        "id": "rouge-degrade-orange",
+        "label": "Rouge dégradé orange",
         "hex": "#000000",
         "materials": {
-          "laine": {
-            "id": "laine",
-            "label": "Laine",
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/foulards/unique/noir/laine-1.avif", "alt": "Foulard noir en laine" }
+              { "src": "/foulards/mediterranee/bleu/soie-1.avif", "alt": "Foulard Méditerranée Bleu Azur en soie - vue principale" }
+            ],
+            "sizes": [
+              { "id": "64x64", "label": "64x64 cm" }
+            ]
+          }
+        }
+      },
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Rose dégradé",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/mediterranee/turquoise/modal-1.avif", "alt": "Foulard Méditerranée Turquoise en modal" }
+            ],
+            "sizes": [
+              { "id": "64x64", "label": "64x64 cm" }
+            ]
+          }
+        }
+      },
+      "rose-degrade-jaune": {
+        "id": "rose-degrade-jaune",
+        "label": "Rose dégradé jaune",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/roses/rose-degrade/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard Roses Rose dégradé en mousseline et satin de soie - vue principale" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Rose dégradé orange",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/roses/rose-degrade/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard Roses Rose dégradé en mousseline et satin de soie - vue principale" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Pièce unique fabriquée en France",
+      "Dessin original de l'artiste",
+      "Entretien : Nettoyage à sec recommandé"
+    ],
+    "metaDescription": "Foulard en soie Méditerranée par Marjolène Lasne, couleurs de la côte azuréenne."
+  },
+  {
+    "slug": "roses",
+    "title": "Roses",
+    "description": "...",
+    "colors": {
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Rose dégradé",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/roses/rose-degrade/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard Roses Rose dégradé en mousseline et satin de soie - vue principale" }
+            ],
+            "sizes": [
+              { "id": "64x64", "label": "64x64 cm" }
+            ]
+          }
+        }
+      },
+      "vert": {
+        "id": "vert",
+        "label": "Vert",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/roses/vert/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard Roses Vert en mousseline et satin de soie - vue principale" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Pièce unique fabriquée en France",
+      "Dessin original de l'artiste",
+      "Entretien : Nettoyage à sec recommandé"
+    ],
+    "metaDescription": "Foulard en soie Méditerranée par Marjolène Lasne, couleurs de la côte azuréenne."
+  },
+  {
+    "slug": "eclats-or",
+    "title": "Eclats d'Or",
+    "description": "...",
+    "colors": {
+      "jaune-or": {
+        "id": "jaune-or",
+        "label": "Jaune d'or",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/unique/noir/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard noir en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "64x64", "label": "64x64 cm" }
+            ]
+          }
+        }
+      },
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Rose dégradé",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/unique/noir/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard noir en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "64x64", "label": "64x64 cm" }
+            ]
+          }
+        }
+      },
+      "rose-orange-degrade": {
+        "id": "rose-orange-degrade",
+        "label": "Rose orange dégradé",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/unique/noir/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard noir en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      },
+      "bleu-vert-degrade": {
+        "id": "bleu-vert-degrade",
+        "label": "Bleu vert dégradé",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/unique/noir/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard noir en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
             ]
           }
         }
@@ -185,31 +254,126 @@
     "metaDescription": "Foulard noir en laine, édition limitée."
   },
   {
-    "slug": "foulard-description-longue",
-    "title": "Foulard Description Longue",
-    "description": "Ce foulard est une ode à la créativité. Il a été conçu pour tester la robustesse de l'affichage des descriptions très longues dans l'interface utilisateur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisi nec erat. Suspendisse potenti. Proin ac neque nec sapien cursus dictum. Etiam euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisi nec erat. Suspendisse potenti. Proin ac neque nec sapien cursus dictum.",
-    "sizes": [
-      { "id": "100x100", "label": "100x100 cm" },
-      { "id": "200x200", "label": "200x200 cm" }
-    ],
+    "slug": "coquelicots",
+    "title": "Coquelicots",
+    "description": "...",
     "colors": {
-      "arc-en-ciel": {
-        "id": "arc-en-ciel",
-        "label": "Arc-en-ciel",
-        "hex": "#FFFFFF",
+      "bleu-turquoise": {
+        "id": "bleu-turquoise",
+        "label": "Bleu turquoise",
+        "hex": "#000000",
         "materials": {
-          "polyester": {
-            "id": "polyester",
-            "label": "Polyester",
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/foulards/longdesc/arc-en-ciel/polyester-1.avif", "alt": "Foulard arc-en-ciel en polyester" }
+              { "src": "/foulards/longdesc/arc-en-ciel/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard arc-en-ciel en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "64x64", "label": "64x64 cm" },
+              { "id": "84x84", "label": "84x84 cm" }
             ]
-          },
-          "soie": {
-            "id": "soie",
-            "label": "Soie",
+          }
+        }
+      },
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Rose dégradé",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/foulards/longdesc/arc-en-ciel/soie-1.avif", "alt": "Foulard arc-en-ciel en soie" }
+              { "src": "/foulards/longdesc/arc-en-ciel/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard arc-en-ciel en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "64x64", "label": "64x64 cm" }
+            ]
+          }
+        }
+      },
+       "rouge-degrade-orange": {
+        "id": "rouge-degrade-orange",
+        "label": "Rouge dégradé orange",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/longdesc/arc-en-ciel/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard arc-en-ciel en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "64x64", "label": "64x64 cm" }
+            ]
+          }
+        }
+      },
+       "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Rose dégradé orange",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/longdesc/arc-en-ciel/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard arc-en-ciel en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      },
+       "vert": {
+        "id": "vert",
+        "label": "Vert",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/longdesc/arc-en-ciel/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard arc-en-ciel en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      },
+      "vert-degrade": {
+        "id": "vert-degrade",
+        "label": "Vert dégradé",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              { "src": "/foulards/longdesc/arc-en-ciel/satin-de-soie-1.avif", "alt": "Foulard arc-en-ciel en satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      },
+      "rouge-degrade-rose": {
+        "id": "rouge-degrade-rose",
+        "label": "Rouge dégradé rose",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              { "src": "/foulards/longdesc/arc-en-ciel/satin-de-soie-1.avif", "alt": "Foulard arc-en-ciel en satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
             ]
           }
         }
@@ -223,67 +387,835 @@
     "metaDescription": "Foulard avec description très longue pour test UI."
   },
   {
-    "slug": "foulard-multi-couleurs-multi-matieres",
-    "title": "Foulard Multi Couleurs & Matières",
-    "description": "Exemple avec beaucoup de couleurs et de matières.",
-    "sizes": [
-      { "id": "30x30", "label": "30x30 cm" },
-      { "id": "60x60", "label": "60x60 cm" },
-      { "id": "120x120", "label": "120x120 cm" }
-    ],
+    "slug": "fleurs-de-porcelaine",
+    "title": "Fleurs de Porcelaine",
+    "description": "...",
     "colors": {
-      "rouge": {
-        "id": "rouge",
-        "label": "Rouge vif",
-        "hex": "#FF0000",
+      "rose-degrade-jaune": {
+        "id": "rose-degrade-jaune",
+        "label": "Rose dégradé jaune",
+        "hex": "#000000",
         "materials": {
-          "soie": {
-            "id": "soie",
-            "label": "Soie",
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/foulards/multi/rouge/soie-1.avif", "alt": "Foulard rouge en soie" }
-            ]
-          },
-          "coton": {
-            "id": "coton",
-            "label": "Coton",
-            "images": [
-              { "src": "/foulards/multi/rouge/coton-1.avif", "alt": "Foulard rouge en coton" }
+              { "src": "/foulards/multi/rouge/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard rouge en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "64x64", "label": "64x64 cm" }
             ]
           }
         }
       },
-      "bleu": {
-        "id": "bleu",
-        "label": "Bleu ciel",
-        "hex": "#00BFFF",
+      "rouge-degrade-orange": {
+        "id": "rouge-degrade-orange",
+        "label": "Rouge dégradé orange",
+        "hex": "#000000",
         "materials": {
-          "laine": {
-            "id": "laine",
-            "label": "Laine",
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/foulards/multi/bleu/laine-1.avif", "alt": "Foulard bleu en laine" }
+              { "src": "/foulards/multi/rouge/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard rouge en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
             ]
-          },
-          "soie": {
-            "id": "soie",
-            "label": "Soie",
+          }
+        }
+      },
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Bleu turquoise dégradé",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/foulards/multi/bleu/soie-1.avif", "alt": "Foulard bleu en soie" }
+              { "src": "/foulards/multi/bleu/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard bleu en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multi couleurs et matières",
+      "Affichage complexe"
+    ],
+    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+  },
+  {
+    "slug": "poisson",
+    "title": "Poisson",
+    "description": "...",
+    "colors": {
+      "rouge": {
+        "id": "rouge",
+        "label": "Rouge",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/rouge/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard rouge en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      },
+      "orange-degrade-sanguine": {
+        "id": "orange-degrade-sanguine",
+        "label": "Orange dégradé sanguine",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/orange/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard orange en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multi couleurs et matières",
+      "Affichage complexe"
+    ],
+    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+  },
+  {
+    "slug": "herbes-folles",
+    "title": "Herbes Folles",
+    "description": "...",
+    "colors": {
+      "brique": {
+        "id": "brique",
+        "label": "Brique",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/rouge/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard rouge en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      },
+      "orange-degrade-sanguine": {
+        "id": "orange-degrade-sanguine",
+        "label": "Orange dégradé sanguine",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              { "src": "/foulards/multi/orange/satin-de-soie-1.avif", "alt": "Foulard orange en satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      },
+      "amethyste": {
+        "id": "amethyste",
+        "label": "Amethyste",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              { "src": "/foulards/multi/amethyste/satin-de-soie-1.avif", "alt": "Foulard amethyste en satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      },
+      "lavande-degrade-clair": {
+        "id": "lavande-degrade-clair",
+        "label": "Lavande dégradé clair",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              { "src": "/foulards/multi/lavande-degrade-clair/satin-de-soie-1.avif", "alt": "Foulard lavande dégradé clair en satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multi couleurs et matières",
+      "Affichage complexe"
+    ],
+    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+  },
+  {
+    "slug": "libellule",
+    "title": "Libellule",
+    "description": "...",
+    "colors": {
+      "rose": {
+        "id": "rose",
+        "label": "Rose",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/rose/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard rose en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
             ]
           }
         }
       },
       "vert": {
         "id": "vert",
-        "label": "Vert pomme",
-        "hex": "#7FFF00",
+        "label": "Vert",
+        "hex": "#000000",
         "materials": {
-          "coton": {
-            "id": "coton",
-            "label": "Coton",
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/foulards/multi/vert/coton-1.avif", "alt": "Foulard vert en coton" }
+              { "src": "/foulards/multi/vert/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard vert en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multi couleurs et matières",
+      "Affichage complexe"
+    ],
+    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+  },
+  {
+    "slug": "paon",
+    "title": "Paon",
+    "description": "...",
+    "colors": {
+      "vert": {
+        "id": "vert",
+        "label": "Vert",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/vert/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard vert en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      },
+      "corail-degrade": {
+        "id": "corail-degrade",
+        "label": "Corail dégradé",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/corail/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard corail en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise": {
+        "id": "bleu-turquoise",
+        "label": "Bleu turquoise",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard bleu turquoise en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      },
+      "rose-degrade-violet": {
+        "id": "rose-degrade-violet",
+        "label": "Rose dégradé violet",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/rose-degrade-violet/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard rose dégradé violet en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      },
+      "rose-degrade-prune": {
+        "id": "rose-degrade-prune",
+        "label": "Rose dégradé prune",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/rose-degrade-prune/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard rose dégradé prune en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "84x84", "label": "84x84 cm" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multi couleurs et matières",
+      "Affichage complexe"
+    ],
+    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+  },
+  {
+    "slug": "spirales",
+    "title": "Spirales",
+    "description": "...",
+    "colors": {
+      "lie-de-vin": {
+        "id": "lie-de-vin",
+        "label": "Lie de vin",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              { "src": "/foulards/multi/lie-de-vin/satin-de-soie-1.avif", "alt": "Foulard lie de vin en satin de soie" }
+            ],
+            "sizes": [
+              { "id": "64x64", "label": "64x64 cm" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multi couleurs et matières",
+      "Affichage complexe"
+    ],
+    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+  },
+  {
+    "slug": "mamma-del-mondo",
+    "title": "Mamma del Mondo",
+    "description": "...",
+    "colors": {
+      "rose-degrade-violet": {
+        "id": "rose-degrade-violet",
+        "label": "Rose dégradé violet",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              { "src": "/foulards/multi/rose-degrade-violet/satin-de-soie-1.avif", "alt": "Foulard rose dégradé violet en satin de soie" }
+            ],
+            "sizes": [
+              { "id": "64x64", "label": "64x64 cm" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multi couleurs et matières",
+      "Affichage complexe"
+    ],
+    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+  },
+  {
+    "slug": "courbes",
+    "title": "Courbes",
+    "description": "...",
+    "colors": {
+      "rose-degrade-rose": {
+        "id": "rose-degrade-rose",
+        "label": "Rose dégradé rose",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/rose/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard rose en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "vert-degrade": {
+        "id": "vert-degrade",
+        "label": "Vert dégradé",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/vert/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard vert en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "violet-degrade-rose": {
+        "id": "violet-degrade-rose",
+        "label": "Violet dégradé rose",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/violet/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard violet en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "bleu-outremer-degrade-lavande": {
+        "id": "bleu-outremer-degrade-lavande",
+        "label": "Bleu outremer dégradé lavande",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              { "src": "/foulards/multi/bleu-outremer/satin-de-soie-1.avif", "alt": "Foulard bleu outremer en satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multi couleurs et matières",
+      "Affichage complexe"
+    ],
+    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+  },
+  {
+    "slug": "printemps-en-couleurs",
+    "title": "Printemps en Couleurs",
+    "description": "...",
+    "colors": {
+      "vert-degrade-turquoise": {
+        "id": "vert-degrade-turquoise",
+        "label": "Vert dégradé turquoise",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/vert/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard vert en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Rose dégradé orange",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/rose/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard rose en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "outremer-degrade-turquoise": {
+        "id": "outremer-degrade-turquoise",
+        "label": "Outremer dégradé turquoise",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/outremer/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard outremer en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Bleu turquoise dégradé",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard bleu turquoise en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multi couleurs et matières",
+      "Affichage complexe"
+    ],
+    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+  },
+  {
+    "slug": "paysage-de-roussillon",
+    "title": "Paysage de Roussillon",
+    "description": "...",
+    "colors": {
+      "vert-degrade": {
+        "id": "vert-degrade",
+        "label": "Vert dégradé",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/vert/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard vert en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Rose dégradé orange",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              { "src": "/foulards/multi/rose/satin-de-soie-1.avif", "alt": "Foulard rose en satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "rouge-degrade-orange": {
+        "id": "rouge-degrade-orange",
+        "label": "Rouge dégradé orange",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              { "src": "/foulards/multi/rouge/satin-de-soie-1.avif", "alt": "Foulard rouge en satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "outremer": {
+        "id": "outremer",
+        "label": "Outremer",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              { "src": "/foulards/multi/outremer/satin-de-soie-1.avif", "alt": "Foulard outremer en satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multi couleurs et matières",
+      "Affichage complexe"
+    ],
+    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+  },
+  {
+    "slug": "fleurs-et-papillons",
+    "title": "Fleurs et Papillons",
+    "description": "...",
+    "colors": {
+      "bleu-outremer-degrade-lavande": {
+        "id": "bleu-outremer-degrade-lavande",
+        "label": "Bleu outremer dégradé lavande",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard bleu outremer en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": " 40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "violet-rose-degrade": {
+        "id": "violet-rose-degrade",
+        "label": "Violet rose dégradé",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/rose/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard rose en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Rose dégradé orange",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/rose/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard rose en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise": {
+        "id": "bleu-turquoise",
+        "label": "Bleu turquoise",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard bleu turquoise en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multi couleurs et matières",
+      "Affichage complexe"
+    ],
+    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+  },
+  {
+    "slug": "oiseaux-exotiques",
+    "title": "Oiseaux Exotiques",
+    "description": "...",
+    "colors": {
+      "vert-degrade-turquoise": {
+        "id": "vert-degrade-turquoise",
+        "label": "Vert dégradé turquoise",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/vert/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard vert en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "lavande-degrade": {
+        "id": "lavande-degrade",
+        "label": "Lavande dégradé",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/rose/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard rose en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "jaune-degrade-rose": {
+        "id": "jaune-degrade-rose",
+        "label": "Jaune dégradé rose",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/jaune/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard jaune en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "jaune-degrade-rouge": {
+        "id": "jaune-degrade-rouge",
+        "label": "Jaune dégradé rouge",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/jaune/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard jaune en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Bleu turquoise dégradé",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard bleu turquoise en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "bleu-outremer-degrade-lavande": {
+        "id": "bleu-outremer-degrade-lavande",
+        "label": "Bleu outremer dégradé lavande",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Mousseline et satin de soie",
+            "images": [
+              { "src": "/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard bleu outremer en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
+            ]
+          }
+        }
+      },
+      "bleu-outremer-degrade-turquoise": {
+        "id": "bleu-outremer-degrade-turquoise",
+        "label": "Bleu outremer dégradé turquoise",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              { "src": "/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard bleu outremer en mousseline et satin de soie" }
+            ],
+            "sizes": [
+              { "id": "40x170", "label": "40x170 cm" }
             ]
           }
         }
@@ -296,3 +1228,5 @@
     "metaDescription": "Foulard avec beaucoup de couleurs et matières."
   }
 ]
+
+

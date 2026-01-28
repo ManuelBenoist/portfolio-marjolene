@@ -64,11 +64,12 @@ interface ImageSource {
   alt?: string
 }
 
-// Raw JSON structure (nested colors/materials)
+// Raw JSON structure (nested colors/materials with sizes)
 interface RawMaterial {
   id: string
   label: string
   images: ImageSource[]
+  sizes: SizeOption[]
 }
 
 interface RawColor {
@@ -82,19 +83,17 @@ interface RawFoulard {
   slug: string
   title: string
   description: string
-  sizes: SizeOption[]
   colors: Record<string, RawColor>
 }
 
-// Pour FoulardGrid : on passe un tableau d'objets {slug, title, description, colors, sizes}
+// Pour FoulardGrid : on passe un tableau d'objets {slug, title, description, colors}
 const foulardsForGrid = computed(() => {
   if (!rawFoulards.value) return []
   return rawFoulards.value.map(foulard => ({
     slug: foulard.slug,
     title: foulard.title,
     description: foulard.description,
-    colors: Object.values(foulard.colors),
-    sizes: foulard.sizes
+    colors: Object.values(foulard.colors)
   }))
 })
 
