@@ -4,9 +4,9 @@
       v-for="option in options"
       :key="option.id"
       type="button"
-      class="w-10 h-10 rounded-full border-2 transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54]"
-      :class="option.id === modelValue ? 'border-[#C94E54] scale-105' : 'border-transparent opacity-80'"
-      :style="{ backgroundColor: option.hex }"
+      class="w-10 h-10 rounded-full transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54] focus-visible:ring-offset-2"
+      :class="option.id === modelValue ? 'ring-2 ring-[#C94E54] ring-offset-2 scale-105' : 'opacity-80 hover:opacity-100'"
+      :style="getSwatchStyle(option)"
       :aria-label="`Sélectionner ${option.label}`"
       :aria-pressed="option.id === modelValue"
       @click="selectOption(option.id)"
@@ -17,10 +17,31 @@
 </template>
 
 <script setup lang="ts">
-type ColorOption = {
+/**
+ * ColorSwatch - Composant de sélection de couleurs
+ * 
+ * Supporte 3 types d'affichage :
+ * - 'solid' (défaut) : Couleur unie simple
+ * - 'gradient' : Dégradé fluide entre plusieurs couleurs
+ * - 'split' : Couleurs séparées par une diagonale nette (bi-color, tri-color...)
+ * 
+ * Format des données :
+ * - hex: string (rétrocompatible, couleur unique)
+ * - hexes: string[] (nouveau, plusieurs couleurs)
+ * - type: 'solid' | 'gradient' | 'split' (nouveau, type d'affichage)
+ */
+
+export type ColorType = 'solid' | 'gradient' | 'split'
+
+export type ColorOption = {
   id: string
   label: string
-  hex: string
+  /** @deprecated Utiliser hexes à la place. Conservé pour rétrocompatibilité */
+  hex?: string
+  /** Liste des couleurs (1 ou plusieurs) */
+  hexes?: string[]
+  /** Type d'affichage : 'solid', 'gradient', 'split' */
+  type?: ColorType
 }
 
 const props = withDefaults(
@@ -43,6 +64,39 @@ const selectOption = (id: string) => {
   if (id === props.modelValue) return
   emit('update:modelValue', id)
   emit('change', id)
+}
+
+/**
+ * Génère le style CSS pour le swatch en fonction du type et des couleurs
+ */
+function getSwatchStyle(option: ColorOption): Record<string, string> {
+  // Récupère les couleurs (rétrocompatibilité avec hex simple)
+  const colors = option.hexes?.length ? option.hexes : (option.hex ? [option.hex] : ['#CCCCCC'])
+  const type = option.type || 'solid'
+
+  // Couleur unique : toujours solid
+  if (colors.length === 1) {
+    return { backgroundColor: colors[0] }
+  }
+
+  // Plusieurs couleurs
+  if (type === 'gradient') {
+    // Dégradé fluide diagonal (135deg)
+    return { background: `linear-gradient(135deg, ${colors.join(', ')})` }
+  }
+
+  if (type === 'split') {
+    // Couleurs séparées par des diagonales nettes
+    const stops = colors.map((color, index) => {
+      const start = (index / colors.length) * 100
+      const end = ((index + 1) / colors.length) * 100
+      return `${color} ${start}%, ${color} ${end}%`
+    }).join(', ')
+    return { background: `linear-gradient(135deg, ${stops})` }
+  }
+
+  // Fallback : gradient par défaut si type inconnu
+  return { background: `linear-gradient(135deg, ${colors.join(', ')})` }
 }
 </script>
 

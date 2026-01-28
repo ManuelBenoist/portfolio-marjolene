@@ -95,7 +95,10 @@ interface Material {
 interface Color {
   id: string
   label: string
-  hex: string
+  /** @deprecated Utiliser hexes */
+  hex?: string
+  hexes?: string[]
+  type?: 'solid' | 'gradient' | 'split'
   materials: Record<string, Material>
 }
 
@@ -162,7 +165,9 @@ const colorOptions = computed(() => {
   return colorList.value.map((c) => ({
     id: c.id,
     label: c.label,
-    hex: c.hex
+    hex: c.hex,
+    hexes: c.hexes,
+    type: c.type
   }))
 })
 

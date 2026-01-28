@@ -206,7 +206,10 @@ interface Material {
 interface Color {
   id: string
   label: string
-  hex: string
+  /** @deprecated Utiliser hexes */
+  hex?: string
+  hexes?: string[]
+  type?: 'solid' | 'gradient' | 'split'
   materials: Record<string, Material>
 }
 interface Foulard {
@@ -233,7 +236,7 @@ if (!foulard.value && !pending.value) {
 
 // Reactive State
 const colorOptions = computed(() =>
-  foulard.value ? Object.values(foulard.value.colors).map(({ id, label, hex }) => ({ id, label, hex })) : []
+  foulard.value ? Object.values(foulard.value.colors).map(({ id, label, hex, hexes, type }) => ({ id, label, hex, hexes, type })) : []
 )
 const selectedColorId = ref<string | null>(colorOptions.value[0]?.id ?? null)
 const selectedMaterialId = ref<string | null>(null)

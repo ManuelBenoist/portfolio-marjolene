@@ -56,7 +56,8 @@
       "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
         "label": "Rouge dégradé orange",
-        "hex": "#000000",
+        "hexes": ["#DC143C", "#FF8C00"],
+        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -73,7 +74,8 @@
       "rose-degrade": {
         "id": "rose-degrade",
         "label": "Rose dégradé",
-        "hex": "#000000",
+        "hexes": ["#FFB6C1", "#FF69B4"],
+        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -90,7 +92,8 @@
       "rose-degrade-jaune": {
         "id": "rose-degrade-jaune",
         "label": "Rose dégradé jaune",
-        "hex": "#000000",
+        "hexes": ["#FFB6C1", "#FFD700"],
+        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -107,7 +110,8 @@
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
         "label": "Rose dégradé orange",
-        "hex": "#000000",
+        "hexes": ["#FFB6C1", "#FF8C00"],
+        "type": "split",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -137,7 +141,8 @@
       "rose-degrade": {
         "id": "rose-degrade",
         "label": "Rose dégradé",
-        "hex": "#000000",
+        "hexes": ["#FFB6C1", "#FF69B4"],
+        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -154,7 +159,8 @@
       "vert": {
         "id": "vert",
         "label": "Vert",
-        "hex": "#000000",
+        "hexes": ["#228B22"],
+        "type": "solid",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -184,7 +190,8 @@
       "jaune-or": {
         "id": "jaune-or",
         "label": "Jaune d'or",
-        "hex": "#000000",
+        "hexes": ["#FFD700"],
+        "type": "solid",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -201,7 +208,8 @@
       "rose-degrade": {
         "id": "rose-degrade",
         "label": "Rose dégradé",
-        "hex": "#000000",
+        "hexes": ["#FFB6C1", "#FF69B4"],
+        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -218,7 +226,8 @@
       "rose-orange-degrade": {
         "id": "rose-orange-degrade",
         "label": "Rose orange dégradé",
-        "hex": "#000000",
+        "hexes": ["#FFB6C1", "#FF8C00"],
+        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -235,7 +244,8 @@
       "bleu-vert-degrade": {
         "id": "bleu-vert-degrade",
         "label": "Bleu vert dégradé",
-        "hex": "#000000",
+        "hexes": ["#4169E1", "#20B2AA"],
+        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -261,7 +271,8 @@
       "bleu-turquoise": {
         "id": "bleu-turquoise",
         "label": "Bleu turquoise",
-        "hex": "#000000",
+        "hexes": ["#40E0D0"],
+        "type": "solid",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
