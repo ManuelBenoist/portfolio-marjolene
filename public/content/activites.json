@@ -9,7 +9,7 @@
       "Pour enfants et adultes",
       "Possibilité de peindre sur le motif (en extérieur)"
     ],
-    "imageSrc": "/peintures/marjo-peinture-1.avif",
+    "imageSrc": "/autres-activites/stages_illu.jpg",
     "imageAlt": "Atelier de peinture avec stages et initiation",
     "position": "right"
   },
@@ -22,7 +22,7 @@
       "Designs variés : florales, géométriques",
       "Commandes possibles"
     ],
-    "imageSrc": "/peintures/marjo-peinture-2.avif",
+    "imageSrc": "/autres-activites/design_textile_illu.jpg",
     "imageAlt": "Design textile et imprimés de Marjolène",
     "position": "left"
   },
@@ -36,7 +36,7 @@
       "Observation directe possible de la vie Provence-sud",
       "Dégustations locale pour découvrir la Provence"
     ],
-    "imageSrc": "/peintures/marjo-peinture-2.avif",
+    "imageSrc": "/autres-activites/gites_illu.jpg",
     "imageAlt": "Gîtes et chambres d'hôtes à Roussillon",
     "position": "right"
   },
@@ -50,7 +50,7 @@
       "Disponibilités limitées pour discuter en personne",
       "Sur la demande d'un rendez-vous"
     ],
-    "imageSrc": "/peintures/marjo-peinture-4.avif",
+    "imageSrc": "/autres-activites/commandes_visites_illu.jpg",
     "imageAlt": "Atelier et commandes de peinture",
     "position": "left"
   }
