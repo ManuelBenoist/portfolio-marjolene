@@ -5,7 +5,7 @@
         <!-- Section Title -->
         <SectionTitle
           title="L'Artiste"
-          subtitle="Découvrez le parcours et la passion de Marjolène Lasne, peintre française inspirée par la lumière méditerranéenne et la beauté du Sud de la France."
+          subtitle="Découvrez le parcours et la passion de Marjolène Lasne, artiste-peintre française inspirée par la lumière méditerranéenne et la beauté du Sud de la France."
         />
 
         <!-- Divider -->
@@ -43,7 +43,7 @@
           />
           <div v-if="artisteContent">
             <p class="text-[#4A5565] text-lg font-montserrat leading-relaxed mb-4">
-              {{ artisteContent.studio.paragraphs[artisteContent.studio.paragraphs.length - 2] }}
+              {{ artisteContent.studio.paragraphs[artisteContent.studio.paragraphs.length - 1] }}
             </p>
             <ContactButton
               :to="{
@@ -65,6 +65,7 @@
 <script lang="ts" setup>
 import { ref, computed } from 'vue'
 import SectionTitle from '~/components/SectionTitle.vue'
+import { useContent } from '~/composables/useContent'
 import TitleImageContent from '~/components/TitleImageContent.vue'
 import Timeline from '~/components/timeline/Timeline.vue'
 

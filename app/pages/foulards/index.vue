@@ -5,7 +5,7 @@
       <!-- Page Header -->
       <SectionTitle 
         title="Foulards"
-        subtitle="Découvrez une collection de foulards en soie, inspirés par les couleurs et motifs de Provence"
+        subtitle="Découvrez la collection de foulards en soie de Marjolène Lasne, pièces uniques aux motifs colorés et fabriquées en France."
       />
 
       <!-- Separator -->

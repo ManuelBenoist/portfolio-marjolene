@@ -5,7 +5,7 @@
       <!-- Page Header -->
       <SectionTitle 
         title="Peintures"
-        subtitle="Découvrez une sélection d'œuvres originales, inspirées par les paysages, l'ambiance des Terrasses et la Lumière du Sud"
+        subtitle="Découvrez une sélection d'œuvres originales de Marjolène Lasne, inspirées par les paysages et l'ambiance du Sud."
       />
 
       <!-- Loading state -->

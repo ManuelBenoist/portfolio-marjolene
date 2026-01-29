@@ -5,7 +5,7 @@
         <!-- Section Title -->
         <SectionTitle 
           title="Autres activités" 
-          subtitle="Pour aller au-delà de la peinture, Marjolène vous propose diverses activités et services"
+          subtitle="Marjolène Lasne élargit son univers artistique en proposant diverses activités en parallèle de la peinture.",
         />
         
         <!-- Separator Line -->

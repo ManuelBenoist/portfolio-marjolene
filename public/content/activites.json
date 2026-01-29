@@ -4,9 +4,9 @@
     "title": "Stages",
     "description": "Cours de peinture et stages d'initiation aux techniques acrylique, huile et aquarelle",
     "items": [
-      "À la demande, individuels ou collectifs (max 8 pers)",
+      "À la demande, individuels ou collectifs (max. 8 pers.)",
       "Organisés dans l'atelier à Roussillon",
-      "Pour enfants et adultes",
+      "Pour enfants et adultes, débutants ou initiés",
       "Possibilité de peindre sur le motif (en extérieur)"
     ],
     "imageSrc": "/autres-activites/stages_illu.jpg",
@@ -16,10 +16,10 @@
   {
     "id": "design-textile",
     "title": "Design textile",
-    "description": "Dans le cadre de sa participation au salon Première Vision 2015 à Paris, Marjolène propose également des imprimés",
+    "description": "Dans le cadre de sa participation au salon Première Vision 2015 à Paris, Marjolène propose également des motifs pour textiles et imprimés.",
     "items": [
-      "Création manuelle (aquarelle, crayon, collage) puis traitement Photoshop",
-      "Designs variés : florales, géométriques",
+      "Créations manuelles (aquarelle, crayon, collage) puis traitement Photoshop",
+      "Designs variés : floraux, géométriques, abstraits...",
       "Commandes possibles"
     ],
     "imageSrc": "/autres-activites/design_textile_illu.jpg",
@@ -29,12 +29,11 @@
   {
     "id": "gites",
     "title": "Gîtes et chambres d'hôtes",
-    "description": "Découvrez un havre de paix à Roussillon en Provence. Des gîtes et chambres d'hôtes chaleureuses pour un séjour inoubliable.",
+    "description": "Découvrez nos gîtes et chambres d'hôtes au coeur de Roussillon en Provence, classé \"Un des plus beaux villages de France\".",
     "items": [
-      "Accueil d'hôtes à Roussillon",
-      "Logements modernes et élégants avec goût",
-      "Observation directe possible de la vie Provence-sud",
-      "Dégustations locale pour découvrir la Provence"
+      "Ouvert de avril à octobre",
+      "Logements modernes et élégants, décorés avec goût",
+      "Localisation idéale pour découvrir le Luberon et la Provence"
     ],
     "imageSrc": "/autres-activites/gites_illu.jpg",
     "imageAlt": "Gîtes et chambres d'hôtes à Roussillon",
@@ -42,13 +41,11 @@
   },
   {
     "id": "commandes-visites",
-    "title": "Commandes et visites de l'atelier",
-    "description": "L'artiste propose des commandes d'aquarelles et de visites sur mesure. On peut, sur rendez-vous, rencontrer l'artiste dans son atelier.",
+    "title": "Commandes",
+    "description": "L'artiste propose des commandes d'oeuvres composées sur-mesure (acryliques, peintures à l'huile, aquarelles).",
     "items": [
-      "Reproduction d'image en peinture peuvent être proposées",
-      "Suites au-on montrer paysages, portraits, natures-mortes",
-      "Disponibilités limitées pour discuter en personne",
-      "Sur la demande d'un rendez-vous"
+      "Création d'oeuvres originales selon vos souhaits (format, thème, couleurs)" ,
+      "Reproduction d'image en peinture possibles (portraits, paysages, natures-mortes)"
     ],
     "imageSrc": "/autres-activites/commandes_visites_illu.jpg",
     "imageAlt": "Atelier et commandes de peinture",
