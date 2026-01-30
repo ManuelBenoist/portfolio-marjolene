@@ -1,70 +1,70 @@
 {
   "collections": {
-    "Scènes d'Intérieurs": [
+    "Scènes d'Intérieur": [
       {
         "slug": "diva-venitienne",
         "title": "Diva Vénitienne",
         "description": "",
         "dimensions": "80x80 cm",
-        "technique": "Acrylique sur toile",
-        "image": "/peintures/scenes-d-interieurs/diva_venitienne.jpg"
+        "technique": "Huile sur toile",
+        "image": "/peintures/scenes-d-interieur/diva_venitienne.jpg"
       },
       {
         "slug": "duo-au-piano",
         "title": "Duo au piano",
         "description": "",
         "dimensions": "20x20 cm",
-        "technique": "Acrylique sur toile",
-        "image": "/peintures/scenes-d-interieurs/duo_au_piano.jpg"
+        "technique": "Techniques mixtes",
+        "image": "/peintures/scenes-d-interieur/duo_au_piano.jpg"
       },
       {
         "slug": "confidences-des-deux-amies",
         "title": "Confidences des deux amies",
         "description": "",
         "dimensions": "46x38 cm",
-        "technique": "Acrylique sur toile",
-        "image": "/peintures/scenes-d-interieurs/confidences_des_deux_amies.jpg"
+        "technique": "Huile sur toile",
+        "image": "/peintures/scenes-d-interieur/confidences_des_deux_amies.jpg"
       },
       {
         "slug": "conversation-a-saint-germain-des-pres",
         "title": "Conversation à Saint-Germain-des-Prés",
         "description": "",
         "dimensions": "55x46 cm",
-        "technique": "Acrylique sur toile",
-        "image": "/peintures/scenes-d-interieurs/conversation_a_saint_germain_des_pres.jpg"
+        "technique": "Huile sur toile",
+        "image": "/peintures/scenes-d-interieur/conversation_a_saint_germain_des_pres.jpg"
       },
       {
         "slug": "autour-d-un-verre-a-venise",
         "title": "Autour d'un verre à Venise (diptyque)",
         "description": "",
         "dimensions": "55x46 cm x2",
-        "technique": "Acrylique sur toile",
-        "image": "/peintures/scenes-d-interieurs/autour_d'un_verre_a_venise_diptyque.png"
+        "technique": "Huile sur toile",
+        "image": "/peintures/scenes-d-interieur/autour_d'un_verre_a_venise_diptyque.png"
       },
       {
         "slug": "le-temps-suspendu",
         "title": "Le Temps Suspendu",
         "description": "",
         "dimensions": "92x73 cm",
-        "technique": "Acrylique sur toile",
-        "image": "/peintures/scenes-d-interieurs/le_temps_suspendu.jpg"
-      },
+        "technique": "Huile sur toile",
+        "image": "/peintures/scenes-d-interieur/le_temps_suspendu.jpg"
+      }
+    ],
+    "Terrasses et Marchés": [
       {
         "slug": "pause-apéritive",
         "title": "Pause Apéritive (diptyque)",
         "description": "",
         "dimensions": "30x60 cm x2",
-        "technique": "Acrylique sur toile",
-        "image": "/peintures/scenes-d-interieurs/pause_aperitive_diptyque.png"
-      }
-    ],
-    "Terrasses et Marchés": [
+        "technique": "Huile sur toile",
+        "image": "/peintures/terrasses-et-marches/pause_aperitive_diptyque.png"
+      },
       {
         "slug": "terrasse-ombragee",
         "title": "Terrasse Ombragée",
         "description": "",
         "dimensions": "81x65 cm",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/terrasses-et-marches/terrasse_ombragee.jpg"
       },
       {
@@ -72,23 +72,15 @@
         "title": "Détente à Gordes",
         "description": "",
         "dimensions": "",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/terrasses-et-marches/detente_a_gordes.jpg"
-      },
-      {
-        "slug": "roussillon-aux-fleurs-sauvages",
-        "title": "Roussillon aux fleurs sauvages",
-        "description": "",
-        "dimensions": "",
-        "technique": "Acrylique sur toile",
-        "image": "/peintures/terrasses-et-marches/roussillon_aux_fleurs_sauvages.jpg"
       },
       {
         "slug": "la-marchande-de-legumes",
         "title": "La Marchande de Légumes",
         "description": "",
         "dimensions": "",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/terrasses-et-marches/la_marchande_de_legumes.jpg"
       },
       {
@@ -96,7 +88,7 @@
         "title": "En Terrasse Parmi Les fleurs",
         "description": "",
         "dimensions": "",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/terrasses-et-marches/en_terrasse_parmi_les_fleurs.jpg"
       },
       {
@@ -104,7 +96,7 @@
         "title": "À la Terrasse du Fournil",
         "description": "",
         "dimensions": "73x50 cm",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/terrasses-et-marches/a_la_terrasse_du_fournil.jpg"
       },
       {
@@ -112,7 +104,7 @@
         "title": "Pause Apéritive au Soleil Provençal",
         "description": "",
         "dimensions": "50x50 cm",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/terrasses-et-marches/pause_aperitive_au_soleil_provencal.jpg"
       },
       {
@@ -120,7 +112,7 @@
         "title": "Promenade d'été en famille à Roussillon",
         "description": "",
         "dimensions": "65x54 cm",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/terrasses-et-marches/promenade_d_ete_en_famille_a_roussillon.jpg"
       },
       {
@@ -128,7 +120,7 @@
         "title": "Les Heures Douces à la Fontaine",
         "description": "",
         "dimensions": "",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/terrasses-et-marches/les_heures_douces_a_la_fontaine.jpg"
       },
       {
@@ -136,7 +128,7 @@
         "title": "Détente au Jardin",
         "description": "",
         "dimensions": "",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/terrasses-et-marches/detente_au_jardin.jpg"
       },
       {
@@ -144,17 +136,25 @@
         "title": "Le Marché de Roussillon",
         "description": "",
         "dimensions": "",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/terrasses-et-marches/le_marche_de_roussillon.jpg"
       }
     ],
     "Paysages": [
+         {
+        "slug": "roussillon-aux-fleurs-sauvages",
+        "title": "Roussillon aux fleurs sauvages",
+        "description": "",
+        "dimensions": "",
+        "technique": "Huile sur toile",
+        "image": "/peintures/paysages/roussillon_aux_fleurs_sauvages.jpg"
+      },
       {
         "slug": "camargue-secrete",
         "title": "Camargue Secrète",
         "description": "",
         "dimensions": "50x50 cm",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/paysages/camargue_secrete.jpg"
       },
       {
@@ -162,7 +162,7 @@
         "title": "Reflets Émeraude",
         "description": "",
         "dimensions": "40x80 cm",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/paysages/reflets_emeraude.jpg"
       },
       {
@@ -170,7 +170,7 @@
         "title": "Symphonie Automnale",
         "description": "",
         "dimensions": "20x20 cm",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/paysages/symphonie_automnale.jpg"
       },
       {
@@ -178,7 +178,7 @@
         "title": "Paysage Pourpre et Vernillon",
         "description": "",
         "dimensions": "20x20 cm",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/paysages/paysage_pourpre_et_vernillon.jpg"
       },
       {
@@ -186,7 +186,7 @@
         "title": "Roussillon au Soleil Joyeux",
         "description": "",
         "dimensions": "",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/paysages/roussillon_au_soleil_joyeux.jpg"
       },
       {
@@ -194,7 +194,7 @@
         "title": "Printemps à Bonnieux",
         "description": "",
         "dimensions": "60x60 cm",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/paysages/printemps_a_bonnieux.jpg"
       },
       {
@@ -202,7 +202,7 @@
         "title": "De Pourpre et d'Azur",
         "description": "",
         "dimensions": "30x30 cm",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/paysages/de_pourpre_et_d_azur.jpg"
       },
       {
@@ -210,7 +210,7 @@
         "title": "Les Vignes de Bonnieux",
         "description": "",
         "dimensions": "80x80 cm",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/paysages/les_vignes_de_bonnieux.jpg"
       },
       {
@@ -218,7 +218,7 @@
         "title": "Gordes aux Iris",
         "description": "",
         "dimensions": "50x50 cm",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/paysages/gordes_aux_iris.jpg"
       },
       {
@@ -226,7 +226,7 @@
         "title": "Dune dans le Vent",
         "description": "",
         "dimensions": "73x60 cm",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/paysages/dune_dans_le_vent.jpg"
       },
       {
@@ -234,7 +234,7 @@
         "title": "Parfums Secrets de Provence",
         "description": "",
         "dimensions": "73x60 cm",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/paysages/parfums_secrets_de_provence.jpg"
       },
       {
@@ -242,16 +242,16 @@
         "title": "Champs d'Herbes Sauvages",
         "description": "",
         "dimensions": "65x54 cm",
-        "technique": "Acrylique sur toile",
+        "technique": "Huile sur toile",
         "image": "/peintures/paysages/champs_d_herbes_sauvages.jpg"
       },
       {
-        "slug": "paysage-pourpre-et-vernillon-au-soleil-couchant",
-        "title": "Paysage Pourpre et Vernillon au Soleil Couchant",
+        "slug": "paysage-pourpre-et-vermillon-au-soleil-couchant",
+        "title": "Paysage Pourpre et Vermillon au Soleil Couchant",
         "description": "",
         "dimensions": "20x20 cm",
-        "technique": "Acrylique sur toile",
-        "image": "/peintures/paysages/paysage_pourpre_et_vernillon_au_soleil_couchant.jpg"
+        "technique": "Huile sur toile",
+        "image": "/peintures/paysages/paysage_pourpre_et_vermillon_au_soleil_couchant.jpg"
       }
     ]
   }
