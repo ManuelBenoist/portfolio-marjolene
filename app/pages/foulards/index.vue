@@ -5,7 +5,7 @@
       <!-- Page Header -->
       <SectionTitle 
         title="Foulards"
-        subtitle="Découvrez la collection de foulards en soie de Marjolène Lasne, pièces uniques aux motifs colorés et fabriquées en France."
+        subtitle="Découvrez la collection de foulards en soie de Marjolène Lasne, en édition limitée de 8 exemplaires fabriqués en France."
       />
 
       <!-- Separator -->
