@@ -14,6 +14,11 @@
         </div>
       </div>
     </div>
+    <div v-if="subParagraphs && subParagraphs.length" class="mt-6 w-full">
+      <template v-for="(sub, idx) in subParagraphs" :key="'sub-' + idx">
+        <p class="text-[#4A5565] text-lg font-montserrat leading-relaxed mb-2">{{ sub }}</p>
+      </template>
+    </div>
   </div>
 </template>
 
@@ -24,6 +29,7 @@ defineProps<{
   caption?: string
   position?: 'left' | 'right'
   paragraphs: string[]
+  subParagraphs?: string[]
 }>()
 </script>
 

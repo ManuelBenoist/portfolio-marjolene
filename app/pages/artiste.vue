@@ -20,6 +20,7 @@
             :caption="artisteContent.biography.caption"
             :position="artisteContent.biography.position"
             :paragraphs="artisteContent.biography.paragraphs"
+            :subParagraphs="artisteContent.biography.sub_paragraphs"
           />
         </div>
 
@@ -92,6 +93,7 @@ interface BiographySection {
   caption: string
   position: 'left' | 'right'
   paragraphs: string[]
+  sub_paragraphs: string[]
 }
 
 interface StudioSection {
