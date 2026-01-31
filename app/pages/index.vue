@@ -57,7 +57,7 @@
             <img 
               src="/logo.png" 
               alt="Marjolène Lasne" 
-              class="h-24 xl:h-32 w-auto"
+              class="h-28 xl:h-36 w-auto"
             />
           </NuxtLink>
         </div>
