@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="to" class="block group">
+  <NuxtLink :to="to" class="block group" :id="`painting-${slug}`">
     <PaintingCard 
       :image="image"
       :title="title"

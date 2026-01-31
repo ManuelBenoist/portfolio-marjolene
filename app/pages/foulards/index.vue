@@ -33,12 +33,15 @@
 <script setup lang="ts">
 // Fetch raw data
 const { data: rawFoulards, pending } = await useContent<RawFoulard[]>('foulards.json')
-import { computed } from 'vue'
+import { computed, onMounted, nextTick } from 'vue'
 
 definePageMeta({ layout: 'grid' })
 
 import SectionTitle from '~/components/SectionTitle.vue'
 import FoulardGrid from '~/components/FoulardGrid.vue'
+
+// Gallery state for scroll restoration
+const { activeFoulardSlug } = useGalleryState()
 
 interface ColorOption {
   id: string
@@ -92,6 +95,26 @@ const foulardsForGrid = computed(() => {
     description: foulard.description,
     colors: Object.values(foulard.colors)
   }))
+})
+
+// Scroll restoration: scroll to the foulard card after returning from detail page
+onMounted(() => {
+  if (activeFoulardSlug.value) {
+    const slugToScrollTo = activeFoulardSlug.value
+    // Clear immediately to prevent re-triggering
+    activeFoulardSlug.value = ''
+    
+    // Use nextTick + requestAnimationFrame to ensure DOM is fully rendered
+    nextTick(() => {
+      requestAnimationFrame(() => {
+        const element = document.getElementById(`foulard-${slugToScrollTo}`)
+        if (element) {
+          // Use scrollIntoView with instant behavior to avoid animation
+          element.scrollIntoView({ behavior: 'instant', block: 'center' })
+        }
+      })
+    })
+  }
 })
 
 // SEO

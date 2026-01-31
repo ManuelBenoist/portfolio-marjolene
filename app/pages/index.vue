@@ -77,8 +77,8 @@
             v-for="(item, index) in menuItems" 
             :key="item.path"
             :to="item.path"
-            :class="['menu-item-animate group font-heading text-5xl xl:text-6xl 2xl:text-7xl text-primary transition-all duration-75 hover:text-accent hover:scale-105 origin-right', { 'menu-visible': isLoaded }]"
-            :style="{ '--menu-delay': `${200 + index * 100}ms` }"
+            :class="['menu-item-animate group font-heading text-5xl xl:text-6xl 2xl:text-7xl text-primary transition-transform hover:text-accent hover:scale-105 origin-right', { 'menu-visible': isLoaded }]"
+            :style="{ '--menu-delay': `${200 + index * 100}ms`, 'transition': 'transform 0.25s ease-out, color 0.25s ease-out' }"
             @mouseenter="activeImage = item.image"
           >
             {{ item.label }}
@@ -115,12 +115,12 @@ const menuItems = [
   { 
     label: "L'Artiste", 
     path: '/artiste', 
-    image: '/peintures/marjo-peinture-1.avif' 
+    image: '/foulards/foulard-marjo-vert.avif' 
   },
   { 
     label: 'Peintures', 
     path: '/peintures', 
-    image: '/peintures/marjo-peinture-2.avif' 
+    image: '/foulards/foulard-marjo-orange.avif' 
   },
   { 
     label: 'Foulards', 
@@ -130,12 +130,12 @@ const menuItems = [
   { 
     label: 'Autres activités', 
     path: '/autres-activites', 
-    image: '/peintures/marjo-peinture-4.avif' 
+    image: '/foulards/foulard-marjo-violet.avif' 
   },
   { 
     label: 'Contact', 
     path: '/contact', 
-    image: '/peintures/marjo-peinture-5.avif' 
+    image: '/foulards/foulard-marjo-bleu.avif' 
   },
 ]
 
@@ -161,10 +161,10 @@ const activeImageAlt = computed(() => {
 </script>
 
 <style scoped>
-/* Transition fade pour les images */
+/* Transition fade pour les images - synchronisée avec le hover menu */
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.5s ease;
+  transition: opacity 0.15s ease-out;
 }
 
 .fade-enter-from,

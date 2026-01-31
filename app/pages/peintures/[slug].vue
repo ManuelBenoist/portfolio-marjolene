@@ -3,7 +3,7 @@
     <div class="w-full flex justify-end pt-4 pb-4 sm:pt-8 sm:pb-10">
       <NuxtLink
         class="flex items-center gap-2 text-xs font-medium uppercase tracking-[0.35em] text-gray-text transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
-        to="/peintures"
+        :to="backToGalleryRoute"
         aria-label="Retour aux œuvres"
       >
         <iconify-icon icon="mdi:close" class="text-3xl"></iconify-icon>
@@ -139,16 +139,21 @@
 <script setup lang="ts">
 definePageMeta({ layout: 'gallery' })
 
-// import { onMounted, onUnmounted } from 'vue'
-// onMounted(() => {
-//   document.body.classList.add('overflow-hidden')
-// })
-// onUnmounted(() => {
-//   document.body.classList.remove('overflow-hidden')
-// })
-// import type { ComputedRef } from 'vue'
-
 const route = useRoute()
+
+// Gallery state for filter persistence and scroll restoration
+const { backToGalleryRoute, activePaintingSlug } = useGalleryState()
+
+// Update active slug when the route changes (including next/prev navigation)
+watch(
+  () => route.params.slug,
+  (newSlug) => {
+    if (newSlug) {
+      activePaintingSlug.value = String(newSlug)
+    }
+  },
+  { immediate: true }
+)
 
 // Typed structure expected from content/peintures.json
 interface Painting {
