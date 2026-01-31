@@ -5,7 +5,7 @@
         <!-- Présentation -->
         <div class="flex-1 min-w-[220px] mb-8 lg:mb-0">
           <div class="font-heading text-xl footer-title mb-2">Marjolène Lasne</div>
-          <div class="text-base leading-relaxed">Artiste peintre basée en Provence, spécialisée dans les paysages méditerranéens et la lumière du Sud.</div>
+          <div class="text-base leading-relaxed">Artiste peintre basée en Provence, inspirée par les paysages colorés, les scènes de vie et la lumière du Sud.</div>
         </div>
         <!-- Navigation -->
         <div class="flex-1 min-w-[170px] mb-8 lg:mb-0">
@@ -25,29 +25,29 @@
             <li class="flex items-center gap-2">
               <Icon icon="lucide:mail" class="w-5 h-5 shrink-0" />
                 <span class="break-words">
-                    marjolene.lasne@example.com
+                    marjolenelasne@gmail.com
                 </span>
             </li>
             <li class="flex items-center gap-2">
               <Icon icon="lucide:phone" class="w-5 h-5 shrink-0" />
                 <span class="whitespace-nowrap">
-                  +33 6 12 34 56 78
+                  +33 6 08 77 08 24
                 </span>
             </li>
-            <li>Atelier en Provence<br/>Visites sur rendez-vous</li>
+            <li>Atelier à Roussillon en Provence</br> France</li>
           </ul>
         </div>
         <!-- Réseaux sociaux -->
         <div class="flex-1 min-w-[170px]">
-          <div class="font-heading text-lg footer-title mb-2">Suivez-moi</div>
+          <div class="font-heading text-lg footer-title mb-2">Suivez l'artiste</div>
           <div class="flex gap-4 mt-2">
-            <a href="#" aria-label="Instagram" class="hover:text-white text-footer-text text-2xl">
+            <a href="https://www.instagram.com/unairdevacances_" aria-label="Instagram" class="hover:text-white text-footer-text text-2xl" target="_blank" rel="noopener noreferrer">
               <Icon icon="mdi:instagram" width="28" height="28" />
             </a>
-            <a href="#" aria-label="Facebook" class="hover:text-white text-footer-text text-2xl">
+            <a href="https://www.facebook.com/profile.php?id=100083185458797" aria-label="Facebook" class="hover:text-white text-footer-text text-2xl">
               <Icon icon="mdi:facebook" width="28" height="28" />
             </a>
-            <a href="#" aria-label="LinkedIn" class="hover:text-white text-footer-text text-2xl">
+            <a href="https://www.linkedin.com/in/marjolenelasne" aria-label="LinkedIn" class="hover:text-white text-footer-text text-2xl" target="_blank" rel="noopener noreferrer">
               <Icon icon="mdi:linkedin" width="28" height="28" />
             </a>
           </div>
