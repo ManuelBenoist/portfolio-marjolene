@@ -47,7 +47,7 @@
             <a href="https://www.facebook.com/profile.php?id=100083185458797" aria-label="Facebook" class="hover:text-white text-footer-text text-2xl">
               <Icon icon="mdi:facebook" width="28" height="28" />
             </a>
-            <a href="https://www.linkedin.com/in/marjolenelasne" aria-label="LinkedIn" class="hover:text-white text-footer-text text-2xl" target="_blank" rel="noopener noreferrer">
+            <a href="https://fr.linkedin.com/in/marjolene-lasne-075036a0" aria-label="LinkedIn" class="hover:text-white text-footer-text text-2xl" target="_blank" rel="noopener noreferrer">
               <Icon icon="mdi:linkedin" width="28" height="28" />
             </a>
           </div>
