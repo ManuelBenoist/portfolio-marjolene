@@ -14,7 +14,7 @@
       
       <!-- Colored Box with Bullet Points -->
       <div class="mt-6 rounded-[12px] bg-accent/10 p-6">
-        <ul class="list-inside list-disc space-y-2 text-base text-gray-text">
+        <ul class="custom-list list-disc space-y-2 text-base text-gray-text">
           <li v-for="(item, index) in items" :key="index">
             {{ item }}
           </li>
@@ -81,3 +81,14 @@ const isExternalLink = computed(() => {
   return typeof props.to === 'string' && props.to.startsWith('http')
 })
 </script>
+
+<style scoped>
+.custom-list {
+  list-style-position: outside;
+  padding-left: 1.5rem;
+}
+
+.custom-list li {
+  padding-left: 1.5rem;
+}
+</style>
