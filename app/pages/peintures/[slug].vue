@@ -1,14 +1,16 @@
 <template>
   <div class="relative min-h-screen bg-background text-gray-text">
-    <div class="w-full flex justify-end pt-4 pb-4 sm:pt-8 sm:pb-10">
-      <NuxtLink
-        class="flex items-center gap-2 text-xs font-medium uppercase tracking-[0.35em] text-gray-text transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
-        :to="backToGalleryRoute"
-        aria-label="Retour aux œuvres"
-      >
-        <iconify-icon icon="mdi:close" class="text-3xl"></iconify-icon>
-        <span class="sm:inline text-gray-text font-medium">Retour aux œuvres</span>
-      </NuxtLink>
+    <div class="max-w-[72rem] mx-auto px-6">
+      <div class="w-full flex justify-end pt-4 pb-4 sm:pt-8 sm:pb-10">
+        <NuxtLink
+          class="flex items-center gap-2 text-xs font-medium uppercase tracking-[0.35em] text-gray-text transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+          :to="backToGalleryRoute"
+          aria-label="Retour aux œuvres"
+        >
+          <iconify-icon icon="mdi:close" class="text-3xl"></iconify-icon>
+          <span class="sm:inline text-gray-text font-medium">Retour aux œuvres</span>
+        </NuxtLink>
+      </div>
     </div>
 
     <div class="mx-auto flex max-w-6xl flex-col px-6 pb-0 pt-0 gap-6 lg:px-10">
@@ -138,7 +140,7 @@
 </template>
 
 <script setup lang="ts">
-definePageMeta({ layout: 'gallery' })
+definePageMeta({ layout: 'full-width' })
 
 const route = useRoute()
 

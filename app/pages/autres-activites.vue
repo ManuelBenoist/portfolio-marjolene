@@ -1,9 +1,7 @@
 <template>
-  <div class="min-h-screen bg-[#FBFAF6]">
-    <main class="flex-1 px-6 sm:px-12 md:px-24">
-      <div class="max-w-[72rem] mx-auto">
-        <!-- Section Title -->
-        <SectionTitle 
+  <div>
+    <!-- Section Title -->
+    <SectionTitle 
           title="Autres activités" 
           subtitle="Marjolène Lasne élargit son univers artistique en proposant diverses activités en parallèle de sa peinture.",
         />
@@ -27,8 +25,6 @@
           :buttonAriaLabel="getButtonLabel(activity.id)"
         />
       </div>
-      </div>
-    </main>
   </div>
 </template>
 

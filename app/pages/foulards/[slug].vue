@@ -187,7 +187,7 @@ import SizeList from '~/components/SizeList.vue'
 import ContactButton from '~/components/ContactButton.vue'
 import ImageLightbox from '~/components/ImageLightbox.vue'
 
-definePageMeta({ layout: 'wide' })
+definePageMeta({ layout: 'full-width' })
 
 // Gallery state for scroll restoration
 const { activeFoulardSlug } = useGalleryState()
