@@ -6,6 +6,7 @@
         class="inline-flex items-center gap-2 text-sm font-medium uppercase font-['Montserrat'] text-[rgb(74,85,101)] transition-colors hover:text-[#C94E54] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54] focus-visible:ring-offset-2"
         to="/foulards"
         aria-label="Retour aux foulards"
+        @click="saveActiveSlug"
       >
         <iconify-icon icon="mdi:arrow-left" class="text-xl"></iconify-icon>
         <span>Retour aux foulards</span>
@@ -187,6 +188,14 @@ import ContactButton from '~/components/ContactButton.vue'
 import ImageLightbox from '~/components/ImageLightbox.vue'
 
 definePageMeta({ layout: 'wide' })
+
+// Gallery state for scroll restoration
+const { activeFoulardSlug } = useGalleryState()
+
+// Save current slug when clicking "back" to restore scroll position
+function saveActiveSlug() {
+  activeFoulardSlug.value = String(route.params.slug)
+}
 
 // Types adaptés à la nouvelle structure
 interface ImageSource {

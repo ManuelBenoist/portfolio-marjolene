@@ -59,7 +59,7 @@
 <script setup lang="ts">
   definePageMeta({ layout: 'grid' })
 
-import { computed, watch } from 'vue'
+import { computed, watch, onMounted, nextTick } from 'vue'
 import SectionTitle from '~/components/SectionTitle.vue'
 import Filter from '~/components/Filter.vue'
 import CardGrid from '~/components/CardGrid.vue'
@@ -104,14 +104,14 @@ const paintings = computed<Painting[]>(() => {
 const route = useRoute()
 const router = useRouter()
 
+// Use gallery state composable for filter persistence and scroll restoration
+const { selectedCollection, selectedTechnique, activePaintingSlug } = useGalleryState()
+
 // Initialiser depuis l'URL si présent (deep linking / refresh)
 const getQueryParam = (key: string): string => {
   const value = route.query[key]
   return (Array.isArray(value) ? value[0] : value) as string || ''
 }
-
-const selectedCollection = useState<string>('peintures-filter-collection', () => getQueryParam('collection'))
-const selectedTechnique = useState<string>('peintures-filter-technique', () => getQueryParam('technique'))
 
 // Synchroniser l'URL vers le state quand on arrive sur la page (ex: depuis un lien de collection)
 watch(() => route.query, (newQuery) => {
@@ -181,6 +181,26 @@ const filteredPaintings = computed(() => {
 })
 
 const filterKey = computed(() => `${selectedCollection.value}::${selectedTechnique.value}`)
+
+// Scroll restoration: scroll to the painting card after returning from detail page
+onMounted(() => {
+  if (activePaintingSlug.value) {
+    const slugToScrollTo = activePaintingSlug.value
+    // Clear immediately to prevent re-triggering
+    activePaintingSlug.value = ''
+    
+    // Use nextTick + requestAnimationFrame to ensure DOM is fully rendered
+    nextTick(() => {
+      requestAnimationFrame(() => {
+        const element = document.getElementById(`painting-${slugToScrollTo}`)
+        if (element) {
+          // Use scrollIntoView with instant behavior to avoid animation
+          element.scrollIntoView({ behavior: 'instant', block: 'center' })
+        }
+      })
+    })
+  }
+})
 
 </script>
 

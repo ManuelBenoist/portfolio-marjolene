@@ -1,5 +1,6 @@
 <template>
   <article
+    :id="`foulard-${slug}`"
     class="bg-white rounded-2xl overflow-hidden w-full max-w-[420px] cursor-pointer card-premium"
     @click="navigateToDetail"
   >
