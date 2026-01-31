@@ -60,6 +60,7 @@
               <p class="text-sm font-medium text-primary/70">Vous avez une question&nbsp;?</p>
               <ContactButton
                 :to="contactLink"
+                class="mt-4"
               />
             </div>
           </div>

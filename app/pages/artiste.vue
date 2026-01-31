@@ -55,12 +55,10 @@
             :image="artisteContent.studio.image"
             :caption="artisteContent.studio.caption"
             :position="artisteContent.studio.position"
-            :paragraphs="artisteContent.studio.paragraphs.slice(0, -1)"
+            :paragraphs="artisteContent.studio.paragraphs"
+            :subParagraphs="artisteContent.studio.sub_paragraphs"
           />
-          <div v-if="artisteContent">
-            <p class="text-[#4A5565] text-lg font-montserrat leading-relaxed mb-4">
-              {{ artisteContent.studio.paragraphs[artisteContent.studio.paragraphs.length - 1] }}
-            </p>
+          <div class="pl-8">
             <ContactButton
               :to="{
                 path: '/contact',
@@ -72,6 +70,7 @@
               label="Contacter l'artiste"
             />
           </div>
+          
         </div>
       </div>
     </main>
@@ -102,6 +101,7 @@ interface StudioSection {
   caption: string
   position: 'left' | 'right'
   paragraphs: string[]
+  sub_paragraphs: string[]
 }
 
 interface ArtisteContent {

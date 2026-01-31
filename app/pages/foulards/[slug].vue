@@ -128,7 +128,7 @@
               :to="contactLink"
               label="Contacter l'artiste"
               aria-label="Contacter l'artiste pour ce foulard"
-              class="w-full justify-center"
+              class="w-full justify-center mt-4"
             />
 
             <!-- Separator -->
