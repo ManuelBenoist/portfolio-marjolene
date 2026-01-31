@@ -5,7 +5,7 @@
         <!-- Section Title -->
         <SectionTitle 
           title="Contact" 
-          subtitle="Pour toute question ou commande, merci de remplir le formulaire ci-dessous. Marjolène Lasne vous répondra dans les meilleurs délais."
+          subtitle="Pour toute question ou commande, merci de remplir le formulaire ci-dessous."
         />
         
         <!-- Separator Line -->
