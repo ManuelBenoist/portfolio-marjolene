@@ -4,7 +4,7 @@
       <h1 class="text-3xl font-bold mb-8">Politique de confidentialité</h1>
       
       <p class="text-sm text-gray-600 mb-8">
-        Dernière mise à jour : [Date de mise à jour]
+        Dernière mise à jour : 31/01/2026
       </p>
 
       <p class="mb-8">
@@ -16,11 +16,11 @@
         <h2 class="text-xl font-semibold mb-4">1. Responsable du traitement des données</h2>
         <p class="mb-2">Le responsable du traitement des données personnelles collectées sur ce site est :</p>
         <ul class="list-none space-y-1 ml-4">
-          <li><strong>Nom :</strong> [Prénom Nom]</li>
+          <li><strong>Nom :</strong> Marjolène Lasne</li>
           <li><strong>Statut :</strong> Artiste peintre, micro-entrepreneur</li>
-          <li><strong>Adresse :</strong> [Adresse complète]</li>
+          <li><strong>Adresse :</strong> 11 Place de l'Abbé Avon, 84220 Roussillon</li>
           <li><strong>SIRET :</strong> [Numéro SIRET]</li>
-          <li><strong>Email de contact RGPD :</strong> [Email de contact RGPD]</li>
+          <li><strong>Email de contact RGPD :</strong> marjolenelasne@gmail.com</li>
         </ul>
       </section>
 
@@ -401,8 +401,8 @@
           Pour toute question relative à la présente politique de confidentialité ou pour toute demande concernant vos données personnelles, vous pouvez nous contacter :
         </p>
         <ul class="list-none space-y-1 ml-4">
-          <li><strong>Par email :</strong> [Email de contact RGPD]</li>
-          <li><strong>Par courrier :</strong> [Prénom Nom] - [Adresse complète]</li>
+          <li><strong>Par email :</strong> marjolenelasne@gmail.com</li>
+          <li><strong>Par courrier :</strong> Marjolène Lasne - 11 Place de l'Abbé Avon, 84220 Roussillon</li>
         </ul>
       </section>
 

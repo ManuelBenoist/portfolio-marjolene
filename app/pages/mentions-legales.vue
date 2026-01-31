@@ -11,15 +11,15 @@
         <h2 class="text-xl font-semibold mb-4">1. Éditeur du site</h2>
         <p class="mb-2">Le présent site est édité par :</p>
         <ul class="list-none space-y-1 ml-4">
-          <li><strong>Nom :</strong> [Prénom Nom]</li>
+          <li><strong>Nom :</strong> Marjolène Lasne</li>
           <li><strong>Statut :</strong> Artiste peintre, micro-entrepreneur</li>
-          <li><strong>Adresse :</strong> [Adresse complète]</li>
+          <li><strong>Adresse :</strong> 11 Place de l'Abbé Avon, 84220 Roussillon</li>
           <li><strong>SIRET :</strong> [Numéro SIRET]</li>
-          <li><strong>Téléphone :</strong> [Numéro de téléphone]</li>
-          <li><strong>Email :</strong> [adresse@email.com]</li>
+          <li><strong>Téléphone :</strong> +33 6 08 77 08 24</li>
+          <li><strong>Email :</strong> marjolenelasne@gmail.com</li>
         </ul>
         <p class="mt-4 text-sm text-gray-600">
-          Directeur de la publication : [Prénom Nom]
+          Directeur de la publication : Marjolène Lasne
         </p>
       </section>
 
@@ -124,9 +124,9 @@
           Pour toute question relative aux présentes mentions légales ou pour toute demande concernant le site, vous pouvez contacter l'éditeur :
         </p>
         <ul class="list-none space-y-1 ml-4">
-          <li><strong>Par email :</strong> [adresse@email.com]</li>
-          <li><strong>Par téléphone :</strong> [Numéro de téléphone]</li>
-          <li><strong>Par courrier :</strong> [Adresse complète]</li>
+          <li><strong>Par email :</strong> marjolenelasne@gmail.com</li>
+          <li><strong>Par téléphone :</strong> +33 6 08 77 08 24</li>
+          <li><strong>Par courrier :</strong> 11 Place de l'Abbé Avon, 84220 Roussillon</li>
         </ul>
       </section>
 
@@ -145,7 +145,7 @@
       </section>
 
       <p class="text-sm text-gray-500 mt-8">
-        Dernière mise à jour : [Date de mise à jour]
+        Dernière mise à jour : 31/01/2026
       </p>
     </div>
   </div>
@@ -157,7 +157,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Mentions légales du site portfolio de [Prénom Nom], artiste peintre.'
+      content: 'Mentions légales du site portfolio de Marjolène Lasne, artiste peintre.'
     },
     {
       name: 'robots',
