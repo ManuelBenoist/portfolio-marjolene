@@ -4,7 +4,7 @@
     <div class="max-w-6xl mx-auto flex items-center justify-between py-2 px-6">
       <!-- Logo toujours visible -->
       <NuxtLink to="/" class="flex items-center shrink-0" aria-label="Accueil">
-        <img src="/logo.jpg" alt="Marjolène Lasne" class="h-16 sm:h-20 w-auto max-h-[80px]" />
+        <img src="/logo.png" alt="Marjolène Lasne" class="h-16 sm:h-20 w-auto max-h-[80px]" />
       </NuxtLink>
 
       <!-- Menu principal desktop -->
@@ -48,7 +48,7 @@
       <nav v-if="menuOpen" class="lg:hidden fixed top-0 left-0 w-full h-full bg-white bg-opacity-95 z-50 flex flex-col items-center justify-center">
         <!-- Logo dans le menu burger -->
         <NuxtLink to="/" class="absolute top-6 left-6" aria-label="Accueil" @click="menuOpen = false">
-          <img src="/logo.jpg" alt="Marjolène Lasne" class="h-12 w-auto" />
+          <img src="/logo.png" alt="Marjolène Lasne" class="h-12 w-auto" />
         </NuxtLink>
         <button @click="menuOpen = false" aria-label="Fermer le menu" class="absolute top-6 right-6 p-2">
           <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
