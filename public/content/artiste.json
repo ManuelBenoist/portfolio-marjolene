@@ -15,14 +15,12 @@
   },
   "studio": {
     "title": "Atelier et lieu d'exposition",
-    "image": "/peintures/marjo-peinture-1.avif",
+    "image": "autres-activites/commandes_visites_illu.jpg",
     "caption": "L'atelier de Marjolène à Roussillon",
     "position": "right",
     "paragraphs": [
-        "Au cœur du village de Roussillon, dans le Luberon, Marjolène Lasne vous accueille dans son atelier."
-    ],
-    "sub_paragraphs": [
-        "Ses peintures les plus récentes sont exposées, à deux pas de son atelier, au sein de la galerie du collectif d'artistes de Roussillon, regroupant d'autres peintres et sculpteurs. Ce lieu d’exposition permet de découvrir ses œuvres originales dans un cadre authentique et lumineux, en lien direct avec l’environnement provençal qui inspire sa palette."
-    ]
+        "Au cœur du village de Roussillon, dans le Luberon, Marjolène Lasne vous accueille dans son atelier.",
+        "Ses peintures les plus récentes sont exposées, à deux pas de son atelier, au sein du Collectif d'Artistes de Roussillon, regroupant d'autres peintres et sculpteurs. Ce lieu d’exposition permet de découvrir ses œuvres originales dans un cadre authentique et lumineux, en lien direct avec l’environnement provençal qui inspire sa palette."
+      ]
   }
 }

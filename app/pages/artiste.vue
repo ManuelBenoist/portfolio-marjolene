@@ -58,19 +58,6 @@
             :paragraphs="artisteContent.studio.paragraphs"
             :subParagraphs="artisteContent.studio.sub_paragraphs"
           />
-          <div class="pl-8">
-            <ContactButton
-              :to="{
-                path: '/contact',
-                query: {
-                  sujet: 'artiste',
-                  message: `Bonjour,\n\nJe souhaite contacter l'artiste Marjolène Lasne.\n\nCordialement,`
-                }
-              }"
-              label="Contacter l'artiste"
-            />
-          </div>
-          
         </div>
       </div>
     </main>
@@ -78,13 +65,11 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, computed } from 'vue'
 import SectionTitle from '~/components/SectionTitle.vue'
 import { useContent } from '~/composables/useContent'
 import TitleImageContent from '~/components/TitleImageContent.vue'
 import Timeline from '~/components/timeline/Timeline.vue'
 import QuoteBlock from '~/components/QuoteBlock.vue'
-import ContactButton from '~/components/ContactButton.vue'
 
 interface BiographySection {
   title: string
