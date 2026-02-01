@@ -18,10 +18,23 @@ export default defineNuxtConfig({
           async: true,
         },
       ],
+      title: 'Marjolène Lasne - Artiste Peintre',
+      meta: [
+        { name: 'description', content: 'Portfolio de Marjolène Lasne, artiste peintre spécialisée dans les portraits et les paysages.' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { charset: 'utf-8' },
+        { name: 'author', content: 'Marjolène Lasne' },
+        { name: 'keywords', content: 'Marjolène Lasne, artiste peintre, peintures, portraits, paysages, art contemporain, galerie d\'art' },
+      ],
     },
     // Page transitions for premium navigation feel
     pageTransition: {
       name: 'page',
+      mode: 'out-in',
+    },
+    // Layout transitions when switching between layouts (e.g., default <-> full-width)
+    layoutTransition: {
+      name: 'layout',
       mode: 'out-in',
     },
   },
