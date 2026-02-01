@@ -74,6 +74,22 @@ a:focus {
 	transform: translateY(-8px);
 }
 
+/* Layout Transitions (when switching between layouts) */
+.layout-enter-active,
+.layout-leave-active {
+	transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.layout-enter-from {
+	opacity: 0;
+	transform: translateY(12px);
+}
+
+.layout-leave-to {
+	opacity: 0;
+	transform: translateY(-8px);
+}
+
 /* Scroll Reveal Animations - consistent 0.5s timing */
 .reveal-hidden {
 	opacity: 0;
