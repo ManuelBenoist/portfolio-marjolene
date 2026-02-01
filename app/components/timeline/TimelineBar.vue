@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-full items-center justify-center gap-4 h-20">
+  <div v-reveal class="flex w-full items-center justify-center gap-4 h-20">
 
     <!-- Boutons -->
     <div class="flex items-center gap-2 h-20">

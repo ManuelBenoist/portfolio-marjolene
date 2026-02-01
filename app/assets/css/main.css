@@ -90,20 +90,14 @@ a:focus {
 	transition-delay: var(--reveal-delay, 0ms);
 }
 
-/* Staggered Grid Items - starts visible, animation triggered by JS */
+/* Staggered Grid Items - starts hidden, revealed by JS class */
 .stagger-item {
-	opacity: 1;
-	transform: translateY(0);
+	opacity: 0;
+	transform: translateY(20px);
 	transition: 
 		opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1),
 		transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 	transition-delay: var(--stagger-delay, 0ms);
-}
-
-/* Hidden state applied by JS before animation */
-.stagger-item.stagger-hidden {
-	opacity: 0;
-	transform: translateY(20px);
 }
 
 .stagger-item.revealed {

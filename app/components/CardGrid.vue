@@ -32,18 +32,22 @@ onMounted(async () => {
   
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
   if (prefersReducedMotion) {
-    return // Items already visible by default
+    // Show items immediately for reduced motion
+    const children = Array.from(gridRef.value.children) as HTMLElement[]
+    children.forEach((child) => child.classList.add('revealed'))
+    return
   }
 
   const children = Array.from(gridRef.value.children) as HTMLElement[]
-  
-  // First, hide all items
-  children.forEach((child) => {
-    child.classList.add('stagger-hidden')
-  })
 
-  // Small delay to ensure CSS is applied
+  // Wait for hydration to complete and page transition to finish
+  // This prevents the IntersectionObserver from triggering immediately on page load
+  await new Promise(resolve => setTimeout(resolve, 100))
+
+  // Observe grid and trigger staggered reveal when visible
   requestAnimationFrame(() => {
+    if (!gridRef.value) return
+    
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -51,7 +55,6 @@ onMounted(async () => {
             // Stagger reveal children
             children.forEach((child, index) => {
               setTimeout(() => {
-                child.classList.remove('stagger-hidden')
                 child.classList.add('revealed')
               }, index * 60)
             })

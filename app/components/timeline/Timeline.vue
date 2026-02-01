@@ -1,5 +1,5 @@
 <template>
-  <section class="flex w-full flex-col items-center gap-10">
+  <section v-reveal class="flex w-full flex-col items-center gap-10">
     <TimelineBar
       v-if="hasEntries"
       :dates="dates"

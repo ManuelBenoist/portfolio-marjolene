@@ -9,13 +9,14 @@
       <!-- Separator -->
       <hr class="border-t border-[#E5DFD3] mb-10" />
 
-      <!-- Loading state -->
-      <div v-if="pending" class="text-center py-12">
-        <p class="text-[#4A5565]">Chargement des foulards...</p>
-      </div>
+      <!-- Loading state with transition -->
+      <Transition name="content-fade" mode="out-in">
+        <div v-if="pending" key="loading" class="text-center py-12">
+          <p class="text-[#4A5565]">Chargement des foulards...</p>
+        </div>
 
-      <!-- Gallery -->
-      <template v-else>
+        <!-- Gallery -->
+        <div v-else key="content">
         <div v-if="foulardsForGrid.length">
           <FoulardGrid :items="foulardsForGrid" />
         </div>
@@ -23,7 +24,8 @@
         <div v-else class="text-center py-12">
           <p class="text-[#4A5565]">Aucun foulard disponible pour le moment.</p>
         </div>
-      </template>
+        </div>
+      </Transition>
   </div>
 </template>
 
@@ -122,3 +124,26 @@ useSeoMeta({
   ogDescription: 'Découvrez les foulards en soie de Marjolène Lasne, pièces uniques fabriquées en France.',
 })
 </script>
+
+<style scoped>
+/* Content loading transition */
+.content-fade-enter-active,
+.content-fade-leave-active {
+  transition: opacity 350ms ease;
+}
+.content-fade-enter-from,
+.content-fade-leave-to {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .content-fade-enter-active,
+  .content-fade-leave-active {
+    transition: none;
+  }
+  .content-fade-enter-from,
+  .content-fade-leave-to {
+    opacity: 1;
+  }
+}
+</style>

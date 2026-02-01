@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <!-- Section Title & Biography (contained) -->
-    <div class="max-w-[72rem] mx-auto px-6 pt-12">
+    <div v-reveal class="max-w-[72rem] mx-auto px-6 pt-12">
       <SectionTitle
         title="L'Artiste"
         subtitle="Découvrez le parcours et la passion de Marjolène Lasne, artiste-peintre française inspirée par la lumière méditerranéenne et la beauté du Sud de la France."

@@ -6,13 +6,14 @@
         subtitle="Découvrez une sélection d'œuvres originales de Marjolène Lasne, inspirées par les paysages, les scènes de vie et l'ambiance du Sud."
       />
 
-      <!-- Loading state -->
-      <div v-if="pending" class="text-center py-12">
-        <p class="text-[#4A5565]">Chargement des peintures...</p>
-      </div>
+      <!-- Loading state with transition -->
+      <Transition name="content-fade" mode="out-in">
+        <div v-if="pending" key="loading" class="text-center py-12">
+          <p class="text-[#4A5565]">Chargement des peintures...</p>
+        </div>
 
-      <!-- Filters Section -->
-      <template v-else>
+        <!-- Filters Section -->
+        <div v-else key="content">
         <div v-if="paintings && paintings.length > 0" class="mb-12">
           <div class="space-y-6">
             <!-- Collections Filter -->
@@ -49,7 +50,8 @@
             </div>
           </div>
         </Transition>
-      </template>
+        </div>
+      </Transition>
   </div>
 </template>
 
@@ -204,12 +206,12 @@ onMounted(() => {
 <style scoped>
 .filter-fade-enter-active,
 .filter-fade-leave-active {
-  transition: opacity 200ms ease, transform 200ms ease;
+  transition: opacity 350ms ease, transform 350ms ease;
 }
 .filter-fade-enter-from,
 .filter-fade-leave-to {
   opacity: 0;
-  transform: translateY(6px);
+  transform: translateY(8px);
 }
 .filter-fade-enter-to,
 .filter-fade-leave-from {
@@ -217,13 +219,27 @@ onMounted(() => {
   transform: translateY(0);
 }
 
+/* Content loading transition */
+.content-fade-enter-active,
+.content-fade-leave-active {
+  transition: opacity 350ms ease;
+}
+.content-fade-enter-from,
+.content-fade-leave-to {
+  opacity: 0;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .filter-fade-enter-active,
-  .filter-fade-leave-active {
+  .filter-fade-leave-active,
+  .content-fade-enter-active,
+  .content-fade-leave-active {
     transition: none;
   }
   .filter-fade-enter-from,
-  .filter-fade-leave-to {
+  .filter-fade-leave-to,
+  .content-fade-enter-from,
+  .content-fade-leave-to {
     opacity: 1;
     transform: none;
   }

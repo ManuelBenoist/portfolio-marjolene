@@ -30,32 +30,36 @@ export default defineNuxtPlugin((nuxtApp) => {
         el.style.setProperty('--reveal-delay', `${delay}ms`)
       }
 
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              // Small RAF delay for smoother paint
-              requestAnimationFrame(() => {
-                el.classList.remove('reveal-hidden')
-                el.classList.add('revealed')
-              })
+      // Wait for hydration to complete before starting observer
+      // This prevents immediate trigger on page refresh/SSR
+      setTimeout(() => {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                // Small RAF delay for smoother paint
+                requestAnimationFrame(() => {
+                  el.classList.remove('reveal-hidden')
+                  el.classList.add('revealed')
+                })
 
-              if (once) {
-                observer.unobserve(el)
+                if (once) {
+                  observer.unobserve(el)
+                }
+              } else if (!once) {
+                el.classList.add('reveal-hidden')
+                el.classList.remove('revealed')
               }
-            } else if (!once) {
-              el.classList.add('reveal-hidden')
-              el.classList.remove('revealed')
-            }
-          })
-        },
-        { threshold, rootMargin: '0px 0px -50px 0px' }
-      )
+            })
+          },
+          { threshold, rootMargin: '0px 0px -50px 0px' }
+        )
 
-      observer.observe(el)
+        observer.observe(el)
 
-      // Cleanup on unmount
-      ;(el as any)._revealObserver = observer
+        // Store observer for cleanup
+        ;(el as any)._revealObserver = observer
+      }, 100)
     },
     unmounted(el: HTMLElement) {
       const observer = (el as any)._revealObserver
