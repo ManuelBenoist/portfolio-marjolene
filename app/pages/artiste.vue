@@ -33,7 +33,7 @@
 
     <!-- Timeline Section (full-width background) -->
     <div class="w-full bg-[#C94E54]/[0.04] py-16 mb-16">
-      <div class="max-w-[72rem] mx-auto px-6">
+      <div class="max-w-[72rem] mx-auto pl-14">
         <h2 class="text-[2.5rem] font-['Averia_Serif_Libre'] font-light text-[#C94E54] mb-8">Parcours et formation</h2>
         <Timeline />
       </div>
