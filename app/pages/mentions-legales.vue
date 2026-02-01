@@ -11,15 +11,15 @@
         <h2 class="text-xl font-semibold mb-4">1. Éditeur du site</h2>
         <p class="mb-2">Le présent site est édité par :</p>
         <ul class="list-none space-y-1 ml-4">
-          <li><strong>Nom :</strong> [Prénom Nom]</li>
+          <li><strong>Nom :</strong> Marjolène Lasne</li>
           <li><strong>Statut :</strong> Artiste peintre, micro-entrepreneur</li>
-          <li><strong>Adresse :</strong> [Adresse complète]</li>
+          <li><strong>Adresse :</strong> 11 Place de l'Abbé Avon, 84220 Roussillon</li>
           <li><strong>SIRET :</strong> [Numéro SIRET]</li>
-          <li><strong>Téléphone :</strong> [Numéro de téléphone]</li>
-          <li><strong>Email :</strong> [adresse@email.com]</li>
+          <li><strong>Téléphone :</strong> +33 6 08 77 08 24</li>
+          <li><strong>Email :</strong> marjolenelasne@gmail.com</li>
         </ul>
         <p class="mt-4 text-sm text-gray-600">
-          Directeur de la publication : [Prénom Nom]
+          Directeur de la publication : Marjolène Lasne
         </p>
       </section>
 
@@ -27,8 +27,9 @@
         <h2 class="text-xl font-semibold mb-4">2. Hébergeur</h2>
         <p class="mb-2">Le site est hébergé par :</p>
         <ul class="list-none space-y-1 ml-4">
-          <li><strong>Raison sociale :</strong> GitHub, Inc.</li>
+          <li><strong>Raison sociale :</strong> GitHub Inc.</li>
           <li><strong>Adresse :</strong> 88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis</li>
+          <li>Hébergement via Github Pages</li>
           <li><strong>Site web :</strong> <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="text-primary hover:text-accent underline underline-offset-2">https://github.com</a></li>
         </ul>
       </section>
@@ -36,13 +37,13 @@
       <section class="mb-8">
         <h2 class="text-xl font-semibold mb-4">3. Propriété intellectuelle</h2>
         <p class="mb-4">
-          L'ensemble du contenu de ce site (textes, images, photographies, illustrations, œuvres artistiques, logos, icônes) est la propriété exclusive de [Prénom Nom], sauf mention contraire.
+          L'ensemble du contenu de ce site (textes, images, photographies, illustrations, œuvres artistiques, logos, icônes) est la propriété exclusive de Marjolène Lasne, sauf mention contraire.
         </p>
         <p class="mb-4">
           Les œuvres artistiques présentées sur ce site sont protégées par le droit d'auteur conformément au Code de la propriété intellectuelle (articles L.111-1 et suivants).
         </p>
         <p class="mb-4">
-          Toute reproduction, représentation, modification, publication, adaptation, totale ou partielle, des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite sans l'autorisation écrite préalable de [Prénom Nom].
+          Toute reproduction, représentation, modification, publication, adaptation, totale ou partielle, des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite sans l'autorisation écrite préalable de Marjolène Lasne.
         </p>
         <p>
           Toute exploitation non autorisée du site ou de l'un quelconque des éléments qu'il contient sera considérée comme constitutive d'une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de la propriété intellectuelle.
@@ -78,7 +79,7 @@
           <li>Droit d'opposition</li>
         </ul>
         <p>
-          Pour exercer ces droits, vous pouvez contacter l'éditeur à l'adresse email suivante : [adresse@email.com]. En cas de litige, vous pouvez introduire une réclamation auprès de la CNIL (Commission Nationale de l'Informatique et des Libertés).
+          Pour exercer ces droits, vous pouvez contacter l'éditeur à l'adresse email suivante : marjolenelasne@gmail.com. En cas de litige, vous pouvez introduire une réclamation auprès de la CNIL (Commission Nationale de l'Informatique et des Libertés).
         </p>
       </section>
 
@@ -124,9 +125,9 @@
           Pour toute question relative aux présentes mentions légales ou pour toute demande concernant le site, vous pouvez contacter l'éditeur :
         </p>
         <ul class="list-none space-y-1 ml-4">
-          <li><strong>Par email :</strong> [adresse@email.com]</li>
-          <li><strong>Par téléphone :</strong> [Numéro de téléphone]</li>
-          <li><strong>Par courrier :</strong> [Adresse complète]</li>
+          <li><strong>Par email :</strong> marjolenelasne@gmail.com</li>
+          <li><strong>Par téléphone :</strong> +33 6 08 77 08 24</li>
+          <li><strong>Par courrier :</strong> 11 Place de l'Abbé Avon, 84220 Roussillon</li>
         </ul>
       </section>
 
@@ -145,7 +146,7 @@
       </section>
 
       <p class="text-sm text-gray-500 mt-8">
-        Dernière mise à jour : [Date de mise à jour]
+        Dernière mise à jour : 31/01/2026
       </p>
     </div>
   </div>
@@ -157,7 +158,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Mentions légales du site portfolio de [Prénom Nom], artiste peintre.'
+      content: 'Mentions légales du site portfolio de Marjolène Lasne, artiste peintre.'
     },
     {
       name: 'robots',
