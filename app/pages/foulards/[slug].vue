@@ -128,7 +128,7 @@
               :to="contactLink"
               label="Contacter l'artiste"
               aria-label="Contacter l'artiste pour ce foulard"
-              class="w-full justify-center"
+              class="w-full justify-center mt-4"
             />
 
             <!-- Separator -->
@@ -187,7 +187,7 @@ import SizeList from '~/components/SizeList.vue'
 import ContactButton from '~/components/ContactButton.vue'
 import ImageLightbox from '~/components/ImageLightbox.vue'
 
-definePageMeta({ layout: 'wide' })
+definePageMeta({ layout: 'full-width' })
 
 // Gallery state for scroll restoration
 const { activeFoulardSlug } = useGalleryState()

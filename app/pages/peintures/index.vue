@@ -1,9 +1,7 @@
 <template>
-  <div class="min-h-screen bg-[#FBFAF6] flex flex-col">
-    <!-- Main Content -->
-    <main class="flex-1 px-6 sm:px-12 md:px-24">
-      <!-- Page Header -->
-      <SectionTitle 
+  <div>
+    <!-- Page Header -->
+    <SectionTitle 
         title="Peintures"
         subtitle="Découvrez une sélection d'œuvres originales de Marjolène Lasne, inspirées par les paysages, les scènes de vie et l'ambiance du Sud."
       />
@@ -52,12 +50,11 @@
           </div>
         </Transition>
       </template>
-    </main>
   </div>
 </template>
 
 <script setup lang="ts">
-  definePageMeta({ layout: 'grid' })
+  definePageMeta({ layout: 'default' })
 
 import { computed, watch, onMounted, nextTick } from 'vue'
 import SectionTitle from '~/components/SectionTitle.vue'

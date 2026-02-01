@@ -1,9 +1,7 @@
 <template>
-  <div class="min-h-screen bg-[#FBFAF6]">
-    <main class="flex-1 px-6 sm:px-12 md:px-24">
-      <div class="max-w-[72rem] mx-auto">
-        <!-- Section Title -->
-        <SectionTitle 
+  <div>
+    <!-- Section Title -->
+    <SectionTitle 
           title="Contact" 
           subtitle="Pour toute question ou commande, merci de remplir le formulaire ci-dessous."
         />
@@ -229,8 +227,6 @@
           </div>
 
         </div>
-      </div>
-    </main>
   </div>
 </template>
 

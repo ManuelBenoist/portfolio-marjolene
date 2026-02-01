@@ -1,9 +1,7 @@
 <template>
-  <div class="min-h-screen bg-[#FBFAF6] flex flex-col">
-    <!-- Main Content -->
-    <main class="flex-1 px-6 sm:px-12 md:px-24">
-      <!-- Page Header -->
-      <SectionTitle 
+  <div>
+    <!-- Page Header -->
+    <SectionTitle 
         title="Foulards"
         subtitle="Découvrez la collection de foulards en soie de Marjolène Lasne, fabriqués en France en édition limitée."
       />
@@ -26,7 +24,6 @@
           <p class="text-[#4A5565]">Aucun foulard disponible pour le moment.</p>
         </div>
       </template>
-    </main>
   </div>
 </template>
 
@@ -35,7 +32,7 @@
 const { data: rawFoulards, pending } = await useContent<RawFoulard[]>('foulards.json')
 import { computed, onMounted, nextTick } from 'vue'
 
-definePageMeta({ layout: 'grid' })
+definePageMeta({ layout: 'default' })
 
 import SectionTitle from '~/components/SectionTitle.vue'
 import FoulardGrid from '~/components/FoulardGrid.vue'

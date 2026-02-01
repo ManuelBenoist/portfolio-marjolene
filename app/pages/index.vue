@@ -12,7 +12,7 @@
           :class="['logo-animate', { 'logo-visible': isLoaded }]"
         >
           <img 
-            src="/logo.jpg" 
+            src="/logo.png" 
             alt="Marjolène Lasne" 
             class="h-28 w-auto"
           />
@@ -55,9 +55,9 @@
         >
           <NuxtLink to="/" aria-label="Accueil">
             <img 
-              src="/logo.jpg" 
+              src="/logo.png" 
               alt="Marjolène Lasne" 
-              class="h-24 xl:h-32 w-auto"
+              class="h-28 xl:h-36 w-auto"
             />
           </NuxtLink>
         </div>
