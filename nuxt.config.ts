@@ -32,11 +32,8 @@ export default defineNuxtConfig({
       name: 'page',
       mode: 'out-in',
     },
-    // Layout transitions when switching between layouts (e.g., default <-> full-width)
-    layoutTransition: {
-      name: 'layout',
-      mode: 'out-in',
-    },
+    // Layout transitions disabled - all pages now use implicit default layout
+    layoutTransition: false,
   },
   // Static site generation configuration
   nitro: {

@@ -56,7 +56,6 @@
 </template>
 
 <script setup lang="ts">
-
 import { computed, watch, onMounted, nextTick } from 'vue'
 import SectionTitle from '~/components/SectionTitle.vue'
 import Filter from '~/components/Filter.vue'

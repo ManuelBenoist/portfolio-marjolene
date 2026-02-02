@@ -31,7 +31,21 @@ export default <RouterConfig>{
       }
     }
 
-    // Default: scroll to top
-    return { top: 0 }
+    // Default: scroll to top after page transition completes
+    // Delay scroll to sync with page transition (350ms) to avoid visual "jump"
+    const prefersReducedMotion = typeof window !== 'undefined' 
+      && window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
+    if (prefersReducedMotion) {
+      // Instant scroll for users who prefer reduced motion
+      return { top: 0 }
+    }
+
+    // Return a promise that resolves after the page transition out phase
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve({ top: 0, behavior: 'instant' })
+      }, 400) // Slightly longer than transition duration (350ms)
+    })
   }
 }

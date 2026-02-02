@@ -140,8 +140,6 @@
 </template>
 
 <script setup lang="ts">
-definePageMeta({ layout: 'full-width' })
-
 const route = useRoute()
 
 // Gallery state for filter persistence and scroll restoration

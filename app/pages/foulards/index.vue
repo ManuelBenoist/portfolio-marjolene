@@ -30,11 +30,12 @@
 </template>
 
 <script setup lang="ts">
-// Fetch raw data
-const { data: rawFoulards, pending } = await useContent<RawFoulard[]>('foulards.json')
 import { computed, onMounted, nextTick } from 'vue'
 import SectionTitle from '~/components/SectionTitle.vue'
 import FoulardGrid from '~/components/FoulardGrid.vue'
+
+// Fetch raw data
+const { data: rawFoulards, pending } = await useContent<RawFoulard[]>('foulards.json')
 
 // Gallery state for scroll restoration
 const { activeFoulardSlug } = useGalleryState()
