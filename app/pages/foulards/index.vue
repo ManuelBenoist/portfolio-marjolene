@@ -1,29 +1,31 @@
 <template>
-  <div>
-    <!-- Page Header -->
-    <SectionTitle 
-        title="Foulards"
-        subtitle="Découvrez la collection de foulards en soie de Marjolène Lasne, fabriqués en France en édition limitée."
-      />
+  <div class="max-w-[72rem] mx-auto px-6 py-12">
+    <div>
+      <!-- Page Header -->
+      <SectionTitle 
+          title="Foulards"
+          subtitle="Découvrez la collection de foulards en soie de Marjolène Lasne, fabriqués en France en édition limitée."
+        />
 
-      <!-- Separator -->
-      <hr class="border-t border-[#E5DFD3] mb-10" />
+        <!-- Separator -->
+        <hr class="border-t border-[#E5DFD3] mb-10" />
 
-      <!-- Loading state -->
-      <div v-if="pending" class="text-center py-12">
-        <p class="text-[#4A5565]">Chargement des foulards...</p>
-      </div>
-
-      <!-- Gallery -->
-      <template v-else>
-        <div v-if="foulardsForGrid.length">
-          <FoulardGrid :items="foulardsForGrid" />
+        <!-- Loading state -->
+        <div v-if="pending" class="text-center py-12">
+          <p class="text-[#4A5565]">Chargement des foulards...</p>
         </div>
 
-        <div v-else class="text-center py-12">
-          <p class="text-[#4A5565]">Aucun foulard disponible pour le moment.</p>
-        </div>
-      </template>
+        <!-- Gallery -->
+        <template v-else>
+          <div v-if="foulardsForGrid.length">
+            <FoulardGrid :items="foulardsForGrid" />
+          </div>
+
+          <div v-else class="text-center py-12">
+            <p class="text-[#4A5565]">Aucun foulard disponible pour le moment.</p>
+          </div>
+        </template>
+    </div>
   </div>
 </template>
 
@@ -31,9 +33,6 @@
 // Fetch raw data
 const { data: rawFoulards, pending } = await useContent<RawFoulard[]>('foulards.json')
 import { computed, onMounted, nextTick } from 'vue'
-
-definePageMeta({ layout: 'default' })
-
 import SectionTitle from '~/components/SectionTitle.vue'
 import FoulardGrid from '~/components/FoulardGrid.vue'
 

@@ -1,30 +1,32 @@
 <template>
-  <div>
-    <!-- Section Title -->
-    <SectionTitle 
-          title="Autres activités" 
-          subtitle="Marjolène Lasne élargit son univers artistique en proposant diverses activités en parallèle de sa peinture.",
-        />
-        
-        <!-- Separator Line -->
-        <div class="border-t border-[#D1D5DC] mt-8 mb-12"></div>
+  <div class="max-w-[72rem] mx-auto px-6 py-12">
+    <div>
+      <!-- Section Title -->
+      <SectionTitle 
+            title="Autres activités" 
+            subtitle="Marjolène Lasne élargit son univers artistique en proposant diverses activités en parallèle de sa peinture.",
+          />
+          
+          <!-- Separator Line -->
+          <div class="border-t border-[#D1D5DC] mt-8 mb-12"></div>
 
-        <!-- Activities Sections -->
-        <div class="space-y-24">
-        <ActivitiesSection
-          v-for="(activity, index) in activities"
-          :key="activity.id"
-          :title="activity.title"
-          :description="activity.description"
-          :items="activity.items"
-          :imageSrc="activity.imageSrc"
-          :imageAlt="activity.imageAlt"
-          :position="activity.position"
-          :to="getRouteTo(activity.id)"
-          :buttonLabel="getButtonLabel(activity.id)"
-          :buttonAriaLabel="getButtonLabel(activity.id)"
-        />
-      </div>
+          <!-- Activities Sections -->
+          <div class="space-y-24">
+          <ActivitiesSection
+            v-for="(activity, index) in activities"
+            :key="activity.id"
+            :title="activity.title"
+            :description="activity.description"
+            :items="activity.items"
+            :imageSrc="activity.imageSrc"
+            :imageAlt="activity.imageAlt"
+            :position="activity.position"
+            :to="getRouteTo(activity.id)"
+            :buttonLabel="getButtonLabel(activity.id)"
+            :buttonAriaLabel="getButtonLabel(activity.id)"
+          />
+        </div>
+    </div>
   </div>
 </template>
 

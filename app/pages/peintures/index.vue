@@ -1,60 +1,61 @@
 <template>
-  <div>
-    <!-- Page Header -->
-    <SectionTitle 
-        title="Peintures"
-        subtitle="Découvrez une sélection d'œuvres originales de Marjolène Lasne, inspirées par les paysages, les scènes de vie et l'ambiance du Sud."
-      />
+  <div class="max-w-[72rem] mx-auto px-6 py-12">
+    <div>
+      <!-- Page Header -->
+      <SectionTitle 
+          title="Peintures"
+          subtitle="Découvrez une sélection d'œuvres originales de Marjolène Lasne, inspirées par les paysages, les scènes de vie et l'ambiance du Sud."
+        />
 
-      <!-- Loading state -->
-      <div v-if="pending" class="text-center py-12">
-        <p class="text-[#4A5565]">Chargement des peintures...</p>
-      </div>
-
-      <!-- Filters Section -->
-      <template v-else>
-        <div v-if="paintings && paintings.length > 0" class="mb-12">
-          <div class="space-y-6">
-            <!-- Collections Filter -->
-            <Filter
-              v-model="selectedCollection"
-              title="Collections"
-              :items="collectionOptions"
-            />
-
-            <!-- Techniques Filter -->
-            <Filter
-              v-model="selectedTechnique"
-              title="Techniques"
-              :items="techniqueOptions"
-            />
-          </div>
-
-          <!-- Separator -->
-          <div class="border-t border-[#D1D5DC] mt-8"></div>
+        <!-- Loading state -->
+        <div v-if="pending" class="text-center py-12">
+          <p class="text-[#4A5565]">Chargement des peintures...</p>
         </div>
 
-        <!-- Gallery -->
-        <Transition name="filter-fade" mode="out-in">
-          <div :key="filterKey">
-            <div v-if="filteredPaintings.length > 0">
-              <CardGrid 
-                :items="filteredPaintings" 
-                :card-component="PaintingCardWrapper"
+        <!-- Filters Section -->
+        <template v-else>
+          <div v-if="paintings && paintings.length > 0" class="mb-12">
+            <div class="space-y-6">
+              <!-- Collections Filter -->
+              <Filter
+                v-model="selectedCollection"
+                title="Collections"
+                :items="collectionOptions"
+              />
+
+              <!-- Techniques Filter -->
+              <Filter
+                v-model="selectedTechnique"
+                title="Techniques"
+                :items="techniqueOptions"
               />
             </div>
 
-            <div v-else class="text-center py-12">
-              <p class="text-[#4A5565]">Aucune peinture ne correspond à votre sélection.</p>
-            </div>
+            <!-- Separator -->
+            <div class="border-t border-[#D1D5DC] mt-8"></div>
           </div>
-        </Transition>
-      </template>
+
+          <!-- Gallery -->
+          <Transition name="filter-fade" mode="out-in">
+            <div :key="filterKey">
+              <div v-if="filteredPaintings.length > 0">
+                <CardGrid 
+                  :items="filteredPaintings" 
+                  :card-component="PaintingCardWrapper"
+                />
+              </div>
+
+              <div v-else class="text-center py-12">
+                <p class="text-[#4A5565]">Aucune peinture ne correspond à votre sélection.</p>
+              </div>
+            </div>
+          </Transition>
+        </template>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
-  definePageMeta({ layout: 'default' })
 
 import { computed, watch, onMounted, nextTick } from 'vue'
 import SectionTitle from '~/components/SectionTitle.vue'

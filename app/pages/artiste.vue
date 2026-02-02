@@ -72,8 +72,6 @@ import TitleImageContent from '~/components/TitleImageContent.vue'
 import Timeline from '~/components/timeline/Timeline.vue'
 import QuoteBlock from '~/components/QuoteBlock.vue'
 
-definePageMeta({ layout: 'full-width' })
-
 interface BiographySection {
   title: string
   image: string
