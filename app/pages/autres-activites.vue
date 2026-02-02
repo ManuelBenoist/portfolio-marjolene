@@ -43,11 +43,22 @@ interface Activity {
 
 const activities = ref<Activity[]>([])
 
-// Fetch activities data
-const { data: activitiesData } = await useFetch('/content/activites.json')
-
-if (activitiesData.value) {
-  activities.value = activitiesData.value as Activity[]
+// Fetch activities data (server: read from filesystem; client: fetch from public)
+if (process.server) {
+  const { readFile } = await import('fs/promises')
+  const { resolve } = await import('path')
+  try {
+    const file = await readFile(resolve(process.cwd(), 'public/content/activites.json'), 'utf-8')
+    activities.value = JSON.parse(file) as Activity[]
+  } catch (e) {
+    // keep activities empty on error but log server-side for debugging
+    console.error('Failed to read activites.json during SSR prerender:', e)
+  }
+} else {
+  const { data: activitiesData } = await useFetch('/content/activites.json')
+  if (activitiesData.value) {
+    activities.value = activitiesData.value as Activity[]
+  }
 }
 
 // Routing logic based on activity type

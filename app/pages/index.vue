@@ -152,7 +152,8 @@ const revealedMenu = ref(menuItems.map(() => false))
 const isLogoVisible = ref(false)
 const isLoaded = ref(false)
 
-// Trigger animations after mount
+// Trigger animations after mount (client-only)
+onMounted(() => {
   // Preload images for smoother hover interactions
   menuItems.forEach(item => {
     const img = new Image()
@@ -174,6 +175,7 @@ const isLoaded = ref(false)
       }, i * 160)
     })
   }, 180)
+})
 
 // Alt text dynamique basé sur l'image active
 const activeImageAlt = computed(() => {
