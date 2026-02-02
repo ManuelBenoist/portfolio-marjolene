@@ -219,32 +219,41 @@ a:focus {
 }
 
 /* Menu item animations for landing page */
+
+/* Apparition verticale douce (du fond) */
 .menu-item-animate {
 	opacity: 0;
-	transform: translateX(-30px);
-	transition: 
-		opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
-		transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+	transform: translateY(32px) scale(0.98);
+	transition:
+		opacity 0.95s cubic-bezier(0.19, 1, 0.22, 1),
+		transform 0.95s cubic-bezier(0.19, 1, 0.22, 1);
 	transition-delay: var(--menu-delay, 0ms);
 }
 
 .menu-item-animate.menu-visible {
 	opacity: 1;
-	transform: translateX(0);
+	transform: translateY(0) scale(1);
+}
+
+/* Optionnel : pour accentuer la douceur */
+.menu-item-animate.menu-smooth {
+	will-change: opacity, transform;
+	backface-visibility: hidden;
 }
 
 /* Logo fade in */
+/* Logo pop comme les items du menu */
 .logo-animate {
 	opacity: 0;
-	transform: scale(0.95);
-	transition: 
-		opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
-		transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+	transform: translateY(32px) scale(0.98);
+	transition:
+		opacity 0.95s cubic-bezier(0.19, 1, 0.22, 1),
+		transform 0.95s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .logo-animate.logo-visible {
 	opacity: 1;
-	transform: scale(1);
+	transform: translateY(0) scale(1);
 }
 
 /* Image panel animation */

@@ -9,7 +9,7 @@
         <NuxtLink 
           to="/" 
           aria-label="Accueil"
-          :class="['logo-animate', { 'logo-visible': isLoaded }]"
+          :class="['logo-animate', { 'logo-visible': isLogoVisible }]"
         >
           <img 
             src="/logo.png" 
@@ -25,8 +25,7 @@
           v-for="(item, index) in menuItems" 
           :key="item.path"
           :to="item.path"
-          :class="['menu-item-animate font-heading text-4xl sm:text-5xl text-primary hover:text-accent transition-colors duration-75', { 'menu-visible': isLoaded }]"
-          :style="{ '--menu-delay': `${150 + index * 80}ms` }"
+            :class="['menu-item-animate font-heading text-4xl sm:text-5xl text-primary hover:text-accent transition-colors duration-75', { 'menu-visible': revealedMenu[index], 'menu-smooth': true }]"
         >
           {{ item.label }}
         </NuxtLink>
@@ -51,7 +50,7 @@
         <!-- Logo en haut à gauche -->
         <div 
           class="absolute top-8 left-8 xl:left-12"
-          :class="['logo-animate', { 'logo-visible': isLoaded }]"
+          :class="['logo-animate', { 'logo-visible': isLogoVisible }]"
         >
           <NuxtLink to="/" aria-label="Accueil">
             <img 
@@ -72,13 +71,16 @@
         </div>
 
         <!-- Menu vertical aligné à droite -->
-        <nav class="flex flex-col items-end gap-8 pr-8 xl:pr-16">
+        <nav 
+          class="flex flex-col items-end gap-8 pr-8 xl:pr-16"
+          @mouseleave="activeImage = null"
+        >
           <NuxtLink 
             v-for="(item, index) in menuItems" 
             :key="item.path"
             :to="item.path"
-            :class="['menu-item-animate group font-heading text-5xl xl:text-6xl 2xl:text-7xl text-primary transition-transform hover:text-accent hover:scale-105 origin-right', { 'menu-visible': isLoaded }]"
-            :style="{ '--menu-delay': `${200 + index * 100}ms`, 'transition': 'transform 0.25s ease-out, color 0.25s ease-out' }"
+            :class="['menu-item-animate group font-heading text-5xl xl:text-6xl 2xl:text-7xl text-primary transition-transform hover:text-accent hover:scale-105 origin-right', { 'menu-visible': revealedMenu[index], 'menu-smooth': true }]"
+            :style="{ 'transition': 'transform 0.25s ease-out, color 0.25s ease-out' }"
             @mouseenter="activeImage = item.image"
           >
             {{ item.label }}
@@ -91,9 +93,10 @@
         class="relative overflow-hidden"
         :class="['image-panel-animate', { 'panel-visible': isLoaded }]"
       >
-        <!-- Images avec transition fade -->
-        <Transition name="fade" mode="out-in">
+        <!-- Images avec transition fade - apparaît uniquement au hover -->
+        <Transition name="fade">
           <img 
+            v-if="activeImage"
             :key="activeImage"
             :src="activeImage"
             :alt="activeImageAlt"
@@ -106,7 +109,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, nextTick } from 'vue'
 
 definePageMeta({ layout: false })
 
@@ -139,19 +142,38 @@ const menuItems = [
   },
 ]
 
-// Image active (par défaut: première image)
-const activeImage = ref(menuItems[0].image)
+// Image active (null par défaut - apparaît uniquement au hover)
+const activeImage = ref(null)
 
-// Animation state - starts false for SSR, becomes true on client mount
+// Pour le stagger/reveal progressif des items du menu
+const revealedMenu = ref(menuItems.map(() => false))
+
+// Animation state - logo puis menu
+const isLogoVisible = ref(false)
 const isLoaded = ref(false)
 
 // Trigger animations after mount
-onMounted(() => {
-  // Small delay to ensure CSS is ready
-  requestAnimationFrame(() => {
-    isLoaded.value = true
+  // Preload images for smoother hover interactions
+  menuItems.forEach(item => {
+    const img = new Image()
+    img.src = item.image
   })
-})
+
+  // 1. Affiche le logo d'abord
+  requestAnimationFrame(() => {
+    isLogoVisible.value = true
+  })
+
+  // 2. Puis le menu après un court délai
+  setTimeout(() => {
+    isLoaded.value = true
+    // Staggered reveal des items du menu (desktop & mobile)
+    menuItems.forEach((_, i) => {
+      setTimeout(() => {
+        revealedMenu.value[i] = true
+      }, i * 160)
+    })
+  }, 180)
 
 // Alt text dynamique basé sur l'image active
 const activeImageAlt = computed(() => {
@@ -161,10 +183,10 @@ const activeImageAlt = computed(() => {
 </script>
 
 <style scoped>
-/* Transition fade pour les images - synchronisée avec le hover menu */
+/* Transition fade premium pour les images */
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.15s ease-out;
+  transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .fade-enter-from,
