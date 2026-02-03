@@ -27,6 +27,7 @@ const gridClass = computed(() => {
 
 // Trigger stagger reveal on mount
 onMounted(async () => {
+  if (typeof window === 'undefined') return
   await nextTick()
   if (!gridRef.value) return
   
