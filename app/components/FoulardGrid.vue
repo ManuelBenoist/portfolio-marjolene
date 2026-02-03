@@ -24,6 +24,7 @@ defineProps<{
 const gridRef = ref<HTMLElement | null>(null)
 
 onMounted(async () => {
+  if (typeof window === 'undefined') return
   await nextTick()
   if (!gridRef.value) return
   
