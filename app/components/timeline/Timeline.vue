@@ -13,7 +13,7 @@
       Chronologie en cours de préparation.
     </p>
 
-    <div v-if="hasEntries" class="w-full flex justify-center">
+    <div v-if="hasEntries && activeEntry" class="w-full flex justify-center">
       <TimelineContent :entry="activeEntry" />
     </div>
   </section>
