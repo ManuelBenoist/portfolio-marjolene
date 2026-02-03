@@ -4,8 +4,6 @@
  */
 
 export function useContent<T>(filename: string) {
-  const baseURL = import.meta.env.PROD ? '' : ''
-  
   return useAsyncData<T>(
     `content-${filename}`,
     async () => {
@@ -20,7 +18,6 @@ export function useContent<T>(filename: string) {
           const content = await readFile(filePath, 'utf-8')
           return JSON.parse(content) as T
         } catch (error) {
-          console.warn(`[useContent] Failed to read ${filename} from filesystem, trying fetch`)
           // Fallback to fetch if file read fails
           return $fetch<T>(`/content/${filename}`)
         }
