@@ -44,7 +44,7 @@
             <a href="https://www.instagram.com/unairdevacances_" aria-label="Instagram" class="hover:text-white text-footer-text text-2xl" target="_blank" rel="noopener noreferrer">
               <Icon icon="mdi:instagram" width="28" height="28" />
             </a>
-            <a href="https://www.facebook.com/profile.php?id=100083185458797" aria-label="Facebook" class="hover:text-white text-footer-text text-2xl">
+            <a href="https://www.facebook.com/profile.php?id=100083185458797" aria-label="Facebook" class="hover:text-white text-footer-text text-2xl" target="_blank" rel="noopener noreferrer">
               <Icon icon="mdi:facebook" width="28" height="28" />
             </a>
             <a href="https://fr.linkedin.com/in/marjolene-lasne-075036a0" aria-label="LinkedIn" class="hover:text-white text-footer-text text-2xl" target="_blank" rel="noopener noreferrer">
