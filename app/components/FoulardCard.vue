@@ -190,7 +190,7 @@ const currentImage = computed(() => {
 ---------------------------------- */
 
 function navigateToDetail() {
-  if (!props.slug) return
+  if (!props.slug || typeof props.slug !== 'string' || !/^[a-zA-Z0-9-_]+$/.test(props.slug)) return
   navigateTo({
     path: `/foulards/${props.slug}`,
     query: {
