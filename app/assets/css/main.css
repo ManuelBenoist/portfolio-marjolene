@@ -1,4 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400&family=Montserrat:wght@400;700&display=swap');
+@font-face {
+	font-family: 'Averia Serif Libre';
+	src: url('/fonts/averia-serif-libre-v19-latin-300.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Averia Serif Libre';
+	src: url('/fonts/averia-serif-libre-v19-latin-regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/fonts/montserrat-v31-latin-regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/fonts/montserrat-v31-latin-700.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
 
 @tailwind base;
 @tailwind components;
