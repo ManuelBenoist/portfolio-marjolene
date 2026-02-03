@@ -1,4 +1,4 @@
-<template>
+<template v-if="isValidSlug">
   <NuxtLink 
     :to="`/foulards/${slug}`"
     class="block transition-transform hover:scale-[1.02] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
@@ -48,4 +48,6 @@ const props = defineProps<{
   materials: MaterialOption[]
   baseImage: ImageSource
 }>()
+
+const isValidSlug = typeof props.slug === 'string' && /^[a-zA-Z0-9-_]+$/.test(props.slug)
 </script>
