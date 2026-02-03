@@ -53,8 +53,7 @@ if (process.server) {
     const file = await readFile(resolve(process.cwd(), 'public/content/activites.json'), 'utf-8')
     activities.value = JSON.parse(file) as Activity[]
   } catch (e) {
-    // keep activities empty on error but log server-side for debugging
-    console.error('Failed to read activites.json during SSR prerender:', e)
+    // keep activities empty on error
   }
 } else {
   const { data: activitiesData } = await useFetch('/content/activites.json')

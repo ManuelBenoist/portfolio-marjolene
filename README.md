@@ -1,75 +1,91 @@
-# Nuxt Minimal Starter
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Portfolio Marjolène — Projet Nuxt 3
 
-## Setup
+Ce projet est un portfolio pour l'artiste Marjolène, développé avec Nuxt 3, TypeScript et TailwindCSS. Il présente ses foulards, peintures, activités et informations personnelles dans une interface moderne et responsive.
 
-Make sure to install dependencies:
+## Fonctionnalités principales
+
+- **Présentation des œuvres** :
+	- Foulards (listing, détail, filtres par couleur/matière)
+	- Peintures (listing, détail, catégories)
+- **Section artiste** : biographie, frise chronologique, citations
+- **Autres activités** : page dédiée
+- **Contact** : bouton de contact
+- **Navigation multilingue** (français/anglais)
+- **Lightbox pour images**
+- **Design responsive**
+
+## Structure du projet
+
+```
+app/
+	components/         # Composants Vue réutilisables (cards, filtres, lightbox, etc.)
+	composables/        # Fonctions utilitaires (état galerie, contenu)
+	pages/              # Pages Nuxt (artiste, foulards, peintures, contact, etc.)
+	plugins/            # Plugins (scroll reveal)
+	assets/css/         # Feuilles de style (main.css)
+public/
+	content/            # Données JSON (œuvres, artiste, frise, etc.)
+	foulards/, peintures/ # Images des œuvres
+	fonts/              # Polices personnalisées
+```
+
+## Installation
+
+Installez les dépendances :
 
 ```bash
-# npm
 npm install
-
-# pnpm
+# ou
 pnpm install
-
-# yarn
+# ou
 yarn install
-
-# bun
+# ou
 bun install
 ```
 
-## Development Server
+## Lancement en développement
 
-Start the development server on `http://localhost:3000`:
+Lancez le serveur de développement sur `http://localhost:3000` :
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
+# ou
 pnpm dev
-
-# yarn
+# ou
 yarn dev
-
-# bun
+# ou
 bun run dev
 ```
 
-## Production
+## Build et prévisualisation production
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
+Pour builder et prévisualiser :
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+npm run build && npm run preview
+# ou
+pnpm build && pnpm preview
+# ou
+yarn build && yarn preview
+# ou
+bun run build && bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Déploiement
+
+Consultez la [documentation Nuxt](https://nuxt.com/docs/getting-started/deployment) pour les instructions de déploiement.
+
+## Données et contenu
+
+Les contenus (œuvres, artiste, frise, etc.) sont stockés dans `public/content/*.json` et les images dans `public/foulards/` et `public/peintures/`.
+
+## Personnalisation
+
+- **Styles** : modifiez `app/assets/css/main.css` et `tailwind.config.js`.
+- **Composants** : ajoutez ou modifiez les composants dans `app/components/`.
+- **Pages** : ajoutez/modifiez les pages dans `app/pages/`.
+
+---
+
+Projet réalisé avec Nuxt 3, TypeScript, TailwindCSS.

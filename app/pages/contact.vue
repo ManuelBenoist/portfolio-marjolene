@@ -361,7 +361,6 @@ const handleSubmit = async () => {
       errors.value = ['Une erreur est survenue, veuillez réessayer.'];
     }
   } catch (e) {
-    console.error("Erreur d'envoi du formulaire:", e);
     errors.value = ['Une erreur de connexion est survenue. Veuillez vérifier votre réseau.'];
   } finally {
     loading.value = false;
