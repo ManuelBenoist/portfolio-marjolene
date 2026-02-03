@@ -46,6 +46,7 @@ html, body {
 	font-family: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-tap-highlight-color: transparent;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -75,8 +76,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Small accessibility helpers */
-a:focus {
-	outline: 3px solid rgba(46,61,139,0.2);
+:focus {
+	outline: none;
+}
+
+:focus-visible {
+	outline: 2px solid var(--color-primary);
 	outline-offset: 2px;
 }
 
