@@ -81,8 +81,8 @@ function getSwatchStyle(option: ColorOption): Record<string, string> {
 
   // Plusieurs couleurs
   if (type === 'gradient') {
-    // Dégradé fluide diagonal (135deg)
-    return { background: `linear-gradient(135deg, ${colors.join(', ')})` }
+    // Dégradé fluide diagonal (45deg)
+    return { background: `linear-gradient(45deg, ${colors.join(', ')})` }
   }
 
   if (type === 'split') {
@@ -92,11 +92,11 @@ function getSwatchStyle(option: ColorOption): Record<string, string> {
       const end = ((index + 1) / colors.length) * 100
       return `${color} ${start}%, ${color} ${end}%`
     }).join(', ')
-    return { background: `linear-gradient(135deg, ${stops})` }
+    return { background: `linear-gradient(45deg, ${stops})` }
   }
 
   // Fallback : gradient par défaut si type inconnu
-  return { background: `linear-gradient(135deg, ${colors.join(', ')})` }
+  return { background: `linear-gradient(45deg, ${colors.join(', ')})` }
 }
 </script>
 
