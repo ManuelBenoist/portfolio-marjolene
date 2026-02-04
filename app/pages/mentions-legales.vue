@@ -15,7 +15,7 @@
             <li><strong>Nom :</strong> Marjolène Lasne</li>
             <li><strong>Statut :</strong> Artiste peintre, micro-entrepreneur</li>
             <li><strong>Adresse :</strong> 11 Place de l'Abbé Avon, 84220 Roussillon</li>
-            <li><strong>SIRET :</strong> [Numéro SIRET]</li>
+            <li><strong>SIRET :</strong> 3441744300061 </li>
             <li><strong>Téléphone :</strong> +33 6 08 77 08 24</li>
             <li><strong>Email :</strong> marjolenelasne@gmail.com</li>
           </ul>
