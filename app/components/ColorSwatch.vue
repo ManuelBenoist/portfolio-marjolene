@@ -81,7 +81,12 @@ function getSwatchStyle(option: ColorOption): Record<string, string> {
 
   // Plusieurs couleurs
   if (type === 'gradient') {
-    // Dégradé fluide diagonal (45deg)
+    if (colors.length === 3) {
+      // Dégradé tricolore circulaire avec transitions douces
+      const [first, second, third] = colors
+      return { background: `conic-gradient(${first}, ${second}, ${third}, ${first})` }
+    }
+    // Dégradé fluide diagonal (45deg) pour 2 couleurs (ou plus)
     return { background: `linear-gradient(45deg, ${colors.join(', ')})` }
   }
 

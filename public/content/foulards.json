@@ -7,7 +7,7 @@
       "rose-degrade-orange-fond-blanc": {
         "id": "rose-degrade-orange-fond-blanc",
         "label": "Rose dégradé orange fond blanc",
-        "hexes": ["#E360B1","#ffffff"],
+        "hexes": ["#E360B1","#FFFFFF","#FD9418"],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
