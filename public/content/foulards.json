@@ -2,7 +2,7 @@
   {
     "slug": "pivoines",
     "title": "Pivoines",
-    "description": "...",
+    "description": "Dans cette composition, quelques pivoines stylisées légèrement cernées de noir sont traitées dans des tons chauds allant du rose à l'orange sur un fond bleu dégradé et vert anis.",
     "colors": {
       "rose-degrade": {
         "id": "rose-degrade",
@@ -136,7 +136,7 @@
   {
     "slug": "roses",
     "title": "Roses",
-    "description": "...",
+    "description": "Des roses dans de tendres harmonies de rose foncé et prune se détachent de cette composition aux teintes vert anis et émeraude.",
     "colors": {
       "rose-degrade": {
         "id": "rose-degrade",
@@ -185,7 +185,7 @@
   {
     "slug": "eclats-or",
     "title": "Eclats d'Or",
-    "description": "...",
+    "description": "Cette composition tonique par ses couleurs vives, le traitement élancé de ses gerbes, et le stylisme de ses fleurs apportent vigueur et dynamisme.",
     "colors": {
       "jaune-or": {
         "id": "jaune-or",
@@ -266,7 +266,7 @@
   {
     "slug": "coquelicots",
     "title": "Coquelicots",
-    "description": "...",
+    "description": "Dans cette composition en diagonale, de légers coquelicots volant au vent se font tête sur un fond de champs dorés et de ciel radieux.",
     "colors": {
       "bleu-turquoise": {
         "id": "bleu-turquoise",
@@ -400,7 +400,7 @@
   {
     "slug": "fleurs-de-porcelaine",
     "title": "Fleurs de Porcelaine",
-    "description": "...",
+    "description": "De subtiles volutes ornent cette composition dont les fleurs de procelaine et les végétaux se détachent sur un fond jaune d'or et rose tonique.",
     "colors": {
       "rose-degrade-jaune": {
         "id": "rose-degrade-jaune",
@@ -790,7 +790,7 @@
   {
     "slug": "courbes",
     "title": "Courbes",
-    "description": "...",
+    "description": "Sur un fond jaune orangé et rose délimité par une courbe sinueuse, des fleurs dans des tons chauds de rose et violine viennent ponctuer cette élégante composition.",
     "colors": {
       "rose-degrade-rose": {
         "id": "rose-degrade-rose",
@@ -870,7 +870,7 @@
   {
     "slug": "printemps-en-couleurs",
     "title": "Printemps en Couleurs",
-    "description": "...",
+    "description": "De part et d'autre de ce foulard, de graciles coquelicots prennent place soulignés par de légères graminées.",
     "colors": {
       "vert-degrade-turquoise": {
         "id": "vert-degrade-turquoise",
@@ -950,7 +950,7 @@
   {
     "slug": "paysage-de-roussillon",
     "title": "Paysage de Roussillon",
-    "description": "...",
+    "description": "Le village de Roussillon, avec ses herbes folles au premier plan, vient habiller ce foulard de part et d'autre de sa longueur et se détache sur un ciel lumineux.",
     "colors": {
       "vert-degrade": {
         "id": "vert-degrade",
@@ -1030,7 +1030,7 @@
   {
     "slug": "fleurs-et-papillons",
     "title": "Fleurs et Papillons",
-    "description": "...",
+    "description": "Dans cette composition tout en verticalité, des lignes sinueuses servent de support à de graciles fleurs des champs et de lavandes, berceau à de multiples papillons.",
     "colors": {
       "bleu-outremer-degrade-lavande": {
         "id": "bleu-outremer-degrade-lavande",
@@ -1110,7 +1110,7 @@
   {
     "slug": "oiseaux-exotiques",
     "title": "Oiseaux Exotiques",
-    "description": "...",
+    "description": "Des oiseaux exotiques aux couleurs chatoyantes forment une danse au milieu des fleurs de porcelaine et de multiples végétaux tropicaux.",
     "colors": {
       "vert-degrade-turquoise": {
         "id": "vert-degrade-turquoise",
