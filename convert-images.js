@@ -25,3 +25,5 @@ fs.readdirSync(inputDir).forEach((file) => {
     })
     .catch(console.error);
 });
+
+// MUST BE DELETED WHEN CLEAN OF THE PROJECT
