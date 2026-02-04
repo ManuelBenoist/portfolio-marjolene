@@ -20,6 +20,7 @@
           :key="painting.slug"
           class="grid flex-1 items-center gap-10 lg:grid-cols-2"
         >
+
           <figure class="relative flex h-full items-center justify-center bg-background p-0">
             <img
               :src="painting.image"
@@ -29,6 +30,16 @@
               decoding="async"
             />
           </figure>
+      <!-- Modale de mise en situation -->
+      <PaintingSituation
+        v-if="painting && showSituationModal"
+        :painting-src="painting.image"
+        :painting-alt="painting.title"
+        :painting-width-cm="getWidthCm(painting.dimensions)"
+        :painting-height-cm="getHeightCm(painting.dimensions)"
+        :is-open="showSituationModal"
+        @onClose="closeSituationModal"
+      />
 
           <div class="flex flex-col gap-8 text-lg">
             <div>
@@ -58,12 +69,17 @@
               {{ painting.description }}
             </p>
 
-            <div>
-              <p class="text-sm font-medium text-primary/70">Vous avez une question&nbsp;?</p>
+            <div class="flex flex-row items-center gap-4 mt-2">
               <ContactButton
                 :to="contactLink"
                 class="mt-4"
               />
+              <button
+                class="mt-4 px-6 py-2 rounded-full bg-primary text-white font-semibold text-sm shadow transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+                @click="openSituationModal"
+              >
+                Imaginer la toile chez vous
+              </button>
             </div>
           </div>
         </div>
@@ -140,6 +156,26 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue'
+import PaintingSituation from '~/components/PaintingSituation.vue'
+
+// Gestion modale situation
+const showSituationModal = ref(false)
+function openSituationModal() { showSituationModal.value = true }
+function closeSituationModal() {
+  console.log('Fermeture modale demandée');
+  showSituationModal.value = false
+}
+
+// Extraction dimensions (ex: "60 x 73 cm" ou "60x73cm")
+function getWidthCm(dimensions: string): number {
+  const match = dimensions.match(/(\d{2,3})\s*[x×]\s*(\d{2,3})/i)
+  return match ? parseInt(match[1], 10) : 50
+}
+function getHeightCm(dimensions: string): number {
+  const match = dimensions.match(/(\d{2,3})\s*[x×]\s*(\d{2,3})/i)
+  return match ? parseInt(match[2], 10) : 50
+}
 const route = useRoute()
 
 // Gallery state for filter persistence and scroll restoration
