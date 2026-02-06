@@ -29,7 +29,7 @@
                     </div>
                     <div>
                       <div class="font-bold text-[#2E3D8B] mb-1">Email</div>
-                      <div class="text-[#4A5565]">marjolenelasne@gmail.com</div>
+                      <div class="text-[#4A5565]">{{ config.public.contact.email }}</div>
                     </div>
                   </div>
 
@@ -40,7 +40,7 @@
                     </div>
                     <div>
                       <div class="font-bold text-[#2E3D8B] mb-1">Téléphone</div>
-                      <div class="text-[#4A5565]">+33 6 08 77 08 24</div>
+                      <div class="text-[#4A5565]">{{ config.public.contact.phone }}</div>
                     </div>
                   </div>
 
@@ -52,9 +52,9 @@
                     <div>
                       <div class="font-bold text-[#2E3D8B] mb-1">Adresse de l'atelier</div>
                       <div class="text-[#4A5565] leading-relaxed">
-                        11 place de l'Abbé Avon<br>
-                        84220 Roussillon<br>
-                        France
+                        {{ config.public.contact.address.street }}<br>
+                        {{ config.public.contact.address.zip }} {{ config.public.contact.address.city }}<br>
+                        {{ config.public.contact.address.country }}
                       </div>
                       <div class="text-sm text-[#4A5565] italic mt-2 opacity-80">(Visites sur rendez-vous uniquement)</div>
                     </div>
@@ -237,6 +237,7 @@ import { ref, onMounted } from 'vue'
 import { Icon } from '@iconify/vue'
 import { useSiteUrl } from '~/composables/useSiteUrl'
 
+const config = useRuntimeConfig()
 const route = useRoute()
 
 const { siteUrl, withSiteUrl } = useSiteUrl()

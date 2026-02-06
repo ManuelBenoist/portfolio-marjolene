@@ -14,10 +14,10 @@
           <ul class="list-none space-y-1 ml-4">
             <li><strong>Nom :</strong> Marjolène Lasne</li>
             <li><strong>Statut :</strong> Artiste peintre, micro-entrepreneur</li>
-            <li><strong>Adresse :</strong> 11 Place de l'Abbé Avon, 84220 Roussillon</li>
+            <li><strong>Adresse :</strong> {{ config.public.contact.address.street }}, {{ config.public.contact.address.zip }} {{ config.public.contact.address.city }}</li>
             <li><strong>SIRET :</strong> 3441744300061 </li>
-            <li><strong>Téléphone :</strong> +33 6 08 77 08 24</li>
-            <li><strong>Email :</strong> marjolenelasne@gmail.com</li>
+            <li><strong>Téléphone :</strong> {{ config.public.contact.phone }}</li>
+            <li><strong>Email :</strong> {{ config.public.contact.email }}</li>
           </ul>
           <p class="mt-4 text-sm text-gray-600">
             Directeur de la publication : Marjolène Lasne
@@ -80,7 +80,7 @@
             <li>Droit d'opposition</li>
           </ul>
           <p>
-            Pour exercer ces droits, vous pouvez contacter l'éditeur à l'adresse email suivante : marjolenelasne@gmail.com. En cas de litige, vous pouvez introduire une réclamation auprès de la CNIL (Commission Nationale de l'Informatique et des Libertés).
+            Pour exercer ces droits, vous pouvez contacter l'éditeur à l'adresse email suivante : {{ config.public.contact.email }}. En cas de litige, vous pouvez introduire une réclamation auprès de la CNIL (Commission Nationale de l'Informatique et des Libertés).
           </p>
         </section>
 
@@ -126,9 +126,9 @@
             Pour toute question relative aux présentes mentions légales ou pour toute demande concernant le site, vous pouvez contacter l'éditeur :
           </p>
           <ul class="list-none space-y-1 ml-4">
-            <li><strong>Par email :</strong> marjolenelasne@gmail.com</li>
-            <li><strong>Par téléphone :</strong> +33 6 08 77 08 24</li>
-            <li><strong>Par courrier :</strong> 11 Place de l'Abbé Avon, 84220 Roussillon</li>
+            <li><strong>Par email :</strong> {{ config.public.contact.email }}</li>
+            <li><strong>Par téléphone :</strong> {{ config.public.contact.phone }}</li>
+            <li><strong>Par courrier :</strong> {{ config.public.contact.address.street }}, {{ config.public.contact.address.zip }} {{ config.public.contact.address.city }}</li>
           </ul>
         </section>
 
@@ -155,6 +155,7 @@
 </template>
 
 <script setup lang="ts">
+const config = useRuntimeConfig()
 useHead({
   title: 'Mentions légales',
   meta: [

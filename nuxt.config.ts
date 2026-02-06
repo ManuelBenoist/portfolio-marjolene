@@ -10,17 +10,27 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  runtimeConfig: {
+    public: {
+      siteUrl: '',
+      contact: {
+        email: 'marjolenelasne@gmail.com',
+        phone: '+33 6 08 77 08 24',
+        address: {
+          street: "11 place de l'Abbé Avon",
+          zip: '84220',
+          city: 'Roussillon',
+          country: 'France'
+        }
+      }
+    }
+  },
   app: {
     head: {
       htmlAttrs: {
         lang: 'fr',
       },
-      script: [
-        {
-          src: 'https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js',
-          async: true,
-        },
-      ],
+      script: [],
       title: 'Marjolène Lasne - Artiste Peintre',
       meta: [
         { name: 'description', content: 'Portfolio de Marjolène Lasne, artiste peintre spécialisée dans les portraits et les paysages.' },
@@ -38,11 +48,7 @@ export default defineNuxtConfig({
     // Layout transitions disabled - all pages now use implicit default layout
     layoutTransition: false,
   },
-  runtimeConfig: {
-    public: {
-      siteUrl: '',
-    },
-  },
+
   // Static site generation configuration
   nitro: {
     prerender: {

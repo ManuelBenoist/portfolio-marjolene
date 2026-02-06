@@ -19,9 +19,9 @@
           <ul class="list-none space-y-1 ml-4">
             <li><strong>Nom :</strong> Marjolène Lasne</li>
             <li><strong>Statut :</strong> Artiste peintre, micro-entrepreneur</li>
-            <li><strong>Adresse :</strong> 11 Place de l'Abbé Avon, 84220 Roussillon</li>
+            <li><strong>Adresse :</strong> {{ config.public.contact.address.street }}, {{ config.public.contact.address.zip }} {{ config.public.contact.address.city }}</li>
             <li><strong>SIRET :</strong> 3441744300061 </li>
-            <li><strong>Email de contact RGPD :</strong> marjolenelasne@gmail.com</li>
+            <li><strong>Email de contact RGPD :</strong> {{ config.public.contact.email }}</li>
           </ul>
         </section>
 
@@ -116,7 +116,7 @@
           <p class="mb-4">
             Conformément au RGPD (articles 15 à 22) et à la loi Informatique et Libertés, vous disposez des droits suivants concernant vos données personnelles : accès, rectification, suppression, limitation, opposition et portabilité.
           </p>
-          <p>Pour exercer l'un de ces droits, vous pouvez adresser votre demande par email à : <strong>marjolenelasne@gmail.com</strong>
+          <p>Pour exercer l'un de ces droits, vous pouvez adresser votre demande par email à : <strong>{{ config.public.contact.email }}</strong>
           </p>
         </section>
         <!-- Section 9: Mineurs -->
@@ -145,8 +145,8 @@
             Pour toute question relative à la présente politique de confidentialité ou pour toute demande concernant vos données personnelles, vous pouvez nous contacter :
           </p>
           <ul class="list-none space-y-1 ml-4">
-            <li><strong>Par email :</strong> marjolenelasne@gmail.com</li>
-            <li><strong>Par courrier :</strong> Marjolène Lasne - 11 Place de l'Abbé Avon, 84220 Roussillon</li>
+            <li><strong>Par email :</strong> {{ config.public.contact.email }}</li>
+            <li><strong>Par courrier :</strong> Marjolène Lasne - {{ config.public.contact.address.street }}, {{ config.public.contact.address.zip }} {{ config.public.contact.address.city }}</li>
           </ul>
         </section>
 
@@ -163,6 +163,7 @@
 </template>
 
 <script setup>
+const config = useRuntimeConfig()
 useHead({
   title: 'Politique de confidentialité',
   meta: [

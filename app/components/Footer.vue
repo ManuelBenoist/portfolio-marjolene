@@ -25,13 +25,13 @@
             <li class="flex items-center gap-2">
               <Icon icon="lucide:mail" class="w-5 h-5 shrink-0" />
                 <span class="break-words">
-                    marjolenelasne@gmail.com
+                    {{ config.public.contact.email }}
                 </span>
             </li>
             <li class="flex items-center gap-2">
               <Icon icon="lucide:phone" class="w-5 h-5 shrink-0" />
                 <span class="whitespace-nowrap">
-                  +33 6 08 77 08 24
+                  {{ config.public.contact.phone }}
                 </span>
             </li>
             <li>Atelier à Roussillon en Provence</br> France</li>
@@ -91,5 +91,6 @@
 
 <script setup>
 import { Icon } from '@iconify/vue'
+const config = useRuntimeConfig()
 const year = new Date().getFullYear()
 </script>

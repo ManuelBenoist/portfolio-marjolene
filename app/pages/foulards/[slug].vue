@@ -8,7 +8,7 @@
         aria-label="Retour aux foulards"
         @click="saveActiveSlug"
       >
-        <iconify-icon icon="mdi:arrow-left" class="text-xl"></iconify-icon>
+        <Icon icon="mdi:arrow-left" class="text-xl" />
         <span>Retour aux foulards</span>
       </NuxtLink>
     </div>
@@ -179,6 +179,7 @@
 
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue'
+import { Icon } from '@iconify/vue'
 import type { ComputedRef } from 'vue'
 
 import ColorSwatch from '~/components/ColorSwatch.vue'

@@ -7,7 +7,7 @@
           :to="backToGalleryRoute"
           aria-label="Retour aux œuvres"
         >
-          <iconify-icon icon="mdi:close" class="text-3xl"></iconify-icon>
+          <Icon icon="mdi:close" class="text-3xl" />
           <span class="sm:inline text-gray-text font-medium">Retour aux œuvres</span>
         </NuxtLink>
       </div>
@@ -94,7 +94,7 @@
           :aria-label="`Voir la peinture précédente : ${previousPainting.title}`"
           @click.native="scrollToTop"
         >
-          <iconify-icon icon="mdi:chevron-left" class="text-3xl"></iconify-icon>
+          <Icon icon="mdi:chevron-left" class="text-3xl" />
           <div class="flex flex-col gap-1 tracking-normal">
             <span class="text-[11px] font-bold uppercase tracking-[0.35em] text-gray-text">Peinture précédente</span>
             <span class="text-base capitalize text-primary">
@@ -107,7 +107,7 @@
           class="flex items-center gap-3 text-gray-text/30"
           aria-disabled="true"
         >
-          <iconify-icon icon="mdi:chevron-left" class="text-3xl"></iconify-icon>
+          <Icon icon="mdi:chevron-left" class="text-3xl" />
           <span class="text-[11px] uppercase tracking-[0.35em]">Début de la collection</span>
         </span>
 
@@ -124,7 +124,7 @@
               {{ nextPainting.title }}
             </span>
           </div>
-          <iconify-icon icon="mdi:chevron-right" class="text-3xl"></iconify-icon>
+          <Icon icon="mdi:chevron-right" class="text-3xl" />
         </NuxtLink>
         <span
           v-else
@@ -132,7 +132,7 @@
           aria-disabled="true"
         >
           <span class="text-[11px] uppercase tracking-[0.35em]">Fin de la collection</span>
-          <iconify-icon icon="mdi:chevron-right" class="text-3xl"></iconify-icon>
+          <Icon icon="mdi:chevron-right" class="text-3xl" />
         </span>
       </nav>
     </div>
@@ -140,6 +140,7 @@
 </template>
 
 <script setup lang="ts">
+import { Icon } from '@iconify/vue'
 const route = useRoute()
 const { siteUrl, withSiteUrl } = useSiteUrl()
 
