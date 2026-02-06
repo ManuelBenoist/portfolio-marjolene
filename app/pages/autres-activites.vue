@@ -44,7 +44,23 @@ interface Activity {
   position: 'left' | 'right'
 }
 
-const activities = ref<Activity[]>([])
+const { data: activities } = await useAsyncData<Activity[]>('activities', async () => {
+  if (process.server) {
+    const { readFile } = await import('fs/promises')
+    const { resolve } = await import('path')
+    try {
+      const file = await readFile(resolve(process.cwd(), 'public/content/activites.json'), 'utf-8')
+      return JSON.parse(file) as Activity[]
+    } catch (e) {
+      console.error('Error loading activities:', e)
+      return []
+    }
+  }
+  const result = await $fetch<Activity[]>('/content/activites.json')
+  return result
+}, {
+  default: () => []
+})
 
 const { siteUrl, withSiteUrl } = useSiteUrl()
 const metaTitle = 'Autres activites - Marjolene Lasne'
@@ -92,30 +108,13 @@ useHead(() => ({
     : [],
 }))
 
-// Fetch activities data (server: read from filesystem; client: fetch from public)
-if (process.server) {
-  const { readFile } = await import('fs/promises')
-  const { resolve } = await import('path')
-  try {
-    const file = await readFile(resolve(process.cwd(), 'public/content/activites.json'), 'utf-8')
-    activities.value = JSON.parse(file) as Activity[]
-  } catch (e) {
-    // keep activities empty on error
-  }
-} else {
-  const { data: activitiesData } = await useFetch('/content/activites.json')
-  if (activitiesData.value) {
-    activities.value = activitiesData.value as Activity[]
-  }
-}
-
 // Routing logic based on activity type
 const getRouteTo = (activityId: string): string | { path: string; query?: Record<string, string> } => {
   if (activityId === 'gites') {
     return 'https://www.unairdevacances.art'
   }
   // Liens vers la page contact avec préremplissage selon l'activité
-  const activity = activities.value.find(a => a.id === activityId)
+  const activity = activities.value?.find(a => a.id === activityId)
   return {
     path: '/contact',
     query: {
