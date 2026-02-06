@@ -34,7 +34,7 @@
               <img
                 :src="activeImages[0].src"
                 :alt="activeImages[0].alt || foulard.title"
-                class="h-full w-full object-cover transition-opacity duration-300"
+                class="h-full w-full object-contain transition-opacity duration-300"
                 loading="lazy"
                 decoding="async"
               />
@@ -56,7 +56,7 @@
                   <img
                     :src="image.src"
                     :alt="image.alt || `${foulard.title} - vue ${idx + 2}`"
-                    class="h-full w-full object-cover"
+                    class="h-full w-full object-contain"
                     loading="lazy"
                     decoding="async"
                   />

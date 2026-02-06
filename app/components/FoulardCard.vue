@@ -1,7 +1,7 @@
 <template>
   <article
     :id="`foulard-${slug}`"
-    class="bg-white rounded-2xl overflow-hidden w-full max-w-[420px] cursor-pointer card-premium"
+    class="bg-white rounded-b-2xl overflow-hidden w-full max-w-[420px] cursor-pointer card-premium"
     @click="navigateToDetail"
   >
     
@@ -11,7 +11,7 @@
         v-if="currentImage"
         :src="currentImage.src"
         :alt="currentImage.alt"
-        class="w-full h-full object-cover"
+        class="w-full h-full object-contain"
         loading="lazy"
       />
     </div>
