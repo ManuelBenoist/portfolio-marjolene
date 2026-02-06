@@ -120,27 +120,27 @@ const menuItems = [
   { 
     label: "L'Artiste", 
     path: '/artiste', 
-    image: '/foulards/foulard-marjo-vert.avif' 
+    image: '/img/foulards/foulard-marjo-vert.avif' 
   },
   { 
     label: 'Peintures', 
     path: '/peintures', 
-    image: '/foulards/foulard-marjo-orange.avif' 
+    image: '/img/foulards/foulard-marjo-orange.avif' 
   },
   { 
     label: 'Foulards', 
     path: '/foulards', 
-    image: '/foulards/foulard-marjo-bleu.avif' 
+    image: '/img/foulards/foulard-marjo-bleu.avif' 
   },
   { 
     label: 'Autres activités', 
     path: '/autres-activites', 
-    image: '/foulards/foulard-marjo-violet.avif' 
+    image: '/img/foulards/foulard-marjo-violet.avif' 
   },
   { 
     label: 'Contact', 
     path: '/contact', 
-    image: '/foulards/foulard-marjo-bleu.avif' 
+    image: '/img/foulards/foulard-marjo-bleu.avif' 
   },
 ]
 

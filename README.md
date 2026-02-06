@@ -26,8 +26,8 @@ app/
 	assets/css/         # Feuilles de style (main.css)
 public/
 	content/            # Données JSON (œuvres, artiste, frise, etc.)
-	foulards/, peintures/ # Images des œuvres
-	fonts/              # Polices personnalisées
+	public/img/foulards/, public/img/peintures/ # Images des œuvres
+	public/fonts/              # Polices personnalisées
 ```
 
 ## Installation
@@ -78,7 +78,7 @@ Consultez la [documentation Nuxt](https://nuxt.com/docs/getting-started/deployme
 
 ## Données et contenu
 
-Les contenus (œuvres, artiste, frise, etc.) sont stockés dans `public/content/*.json` et les images dans `public/foulards/` et `public/peintures/`.
+Les contenus (œuvres, artiste, frise, etc.) sont stockés dans `public/content/*.json` et les images dans `public/img/foulards/` et `public/img/peintures/`.
 
 ## Personnalisation
 

@@ -7,7 +7,7 @@
         "description": "Un orchestre avec une Diva drapée de rouge se détache de l'architecture d'un théâtre baroque au travers duquel se profile la silouhette de la Salute à Venise.",
         "dimensions": "80x80 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/scenes-d-interieur/diva_venitienne.jpg"
+        "image": "/img/peintures/scenes-d-interieur/diva_venitienne.webp"
       },
       {
         "slug": "duo-au-piano",
@@ -15,7 +15,7 @@
         "description": "Les silouhettes de deux musiciens contrastent avec les formes de papiers collés subtilement réhaussés d'or.",
         "dimensions": "20x20 cm",
         "technique": "Techniques mixtes",
-        "image": "/peintures/scenes-d-interieur/duo_au_piano.jpg"
+        "image": "/img/peintures/scenes-d-interieur/duo_au_piano.webp"
       },
       {
         "slug": "confidences-des-deux-amies",
@@ -23,7 +23,7 @@
         "description": "Retrouvailles de deux amies discutant à batons rompus dans l'atmosphère chaleureuse d'un café parisien.",
         "dimensions": "46x38 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/scenes-d-interieur/confidences_des_deux_amies.jpg"
+        "image": "/img/peintures/scenes-d-interieur/confidences_des_deux_amies.webp"
       },
       {
         "slug": "conversation-a-saint-germain-des-pres",
@@ -31,7 +31,7 @@
         "description": "Ce café à l'angle de la rue de Buci à Paris crée des reflets et des perspectives tout en mouvance.",
         "dimensions": "55x46 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/scenes-d-interieur/conversation_a_saint_germain_des_pres.jpg"
+        "image": "/img/peintures/scenes-d-interieur/conversation_a_saint_germain_des_pres.webp"
       },
       {
         "slug": "autour-d-un-verre-a-venise",
@@ -39,7 +39,7 @@
         "description": "Une composition de toiles en diptyque évoque à la fois l'intérieur d'un café baroque et une perspective sur la Salute, la Tamise et les barques vénitiennes.",
         "dimensions": "55x46 cm x2",
         "technique": "Huile sur toile",
-        "image": "/peintures/scenes-d-interieur/autour_d'un_verre_a_venise_diptyque.png"
+        "image": "/img/peintures/scenes-d-interieur/autour_d'un_verre_a_venise_diptyque.webp"
       },
       {
         "slug": "le-temps-suspendu",
@@ -47,7 +47,7 @@
         "description": "Cette toile représente le restaurant \"La Cigale\" à Nantes avec ses céramiques décorées de cigales, ses décors ouvragés et ses miroirs créant de savants reflets.",
         "dimensions": "92x73 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/scenes-d-interieur/le_temps_suspendu.jpg"
+        "image": "/img/peintures/scenes-d-interieur/le_temps_suspendu.webp"
       }
     ],
     "Terrasses et Marchés": [
@@ -57,7 +57,7 @@
         "description": "Dans cette composition en diptyque, les harmonies principales sont le bleu et l'orange, couleurs complémentaires ponctuées de blanc et de subtiles nuances de vert chaud.",
         "dimensions": "30x60 cm x2",
         "technique": "Huile sur toile",
-        "image": "/peintures/terrasses-et-marches/pause_aperitive_diptyque.png"
+        "image": "/img/peintures/terrasses-et-marches/pause_aperitive_diptyque.webp"
       },
       {
         "slug": "terrasse-ombragee",
@@ -65,7 +65,7 @@
         "description": "Un restaurant provencal agrémenté d'une fontaine. Le bleu nuancé de la devanture vient contraster avec la façade ensoleillée aux nuances orangées apportant chaleur, vitalité et énergie à la toile.",
         "dimensions": "81x65 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/terrasses-et-marches/terrasse_ombragee.jpg"
+        "image": "/img/peintures/terrasses-et-marches/terrasse_ombragee.webp"
       },
       {
         "slug": "detente-a-gordes",
@@ -73,7 +73,7 @@
         "description": "Des arbres majestueux dominent la place de ce restaurant à Gordes, créant de mouvants jeux d'ombre et de lumière.",
         "dimensions": "",
         "technique": "Huile sur toile",
-        "image": "/peintures/terrasses-et-marches/detente_a_gordes.jpg"
+        "image": "/img/peintures/terrasses-et-marches/detente_a_gordes.webp"
       },
       {
         "slug": "la-marchande-de-legumes",
@@ -81,7 +81,7 @@
         "description": "Des parasols colorés semblent danser et rythment la composition. Des légumes aux multiples couleurs occupent le premier plan de la toile en formant une oblique. Des personnages animent la toile.",
         "dimensions": "",
         "technique": "Huile sur toile",
-        "image": "/peintures/terrasses-et-marches/la_marchande_de_legumes.jpg"
+        "image": "/img/peintures/terrasses-et-marches/la_marchande_de_legumes.webp"
       },
       {
         "slug": "en-terrasse-parmi-les-fleurs",
@@ -89,7 +89,7 @@
         "description": "Une scène de vie enjouée. Terasse de café, serveur, fleurs et ciel bleu. Le tout dans les couleurs chatoyantes de la Provence.",
         "dimensions": "",
         "technique": "Huile sur toile",
-        "image": "/peintures/terrasses-et-marches/en_terrasse_parmi_les_fleurs.jpg"
+        "image": "/img/peintures/terrasses-et-marches/en_terrasse_parmi_les_fleurs.webp"
       },
       {
         "slug": "a-la-terrasse-du-fournil",
@@ -97,7 +97,7 @@
         "description": "Une scène de terrasse de café qui passe de l'ombre à la lumière tout en douceur. ",
         "dimensions": "73x50 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/terrasses-et-marches/a_la_terrasse_du_fournil.jpg"
+        "image": "/img/peintures/terrasses-et-marches/a_la_terrasse_du_fournil.webp"
       },
       {
         "slug": "pause-aperitive-au-soleil-provencal",
@@ -105,7 +105,7 @@
         "description": "Des fruits colorés sur un étal de marché longé par une terrasse de café, baignée de nuances bleutées contrastantes.",
         "dimensions": "50x50 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/terrasses-et-marches/pause_aperitive_au_soleil_provencal.jpg"
+        "image": "/img/peintures/terrasses-et-marches/pause_aperitive_au_soleil_provencal.webp"
       },
       {
         "slug": "promenade-d-ete-en-famille-a-roussillon",
@@ -113,7 +113,7 @@
         "description": "Des enfants jouant avec l'eau d'une fontaine sous l'oeil de parents profitant de l'instant en terrasse.",
         "dimensions": "65x54 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/terrasses-et-marches/promenade_d_ete_en_famille_a_roussillon.jpg"
+        "image": "/img/peintures/terrasses-et-marches/promenade_d_ete_en_famille_a_roussillon.webp"
       },
       {
         "slug": "les-heures-douces-a-la-fontaine",
@@ -121,7 +121,7 @@
         "description": "Quiétude en terrasse avec la vision de champs colorés au son du murmure de la fontaine.",
         "dimensions": "",
         "technique": "Huile sur toile",
-        "image": "/peintures/terrasses-et-marches/les_heures_douces_a_la_fontaine.jpg"
+        "image": "/img/peintures/terrasses-et-marches/les_heures_douces_a_la_fontaine.webp"
       },
       {
         "slug": "detente-au-jardin",
@@ -129,7 +129,7 @@
         "description": "Repas d'été en famille au jardin sous les branches protectrices d'un tilleul.",
         "dimensions": "",
         "technique": "Huile sur toile",
-        "image": "/peintures/terrasses-et-marches/detente_au_jardin.jpg"
+        "image": "/img/peintures/terrasses-et-marches/detente_au_jardin.webp"
       },
       {
         "slug": "le-marche-de-roussillon",
@@ -137,7 +137,7 @@
         "description": "Un marché traité en couleurs chaudes avec des pointes de différents verts lumineux en contraste.",
         "dimensions": "30x30 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/terrasses-et-marches/le_marche_de_roussillon.jpg"
+        "image": "/img/peintures/terrasses-et-marches/le_marche_de_roussillon.webp"
       }
     ],
     "Paysages": [
@@ -147,7 +147,7 @@
         "description": "Eclats de touches colorées volant au vent en contraste avec l'aspect statique des maisons ocres de Roussillon.",
         "dimensions": "50x50 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/paysages/roussillon_aux_fleurs_sauvages.jpg"
+        "image": "/img/peintures/paysages/roussillon_aux_fleurs_sauvages.webp"
       },
       {
         "slug": "camargue-secrete",
@@ -155,7 +155,7 @@
         "description": "Cette toile travaillée de façon dynamique à la brosse et au couteau est une subtile association de tons froids et chauds. Les étendues inondées de la Camargue, déclinées en nuances de bleu, contrastent avec un premier plan jaune rehaussé de touches roses.",
         "dimensions": "50x50 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/paysages/camargue_secrete.jpg"
+        "image": "/img/peintures/paysages/camargue_secrete.webp"
       },
       {
         "slug": "reflets-emeraude",
@@ -163,7 +163,7 @@
         "description": "Un contraste subtil entre les eaux turquoises du canal et les façades ocres jaunes et orangés des maisons.",
         "dimensions": "40x80 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/paysages/reflets_emeraude.jpg"
+        "image": "/img/peintures/paysages/reflets_emeraude.webp"
       },
       {
         "slug": "symphonie-automnale",
@@ -171,7 +171,7 @@
         "description": "Traitée majoritairement dans des tons chauds de prune, orange et jaune, cette toile est animée par de légères touches de violet et vert anis apportant dynamisme à la composition.",
         "dimensions": "20x20 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/paysages/symphonie_automnale.jpg"
+        "image": "/img/peintures/paysages/symphonie_automnale.webp"
       },
       {
         "slug": "paysage-pourpre-et-vermillon",
@@ -179,7 +179,7 @@
         "description": "Un premier plan de vignes aux touches multicolores vient contraster avec des aplats rose, vermillon et jaune.",
         "dimensions": "20x20 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/paysages/paysage_pourpre_et_vermillon.jpg"
+        "image": "/img/peintures/paysages/paysage_pourpre_et_vermillon.webp"
       },
       {
         "slug": "roussillon_au_soleil_joyeux",
@@ -187,7 +187,7 @@
         "description": "Dans cette toile aux tons chauds, jaune, orangés et rouges, les effets de texture au couteau viennent rythmer la composition par leur dynamisme.",
         "dimensions": "",
         "technique": "Huile sur toile",
-        "image": "/peintures/paysages/roussillon_au_soleil_joyeux.jpg"
+        "image": "/img/peintures/paysages/roussillon_au_soleil_joyeux.webp"
       },
       {
         "slug": "printemps-à-bonnieux",
@@ -195,7 +195,7 @@
         "description": "Cete toile évoque le printemps à Bonnieux, village du Luberon. Ses cerisiers en fleurs contrastent avec le premier plan travaillé au couteau dans des tons de jaune, orange et rouge.",
         "dimensions": "60x60 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/paysages/printemps_a_bonnieux.jpg"
+        "image": "/img/peintures/paysages/printemps_a_bonnieux.webp"
       },
       {
         "slug": "de-pourpre-et-d-azur",
@@ -203,7 +203,7 @@
         "description": "Le village de Roussillon et son clocher constituent le thème de cette toile. Les maisons sont traitées dans une déclinaison de jaune, orange et rouge rosé. Des touches de vert viennent symboliquement représenter les arbres.",
         "dimensions": "30x30 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/paysages/de_pourpre_et_d_azur.jpg"
+        "image": "/img/peintures/paysages/de_pourpre_et_d_azur.webp"
       },
       {
         "slug": "les-vignes-de-bonnieux",
@@ -211,7 +211,7 @@
         "description": "Dans cette toile, une diagonale vient scander la composition séparant un aplat jaune et les vignes traitées avec des touches multicolores.",
         "dimensions": "80x80 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/paysages/les_vignes_de_bonnieux.jpg"
+        "image": "/img/peintures/paysages/les_vignes_de_bonnieux.webp"
       },
       {
         "slug": "gordes-aux-iris",
@@ -219,7 +219,7 @@
         "description": "Des Iris avec leur feuillage dressées de façon dynamique occupent une grande part du premier plan. Le village, ses pierres blanches et les champs dorés apparaissent en contraste second plan.",
         "dimensions": "50x50 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/paysages/gordes_aux_iris.jpg"
+        "image": "/img/peintures/paysages/gordes_aux_iris.webp"
       },
       {
         "slug": "dune-dans-le-vent",
@@ -227,7 +227,7 @@
         "description": "Travaillée au couteau et avec des pigments pour apporter des effets de texture et de matière, cette toile offre des dégradés de jaune orangé et de bleu vert qui donnent une impression d’espace et d’infini.",
         "dimensions": "73x60 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/paysages/dune_dans_le_vent.jpg"
+        "image": "/img/peintures/paysages/dune_dans_le_vent.webp"
       },
       {
         "slug": "parfums-secrets-de-provence",
@@ -235,7 +235,7 @@
         "description": "Dans cette toile, la légèreté des vignes traitées en touches multicolores vient contraster avec les aplats des champs colorés et les trois arbres aux tons roses dégradés. Deux personnages vêtus de blanc animent la scène au cœur des vignes.",
         "dimensions": "73x60 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/paysages/parfums_secrets_de_provence.jpg"
+        "image": "/img/peintures/paysages/parfums_secrets_de_provence.webp"
       },
       {
         "slug": "champs-d-herbes-sauvages",
@@ -243,7 +243,7 @@
         "description": "Cette toile lumineuse aux dominantes chaudes s'impose avec ses couleurs éclatantes de rouge et de jaune tandis que des touches de couleurs viennent souligner la verticalité des herbes folles au premier plan.",
         "dimensions": "65x54 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/paysages/champs_d_herbes_sauvages.jpg"
+        "image": "/img/peintures/paysages/champs_d_herbes_sauvages.webp"
       },
       {
         "slug": "paysage-pourpre-et-vermillon-au-soleil-couchant",
@@ -251,7 +251,7 @@
         "description": "Dans cette toile aux tonalités majoritairement chaudes, une oblique soulignée par des touches de couleurs ponctuées de rose vient apporter du dynamisme à la composition.",
         "dimensions": "20x20 cm",
         "technique": "Huile sur toile",
-        "image": "/peintures/paysages/paysage_pourpre_et_vermillon_au_soleil_couchant.jpg"
+        "image": "/img/peintures/paysages/paysage_pourpre_et_vermillon_au_soleil_couchant.webp"
       }
     ]
   }

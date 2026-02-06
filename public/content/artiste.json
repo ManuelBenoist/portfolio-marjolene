@@ -1,7 +1,7 @@
 {
   "biography": {
     "title": "Biographie",
-    "image": "/Marjolène-Lasne.png",
+    "image": "/img/artiste/Marjolène-Lasne.webp",
     "caption": "Marjolène Lasne, ses pinceaux et son chevalet",
       "position": "left",
   "paragraphs": [
@@ -15,7 +15,7 @@
   },
   "studio": {
     "title": "Atelier et lieu d'exposition",
-    "image": "autres-activites/commandes_visites_illu.jpg",
+    "image": "/img/autres-activites/commandes_visites_illu.webp",
     "caption": "L'atelier de Marjolène à Roussillon",
     "position": "right",
     "paragraphs": [

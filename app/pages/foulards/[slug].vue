@@ -367,7 +367,7 @@ const activeImages = computed(() => {
     if (mats.length > 0) return mats[0].images
   }
   // fallback: image générique
-  return [{ src: '/foulards/foulard-marjo-bleu.avif', alt: 'Foulard' }]
+  return [{ src: '/img/foulards/foulard-marjo-bleu.avif', alt: 'Foulard' }]
 })
 
 const activeImage = computed(() => activeImages.value[activeImageIndex.value] ?? activeImages.value[0])
@@ -399,7 +399,7 @@ const metaDescription = computed(
 )
 const { siteUrl, withSiteUrl } = useSiteUrl()
 const metaImage = computed(() => {
-  const image = activeImages.value[0]?.src || '/foulards/foulard-marjo-bleu.avif'
+  const image = activeImages.value[0]?.src || '/img/foulards/foulard-marjo-bleu.avif'
   return withSiteUrl(image)
 })
 

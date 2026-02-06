@@ -8,7 +8,7 @@
       "Pour enfants et adultes, débutants ou initiés",
       "Possibilité de peindre sur le motif (en extérieur)"
     ],
-    "imageSrc": "/autres-activites/stages_illu.jpg",
+    "imageSrc": "/img/autres-activites/stages_illu.webp",
     "imageAlt": "Atelier de peinture avec stages et initiation",
     "position": "right"
   },
@@ -21,7 +21,7 @@
       "Designs variés : floraux, géométriques, abstraits...",
       "Commandes possibles"
     ],
-    "imageSrc": "/autres-activites/design_textile_illu.jpg",
+    "imageSrc": "/img/autres-activites/design_textile_illu.webp",
     "imageAlt": "Design textile et imprimés de Marjolène",
     "position": "left"
   },
@@ -34,7 +34,7 @@
       "Logements élégants, décorés dans un esprit provençal contemporain",
       "Localisation idéale pour découvrir le Luberon et la Provence"
     ],
-    "imageSrc": "/autres-activites/gites_illu.jpg",
+    "imageSrc": "/img/autres-activites/gites_illu.webp",
     "imageAlt": "Gîtes et chambres d'hôtes à Roussillon",
     "position": "right"
   },
@@ -45,7 +45,7 @@
     "items": [
       "Création d'oeuvres originales selon vos souhaits (format, thème, couleurs)"
     ],
-    "imageSrc": "/autres-activites/commandes_visites_illu.jpg",
+    "imageSrc": "/img/autres-activites/commandes_visites_illu.webp",
     "imageAlt": "Atelier et commandes de peinture",
     "position": "left"
   }
