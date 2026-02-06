@@ -41,7 +41,11 @@ const props = defineProps<{
   paintingWidthCm: number
   paintingHeightCm: number
   isOpen: boolean
-  onClose?: () => void
+}>()
+
+// Événements: onClose doit être émis vers le parent
+const emit = defineEmits<{
+  (e: 'onClose'): void
 }>()
 
 // --- Constantes ajustables ---
@@ -112,7 +116,7 @@ const paintingStyle = computed(() => ({
 const modalContent = ref<HTMLElement | null>(null)
 function close() {
   console.log('PaintingSituation: close() called');
-  if (props.onClose) props.onClose();
+  emit('onClose')
 }
 watch(() => props.isOpen, (open) => {
   if (open) {
