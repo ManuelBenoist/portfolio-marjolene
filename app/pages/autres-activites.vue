@@ -32,6 +32,7 @@
 
 <script setup lang="ts">
 import type { RouteLocationRaw } from 'vue-router'
+import { useSiteUrl } from '~/composables/useSiteUrl'
 
 interface Activity {
   id: string
@@ -44,6 +45,52 @@ interface Activity {
 }
 
 const activities = ref<Activity[]>([])
+
+const { siteUrl, withSiteUrl } = useSiteUrl()
+const metaTitle = 'Autres activites - Marjolene Lasne'
+const metaDescription = "Decouvrez les autres activites de Marjolene Lasne : stages, design textile, commandes et hebergements en Provence."
+const metaImage = withSiteUrl('/logo.png')
+
+useSeoMeta({
+  title: metaTitle,
+  ogTitle: metaTitle,
+  description: metaDescription,
+  ogDescription: metaDescription,
+  ogImage: metaImage,
+  twitterCard: 'summary_large_image',
+  twitterTitle: metaTitle,
+  twitterDescription: metaDescription,
+  twitterImage: metaImage,
+})
+
+const breadcrumbSchema = computed(() => {
+  if (!siteUrl) return null
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Accueil',
+        item: siteUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Autres activites',
+        item: withSiteUrl('/autres-activites'),
+      },
+    ],
+  }
+})
+
+useHead(() => ({
+  script: breadcrumbSchema.value
+    ? [{ type: 'application/ld+json', children: JSON.stringify(breadcrumbSchema.value) }]
+    : [],
+}))
 
 // Fetch activities data (server: read from filesystem; client: fetch from public)
 if (process.server) {

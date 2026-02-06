@@ -141,6 +141,7 @@
 
 <script setup lang="ts">
 const route = useRoute()
+const { siteUrl, withSiteUrl } = useSiteUrl()
 
 // Gallery state for filter persistence and scroll restoration
 const { backToGalleryRoute, activePaintingSlug } = useGalleryState()
@@ -228,7 +229,10 @@ const metaTitle = computed(() =>
 const metaDescription = computed(
   () => painting.value?.metaDescription ?? painting.value?.description ?? fallbackDescription
 )
-const metaImage = computed(() => painting.value?.image ?? '/share-default.jpg')
+const metaImage = computed(() => {
+  const image = painting.value?.image || '/logo.png'
+  return withSiteUrl(image)
+})
 
 useSeoMeta({
   title: metaTitle,
@@ -241,6 +245,63 @@ useSeoMeta({
   twitterDescription: metaDescription,
   twitterImage: metaImage,
 })
+
+const breadcrumbSchema = computed(() => {
+  if (!siteUrl || !painting.value) return null
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Accueil',
+        item: siteUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Peintures',
+        item: withSiteUrl('/peintures'),
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: painting.value.title,
+        item: withSiteUrl(`/peintures/${painting.value.slug}`),
+      },
+    ],
+  }
+})
+
+const artworkSchema = computed(() => {
+  if (!siteUrl || !painting.value) return null
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'VisualArtwork',
+    name: painting.value.title,
+    description: metaDescription.value,
+    image: withSiteUrl(painting.value.image),
+    artform: 'Peinture',
+    artMedium: painting.value.technique,
+    creator: {
+      '@type': 'Person',
+      name: 'Marjolene Lasne',
+    },
+    url: withSiteUrl(`/peintures/${painting.value.slug}`),
+  }
+})
+
+useHead(() => ({
+  script: [breadcrumbSchema.value, artworkSchema.value]
+    .filter(Boolean)
+    .map((schema) => ({
+      type: 'application/ld+json',
+      children: JSON.stringify(schema),
+    })),
+}))
 
 function scrollToTop(e: Event) {
   window.scrollTo({ top: 0, behavior: 'smooth' })

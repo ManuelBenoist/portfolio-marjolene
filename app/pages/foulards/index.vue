@@ -33,6 +33,7 @@
 import { computed, onMounted, nextTick } from 'vue'
 import SectionTitle from '~/components/SectionTitle.vue'
 import FoulardGrid from '~/components/FoulardGrid.vue'
+import { useSiteUrl } from '~/composables/useSiteUrl'
 
 // Fetch raw data
 const { data: rawFoulards, pending } = await useContent<RawFoulard[]>('foulards.json')
@@ -94,6 +95,58 @@ const foulardsForGrid = computed(() => {
   }))
 })
 
+const { siteUrl, withSiteUrl } = useSiteUrl()
+const metaTitle = 'Foulards - Marjolene Lasne'
+const metaDescription = 'Decouvrez les foulards en soie de Marjolene Lasne, pieces uniques fabriquees en France.'
+const metaImage = computed(() => {
+  const firstFoulard = rawFoulards.value?.[0]
+  const firstColor = firstFoulard ? Object.values(firstFoulard.colors)[0] : null
+  const firstMaterial = firstColor ? Object.values(firstColor.materials)[0] : null
+  const image = firstMaterial?.images?.[0]?.src || '/logo.png'
+  return withSiteUrl(image)
+})
+
+useSeoMeta({
+  title: metaTitle,
+  ogTitle: metaTitle,
+  description: metaDescription,
+  ogDescription: metaDescription,
+  ogImage: metaImage,
+  twitterCard: 'summary_large_image',
+  twitterTitle: metaTitle,
+  twitterDescription: metaDescription,
+  twitterImage: metaImage,
+})
+
+const breadcrumbSchema = computed(() => {
+  if (!siteUrl) return null
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Accueil',
+        item: siteUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Foulards',
+        item: withSiteUrl('/foulards'),
+      },
+    ],
+  }
+})
+
+useHead(() => ({
+  script: breadcrumbSchema.value
+    ? [{ type: 'application/ld+json', children: JSON.stringify(breadcrumbSchema.value) }]
+    : [],
+}))
+
 // Scroll restoration: scroll to the foulard card after returning from detail page
 onMounted(() => {
   if (activeFoulardSlug.value) {
@@ -114,11 +167,4 @@ onMounted(() => {
   }
 })
 
-// SEO
-useSeoMeta({
-  title: 'Foulards - Marjolène Lasne',
-  ogTitle: 'Foulards - Marjolène Lasne',
-  description: 'Découvrez les foulards en soie de Marjolène Lasne, pièces uniques fabriquées en France.',
-  ogDescription: 'Découvrez les foulards en soie de Marjolène Lasne, pièces uniques fabriquées en France.',
-})
 </script>

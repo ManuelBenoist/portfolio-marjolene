@@ -12,6 +12,9 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'fr',
+      },
       script: [
         {
           src: 'https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js',
@@ -34,6 +37,11 @@ export default defineNuxtConfig({
     },
     // Layout transitions disabled - all pages now use implicit default layout
     layoutTransition: false,
+  },
+  runtimeConfig: {
+    public: {
+      siteUrl: '',
+    },
   },
   // Static site generation configuration
   nitro: {

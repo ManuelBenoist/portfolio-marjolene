@@ -235,19 +235,70 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import { Icon } from '@iconify/vue'
+import { useSiteUrl } from '~/composables/useSiteUrl'
 
 const route = useRoute()
 
-// SEO Meta
-useHead({
-  title: 'Contact - Marjolène Lasne',
-  meta: [
-    { 
-      name: 'description', 
-      content: 'Contactez Marjolène Lasne pour toute question sur ses peintures, foulards en soie ou pour planifier une visite à l\'atelier en Provence.' 
-    }
-  ]
+const { siteUrl, withSiteUrl } = useSiteUrl()
+const metaTitle = 'Contact - Marjolene Lasne'
+const metaDescription = "Contactez Marjolene Lasne pour toute question sur ses peintures, foulards en soie ou pour planifier une visite a l'atelier en Provence."
+const metaImage = withSiteUrl('/logo.png')
+
+useSeoMeta({
+  title: metaTitle,
+  ogTitle: metaTitle,
+  description: metaDescription,
+  ogDescription: metaDescription,
+  ogImage: metaImage,
+  twitterCard: 'summary_large_image',
+  twitterTitle: metaTitle,
+  twitterDescription: metaDescription,
+  twitterImage: metaImage,
 })
+
+const breadcrumbSchema = computed(() => {
+  if (!siteUrl) return null
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Accueil',
+        item: siteUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Contact',
+        item: withSiteUrl('/contact'),
+      },
+    ],
+  }
+})
+
+const contactPageSchema = computed(() => {
+  if (!siteUrl) return null
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    name: metaTitle,
+    url: withSiteUrl('/contact'),
+    description: metaDescription,
+  }
+})
+
+useHead(() => ({
+  script: [breadcrumbSchema.value, contactPageSchema.value]
+    .filter(Boolean)
+    .map((schema) => ({
+      type: 'application/ld+json',
+      children: JSON.stringify(schema),
+    })),
+}))
 
 // États du formulaire
 const loading = ref(false)

@@ -1,5 +1,6 @@
 <template>
   <div class="min-h-screen bg-background">
+    <h1 class="sr-only">Marjolene Lasne - Artiste peintre</h1>
     <!-- ===================== -->
     <!-- MOBILE LAYOUT (< lg)  -->
     <!-- ===================== -->
@@ -110,6 +111,7 @@
 
 <script setup>
 import { ref, computed, onMounted, nextTick } from 'vue'
+import { useSiteUrl } from '~/composables/useSiteUrl'
 
 definePageMeta({ layout: false })
 
@@ -151,6 +153,24 @@ const revealedMenu = ref(menuItems.map(() => false))
 // Animation state - logo puis menu
 const isLogoVisible = ref(false)
 const isLoaded = ref(false)
+
+const { withSiteUrl } = useSiteUrl()
+const metaTitle = 'Marjolene Lasne - Artiste peintre'
+const metaDescription = 'Portfolio de Marjolene Lasne, artiste peintre en Provence. Peintures originales, foulards en soie et univers artistique.'
+const metaImage = withSiteUrl('/logo.png')
+
+useSeoMeta({
+  title: metaTitle,
+  ogTitle: metaTitle,
+  description: metaDescription,
+  ogDescription: metaDescription,
+  ogImage: metaImage,
+  ogType: 'website',
+  twitterCard: 'summary_large_image',
+  twitterTitle: metaTitle,
+  twitterDescription: metaDescription,
+  twitterImage: metaImage,
+})
 
 // Trigger animations after mount (client-only)
 onMounted(() => {

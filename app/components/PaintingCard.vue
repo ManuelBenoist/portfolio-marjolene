@@ -12,6 +12,7 @@
         class="max-w-full max-h-full object-contain" 
         style="border-radius:0;"
         loading="lazy"
+        decoding="async"
       />
     </div>
     <div class="flex flex-col gap-1 text-left">

@@ -10,9 +10,10 @@
       <img
         v-if="currentImage"
         :src="currentImage.src"
-        :alt="currentImage.alt"
+        :alt="currentImage.alt || title"
         class="w-full h-full object-contain"
         loading="lazy"
+        decoding="async"
       />
     </div>
 

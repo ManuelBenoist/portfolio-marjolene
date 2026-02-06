@@ -71,6 +71,7 @@ import { useContent } from '~/composables/useContent'
 import TitleImageContent from '~/components/TitleImageContent.vue'
 import Timeline from '~/components/timeline/Timeline.vue'
 import QuoteBlock from '~/components/QuoteBlock.vue'
+import { useSiteUrl } from '~/composables/useSiteUrl'
 
 interface BiographySection {
   title: string
@@ -96,6 +97,55 @@ interface ArtisteContent {
 }
 
 const { data: artisteContent } = await useContent<ArtisteContent>('artiste.json')
+
+const { siteUrl, withSiteUrl } = useSiteUrl()
+const metaTitle = "L'Artiste - Marjolene Lasne"
+const metaDescription = "Biographie de Marjolene Lasne, artiste peintre en Provence, et presentation de son atelier a Roussillon."
+const metaImage = computed(() => {
+  const image = artisteContent.value?.biography?.image || '/logo.png'
+  return withSiteUrl(image)
+})
+
+useSeoMeta({
+  title: metaTitle,
+  ogTitle: metaTitle,
+  description: metaDescription,
+  ogDescription: metaDescription,
+  ogImage: metaImage,
+  twitterCard: 'summary_large_image',
+  twitterTitle: metaTitle,
+  twitterDescription: metaDescription,
+  twitterImage: metaImage,
+})
+
+const breadcrumbSchema = computed(() => {
+  if (!siteUrl) return null
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Accueil',
+        item: siteUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: "L'Artiste",
+        item: withSiteUrl('/artiste'),
+      },
+    ],
+  }
+})
+
+useHead(() => ({
+  script: breadcrumbSchema.value
+    ? [{ type: 'application/ld+json', children: JSON.stringify(breadcrumbSchema.value) }]
+    : [],
+}))
 </script>
 
 <style scoped>

@@ -186,6 +186,7 @@ import MaterialBadge from '~/components/MaterialBadge.vue'
 import SizeList from '~/components/SizeList.vue'
 import ContactButton from '~/components/ContactButton.vue'
 import ImageLightbox from '~/components/ImageLightbox.vue'
+import { useSiteUrl } from '~/composables/useSiteUrl'
 
 // Gallery state for scroll restoration
 const { activeFoulardSlug } = useGalleryState()
@@ -395,7 +396,11 @@ const metaTitle = computed(() =>
 const metaDescription = computed(
   () => foulard.value?.metaDescription ?? foulard.value?.description ?? fallbackDescription
 )
-const metaImage = computed(() => activeImages.value[0]?.src ?? '/foulards/foulard-marjo-bleu.avif')
+const { siteUrl, withSiteUrl } = useSiteUrl()
+const metaImage = computed(() => {
+  const image = activeImages.value[0]?.src || '/foulards/foulard-marjo-bleu.avif'
+  return withSiteUrl(image)
+})
 
 useSeoMeta({
   title: metaTitle,
@@ -403,11 +408,70 @@ useSeoMeta({
   description: metaDescription,
   ogDescription: metaDescription,
   ogImage: metaImage,
+  ogType: 'product',
   twitterCard: 'summary_large_image',
   twitterTitle: metaTitle,
   twitterDescription: metaDescription,
   twitterImage: metaImage,
 })
+
+const breadcrumbSchema = computed(() => {
+  if (!siteUrl || !foulard.value) return null
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Accueil',
+        item: siteUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Foulards',
+        item: withSiteUrl('/foulards'),
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: foulard.value.title,
+        item: withSiteUrl(`/foulards/${foulard.value.slug}`),
+      },
+    ],
+  }
+})
+
+const productSchema = computed(() => {
+  if (!siteUrl || !foulard.value) return null
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: foulard.value.title,
+    description: metaDescription.value,
+    image: metaImage.value,
+    brand: {
+      '@type': 'Person',
+      name: 'Marjolene Lasne',
+    },
+    material: activeMaterial.value?.label || undefined,
+    color: activeColor.value?.label || undefined,
+    size: activeSize.value?.label || undefined,
+    url: withSiteUrl(`/foulards/${foulard.value.slug}`),
+  }
+})
+
+useHead(() => ({
+  script: [breadcrumbSchema.value, productSchema.value]
+    .filter(Boolean)
+    .map((schema) => ({
+      type: 'application/ld+json',
+      children: JSON.stringify(schema),
+    })),
+}))
 </script>
 
 <style scoped>

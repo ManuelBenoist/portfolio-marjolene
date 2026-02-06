@@ -62,6 +62,7 @@ import Filter from '~/components/Filter.vue'
 import CardGrid from '~/components/CardGrid.vue'
 import PaintingCard from '~/components/PaintingCard.vue'
 import PaintingCardWrapper from '~/components/PaintingCardWrapper.vue'
+import { useSiteUrl } from '~/composables/useSiteUrl'
 
 interface Painting {
   slug: string
@@ -178,6 +179,55 @@ const filteredPaintings = computed(() => {
 })
 
 const filterKey = computed(() => `${selectedCollection.value}::${selectedTechnique.value}`)
+
+const { siteUrl, withSiteUrl } = useSiteUrl()
+const metaTitle = 'Peintures - Marjolene Lasne'
+const metaDescription = "Galerie de peintures originales de Marjolene Lasne, inspirees par la Provence, les scenes de vie et les paysages." 
+const metaImage = computed(() => {
+  const image = paintings.value[0]?.image || '/logo.png'
+  return withSiteUrl(image)
+})
+
+useSeoMeta({
+  title: metaTitle,
+  ogTitle: metaTitle,
+  description: metaDescription,
+  ogDescription: metaDescription,
+  ogImage: metaImage,
+  twitterCard: 'summary_large_image',
+  twitterTitle: metaTitle,
+  twitterDescription: metaDescription,
+  twitterImage: metaImage,
+})
+
+const breadcrumbSchema = computed(() => {
+  if (!siteUrl) return null
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Accueil',
+        item: siteUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Peintures',
+        item: withSiteUrl('/peintures'),
+      },
+    ],
+  }
+})
+
+useHead(() => ({
+  script: breadcrumbSchema.value
+    ? [{ type: 'application/ld+json', children: JSON.stringify(breadcrumbSchema.value) }]
+    : [],
+}))
 
 // Scroll restoration: scroll to the painting card after returning from detail page
 onMounted(() => {
