@@ -1,7 +1,7 @@
 <template>
-  <div v-reveal class="flex flex-col md:flex-row gap-8" :class="{ 'md:flex-row-reverse': position === 'left' }">
+  <div v-reveal class="flex flex-col gap-8 md:flex-row md:items-stretch" :class="{ 'md:flex-row-reverse': position === 'left' }">
     <!-- Text Content -->
-    <div class="flex flex-col justify-start md:w-1/2">
+    <div ref="textContainer" class="flex flex-col justify-start md:flex-1">
       <!-- Title -->
       <h2 class="text-[36px] font-['Averia_Serif_Libre'] leading-tight text-accent">
         {{ title }}
@@ -47,8 +47,13 @@
     </div>
 
     <!-- Image Content -->
-    <div class="md:w-1/2 image-reveal">
-      <img :src="imageSrc" :alt="imageAlt" class="h-auto w-full rounded-[12px] object-cover" loading="lazy" />
+    <div class="image-reveal md:flex-none md:self-stretch md:max-w-[35%]" :style="{ '--target-height': targetHeight }">
+      <img
+        :src="imageSrc"
+        :alt="imageAlt"
+        class="h-auto w-full rounded-[12px] object-cover md:h-[var(--target-height)] md:w-auto"
+        loading="lazy"
+      />
     </div>
   </div>
 </template>
@@ -74,6 +79,32 @@ const props = withDefaults(defineProps<Props>(), {
   to: '#',
   buttonLabel: 'Contacter l\'artiste',
   buttonAriaLabel: 'Contacter l\'artiste',
+})
+
+// Responsive height logic
+const textContainer = ref<HTMLElement | null>(null)
+const targetHeight = ref('auto')
+let resizeObserver: ResizeObserver | null = null
+
+onMounted(() => {
+  if (textContainer.value) {
+    resizeObserver = new ResizeObserver((entries) => {
+      for (const entry of entries) {
+        // Enforce a minimum height (e.g., 250px) to prevent tiny images
+        // The image height will match the text height, or 250px, whichever is larger
+        // This effectively minimizes the white space while keeping layout balanced
+        const height = Math.max(50, entry.contentRect.height)
+        targetHeight.value = `${height}px`
+      }
+    })
+    resizeObserver.observe(textContainer.value)
+  }
+})
+
+onBeforeUnmount(() => {
+  if (resizeObserver) {
+    resizeObserver.disconnect()
+  }
 })
 
 // Check if the link is external (starts with http)
