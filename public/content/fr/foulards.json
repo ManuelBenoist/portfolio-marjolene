@@ -985,18 +985,18 @@
           }
         }
       },
-      "corail-degrade": {
-        "id": "corail-degrade",
-        "label": "Corail dégradé",
-        "hex": "#000000",
+      "orange-degrade-sanguine": {
+        "id": "orange-degrade-sanguine",
+        "label": "Orange dégradé sanguine ",
+        "hexes": ["#F99324","#EE3143"],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
               {
-                "src": "/img/foulards/multi/corail/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Foulard corail en mousseline et satin de soie"
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84.webp",
+                "alt": "Foulard orange dégradé sanguine en mousseline et satin de soie"
               }
             ],
             "sizes": [
@@ -1008,18 +1008,18 @@
           }
         }
       },
-      "bleu-turquoise": {
-        "id": "bleu-turquoise",
-        "label": "Bleu turquoise",
-        "hex": "#000000",
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Bleu turquoise dégradé",
+        "hexes": ["#0CD2FD","#1671B9"],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
               {
-                "src": "/img/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Foulard bleu turquoise en mousseline et satin de soie"
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84.webp",
+                "alt": "Foulard bleu turquoise dégradé en mousseline et satin de soie"
               }
             ],
             "sizes": [

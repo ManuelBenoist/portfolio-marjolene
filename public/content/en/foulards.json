@@ -985,18 +985,19 @@
           }
         }
       },
-      "corail-degrade": {
-        "id": "corail-degrade",
-        "label": "Coral gradient",
-        "hex": "#000000",
+      "orange-degrade-sanguine": {
+        "id": "orange-degrade-sanguine",
+        "label": "Sanguine orange gradient",
+        "hexes": ["#F99324","#EE3143"],
+        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Silk chiffon and satin",
             "images": [
               {
-                "src": "/img/foulards/multi/corail/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Coral scarf in silk chiffon and satin"
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84.webp",
+                "alt": "Sanguine orange gradient scarf in silk chiffon and satin"
               }
             ],
             "sizes": [
@@ -1008,18 +1009,19 @@
           }
         }
       },
-      "bleu-turquoise": {
-        "id": "bleu-turquoise",
-        "label": "Turquoise blue",
-        "hex": "#000000",
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Turquoise blue gradient",
+        "hexes": ["#0CD2FD","#1671B9"],
+        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Silk chiffon and satin",
             "images": [
               {
-                "src": "/img/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Turquoise blue scarf in silk chiffon and satin"
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84.webp",
+                "alt": "Turquoise blue gradient scarf in silk chiffon and satin"
               }
             ],
             "sizes": [

@@ -985,18 +985,22 @@
           }
         }
       },
-      "corail-degrade": {
-        "id": "corail-degrade",
-        "label": "Korallen-Verlauf",
-        "hex": "#000000",
+      "orange-degrade-sanguine": {
+        "id": "orange-degrade-sanguine",
+        "label": "Sanguine Orange Verlauf",
+        "hexes": [
+          "#F99324",
+          "#EE3143"
+        ],
+        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Seidenchiffon und Seidensatin",
             "images": [
               {
-                "src": "/img/foulards/multi/corail/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Korallenfarbenes Tuch in Seidenchiffon und Seidensatin"
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84.webp",
+                "alt": "Sanguine Orange Verlauf Tuch in Seidenchiffon und Seidensatin"
               }
             ],
             "sizes": [
@@ -1008,17 +1012,21 @@
           }
         }
       },
-      "bleu-turquoise": {
-        "id": "bleu-turquoise",
-        "label": "Türkisblau",
-        "hex": "#000000",
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Türkisblau Verlauf",
+        "hexes": [
+          "#0CD2FD",
+          "#1671B9"
+        ],
+        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Seidenchiffon und Seidensatin",
             "images": [
               {
-                "src": "/img/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif",
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84.webp",
                 "alt": "Türkisblaues Tuch in Seidenchiffon und Seidensatin"
               }
             ],

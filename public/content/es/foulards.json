@@ -985,18 +985,19 @@
           }
         }
       },
-      "corail-degrade": {
-        "id": "corail-degrade",
-        "label": "Degradado coral",
-        "hex": "#000000",
+      "orange-degrade-sanguine": {
+        "id": "orange-degrade-sanguine",
+        "label": "Degradado naranja sanguina",
+        "hexes": ["#F99324","#EE3143"],
+        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Muselina y satén de seda",
             "images": [
               {
-                "src": "/img/foulards/multi/corail/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Pañuelo coral en muselina y satén de seda"
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84.webp",
+                "alt": "Pañuelo degradado naranja sanguina en muselina y satén de seda"
               }
             ],
             "sizes": [
@@ -1008,18 +1009,19 @@
           }
         }
       },
-      "bleu-turquoise": {
-        "id": "bleu-turquoise",
-        "label": "Azul turquesa",
-        "hex": "#000000",
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Azul turquesa degradado",
+        "hexes": ["#0CD2FD","#1671B9"],
+        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Muselina y satén de seda",
             "images": [
               {
-                "src": "/img/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Pañuelo azul turquesa en muselina y satén de seda"
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84.webp",
+                "alt": "Pañuelo azul turquesa degradado en muselina y satén de seda"
               }
             ],
             "sizes": [

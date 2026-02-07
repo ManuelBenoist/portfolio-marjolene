@@ -985,18 +985,18 @@
           }
         }
       },
-      "corail-degrade": {
-        "id": "corail-degrade",
-        "label": "Sfumatura corallo",
-        "hex": "#000000",
+      "orange-degrade-sanguine": {
+        "id": "orange-degrade-sanguine",
+        "label": "Sfumatura arancione sanguigna",
+        "hexes": ["#F99324","#EE3143"],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/multi/corail/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Foulard corallo in chiffon e satin di seta"
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84.webp",
+                "alt": "Foulard arancione sanguigna in chiffon e satin di seta"
               }
             ],
             "sizes": [
@@ -1008,18 +1008,18 @@
           }
         }
       },
-      "bleu-turquoise": {
-        "id": "bleu-turquoise",
-        "label": "Blu turchese",
-        "hex": "#000000",
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Blu turchese sfumato",
+        "hexes": ["#0CD2FD","#1671B9"],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Foulard blu turchese in chiffon e satin di seta"
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84.webp",
+                "alt": "Foulard blu turchese sfumato in chiffon e satin di seta"
               }
             ],
             "sizes": [
