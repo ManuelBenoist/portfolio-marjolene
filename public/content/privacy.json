@@ -1,0 +1,143 @@
+{
+  "title": "Politique de confidentialité",
+  "lastUpdated": "Dernière mise à jour : 31/01/2026",
+  "intro": "La présente politique de confidentialité a pour objet d'informer les utilisateurs du site sur la manière dont leurs données personnelles sont collectées et traitées, conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés modifiée.",
+  "sections": [
+    {
+      "title": "1. Responsable du traitement des données",
+      "content": [
+        { "type": "paragraph", "text": "Les données personnelles collectées sur ce site sont traitées par :" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "label": "Nom", "value": "Marjolène Lasne" },
+            { "label": "Statut", "value": "Artiste peintre, micro-entrepreneur" },
+            { "label": "Adresse", "value": "{address}" },
+            { "label": "SIRET", "value": "3441744300061" },
+            { "label": "Email de contact RGPD", "value": "{email}" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Données personnelles collectées",
+      "content": [
+        { "type": "paragraph", "text": "Dans le cadre de l'utilisation de ce site, différentes catégories de données personnelles peuvent être collectées :" },
+        {
+          "type": "subsection",
+          "title": "2.1 Données collectées via le formulaire de contact",
+          "text": "Lorsque vous utilisez le formulaire de contact, les données suivantes sont collectées :",
+          "list": [
+            "Nom et/ou prénom",
+            "Adresse email",
+            "Contenu du message"
+          ],
+          "footer": "Ces données sont collectées de manière volontaire et ne sont traitées que si vous décidez de soumettre le formulaire."
+        },
+        {
+          "type": "subsection",
+          "title": "2.2 Données de navigation et d'analyse",
+          "text": "Sous réserve de votre consentement, des données de navigation anonymisées peuvent être collectées via Google Analytics (pages consultées, durée de visite, type d'appareil, localisation approximative)."
+        },
+        {
+          "type": "subsection",
+          "title": "2.3 Données techniques d'hébergement",
+          "text": "L'hébergeur du site (GitHub Pages) peut collecter automatiquement certaines données techniques telles que l'adresse IP des visiteurs dans le cadre de la fourniture du service d'hébergement et pour des raisons de sécurité."
+        }
+      ]
+    },
+    {
+      "title": "3. Finalités du traitement",
+      "content": [
+        { "type": "paragraph", "text": "Les données collectées sont utilisées aux fins suivantes :" },
+        {
+          "type": "list",
+          "style": "disc",
+          "items": [
+            "Répondre aux messages envoyés via le formulaire de contact",
+            "Mesurer l'audience du site et améliorer son fonctionnement",
+            "Assurer la sécurité et le bon fonctionnement du site"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Destinataires des données",
+      "content": [
+        { "type": "paragraph", "text": "Vos données personnelles peuvent être traitées par les prestataires techniques suivants :" },
+        {
+          "type": "list",
+          "style": "disc",
+          "items": [
+            { "bold": "Formspree, Inc.", "text": " (traitement des formulaires de contact)" },
+            { "bold": "Google LLC", "text": " (Google Analytics 4 - mesure d'audience)" },
+            { "bold": "GitHub, Inc.", "text": " (hébergement du site via GitHub Pages)" }
+          ]
+        },
+        { "type": "paragraph", "text": "Vos données ne sont jamais vendues ni louées à des tiers. Elles ne sont partagées avec aucune autre entité commerciale à des fins de prospection ou de marketing." }
+      ]
+    },
+    {
+      "title": "5. Transferts de données hors de l'Union européenne",
+      "content": [
+        { "type": "paragraph", "text": "Certaines des données collectées peuvent être transférées vers des pays situés hors de l'Union européenne, notamment les États-Unis, dans le cadre de l'utilisation des services Formspree, Google Analytics et GitHub Pages." },
+        { "type": "paragraph", "text": "Ces transferts sont encadrés par des garanties conformes au RGPD (clauses contractuelles types ou mécanismes reconnus par la Commission européenne)." }
+      ]
+    },
+    {
+      "title": "6. Durée de conservation des données",
+      "content": [
+        { "type": "paragraph", "text": "Les données issues du formulaire de contact sont conservées uniquement le temps nécessaire au traitement de la demande. Les données de mesure d'audience sont conservées pour une durée maximale de 14 mois." }
+      ]
+    },
+    {
+      "title": "7. Cookies",
+      "content": [
+        { "type": "paragraph", "text": "Conformément à l'article 82 de la loi Informatique et Libertés et aux recommandations de la CNIL, les cookies de mesure d'audience (Google Analytics) ne sont déposés qu'après avoir recueilli votre consentement explicite." },
+        { "type": "paragraph", "text": "Lors de votre première visite sur le site, un bandeau vous informe de la présence de ces cookies et vous permet de les accepter ou de les refuser." },
+        { "type": "paragraph", "text": "Le refus des cookies analytiques n'a aucune incidence sur votre navigation sur le site.", "class": "text-sm text-gray-600" }
+      ]
+    },
+    {
+      "title": "8. Vos droits",
+      "content": [
+        { "type": "paragraph", "text": "Conformément au RGPD (articles 15 à 22) et à la loi Informatique et Libertés, vous disposez des droits suivants concernant vos données personnelles : accès, rectification, suppression, limitation, opposition et portabilité." },
+        { "type": "paragraph", "text": "Pour exercer l'un de ces droits, vous pouvez adresser votre demande par email à : {email}" }
+      ]
+    },
+    {
+      "title": "9. Protection des mineurs",
+      "content": [
+        { "type": "paragraph", "text": "Ce site ne s'adresse pas spécifiquement aux mineurs et ne collecte pas sciemment de données personnelles auprès de personnes de moins de 16 ans." }
+      ]
+    },
+    {
+      "title": "10. Modifications de la politique de confidentialité",
+      "content": [
+        { "type": "paragraph", "text": "La présente politique de confidentialité peut être mise à jour à tout moment pour refléter les évolutions légales, réglementaires ou techniques, ou en cas de modification des modalités de collecte et de traitement des données." },
+        { "type": "paragraph", "text": "La date de dernière mise à jour est indiquée en haut de ce document." }
+      ]
+    },
+    {
+      "title": "11. Contact",
+      "content": [
+        { "type": "paragraph", "text": "Pour toute question relative à la présente politique de confidentialité ou pour toute demande concernant vos données personnelles, vous pouvez nous contacter :" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "label": "Par email", "value": "{email}" },
+            { "label": "Par courrier", "value": "Marjolène Lasne - {address}" }
+          ]
+        }
+      ]
+    }
+  ],
+  "legalLink": "Voir également nos {link}.",
+  "legalLinkText": "Mentions légales",
+  "seo": {
+    "title": "Politique de confidentialité",
+    "description": "Politique de confidentialité et gestion des données personnelles conformément au RGPD et aux recommandations de la CNIL."
+  }
+}

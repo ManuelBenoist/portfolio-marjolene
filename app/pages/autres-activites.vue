@@ -1,10 +1,10 @@
 <template>
-  <div class="max-w-[72rem] mx-auto px-6 py-12">
+  <div v-if="pageContent" class="max-w-[72rem] mx-auto px-6 py-12">
     <div>
       <!-- Section Title -->
       <SectionTitle 
-            title="Autres activités" 
-            subtitle="Marjolène Lasne élargit son univers artistique en proposant diverses activités en parallèle de sa peinture.",
+            :title="pageContent.title" 
+            :subtitle="pageContent.subtitle"
           />
           
           <!-- Separator Line -->
@@ -33,6 +33,7 @@
 <script setup lang="ts">
 import type { RouteLocationRaw } from 'vue-router'
 import { useSiteUrl } from '~/composables/useSiteUrl'
+import { useContent } from '~/composables/useContent'
 
 interface Activity {
   id: string
@@ -62,9 +63,12 @@ const { data: activities } = await useAsyncData<Activity[]>('activities', async 
   default: () => []
 })
 
+const { data: pages } = await useContent('pages.json')
+const pageContent = computed(() => pages.value?.activities)
+
 const { siteUrl, withSiteUrl } = useSiteUrl()
-const metaTitle = 'Autres activites - Marjolene Lasne'
-const metaDescription = "Decouvrez les autres activites de Marjolene Lasne : stages, design textile, commandes et hebergements en Provence."
+const metaTitle = computed(() => pageContent.value?.seo?.title || '')
+const metaDescription = computed(() => pageContent.value?.seo?.description || '')
 const metaImage = withSiteUrl('/logo.png')
 
 useSeoMeta({
@@ -89,13 +93,13 @@ const breadcrumbSchema = computed(() => {
       {
         '@type': 'ListItem',
         position: 1,
-        name: 'Accueil',
+        name: pageContent.value?.breadcrumb?.home || 'Accueil',
         item: siteUrl,
       },
       {
         '@type': 'ListItem',
         position: 2,
-        name: 'Autres activites',
+        name: pageContent.value?.breadcrumb?.current || 'Autres activites',
         item: withSiteUrl('/autres-activites'),
       },
     ],
@@ -127,8 +131,8 @@ const getRouteTo = (activityId: string): string | { path: string; query?: Record
 // Button label logic
 const getButtonLabel = (activityId: string): string => {
   if (activityId === 'gites') {
-    return 'Découvrir les logements'
+    return pageContent.value?.buttons?.gites || 'Découvrir les logements'
   }
-  return 'Contacter l\'artiste'
+  return pageContent.value?.buttons?.default || 'Contacter l\'artiste'
 }
 </script>

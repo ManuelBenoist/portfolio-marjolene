@@ -1,175 +1,98 @@
 <template>
-  <div class="max-w-[72rem] mx-auto px-6 py-12">
+  <div v-if="privacy" class="max-w-[72rem] mx-auto px-6 py-12">
     <div class="politique-confidentialite">
       <div class="container mx-auto px-4 py-12 max-w-4xl">
-        <h1 class="text-3xl font-bold mb-8">Politique de confidentialité</h1>
+        <h1 class="text-3xl font-bold mb-8">{{ privacy.title }}</h1>
         
-        <p class="text-sm text-gray-600 mb-8">
-          Dernière mise à jour : 31/01/2026
-        </p>
+        <p class="text-sm text-gray-600 mb-8">{{ privacy.lastUpdated }}</p>
 
-        <p class="mb-8">
-        La présente politique de confidentialité a pour objet d’informer les utilisateurs du site sur la manière dont leurs données personnelles sont collectées et traitées, conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés modifiée.
-        </p>
+        <p class="mb-8">{{ privacy.intro }}</p>
 
-        <!-- Section 1: Responsable du traitement -->
-        <section class="mb-8">
-          <h2 class="text-xl font-semibold mb-4">1. Responsable du traitement des données</h2>
-          <p class="mb-2">Les données personnelles collectées sur ce site sont traitées par :</p>
-          <ul class="list-none space-y-1 ml-4">
-            <li><strong>Nom :</strong> Marjolène Lasne</li>
-            <li><strong>Statut :</strong> Artiste peintre, micro-entrepreneur</li>
-            <li><strong>Adresse :</strong> {{ config.public.contact.address.street }}, {{ config.public.contact.address.zip }} {{ config.public.contact.address.city }}</li>
-            <li><strong>SIRET :</strong> 3441744300061 </li>
-            <li><strong>Email de contact RGPD :</strong> {{ config.public.contact.email }}</li>
-          </ul>
-        </section>
+        <section v-for="(section, sIdx) in privacy.sections" :key="sIdx" class="mb-8">
+          <h2 class="text-xl font-semibold mb-4">{{ section.title }}</h2>
+          
+          <template v-for="(block, bIdx) in section.content" :key="bIdx">
+            <!-- Paragraph -->
+            <p v-if="block.type === 'paragraph'" :class="block.class || 'mb-4'">
+              {{ replacePlaceholdersText(block.text) }}
+            </p>
 
-        <!-- Section 2: Données collectées -->
-        <section class="mb-8">
-          <h2 class="text-xl font-semibold mb-4">2. Données personnelles collectées</h2>
-          <p class="mb-4">
-            Dans le cadre de l'utilisation de ce site, différentes catégories de données personnelles peuvent être collectées :
-          </p>
-
-          <h3 class="text-lg font-medium mb-2 mt-4">2.1 Données collectées via le formulaire de contact</h3>
-          <p class="mb-2">Lorsque vous utilisez le formulaire de contact, les données suivantes sont collectées :</p>
-          <ul class="list-disc ml-6 space-y-1 mb-4">
-            <li>Nom et/ou prénom</li>
-            <li>Adresse email</li>
-            <li>Contenu du message</li>
-          </ul>
-          <p class="mb-4">
-            Ces données sont collectées de manière volontaire et ne sont traitées que si vous décidez de soumettre le formulaire.
-          </p>
-
-          <h3 class="text-lg font-medium mb-2">2.2 Données de navigation et d'analyse</h3>
-          <p class="mb-2">Sous réserve de votre consentement, des données de navigation anonymisées peuvent être collectées via Google Analytics (pages consultées, durée de visite, type d’appareil, localisation approximative).
-          </p>
-
-          <h3 class="text-lg font-medium mb-2">2.3 Données techniques d'hébergement</h3>
-          <p class="mb-4">
-            L'hébergeur du site (GitHub Pages) peut collecter automatiquement certaines données techniques telles que l'adresse IP des visiteurs dans le cadre de la fourniture du service d'hébergement et pour des raisons de sécurité.
-          </p>
-        </section>
-
-        <!-- Section 3: Finalités du traitement -->
-        <section class="mb-8">
-          <h2 class="text-xl font-semibold mb-4">3. Finalités du traitement</h2>
-          <p class="mb-4">Les données collectées sont utilisées aux fins suivantes :
-          </p>
-          <ul class="list-disc ml-6 space-y-1">
-          <li>Répondre aux messages envoyés via le formulaire de contact</li>
-          <li>Mesurer l’audience du site et améliorer son fonctionnement</li>
-          <li>Assurer la sécurité et le bon fonctionnement du site</li>
-          </ul>     
-        </section>
-
-        <!-- Section 4: Destinataires des données -->
-        <section class="mb-8">
-          <h2 class="text-xl font-semibold mb-4">4. Destinataires des données</h2>
-          <p class="mb-4">Vos données personnelles peuvent être traitées par les prestataires techniques suivants :</p>
-          <ul class="list-disc ml-6 space-y-2 mb-4"> 
-            <li><strong>Formspree, Inc.</strong> (traitement des formulaires de contact)<br></li>
-            <li><strong>Google LLC</strong> (Google Analytics 4 - mesure d'audience)<br></li>
-            <li><strong>GitHub, Inc.</strong> (hébergement du site via GitHub Pages)<br></li>
+            <!-- List with label/value pairs (style: none) -->
+            <ul v-else-if="block.type === 'list' && block.style === 'none'" class="list-none space-y-1 ml-4">
+              <li v-for="(item, iIdx) in block.items" :key="iIdx">
+                <template v-if="typeof item === 'object' && item.label">
+                  <strong>{{ item.label }} :</strong> {{ replacePlaceholdersText(item.value) }}
+                </template>
+                <template v-else-if="typeof item === 'object'">
+                  {{ replacePlaceholdersText(item.value) }}
+                </template>
+                <template v-else>
+                  {{ item }}
+                </template>
+              </li>
             </ul>
-            <p class="mb-4">Vos données ne sont jamais vendues ni louées à des tiers. Elles ne sont partagées avec aucune autre entité commerciale à des fins de prospection ou de marketing.
-          </p>
+
+            <!-- Bullet list (style: disc) -->
+            <ul v-else-if="block.type === 'list' && block.style === 'disc'" class="list-disc ml-6 space-y-1 mb-4">
+              <li v-for="(item, iIdx) in block.items" :key="iIdx">
+                <template v-if="typeof item === 'object' && item.bold">
+                  <strong>{{ item.bold }}</strong>{{ item.text }}
+                </template>
+                <template v-else>
+                  {{ typeof item === 'string' ? item : item.value }}
+                </template>
+              </li>
+            </ul>
+
+            <!-- Subsection -->
+            <div v-else-if="block.type === 'subsection'">
+              <h3 class="text-lg font-medium mb-2 mt-4">{{ block.title }}</h3>
+              <p v-if="block.text" class="mb-4">{{ replacePlaceholdersText(block.text) }}</p>
+              <template v-if="block.paragraphs">
+                <p v-for="(para, pIdx) in block.paragraphs" :key="pIdx" class="mb-4">{{ para }}</p>
+              </template>
+              <ul v-if="block.list" class="list-disc ml-6 space-y-1 mb-4">
+                <li v-for="(item, iIdx) in block.list" :key="iIdx">{{ item }}</li>
+              </ul>
+              <p v-if="block.footer" class="mb-4">{{ replacePlaceholdersText(block.footer) }}</p>
+            </div>
+          </template>
         </section>
 
-        <!-- Section 5: Transferts hors UE -->
-        <section class="mb-8">
-          <h2 class="text-xl font-semibold mb-4">5. Transferts de données hors de l'Union européenne</h2>
-          <p class="mb-4">
-            Certaines des données collectées peuvent être transférées vers des pays situés hors de l'Union européenne, notamment les États-Unis, dans le cadre de l'utilisation des services Formspree, Google Analytics et GitHub Pages.
-          </p>
-          <p class="mb-4">
-            Ces transferts sont encadrés par des garanties conformes au RGPD (clauses contractuelles types ou mécanismes reconnus par la Commission européenne).
-          </p>
-        </section>
-
-        <!-- Section 6: Durée de conservation -->
-        <section class="mb-8">
-          <h2 class="text-xl font-semibold mb-4">6. Durée de conservation des données</h2>
-          <p class="mb-4">Les données issues du formulaire de contact sont conservées uniquement le temps nécessaire au traitement de la demande.
-          Les données de mesure d’audience sont conservées pour une durée maximale de 14 mois.
-          </p>
-        </section>
-
-        <!-- Section 7: Cookies -->
-        <section class="mb-8">
-          <h2 class="text-xl font-semibold mb-4">7. Cookies</h2>
-          <p class="mb-4">
-            Conformément à l'article 82 de la loi Informatique et Libertés et aux recommandations de la CNIL, les cookies de mesure d'audience (Google Analytics) ne sont déposés qu'après avoir recueilli votre consentement explicite.
-          </p>
-          <p class="mb-4">
-            Lors de votre première visite sur le site, un bandeau vous informe de la présence de ces cookies et vous permet de les accepter ou de les refuser.
-          </p>
-          <p class="mb-4 text-sm text-gray-600">
-            Le refus des cookies analytiques n'a aucune incidence sur votre navigation sur le site.
-          </p>
-        </section>
-        <!-- Section 8: Droits des utilisateurs -->
-        <section class="mb-8">
-          <h2 class="text-xl font-semibold mb-4">8. Vos droits</h2>
-          <p class="mb-4">
-            Conformément au RGPD (articles 15 à 22) et à la loi Informatique et Libertés, vous disposez des droits suivants concernant vos données personnelles : accès, rectification, suppression, limitation, opposition et portabilité.
-          </p>
-          <p>Pour exercer l'un de ces droits, vous pouvez adresser votre demande par email à : <strong>{{ config.public.contact.email }}</strong>
-          </p>
-        </section>
-        <!-- Section 9: Mineurs -->
-        <section class="mb-8">
-          <h2 class="text-xl font-semibold mb-4">9. Protection des mineurs</h2>
-          <p class="mb-4">
-            Ce site ne s'adresse pas spécifiquement aux mineurs et ne collecte pas sciemment de données personnelles auprès de personnes de moins de 16 ans.
-          </p>
-        </section>
-
-        <!-- Section 10: Modifications -->
-        <section class="mb-8">
-          <h2 class="text-xl font-semibold mb-4">10. Modifications de la politique de confidentialité</h2>
-          <p class="mb-4">
-            La présente politique de confidentialité peut être mise à jour à tout moment pour refléter les évolutions légales, réglementaires ou techniques, ou en cas de modification des modalités de collecte et de traitement des données.
-          </p>
-          <p class="mb-4">
-            La date de dernière mise à jour est indiquée en haut de ce document.
-          </p>
-        </section>
-
-        <!-- Section 11: Contact -->
-        <section class="mb-8">
-          <h2 class="text-xl font-semibold mb-4">11. Contact</h2>
-          <p class="mb-4">
-            Pour toute question relative à la présente politique de confidentialité ou pour toute demande concernant vos données personnelles, vous pouvez nous contacter :
-          </p>
-          <ul class="list-none space-y-1 ml-4">
-            <li><strong>Par email :</strong> {{ config.public.contact.email }}</li>
-            <li><strong>Par courrier :</strong> Marjolène Lasne - {{ config.public.contact.address.street }}, {{ config.public.contact.address.zip }} {{ config.public.contact.address.city }}</li>
-          </ul>
-        </section>
-
-        <!-- Lien vers mentions légales -->
+        <!-- Legal link -->
         <section class="mt-12 pt-8 border-t border-stroke">
           <p class="text-sm text-gray-600">
-            Voir également nos <NuxtLink to="/mentions-legales" class="text-primary hover:text-accent underline underline-offset-2">Mentions légales</NuxtLink>.
+            {{ privacy.legalLink?.split('{link}')[0] }}<NuxtLink to="/mentions-legales" class="text-primary hover:text-accent underline underline-offset-2">{{ privacy.legalLinkText }}</NuxtLink>{{ privacy.legalLink?.split('{link}')[1] }}
           </p>
         </section>
-
       </div>
     </div>
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const config = useRuntimeConfig()
+const { data: privacy } = await useContent<Record<string, any>>('privacy.json')
+
+const fullAddress = computed(() => {
+  const addr = config.public.contact.address as any
+  return `${addr.street}, ${addr.zip} ${addr.city}`
+})
+
+function replacePlaceholdersText(text: string): string {
+  if (!text) return ''
+  return text
+    .replace(/\{address\}/g, fullAddress.value)
+    .replace(/\{phone\}/g, config.public.contact.phone as string)
+    .replace(/\{email\}/g, config.public.contact.email as string)
+}
+
 useHead({
-  title: 'Politique de confidentialité',
+  title: privacy.value?.seo?.title || 'Politique de confidentialité',
   meta: [
     {
       name: 'description',
-      content: 'Politique de confidentialité et gestion des données personnelles conformément au RGPD et aux recommandations de la CNIL.'
+      content: privacy.value?.seo?.description || ''
     },
     {
       name: 'robots',
@@ -178,6 +101,7 @@ useHead({
   ]
 })
 </script>
+
 
 <style scoped>
 .politique-confidentialite {

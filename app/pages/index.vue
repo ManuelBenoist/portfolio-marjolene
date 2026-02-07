@@ -1,6 +1,6 @@
 <template>
-  <div class="min-h-screen bg-background">
-    <h1 class="sr-only">Marjolene Lasne - Artiste peintre</h1>
+  <div v-if="pageContent" class="min-h-screen bg-background">
+    <h1 class="sr-only">{{ pageContent.srTitle }}</h1>
     <!-- ===================== -->
     <!-- MOBILE LAYOUT (< lg)  -->
     <!-- ===================== -->
@@ -9,12 +9,12 @@
       <div class="mb-12 mt-8">
         <NuxtLink 
           to="/" 
-          aria-label="Accueil"
+          :aria-label="common?.aria?.home"
           :class="['logo-animate', { 'logo-visible': isLogoVisible }]"
         >
           <img 
             src="/logo.png" 
-            alt="Marjolène Lasne" 
+            :alt="pageContent.logoAlt" 
             class="h-28 w-auto"
           />
         </NuxtLink>
@@ -23,10 +23,10 @@
       <!-- Menu vertical centré -->
       <nav class="flex flex-col items-center gap-6">
         <NuxtLink 
-          v-for="(item, index) in menuItems" 
+          v-for="(item, index) in pageContent.menuItems" 
           :key="item.path"
           :to="item.path"
-            :class="['menu-item-animate font-heading text-4xl sm:text-5xl text-primary hover:text-accent transition-colors duration-75', { 'menu-visible': revealedMenu[index], 'menu-smooth': true }]"
+            :class="['menu-item-animate font-heading text-4xl sm:text-5xl text-primary hover:text-accent transition-colors duration-75', { 'menu-visible': revealedFlags[index], 'menu-smooth': true }]"
         >
           {{ item.label }}
         </NuxtLink>
@@ -36,7 +36,7 @@
       <div 
         class="mt-12"
         :class="['menu-item-animate', { 'menu-visible': isLoaded }]"
-        :style="{ '--menu-delay': `${150 + menuItems.length * 80}ms` }"
+        :style="{ '--menu-delay': `${150 + pageContent.menuItems.length * 80}ms` }"
       >
         <LanguageSwitcher />
       </div>
@@ -53,10 +53,10 @@
           class="absolute top-8 left-8 xl:left-12"
           :class="['logo-animate', { 'logo-visible': isLogoVisible }]"
         >
-          <NuxtLink to="/" aria-label="Accueil">
+          <NuxtLink to="/" :aria-label="common?.aria?.home">
             <img 
               src="/logo.png" 
-              alt="Marjolène Lasne" 
+              :alt="pageContent.logoAlt" 
               class="h-28 xl:h-36 w-auto"
             />
           </NuxtLink>
@@ -77,10 +77,10 @@
           @mouseleave="activeImage = null"
         >
           <NuxtLink 
-            v-for="(item, index) in menuItems" 
+            v-for="(item, index) in pageContent.menuItems" 
             :key="item.path"
             :to="item.path"
-            :class="['menu-item-animate group font-heading text-5xl xl:text-6xl 2xl:text-7xl text-primary transition-transform hover:text-accent hover:scale-105 origin-right', { 'menu-visible': revealedMenu[index], 'menu-smooth': true }]"
+            :class="['menu-item-animate group font-heading text-5xl xl:text-6xl 2xl:text-7xl text-primary transition-transform hover:text-accent hover:scale-105 origin-right', { 'menu-visible': revealedFlags[index], 'menu-smooth': true }]"
             :style="{ 'transition': 'transform 0.25s ease-out, color 0.25s ease-out' }"
             @mouseenter="activeImage = item.image"
           >
@@ -109,54 +109,37 @@
   </div>
 </template>
 
-<script setup>
-import { ref, computed, onMounted, nextTick } from 'vue'
+<script setup lang="ts">
+import { ref, computed, onMounted } from 'vue'
 import { useSiteUrl } from '~/composables/useSiteUrl'
+import { useContent } from '~/composables/useContent'
 
 definePageMeta({ layout: false })
 
-// Menu items avec leurs images associées
-const menuItems = [
-  { 
-    label: "L'Artiste", 
-    path: '/artiste', 
-    image: '/img/accueil/Marjolène-Lasne.webp' 
-  },
-  { 
-    label: 'Peintures', 
-    path: '/peintures', 
-    image: '/img/accueil/en_terrasse_parmi_les_fleurs.webp' 
-  },
-  { 
-    label: 'Foulards', 
-    path: '/foulards', 
-    image: '/img/accueil/rose-degrade-orange-BMS-84x84.webp' 
-  },
-  { 
-    label: 'Autres activités', 
-    path: '/autres-activites', 
-    image: '/img/accueil/gites_illu.webp' 
-  },
-  { 
-    label: 'Contact', 
-    path: '/contact', 
-    image: '/img/accueil/gordes_aux_iris.webp' 
-  },
-]
+interface MenuItem {
+  label: string
+  path: string
+  image: string
+}
+
+// Load content from JSON
+const { data: pages } = await useContent<Record<string, any>>('pages.json')
+const { data: common } = await useContent<Record<string, any>>('common.json')
+const pageContent = computed(() => pages.value?.home)
 
 // Image active (null par défaut - apparaît uniquement au hover)
-const activeImage = ref(null)
+const activeImage = ref<string | null>(null)
 
-// Pour le stagger/reveal progressif des items du menu
-const revealedMenu = ref(menuItems.map(() => false))
+// Revealed flags for staggered menu animation
+const revealedFlags = ref<boolean[]>([])
 
 // Animation state - logo puis menu
 const isLogoVisible = ref(false)
 const isLoaded = ref(false)
 
 const { withSiteUrl } = useSiteUrl()
-const metaTitle = 'Marjolene Lasne - Artiste peintre'
-const metaDescription = 'Portfolio de Marjolene Lasne, artiste peintre en Provence. Peintures originales, foulards en soie et univers artistique.'
+const metaTitle = computed(() => pageContent.value?.seo?.title || '')
+const metaDescription = computed(() => pageContent.value?.seo?.description || '')
 const metaImage = withSiteUrl('/logo.png')
 
 useSeoMeta({
@@ -174,11 +157,16 @@ useSeoMeta({
 
 // Trigger animations after mount (client-only)
 onMounted(() => {
+  const menuItems = (pageContent.value?.menuItems as MenuItem[]) || []
+  
   // Preload images for smoother hover interactions
   menuItems.forEach(item => {
     const img = new Image()
     img.src = item.image
   })
+
+  // Initialize revealed flags
+  revealedFlags.value = menuItems.map(() => false)
 
   // 1. Affiche le logo d'abord
   requestAnimationFrame(() => {
@@ -191,7 +179,7 @@ onMounted(() => {
     // Staggered reveal des items du menu (desktop & mobile)
     menuItems.forEach((_, i) => {
       setTimeout(() => {
-        revealedMenu.value[i] = true
+        revealedFlags.value[i] = true
       }, i * 160)
     })
   }, 180)
@@ -199,8 +187,9 @@ onMounted(() => {
 
 // Alt text dynamique basé sur l'image active
 const activeImageAlt = computed(() => {
+  const menuItems = (pageContent.value?.menuItems as MenuItem[]) || []
   const item = menuItems.find(i => i.image === activeImage.value)
-  return item ? `Image pour ${item.label}` : 'Œuvre de Marjolène Lasne'
+  return item ? `${pageContent.value?.imageAltPrefix} ${item.label}` : pageContent.value?.imageAltDefault
 })
 </script>
 

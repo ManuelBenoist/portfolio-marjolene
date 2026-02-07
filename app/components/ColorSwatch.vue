@@ -7,7 +7,7 @@
       class="w-10 h-10 rounded-full transition-all duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54] focus-visible:ring-offset-2"
       :class="option.id === modelValue ? 'ring-2 ring-[#C94E54] ring-offset-2 scale-105' : 'opacity-80 hover:opacity-100'"
       :style="getSwatchStyle(option)"
-      :aria-label="`Sélectionner ${option.label}`"
+      :aria-label="common?.actions?.selectColor?.replace('{label}', option.label) || option.label"
       :aria-pressed="option.id === modelValue"
       @click="selectOption(option.id)"
     >
@@ -17,6 +17,9 @@
 </template>
 
 <script setup lang="ts">
+const { data: commonData } = await useContent<Record<string, any>>('common.json')
+const common = computed(() => commonData.value)
+
 /**
  * ColorSwatch - Composant de sélection de couleurs
  * 

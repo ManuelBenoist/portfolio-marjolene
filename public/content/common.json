@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "artist": "L'Artiste",
+    "paintings": "Peintures",
+    "scarves": "Foulards",
+    "activities": "Autres activités",
+    "contact": "Contact"
+  },
+  "footer": {
+    "presentation": {
+      "name": "Marjolène Lasne",
+      "bio": "Artiste peintre basée en Provence, inspirée par les paysages colorés, les scènes de vie et la lumière du Sud."
+    },
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "studioLocation": "Atelier à Roussillon en Provence\nFrance",
+    "followArtist": "Suivez l'artiste",
+    "copyright": "Tous droits réservés.",
+    "legalLink": "Mentions légales",
+    "privacyLink": "Politique de confidentialité"
+  },
+  "cookie": {
+    "ariaLabel": "Gestion des cookies",
+    "message": "Ce site utilise des cookies d'analyse (Google Analytics) pour mesurer l'audience.",
+    "learnMore": "En savoir plus",
+    "accept": "Accepter",
+    "decline": "Refuser"
+  },
+  "actions": {
+    "contactArtist": "Contacter l'artiste",
+    "contactArtistAboutWork": "Contacter l'artiste au sujet de l'œuvre",
+    "sendMessage": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "close": "Fermer",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "previousImage": "Image précédente",
+    "nextImage": "Image suivante",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "selectColor": "Sélectionner {label}",
+    "loading": "Chargement...",
+    "back": "Retour"
+  },
+  "aria": {
+    "home": "Accueil",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "linkedin": "LinkedIn",
+    "languageSwitcher": "Language switcher",
+    "language": "Language",
+    "paintingNavigation": "Navigation entre les peintures",
+    "scarfImageAlt": "Visuel foulard"
+  },
+  "seo": {
+    "global": {
+      "title": "Marjolène Lasne - Artiste Peintre",
+      "description": "Portfolio de Marjolène Lasne, artiste peintre spécialisée dans les portraits et les paysages.",
+      "author": "Marjolène Lasne",
+      "keywords": "Marjolène Lasne, artiste peintre, peintures, portraits, paysages, art contemporain, galerie d'art"
+    },
+    "structuredData": {
+      "websiteName": "Marjolene Lasne",
+      "websiteDescription": "Portfolio officiel de Marjolene Lasne, artiste peintre en Provence.",
+      "personName": "Marjolene Lasne",
+      "jobTitle": "Artiste peintre",
+      "siteName": "Marjolene Lasne",
+      "locale": "fr_FR"
+    }
+  }
+}

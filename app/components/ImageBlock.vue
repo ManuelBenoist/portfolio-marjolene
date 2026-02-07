@@ -41,7 +41,10 @@ const props = withDefaults(
   }
 )
 
-const altFallback = computed(() => props.baseImage.alt || 'Visuel foulard')
+const { data: commonData } = await useContent<Record<string, any>>('common.json')
+const common = computed(() => commonData.value)
+
+const altFallback = computed(() => props.baseImage.alt || common.value?.aria?.scarfImageAlt || '')
 
 const currentImage = computed<ImageSource>(() => {
   if (!props.variantImages.length) {

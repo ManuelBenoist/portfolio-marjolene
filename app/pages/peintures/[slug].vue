@@ -5,10 +5,10 @@
         <NuxtLink
           class="flex items-center gap-2 text-xs font-medium uppercase tracking-[0.35em] text-gray-text transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           :to="backToGalleryRoute"
-          aria-label="Retour aux œuvres"
+          :aria-label="paintingDetail?.backToGallery"
         >
           <Icon icon="mdi:close" class="text-3xl" />
-          <span class="sm:inline text-gray-text font-medium">Retour aux œuvres</span>
+          <span class="sm:inline text-gray-text font-medium">{{ paintingDetail?.backToGallery }}</span>
         </NuxtLink>
       </div>
     </div>
@@ -23,7 +23,7 @@
           <figure class="relative flex h-full items-center justify-center bg-background p-0">
             <img
               :src="painting.image"
-              :alt="`Peinture ${painting.title}`"
+              :alt="paintingDetail?.imageAlt?.replace('{title}', painting.title) || painting.title"
               class="max-h-[70vh] w-full object-contain"
               loading="lazy"
               decoding="async"
@@ -36,7 +36,7 @@
                 :to="`/peintures?collection=${encodeURIComponent(painting.collection)}`"
                 class="text-xs font-bold uppercase tracking-[0.55em] text-primary/70 hover:text-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
               >
-                Collection {{ painting.collection }}
+                {{ paintingDetail?.collectionPrefix }} {{ painting.collection }}
               </NuxtLink>
               <h1 class="mt-4 font-heading text-4xl text-primary sm:text-5xl">
                 {{ painting.title }}
@@ -45,11 +45,11 @@
 
             <dl class="space-y-4 text-base">
               <div class="flex items-baseline justify-between border-b border-stroke pb-3">
-                <dt class="font-medium text-gray-text">Dimensions</dt>
+                <dt class="font-medium text-gray-text">{{ paintingDetail?.dimensions }}</dt>
                 <dd class="font-medium">{{ painting.dimensions }}</dd>
               </div>
               <div class="flex items-baseline justify-between border-b border-stroke pb-3">
-                <dt class="font-medium text-gray-text">Technique</dt>
+                <dt class="font-medium text-gray-text">{{ paintingDetail?.technique }}</dt>
                 <dd class="font-medium">{{ painting.technique }}</dd>
               </div>
             </dl>
@@ -59,9 +59,11 @@
             </p>
 
             <div>
-              <p class="text-sm font-medium text-primary/70">Vous avez une question&nbsp;?</p>
+              <p class="text-sm font-medium text-primary/70">{{ paintingDetail?.questionCta }}</p>
               <ContactButton
                 :to="contactLink"
+                :label="common?.actions?.contactArtist"
+                :aria-label="common?.actions?.contactArtistAboutWork"
                 class="mt-4"
               />
             </div>
@@ -72,31 +74,31 @@
           v-else-if="pending"
           class="flex flex-1 items-center justify-center text-sm text-gray-text"
         >
-          Chargement de l'œuvre…
+          {{ paintingDetail?.loading }}
         </div>
 
         <div
           v-else
           class="flex flex-1 items-center justify-center text-center"
         >
-          <p class="text-lg text-primary font-medium">Peinture introuvable.</p>
+          <p class="text-lg text-primary font-medium">{{ paintingDetail?.notFound }}</p>
         </div>
       </Transition>
 
       <nav
         class="mt-4 pt-8 flex flex-row items-center justify-between gap-4 text-sm uppercase text-gray-text pb-0 lg:mt-4 lg:pt-0"
-        aria-label="Navigation entre les peintures"
+        :aria-label="common?.aria?.paintingNavigation"
       >
         <NuxtLink
           v-if="previousPainting"
           class="group flex items-center gap-3 font-bold tracking-[0.35em] text-gray-text transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           :to="`/peintures/${previousPainting.slug}`"
-          :aria-label="`Voir la peinture précédente : ${previousPainting.title}`"
-          @click.native="scrollToTop"
+          :aria-label="paintingDetail?.previousAriaLabel?.replace('{title}', previousPainting.title)"
+          @click="scrollToTop"
         >
           <Icon icon="mdi:chevron-left" class="text-3xl" />
           <div class="flex flex-col gap-1 tracking-normal">
-            <span class="text-[11px] font-bold uppercase tracking-[0.35em] text-gray-text">Peinture précédente</span>
+            <span class="text-[11px] font-bold uppercase tracking-[0.35em] text-gray-text">{{ paintingDetail?.previousPainting }}</span>
             <span class="text-base capitalize text-primary">
               {{ previousPainting.title }}
             </span>
@@ -108,18 +110,18 @@
           aria-disabled="true"
         >
           <Icon icon="mdi:chevron-left" class="text-3xl" />
-          <span class="text-[11px] uppercase tracking-[0.35em]">Début de la collection</span>
+          <span class="text-[11px] uppercase tracking-[0.35em]">{{ paintingDetail?.collectionStart }}</span>
         </span>
 
         <NuxtLink
           v-if="nextPainting"
           class="group flex items-center gap-3 font-bold tracking-[0.35em] text-gray-text transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           :to="`/peintures/${nextPainting.slug}`"
-          :aria-label="`Voir la peinture suivante : ${nextPainting.title}`"
-          @click.native="scrollToTop"
+          :aria-label="paintingDetail?.nextAriaLabel?.replace('{title}', nextPainting.title)"
+          @click="scrollToTop"
         >
           <div class="flex flex-col gap-1 tracking-normal text-right">
-            <span class="text-[11px] font-bold uppercase tracking-[0.35em] text-gray-text">Peinture suivante</span>
+            <span class="text-[11px] font-bold uppercase tracking-[0.35em] text-gray-text">{{ paintingDetail?.nextPainting }}</span>
             <span class="text-base capitalize text-primary">
               {{ nextPainting.title }}
             </span>
@@ -131,7 +133,7 @@
           class="flex items-center gap-3 text-gray-text/30"
           aria-disabled="true"
         >
-          <span class="text-[11px] uppercase tracking-[0.35em]">Fin de la collection</span>
+          <span class="text-[11px] uppercase tracking-[0.35em]">{{ paintingDetail?.collectionEnd }}</span>
           <Icon icon="mdi:chevron-right" class="text-3xl" />
         </span>
       </nav>
@@ -175,6 +177,10 @@ interface PeinturesData {
 }
 
 const { data: peinturesData, pending } = await useContent<PeinturesData>('peintures.json')
+const { data: pages } = await useContent<Record<string, any>>('pages.json')
+const { data: commonData } = await useContent<Record<string, any>>('common.json')
+const common = computed(() => commonData.value)
+const paintingDetail = computed(() => pages.value?.paintings?.detail)
 
 // Flatten paintings from grouped structure and add collection property
 const paintings = computed<Painting[]>(() => {
@@ -223,12 +229,12 @@ const contactLink = computed(() => {
   }
 })
 
-const fallbackDescription = 'Découvrez une œuvre originale de Marjolène Lasne.'
+const fallbackDescription = computed(() => paintingDetail.value?.fallbackDescription || 'Découvrez une œuvre originale de Marjolène Lasne.')
 const metaTitle = computed(() =>
-  painting.value ? `${painting.value.title} - Marjolène Lasne` : 'Peintures - Marjolène Lasne'
+  painting.value ? `${painting.value.title} - ${pages.value?.paintings?.seo?.title || 'Peintures - Marjolène Lasne'}` : (pages.value?.paintings?.seo?.title || 'Peintures - Marjolène Lasne')
 )
 const metaDescription = computed(
-  () => painting.value?.metaDescription ?? painting.value?.description ?? fallbackDescription
+  () => painting.value?.metaDescription ?? painting.value?.description ?? fallbackDescription.value
 )
 const metaImage = computed(() => {
   const image = painting.value?.image || '/logo.png'
@@ -257,13 +263,13 @@ const breadcrumbSchema = computed(() => {
       {
         '@type': 'ListItem',
         position: 1,
-        name: 'Accueil',
+        name: pages.value?.paintings?.breadcrumb?.home || 'Accueil',
         item: siteUrl,
       },
       {
         '@type': 'ListItem',
         position: 2,
-        name: 'Peintures',
+        name: pages.value?.paintings?.breadcrumb?.current || 'Peintures',
         item: withSiteUrl('/peintures'),
       },
       {

@@ -1,10 +1,10 @@
 <template>
-  <div class="max-w-[72rem] mx-auto px-6 py-12">
+  <div v-if="pageContent" class="max-w-[72rem] mx-auto px-6 py-12">
     <div>
       <!-- Page Header -->
       <SectionTitle 
-          title="Foulards"
-          subtitle="Découvrez la collection de foulards en soie de Marjolène Lasne, fabriqués en France en édition limitée."
+          :title="pageContent.title"
+          :subtitle="pageContent.subtitle"
         />
 
         <!-- Separator -->
@@ -12,7 +12,7 @@
 
         <!-- Loading state -->
         <div v-if="pending" class="text-center py-12">
-          <p class="text-[#4A5565]">Chargement des foulards...</p>
+          <p class="text-[#4A5565]">{{ pageContent.loading }}</p>
         </div>
 
         <!-- Gallery -->
@@ -22,7 +22,7 @@
           </div>
 
           <div v-else class="text-center py-12">
-            <p class="text-[#4A5565]">Aucun foulard disponible pour le moment.</p>
+            <p class="text-[#4A5565]">{{ pageContent.emptyState }}</p>
           </div>
         </template>
     </div>
@@ -34,9 +34,12 @@ import { computed, onMounted, nextTick } from 'vue'
 import SectionTitle from '~/components/SectionTitle.vue'
 import FoulardGrid from '~/components/FoulardGrid.vue'
 import { useSiteUrl } from '~/composables/useSiteUrl'
+import { useContent } from '~/composables/useContent'
 
 // Fetch raw data
 const { data: rawFoulards, pending } = await useContent<RawFoulard[]>('foulards.json')
+const { data: pages } = await useContent('pages.json')
+const pageContent = computed(() => pages.value?.scarves)
 
 // Gallery state for scroll restoration
 const { activeFoulardSlug } = useGalleryState()
@@ -96,8 +99,8 @@ const foulardsForGrid = computed(() => {
 })
 
 const { siteUrl, withSiteUrl } = useSiteUrl()
-const metaTitle = 'Foulards - Marjolene Lasne'
-const metaDescription = 'Decouvrez les foulards en soie de Marjolene Lasne, pieces uniques fabriquees en France.'
+const metaTitle = computed(() => pageContent.value?.seo?.title || '')
+const metaDescription = computed(() => pageContent.value?.seo?.description || '')
 const metaImage = computed(() => {
   const firstFoulard = rawFoulards.value?.[0]
   const firstColor = firstFoulard ? Object.values(firstFoulard.colors)[0] : null
@@ -128,13 +131,13 @@ const breadcrumbSchema = computed(() => {
       {
         '@type': 'ListItem',
         position: 1,
-        name: 'Accueil',
+        name: pageContent.value?.breadcrumb?.home || 'Accueil',
         item: siteUrl,
       },
       {
         '@type': 'ListItem',
         position: 2,
-        name: 'Foulards',
+        name: pageContent.value?.breadcrumb?.current || 'Foulards',
         item: withSiteUrl('/foulards'),
       },
     ],

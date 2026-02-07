@@ -1,10 +1,10 @@
 <template>
-  <div class="w-full">
+  <div v-if="pageContent" class="w-full">
     <!-- Section Title & Biography (contained) -->
     <div class="max-w-[72rem] mx-auto px-6 pt-12">
       <SectionTitle
-        title="L'Artiste"
-        subtitle="Découvrez le parcours et la passion de Marjolène Lasne, artiste-peintre française inspirée par la lumière méditerranéenne et la beauté du Sud de la France."
+        :title="pageContent.title"
+        :subtitle="pageContent.subtitle"
       />
 
       <!-- Divider -->
@@ -23,30 +23,32 @@
         />
       </div>
 
-      <!-- Quote 1: Gwénaëlle de Carné -->
+      <!-- Quote 1 -->
       <QuoteBlock
-        quote="La couleur est souveraine, les harmonies contrastées et l'exécution savoureuse ! Marjolène Lasne a le don d'exalter la musicalité des tons, d'illuminer paysages et personnages de sa touche alerte et vibrante. Joliment mises en scènes, ses compositions évoquent des moments fugitifs pleins de charme et de quiétude. Vive et enjouée, sa palette est unique !"
-        author="Gwénaëlle de Carné"
-        role="Critique d'Art"
+        v-if="pageContent.quotes?.[0]"
+        :quote="pageContent.quotes[0].quote"
+        :author="pageContent.quotes[0].author"
+        :role="pageContent.quotes[0].role"
       />
     </div>
 
     <!-- Timeline Section (full-width background) -->
     <div class="w-full bg-[#C94E54]/[0.04] py-16 mb-16">
       <div class="max-w-[72rem] mx-auto pl-14">
-        <h2 class="text-[2.5rem] font-['Averia_Serif_Libre'] font-light text-[#C94E54] mb-8">Parcours et formation</h2>
+        <h2 class="text-[2.5rem] font-['Averia_Serif_Libre'] font-light text-[#C94E54] mb-8">{{ pageContent.timelineTitle }}</h2>
         <Timeline />
       </div>
     </div>
 
     <!-- Quote 2 & Studio Section (contained) -->
     <div class="max-w-[72rem] mx-auto px-6 pb-12">
-      <!-- Quote 2: Thierry Sznytka -->
+      <!-- Quote 2 -->
       <QuoteBlock
-        quote="Inspirée d'un quotidien qu'elle traque le carnet de croquis à la main, cette artiste rapporte les scènes de vie d'une palette aux notes enjouées. Cette alchimie colorée et harmonieuse compte sur les contrastes de couleurs et de matière pour stigmatiser la composition. L'écriture alerte révèle les attitudes des personnages, au marché ou au café, au concert ou à la plage. Respectueuse des ambiances, Marjolène Lasne joue avec les volumes et les architectures pour donner un caractère panoramique à son œuvre. Avec un coté spatial pour ces orchestres qui découpent leurs silhouettes sur un fond intemporel."
-        author="Thierry Sznytka"
-        role="Critique d'Art"
-        source="In ARTS ACTUALITÉS MAGAZINE - Hors série Janvier 2006"
+        v-if="pageContent.quotes?.[1]"
+        :quote="pageContent.quotes[1].quote"
+        :author="pageContent.quotes[1].author"
+        :role="pageContent.quotes[1].role"
+        :source="pageContent.quotes[1].source"
       />
 
       <!-- Studio Section -->
@@ -97,10 +99,12 @@ interface ArtisteContent {
 }
 
 const { data: artisteContent } = await useContent<ArtisteContent>('artiste.json')
+const { data: pages } = await useContent('pages.json')
+const pageContent = computed(() => pages.value?.artist)
 
 const { siteUrl, withSiteUrl } = useSiteUrl()
-const metaTitle = "L'Artiste - Marjolene Lasne"
-const metaDescription = "Biographie de Marjolene Lasne, artiste peintre en Provence, et presentation de son atelier a Roussillon."
+const metaTitle = computed(() => pageContent.value?.seo?.title || '')
+const metaDescription = computed(() => pageContent.value?.seo?.description || '')
 const metaImage = computed(() => {
   const image = artisteContent.value?.biography?.image || '/logo.png'
   return withSiteUrl(image)
@@ -128,13 +132,13 @@ const breadcrumbSchema = computed(() => {
       {
         '@type': 'ListItem',
         position: 1,
-        name: 'Accueil',
+        name: pageContent.value?.breadcrumb?.home || 'Accueil',
         item: siteUrl,
       },
       {
         '@type': 'ListItem',
         position: 2,
-        name: "L'Artiste",
+        name: pageContent.value?.breadcrumb?.current || "L'Artiste",
         item: withSiteUrl('/artiste'),
       },
     ],

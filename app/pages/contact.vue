@@ -1,10 +1,10 @@
 <template>
-  <div class="max-w-[72rem] mx-auto px-6 py-12">
+  <div v-if="pageContent" class="max-w-[72rem] mx-auto px-6 py-12">
     <div>
       <!-- Section Title -->
       <SectionTitle 
-            title="Contact" 
-            subtitle="Pour toute question ou commande, merci de remplir le formulaire ci-dessous."
+            :title="pageContent.title" 
+            :subtitle="pageContent.subtitle"
           />
           
           <!-- Separator Line -->
@@ -18,7 +18,7 @@
               
               <!-- Section Infos -->
               <div>
-                <h2 class="font-heading text-2xl text-[#2E3D8B] mb-8">Informations</h2>
+                <h2 class="font-heading text-2xl text-[#2E3D8B] mb-8">{{ pageContent.infoTitle }}</h2>
                 
                 <div class="space-y-6">
                   
@@ -28,7 +28,7 @@
                       <Icon icon="lucide:mail" class="w-5 h-5" />
                     </div>
                     <div>
-                      <div class="font-bold text-[#2E3D8B] mb-1">Email</div>
+                      <div class="font-bold text-[#2E3D8B] mb-1">{{ pageContent.labels.email }}</div>
                       <div class="text-[#4A5565]">{{ config.public.contact.email }}</div>
                     </div>
                   </div>
@@ -39,7 +39,7 @@
                       <Icon icon="lucide:phone" class="w-5 h-5" />
                     </div>
                     <div>
-                      <div class="font-bold text-[#2E3D8B] mb-1">Téléphone</div>
+                      <div class="font-bold text-[#2E3D8B] mb-1">{{ pageContent.labels.phone }}</div>
                       <div class="text-[#4A5565]">{{ config.public.contact.phone }}</div>
                     </div>
                   </div>
@@ -50,13 +50,13 @@
                       <Icon icon="lucide:map-pin" class="w-5 h-5" />
                     </div>
                     <div>
-                      <div class="font-bold text-[#2E3D8B] mb-1">Adresse de l'atelier</div>
+                      <div class="font-bold text-[#2E3D8B] mb-1">{{ pageContent.labels.studioAddress }}</div>
                       <div class="text-[#4A5565] leading-relaxed">
                         {{ config.public.contact.address.street }}<br>
                         {{ config.public.contact.address.zip }} {{ config.public.contact.address.city }}<br>
                         {{ config.public.contact.address.country }}
                       </div>
-                      <div class="text-sm text-[#4A5565] italic mt-2 opacity-80">(Visites sur rendez-vous uniquement)</div>
+                      <div class="text-sm text-[#4A5565] italic mt-2 opacity-80">{{ pageContent.labels.visitByAppointment }}</div>
                     </div>
                   </div>
 
@@ -66,7 +66,7 @@
               <!-- Carte Google Maps -->
               <div class="w-full h-[250px] rounded-xl overflow-hidden border border-[#D1D5DC] shadow-sm relative">
                 <iframe 
-                  title="Atelier - Galerie Marjolène LASNE à Roussillon"
+                  :title="pageContent.mapTitle"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11394.340061962323!2d5.2758193!3d43.8997925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ca010508f7f2b3%3A0x40819a5fd970330!2s84220%20Roussillon!5e0!3m2!1sfr!2sfr" 
                   width="100%" 
                   height="100%" 
@@ -96,7 +96,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div class="space-y-2">
                     <label for="lastName" class="block text-sm font-medium text-[#4A5565]">
-                      Nom <span class="text-[#C94E54]">*</span>
+                      {{ pageContent.form.lastName }} <span class="text-[#C94E54]">{{ pageContent.form.required }}</span>
                     </label>
                     <input 
                       type="text" 
@@ -110,7 +110,7 @@
                   </div>
                   <div class="space-y-2">
                     <label for="firstName" class="block text-sm font-medium text-[#4A5565]">
-                      Prénom <span class="text-[#C94E54]">*</span>
+                      {{ pageContent.form.firstName }} <span class="text-[#C94E54]">{{ pageContent.form.required }}</span>
                     </label>
                     <input 
                       type="text" 
@@ -127,7 +127,7 @@
                 <!-- Ligne 2 : Email -->
                 <div class="space-y-2">
                   <label for="email" class="block text-sm font-medium text-[#4A5565]">
-                    Email <span class="text-[#C94E54]">*</span>
+                    {{ pageContent.form.email }} <span class="text-[#C94E54]">{{ pageContent.form.required }}</span>
                   </label>
                   <input 
                     type="email" 
@@ -143,7 +143,7 @@
                 <!-- Ligne 3 : Sujet -->
                 <div class="space-y-2">
                   <label for="subject" class="block text-sm font-medium text-[#4A5565]">
-                    Sujet <span class="text-[#C94E54]">*</span>
+                    {{ pageContent.form.subject }} <span class="text-[#C94E54]">{{ pageContent.form.required }}</span>
                   </label>
                   <div class="relative">
                     <select 
@@ -153,11 +153,11 @@
                       required 
                       class="w-full px-4 py-3 bg-[#FBFAF6] border border-[#D1D5DC] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2E3D8B] focus:border-transparent text-[#4A5565] transition-all appearance-none cursor-pointer"
                     >
-                      <option value="" disabled>Sélectionnez un sujet</option>
-                      <option value="Question générale">Question générale</option>
-                      <option value="Commande">Commande</option>
-                      <option value="Informations sur une œuvre">Informations sur une œuvre</option>
-                      <option value="Autre">Autre</option>
+                      <option value="" disabled>{{ pageContent.form.subjectPlaceholder }}</option>
+                      <option :value="pageContent.form.subjectOptions.general">{{ pageContent.form.subjectOptions.general }}</option>
+                      <option :value="pageContent.form.subjectOptions.order">{{ pageContent.form.subjectOptions.order }}</option>
+                      <option :value="pageContent.form.subjectOptions.workInfo">{{ pageContent.form.subjectOptions.workInfo }}</option>
+                      <option :value="pageContent.form.subjectOptions.other">{{ pageContent.form.subjectOptions.other }}</option>
                     </select>
                     <!-- Chevron personnalisé -->
                     <Icon icon="lucide:chevron-down" class="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none w-5 h-5" />
@@ -167,7 +167,7 @@
                 <!-- Ligne 4 : Message -->
                 <div class="space-y-2">
                   <label for="message" class="block text-sm font-medium text-[#4A5565]">
-                    Message <span class="text-[#C94E54]">*</span>
+                    {{ pageContent.form.message }} <span class="text-[#C94E54]">{{ pageContent.form.required }}</span>
                   </label>
                   <textarea 
                     id="message" 
@@ -182,8 +182,8 @@
                 <!-- Bouton d'envoi -->
                 <ContactButton
                   :to="'#'"
-                  label="Envoyer le message"
-                  aria-label="Envoyer le message de contact"
+                  :label="pageContent.form.send"
+                  :aria-label="pageContent.form.sendAriaLabel"
                   class="w-full mt-4"
                   :class="{ 'opacity-70 cursor-not-allowed pointer-events-none': loading }"
                   @click.prevent="!loading && handleSubmit()"
@@ -191,10 +191,10 @@
                   <template #default>
                     <span v-if="loading" class="flex items-center gap-2">
                       <Icon icon="lucide:loader-2" class="w-5 h-5 animate-spin" />
-                      Envoi en cours...
+                      {{ pageContent.form.sending }}
                     </span>
                     <span v-else>
-                      Envoyer le message
+                      {{ pageContent.form.send }}
                     </span>
                   </template>
                 </ContactButton>
@@ -206,7 +206,7 @@
                   aria-live="polite"
                 >
                   <Icon icon="lucide:check-circle" class="w-5 h-5 shrink-0" />
-                  <span>Merci, votre message a bien été envoyé.</span>
+                  <span>{{ pageContent.success }}</span>
                 </div>
                 
                 <!-- Message d'erreur -->
@@ -217,7 +217,7 @@
                 >
                   <div class="flex items-center gap-2">
                     <Icon icon="lucide:alert-circle" class="w-5 h-5 shrink-0" />
-                    <span class="font-medium">Une erreur est survenue</span>
+                    <span class="font-medium">{{ pageContent.errors.title }}</span>
                   </div>
                   <ul class="text-sm list-none space-y-1">
                     <li v-for="(err, index) in errors" :key="index">{{ err }}</li>
@@ -236,13 +236,17 @@
 import { ref, onMounted } from 'vue'
 import { Icon } from '@iconify/vue'
 import { useSiteUrl } from '~/composables/useSiteUrl'
+import { useContent } from '~/composables/useContent'
 
 const config = useRuntimeConfig()
 const route = useRoute()
 
+const { data: pages } = await useContent('pages.json')
+const pageContent = computed(() => pages.value?.contact)
+
 const { siteUrl, withSiteUrl } = useSiteUrl()
-const metaTitle = 'Contact - Marjolene Lasne'
-const metaDescription = "Contactez Marjolene Lasne pour toute question sur ses peintures, foulards en soie ou pour planifier une visite a l'atelier en Provence."
+const metaTitle = computed(() => pageContent.value?.seo?.title || '')
+const metaDescription = computed(() => pageContent.value?.seo?.description || '')
 const metaImage = withSiteUrl('/logo.png')
 
 useSeoMeta({
@@ -267,13 +271,13 @@ const breadcrumbSchema = computed(() => {
       {
         '@type': 'ListItem',
         position: 1,
-        name: 'Accueil',
+        name: pageContent.value?.breadcrumb?.home || 'Accueil',
         item: siteUrl,
       },
       {
         '@type': 'ListItem',
         position: 2,
-        name: 'Contact',
+        name: pageContent.value?.breadcrumb?.current || 'Contact',
         item: withSiteUrl('/contact'),
       },
     ],
@@ -286,9 +290,9 @@ const contactPageSchema = computed(() => {
   return {
     '@context': 'https://schema.org',
     '@type': 'ContactPage',
-    name: metaTitle,
+    name: metaTitle.value,
     url: withSiteUrl('/contact'),
-    description: metaDescription,
+    description: metaDescription.value,
   }
 })
 
@@ -326,27 +330,28 @@ onMounted(() => {
 
   if (oeuvre) {
     // Préremplissage depuis une page peinture
-    form.value.subject = 'Informations sur une œuvre'
-    form.value.message = `Bonjour,\n\nJe souhaite obtenir des informations sur l'œuvre « ${oeuvre} »${technique ? ` (${technique})` : ''}.\n\nCordialement,`
+    form.value.subject = pageContent.value?.form?.subjectOptions?.workInfo || 'Informations sur une œuvre'
+    const techStr = technique ? ` (${technique})` : ''
+    form.value.message = `${pageContent.value?.prefill?.greeting || 'Bonjour,'}\n\nJe souhaite obtenir des informations sur l'œuvre « ${oeuvre} »${techStr}.\n\n${pageContent.value?.prefill?.closing || 'Cordialement,'}`
   } else if (sujet === 'foulard' && produit) {
     // Préremplissage depuis une page foulard
-    form.value.subject = 'Informations sur une œuvre'
+    form.value.subject = pageContent.value?.form?.subjectOptions?.workInfo || 'Informations sur une œuvre'
     const details = [
       couleur ? `couleur ${couleur}` : null,
       taille ? `taille ${taille}` : null,
       matiere ? `matière ${matiere}` : null
     ].filter(Boolean).join(', ')
-    form.value.message = `Bonjour,\n\nJe souhaite obtenir des informations sur le foulard « ${produit} »${details ? ` (${details})` : ''}.\n\nCordialement,`
+    form.value.message = `${pageContent.value?.prefill?.greeting || 'Bonjour,'}\n\nJe souhaite obtenir des informations sur le foulard « ${produit} »${details ? ` (${details})` : ''}.\n\n${pageContent.value?.prefill?.closing || 'Cordialement,'}`
   } else if (sujet === 'activite' && activite) {
     // Préremplissage depuis la page autres activités
-    form.value.subject = 'Question générale'
-    form.value.message = `Bonjour,\n\nJe souhaite obtenir des informations sur l'activité « ${activite} ».\n\nCordialement,`
+    form.value.subject = pageContent.value?.form?.subjectOptions?.general || 'Question générale'
+    form.value.message = `${pageContent.value?.prefill?.greeting || 'Bonjour,'}\n\nJe souhaite obtenir des informations sur l'activité « ${activite} ».\n\n${pageContent.value?.prefill?.closing || 'Cordialement,'}`
   } else if (sujet === 'artiste') {
     // Préremplissage depuis la page artiste
-    form.value.subject = 'Question générale'
+    form.value.subject = pageContent.value?.form?.subjectOptions?.general || 'Question générale'
     form.value.message = message && typeof message === 'string' && message.trim().length > 0
       ? message
-      : `Bonjour,\n\nJe souhaite contacter l'artiste Marjolène Lasne.\n\nCordialement,`
+      : `${pageContent.value?.prefill?.greeting || 'Bonjour,'}\n\nJe souhaite contacter l'artiste Marjolène Lasne.\n\n${pageContent.value?.prefill?.closing || 'Cordialement,'}`
   }
 })
 
@@ -366,7 +371,7 @@ const handleSubmit = async () => {
   // Validation côté client
   if (!form.value.lastName.trim() || !form.value.firstName.trim() || !form.value.email.trim() || !form.value.subject.trim() || !form.value.message.trim()) {
     errors.value = [
-      'Veuillez remplir tous les champs du formulaire avant d\'envoyer votre message.'
+      pageContent.value?.errors?.requiredFields || 'Veuillez remplir tous les champs du formulaire avant d\'envoyer votre message.'
     ];
     return;
   }
@@ -415,15 +420,15 @@ const handleSubmit = async () => {
       }, 5000);
     } else if (data?.errors && Array.isArray(data.errors)) {
       errors.value = data.errors
-        .map((err: { message?: string }) => err?.message || 'Erreur inconnue dans le formulaire.')
+        .map((err: { message?: string }) => err?.message || (pageContent.value?.errors?.unknown || 'Erreur inconnue dans le formulaire.'))
         .filter(Boolean);
     } else if (data?.error) {
       errors.value = [data.error];
     } else {
-      errors.value = ['Une erreur est survenue, veuillez réessayer.'];
+      errors.value = [pageContent.value?.errors?.generic || 'Une erreur est survenue, veuillez réessayer.'];
     }
   } catch (e) {
-    errors.value = ['Une erreur de connexion est survenue. Veuillez vérifier votre réseau.'];
+    errors.value = [pageContent.value?.errors?.network || 'Une erreur de connexion est survenue. Veuillez vérifier votre réseau.'];
   } finally {
     loading.value = false;
   }

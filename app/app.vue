@@ -24,8 +24,11 @@ import Footer from './components/Footer.vue'
 
 const route = useRoute()
 const { siteUrl, withSiteUrl } = useSiteUrl()
+const { data: common } = await useContent('common.json')
 
 const canonicalUrl = computed(() => (siteUrl ? withSiteUrl(route.fullPath) : ''))
+
+const sd = computed(() => common.value?.seo?.structuredData)
 
 const structuredData = computed(() => {
   if (!siteUrl) return null
@@ -35,20 +38,20 @@ const structuredData = computed(() => {
     '@graph': [
       {
         '@type': 'WebSite',
-        name: 'Marjolene Lasne',
+        name: sd.value?.websiteName || 'Marjolene Lasne',
         url: siteUrl,
-        inLanguage: 'fr-FR',
-        description: 'Portfolio officiel de Marjolene Lasne, artiste peintre en Provence.',
+        inLanguage: sd.value?.locale || 'fr-FR',
+        description: sd.value?.websiteDescription || '',
         publisher: {
           '@type': 'Person',
-          name: 'Marjolene Lasne',
+          name: sd.value?.personName || 'Marjolene Lasne',
           url: siteUrl,
         },
       },
       {
         '@type': 'Person',
-        name: 'Marjolene Lasne',
-        jobTitle: 'Artiste peintre',
+        name: sd.value?.personName || 'Marjolene Lasne',
+        jobTitle: sd.value?.jobTitle || 'Artiste peintre',
         url: siteUrl,
         image: withSiteUrl('/logo.png'),
         address: {
@@ -75,8 +78,8 @@ useHead(() => {
     link: canonical ? [{ rel: 'canonical', href: canonical }] : [],
     meta: [
       { property: 'og:url', content: canonical || undefined },
-      { property: 'og:site_name', content: 'Marjolene Lasne' },
-      { property: 'og:locale', content: 'fr_FR' },
+      { property: 'og:site_name', content: sd.value?.siteName || 'Marjolene Lasne' },
+      { property: 'og:locale', content: sd.value?.locale || 'fr_FR' },
     ].filter((entry) => Boolean(entry.content)),
     script: structuredData.value
       ? [{ type: 'application/ld+json', children: JSON.stringify(structuredData.value) }]

@@ -1,0 +1,214 @@
+{
+  "home": {
+    "srTitle": "Marjolene Lasne - Artiste peintre",
+    "logoAlt": "Marjolène Lasne",
+    "menuItems": [
+      {
+        "label": "L'Artiste",
+        "path": "/artiste",
+        "image": "/img/accueil/Marjolène-Lasne.webp"
+      },
+      {
+        "label": "Peintures",
+        "path": "/peintures",
+        "image": "/img/accueil/en_terrasse_parmi_les_fleurs.webp"
+      },
+      {
+        "label": "Foulards",
+        "path": "/foulards",
+        "image": "/img/accueil/rose-degrade-orange-BMS-84x84.webp"
+      },
+      {
+        "label": "Autres activités",
+        "path": "/autres-activites",
+        "image": "/img/accueil/gites_illu.webp"
+      },
+      {
+        "label": "Contact",
+        "path": "/contact",
+        "image": "/img/accueil/gordes_aux_iris.webp"
+      }
+    ],
+    "imageAltPrefix": "Image pour",
+    "imageAltDefault": "Œuvre de Marjolène Lasne",
+    "seo": {
+      "title": "Marjolene Lasne - Artiste peintre",
+      "description": "Portfolio de Marjolene Lasne, artiste peintre en Provence. Peintures originales, foulards en soie et univers artistique."
+    }
+  },
+  "artist": {
+    "title": "L'Artiste",
+    "subtitle": "Découvrez le parcours et la passion de Marjolène Lasne, artiste-peintre française inspirée par la lumière méditerranéenne et la beauté du Sud de la France.",
+    "timelineTitle": "Parcours et formation",
+    "quotes": [
+      {
+        "quote": "La couleur est souveraine, les harmonies contrastées et l'exécution savoureuse ! Marjolène Lasne a le don d'exalter la musicalité des tons, d'illuminer paysages et personnages de sa touche alerte et vibrante. Joliment mises en scènes, ses compositions évoquent des moments fugitifs pleins de charme et de quiétude. Vive et enjouée, sa palette est unique !",
+        "author": "Gwénaëlle de Carné",
+        "role": "Critique d'Art"
+      },
+      {
+        "quote": "Inspirée d'un quotidien qu'elle traque le carnet de croquis à la main, cette artiste rapporte les scènes de vie d'une palette aux notes enjouées. Cette alchimie colorée et harmonieuse compte sur les contrastes de couleurs et de matière pour stigmatiser la composition. L'écriture alerte révèle les attitudes des personnages, au marché ou au café, au concert ou à la plage. Respectueuse des ambiances, Marjolène Lasne joue avec les volumes et les architectures pour donner un caractère panoramique à son œuvre. Avec un coté spatial pour ces orchestres qui découpent leurs silhouettes sur un fond intemporel.",
+        "author": "Thierry Sznytka",
+        "role": "Critique d'Art",
+        "source": "In ARTS ACTUALITÉS MAGAZINE - Hors série Janvier 2006"
+      }
+    ],
+    "timeline": {
+      "personalExhibitions": "Expositions personnelles",
+      "shows": "Salons",
+      "awards": "Prix",
+      "noData": "Aucune donnée pour cette période.",
+      "preparing": "Chronologie en cours de préparation."
+    },
+    "seo": {
+      "title": "L'Artiste - Marjolene Lasne",
+      "description": "Biographie de Marjolene Lasne, artiste peintre en Provence, et presentation de son atelier a Roussillon."
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "current": "L'Artiste"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Pour toute question ou commande, merci de remplir le formulaire ci-dessous.",
+    "infoTitle": "Informations",
+    "labels": {
+      "email": "Email",
+      "phone": "Téléphone",
+      "studioAddress": "Adresse de l'atelier",
+      "visitByAppointment": "(Visites sur rendez-vous uniquement)"
+    },
+    "mapTitle": "Atelier - Galerie Marjolène LASNE à Roussillon",
+    "form": {
+      "lastName": "Nom",
+      "firstName": "Prénom",
+      "email": "Email",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Sélectionnez un sujet",
+      "subjectOptions": {
+        "general": "Question générale",
+        "order": "Commande",
+        "workInfo": "Informations sur une œuvre",
+        "other": "Autre"
+      },
+      "message": "Message",
+      "send": "Envoyer le message",
+      "sendAriaLabel": "Envoyer le message de contact",
+      "sending": "Envoi en cours...",
+      "required": "*"
+    },
+    "success": "Merci, votre message a bien été envoyé.",
+    "errors": {
+      "title": "Une erreur est survenue",
+      "requiredFields": "Veuillez remplir tous les champs du formulaire avant d'envoyer votre message.",
+      "unknown": "Erreur inconnue dans le formulaire.",
+      "generic": "Une erreur est survenue, veuillez réessayer.",
+      "network": "Une erreur de connexion est survenue. Veuillez vérifier votre réseau."
+    },
+    "prefill": {
+      "greeting": "Bonjour,",
+      "closing": "Cordialement,",
+      "paintingRequest": "Je souhaite obtenir des informations sur l'œuvre « {title} »{technique}.",
+      "paintingTechniqueFormat": " ({technique})",
+      "scarfRequest": "Je souhaite obtenir des informations sur le foulard « {product} »{details}.",
+      "scarfDetailsFormat": " ({details})",
+      "scarfColor": "couleur {color}",
+      "scarfSize": "taille {size}",
+      "scarfMaterial": "matière {material}",
+      "activityRequest": "Je souhaite obtenir des informations sur l'activité « {activity} ».",
+      "artistRequest": "Je souhaite contacter l'artiste Marjolène Lasne."
+    },
+    "formspreeSubject": "Contact Marjolène Lasne : {subject}",
+    "seo": {
+      "title": "Contact - Marjolene Lasne",
+      "description": "Contactez Marjolene Lasne pour toute question sur ses peintures, foulards en soie ou pour planifier une visite a l'atelier en Provence."
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "current": "Contact"
+    }
+  },
+  "activities": {
+    "title": "Autres activités",
+    "subtitle": "Marjolène Lasne élargit son univers artistique en proposant diverses activités en parallèle de sa peinture.",
+    "buttons": {
+      "gites": "Découvrir les logements",
+      "default": "Contacter l'artiste"
+    },
+    "seo": {
+      "title": "Autres activites - Marjolene Lasne",
+      "description": "Decouvrez les autres activites de Marjolene Lasne : stages, design textile, commandes et hebergements en Provence."
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "current": "Autres activites"
+    }
+  },
+  "paintings": {
+    "title": "Peintures",
+    "subtitle": "Découvrez une sélection d'œuvres originales de Marjolène Lasne, inspirées par les paysages, les scènes de vie et l'ambiance du Sud.",
+    "loading": "Chargement des peintures...",
+    "emptyState": "Aucune peinture ne correspond à votre sélection.",
+    "filters": {
+      "collections": "Collections",
+      "techniques": "Techniques",
+      "all": "Toutes"
+    },
+    "detail": {
+      "backToGallery": "Retour aux œuvres",
+      "collectionPrefix": "Collection",
+      "dimensions": "Dimensions",
+      "technique": "Technique",
+      "questionCta": "Vous avez une question ?",
+      "loading": "Chargement de l'œuvre…",
+      "notFound": "Peinture introuvable.",
+      "previousPainting": "Peinture précédente",
+      "nextPainting": "Peinture suivante",
+      "collectionStart": "Début de la collection",
+      "collectionEnd": "Fin de la collection",
+      "fallbackDescription": "Découvrez une œuvre originale de Marjolène Lasne.",
+      "imageAlt": "Peinture {title}",
+      "previousAriaLabel": "Voir la peinture précédente : {title}",
+      "nextAriaLabel": "Voir la peinture suivante : {title}"
+    },
+    "seo": {
+      "title": "Peintures - Marjolene Lasne",
+      "description": "Galerie de peintures originales de Marjolene Lasne, inspirees par la Provence, les scenes de vie et les paysages."
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "current": "Peintures"
+    }
+  },
+  "scarves": {
+    "title": "Foulards",
+    "subtitle": "Découvrez la collection de foulards en soie de Marjolène Lasne, fabriqués en France en édition limitée.",
+    "loading": "Chargement des foulards...",
+    "emptyState": "Aucun foulard disponible pour le moment.",
+    "detail": {
+      "backToScarves": "Retour aux foulards",
+      "backAriaLabel": "Retour aux foulards",
+      "enlargeImageAriaLabel": "Agrandir l'image de {title}",
+      "enlargeImageIndexAriaLabel": "Agrandir l'image {index}",
+      "imageViewAlt": "{title} - vue {index}",
+      "color": "Couleur",
+      "material": "Matière",
+      "size": "Taille",
+      "contactArtist": "Contacter l'artiste",
+      "contactAriaLabel": "Contacter l'artiste pour ce foulard",
+      "loading": "Chargement du foulard…",
+      "notFound": "Foulard introuvable.",
+      "backToCollection": "Retour à la collection",
+      "fallbackDescription": "Découvrez un foulard unique de Marjolène Lasne."
+    },
+    "seo": {
+      "title": "Foulards - Marjolene Lasne",
+      "description": "Decouvrez les foulards en soie de Marjolene Lasne, pieces uniques fabriquees en France."
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "current": "Foulards"
+    }
+  }
+}

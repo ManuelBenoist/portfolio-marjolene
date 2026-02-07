@@ -1,15 +1,15 @@
 <template>
-  <div class="max-w-[72rem] mx-auto px-6 py-12">
+  <div v-if="pageContent" class="max-w-[72rem] mx-auto px-6 py-12">
     <div>
       <!-- Page Header -->
       <SectionTitle 
-          title="Peintures"
-          subtitle="Découvrez une sélection d'œuvres originales de Marjolène Lasne, inspirées par les paysages, les scènes de vie et l'ambiance du Sud."
+          :title="pageContent.title"
+          :subtitle="pageContent.subtitle"
         />
 
         <!-- Loading state -->
         <div v-if="pending" class="text-center py-12">
-          <p class="text-[#4A5565]">Chargement des peintures...</p>
+          <p class="text-[#4A5565]">{{ pageContent.loading }}</p>
         </div>
 
         <!-- Filters Section -->
@@ -19,14 +19,14 @@
               <!-- Collections Filter -->
               <Filter
                 v-model="selectedCollection"
-                title="Collections"
+                :title="pageContent.filters?.collections"
                 :items="collectionOptions"
               />
 
               <!-- Techniques Filter -->
               <Filter
                 v-model="selectedTechnique"
-                title="Techniques"
+                :title="pageContent.filters?.techniques"
                 :items="techniqueOptions"
               />
             </div>
@@ -46,7 +46,7 @@
               </div>
 
               <div v-else class="text-center py-12">
-                <p class="text-[#4A5565]">Aucune peinture ne correspond à votre sélection.</p>
+                <p class="text-[#4A5565]">{{ pageContent.emptyState }}</p>
               </div>
             </div>
           </Transition>
@@ -80,6 +80,9 @@ interface PeinturesData {
 }
 
 // Fetch data (now grouped by collections)
+const { data: pages } = await useContent<Record<string, any>>('pages.json')
+const pageContent = computed(() => pages.value?.paintings)
+
 const { data: peinturesData, pending } = await useContent<PeinturesData>('peintures.json')
 
 // Flatten paintings from grouped structure and add collection property
@@ -137,8 +140,9 @@ watch([selectedCollection, selectedTechnique], ([newCollection, newTechnique]) =
 const collectionOptions = computed(() => {
   if (!peinturesData.value?.collections) return []
   const collections = Object.keys(peinturesData.value.collections)
+  const allLabel = pageContent.value?.filters?.all || 'Toutes'
   const options = [
-    { label: 'Toutes', value: '' },
+    { label: allLabel, value: '' },
     ...collections.map(col => ({
       label: col,
       value: col
@@ -151,8 +155,9 @@ const collectionOptions = computed(() => {
 const techniqueOptions = computed(() => {
   if (!paintings.value.length) return []
   const techniques = [...new Set(paintings.value.map(p => p.technique))]
+  const allLabel = pageContent.value?.filters?.all || 'Toutes'
   const options = [
-    { label: 'Toutes', value: '' },
+    { label: allLabel, value: '' },
     ...techniques.map(tech => ({
       label: tech,
       value: tech
@@ -181,8 +186,8 @@ const filteredPaintings = computed(() => {
 const filterKey = computed(() => `${selectedCollection.value}::${selectedTechnique.value}`)
 
 const { siteUrl, withSiteUrl } = useSiteUrl()
-const metaTitle = 'Peintures - Marjolene Lasne'
-const metaDescription = "Galerie de peintures originales de Marjolene Lasne, inspirees par la Provence, les scenes de vie et les paysages." 
+const metaTitle = computed(() => pageContent.value?.seo?.title || 'Peintures - Marjolene Lasne')
+const metaDescription = computed(() => pageContent.value?.seo?.description || '') 
 const metaImage = computed(() => {
   const image = paintings.value[0]?.image || '/logo.png'
   return withSiteUrl(image)
@@ -210,13 +215,13 @@ const breadcrumbSchema = computed(() => {
       {
         '@type': 'ListItem',
         position: 1,
-        name: 'Accueil',
+        name: pageContent.value?.breadcrumb?.home || 'Accueil',
         item: siteUrl,
       },
       {
         '@type': 'ListItem',
         position: 2,
-        name: 'Peintures',
+        name: pageContent.value?.breadcrumb?.current || 'Peintures',
         item: withSiteUrl('/peintures'),
       },
     ],

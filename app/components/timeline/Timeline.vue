@@ -10,7 +10,7 @@
     />
 
     <p v-else class="text-center text-sm text-[#4A5565]/70">
-      Chronologie en cours de préparation.
+      {{ timelineLabels?.preparing || '' }}
     </p>
 
     <div v-if="hasEntries && activeEntry" class="w-full flex justify-center">
@@ -27,6 +27,8 @@ import TimelineContent from './TimelineContent.vue'
 
 
 const { data: entriesData, pending, error } = await useContent<TimelineEntry[]>('frise.json')
+const { data: pages } = await useContent<Record<string, any>>('pages.json')
+const timelineLabels = computed(() => pages.value?.artist?.timeline)
 
 const entries = computed(() => entriesData.value || [])
 
