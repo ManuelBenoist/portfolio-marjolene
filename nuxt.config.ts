@@ -15,7 +15,6 @@ export default defineNuxtConfig({
     ],
     defaultLocale: 'fr',
     strategy: 'prefix_except_default',
-    lazy: true,
     langDir: 'locales',
     detectBrowserLanguage: {
       useCookie: true,
@@ -26,7 +25,15 @@ export default defineNuxtConfig({
 
   gtag: {
     id: 'G-EYG5NEC6FC', 
-    initialConsent: false, // RGPD: no tracking until user accepts cookies
+    // RGPD: no tracking until user accepts cookies
+    initCommands: [
+      ['consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'denied'
+      }]
+    ]
   },
   postcss: {
     plugins: {

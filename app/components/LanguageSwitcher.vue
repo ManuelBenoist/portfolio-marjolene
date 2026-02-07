@@ -1,10 +1,12 @@
 <template>
   <div class="relative inline-flex items-center">
-    <label for="lang" class="sr-only">{{ $t('aria.language') }}</label>
+    <label :for="selectId" class="sr-only">{{ $t('aria.language') }}</label>
     <select
-      id="lang"
+      :id="selectId"
+      ref="selectRef"
       :aria-label="$t('aria.languageSwitcher')"
       :value="locale"
+      autocomplete="off"
       class="appearance-none border border-[#2E3D8B] bg-white text-[#2E3D8B] font-heading font-semibold px-3 py-1 text-base shadow-sm focus:outline-none focus:ring-2 focus:ring-[#2E3D8B]/60 focus:border-[#2E3D8B] active:ring-2 active:ring-[#2E3D8B]/80 active:border-[#2E3D8B] transition-all duration-150 cursor-pointer min-w-[60px] pr-7" style="border-radius:10px;"
       @change="onChange"
     >
@@ -22,6 +24,14 @@
 const { locale, locales, setLocale } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
 const router = useRouter()
+const selectId = useId()
+const selectRef = ref(null)
+
+onMounted(() => {
+  if (selectRef.value && selectRef.value.value !== locale.value) {
+    selectRef.value.value = locale.value
+  }
+})
 
 function onChange(event) {
   const newLocale = event.target.value
