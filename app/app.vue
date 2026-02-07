@@ -12,6 +12,9 @@
     
     <!-- Footer: shown on all pages except landing page (layout: false) -->
     <Footer v-if="showHeaderFooter" />
+
+    <!-- Cookie consent banner (RGPD) -->
+    <CookieBanner />
   </div>
 </template>
 

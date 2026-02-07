@@ -353,6 +353,9 @@ onMounted(() => {
 // ID Formspree 
 const FORMSPREE_ID = "xykdgrbl"
 
+// Initialize Google Analytics
+const { gtag } = useGtag()
+
 /**
  * Gestion de l'envoi du formulaire via Formspree
  */
@@ -391,6 +394,13 @@ const handleSubmit = async () => {
 
     if (response.ok) {
       success.value = true;
+
+      // GA4: track successful contact form submission
+      gtag('event', 'generate_lead', {
+        event_category: 'contact',
+        event_label: form.value.subject,
+      })
+
       // Reset du formulaire
       form.value = {
         lastName: '',
