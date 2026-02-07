@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "home": "Home",
+    "artist": "The Artist",
+    "paintings": "Paintings",
+    "scarves": "Scarves",
+    "activities": "Other Activities",
+    "contact": "Contact"
+  },
+  "footer": {
+    "presentation": {
+      "name": "Marjolène Lasne",
+      "bio": "Painter based in Provence, inspired by colourful landscapes, scenes of everyday life and the light of the South of France."
+    },
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "studioLocation": "Studio in Roussillon, Provence\nFrance",
+    "followArtist": "Follow the artist",
+    "copyright": "All rights reserved.",
+    "legalLink": "Legal notice",
+    "privacyLink": "Privacy policy"
+  },
+  "cookie": {
+    "ariaLabel": "Cookie management",
+    "message": "This site uses analytics cookies (Google Analytics) to measure audience.",
+    "learnMore": "Learn more",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "actions": {
+    "contactArtist": "Contact the artist",
+    "contactArtistAboutWork": "Contact the artist about this work",
+    "sendMessage": "Send message",
+    "sending": "Sending...",
+    "close": "Close",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "previousImage": "Previous image",
+    "nextImage": "Next image",
+    "previous": "Previous",
+    "next": "Next",
+    "selectColor": "Select {label}",
+    "loading": "Loading...",
+    "back": "Back"
+  },
+  "aria": {
+    "home": "Home",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "linkedin": "LinkedIn",
+    "languageSwitcher": "Change language",
+    "language": "Language",
+    "paintingNavigation": "Navigate between paintings",
+    "scarfImageAlt": "Scarf image"
+  },
+  "seo": {
+    "global": {
+      "title": "Marjolène Lasne – Painter",
+      "description": "Portfolio of Marjolène Lasne, painter specialising in portraits and landscapes.",
+      "keywords": "Marjolène Lasne, painter, paintings, portraits, landscapes, contemporary art, art gallery"
+    },
+    "structuredData": {
+      "websiteName": "Marjolene Lasne",
+      "websiteDescription": "Official portfolio of Marjolene Lasne, painter in Provence.",
+      "personName": "Marjolene Lasne",
+      "jobTitle": "Painter",
+      "siteName": "Marjolene Lasne",
+      "locale": "en_GB"
+    }
+  }
+}

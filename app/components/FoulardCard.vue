@@ -190,10 +190,12 @@ const currentImage = computed(() => {
    NAVIGATION
 ---------------------------------- */
 
+const localePath = useLocalePath()
+
 function navigateToDetail() {
   if (!props.slug || typeof props.slug !== 'string' || !/^[a-zA-Z0-9-_]+$/.test(props.slug)) return
   navigateTo({
-    path: `/foulards/${props.slug}`,
+    path: localePath(`/foulards/${props.slug}`),
     query: {
       color: selectedColor.value ?? undefined,
       material: selectedMaterial.value ?? undefined,

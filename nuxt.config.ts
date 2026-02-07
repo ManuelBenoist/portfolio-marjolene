@@ -3,7 +3,26 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   css: ['./app/assets/css/main.css'],
-  modules: ['@nuxtjs/tailwindcss', 'nuxt-gtag'],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-gtag', '@nuxtjs/i18n'],
+
+  i18n: {
+    locales: [
+      { code: 'fr', language: 'fr-FR', name: 'Français', file: 'fr.json' },
+      { code: 'en', language: 'en-US', name: 'English', file: 'en.json' },
+      { code: 'es', language: 'es-ES', name: 'Español', file: 'es.json' },
+      { code: 'it', language: 'it-IT', name: 'Italiano', file: 'it.json' },
+      { code: 'de', language: 'de-DE', name: 'Deutsch', file: 'de.json' },
+    ],
+    defaultLocale: 'fr',
+    strategy: 'prefix_except_default',
+    lazy: true,
+    langDir: 'locales',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root',
+    },
+  },
 
   gtag: {
     id: 'G-EYG5NEC6FC', 
@@ -32,17 +51,11 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      htmlAttrs: {
-        lang: 'fr',
-      },
       script: [],
-      title: 'Marjolène Lasne - Artiste Peintre',
       meta: [
-        { name: 'description', content: 'Portfolio de Marjolène Lasne, artiste peintre spécialisée dans les portraits et les paysages.' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { charset: 'utf-8' },
         { name: 'author', content: 'Marjolène Lasne' },
-        { name: 'keywords', content: 'Marjolène Lasne, artiste peintre, peintures, portraits, paysages, art contemporain, galerie d\'art' },
       ],
     },
     // Page transitions for premium navigation feel

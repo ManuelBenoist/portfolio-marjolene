@@ -1,0 +1,26 @@
+{
+  "biography": {
+    "title": "Biography",
+    "image": "/img/artiste/Marjolène-Lasne.webp",
+    "caption": "Marjolène Lasne, her brushes and her easel",
+    "position": "left",
+    "paragraphs": [
+      "A graduate of the Paris-Conflans School of Architecture, Marjolène Lasne initially practised as an architect for five years. This training lastingly shaped her eye, her sense of volume and composition.",
+      "She then chose to devote herself entirely to painting. Since 1984, her works have been regularly exhibited in galleries and are held in private collections in France and abroad."
+    ],
+    "sub_paragraphs": [
+      "Based in Roussillon, in the heart of Provence, she creates oil paintings, acrylics and watercolours in luminous, shimmering colours, inspired by the landscapes and light of the South of France.",
+      "From her watercolours, she also creates silk scarves printed in France in limited edition. Each design extends her pictorial universe and offers a different way to wear her painting."
+    ]
+  },
+  "studio": {
+    "title": "Studio and exhibition space",
+    "image": "/img/autres-activites/commandes_visites_illu.webp",
+    "caption": "Marjolène's studio in Roussillon",
+    "position": "right",
+    "paragraphs": [
+      "In the heart of the village of Roussillon, in the Luberon, Marjolène Lasne welcomes you to her studio.",
+      "Her most recent paintings are exhibited, just steps from her studio, within the Roussillon Artists' Collective, alongside other painters and sculptors. This exhibition space allows you to discover her original works in an authentic and luminous setting, directly connected to the Provençal environment that inspires her palette."
+    ]
+  }
+}

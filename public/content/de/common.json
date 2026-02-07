@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "artist": "Die Künstlerin",
+    "paintings": "Gemälde",
+    "scarves": "Tücher",
+    "activities": "Weitere Aktivitäten",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "presentation": {
+      "name": "Marjolène Lasne",
+      "bio": "Malerin in der Provence, inspiriert von farbenfrohen Landschaften, Alltagsszenen und dem Licht Südfrankreichs."
+    },
+    "navigation": "Navigation",
+    "contact": "Kontakt",
+    "studioLocation": "Atelier in Roussillon, Provence\nFrankreich",
+    "followArtist": "Der Künstlerin folgen",
+    "copyright": "Alle Rechte vorbehalten.",
+    "legalLink": "Impressum",
+    "privacyLink": "Datenschutzerklärung"
+  },
+  "cookie": {
+    "ariaLabel": "Cookie-Verwaltung",
+    "message": "Diese Website verwendet Analyse-Cookies (Google Analytics) zur Reichweitenmessung.",
+    "learnMore": "Mehr erfahren",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen"
+  },
+  "actions": {
+    "contactArtist": "Die Künstlerin kontaktieren",
+    "contactArtistAboutWork": "Die Künstlerin zu diesem Werk kontaktieren",
+    "sendMessage": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "close": "Schließen",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "previousImage": "Vorheriges Bild",
+    "nextImage": "Nächstes Bild",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "selectColor": "{label} auswählen",
+    "loading": "Wird geladen...",
+    "back": "Zurück"
+  },
+  "aria": {
+    "home": "Startseite",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "linkedin": "LinkedIn",
+    "languageSwitcher": "Sprache ändern",
+    "language": "Sprache",
+    "paintingNavigation": "Zwischen Gemälden navigieren",
+    "scarfImageAlt": "Tuchbild"
+  },
+  "seo": {
+    "global": {
+      "title": "Marjolène Lasne – Malerin",
+      "description": "Portfolio von Marjolène Lasne, Malerin spezialisiert auf Porträts und Landschaften.",
+      "keywords": "Marjolène Lasne, Malerin, Gemälde, Porträts, Landschaften, zeitgenössische Kunst, Kunstgalerie"
+    },
+    "structuredData": {
+      "websiteName": "Marjolene Lasne",
+      "websiteDescription": "Offizielles Portfolio von Marjolene Lasne, Malerin in der Provence.",
+      "personName": "Marjolene Lasne",
+      "jobTitle": "Malerin",
+      "siteName": "Marjolene Lasne",
+      "locale": "de_DE"
+    }
+  }
+}

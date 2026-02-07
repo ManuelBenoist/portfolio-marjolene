@@ -1,0 +1,1958 @@
+[
+  {
+    "slug": "pivoines",
+    "title": "Pivoines",
+    "description": "In this composition, a few stylised peonies lightly outlined in black are rendered in warm tones ranging from pink to orange on a gradient blue and lime green background.",
+    "colors": {
+      "rose-degrade-orange-fond-blanc": {
+        "id": "rose-degrade-orange-fond-blanc",
+        "label": "Pink to orange gradient on white",
+        "hexes": [
+          "#E360B1",
+          "#FFFFFF",
+          "#FD9418"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-fond-blanc-BMS-84x84.webp",
+                "alt": "Peonies scarf pink to orange gradient on white in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Pink to orange gradient",
+        "hexes": [
+          "#FFC702",
+          "#E31C7F"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-64x64.webp",
+                "alt": "Peonies scarf pink to orange gradient in silk"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Unique piece made in France",
+      "Original design by the artist",
+      "Care: Dry cleaning recommended"
+    ],
+    "metaDescription": "Silk scarf Peonies by Marjolène Lasne, floral motifs inspired by Provence."
+  },
+  {
+    "slug": "hibiscus",
+    "title": "Hibiscus",
+    "description": "Various flowers and grasses dance around a majestic hibiscus flower at the centre of the composition.",
+    "colors": {
+      "rouge-degrade-orange": {
+        "id": "rouge-degrade-orange",
+        "label": "Red to orange gradient",
+        "hexes": [
+          "#FFB409",
+          "#F01F11"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64.webp",
+                "alt": "Hibiscus scarf red to orange gradient in silk"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Pink gradient",
+        "hexes": [
+          "#F88CBE",
+          "#E11C6A"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-BMS-64x64.webp",
+                "alt": "Hibiscus scarf pink gradient in modal"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-jaune": {
+        "id": "rose-degrade-jaune",
+        "label": "Pink to yellow gradient",
+        "hex": "#000000",
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/roses/rose-degrade/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Roses scarf pink gradient in silk chiffon and satin – main view"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Pink to orange gradient",
+        "hexes": [
+          "#FDB308",
+          "#EE1A8B"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84.webp",
+                "alt": "Hibiscus scarf pink to orange gradient in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Unique piece made in France",
+      "Original design by the artist",
+      "Care: Dry cleaning recommended"
+    ],
+    "metaDescription": "Silk scarf Hibiscus by Marjolène Lasne, colours of the Côte d'Azur."
+  },
+  {
+    "slug": "roses",
+    "title": "Roses",
+    "description": "Roses in tender harmonies of deep pink and plum stand out from this composition in lime green and emerald tones.",
+    "colors": {
+      "rose-degrade-fond-blanc": {
+        "id": "rose-degrade-fond-blanc",
+        "label": "Pink gradient on white",
+        "hexes": [
+          "#E72A8A",
+          "#E72A8A"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-et-T-64x64.webp",
+                "alt": "Roses scarf pink gradient in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Silk satin",
+            "images": [
+              {
+                "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-et-T-64x64.webp",
+                "alt": "Roses scarf pink gradient in silk satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "vert-degrade-fond-blanc": {
+        "id": "vert-degrade-fond-blanc",
+        "label": "Green gradient on white",
+        "hexes": [
+          "#09E6C7",
+          "#019686"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/roses/vert-degrade-fond-blanc-BMS-84x84.webp",
+                "alt": "Roses scarf green gradient on white in chiffon"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Unique piece made in France",
+      "Original design by the artist",
+      "Care: Dry cleaning recommended"
+    ],
+    "metaDescription": "Silk scarf Roses by Marjolène Lasne, colours of the Côte d'Azur."
+  },
+  {
+    "slug": "eclats-or",
+    "title": "Eclats d'Or",
+    "description": "This energetic composition with its vivid colours, the elongated treatment of its sheaves, and the stylised flowers bring vigour and dynamism.",
+    "colors": {
+      "jaune-or": {
+        "id": "jaune-or",
+        "label": "Golden yellow",
+        "hexes": [
+          "#FFCA00",
+          "#FE9200"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64.webp",
+                "alt": "Golden yellow scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Pink gradient",
+        "hexes": [
+          "#F78DBE",
+          "#E01B68"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/rose-degrade-BMS-64x64.webp",
+                "alt": "Pink gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-orange-degrade": {
+        "id": "rose-orange-degrade",
+        "label": "Pink-orange gradient",
+        "hexes": [
+          "#FFA806",
+          "#F73AA7"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84.webp",
+                "alt": "Pink-orange gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-vert-degrade": {
+        "id": "bleu-vert-degrade",
+        "label": "Blue-green gradient",
+        "hexes": [
+          "#41F5E6",
+          "#279F94"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84.webp",
+                "alt": "Blue-green gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Limited edition"
+    ],
+    "metaDescription": "Limited edition scarf by Marjolène Lasne."
+  },
+  {
+    "slug": "coquelicots",
+    "title": "Coquelicots",
+    "description": "In this diagonal composition, light poppies flying in the wind face each other against a background of golden fields and radiant sky.",
+    "colors": {
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Turquoise blue gradient",
+        "hexes": [
+          "#18BEEC",
+          "#13809D"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84.webp",
+                "alt": "Turquoise blue gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              },
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Pink gradient",
+        "hexes": [
+          "#E11C6A",
+          "#F88CBE"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64.webp",
+                "alt": "Pink gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rouge-degrade-orange": {
+        "id": "rouge-degrade-orange",
+        "label": "Red to orange gradient",
+        "hexes": [
+          "#EF1E10",
+          "#FFB409"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64.webp",
+                "alt": "Red to orange gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Pink to orange gradient",
+        "hexes": [
+          "#ED1890",
+          "#FFA808"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84.webp",
+                "alt": "Pink to orange gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "vert": {
+        "id": "vert",
+        "label": "Green",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/longdesc/arc-en-ciel/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Rainbow scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "vert-degrade": {
+        "id": "vert-degrade",
+        "label": "Green gradient",
+        "hexes": [
+          "#12D8BC",
+          "#019686"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BMS-84x84.webp",
+                "alt": "Green gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rouge-degrade-rose": {
+        "id": "rouge-degrade-rose",
+        "label": "Red to pink gradient",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Silk satin",
+            "images": [
+              {
+                "src": "/img/foulards/longdesc/arc-en-ciel/satin-de-soie-1.avif",
+                "alt": "Rainbow scarf in silk satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Long description test",
+      "Multiple sizes available",
+      "Multiple materials"
+    ],
+    "metaDescription": "Scarf with long description for UI testing."
+  },
+  {
+    "slug": "fleurs-de-porcelaine",
+    "title": "Fleurs de Porcelaine",
+    "description": "Subtle scrolls adorn this composition whose porcelain flowers and plants stand out on a golden yellow and vibrant pink background.",
+    "colors": {
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Pink to orange gradient",
+        "hexes": [
+          "#F64984",
+          "#FEB107"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64.webp",
+                "alt": "Pink to orange gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rouge-degrade-orange": {
+        "id": "rouge-degrade-orange",
+        "label": "Red to orange gradient",
+        "hexes": [
+          "#F03333",
+          "#FEB009"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84.webp",
+                "alt": "Red to orange gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Turquoise blue gradient",
+        "hexes": [
+          "#0CE5D0",
+          "#2C9F94"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84.webp",
+                "alt": "Turquoise blue gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multiple colours and materials",
+      "Complex display"
+    ],
+    "metaDescription": "Scarf with many colours and materials."
+  },
+  {
+    "slug": "poisson",
+    "title": "Poisson",
+    "description": "Amid corals and aquatic flowers, two fish face each other in a gradient of ultramarine and turquoise blue.",
+    "colors": {
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Turquoise blue gradient",
+        "hexes": [
+          "#25D1F1",
+          "#15909D"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/poisson/bleu-turquoise-degrade-BMS-84x84.webp",
+                "alt": "Turquoise blue gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-degrade": {
+        "id": "bleu-degrade",
+        "label": "Blue gradient",
+        "hexes": [
+          "#31D9FE",
+          "#002FE5"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84.webp",
+                "alt": "Blue gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "orange-degrade-sanguine": {
+        "id": "orange-degrade-sanguine",
+        "label": "Orange to blood-red gradient",
+        "hexes": [
+          "#FAA01E",
+          "#EE3143"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84.webp",
+                "alt": "Orange to blood-red gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "cerise": {
+        "id": "cerise",
+        "label": "Cherry",
+        "hexes": [
+          "#EF0A4D"
+        ],
+        "type": "solid",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/poisson/cerise-BMS-84x84.webp",
+                "alt": "Cherry scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "jaune-orange-degrade": {
+      "id": "jaune-orange-degrade",
+      "label": "Yellow-orange gradient",
+      "hexes": [
+        "#FFA63B",
+        "#F85B03"
+      ],
+      "type": "gradient",
+      "materials": {
+        "mousseline-et-satin-de-soie": {
+          "id": "mousseline-et-satin-de-soie",
+          "label": "Silk chiffon and satin",
+          "images": [
+            {
+              "src": "/img/foulards/poisson/jaune-orange-degrade-BMS-84x84.webp",
+              "alt": "Yellow-orange gradient scarf in silk chiffon and satin"
+            }
+          ],
+          "sizes": [
+            {
+              "id": "84x84",
+              "label": "84×84 cm"
+            }
+          ]
+        }
+      }
+    },
+    "mentions": [
+      "Test multiple colours and materials",
+      "Complex display"
+    ],
+    "metaDescription": "Scarf with many colours and materials."
+  },
+  {
+    "slug": "herbes-folles",
+    "title": "Herbes Folles",
+    "description": "A sheaf of wild grasses, flowers and grasses in a lively and dynamic composition.",
+    "colors": {
+      "brique": {
+        "id": "brique",
+        "label": "Brick",
+        "hexes": [
+          "#B70F1C"
+        ],
+        "type": "solid",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/herbes-folles/brique-BMS-84x84.webp",
+                "alt": "Red scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "orange-degrade-sanguine": {
+        "id": "orange-degrade-sanguine",
+        "label": "Orange to blood-red gradient",
+        "hexes": [
+          "#F99323",
+          "#EE3143"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Silk satin",
+            "images": [
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84.webp",
+                "alt": "Orange to blood-red gradient scarf in silk satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "amethyste": {
+        "id": "amethyste",
+        "label": "Amethyst",
+        "hexes": [
+          "#8E144D"
+        ],
+        "type": "solid",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Silk satin",
+            "images": [
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84.webp",
+                "alt": "Amethyst scarf in silk satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "lavande-degrade-clair": {
+        "id": "lavande-degrade-clair",
+        "label": "Light lavender gradient",
+        "hexes": [
+          "#33398D",
+          "#99C4E6"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Silk satin",
+            "images": [
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84.webp",
+                "alt": "Light lavender gradient scarf in silk satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multiple colours and materials",
+      "Complex display"
+    ],
+    "metaDescription": "Scarf with many colours and materials."
+  },
+  {
+    "slug": "libellule",
+    "title": "Libellule",
+    "description": "In this rounded composition, dragonflies hide among flowers in tones of orange and pink.",
+    "colors": {
+      "rose": {
+        "id": "rose",
+        "label": "Pink",
+        "hexes": [
+          "#BD1479"
+        ],
+        "type": "solid",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84.webp",
+                "alt": "Pink scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "vert": {
+        "id": "vert",
+        "label": "Green",
+        "hexes": [
+          "#6BAE23"
+        ],
+        "type": "solid",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/libellule/vert-BMS-84x84.webp",
+                "alt": "Green scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multiple colours and materials",
+      "Complex display"
+    ],
+    "metaDescription": "Scarf with many colours and materials."
+  },
+  {
+    "slug": "paon",
+    "title": "Paon",
+    "description": "A majestic peacock stands out amid an armful of flowers against a sunset sky.",
+    "colors": {
+      "vert": {
+        "id": "vert",
+        "label": "Green",
+        "hexes": [
+          "#65B846"
+        ],
+        "type": "solid",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84.webp",
+                "alt": "Green scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "corail-degrade": {
+        "id": "corail-degrade",
+        "label": "Coral gradient",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/multi/corail/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Coral scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise": {
+        "id": "bleu-turquoise",
+        "label": "Turquoise blue",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Turquoise blue scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-violet": {
+        "id": "rose-degrade-violet",
+        "label": "Pink to violet gradient",
+        "hexes": [
+          "#E109CE",
+          "#A831F5"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/paon/rose-degrade-violet-BMS-84x84.webp",
+                "alt": "Pink to violet gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-prune": {
+        "id": "rose-degrade-prune",
+        "label": "Pink to plum gradient",
+        "hexes": [
+          "#E00ACE",
+          "#A831F5"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84.webp",
+                "alt": "Pink to plum gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multiple colours and materials",
+      "Complex display"
+    ],
+    "metaDescription": "Scarf with many colours and materials."
+  },
+  {
+    "slug": "spirales",
+    "title": "Spirales",
+    "description": "A composition of curves and scrolls in harmonies of blue, orange and pink.",
+    "colors": {
+      "lie-de-vin": {
+        "id": "lie-de-vin",
+        "label": "Wine lees",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Silk satin",
+            "images": [
+              {
+                "src": "/img/foulards/multi/lie-de-vin/satin-de-soie-1.avif",
+                "alt": "Wine lees scarf in silk satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multiple colours and materials",
+      "Complex display"
+    ],
+    "metaDescription": "Scarf with many colours and materials."
+  },
+  {
+    "slug": "mamma-del-mondo",
+    "title": "Mamma del Mondo",
+    "description": "In this composition, ladybirds and four-leaf clovers hide among the flowers to honour, in several languages, all the mothers of the world.",
+    "colors": {
+      "rose-degrade-violet": {
+        "id": "rose-degrade-violet",
+        "label": "Pink to violet gradient",
+        "hexes": [
+          "#E90195",
+          "#9E0CAB"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Silk satin",
+            "images": [
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64.webp",
+                "alt": "Pink to violet gradient scarf in silk satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multiple colours and materials",
+      "Complex display"
+    ],
+    "metaDescription": "Scarf with many colours and materials."
+  },
+  {
+    "slug": "courbes",
+    "title": "Courbes",
+    "description": "On a yellow-orange and pink background defined by a sinuous curve, flowers in warm tones of pink and violet punctuate this elegant composition.",
+    "colors": {
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Pink gradient",
+        "hexes": [
+          "#F47AB5",
+          "#E71F72"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/courbes/rose-degrade-BMS-40x170.webp",
+                "alt": "Pink gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "vert-degrade": {
+        "id": "vert-degrade",
+        "label": "Green gradient",
+        "hexes": [
+          "#039787",
+          "#06D8D3"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x170.webp",
+                "alt": "Green gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "violet-degrade-rose": {
+        "id": "violet-degrade-rose",
+        "label": "Violet to pink gradient",
+        "hexes": [
+          "#CF0F87",
+          "#9F42AD"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x170.webp",
+                "alt": "Violet to pink gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-outremer-degrade-lavande": {
+        "id": "bleu-outremer-degrade-lavande",
+        "label": "Ultramarine to lavender gradient",
+        "hexes": [
+          "#4659E0",
+          "#8AA6F5"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Silk satin",
+            "images": [
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-T-40x170.webp",
+                "alt": "Ultramarine to lavender gradient scarf in silk satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multiple colours and materials",
+      "Complex display"
+    ],
+    "metaDescription": "Scarf with many colours and materials."
+  },
+  {
+    "slug": "printemps-en-couleurs",
+    "title": "Printemps en Couleurs",
+    "description": "On either side of this scarf, graceful poppies are highlighted by delicate grasses.",
+    "colors": {
+      "vert-degrade-turquoise": {
+        "id": "vert-degrade-turquoise",
+        "label": "Green to turquoise gradient",
+        "hexes": [
+          "#01BED7",
+          "#029485"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x170.webp",
+                "alt": "Green scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Pink to orange gradient",
+        "hexes": [
+          "#FFCA08",
+          "#EF238F"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x170.webp",
+                "alt": "Pink to orange gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "outremer-degrade-turquoise": {
+        "id": "outremer-degrade-turquoise",
+        "label": "Ultramarine to turquoise gradient",
+        "hexes": [
+          "#2DC3E2",
+          "#1556F8"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "alt": "Ultramarine scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Silk satin",
+            "images": [
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "alt": "Ultramarine scarf in silk satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Turquoise blue gradient",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Turquoise blue scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multiple colours and materials",
+      "Complex display"
+    ],
+    "metaDescription": "Scarf with many colours and materials."
+  },
+  {
+    "slug": "paysage-de-roussillon",
+    "title": "Paysage de Roussillon",
+    "description": "The village of Roussillon, with its wild grasses in the foreground, adorns this scarf on either side of its length and stands out against a luminous sky.",
+    "colors": {
+      "vert-degrade": {
+        "id": "vert-degrade",
+        "label": "Green gradient",
+        "hexes": [
+          "#01BED7",
+          "#009384"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x170.webp",
+                "alt": "Green scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Pink to orange gradient",
+        "hexes": [
+          "#F03B44",
+          "#FC9701"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Silk satin",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-et-T-40x170.webp",
+                "alt": "Pink to orange gradient scarf in silk satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          },
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-et-T-40x170.webp",
+                "alt": "Pink to orange gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rouge-degrade-orange": {
+        "id": "rouge-degrade-orange",
+        "label": "Red to orange gradient",
+        "hexes": [
+          "#EF3A43",
+          "#FC9701"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Silk satin",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-BMS-et-T-40x170.webp",
+                "alt": "Red to orange gradient scarf in silk satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          },
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-BMS-et-T-40x170.webp",
+                "alt": "Red to orange gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "outremer-degrade": {
+        "id": "outremer-degrade",
+        "label": "Ultramarine gradient",
+        "hexes": [
+          "#2FC2E2",
+          "#1556F8"
+        ],
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Silk satin",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x170.webp",
+                "alt": "Ultramarine scarf in silk satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          },
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x170.webp",
+                "alt": "Ultramarine scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multiple colours and materials",
+      "Complex display"
+    ],
+    "metaDescription": "Scarf with many colours and materials."
+  },
+  {
+    "slug": "fleurs-et-papillons",
+    "title": "Fleurs et Papillons",
+    "description": "In this vertical composition, sinuous lines support graceful wildflowers and lavender, a cradle for multiple butterflies.",
+    "colors": {
+      "bleu-outremer-degrade-lavande": {
+        "id": "bleu-outremer-degrade-lavande",
+        "label": "Ultramarine to lavender gradient",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Ultramarine scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": " 40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "violet-rose-degrade": {
+        "id": "violet-rose-degrade",
+        "label": "Violet to pink gradient",
+        "hexes": [
+          "#B441AA",
+          "#F737AC"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x170.webp",
+                "alt": "Violet to pink gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Pink to orange gradient",
+        "hexes": [
+          "#FFBE0E",
+          "#ED1892"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x170.webp",
+                "alt": "Pink to orange gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Turquoise blue gradient",
+        "hexes": [
+          "#208AC3",
+          "#1FD2F7"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x170.webp",
+                "alt": "Turquoise blue gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multiple colours and materials",
+      "Complex display"
+    ],
+    "metaDescription": "Scarf with many colours and materials."
+  },
+  {
+    "slug": "oiseaux-exotiques",
+    "title": "Oiseaux Exotiques",
+    "description": "Exotic birds in shimmering colours dance among porcelain flowers and tropical plants.",
+    "colors": {
+      "vert-degrade-turquoise": {
+        "id": "vert-degrade-turquoise",
+        "label": "Green to turquoise gradient",
+        "hexes": [
+          "#039787",
+          "#06D8D1"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x170.webp",
+                "alt": "Green to turquoise gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "lavande-degrade": {
+        "id": "lavande-degrade",
+        "label": "Lavender gradient",
+        "hexes": [
+          "#8DA9FD",
+          "#495CE2"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x170.webp",
+                "alt": "Lavender gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "jaune-degrade-rose": {
+        "id": "jaune-degrade-rose",
+        "label": "Yellow to pink gradient",
+        "hexes": [
+          "#FECC06",
+          "#EE228D"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x170.webp",
+                "alt": "Yellow to pink gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "jaune-degrade-rouge": {
+        "id": "jaune-degrade-rouge",
+        "label": "Yellow to red gradient",
+        "hexes": [
+          "#F21B3D",
+          "#FFB309"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x170.webp",
+                "alt": "Yellow to red gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Turquoise blue gradient",
+        "hexes": [
+          "#30C8E7",
+          "#1C80BC"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x170.webp",
+                "alt": "Turquoise blue gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-outremer-degrade-lavande": {
+        "id": "bleu-outremer-degrade-lavande",
+        "label": "Ultramarine to lavender gradient",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Ultramarine scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-outremer-degrade-turquoise": {
+        "id": "bleu-outremer-degrade-turquoise",
+        "label": "Ultramarine to turquoise gradient",
+        "hexes": [
+          "#2FC2E2",
+          "#1556F7"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Silk satin",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "alt": "Ultramarine to turquoise gradient scarf in silk satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          },
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Silk chiffon and satin",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "alt": "Ultramarine to turquoise gradient scarf in silk chiffon and satin"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test multiple colours and materials",
+      "Complex display"
+    ],
+    "metaDescription": "Scarf with many colours and materials."
+  }
+]

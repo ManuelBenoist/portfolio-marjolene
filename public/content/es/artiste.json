@@ -1,0 +1,26 @@
+{
+  "biography": {
+    "title": "Biografía",
+    "image": "/img/artiste/Marjolène-Lasne.webp",
+    "caption": "Marjolène Lasne, sus pinceles y su caballete",
+    "position": "left",
+    "paragraphs": [
+      "Diplomada por la Escuela de Arquitectura de Paris-Conflans, Marjolène Lasne ejerció inicialmente como arquitecta durante cinco años. Esta formación moldeó de manera duradera su mirada, su sentido del volumen y la composición.",
+      "Luego eligió dedicarse por completo a la pintura. Desde 1984, sus obras se exponen regularmente en galerías y forman parte de colecciones privadas en Francia y en el extranjero."
+    ],
+    "sub_paragraphs": [
+      "Afincada en Roussillon, en el corazón de Provenza, crea óleos, acrílicos y acuarelas de colores luminosos y tornasolados, inspirados por los paisajes y la luz del sur de Francia.",
+      "A partir de sus acuarelas, también crea pañuelos de seda estampados en Francia en edición limitada. Cada diseño prolonga su universo pictórico y ofrece otra manera de llevar su pintura."
+    ]
+  },
+  "studio": {
+    "title": "Taller y espacio de exposición",
+    "image": "/img/autres-activites/commandes_visites_illu.webp",
+    "caption": "El taller de Marjolène en Roussillon",
+    "position": "right",
+    "paragraphs": [
+      "En el corazón del pueblo de Roussillon, en el Luberon, Marjolène Lasne le recibe en su taller.",
+      "Sus pinturas más recientes se exponen, a pocos pasos de su taller, dentro del Colectivo de Artistas de Roussillon, junto a otros pintores y escultores. Este espacio de exposición permite descubrir sus obras originales en un entorno auténtico y luminoso, directamente vinculado al paisaje provenzal que inspira su paleta."
+    ]
+  }
+}

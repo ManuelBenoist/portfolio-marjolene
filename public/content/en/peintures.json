@@ -1,0 +1,258 @@
+{
+  "collections": {
+    "Scènes d'Intérieur": [
+      {
+        "slug": "diva-venitienne",
+        "title": "Diva Vénitienne",
+        "description": "An orchestra with a red-draped Diva stands out against the architecture of a baroque theatre through which the silhouette of the Salute in Venice can be glimpsed.",
+        "dimensions": "80×80 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/scenes-d-interieur/diva_venitienne.webp"
+      },
+      {
+        "slug": "duo-au-piano",
+        "title": "Duo au piano",
+        "description": "The silhouettes of two musicians contrast with the forms of collaged papers subtly highlighted with gold.",
+        "dimensions": "20×20 cm",
+        "technique": "Mixed media",
+        "image": "/img/peintures/scenes-d-interieur/duo_au_piano.webp"
+      },
+      {
+        "slug": "confidences-des-deux-amies",
+        "title": "Confidences des deux amies",
+        "description": "Two friends chatting away in the warm atmosphere of a Parisian café.",
+        "dimensions": "46×38 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/scenes-d-interieur/confidences_des_deux_amies.webp"
+      },
+      {
+        "slug": "conversation-a-saint-germain-des-pres",
+        "title": "Conversation à Saint-Germain-des-Prés",
+        "description": "This café on the corner of Rue de Buci in Paris creates reflections and perspectives in constant movement.",
+        "dimensions": "55×46 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/scenes-d-interieur/conversation_a_saint_germain_des_pres.webp"
+      },
+      {
+        "slug": "autour-d-un-verre-a-venise",
+        "title": "Autour d'un verre à Venise (diptyque)",
+        "description": "A diptych composition evoking both the interior of a baroque café and a perspective on the Salute, the Thames and Venetian barques.",
+        "dimensions": "55×46 cm ×2",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/scenes-d-interieur/autour_d'un_verre_a_venise_diptyque.webp"
+      },
+      {
+        "slug": "le-temps-suspendu",
+        "title": "Le Temps Suspendu",
+        "description": "This canvas depicts the restaurant 'La Cigale' in Nantes with its cicada-decorated ceramics, ornate décor and mirrors creating artful reflections.",
+        "dimensions": "92×73 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/scenes-d-interieur/le_temps_suspendu.webp"
+      }
+    ],
+    "Terrasses et Marchés": [
+      {
+        "slug": "pause-apéritive",
+        "title": "Pause Apéritive (diptyque)",
+        "description": "In this diptych composition, the main harmonies are blue and orange, complementary colours punctuated with white and subtle warm green nuances.",
+        "dimensions": "30×60 cm ×2",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/terrasses-et-marches/pause_aperitive_diptyque.webp"
+      },
+      {
+        "slug": "terrasse-ombragee",
+        "title": "Terrasse Ombragée",
+        "description": "A Provençal restaurant enhanced with a fountain. The nuanced blue of the shopfront contrasts with the sun-drenched façade in orange tones, bringing warmth, vitality and energy to the canvas.",
+        "dimensions": "81×65 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/terrasses-et-marches/terrasse_ombragee.webp"
+      },
+      {
+        "slug": "detente-a-gordes",
+        "title": "Détente à Gordes",
+        "description": "Majestic trees dominate the square of this restaurant in Gordes, creating shifting plays of shadow and light.",
+        "dimensions": "",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/terrasses-et-marches/detente_a_gordes.webp"
+      },
+      {
+        "slug": "la-marchande-de-legumes",
+        "title": "La Marchande de Légumes",
+        "description": "Colourful parasols seem to dance and punctuate the composition. Vegetables in multiple colours occupy the foreground of the canvas, forming a diagonal. Figures bring the scene to life.",
+        "dimensions": "",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/terrasses-et-marches/la_marchande_de_legumes.webp"
+      },
+      {
+        "slug": "en-terrasse-parmi-les-fleurs",
+        "title": "En Terrasse Parmi Les fleurs",
+        "description": "A lively scene of everyday life. Café terrace, waiter, flowers and blue sky. The whole in the shimmering colours of Provence.",
+        "dimensions": "",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/terrasses-et-marches/en_terrasse_parmi_les_fleurs.webp"
+      },
+      {
+        "slug": "a-la-terrasse-du-fournil",
+        "title": "À la Terrasse du Fournil",
+        "description": "A café terrace scene gently transitioning from shadow to light.",
+        "dimensions": "73×50 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/terrasses-et-marches/a_la_terrasse_du_fournil.webp"
+      },
+      {
+        "slug": "pause-aperitive-au-soleil-provencal",
+        "title": "Pause Apéritive au Soleil Provençal",
+        "description": "Colourful fruits on a market stall alongside a café terrace, bathed in contrasting blue nuances.",
+        "dimensions": "50×50 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/terrasses-et-marches/pause_aperitive_au_soleil_provencal.webp"
+      },
+      {
+        "slug": "promenade-d-ete-en-famille-a-roussillon",
+        "title": "Promenade d'été en famille à Roussillon",
+        "description": "Children playing with fountain water under the watchful eyes of parents enjoying the moment on a terrace.",
+        "dimensions": "65×54 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/terrasses-et-marches/promenade_d_ete_en_famille_a_roussillon.webp"
+      },
+      {
+        "slug": "les-heures-douces-a-la-fontaine",
+        "title": "Les Heures Douces à la Fontaine",
+        "description": "Serenity on a terrace with a view of colourful fields to the murmur of the fountain.",
+        "dimensions": "",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/terrasses-et-marches/les_heures_douces_a_la_fontaine.webp"
+      },
+      {
+        "slug": "detente-au-jardin",
+        "title": "Détente au Jardin",
+        "description": "A summer family meal in the garden beneath the sheltering branches of a lime tree.",
+        "dimensions": "",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/terrasses-et-marches/detente_au_jardin.webp"
+      },
+      {
+        "slug": "le-marche-de-roussillon",
+        "title": "Le Marché de Roussillon",
+        "description": "A market rendered in warm colours with touches of various luminous greens in contrast.",
+        "dimensions": "30×30 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/terrasses-et-marches/le_marche_de_roussillon.webp"
+      }
+    ],
+    "Paysages": [
+      {
+        "slug": "roussillon-aux-fleurs-sauvages",
+        "title": "Roussillon aux fleurs sauvages",
+        "description": "Bursts of colourful touches flying in the wind contrast with the static aspect of the ochre houses of Roussillon.",
+        "dimensions": "50×50 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/paysages/roussillon_aux_fleurs_sauvages.webp"
+      },
+      {
+        "slug": "camargue-secrete",
+        "title": "Camargue Secrète",
+        "description": "This dynamically worked canvas, using brush and palette knife, is a subtle combination of cool and warm tones. The flooded expanses of the Camargue, in shades of blue, contrast with a yellow foreground highlighted with touches of pink.",
+        "dimensions": "50×50 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/paysages/camargue_secrete.webp"
+      },
+      {
+        "slug": "reflets-emeraude",
+        "title": "Reflets Émeraude",
+        "description": "A subtle contrast between the turquoise waters of the canal and the yellow and orange ochre façades of the houses.",
+        "dimensions": "40×80 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/paysages/reflets_emeraude.webp"
+      },
+      {
+        "slug": "symphonie-automnale",
+        "title": "Symphonie Automnale",
+        "description": "Painted predominantly in warm tones of plum, orange and yellow, this canvas is enlivened by subtle touches of violet and lime green bringing dynamism to the composition.",
+        "dimensions": "20×20 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/paysages/symphonie_automnale.webp"
+      },
+      {
+        "slug": "paysage-pourpre-et-vermillon",
+        "title": "Paysage Pourpre et Vermillon",
+        "description": "A foreground of vines with multicoloured touches contrasts with flat areas of pink, vermilion and yellow.",
+        "dimensions": "20×20 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/paysages/paysage_pourpre_et_vermillon.webp"
+      },
+      {
+        "slug": "roussillon_au_soleil_joyeux",
+        "title": "Roussillon au Soleil Joyeux",
+        "description": "In this warmly toned canvas of yellow, orange and red, palette knife texture effects punctuate the composition with their dynamism.",
+        "dimensions": "",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/paysages/roussillon_au_soleil_joyeux.webp"
+      },
+      {
+        "slug": "printemps-à-bonnieux",
+        "title": "Printemps à Bonnieux",
+        "description": "This canvas evokes spring in Bonnieux, a village in the Luberon. Its cherry blossoms contrast with the foreground worked with palette knife in tones of yellow, orange and red.",
+        "dimensions": "60×60 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/paysages/printemps_a_bonnieux.webp"
+      },
+      {
+        "slug": "de-pourpre-et-d-azur",
+        "title": "De Pourpre et d'Azur",
+        "description": "The village of Roussillon and its bell tower form the subject of this canvas. The houses are rendered in shades of yellow, orange and rosy red. Touches of green symbolically represent the trees.",
+        "dimensions": "30×30 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/paysages/de_pourpre_et_d_azur.webp"
+      },
+      {
+        "slug": "les-vignes-de-bonnieux",
+        "title": "Les Vignes de Bonnieux",
+        "description": "In this canvas, a diagonal punctuates the composition, separating a flat yellow area from the vines rendered with multicoloured touches.",
+        "dimensions": "80×80 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/paysages/les_vignes_de_bonnieux.webp"
+      },
+      {
+        "slug": "gordes-aux-iris",
+        "title": "Gordes aux Iris",
+        "description": "Irises with their foliage stand dynamically in the foreground. The village's white stones and golden fields appear in the contrasting background.",
+        "dimensions": "50×50 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/paysages/gordes_aux_iris.webp"
+      },
+      {
+        "slug": "dune-dans-le-vent",
+        "title": "Dune dans le Vent",
+        "description": "Worked with palette knife and pigments for texture and material effects, this canvas offers gradients of orange-yellow and blue-green that give an impression of space and infinity.",
+        "dimensions": "73×60 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/paysages/dune_dans_le_vent.webp"
+      },
+      {
+        "slug": "parfums-secrets-de-provence",
+        "title": "Parfums Secrets de Provence",
+        "description": "In this canvas, the lightness of the vines rendered in multicoloured touches contrasts with the flat areas of coloured fields and three trees in faded pink tones. Two figures dressed in white animate the scene in the heart of the vineyard.",
+        "dimensions": "73×60 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/paysages/parfums_secrets_de_provence.webp"
+      },
+      {
+        "slug": "champs-d-herbes-sauvages",
+        "title": "Champs d'Herbes Sauvages",
+        "description": "This luminous canvas with warm dominant tones stands out with its striking reds and yellows while colourful touches underline the verticality of the wild grasses in the foreground.",
+        "dimensions": "65×54 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/paysages/champs_d_herbes_sauvages.webp"
+      },
+      {
+        "slug": "paysage-pourpre-et-vermillon-au-soleil-couchant",
+        "title": "Paysage Pourpre et Vermillon au Soleil Couchant",
+        "description": "In this predominantly warm-toned canvas, a diagonal underlined by colourful touches punctuated with pink brings dynamism to the composition.",
+        "dimensions": "20×20 cm",
+        "technique": "Oil on canvas",
+        "image": "/img/peintures/paysages/paysage_pourpre_et_vermillon_au_soleil_couchant.webp"
+      }
+    ]
+  }
+}

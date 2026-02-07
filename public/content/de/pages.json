@@ -1,0 +1,214 @@
+{
+  "home": {
+    "srTitle": "Marjolene Lasne – Malerin",
+    "logoAlt": "Marjolène Lasne",
+    "menuItems": [
+      {
+        "label": "Die Künstlerin",
+        "path": "/artiste",
+        "image": "/img/accueil/Marjolène-Lasne.webp"
+      },
+      {
+        "label": "Gemälde",
+        "path": "/peintures",
+        "image": "/img/accueil/en_terrasse_parmi_les_fleurs.webp"
+      },
+      {
+        "label": "Tücher",
+        "path": "/foulards",
+        "image": "/img/accueil/rose-degrade-orange-BMS-84x84.webp"
+      },
+      {
+        "label": "Weitere Aktivitäten",
+        "path": "/autres-activites",
+        "image": "/img/accueil/gites_illu.webp"
+      },
+      {
+        "label": "Kontakt",
+        "path": "/contact",
+        "image": "/img/accueil/gordes_aux_iris.webp"
+      }
+    ],
+    "imageAltPrefix": "Bild für",
+    "imageAltDefault": "Werk von Marjolène Lasne",
+    "seo": {
+      "title": "Marjolene Lasne – Malerin",
+      "description": "Portfolio von Marjolene Lasne, Malerin in der Provence. Originalgemälde, Seidentücher und künstlerisches Universum."
+    }
+  },
+  "artist": {
+    "title": "Die Künstlerin",
+    "subtitle": "Entdecken Sie den Werdegang und die Leidenschaft von Marjolène Lasne, einer französischen Malerin inspiriert vom mediterranen Licht und der Schönheit Südfrankreichs.",
+    "timelineTitle": "Werdegang und Ausbildung",
+    "quotes": [
+      {
+        "quote": "Die Farbe regiert, Harmonien kontrastieren und die Ausführung ist erlesen! Marjolène Lasne besitzt die Gabe, die Musikalität der Töne zu steigern, Landschaften und Figuren mit ihrem lebhaften, vibrierenden Pinselstrich zu erhellen. Wunderschön inszeniert, evozieren ihre Kompositionen flüchtige Momente voller Charme und Gelassenheit. Lebhaft und fröhlich – ihre Palette ist einzigartig!",
+        "author": "Gwénaëlle de Carné",
+        "role": "Kunstkritikerin"
+      },
+      {
+        "quote": "Inspiriert vom Alltag, eingefangen mit dem Skizzenbuch in der Hand, erweckt diese Künstlerin Szenen mit einer fröhlichen Palette zum Leben. Diese farbenfrohe und harmonische Alchemie setzt auf Kontraste von Farbe und Textur, um die Komposition zu rhythmisieren. Der lebhafte Pinselstrich enthüllt die Haltungen der Figuren, auf dem Markt oder im Café, beim Konzert oder am Strand. Respektvoll gegenüber Atmosphären, spielt Marjolène Lasne mit Volumen und Architektur, um ihrem Werk einen panoramischen Charakter zu verleihen, mit einer räumlichen Qualität für die Orchester, deren Silhouetten sich vor einem zeitlosen Hintergrund abheben.",
+        "author": "Thierry Sznytka",
+        "role": "Kunstkritiker",
+        "source": "In ARTS ACTUALITÉS MAGAZINE – Sonderausgabe Januar 2006"
+      }
+    ],
+    "timeline": {
+      "personalExhibitions": "Einzelausstellungen",
+      "shows": "Salons",
+      "awards": "Auszeichnungen",
+      "noData": "Keine Daten für diesen Zeitraum.",
+      "preparing": "Zeitleiste in Vorbereitung."
+    },
+    "seo": {
+      "title": "Die Künstlerin – Marjolene Lasne",
+      "description": "Biografie von Marjolene Lasne, Malerin in der Provence, und Vorstellung ihres Ateliers in Roussillon."
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "current": "Die Künstlerin"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Für Fragen oder Bestellungen füllen Sie bitte das untenstehende Formular aus.",
+    "infoTitle": "Informationen",
+    "labels": {
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "studioAddress": "Atelier-Adresse",
+      "visitByAppointment": "(Besuch nur nach Vereinbarung)"
+    },
+    "mapTitle": "Atelier – Galerie Marjolène LASNE in Roussillon",
+    "form": {
+      "lastName": "Nachname",
+      "firstName": "Vorname",
+      "email": "E-Mail",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Betreff auswählen",
+      "subjectOptions": {
+        "general": "Allgemeine Anfrage",
+        "order": "Bestellung",
+        "workInfo": "Informationen zu einem Werk",
+        "other": "Sonstiges"
+      },
+      "message": "Nachricht",
+      "send": "Nachricht senden",
+      "sendAriaLabel": "Kontaktnachricht senden",
+      "sending": "Wird gesendet...",
+      "required": "*"
+    },
+    "success": "Vielen Dank, Ihre Nachricht wurde erfolgreich gesendet.",
+    "errors": {
+      "title": "Ein Fehler ist aufgetreten",
+      "requiredFields": "Bitte füllen Sie alle Formularfelder aus, bevor Sie Ihre Nachricht senden.",
+      "unknown": "Unbekannter Formularfehler.",
+      "generic": "Ein Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+      "network": "Ein Verbindungsfehler ist aufgetreten. Bitte überprüfen Sie Ihre Netzwerkverbindung."
+    },
+    "prefill": {
+      "greeting": "Guten Tag,",
+      "closing": "Mit freundlichen Grüßen,",
+      "paintingRequest": "Ich hätte gerne Informationen zum Gemälde «{title}»{technique}.",
+      "paintingTechniqueFormat": " ({technique})",
+      "scarfRequest": "Ich hätte gerne Informationen zum Tuch «{product}»{details}.",
+      "scarfDetailsFormat": " ({details})",
+      "scarfColor": "Farbe {color}",
+      "scarfSize": "Größe {size}",
+      "scarfMaterial": "Material {material}",
+      "activityRequest": "Ich hätte gerne Informationen zur Aktivität «{activity}».",
+      "artistRequest": "Ich möchte die Künstlerin Marjolène Lasne kontaktieren."
+    },
+    "formspreeSubject": "Kontakt Marjolène Lasne: {subject}",
+    "seo": {
+      "title": "Kontakt – Marjolene Lasne",
+      "description": "Kontaktieren Sie Marjolene Lasne für Anfragen zu ihren Gemälden, Seidentüchern oder einen Atelierbesuch in der Provence."
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "current": "Kontakt"
+    }
+  },
+  "activities": {
+    "title": "Weitere Aktivitäten",
+    "subtitle": "Marjolène Lasne erweitert ihr künstlerisches Universum durch verschiedene Aktivitäten neben ihrer Malerei.",
+    "buttons": {
+      "gites": "Die Unterkünfte entdecken",
+      "default": "Die Künstlerin kontaktieren"
+    },
+    "seo": {
+      "title": "Weitere Aktivitäten – Marjolene Lasne",
+      "description": "Entdecken Sie die weiteren Aktivitäten von Marjolene Lasne: Workshops, Textildesign, Auftragsarbeiten und Unterkünfte in der Provence."
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "current": "Weitere Aktivitäten"
+    }
+  },
+  "paintings": {
+    "title": "Gemälde",
+    "subtitle": "Entdecken Sie eine Auswahl von Originalwerken von Marjolène Lasne, inspiriert von Landschaften, Alltagsszenen und der Atmosphäre Südfrankreichs.",
+    "loading": "Gemälde werden geladen...",
+    "emptyState": "Keine Gemälde entsprechen Ihrer Auswahl.",
+    "filters": {
+      "collections": "Sammlungen",
+      "techniques": "Techniken",
+      "all": "Alle"
+    },
+    "detail": {
+      "backToGallery": "Zurück zur Galerie",
+      "collectionPrefix": "Sammlung",
+      "dimensions": "Maße",
+      "technique": "Technik",
+      "questionCta": "Haben Sie eine Frage?",
+      "loading": "Werk wird geladen…",
+      "notFound": "Gemälde nicht gefunden.",
+      "previousPainting": "Vorheriges Gemälde",
+      "nextPainting": "Nächstes Gemälde",
+      "collectionStart": "Anfang der Sammlung",
+      "collectionEnd": "Ende der Sammlung",
+      "fallbackDescription": "Entdecken Sie ein Originalwerk von Marjolène Lasne.",
+      "imageAlt": "Gemälde {title}",
+      "previousAriaLabel": "Vorheriges Gemälde anzeigen: {title}",
+      "nextAriaLabel": "Nächstes Gemälde anzeigen: {title}"
+    },
+    "seo": {
+      "title": "Gemälde – Marjolene Lasne",
+      "description": "Galerie der Originalgemälde von Marjolene Lasne, inspiriert von der Provence, Alltagsszenen und Landschaften."
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "current": "Gemälde"
+    }
+  },
+  "scarves": {
+    "title": "Tücher",
+    "subtitle": "Entdecken Sie die Seidentuch-Kollektion von Marjolène Lasne, hergestellt in Frankreich in limitierter Auflage.",
+    "loading": "Tücher werden geladen...",
+    "emptyState": "Derzeit sind keine Tücher verfügbar.",
+    "detail": {
+      "backToScarves": "Zurück zu den Tüchern",
+      "backAriaLabel": "Zurück zu den Tüchern",
+      "enlargeImageAriaLabel": "Bild von {title} vergrößern",
+      "enlargeImageIndexAriaLabel": "Bild {index} vergrößern",
+      "imageViewAlt": "{title} – Ansicht {index}",
+      "color": "Farbe",
+      "material": "Material",
+      "size": "Größe",
+      "contactArtist": "Die Künstlerin kontaktieren",
+      "contactAriaLabel": "Die Künstlerin zu diesem Tuch kontaktieren",
+      "loading": "Tuch wird geladen…",
+      "notFound": "Tuch nicht gefunden.",
+      "backToCollection": "Zurück zur Kollektion",
+      "fallbackDescription": "Entdecken Sie ein einzigartiges Tuch von Marjolène Lasne."
+    },
+    "seo": {
+      "title": "Tücher – Marjolene Lasne",
+      "description": "Entdecken Sie die Seidentücher von Marjolene Lasne, Einzelstücke hergestellt in Frankreich."
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "current": "Tücher"
+    }
+  }
+}

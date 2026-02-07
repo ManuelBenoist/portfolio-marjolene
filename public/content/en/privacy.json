@@ -1,0 +1,144 @@
+{
+  "title": "Privacy Policy",
+  "lastUpdated": "Last updated: 31/01/2026",
+  "disclaimer": "This English translation is provided for information purposes only. In case of discrepancy between this translation and the French version, the French version shall prevail.",
+  "intro": "The purpose of this privacy policy is to inform users of this site about how their personal data is collected and processed, in compliance with the General Data Protection Regulation (GDPR) and the French Data Protection Act (as amended).",
+  "sections": [
+    {
+      "title": "1. Data Controller",
+      "content": [
+        { "type": "paragraph", "text": "Personal data collected on this site is processed by:" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "label": "Name", "value": "Marjolène Lasne" },
+            { "label": "Status", "value": "Painter, sole trader (micro-entrepreneur)" },
+            { "label": "Address", "value": "{address}" },
+            { "label": "SIRET", "value": "3441744300061" },
+            { "label": "GDPR contact email", "value": "{email}" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Personal Data Collected",
+      "content": [
+        { "type": "paragraph", "text": "In the course of using this site, different categories of personal data may be collected:" },
+        {
+          "type": "subsection",
+          "title": "2.1 Data collected via the contact form",
+          "text": "When you use the contact form, the following data is collected:",
+          "list": [
+            "Last name and/or first name",
+            "Email address",
+            "Message content"
+          ],
+          "footer": "This data is collected on a voluntary basis and is only processed if you decide to submit the form."
+        },
+        {
+          "type": "subsection",
+          "title": "2.2 Browsing and analytics data",
+          "text": "Subject to your consent, anonymised browsing data may be collected via Google Analytics (pages viewed, visit duration, device type, approximate location)."
+        },
+        {
+          "type": "subsection",
+          "title": "2.3 Technical hosting data",
+          "text": "The site host (GitHub Pages) may automatically collect certain technical data such as visitors' IP addresses as part of providing the hosting service and for security purposes."
+        }
+      ]
+    },
+    {
+      "title": "3. Purposes of Processing",
+      "content": [
+        { "type": "paragraph", "text": "The collected data is used for the following purposes:" },
+        {
+          "type": "list",
+          "style": "disc",
+          "items": [
+            "Responding to messages sent via the contact form",
+            "Measuring the site's audience and improving its operation",
+            "Ensuring the security and proper functioning of the site"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Data Recipients",
+      "content": [
+        { "type": "paragraph", "text": "Your personal data may be processed by the following technical service providers:" },
+        {
+          "type": "list",
+          "style": "disc",
+          "items": [
+            { "bold": "Formspree, Inc.", "text": " (contact form processing)" },
+            { "bold": "Google LLC", "text": " (Google Analytics 4 – audience measurement)" },
+            { "bold": "GitHub, Inc.", "text": " (site hosting via GitHub Pages)" }
+          ]
+        },
+        { "type": "paragraph", "text": "Your data is never sold or rented to third parties. It is not shared with any other commercial entity for prospecting or marketing purposes." }
+      ]
+    },
+    {
+      "title": "5. Data Transfers Outside the European Union",
+      "content": [
+        { "type": "paragraph", "text": "Some of the collected data may be transferred to countries outside the European Union, in particular the United States, as part of the use of Formspree, Google Analytics and GitHub Pages services." },
+        { "type": "paragraph", "text": "These transfers are governed by safeguards compliant with the GDPR (standard contractual clauses or mechanisms recognised by the European Commission)." }
+      ]
+    },
+    {
+      "title": "6. Data Retention Period",
+      "content": [
+        { "type": "paragraph", "text": "Data from the contact form is retained only for the time necessary to process the request. Audience measurement data is retained for a maximum period of 14 months." }
+      ]
+    },
+    {
+      "title": "7. Cookies",
+      "content": [
+        { "type": "paragraph", "text": "In accordance with Article 82 of the French Data Protection Act and CNIL recommendations, audience measurement cookies (Google Analytics) are only placed after obtaining your explicit consent." },
+        { "type": "paragraph", "text": "On your first visit to the site, a banner informs you of the presence of these cookies and allows you to accept or refuse them." },
+        { "type": "paragraph", "text": "Refusing analytics cookies has no impact on your browsing of the site.", "class": "text-sm text-gray-600" }
+      ]
+    },
+    {
+      "title": "8. Your Rights",
+      "content": [
+        { "type": "paragraph", "text": "In accordance with the GDPR (Articles 15 to 22) and the French Data Protection Act, you have the following rights regarding your personal data: access, rectification, deletion, restriction, objection and portability." },
+        { "type": "paragraph", "text": "To exercise any of these rights, you may send your request by email to: {email}" }
+      ]
+    },
+    {
+      "title": "9. Protection of Minors",
+      "content": [
+        { "type": "paragraph", "text": "This site is not specifically aimed at minors and does not knowingly collect personal data from persons under 16 years of age." }
+      ]
+    },
+    {
+      "title": "10. Changes to this Privacy Policy",
+      "content": [
+        { "type": "paragraph", "text": "This privacy policy may be updated at any time to reflect legal, regulatory or technical developments, or in the event of changes to data collection and processing procedures." },
+        { "type": "paragraph", "text": "The date of the last update is indicated at the top of this document." }
+      ]
+    },
+    {
+      "title": "11. Contact",
+      "content": [
+        { "type": "paragraph", "text": "For any questions relating to this privacy policy or any enquiry regarding your personal data, you may contact us:" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "label": "By email", "value": "{email}" },
+            { "label": "By post", "value": "Marjolène Lasne – {address}" }
+          ]
+        }
+      ]
+    }
+  ],
+  "legalLink": "See also our {link}.",
+  "legalLinkText": "Legal Notice",
+  "seo": {
+    "title": "Privacy Policy",
+    "description": "Privacy policy and personal data management in compliance with GDPR and CNIL recommendations."
+  }
+}

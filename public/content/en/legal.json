@@ -1,0 +1,134 @@
+{
+  "title": "Legal Notice",
+  "lastUpdated": "Last updated: 31/01/2026",
+  "disclaimer": "This English translation is provided for information purposes only. In case of discrepancy between this translation and the French version, the French version shall prevail.",
+  "intro": "In accordance with the provisions of French Law No. 2004-575 of 21 June 2004 on confidence in the digital economy (LCEN), the following legal information is brought to the attention of users and visitors of this site.",
+  "sections": [
+    {
+      "title": "1. Site Publisher",
+      "content": [
+        { "type": "paragraph", "text": "This site is published by:" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "label": "Name", "value": "Marjolène Lasne" },
+            { "label": "Status", "value": "Painter, sole trader (micro-entrepreneur)" },
+            { "label": "Address", "value": "{address}" },
+            { "label": "SIRET", "value": "3441744300061" },
+            { "label": "Phone", "value": "{phone}" },
+            { "label": "Email", "value": "{email}" }
+          ]
+        },
+        { "type": "paragraph", "text": "Publication director: Marjolène Lasne", "class": "mt-4 text-sm text-gray-600" }
+      ]
+    },
+    {
+      "title": "2. Hosting Provider",
+      "content": [
+        { "type": "paragraph", "text": "The site is hosted by:" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "label": "Company", "value": "GitHub Inc." },
+            { "label": "Address", "value": "88 Colin P Kelly Jr St, San Francisco, CA 94107, United States" },
+            { "value": "Hosting via GitHub Pages" },
+            { "label": "Website", "value": "https://github.com", "link": true }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Intellectual Property",
+      "content": [
+        { "type": "paragraph", "text": "All content on this site (texts, images, photographs, illustrations, artworks, logos, icons) is the exclusive property of Marjolène Lasne, unless otherwise stated." },
+        { "type": "paragraph", "text": "The artworks presented on this site are protected by copyright in accordance with the French Intellectual Property Code (articles L.111-1 et seq.)." },
+        { "type": "paragraph", "text": "Any reproduction, representation, modification, publication or adaptation, in whole or in part, of the elements of this site, by any means or process, is prohibited without the prior written authorisation of Marjolène Lasne." },
+        { "type": "paragraph", "text": "Any unauthorised use of the site or any of its elements shall be considered as constituting infringement and shall be prosecuted in accordance with the provisions of articles L.335-2 et seq. of the French Intellectual Property Code." }
+      ]
+    },
+    {
+      "title": "4. Personal Data Collection and GDPR",
+      "content": [
+        {
+          "type": "subsection",
+          "title": "4.1 Contact Form",
+          "text": "This site has a contact form allowing visitors to send messages to the publisher. The data collected (name, email address, message) is used solely to respond to user enquiries. This data is processed via the Formspree service (Formspree, Inc.) and is not retained beyond the time required to process the request."
+        },
+        {
+          "type": "subsection",
+          "title": "4.2 Audience Measurement",
+          "paragraphs": [
+            "This site uses Google Analytics 4, an audience analysis service provided by Google LLC. This service uses cookies to collect anonymous information about visitors' browsing (pages viewed, visit duration, approximate geographical origin). This data is used for statistical purposes to improve the user experience.",
+            "In accordance with the General Data Protection Regulation (GDPR), you may refuse the use of these cookies via the consent banner displayed on your first visit."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "4.3 Your Rights",
+          "text": "In accordance with the GDPR and the French Data Protection Act of 6 January 1978 (as amended), you have the following rights regarding your personal data:",
+          "list": [
+            "Right of access",
+            "Right of rectification",
+            "Right of erasure",
+            "Right to restriction of processing",
+            "Right to data portability",
+            "Right to object"
+          ],
+          "footer": "To exercise these rights, you may contact the publisher at the following email address: {email}. In the event of a dispute, you may lodge a complaint with the CNIL (French National Data Protection Commission)."
+        }
+      ]
+    },
+    {
+      "title": "5. Cookies",
+      "content": [
+        { "type": "paragraph", "text": "This site uses cookies, notably for the operation of Google Analytics 4. A cookie is a small text file stored on your device (computer, tablet, smartphone) when you visit a website." },
+        { "type": "paragraph", "text": "You can configure your browser to refuse cookies or to alert you when a cookie is being stored. Refusing cookies may limit certain site features." },
+        { "type": "paragraph", "text": "For more information about managing cookies, you can visit the CNIL website: {cnilCookiesLink}", "link": { "url": "https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser", "text": "https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser" } }
+      ]
+    },
+    {
+      "title": "6. Liability",
+      "content": [
+        { "type": "paragraph", "text": "The publisher strives to provide information on this site that is as accurate as possible. However, they cannot be held responsible for omissions, inaccuracies or shortcomings in updates, whether attributable to themselves or to third-party partners who provide this information." },
+        { "type": "paragraph", "text": "All information presented on this site is provided for indicative purposes, is non-exhaustive and is subject to change." },
+        { "type": "paragraph", "text": "The publisher cannot be held responsible for any direct or indirect damage caused to the user's equipment when accessing the site, resulting either from the use of equipment that does not meet the required technical specifications, or from the occurrence of a bug or incompatibility." }
+      ]
+    },
+    {
+      "title": "7. External Links",
+      "content": [
+        { "type": "paragraph", "text": "This site may contain hyperlinks to other websites. The publisher exercises no control over these sites and disclaims all responsibility for their content or the privacy practices of these third parties." },
+        { "type": "paragraph", "text": "The inclusion of these links does not imply that the publisher endorses the content of these sites. Users are advised to review the terms of use and privacy policy of each external site visited." }
+      ]
+    },
+    {
+      "title": "8. Contact",
+      "content": [
+        { "type": "paragraph", "text": "For any questions relating to this legal notice or any enquiry about the site, you may contact the publisher:" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "label": "By email", "value": "{email}" },
+            { "label": "By phone", "value": "{phone}" },
+            { "label": "By post", "value": "{address}" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "9. Applicable Law",
+      "content": [
+        { "type": "paragraph", "text": "This legal notice is governed by French law. In the event of a dispute, and after an attempt to seek an amicable resolution, the French courts shall have sole jurisdiction." }
+      ]
+    }
+  ],
+  "privacyLink": "See also our {link}.",
+  "privacyLinkText": "Privacy Policy",
+  "seo": {
+    "title": "Legal Notice",
+    "description": "Legal notice for the portfolio website of Marjolène Lasne, painter."
+  }
+}

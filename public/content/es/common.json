@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "artist": "La Artista",
+    "paintings": "Pinturas",
+    "scarves": "Pañuelos",
+    "activities": "Otras actividades",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "presentation": {
+      "name": "Marjolène Lasne",
+      "bio": "Pintora afincada en Provenza, inspirada por los paisajes coloridos, las escenas cotidianas y la luz del sur de Francia."
+    },
+    "navigation": "Navegación",
+    "contact": "Contacto",
+    "studioLocation": "Taller en Roussillon, Provenza\nFrancia",
+    "followArtist": "Sigue a la artista",
+    "copyright": "Todos los derechos reservados.",
+    "legalLink": "Aviso legal",
+    "privacyLink": "Política de privacidad"
+  },
+  "cookie": {
+    "ariaLabel": "Gestión de cookies",
+    "message": "Este sitio utiliza cookies de análisis (Google Analytics) para medir la audiencia.",
+    "learnMore": "Más información",
+    "accept": "Aceptar",
+    "decline": "Rechazar"
+  },
+  "actions": {
+    "contactArtist": "Contactar con la artista",
+    "contactArtistAboutWork": "Contactar con la artista sobre esta obra",
+    "sendMessage": "Enviar mensaje",
+    "sending": "Enviando...",
+    "close": "Cerrar",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "previousImage": "Imagen anterior",
+    "nextImage": "Imagen siguiente",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "selectColor": "Seleccionar {label}",
+    "loading": "Cargando...",
+    "back": "Volver"
+  },
+  "aria": {
+    "home": "Inicio",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "linkedin": "LinkedIn",
+    "languageSwitcher": "Cambiar idioma",
+    "language": "Idioma",
+    "paintingNavigation": "Navegar entre las pinturas",
+    "scarfImageAlt": "Imagen del pañuelo"
+  },
+  "seo": {
+    "global": {
+      "title": "Marjolène Lasne – Pintora",
+      "description": "Portfolio de Marjolène Lasne, pintora especializada en retratos y paisajes.",
+      "keywords": "Marjolène Lasne, pintora, pinturas, retratos, paisajes, arte contemporáneo, galería de arte"
+    },
+    "structuredData": {
+      "websiteName": "Marjolene Lasne",
+      "websiteDescription": "Portfolio oficial de Marjolene Lasne, pintora en Provenza.",
+      "personName": "Marjolene Lasne",
+      "jobTitle": "Pintora",
+      "siteName": "Marjolene Lasne",
+      "locale": "es_ES"
+    }
+  }
+}

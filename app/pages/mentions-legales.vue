@@ -3,6 +3,11 @@
     <div class="mentions-legales">
       <div class="container mx-auto px-4 py-12 max-w-4xl">
         <h1 class="text-3xl font-bold mb-8">{{ legal.title }}</h1>
+
+        <!-- Disclaimer for translated versions -->
+        <div v-if="legal.disclaimer" class="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-8 text-sm text-amber-800">
+          <p class="italic">{{ legal.disclaimer }}</p>
+        </div>
         
         <p class="text-sm text-gray-600 mb-8">{{ legal.intro }}</p>
 
@@ -51,7 +56,7 @@
         <!-- Privacy link -->
         <section class="mt-12 pt-8 border-t border-stroke">
           <p class="text-sm">
-            {{ legal.privacyLink?.split('{link}')[0] }}<NuxtLink to="/politique-confidentialite" class="text-primary hover:text-accent underline underline-offset-2">{{ legal.privacyLinkText }}</NuxtLink>{{ legal.privacyLink?.split('{link}')[1] }}
+            {{ legal.privacyLink?.split('{link}')[0] }}<NuxtLink :to="localePath('/politique-confidentialite')" class="text-primary hover:text-accent underline underline-offset-2">{{ legal.privacyLinkText }}</NuxtLink>{{ legal.privacyLink?.split('{link}')[1] }}
           </p>
         </section>
 
@@ -62,6 +67,7 @@
 </template>
 
 <script setup lang="ts">
+const localePath = useLocalePath()
 const config = useRuntimeConfig()
 const { data: legal } = await useContent<Record<string, any>>('legal.json')
 

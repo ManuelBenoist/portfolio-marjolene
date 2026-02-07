@@ -1,0 +1,258 @@
+{
+  "collections": {
+    "Scènes d'Intérieur": [
+      {
+        "slug": "diva-venitienne",
+        "title": "Diva Vénitienne",
+        "description": "Ein Orchester mit einer rot drapierten Diva hebt sich vor der Architektur eines barocken Theaters ab, durch das sich die Silhouette der Salute in Venedig abzeichnet.",
+        "dimensions": "80×80 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/scenes-d-interieur/diva_venitienne.webp"
+      },
+      {
+        "slug": "duo-au-piano",
+        "title": "Duo au piano",
+        "description": "Die Silhouetten zweier Musiker kontrastieren mit den Formen aufgeklebter Papiere, die subtil mit Gold hervorgehoben sind.",
+        "dimensions": "20×20 cm",
+        "technique": "Mischtechnik",
+        "image": "/img/peintures/scenes-d-interieur/duo_au_piano.webp"
+      },
+      {
+        "slug": "confidences-des-deux-amies",
+        "title": "Confidences des deux amies",
+        "description": "Wiedersehen zweier Freundinnen, die in der warmen Atmosphäre eines Pariser Cafés ausgiebig plaudern.",
+        "dimensions": "46×38 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/scenes-d-interieur/confidences_des_deux_amies.webp"
+      },
+      {
+        "slug": "conversation-a-saint-germain-des-pres",
+        "title": "Conversation à Saint-Germain-des-Prés",
+        "description": "Dieses Café an der Ecke der Rue de Buci in Paris erzeugt Reflexionen und Perspektiven in ständiger Bewegung.",
+        "dimensions": "55×46 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/scenes-d-interieur/conversation_a_saint_germain_des_pres.webp"
+      },
+      {
+        "slug": "autour-d-un-verre-a-venise",
+        "title": "Autour d'un verre à Venise (diptyque)",
+        "description": "Eine Diptychon-Komposition, die sowohl das Innere eines barocken Cafés als auch eine Perspektive auf die Salute, die Themse und venezianische Barken evoziert.",
+        "dimensions": "55×46 cm ×2",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/scenes-d-interieur/autour_d'un_verre_a_venise_diptyque.webp"
+      },
+      {
+        "slug": "le-temps-suspendu",
+        "title": "Le Temps Suspendu",
+        "description": "Dieses Gemälde zeigt das Restaurant «La Cigale» in Nantes mit seinen mit Zikaden verzierten Keramiken, kunstvollen Dekoren und Spiegeln, die kunstvolle Reflexionen erzeugen.",
+        "dimensions": "92×73 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/scenes-d-interieur/le_temps_suspendu.webp"
+      }
+    ],
+    "Terrasses et Marchés": [
+      {
+        "slug": "pause-apéritive",
+        "title": "Pause Apéritive (diptyque)",
+        "description": "In dieser Diptychon-Komposition sind die Hauptharmonien Blau und Orange, Komplementärfarben, akzentuiert durch Weiß und subtile warmgrüne Nuancen.",
+        "dimensions": "30×60 cm ×2",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/terrasses-et-marches/pause_aperitive_diptyque.webp"
+      },
+      {
+        "slug": "terrasse-ombragee",
+        "title": "Terrasse Ombragée",
+        "description": "Ein provenzalisches Restaurant mit einem Brunnen. Das nuancierte Blau der Fassade kontrastiert mit der sonnendurchfluteten Fassade in orangefarbenen Nuancen, die dem Bild Wärme, Vitalität und Energie verleihen.",
+        "dimensions": "81×65 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/terrasses-et-marches/terrasse_ombragee.webp"
+      },
+      {
+        "slug": "detente-a-gordes",
+        "title": "Détente à Gordes",
+        "description": "Majestätische Bäume dominieren den Platz dieses Restaurants in Gordes und erzeugen bewegte Spiele von Licht und Schatten.",
+        "dimensions": "",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/terrasses-et-marches/detente_a_gordes.webp"
+      },
+      {
+        "slug": "la-marchande-de-legumes",
+        "title": "La Marchande de Légumes",
+        "description": "Bunte Sonnenschirme scheinen zu tanzen und rhythmisieren die Komposition. Gemüse in vielfältigen Farben nimmt den Vordergrund des Gemäldes ein und bildet eine Diagonale. Figuren beleben die Szene.",
+        "dimensions": "",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/terrasses-et-marches/la_marchande_de_legumes.webp"
+      },
+      {
+        "slug": "en-terrasse-parmi-les-fleurs",
+        "title": "En Terrasse Parmi Les fleurs",
+        "description": "Eine lebhafte Alltagsszene. Caféterrasse, Kellner, Blumen und blauer Himmel. Alles in den schillernden Farben der Provence.",
+        "dimensions": "",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/terrasses-et-marches/en_terrasse_parmi_les_fleurs.webp"
+      },
+      {
+        "slug": "a-la-terrasse-du-fournil",
+        "title": "À la Terrasse du Fournil",
+        "description": "Eine Caféterrassenszene, die sanft vom Schatten ins Licht übergeht.",
+        "dimensions": "73×50 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/terrasses-et-marches/a_la_terrasse_du_fournil.webp"
+      },
+      {
+        "slug": "pause-aperitive-au-soleil-provencal",
+        "title": "Pause Apéritive au Soleil Provençal",
+        "description": "Bunte Früchte auf einem Marktstand entlang einer Caféterrasse, getaucht in kontrastierende Blautöne.",
+        "dimensions": "50×50 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/terrasses-et-marches/pause_aperitive_au_soleil_provencal.webp"
+      },
+      {
+        "slug": "promenade-d-ete-en-famille-a-roussillon",
+        "title": "Promenade d'été en famille à Roussillon",
+        "description": "Kinder spielen mit dem Wasser eines Brunnens unter den Augen der Eltern, die den Moment auf der Terrasse genießen.",
+        "dimensions": "65×54 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/terrasses-et-marches/promenade_d_ete_en_famille_a_roussillon.webp"
+      },
+      {
+        "slug": "les-heures-douces-a-la-fontaine",
+        "title": "Les Heures Douces à la Fontaine",
+        "description": "Ruhe auf der Terrasse mit Blick auf bunte Felder und dem Murmeln des Brunnens.",
+        "dimensions": "",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/terrasses-et-marches/les_heures_douces_a_la_fontaine.webp"
+      },
+      {
+        "slug": "detente-au-jardin",
+        "title": "Détente au Jardin",
+        "description": "Sommerliches Familienessen im Garten unter den schützenden Ästen einer Linde.",
+        "dimensions": "",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/terrasses-et-marches/detente_au_jardin.webp"
+      },
+      {
+        "slug": "le-marche-de-roussillon",
+        "title": "Le Marché de Roussillon",
+        "description": "Ein Markt in warmen Farben mit leuchtenden Grüntönen als Kontrast.",
+        "dimensions": "30×30 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/terrasses-et-marches/le_marche_de_roussillon.webp"
+      }
+    ],
+    "Paysages": [
+      {
+        "slug": "roussillon-aux-fleurs-sauvages",
+        "title": "Roussillon aux fleurs sauvages",
+        "description": "Farbspritzer fliegen im Wind und kontrastieren mit dem statischen Anblick der ockerfarbenen Häuser von Roussillon.",
+        "dimensions": "50×50 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/paysages/roussillon_aux_fleurs_sauvages.webp"
+      },
+      {
+        "slug": "camargue-secrete",
+        "title": "Camargue Secrète",
+        "description": "Dieses dynamisch mit Pinsel und Spachtel gearbeitete Gemälde ist eine subtile Verbindung von kalten und warmen Tönen. Die überschwemmten Weiten der Camargue in Blaunuancen kontrastieren mit einem gelben Vordergrund, der mit Rosa-Akzenten aufgewertet wird.",
+        "dimensions": "50×50 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/paysages/camargue_secrete.webp"
+      },
+      {
+        "slug": "reflets-emeraude",
+        "title": "Reflets Émeraude",
+        "description": "Ein subtiler Kontrast zwischen den türkisfarbenen Gewässern des Kanals und den ocker-gelben und orangefarbenen Fassaden der Häuser.",
+        "dimensions": "40×80 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/paysages/reflets_emeraude.webp"
+      },
+      {
+        "slug": "symphonie-automnale",
+        "title": "Symphonie Automnale",
+        "description": "Überwiegend in warmen Pflaumen-, Orange- und Gelbtönen gehalten, wird dieses Gemälde durch leichte Violett- und Anisgrüntupfer belebt, die der Komposition Dynamik verleihen.",
+        "dimensions": "20×20 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/paysages/symphonie_automnale.webp"
+      },
+      {
+        "slug": "paysage-pourpre-et-vermillon",
+        "title": "Paysage Pourpre et Vermillon",
+        "description": "Ein Vordergrund mit Weinreben in bunten Pinselstrichen kontrastiert mit flächigen Partien in Rosa, Zinnober und Gelb.",
+        "dimensions": "20×20 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/paysages/paysage_pourpre_et_vermillon.webp"
+      },
+      {
+        "slug": "roussillon_au_soleil_joyeux",
+        "title": "Roussillon au Soleil Joyeux",
+        "description": "In diesem Gemälde in warmen Gelb-, Orange- und Rottönen rhythmisieren die Spachteltexturen die Komposition mit ihrer Dynamik.",
+        "dimensions": "",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/paysages/roussillon_au_soleil_joyeux.webp"
+      },
+      {
+        "slug": "printemps-à-bonnieux",
+        "title": "Printemps à Bonnieux",
+        "description": "Dieses Gemälde evoziert den Frühling in Bonnieux, einem Dorf im Luberon. Seine blühenden Kirschbäume kontrastieren mit dem mit Spachtel in Gelb-, Orange- und Rottönen gearbeiteten Vordergrund.",
+        "dimensions": "60×60 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/paysages/printemps_a_bonnieux.webp"
+      },
+      {
+        "slug": "de-pourpre-et-d-azur",
+        "title": "De Pourpre et d'Azur",
+        "description": "Das Dorf Roussillon und sein Kirchturm bilden das Thema dieses Gemäldes. Die Häuser sind in Abstufungen von Gelb, Orange und Rosarot gehalten. Grüne Akzente symbolisieren die Bäume.",
+        "dimensions": "30×30 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/paysages/de_pourpre_et_d_azur.webp"
+      },
+      {
+        "slug": "les-vignes-de-bonnieux",
+        "title": "Les Vignes de Bonnieux",
+        "description": "In diesem Gemälde skandiert eine Diagonale die Komposition und trennt eine gelbe Fläche von den Weinreben mit bunten Pinselstrichen.",
+        "dimensions": "80×80 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/paysages/les_vignes_de_bonnieux.webp"
+      },
+      {
+        "slug": "gordes-aux-iris",
+        "title": "Gordes aux Iris",
+        "description": "Iris mit ihrem aufrecht stehenden Laub nehmen dynamisch einen Großteil des Vordergrunds ein. Das Dorf, seine weißen Steine und die goldenen Felder erscheinen als kontrastierender Hintergrund.",
+        "dimensions": "50×50 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/paysages/gordes_aux_iris.webp"
+      },
+      {
+        "slug": "dune-dans-le-vent",
+        "title": "Dune dans le Vent",
+        "description": "Mit Spachtel und Pigmenten für Textur- und Materialeffekte gearbeitet, bietet dieses Gemälde Abstufungen von Gelborange und Blaugrün, die einen Eindruck von Weite und Unendlichkeit vermitteln.",
+        "dimensions": "73×60 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/paysages/dune_dans_le_vent.webp"
+      },
+      {
+        "slug": "parfums-secrets-de-provence",
+        "title": "Parfums Secrets de Provence",
+        "description": "In diesem Gemälde kontrastiert die Leichtigkeit der in bunten Tupfern gemalten Weinreben mit den farbigen Feldflächen und den drei Bäumen in Rosa-Abstufungen. Zwei weiß gekleidete Figuren beleben die Szene im Herzen der Weinberge.",
+        "dimensions": "73×60 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/paysages/parfums_secrets_de_provence.webp"
+      },
+      {
+        "slug": "champs-d-herbes-sauvages",
+        "title": "Champs d'Herbes Sauvages",
+        "description": "Dieses leuchtende Gemälde mit vorherrschend warmen Tönen besticht durch seine strahlenden Rot- und Gelbfarben, während Farbtupfer die Vertikalität der wilden Gräser im Vordergrund betonen.",
+        "dimensions": "65×54 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/paysages/champs_d_herbes_sauvages.webp"
+      },
+      {
+        "slug": "paysage-pourpre-et-vermillon-au-soleil-couchant",
+        "title": "Paysage Pourpre et Vermillon au Soleil Couchant",
+        "description": "In diesem Gemälde mit überwiegend warmen Tönen bringt eine durch Rosa-Akzente betonte Diagonale Dynamik in die Komposition.",
+        "dimensions": "20×20 cm",
+        "technique": "Öl auf Leinwand",
+        "image": "/img/peintures/paysages/paysage_pourpre_et_vermillon_au_soleil_couchant.webp"
+      }
+    ]
+  }
+}

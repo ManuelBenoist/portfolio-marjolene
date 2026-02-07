@@ -1,10 +1,10 @@
 <template>
-  <div v-if="pageContent" class="w-full">
+  <div class="w-full">
     <!-- Section Title & Biography (contained) -->
     <div class="max-w-[72rem] mx-auto px-6 pt-12">
       <SectionTitle
-        :title="pageContent.title"
-        :subtitle="pageContent.subtitle"
+        :title="$t('artist.title')"
+        :subtitle="$t('artist.subtitle')"
       />
 
       <!-- Divider -->
@@ -25,17 +25,16 @@
 
       <!-- Quote 1 -->
       <QuoteBlock
-        v-if="pageContent.quotes?.[0]"
-        :quote="pageContent.quotes[0].quote"
-        :author="pageContent.quotes[0].author"
-        :role="pageContent.quotes[0].role"
+        :quote="$t('artist.quotes.0.quote')"
+        :author="$t('artist.quotes.0.author')"
+        :role="$t('artist.quotes.0.role')"
       />
     </div>
 
     <!-- Timeline Section (full-width background) -->
     <div class="w-full bg-[#C94E54]/[0.04] py-16 mb-16">
       <div class="max-w-[72rem] mx-auto pl-14">
-        <h2 class="text-[2.5rem] font-['Averia_Serif_Libre'] font-light text-[#C94E54] mb-8">{{ pageContent.timelineTitle }}</h2>
+        <h2 class="text-[2.5rem] font-['Averia_Serif_Libre'] font-light text-[#C94E54] mb-8">{{ $t('artist.timelineTitle') }}</h2>
         <Timeline />
       </div>
     </div>
@@ -44,11 +43,10 @@
     <div class="max-w-[72rem] mx-auto px-6 pb-12">
       <!-- Quote 2 -->
       <QuoteBlock
-        v-if="pageContent.quotes?.[1]"
-        :quote="pageContent.quotes[1].quote"
-        :author="pageContent.quotes[1].author"
-        :role="pageContent.quotes[1].role"
-        :source="pageContent.quotes[1].source"
+        :quote="$t('artist.quotes.1.quote')"
+        :author="$t('artist.quotes.1.author')"
+        :role="$t('artist.quotes.1.role')"
+        :source="$t('artist.quotes.1.source')"
       />
 
       <!-- Studio Section -->
@@ -98,13 +96,14 @@ interface ArtisteContent {
   studio: StudioSection
 }
 
+const { t } = useI18n()
+const localePath = useLocalePath()
+
 const { data: artisteContent } = await useContent<ArtisteContent>('artiste.json')
-const { data: pages } = await useContent('pages.json')
-const pageContent = computed(() => pages.value?.artist)
 
 const { siteUrl, withSiteUrl } = useSiteUrl()
-const metaTitle = computed(() => pageContent.value?.seo?.title || '')
-const metaDescription = computed(() => pageContent.value?.seo?.description || '')
+const metaTitle = computed(() => t('artist.seo.title') || '')
+const metaDescription = computed(() => t('artist.seo.description') || '')
 const metaImage = computed(() => {
   const image = artisteContent.value?.biography?.image || '/logo.png'
   return withSiteUrl(image)
@@ -132,14 +131,14 @@ const breadcrumbSchema = computed(() => {
       {
         '@type': 'ListItem',
         position: 1,
-        name: pageContent.value?.breadcrumb?.home || 'Accueil',
+        name: t('artist.breadcrumb.home') || 'Accueil',
         item: siteUrl,
       },
       {
         '@type': 'ListItem',
         position: 2,
-        name: pageContent.value?.breadcrumb?.current || "L'Artiste",
-        item: withSiteUrl('/artiste'),
+        name: t('artist.breadcrumb.current') || "L'Artiste",
+        item: withSiteUrl(localePath('/artiste')),
       },
     ],
   }

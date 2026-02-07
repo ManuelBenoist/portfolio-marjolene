@@ -1,10 +1,10 @@
 <template>
-  <div v-if="pageContent" class="max-w-[72rem] mx-auto px-6 py-12">
+  <div class="max-w-[72rem] mx-auto px-6 py-12">
     <div>
       <!-- Section Title -->
       <SectionTitle 
-            :title="pageContent.title" 
-            :subtitle="pageContent.subtitle"
+            :title="$t('contact.title')" 
+            :subtitle="$t('contact.subtitle')"
           />
           
           <!-- Separator Line -->
@@ -18,7 +18,7 @@
               
               <!-- Section Infos -->
               <div>
-                <h2 class="font-heading text-2xl text-[#2E3D8B] mb-8">{{ pageContent.infoTitle }}</h2>
+                <h2 class="font-heading text-2xl text-[#2E3D8B] mb-8">{{ $t('contact.infoTitle') }}</h2>
                 
                 <div class="space-y-6">
                   
@@ -28,7 +28,7 @@
                       <Icon icon="lucide:mail" class="w-5 h-5" />
                     </div>
                     <div>
-                      <div class="font-bold text-[#2E3D8B] mb-1">{{ pageContent.labels.email }}</div>
+                      <div class="font-bold text-[#2E3D8B] mb-1">{{ $t('contact.labels.email') }}</div>
                       <div class="text-[#4A5565]">{{ config.public.contact.email }}</div>
                     </div>
                   </div>
@@ -39,7 +39,7 @@
                       <Icon icon="lucide:phone" class="w-5 h-5" />
                     </div>
                     <div>
-                      <div class="font-bold text-[#2E3D8B] mb-1">{{ pageContent.labels.phone }}</div>
+                      <div class="font-bold text-[#2E3D8B] mb-1">{{ $t('contact.labels.phone') }}</div>
                       <div class="text-[#4A5565]">{{ config.public.contact.phone }}</div>
                     </div>
                   </div>
@@ -50,13 +50,13 @@
                       <Icon icon="lucide:map-pin" class="w-5 h-5" />
                     </div>
                     <div>
-                      <div class="font-bold text-[#2E3D8B] mb-1">{{ pageContent.labels.studioAddress }}</div>
+                      <div class="font-bold text-[#2E3D8B] mb-1">{{ $t('contact.labels.studioAddress') }}</div>
                       <div class="text-[#4A5565] leading-relaxed">
                         {{ config.public.contact.address.street }}<br>
                         {{ config.public.contact.address.zip }} {{ config.public.contact.address.city }}<br>
                         {{ config.public.contact.address.country }}
                       </div>
-                      <div class="text-sm text-[#4A5565] italic mt-2 opacity-80">{{ pageContent.labels.visitByAppointment }}</div>
+                      <div class="text-sm text-[#4A5565] italic mt-2 opacity-80">{{ $t('contact.labels.visitByAppointment') }}</div>
                     </div>
                   </div>
 
@@ -66,7 +66,7 @@
               <!-- Carte Google Maps -->
               <div class="w-full h-[250px] rounded-xl overflow-hidden border border-[#D1D5DC] shadow-sm relative">
                 <iframe 
-                  :title="pageContent.mapTitle"
+                  :title="$t('contact.mapTitle')"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11394.340061962323!2d5.2758193!3d43.8997925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ca010508f7f2b3%3A0x40819a5fd970330!2s84220%20Roussillon!5e0!3m2!1sfr!2sfr" 
                   width="100%" 
                   height="100%" 
@@ -96,7 +96,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div class="space-y-2">
                     <label for="lastName" class="block text-sm font-medium text-[#4A5565]">
-                      {{ pageContent.form.lastName }} <span class="text-[#C94E54]">{{ pageContent.form.required }}</span>
+                      {{ $t('contact.form.lastName') }} <span class="text-[#C94E54]">{{ $t('contact.form.required') }}</span>
                     </label>
                     <input 
                       type="text" 
@@ -110,7 +110,7 @@
                   </div>
                   <div class="space-y-2">
                     <label for="firstName" class="block text-sm font-medium text-[#4A5565]">
-                      {{ pageContent.form.firstName }} <span class="text-[#C94E54]">{{ pageContent.form.required }}</span>
+                      {{ $t('contact.form.firstName') }} <span class="text-[#C94E54]">{{ $t('contact.form.required') }}</span>
                     </label>
                     <input 
                       type="text" 
@@ -127,7 +127,7 @@
                 <!-- Ligne 2 : Email -->
                 <div class="space-y-2">
                   <label for="email" class="block text-sm font-medium text-[#4A5565]">
-                    {{ pageContent.form.email }} <span class="text-[#C94E54]">{{ pageContent.form.required }}</span>
+                    {{ $t('contact.form.email') }} <span class="text-[#C94E54]">{{ $t('contact.form.required') }}</span>
                   </label>
                   <input 
                     type="email" 
@@ -143,7 +143,7 @@
                 <!-- Ligne 3 : Sujet -->
                 <div class="space-y-2">
                   <label for="subject" class="block text-sm font-medium text-[#4A5565]">
-                    {{ pageContent.form.subject }} <span class="text-[#C94E54]">{{ pageContent.form.required }}</span>
+                    {{ $t('contact.form.subject') }} <span class="text-[#C94E54]">{{ $t('contact.form.required') }}</span>
                   </label>
                   <div class="relative">
                     <select 
@@ -153,11 +153,11 @@
                       required 
                       class="w-full px-4 py-3 bg-[#FBFAF6] border border-[#D1D5DC] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2E3D8B] focus:border-transparent text-[#4A5565] transition-all appearance-none cursor-pointer"
                     >
-                      <option value="" disabled>{{ pageContent.form.subjectPlaceholder }}</option>
-                      <option :value="pageContent.form.subjectOptions.general">{{ pageContent.form.subjectOptions.general }}</option>
-                      <option :value="pageContent.form.subjectOptions.order">{{ pageContent.form.subjectOptions.order }}</option>
-                      <option :value="pageContent.form.subjectOptions.workInfo">{{ pageContent.form.subjectOptions.workInfo }}</option>
-                      <option :value="pageContent.form.subjectOptions.other">{{ pageContent.form.subjectOptions.other }}</option>
+                      <option value="" disabled>{{ $t('contact.form.subjectPlaceholder') }}</option>
+                      <option :value="$t('contact.form.subjectOptions.general')">{{ $t('contact.form.subjectOptions.general') }}</option>
+                      <option :value="$t('contact.form.subjectOptions.order')">{{ $t('contact.form.subjectOptions.order') }}</option>
+                      <option :value="$t('contact.form.subjectOptions.workInfo')">{{ $t('contact.form.subjectOptions.workInfo') }}</option>
+                      <option :value="$t('contact.form.subjectOptions.other')">{{ $t('contact.form.subjectOptions.other') }}</option>
                     </select>
                     <!-- Chevron personnalisé -->
                     <Icon icon="lucide:chevron-down" class="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none w-5 h-5" />
@@ -167,7 +167,7 @@
                 <!-- Ligne 4 : Message -->
                 <div class="space-y-2">
                   <label for="message" class="block text-sm font-medium text-[#4A5565]">
-                    {{ pageContent.form.message }} <span class="text-[#C94E54]">{{ pageContent.form.required }}</span>
+                    {{ $t('contact.form.message') }} <span class="text-[#C94E54]">{{ $t('contact.form.required') }}</span>
                   </label>
                   <textarea 
                     id="message" 
@@ -182,8 +182,8 @@
                 <!-- Bouton d'envoi -->
                 <ContactButton
                   :to="'#'"
-                  :label="pageContent.form.send"
-                  :aria-label="pageContent.form.sendAriaLabel"
+                  :label="$t('contact.form.send')"
+                  :aria-label="$t('contact.form.sendAriaLabel')"
                   class="w-full mt-4"
                   :class="{ 'opacity-70 cursor-not-allowed pointer-events-none': loading }"
                   @click.prevent="!loading && handleSubmit()"
@@ -191,10 +191,10 @@
                   <template #default>
                     <span v-if="loading" class="flex items-center gap-2">
                       <Icon icon="lucide:loader-2" class="w-5 h-5 animate-spin" />
-                      {{ pageContent.form.sending }}
+                      {{ $t('contact.form.sending') }}
                     </span>
                     <span v-else>
-                      {{ pageContent.form.send }}
+                      {{ $t('contact.form.send') }}
                     </span>
                   </template>
                 </ContactButton>
@@ -206,7 +206,7 @@
                   aria-live="polite"
                 >
                   <Icon icon="lucide:check-circle" class="w-5 h-5 shrink-0" />
-                  <span>{{ pageContent.success }}</span>
+                  <span>{{ $t('contact.success') }}</span>
                 </div>
                 
                 <!-- Message d'erreur -->
@@ -217,7 +217,7 @@
                 >
                   <div class="flex items-center gap-2">
                     <Icon icon="lucide:alert-circle" class="w-5 h-5 shrink-0" />
-                    <span class="font-medium">{{ pageContent.errors.title }}</span>
+                    <span class="font-medium">{{ $t('contact.errors.title') }}</span>
                   </div>
                   <ul class="text-sm list-none space-y-1">
                     <li v-for="(err, index) in errors" :key="index">{{ err }}</li>
@@ -236,17 +236,15 @@
 import { ref, onMounted } from 'vue'
 import { Icon } from '@iconify/vue'
 import { useSiteUrl } from '~/composables/useSiteUrl'
-import { useContent } from '~/composables/useContent'
 
 const config = useRuntimeConfig()
 const route = useRoute()
-
-const { data: pages } = await useContent('pages.json')
-const pageContent = computed(() => pages.value?.contact)
+const { t } = useI18n()
+const localePath = useLocalePath()
 
 const { siteUrl, withSiteUrl } = useSiteUrl()
-const metaTitle = computed(() => pageContent.value?.seo?.title || '')
-const metaDescription = computed(() => pageContent.value?.seo?.description || '')
+const metaTitle = computed(() => t('contact.seo.title') || '')
+const metaDescription = computed(() => t('contact.seo.description') || '')
 const metaImage = withSiteUrl('/logo.png')
 
 useSeoMeta({
@@ -271,14 +269,14 @@ const breadcrumbSchema = computed(() => {
       {
         '@type': 'ListItem',
         position: 1,
-        name: pageContent.value?.breadcrumb?.home || 'Accueil',
+        name: t('contact.breadcrumb.home') || 'Accueil',
         item: siteUrl,
       },
       {
         '@type': 'ListItem',
         position: 2,
-        name: pageContent.value?.breadcrumb?.current || 'Contact',
-        item: withSiteUrl('/contact'),
+        name: t('contact.breadcrumb.current') || 'Contact',
+        item: withSiteUrl(localePath('/contact')),
       },
     ],
   }
@@ -291,7 +289,7 @@ const contactPageSchema = computed(() => {
     '@context': 'https://schema.org',
     '@type': 'ContactPage',
     name: metaTitle.value,
-    url: withSiteUrl('/contact'),
+    url: withSiteUrl(localePath('/contact')),
     description: metaDescription.value,
   }
 })
@@ -330,28 +328,28 @@ onMounted(() => {
 
   if (oeuvre) {
     // Préremplissage depuis une page peinture
-    form.value.subject = pageContent.value?.form?.subjectOptions?.workInfo || 'Informations sur une œuvre'
+    form.value.subject = t('contact.form.subjectOptions.workInfo') || 'Informations sur une œuvre'
     const techStr = technique ? ` (${technique})` : ''
-    form.value.message = `${pageContent.value?.prefill?.greeting || 'Bonjour,'}\n\nJe souhaite obtenir des informations sur l'œuvre « ${oeuvre} »${techStr}.\n\n${pageContent.value?.prefill?.closing || 'Cordialement,'}`
+    form.value.message = `${t('contact.prefill.greeting') || 'Bonjour,'}\n\nJe souhaite obtenir des informations sur l'œuvre « ${oeuvre} »${techStr}.\n\n${t('contact.prefill.closing') || 'Cordialement,'}`
   } else if (sujet === 'foulard' && produit) {
     // Préremplissage depuis une page foulard
-    form.value.subject = pageContent.value?.form?.subjectOptions?.workInfo || 'Informations sur une œuvre'
+    form.value.subject = t('contact.form.subjectOptions.workInfo') || 'Informations sur une œuvre'
     const details = [
       couleur ? `couleur ${couleur}` : null,
       taille ? `taille ${taille}` : null,
       matiere ? `matière ${matiere}` : null
     ].filter(Boolean).join(', ')
-    form.value.message = `${pageContent.value?.prefill?.greeting || 'Bonjour,'}\n\nJe souhaite obtenir des informations sur le foulard « ${produit} »${details ? ` (${details})` : ''}.\n\n${pageContent.value?.prefill?.closing || 'Cordialement,'}`
+    form.value.message = `${t('contact.prefill.greeting') || 'Bonjour,'}\n\nJe souhaite obtenir des informations sur le foulard « ${produit} »${details ? ` (${details})` : ''}.\n\n${t('contact.prefill.closing') || 'Cordialement,'}`
   } else if (sujet === 'activite' && activite) {
     // Préremplissage depuis la page autres activités
-    form.value.subject = pageContent.value?.form?.subjectOptions?.general || 'Question générale'
-    form.value.message = `${pageContent.value?.prefill?.greeting || 'Bonjour,'}\n\nJe souhaite obtenir des informations sur l'activité « ${activite} ».\n\n${pageContent.value?.prefill?.closing || 'Cordialement,'}`
+    form.value.subject = t('contact.form.subjectOptions.general') || 'Question générale'
+    form.value.message = `${t('contact.prefill.greeting') || 'Bonjour,'}\n\nJe souhaite obtenir des informations sur l'activité « ${activite} ».\n\n${t('contact.prefill.closing') || 'Cordialement,'}`
   } else if (sujet === 'artiste') {
     // Préremplissage depuis la page artiste
-    form.value.subject = pageContent.value?.form?.subjectOptions?.general || 'Question générale'
+    form.value.subject = t('contact.form.subjectOptions.general') || 'Question générale'
     form.value.message = message && typeof message === 'string' && message.trim().length > 0
       ? message
-      : `${pageContent.value?.prefill?.greeting || 'Bonjour,'}\n\nJe souhaite contacter l'artiste Marjolène Lasne.\n\n${pageContent.value?.prefill?.closing || 'Cordialement,'}`
+      : `${t('contact.prefill.greeting') || 'Bonjour,'}\n\nJe souhaite contacter l'artiste Marjolène Lasne.\n\n${t('contact.prefill.closing') || 'Cordialement,'}`
   }
 })
 
@@ -371,7 +369,7 @@ const handleSubmit = async () => {
   // Validation côté client
   if (!form.value.lastName.trim() || !form.value.firstName.trim() || !form.value.email.trim() || !form.value.subject.trim() || !form.value.message.trim()) {
     errors.value = [
-      pageContent.value?.errors?.requiredFields || 'Veuillez remplir tous les champs du formulaire avant d\'envoyer votre message.'
+      t('contact.errors.requiredFields') || 'Veuillez remplir tous les champs du formulaire avant d\'envoyer votre message.'
     ];
     return;
   }
@@ -420,15 +418,15 @@ const handleSubmit = async () => {
       }, 5000);
     } else if (data?.errors && Array.isArray(data.errors)) {
       errors.value = data.errors
-        .map((err: { message?: string }) => err?.message || (pageContent.value?.errors?.unknown || 'Erreur inconnue dans le formulaire.'))
+        .map((err: { message?: string }) => err?.message || (t('contact.errors.unknown') || 'Erreur inconnue dans le formulaire.'))
         .filter(Boolean);
     } else if (data?.error) {
       errors.value = [data.error];
     } else {
-      errors.value = [pageContent.value?.errors?.generic || 'Une erreur est survenue, veuillez réessayer.'];
+      errors.value = [t('contact.errors.generic') || 'Une erreur est survenue, veuillez réessayer.'];
     }
   } catch (e) {
-    errors.value = [pageContent.value?.errors?.network || 'Une erreur de connexion est survenue. Veuillez vérifier votre réseau.'];
+    errors.value = [t('contact.errors.network') || 'Une erreur de connexion est survenue. Veuillez vérifier votre réseau.'];
   } finally {
     loading.value = false;
   }

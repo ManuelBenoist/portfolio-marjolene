@@ -23,35 +23,35 @@ import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 
 const route = useRoute()
+const { t, locale } = useI18n()
 const { siteUrl, withSiteUrl } = useSiteUrl()
-const { data: common } = await useContent('common.json')
 
 const canonicalUrl = computed(() => (siteUrl ? withSiteUrl(route.fullPath) : ''))
 
-const sd = computed(() => common.value?.seo?.structuredData)
-
 const structuredData = computed(() => {
   if (!siteUrl) return null
+
+  const sdLocale = t('seo.structuredData.locale') || 'fr_FR'
 
   return {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'WebSite',
-        name: sd.value?.websiteName || 'Marjolene Lasne',
+        name: t('seo.structuredData.websiteName') || 'Marjolene Lasne',
         url: siteUrl,
-        inLanguage: sd.value?.locale || 'fr-FR',
-        description: sd.value?.websiteDescription || '',
+        inLanguage: sdLocale,
+        description: t('seo.structuredData.websiteDescription') || '',
         publisher: {
           '@type': 'Person',
-          name: sd.value?.personName || 'Marjolene Lasne',
+          name: t('seo.structuredData.personName') || 'Marjolene Lasne',
           url: siteUrl,
         },
       },
       {
         '@type': 'Person',
-        name: sd.value?.personName || 'Marjolene Lasne',
-        jobTitle: sd.value?.jobTitle || 'Artiste peintre',
+        name: t('seo.structuredData.personName') || 'Marjolene Lasne',
+        jobTitle: t('seo.structuredData.jobTitle') || 'Artiste peintre',
         url: siteUrl,
         image: withSiteUrl('/logo.png'),
         address: {
@@ -73,14 +73,18 @@ const structuredData = computed(() => {
 
 useHead(() => {
   const canonical = canonicalUrl.value
+  const sdLocale = t('seo.structuredData.locale') || 'fr_FR'
 
   return {
-    link: canonical ? [{ rel: 'canonical', href: canonical }] : [],
+    title: t('seo.global.title'),
     meta: [
+      { name: 'description', content: t('seo.global.description') },
+      { name: 'keywords', content: t('seo.global.keywords') },
       { property: 'og:url', content: canonical || undefined },
-      { property: 'og:site_name', content: sd.value?.siteName || 'Marjolene Lasne' },
-      { property: 'og:locale', content: sd.value?.locale || 'fr_FR' },
+      { property: 'og:site_name', content: t('seo.structuredData.siteName') || 'Marjolene Lasne' },
+      { property: 'og:locale', content: sdLocale },
     ].filter((entry) => Boolean(entry.content)),
+    link: canonical ? [{ rel: 'canonical', href: canonical }] : [],
     script: structuredData.value
       ? [{ type: 'application/ld+json', children: JSON.stringify(structuredData.value) }]
       : [],
@@ -88,5 +92,9 @@ useHead(() => {
 })
 
 // Show header/footer on all pages except landing page (which uses layout: false)
-const showHeaderFooter = computed(() => route.path !== '/')
+const localePath = useLocalePath()
+const showHeaderFooter = computed(() => {
+  const homePath = localePath('/')
+  return route.path !== homePath && route.path !== '/'
+})
 </script>

@@ -1,0 +1,214 @@
+{
+  "home": {
+    "srTitle": "Marjolene Lasne – Painter",
+    "logoAlt": "Marjolène Lasne",
+    "menuItems": [
+      {
+        "label": "The Artist",
+        "path": "/artiste",
+        "image": "/img/accueil/Marjolène-Lasne.webp"
+      },
+      {
+        "label": "Paintings",
+        "path": "/peintures",
+        "image": "/img/accueil/en_terrasse_parmi_les_fleurs.webp"
+      },
+      {
+        "label": "Scarves",
+        "path": "/foulards",
+        "image": "/img/accueil/rose-degrade-orange-BMS-84x84.webp"
+      },
+      {
+        "label": "Other Activities",
+        "path": "/autres-activites",
+        "image": "/img/accueil/gites_illu.webp"
+      },
+      {
+        "label": "Contact",
+        "path": "/contact",
+        "image": "/img/accueil/gordes_aux_iris.webp"
+      }
+    ],
+    "imageAltPrefix": "Image for",
+    "imageAltDefault": "Work by Marjolène Lasne",
+    "seo": {
+      "title": "Marjolene Lasne – Painter",
+      "description": "Portfolio of Marjolene Lasne, painter in Provence. Original paintings, silk scarves and artistic universe."
+    }
+  },
+  "artist": {
+    "title": "The Artist",
+    "subtitle": "Discover the journey and passion of Marjolène Lasne, a French painter inspired by Mediterranean light and the beauty of the south of France.",
+    "timelineTitle": "Career and training",
+    "quotes": [
+      {
+        "quote": "Colour reigns supreme, harmonies contrast and the execution is exquisite! Marjolène Lasne has the gift of heightening the musicality of tones, of illuminating landscapes and figures with her lively, vibrant brushwork. Beautifully staged, her compositions evoke fleeting moments full of charm and serenity. Vivid and joyful, her palette is unique!",
+        "author": "Gwénaëlle de Carné",
+        "role": "Art Critic"
+      },
+      {
+        "quote": "Inspired by daily life captured with sketchbook in hand, this artist brings scenes to life with a joyful palette. This colourful and harmonious alchemy relies on contrasts of colour and texture to punctuate the composition. The lively brushwork reveals the attitudes of figures, at the market or the café, at the concert or the beach. Respectful of atmospheres, Marjolène Lasne plays with volumes and architecture to give her work a panoramic character, with a spatial quality for the orchestras whose silhouettes stand against a timeless background.",
+        "author": "Thierry Sznytka",
+        "role": "Art Critic",
+        "source": "In ARTS ACTUALITÉS MAGAZINE – Special Edition January 2006"
+      }
+    ],
+    "timeline": {
+      "personalExhibitions": "Solo exhibitions",
+      "shows": "Shows",
+      "awards": "Awards",
+      "noData": "No data for this period.",
+      "preparing": "Timeline in preparation."
+    },
+    "seo": {
+      "title": "The Artist – Marjolene Lasne",
+      "description": "Biography of Marjolene Lasne, painter in Provence, and presentation of her studio in Roussillon."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "The Artist"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "For any questions or orders, please fill in the form below.",
+    "infoTitle": "Information",
+    "labels": {
+      "email": "Email",
+      "phone": "Phone",
+      "studioAddress": "Studio address",
+      "visitByAppointment": "(Visits by appointment only)"
+    },
+    "mapTitle": "Studio – Gallery Marjolène LASNE in Roussillon",
+    "form": {
+      "lastName": "Last name",
+      "firstName": "First name",
+      "email": "Email",
+      "subject": "Subject",
+      "subjectPlaceholder": "Select a subject",
+      "subjectOptions": {
+        "general": "General enquiry",
+        "order": "Order",
+        "workInfo": "Information about a work",
+        "other": "Other"
+      },
+      "message": "Message",
+      "send": "Send message",
+      "sendAriaLabel": "Send contact message",
+      "sending": "Sending...",
+      "required": "*"
+    },
+    "success": "Thank you, your message has been sent successfully.",
+    "errors": {
+      "title": "An error occurred",
+      "requiredFields": "Please fill in all form fields before sending your message.",
+      "unknown": "Unknown form error.",
+      "generic": "An error occurred, please try again.",
+      "network": "A connection error occurred. Please check your network."
+    },
+    "prefill": {
+      "greeting": "Hello,",
+      "closing": "Kind regards,",
+      "paintingRequest": "I would like information about the painting \"{title}\"{technique}.",
+      "paintingTechniqueFormat": " ({technique})",
+      "scarfRequest": "I would like information about the scarf \"{product}\"{details}.",
+      "scarfDetailsFormat": " ({details})",
+      "scarfColor": "colour {color}",
+      "scarfSize": "size {size}",
+      "scarfMaterial": "material {material}",
+      "activityRequest": "I would like information about the activity \"{activity}\".",
+      "artistRequest": "I would like to contact the artist Marjolène Lasne."
+    },
+    "formspreeSubject": "Contact Marjolène Lasne: {subject}",
+    "seo": {
+      "title": "Contact – Marjolene Lasne",
+      "description": "Contact Marjolene Lasne for any enquiries about her paintings, silk scarves or to plan a visit to the studio in Provence."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Contact"
+    }
+  },
+  "activities": {
+    "title": "Other Activities",
+    "subtitle": "Marjolène Lasne expands her artistic universe by offering various activities alongside her painting.",
+    "buttons": {
+      "gites": "Discover the accommodation",
+      "default": "Contact the artist"
+    },
+    "seo": {
+      "title": "Other Activities – Marjolene Lasne",
+      "description": "Discover the other activities of Marjolene Lasne: workshops, textile design, commissions and accommodation in Provence."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Other Activities"
+    }
+  },
+  "paintings": {
+    "title": "Paintings",
+    "subtitle": "Discover a selection of original works by Marjolène Lasne, inspired by landscapes, scenes of everyday life and the atmosphere of the South.",
+    "loading": "Loading paintings...",
+    "emptyState": "No paintings match your selection.",
+    "filters": {
+      "collections": "Collections",
+      "techniques": "Techniques",
+      "all": "All"
+    },
+    "detail": {
+      "backToGallery": "Back to gallery",
+      "collectionPrefix": "Collection",
+      "dimensions": "Dimensions",
+      "technique": "Technique",
+      "questionCta": "Have a question?",
+      "loading": "Loading work…",
+      "notFound": "Painting not found.",
+      "previousPainting": "Previous painting",
+      "nextPainting": "Next painting",
+      "collectionStart": "Start of collection",
+      "collectionEnd": "End of collection",
+      "fallbackDescription": "Discover an original work by Marjolène Lasne.",
+      "imageAlt": "Painting {title}",
+      "previousAriaLabel": "View previous painting: {title}",
+      "nextAriaLabel": "View next painting: {title}"
+    },
+    "seo": {
+      "title": "Paintings – Marjolene Lasne",
+      "description": "Gallery of original paintings by Marjolene Lasne, inspired by Provence, scenes of everyday life and landscapes."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Paintings"
+    }
+  },
+  "scarves": {
+    "title": "Scarves",
+    "subtitle": "Discover the silk scarf collection by Marjolène Lasne, made in France in limited edition.",
+    "loading": "Loading scarves...",
+    "emptyState": "No scarves available at the moment.",
+    "detail": {
+      "backToScarves": "Back to scarves",
+      "backAriaLabel": "Back to scarves",
+      "enlargeImageAriaLabel": "Enlarge image of {title}",
+      "enlargeImageIndexAriaLabel": "Enlarge image {index}",
+      "imageViewAlt": "{title} – view {index}",
+      "color": "Colour",
+      "material": "Material",
+      "size": "Size",
+      "contactArtist": "Contact the artist",
+      "contactAriaLabel": "Contact the artist about this scarf",
+      "loading": "Loading scarf…",
+      "notFound": "Scarf not found.",
+      "backToCollection": "Back to collection",
+      "fallbackDescription": "Discover a unique scarf by Marjolène Lasne."
+    },
+    "seo": {
+      "title": "Scarves – Marjolene Lasne",
+      "description": "Discover the silk scarves of Marjolene Lasne, unique pieces made in France."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Scarves"
+    }
+  }
+}

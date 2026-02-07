@@ -1,6 +1,6 @@
 <template>
-  <div v-if="pageContent" class="min-h-screen bg-background">
-    <h1 class="sr-only">{{ pageContent.srTitle }}</h1>
+  <div class="min-h-screen bg-background">
+    <h1 class="sr-only">{{ $t('home.srTitle') }}</h1>
     <!-- ===================== -->
     <!-- MOBILE LAYOUT (< lg)  -->
     <!-- ===================== -->
@@ -8,13 +8,13 @@
       <!-- Logo centré -->
       <div class="mb-12 mt-8">
         <NuxtLink 
-          to="/" 
-          :aria-label="common?.aria?.home"
+          :to="localePath('/')" 
+          :aria-label="$t('aria.home')"
           :class="['logo-animate', { 'logo-visible': isLogoVisible }]"
         >
           <img 
             src="/logo.png" 
-            :alt="pageContent.logoAlt" 
+            :alt="$t('home.logoAlt')" 
             class="h-28 w-auto"
           />
         </NuxtLink>
@@ -23,9 +23,9 @@
       <!-- Menu vertical centré -->
       <nav class="flex flex-col items-center gap-6">
         <NuxtLink 
-          v-for="(item, index) in pageContent.menuItems" 
+          v-for="(item, index) in menuItems" 
           :key="item.path"
-          :to="item.path"
+          :to="localePath(item.path)"
             :class="['menu-item-animate font-heading text-4xl sm:text-5xl text-primary hover:text-accent transition-colors duration-75', { 'menu-visible': revealedFlags[index], 'menu-smooth': true }]"
         >
           {{ item.label }}
@@ -36,7 +36,7 @@
       <div 
         class="mt-12"
         :class="['menu-item-animate', { 'menu-visible': isLoaded }]"
-        :style="{ '--menu-delay': `${150 + pageContent.menuItems.length * 80}ms` }"
+        :style="{ '--menu-delay': `${150 + menuItems.length * 80}ms` }"
       >
         <LanguageSwitcher />
       </div>
@@ -53,10 +53,10 @@
           class="absolute top-8 left-8 xl:left-12"
           :class="['logo-animate', { 'logo-visible': isLogoVisible }]"
         >
-          <NuxtLink to="/" :aria-label="common?.aria?.home">
+          <NuxtLink :to="localePath('/')" :aria-label="$t('aria.home')">
             <img 
               src="/logo.png" 
-              :alt="pageContent.logoAlt" 
+              :alt="$t('home.logoAlt')" 
               class="h-28 xl:h-36 w-auto"
             />
           </NuxtLink>
@@ -77,9 +77,9 @@
           @mouseleave="activeImage = null"
         >
           <NuxtLink 
-            v-for="(item, index) in pageContent.menuItems" 
+            v-for="(item, index) in menuItems" 
             :key="item.path"
-            :to="item.path"
+            :to="localePath(item.path)"
             :class="['menu-item-animate group font-heading text-5xl xl:text-6xl 2xl:text-7xl text-primary transition-transform hover:text-accent hover:scale-105 origin-right', { 'menu-visible': revealedFlags[index], 'menu-smooth': true }]"
             :style="{ 'transition': 'transform 0.25s ease-out, color 0.25s ease-out' }"
             @mouseenter="activeImage = item.image"
@@ -116,16 +116,34 @@ import { useContent } from '~/composables/useContent'
 
 definePageMeta({ layout: false })
 
+const { t } = useI18n()
+const localePath = useLocalePath()
+
 interface MenuItem {
   label: string
   path: string
   image: string
 }
 
-// Load content from JSON
+// Load content from JSON (page-specific data: images, paths)
 const { data: pages } = await useContent<Record<string, any>>('pages.json')
-const { data: common } = await useContent<Record<string, any>>('common.json')
 const pageContent = computed(() => pages.value?.home)
+
+// Build menu items with translated labels but keep the paths/images from JSON
+const menuItems = computed<MenuItem[]>(() => {
+  const items = pageContent.value?.menuItems || []
+  const labelKeys: Record<string, string> = {
+    '/artiste': 'home.menuItems.artist',
+    '/peintures': 'home.menuItems.paintings',
+    '/foulards': 'home.menuItems.scarves',
+    '/autres-activites': 'home.menuItems.activities',
+    '/contact': 'home.menuItems.contact',
+  }
+  return items.map((item: MenuItem) => ({
+    ...item,
+    label: labelKeys[item.path] ? t(labelKeys[item.path]) : item.label,
+  }))
+})
 
 // Image active (null par défaut - apparaît uniquement au hover)
 const activeImage = ref<string | null>(null)
@@ -138,8 +156,8 @@ const isLogoVisible = ref(false)
 const isLoaded = ref(false)
 
 const { withSiteUrl } = useSiteUrl()
-const metaTitle = computed(() => pageContent.value?.seo?.title || '')
-const metaDescription = computed(() => pageContent.value?.seo?.description || '')
+const metaTitle = computed(() => t('home.seo.title') || '')
+const metaDescription = computed(() => t('home.seo.description') || '')
 const metaImage = withSiteUrl('/logo.png')
 
 useSeoMeta({
@@ -157,16 +175,16 @@ useSeoMeta({
 
 // Trigger animations after mount (client-only)
 onMounted(() => {
-  const menuItems = (pageContent.value?.menuItems as MenuItem[]) || []
+  const items = menuItems.value || []
   
   // Preload images for smoother hover interactions
-  menuItems.forEach(item => {
+  items.forEach(item => {
     const img = new Image()
     img.src = item.image
   })
 
   // Initialize revealed flags
-  revealedFlags.value = menuItems.map(() => false)
+  revealedFlags.value = items.map(() => false)
 
   // 1. Affiche le logo d'abord
   requestAnimationFrame(() => {
@@ -177,7 +195,7 @@ onMounted(() => {
   setTimeout(() => {
     isLoaded.value = true
     // Staggered reveal des items du menu (desktop & mobile)
-    menuItems.forEach((_, i) => {
+    items.forEach((_, i) => {
       setTimeout(() => {
         revealedFlags.value[i] = true
       }, i * 160)
@@ -187,9 +205,9 @@ onMounted(() => {
 
 // Alt text dynamique basé sur l'image active
 const activeImageAlt = computed(() => {
-  const menuItems = (pageContent.value?.menuItems as MenuItem[]) || []
-  const item = menuItems.find(i => i.image === activeImage.value)
-  return item ? `${pageContent.value?.imageAltPrefix} ${item.label}` : pageContent.value?.imageAltDefault
+  const items = menuItems.value || []
+  const item = items.find(i => i.image === activeImage.value)
+  return item ? `${t('home.imageAltPrefix')} ${item.label}` : t('home.imageAltDefault')
 })
 </script>
 

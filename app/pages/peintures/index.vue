@@ -1,15 +1,15 @@
 <template>
-  <div v-if="pageContent" class="max-w-[72rem] mx-auto px-6 py-12">
+  <div class="max-w-[72rem] mx-auto px-6 py-12">
     <div>
       <!-- Page Header -->
       <SectionTitle 
-          :title="pageContent.title"
-          :subtitle="pageContent.subtitle"
+          :title="$t('paintings.title')"
+          :subtitle="$t('paintings.subtitle')"
         />
 
         <!-- Loading state -->
         <div v-if="pending" class="text-center py-12">
-          <p class="text-[#4A5565]">{{ pageContent.loading }}</p>
+          <p class="text-[#4A5565]">{{ $t('paintings.loading') }}</p>
         </div>
 
         <!-- Filters Section -->
@@ -19,14 +19,14 @@
               <!-- Collections Filter -->
               <Filter
                 v-model="selectedCollection"
-                :title="pageContent.filters?.collections"
+                :title="$t('paintings.filters.collections')"
                 :items="collectionOptions"
               />
 
               <!-- Techniques Filter -->
               <Filter
                 v-model="selectedTechnique"
-                :title="pageContent.filters?.techniques"
+                :title="$t('paintings.filters.techniques')"
                 :items="techniqueOptions"
               />
             </div>
@@ -46,7 +46,7 @@
               </div>
 
               <div v-else class="text-center py-12">
-                <p class="text-[#4A5565]">{{ pageContent.emptyState }}</p>
+                <p class="text-[#4A5565]">{{ $t('paintings.emptyState') }}</p>
               </div>
             </div>
           </Transition>
@@ -64,6 +64,9 @@ import PaintingCard from '~/components/PaintingCard.vue'
 import PaintingCardWrapper from '~/components/PaintingCardWrapper.vue'
 import { useSiteUrl } from '~/composables/useSiteUrl'
 
+const { t } = useI18n()
+const localePath = useLocalePath()
+
 interface Painting {
   slug: string
   title: string
@@ -80,9 +83,6 @@ interface PeinturesData {
 }
 
 // Fetch data (now grouped by collections)
-const { data: pages } = await useContent<Record<string, any>>('pages.json')
-const pageContent = computed(() => pages.value?.paintings)
-
 const { data: peinturesData, pending } = await useContent<PeinturesData>('peintures.json')
 
 // Flatten paintings from grouped structure and add collection property
@@ -140,7 +140,7 @@ watch([selectedCollection, selectedTechnique], ([newCollection, newTechnique]) =
 const collectionOptions = computed(() => {
   if (!peinturesData.value?.collections) return []
   const collections = Object.keys(peinturesData.value.collections)
-  const allLabel = pageContent.value?.filters?.all || 'Toutes'
+  const allLabel = t('paintings.filters.all')
   const options = [
     { label: allLabel, value: '' },
     ...collections.map(col => ({
@@ -155,7 +155,7 @@ const collectionOptions = computed(() => {
 const techniqueOptions = computed(() => {
   if (!paintings.value.length) return []
   const techniques = [...new Set(paintings.value.map(p => p.technique))]
-  const allLabel = pageContent.value?.filters?.all || 'Toutes'
+  const allLabel = t('paintings.filters.all')
   const options = [
     { label: allLabel, value: '' },
     ...techniques.map(tech => ({
@@ -177,7 +177,7 @@ const filteredPaintings = computed(() => {
   }).map(painting => ({
     ...painting,
     component: PaintingCard,
-    to: `/peintures/${painting.slug}`
+    to: localePath(`/peintures/${painting.slug}`)
   }))
   
   return filtered
@@ -186,8 +186,8 @@ const filteredPaintings = computed(() => {
 const filterKey = computed(() => `${selectedCollection.value}::${selectedTechnique.value}`)
 
 const { siteUrl, withSiteUrl } = useSiteUrl()
-const metaTitle = computed(() => pageContent.value?.seo?.title || 'Peintures - Marjolene Lasne')
-const metaDescription = computed(() => pageContent.value?.seo?.description || '') 
+const metaTitle = computed(() => t('paintings.seo.title'))
+const metaDescription = computed(() => t('paintings.seo.description')) 
 const metaImage = computed(() => {
   const image = paintings.value[0]?.image || '/logo.png'
   return withSiteUrl(image)
@@ -215,14 +215,14 @@ const breadcrumbSchema = computed(() => {
       {
         '@type': 'ListItem',
         position: 1,
-        name: pageContent.value?.breadcrumb?.home || 'Accueil',
+        name: t('paintings.breadcrumb.home'),
         item: siteUrl,
       },
       {
         '@type': 'ListItem',
         position: 2,
-        name: pageContent.value?.breadcrumb?.current || 'Peintures',
-        item: withSiteUrl('/peintures'),
+        name: t('paintings.breadcrumb.current'),
+        item: withSiteUrl(localePath('/peintures')),
       },
     ],
   }

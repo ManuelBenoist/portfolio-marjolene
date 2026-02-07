@@ -4,12 +4,12 @@
     <div class="w-full px-6 sm:px-12 md:px-24 pt-6 pb-6">
       <NuxtLink
         class="inline-flex items-center gap-2 text-sm font-medium uppercase font-['Montserrat'] text-[rgb(74,85,101)] transition-colors hover:text-[#C94E54] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54] focus-visible:ring-offset-2"
-        to="/foulards"
-        :aria-label="scarfDetail?.backAriaLabel"
+        :to="localePath('/foulards')"
+        :aria-label="$t('scarves.detail.backAriaLabel')"
         @click="saveActiveSlug"
       >
         <Icon icon="mdi:arrow-left" class="text-xl" />
-        <span>{{ scarfDetail?.backToScarves }}</span>
+        <span>{{ $t('scarves.detail.backToScarves') }}</span>
       </NuxtLink>
     </div>
 
@@ -28,7 +28,7 @@
             <button
               type="button"
               class="relative aspect-square w-full overflow-hidden bg-white shadow-sm cursor-zoom-in focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54]"
-              :aria-label="`${scarfDetail?.enlargeImageAriaLabel?.replace('{title}', foulard.title)}`"
+              :aria-label="$t('scarves.detail.enlargeImageAriaLabel', { title: foulard.title })"
               @click="openLightbox(0)"
             >
               <img
@@ -50,12 +50,12 @@
                   :key="idx"
                   type="button"
                   class="relative aspect-square w-full h-auto overflow-hidden bg-white shadow-sm transition-all duration-200 cursor-zoom-in focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54] opacity-80 hover:opacity-100"
-                  :aria-label="scarfDetail?.enlargeImageIndexAriaLabel?.replace('{index}', String(idx + 2))"
+                  :aria-label="$t('scarves.detail.enlargeImageIndexAriaLabel', { index: idx + 2 })"
                   @click="openLightbox(idx + 1)"
                 >
                   <img
                     :src="image.src"
-                    :alt="image.alt || `${foulard.title} - vue ${idx + 2}`"
+                    :alt="image.alt || $t('scarves.detail.imageViewAlt', { title: foulard.title, index: idx + 2 })"
                     class="h-full w-full object-contain"
                     loading="lazy"
                     decoding="async"
@@ -80,7 +80,7 @@
             <!-- Color Selection -->
             <section class="flex flex-col gap-2">
               <div class="text-sm font-medium text-[#4A5565]">
-                {{ scarfDetail?.color }} : 
+                {{ $t('scarves.detail.color') }} : 
                 <span class="font-semibold text-[#2E3D8B]">{{ activeColor?.label || '—' }}</span>
               </div>
               <ColorSwatch v-model="selectedColorId" :options="colorOptions" />
@@ -89,7 +89,7 @@
             <!-- Material Selection -->
             <section class="flex flex-col gap-2">
               <div class="text-sm font-medium text-[#4A5565]">
-                {{ scarfDetail?.material }} : 
+                {{ $t('scarves.detail.material') }} : 
                 <span class="font-semibold text-[#2E3D8B]">{{ activeMaterial?.label || '—' }}</span>
               </div>
               <MaterialBadge v-model="selectedMaterialId" :options="materialOptions" />
@@ -98,7 +98,7 @@
             <!-- Size Selection -->
             <section class="flex flex-col gap-2">
               <div class="text-sm font-medium text-[#4A5565]">
-                {{ scarfDetail?.size }} : 
+                {{ $t('scarves.detail.size') }} : 
                 <span class="font-semibold text-[#2E3D8B]">{{ activeSize?.label || '—' }}</span>
               </div>
               <SizeList v-model="selectedSizeId" :sizes="sizeOptions" />
@@ -110,15 +110,15 @@
             <!-- Selection Summary -->
             <dl class="space-y-3 text-sm">
               <div class="flex items-baseline justify-between">
-                <dt class="text-[#4A5565]">{{ scarfDetail?.color }}</dt>
+                <dt class="text-[#4A5565]">{{ $t('scarves.detail.color') }}</dt>
                 <dd class="font-medium text-[#2E3D8B]">{{ activeColor?.label || '—' }}</dd>
               </div>
               <div class="flex items-baseline justify-between">
-                <dt class="text-[#4A5565]">{{ scarfDetail?.material }}</dt>
+                <dt class="text-[#4A5565]">{{ $t('scarves.detail.material') }}</dt>
                 <dd class="font-medium text-[#2E3D8B]">{{ activeMaterial?.label || '—' }}</dd>
               </div>
               <div class="flex items-baseline justify-between">
-                <dt class="text-[#4A5565]">{{ scarfDetail?.size }}</dt>
+                <dt class="text-[#4A5565]">{{ $t('scarves.detail.size') }}</dt>
                 <dd class="font-medium text-[#2E3D8B]">{{ activeSize?.label || '—' }}</dd>
               </div>
             </dl>
@@ -126,8 +126,8 @@
             <!-- CTA Button -->
             <ContactButton
               :to="contactLink"
-              :label="scarfDetail?.contactArtist"
-              :aria-label="scarfDetail?.contactAriaLabel"
+              :label="$t('scarves.detail.contactArtist')"
+              :aria-label="$t('scarves.detail.contactAriaLabel')"
               class="w-full justify-center mt-4"
             />
 
@@ -149,7 +149,7 @@
           v-else-if="pending"
           class="flex min-h-[50vh] items-center justify-center"
         >
-          <p class="text-sm text-[#4A5565]">{{ scarfDetail?.loading }}</p>
+          <p class="text-sm text-[#4A5565]">{{ $t('scarves.detail.loading') }}</p>
         </div>
 
         <!-- Not Found State -->
@@ -157,12 +157,12 @@
           v-else
           class="flex min-h-[50vh] flex-col items-center justify-center gap-4"
         >
-          <p class="text-lg font-medium text-[#2E3D8B]">{{ scarfDetail?.notFound }}</p>
+          <p class="text-lg font-medium text-[#2E3D8B]">{{ $t('scarves.detail.notFound') }}</p>
           <NuxtLink
-            to="/foulards"
+            :to="localePath('/foulards')"
             class="text-sm text-[#C94E54] underline hover:no-underline"
           >
-            {{ scarfDetail?.backToCollection }}
+            {{ $t('scarves.detail.backToCollection') }}
           </NuxtLink>
         </div>
       </Transition>
@@ -188,6 +188,9 @@ import SizeList from '~/components/SizeList.vue'
 import ContactButton from '~/components/ContactButton.vue'
 import ImageLightbox from '~/components/ImageLightbox.vue'
 import { useSiteUrl } from '~/composables/useSiteUrl'
+
+const { t } = useI18n()
+const localePath = useLocalePath()
 
 // Gallery state for scroll restoration
 const { activeFoulardSlug } = useGalleryState()
@@ -232,9 +235,6 @@ interface Foulard {
 
 // Route & Data Fetching
 const route = useRoute()
-
-const { data: pages } = await useContent<Record<string, any>>('pages.json')
-const scarfDetail = computed(() => pages.value?.scarves?.detail)
 
 const { data: foulardsData, pending } = await useContent<Foulard[]>('foulards.json')
 const foulards = computed(() => foulardsData.value ?? [])
@@ -379,9 +379,9 @@ const activeImage = computed(() => activeImages.value[activeImageIndex.value] ??
 
 // Contact link with query params
 const contactLink = computed(() => {
-  if (!foulard.value) return { path: '/contact' }
+  if (!foulard.value) return { path: localePath('/contact') }
   return {
-    path: '/contact',
+    path: localePath('/contact'),
     query: {
       sujet: 'foulard',
       produit: foulard.value.title,
@@ -393,9 +393,9 @@ const contactLink = computed(() => {
 })
 
 // SEO Meta
-const fallbackDescription = computed(() => scarfDetail.value?.fallbackDescription || 'Découvrez un foulard unique de Marjolène Lasne.')
+const fallbackDescription = computed(() => t('scarves.detail.fallbackDescription'))
 const metaTitle = computed(() =>
-  foulard.value ? `${foulard.value.title} - ${pages.value?.scarves?.seo?.title || 'Foulards - Marjolène Lasne'}` : (pages.value?.scarves?.seo?.title || 'Foulards - Marjolène Lasne')
+  foulard.value ? `${foulard.value.title} - ${t('scarves.seo.title')}` : t('scarves.seo.title')
 )
 const metaDescription = computed(
   () => foulard.value?.metaDescription ?? foulard.value?.description ?? fallbackDescription.value
@@ -429,20 +429,20 @@ const breadcrumbSchema = computed(() => {
       {
         '@type': 'ListItem',
         position: 1,
-        name: pages.value?.scarves?.breadcrumb?.home || 'Accueil',
+        name: t('scarves.breadcrumb.home'),
         item: siteUrl,
       },
       {
         '@type': 'ListItem',
         position: 2,
-        name: pages.value?.scarves?.breadcrumb?.current || 'Foulards',
-        item: withSiteUrl('/foulards'),
+        name: t('scarves.breadcrumb.current'),
+        item: withSiteUrl(localePath('/foulards')),
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: foulard.value.title,
-        item: withSiteUrl(`/foulards/${foulard.value.slug}`),
+        item: withSiteUrl(localePath(`/foulards/${foulard.value.slug}`)),
       },
     ],
   }
@@ -464,7 +464,7 @@ const productSchema = computed(() => {
     material: activeMaterial.value?.label || undefined,
     color: activeColor.value?.label || undefined,
     size: activeSize.value?.label || undefined,
-    url: withSiteUrl(`/foulards/${foulard.value.slug}`),
+    url: withSiteUrl(localePath(`/foulards/${foulard.value.slug}`)),
   }
 })
 

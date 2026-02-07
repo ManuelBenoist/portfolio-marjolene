@@ -20,8 +20,15 @@ export const useGalleryState = () => {
   })
 
   // Build the "back to gallery" route with current filters
+  // Note: path is a base path — consumers should wrap it with localePath()
   const backToGalleryRoute = computed(() => ({
     path: '/peintures',
+    query: filterQueryParams.value
+  }))
+
+  // Locale-aware version — use this in components with i18n context
+  const localizedBackToGalleryRoute = (localePath: (path: string) => string) => computed(() => ({
+    path: localePath('/peintures'),
     query: filterQueryParams.value
   }))
 
@@ -36,6 +43,7 @@ export const useGalleryState = () => {
     activePaintingSlug,
     filterQueryParams,
     backToGalleryRoute,
+    localizedBackToGalleryRoute,
     // Foulards
     activeFoulardSlug
   }

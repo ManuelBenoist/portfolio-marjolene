@@ -1,10 +1,10 @@
 <template>
-  <div v-if="pageContent" class="max-w-[72rem] mx-auto px-6 py-12">
+  <div class="max-w-[72rem] mx-auto px-6 py-12">
     <div>
       <!-- Section Title -->
       <SectionTitle 
-            :title="pageContent.title" 
-            :subtitle="pageContent.subtitle"
+            :title="$t('activities.title')" 
+            :subtitle="$t('activities.subtitle')"
           />
           
           <!-- Separator Line -->
@@ -33,7 +33,6 @@
 <script setup lang="ts">
 import type { RouteLocationRaw } from 'vue-router'
 import { useSiteUrl } from '~/composables/useSiteUrl'
-import { useContent } from '~/composables/useContent'
 
 interface Activity {
   id: string
@@ -45,30 +44,41 @@ interface Activity {
   position: 'left' | 'right'
 }
 
-const { data: activities } = await useAsyncData<Activity[]>('activities', async () => {
+const { locale: currentLocale } = useI18n()
+const localePath = useLocalePath()
+
+const { data: activities } = await useAsyncData<Activity[]>(`activities-${currentLocale.value}`, async () => {
   if (process.server) {
     const { readFile } = await import('fs/promises')
     const { resolve } = await import('path')
     try {
-      const file = await readFile(resolve(process.cwd(), 'public/content/activites.json'), 'utf-8')
+      const file = await readFile(resolve(process.cwd(), `public/content/${currentLocale.value}/activites.json`), 'utf-8')
       return JSON.parse(file) as Activity[]
     } catch (e) {
-      console.error('Error loading activities:', e)
-      return []
+      // Fallback to French
+      try {
+        const file = await readFile(resolve(process.cwd(), 'public/content/fr/activites.json'), 'utf-8')
+        return JSON.parse(file) as Activity[]
+      } catch {
+        console.error('Error loading activities:', e)
+        return []
+      }
     }
   }
-  const result = await $fetch<Activity[]>('/content/activites.json')
-  return result
+  try {
+    return await $fetch<Activity[]>(`/content/${currentLocale.value}/activites.json`)
+  } catch {
+    return await $fetch<Activity[]>('/content/fr/activites.json')
+  }
 }, {
-  default: () => []
+  default: () => [],
+  watch: [currentLocale]
 })
 
-const { data: pages } = await useContent('pages.json')
-const pageContent = computed(() => pages.value?.activities)
-
+const { t } = useI18n()
 const { siteUrl, withSiteUrl } = useSiteUrl()
-const metaTitle = computed(() => pageContent.value?.seo?.title || '')
-const metaDescription = computed(() => pageContent.value?.seo?.description || '')
+const metaTitle = computed(() => t('activities.seo.title'))
+const metaDescription = computed(() => t('activities.seo.description'))
 const metaImage = withSiteUrl('/logo.png')
 
 useSeoMeta({
@@ -93,14 +103,14 @@ const breadcrumbSchema = computed(() => {
       {
         '@type': 'ListItem',
         position: 1,
-        name: pageContent.value?.breadcrumb?.home || 'Accueil',
+        name: t('activities.breadcrumb.home'),
         item: siteUrl,
       },
       {
         '@type': 'ListItem',
         position: 2,
-        name: pageContent.value?.breadcrumb?.current || 'Autres activites',
-        item: withSiteUrl('/autres-activites'),
+        name: t('activities.breadcrumb.current'),
+        item: withSiteUrl(localePath('/autres-activites')),
       },
     ],
   }
@@ -120,7 +130,7 @@ const getRouteTo = (activityId: string): string | { path: string; query?: Record
   // Liens vers la page contact avec préremplissage selon l'activité
   const activity = activities.value?.find(a => a.id === activityId)
   return {
-    path: '/contact',
+    path: localePath('/contact'),
     query: {
       sujet: 'activite',
       activite: activity?.title || activityId
@@ -131,8 +141,8 @@ const getRouteTo = (activityId: string): string | { path: string; query?: Record
 // Button label logic
 const getButtonLabel = (activityId: string): string => {
   if (activityId === 'gites') {
-    return pageContent.value?.buttons?.gites || 'Découvrir les logements'
+    return t('activities.buttons.gites')
   }
-  return pageContent.value?.buttons?.default || 'Contacter l\'artiste'
+  return t('activities.buttons.default')
 }
 </script>

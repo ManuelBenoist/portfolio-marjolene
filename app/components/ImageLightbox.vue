@@ -19,7 +19,7 @@
         <button 
           @click="close"
           class="absolute top-4 right-4 p-2 text-white/70 hover:text-white transition-colors z-[100] focus:outline-none focus:ring-2 focus:ring-white rounded-full"
-          :aria-label="common?.actions?.close || 'Fermer'"
+          :aria-label="$t('actions.close')"
         >
           <Icon icon="mdi:close" class="text-3xl" />
         </button>
@@ -29,7 +29,7 @@
           v-if="images.length > 1"
           @click.stop="prev"
           class="absolute left-4 p-3 text-white/70 hover:text-white transition-colors z-[100] bg-white/10 hover:bg-white/20 rounded-full focus:outline-none focus:ring-2 focus:ring-white"
-          :aria-label="common?.actions?.previousImage || 'Image précédente'"
+          :aria-label="$t('actions.previousImage')"
         >
           <Icon icon="mdi:chevron-left" class="text-4xl" />
         </button>
@@ -68,7 +68,7 @@
           v-if="images.length > 1"
           @click.stop="next"
           class="absolute right-4 p-3 text-white/70 hover:text-white transition-colors z-[100] bg-white/10 hover:bg-white/20 rounded-full focus:outline-none focus:ring-2 focus:ring-white"
-          :aria-label="common?.actions?.nextImage || 'Image suivante'"
+          :aria-label="$t('actions.nextImage')"
         >
           <Icon icon="mdi:chevron-right" class="text-4xl" />
         </button>
@@ -80,9 +80,7 @@
 <script setup lang="ts">
 import { computed, watch, onMounted, onUnmounted, ref } from 'vue'
 import { Icon } from '@iconify/vue'
-import { useContent } from '~/composables/useContent'
 
-const { data: common } = await useContent('common.json')
 // Touch swipe support for mobile
 const touchStartX = ref<number | null>(null)
 const touchEndX = ref<number | null>(null)

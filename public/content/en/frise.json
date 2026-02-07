@@ -1,0 +1,126 @@
+[
+  {
+    "id": 1,
+    "date": "1984–1985",
+    "expositions_personnelles": [
+      { "titre": "Galerie Le Carré de la Fontaine", "lieu": "Versailles", "date": "1984" }
+    ],
+    "salons": [
+      { "titre": "Orangerie du Luxembourg", "lieu": "Paris", "date": "1985" },
+      { "titre": "Orangerie du Château de Versailles", "lieu": "Versailles", "date": "1985" }
+    ],
+    "prix": []
+  },
+  {
+    "id": 2,
+    "date": "1992–1995",
+    "expositions_personnelles": [
+      { "titre": "Chapelle Saint-Léonard", "lieu": "Croissy-sur-Seine", "date": "1992, 2002, 2004, 2007, 2009, 2013" },
+      { "titre": "Galerie du Chapitre", "lieu": "Rennes", "date": "1995, 1997, 2000, 2002" }
+    ],
+    "salons": [
+      { "titre": "Biennale of Contemporary Art", "lieu": "Nantes", "date": "1993, 1995" },
+      { "titre": "Salon d'Automne", "lieu": "Paris", "date": "1993, 1994" }
+    ],
+    "prix": []
+  },
+  {
+    "id": 3,
+    "date": "1997–2000",
+    "expositions_personnelles": [
+      { "titre": "Galerie du Chapitre", "lieu": "Rennes", "date": "1995, 1997, 2000, 2002" },
+      { "titre": "Galerie Maig Davaud", "lieu": "Paris", "date": "1998, 2000" },
+      { "titre": "Espace Les Erables", "lieu": "Charbonnières-les-Bains", "date": "1998, 2003, 2004, 2006" }
+    ],
+    "salons": [
+      { "titre": "International Spring Salon", "lieu": "Lyon", "date": "1999, 2000, 2001, 2006, 2007" }
+    ],
+    "prix": []
+  },
+  {
+    "id": 4,
+    "date": "2001–2002",
+    "expositions_personnelles": [
+      { "titre": "Galerie Roger Portugal", "lieu": "Nantes", "date": "2001" },
+      { "titre": "Chapelle Saint-Léonard", "lieu": "Croissy-sur-Seine", "date": "1992, 2002, 2004, 2007, 2009, 2013" },
+      { "titre": "Galerie du Chapitre", "lieu": "Rennes", "date": "1995, 1997, 2000, 2002" }
+    ],
+    "salons": [
+      { "titre": "Guest of Honour at the Loudun Salon", "lieu": "Loudun (86)", "date": "2001" }
+    ],
+    "prix": []
+  },
+  {
+    "id": 5,
+    "date": "2003–2004",
+    "expositions_personnelles": [
+      { "titre": "Galerie Brigit Langloy", "lieu": "Lyon", "date": "2003, 2005" },
+      { "titre": "Galerie Vis-à-Vis", "lieu": "Chalon-sur-Saône", "date": "2003" },
+      { "titre": "Galerie du Four", "lieu": "Gordes", "date": "2003" },
+      { "titre": "Espace Richard Casteau", "lieu": "Roussillon", "date": "2003" },
+      { "titre": "La Charité Saint-Eutrope", "lieu": "Gordes", "date": "2004" },
+      { "titre": "Chapelle Saint-Léonard", "lieu": "Croissy-sur-Seine", "date": "1992, 2002, 2004, 2007, 2009, 2013" },
+      { "titre": "Espace Les Erables", "lieu": "Charbonnières-les-Bains", "date": "1998, 2003, 2004, 2006" },
+      { "titre": "Tourist Office Exhibition Space", "lieu": "Bonnieux", "date": "2004–2007" }
+    ],
+    "salons": [],
+    "prix": []
+  },
+  {
+    "id": 6,
+    "date": "2005–2007",
+    "expositions_personnelles": [
+      { "titre": "Galerie Brigit Langloy", "lieu": "Lyon", "date": "2003, 2005" },
+      { "titre": "Presbytère", "lieu": "Ansouis", "date": "2006" },
+      { "titre": "Chapelle Saint-Léonard", "lieu": "Croissy-sur-Seine", "date": "1992, 2002, 2004, 2007, 2009, 2013" },
+      { "titre": "Espace Les Erables", "lieu": "Charbonnières-les-Bains", "date": "1998, 2003, 2004, 2006" },
+      { "titre": "Tourist Office Exhibition Space", "lieu": "Bonnieux", "date": "2004–2007" }
+    ],
+    "salons": [
+      { "titre": "International Spring Salon", "lieu": "Lyon", "date": "1999, 2000, 2001, 2006, 2007" }
+    ],
+    "prix": []
+  },
+  {
+    "id": 7,
+    "date": "2008–2012",
+    "expositions_personnelles": [
+      { "titre": "Studio Gallery", "lieu": "Bonnieux", "date": "2008–2012" },
+      { "titre": "Chapelle des Pénitents Blancs", "lieu": "Gordes", "date": "2008" },
+      { "titre": "Chapelle Saint-Léonard", "lieu": "Croissy-sur-Seine", "date": "1992, 2002, 2004, 2007, 2009, 2013" }
+    ],
+    "salons": [],
+    "prix": []
+  },
+  {
+    "id": 8,
+    "date": "2013–2016",
+    "expositions_personnelles": [
+      { "titre": "Studio Gallery", "lieu": "Roussillon – Provence", "date": "2013–2016" },
+      { "titre": "Chapelle Saint-Léonard", "lieu": "Croissy-sur-Seine", "date": "1992, 2002, 2004, 2007, 2009, 2013" }
+    ],
+    "salons": [],
+    "prix": []
+  },
+  {
+    "id": 9,
+    "date": "2024–present",
+    "expositions_personnelles": [
+      { "titre": "Artists' Collective", "lieu": "Roussillon – Provence", "date": "since 2024" }
+    ],
+    "salons": [],
+    "prix": []
+  },
+  {
+    "id": 10,
+    "date": "Awards and honours",
+    "expositions_personnelles": [],
+    "salons": [],
+    "prix": [
+      { "titre": "First Prize of the Yvelines General Council" },
+      { "titre": "First Prize of the Alumni of the Paris-Conflans School of Architecture" },
+      { "titre": "Young Artists' Prize – City of Le Chesnay (Yvelines)" },
+      { "titre": "Second Jury Prize – Désertines Salon (03)" }
+    ]
+  }
+]

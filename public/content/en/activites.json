@@ -1,0 +1,52 @@
+[
+  {
+    "id": "stages",
+    "title": "Workshops",
+    "description": "Come and discover acrylic and watercolour techniques during an introductory course led by Marjolène!",
+    "items": [
+      "On request, individual or group sessions (max. 4 people)",
+      "For children and adults, beginners or experienced artists",
+      "Option to paint on location (outdoors)"
+    ],
+    "imageSrc": "/img/autres-activites/stages_illu.webp",
+    "imageAlt": "Painting workshop with classes and introductory courses",
+    "position": "right"
+  },
+  {
+    "id": "design-textile",
+    "title": "Textile design",
+    "description": "Since exhibiting at the Première Vision textile design fair in Paris in 2015, Marjolène also offers patterns for textiles and printed fabrics.",
+    "items": [
+      "Hand-crafted designs (watercolour, pencil, collage) then digitally processed in Photoshop",
+      "Varied designs: floral, geometric, abstract…",
+      "Custom orders available"
+    ],
+    "imageSrc": "/img/autres-activites/design_textile_illu.webp",
+    "imageAlt": "Textile and print designs by Marjolène",
+    "position": "left"
+  },
+  {
+    "id": "gites",
+    "title": "Holiday cottages and guest rooms",
+    "description": "Discover our holiday cottages and guest rooms in the heart of Roussillon in Provence, classified as one of the 'Most Beautiful Villages in France'.",
+    "items": [
+      "Open from April to October",
+      "Elegant accommodation, decorated in a contemporary Provençal style",
+      "Ideal location for exploring the Luberon and Provence"
+    ],
+    "imageSrc": "/img/autres-activites/gites_illu.webp",
+    "imageAlt": "Holiday cottages and guest rooms in Roussillon",
+    "position": "right"
+  },
+  {
+    "id": "commandes-visites",
+    "title": "Commissions",
+    "description": "The artist offers to create bespoke works tailored to the décor and colours of your interior.",
+    "items": [
+      "Creation of original works to your specifications (size, theme, colours)"
+    ],
+    "imageSrc": "/img/autres-activites/commandes_visites_illu.webp",
+    "imageAlt": "Studio and painting commissions",
+    "position": "left"
+  }
+]

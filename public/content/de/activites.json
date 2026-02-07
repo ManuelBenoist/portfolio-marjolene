@@ -1,0 +1,52 @@
+[
+  {
+    "id": "stages",
+    "title": "Workshops",
+    "description": "Entdecken Sie die Acryl- und Aquarelltechniken bei einem von Marjolène geleiteten Einführungskurs!",
+    "items": [
+      "Auf Anfrage, Einzel- oder Gruppensitzungen (max. 4 Personen)",
+      "Für Kinder und Erwachsene, Anfänger oder Fortgeschrittene",
+      "Möglichkeit, im Freien zu malen (Pleinair)"
+    ],
+    "imageSrc": "/img/autres-activites/stages_illu.webp",
+    "imageAlt": "Malworkshop mit Kursen und Einführungen",
+    "position": "right"
+  },
+  {
+    "id": "design-textile",
+    "title": "Textildesign",
+    "description": "Seit ihrer Ausstellung auf der Textildesign-Messe Première Vision in Paris im Jahr 2015 bietet Marjolène auch Muster für Textilien und bedruckte Stoffe an.",
+    "items": [
+      "Handgefertigte Entwürfe (Aquarell, Bleistift, Collage), anschließend digital in Photoshop verarbeitet",
+      "Vielfältige Designs: floral, geometrisch, abstrakt…",
+      "Individuelle Aufträge möglich"
+    ],
+    "imageSrc": "/img/autres-activites/design_textile_illu.webp",
+    "imageAlt": "Textil- und Druckdesigns von Marjolène",
+    "position": "left"
+  },
+  {
+    "id": "gites",
+    "title": "Ferienwohnungen und Gästezimmer",
+    "description": "Entdecken Sie unsere Ferienwohnungen und Gästezimmer im Herzen von Roussillon in der Provence, klassifiziert als eines der «Schönsten Dörfer Frankreichs».",
+    "items": [
+      "Geöffnet von April bis Oktober",
+      "Elegante Unterkünfte, im zeitgenössisch-provenzalischen Stil eingerichtet",
+      "Ideale Lage zur Erkundung des Luberon und der Provence"
+    ],
+    "imageSrc": "/img/autres-activites/gites_illu.webp",
+    "imageAlt": "Ferienwohnungen und Gästezimmer in Roussillon",
+    "position": "right"
+  },
+  {
+    "id": "commandes-visites",
+    "title": "Auftragsarbeiten",
+    "description": "Die Künstlerin bietet an, maßgeschneiderte Werke zu schaffen, die auf das Dekor und die Farben Ihres Interieurs abgestimmt sind.",
+    "items": [
+      "Erstellung von Originalwerken nach Ihren Wünschen (Größe, Thema, Farben)"
+    ],
+    "imageSrc": "/img/autres-activites/commandes_visites_illu.webp",
+    "imageAlt": "Atelier und Auftragsmalerei",
+    "position": "left"
+  }
+]

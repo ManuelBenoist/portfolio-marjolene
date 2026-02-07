@@ -1,0 +1,52 @@
+[
+  {
+    "id": "stages",
+    "title": "Talleres",
+    "description": "¡Venga a descubrir las técnicas de acrílico y acuarela durante un curso de iniciación dirigido por Marjolène!",
+    "items": [
+      "Bajo petición, sesiones individuales o en grupo (máx. 4 personas)",
+      "Para niños y adultos, principiantes o artistas experimentados",
+      "Posibilidad de pintar al aire libre"
+    ],
+    "imageSrc": "/img/autres-activites/stages_illu.webp",
+    "imageAlt": "Taller de pintura con clases y cursos de iniciación",
+    "position": "right"
+  },
+  {
+    "id": "design-textile",
+    "title": "Diseño textil",
+    "description": "Desde su participación en el salón de diseño textil Première Vision en París en 2015, Marjolène también ofrece diseños para textiles y telas estampadas.",
+    "items": [
+      "Diseños realizados a mano (acuarela, lápiz, collage) y luego procesados digitalmente en Photoshop",
+      "Diseños variados: florales, geométricos, abstractos…",
+      "Encargos personalizados disponibles"
+    ],
+    "imageSrc": "/img/autres-activites/design_textile_illu.webp",
+    "imageAlt": "Diseños textiles y estampados de Marjolène",
+    "position": "left"
+  },
+  {
+    "id": "gites",
+    "title": "Casas rurales y habitaciones de huéspedes",
+    "description": "Descubra nuestras casas rurales y habitaciones de huéspedes en el corazón de Roussillon en Provenza, clasificado como uno de los «Pueblos más bonitos de Francia».",
+    "items": [
+      "Abierto de abril a octubre",
+      "Alojamiento elegante, decorado en un estilo provenzal contemporáneo",
+      "Ubicación ideal para explorar el Luberon y Provenza"
+    ],
+    "imageSrc": "/img/autres-activites/gites_illu.webp",
+    "imageAlt": "Casas rurales y habitaciones de huéspedes en Roussillon",
+    "position": "right"
+  },
+  {
+    "id": "commandes-visites",
+    "title": "Encargos",
+    "description": "La artista propone crear obras personalizadas adaptadas a la decoración y los colores de su interior.",
+    "items": [
+      "Creación de obras originales según sus especificaciones (tamaño, tema, colores)"
+    ],
+    "imageSrc": "/img/autres-activites/commandes_visites_illu.webp",
+    "imageAlt": "Taller y encargos de pintura",
+    "position": "left"
+  }
+]

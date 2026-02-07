@@ -1,0 +1,1958 @@
+[
+  {
+    "slug": "pivoines",
+    "title": "Pivoines",
+    "description": "En esta composición, algunas peonías estilizadas ligeramente perfiladas en negro se representan en tonos cálidos que van del rosa al naranja sobre un fondo degradado azul y verde anís.",
+    "colors": {
+      "rose-degrade-orange-fond-blanc": {
+        "id": "rose-degrade-orange-fond-blanc",
+        "label": "Degradado rosa-naranja sobre blanco",
+        "hexes": [
+          "#E360B1",
+          "#FFFFFF",
+          "#FD9418"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-fond-blanc-BMS-84x84.webp",
+                "alt": "Pañuelo Pivoines degradado rosa-naranja sobre blanco en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Degradado rosa-naranja",
+        "hexes": [
+          "#FFC702",
+          "#E31C7F"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-64x64.webp",
+                "alt": "Pañuelo Pivoines degradado rosa-naranja en seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Pieza única fabricada en Francia",
+      "Diseño original de la artista",
+      "Mantenimiento: Limpieza en seco recomendada"
+    ],
+    "metaDescription": "Pañuelo de seda Pivoines de Marjolène Lasne, motivos florales inspirados en Provenza."
+  },
+  {
+    "slug": "hibiscus",
+    "title": "Hibiscus",
+    "description": "Diversas flores y hierbas danzan alrededor de una majestuosa flor de hibisco en el centro de la composición.",
+    "colors": {
+      "rouge-degrade-orange": {
+        "id": "rouge-degrade-orange",
+        "label": "Degradado rojo-naranja",
+        "hexes": [
+          "#FFB409",
+          "#F01F11"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64.webp",
+                "alt": "Pañuelo Hibiscus degradado rojo-naranja en seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Degradado rosa",
+        "hexes": [
+          "#F88CBE",
+          "#E11C6A"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-BMS-64x64.webp",
+                "alt": "Pañuelo Hibiscus degradado rosa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-jaune": {
+        "id": "rose-degrade-jaune",
+        "label": "Degradado rosa-amarillo",
+        "hex": "#000000",
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/roses/rose-degrade/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Pañuelo Roses degradado rosa en muselina y satén de seda – vista principal"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Degradado rosa-naranja",
+        "hexes": [
+          "#FDB308",
+          "#EE1A8B"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84.webp",
+                "alt": "Pañuelo Hibiscus degradado rosa-naranja en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Pieza única fabricada en Francia",
+      "Diseño original de la artista",
+      "Mantenimiento: Limpieza en seco recomendada"
+    ],
+    "metaDescription": "Pañuelo de seda Hibiscus de Marjolène Lasne, colores de la Costa Azul."
+  },
+  {
+    "slug": "roses",
+    "title": "Roses",
+    "description": "Rosas en armonías tiernas de rosa intenso y ciruela se destacan de esta composición en tonos verde anís y esmeralda.",
+    "colors": {
+      "rose-degrade-fond-blanc": {
+        "id": "rose-degrade-fond-blanc",
+        "label": "Degradado rosa sobre blanco",
+        "hexes": [
+          "#E72A8A",
+          "#E72A8A"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-et-T-64x64.webp",
+                "alt": "Pañuelo Roses degradado rosa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-et-T-64x64.webp",
+                "alt": "Pañuelo Roses degradado rosa en satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "vert-degrade-fond-blanc": {
+        "id": "vert-degrade-fond-blanc",
+        "label": "Degradado verde sobre blanco",
+        "hexes": [
+          "#09E6C7",
+          "#019686"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/roses/vert-degrade-fond-blanc-BMS-84x84.webp",
+                "alt": "Pañuelo Roses degradado verde sobre blanco en muselina"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Pieza única fabricada en Francia",
+      "Diseño original de la artista",
+      "Mantenimiento: Limpieza en seco recomendada"
+    ],
+    "metaDescription": "Pañuelo de seda Roses de Marjolène Lasne, colores de la Costa Azul."
+  },
+  {
+    "slug": "eclats-or",
+    "title": "Eclats d'Or",
+    "description": "Esta composición enérgica, con sus colores vivos, el tratamiento alargado de sus haces y las flores estilizadas, aporta vigor y dinamismo.",
+    "colors": {
+      "jaune-or": {
+        "id": "jaune-or",
+        "label": "Amarillo dorado",
+        "hexes": [
+          "#FFCA00",
+          "#FE9200"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64.webp",
+                "alt": "Pañuelo amarillo dorado en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Degradado rosa",
+        "hexes": [
+          "#F78DBE",
+          "#E01B68"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/rose-degrade-BMS-64x64.webp",
+                "alt": "Pañuelo degradado rosa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-orange-degrade": {
+        "id": "rose-orange-degrade",
+        "label": "Degradado rosa-naranja",
+        "hexes": [
+          "#FFA806",
+          "#F73AA7"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-vert-degrade": {
+        "id": "bleu-vert-degrade",
+        "label": "Degradado azul-verde",
+        "hexes": [
+          "#41F5E6",
+          "#279F94"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84.webp",
+                "alt": "Pañuelo degradado azul-verde en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Edición limitada"
+    ],
+    "metaDescription": "Pañuelo de edición limitada de Marjolène Lasne."
+  },
+  {
+    "slug": "coquelicots",
+    "title": "Coquelicots",
+    "description": "En esta composición diagonal, amapolas ligeras volando al viento se enfrentan sobre un fondo de campos dorados y cielo radiante.",
+    "colors": {
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Degradado azul turquesa",
+        "hexes": [
+          "#18BEEC",
+          "#13809D"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              },
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Degradado rosa",
+        "hexes": [
+          "#E11C6A",
+          "#F88CBE"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64.webp",
+                "alt": "Pañuelo degradado rosa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rouge-degrade-orange": {
+        "id": "rouge-degrade-orange",
+        "label": "Degradado rojo-naranja",
+        "hexes": [
+          "#EF1E10",
+          "#FFB409"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64.webp",
+                "alt": "Pañuelo degradado rojo-naranja en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Degradado rosa-naranja",
+        "hexes": [
+          "#ED1890",
+          "#FFA808"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "vert": {
+        "id": "vert",
+        "label": "Verde",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/longdesc/arc-en-ciel/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Pañuelo arcoíris en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "vert-degrade": {
+        "id": "vert-degrade",
+        "label": "Degradado verde",
+        "hexes": [
+          "#12D8BC",
+          "#019686"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BMS-84x84.webp",
+                "alt": "Pañuelo degradado verde en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rouge-degrade-rose": {
+        "id": "rouge-degrade-rose",
+        "label": "Degradado rojo-rosa",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/longdesc/arc-en-ciel/satin-de-soie-1.avif",
+                "alt": "Pañuelo arcoíris en satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Descripción larga de prueba",
+      "Múltiples tallas disponibles",
+      "Múltiples materiales"
+    ],
+    "metaDescription": "Pañuelo con descripción larga para prueba de interfaz."
+  },
+  {
+    "slug": "fleurs-de-porcelaine",
+    "title": "Fleurs de Porcelaine",
+    "description": "Sutiles volutas adornan esta composición cuyas flores y plantas de porcelana se destacan sobre un fondo amarillo dorado y rosa vibrante.",
+    "colors": {
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Degradado rosa-naranja",
+        "hexes": [
+          "#F64984",
+          "#FEB107"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rouge-degrade-orange": {
+        "id": "rouge-degrade-orange",
+        "label": "Degradado rojo-naranja",
+        "hexes": [
+          "#F03333",
+          "#FEB009"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84.webp",
+                "alt": "Pañuelo degradado rojo-naranja en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Degradado azul turquesa",
+        "hexes": [
+          "#0CE5D0",
+          "#2C9F94"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Prueba de múltiples colores y materiales",
+      "Visualización compleja"
+    ],
+    "metaDescription": "Pañuelo con múltiples colores y materiales."
+  },
+  {
+    "slug": "poisson",
+    "title": "Poisson",
+    "description": "Entre corales y flores acuáticas, dos peces se enfrentan en un degradado de azul ultramarino y turquesa.",
+    "colors": {
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Degradado azul turquesa",
+        "hexes": [
+          "#25D1F1",
+          "#15909D"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/poisson/bleu-turquoise-degrade-BMS-84x84.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-degrade": {
+        "id": "bleu-degrade",
+        "label": "Degradado azul",
+        "hexes": [
+          "#31D9FE",
+          "#002FE5"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84.webp",
+                "alt": "Pañuelo degradado azul en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "orange-degrade-sanguine": {
+        "id": "orange-degrade-sanguine",
+        "label": "Degradado naranja-sanguina",
+        "hexes": [
+          "#FAA01E",
+          "#EE3143"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84.webp",
+                "alt": "Pañuelo degradado naranja-sanguina en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "cerise": {
+        "id": "cerise",
+        "label": "Cereza",
+        "hexes": [
+          "#EF0A4D"
+        ],
+        "type": "solid",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/poisson/cerise-BMS-84x84.webp",
+                "alt": "Pañuelo cereza en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "jaune-orange-degrade": {
+      "id": "jaune-orange-degrade",
+      "label": "Degradado amarillo-naranja",
+      "hexes": [
+        "#FFA63B",
+        "#F85B03"
+      ],
+      "type": "gradient",
+      "materials": {
+        "mousseline-et-satin-de-soie": {
+          "id": "mousseline-et-satin-de-soie",
+          "label": "Muselina y satén de seda",
+          "images": [
+            {
+              "src": "/img/foulards/poisson/jaune-orange-degrade-BMS-84x84.webp",
+              "alt": "Pañuelo degradado amarillo-naranja en muselina y satén de seda"
+            }
+          ],
+          "sizes": [
+            {
+              "id": "84x84",
+              "label": "84×84 cm"
+            }
+          ]
+        }
+      }
+    },
+    "mentions": [
+      "Prueba de múltiples colores y materiales",
+      "Visualización compleja"
+    ],
+    "metaDescription": "Pañuelo con múltiples colores y materiales."
+  },
+  {
+    "slug": "herbes-folles",
+    "title": "Herbes Folles",
+    "description": "Un haz de hierbas silvestres, flores y gramíneas en una composición animada y dinámica.",
+    "colors": {
+      "brique": {
+        "id": "brique",
+        "label": "Ladrillo",
+        "hexes": [
+          "#B70F1C"
+        ],
+        "type": "solid",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/herbes-folles/brique-BMS-84x84.webp",
+                "alt": "Pañuelo rojo en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "orange-degrade-sanguine": {
+        "id": "orange-degrade-sanguine",
+        "label": "Degradado naranja-sanguina",
+        "hexes": [
+          "#F99323",
+          "#EE3143"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84.webp",
+                "alt": "Pañuelo degradado naranja-sanguina en satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "amethyste": {
+        "id": "amethyste",
+        "label": "Amatista",
+        "hexes": [
+          "#8E144D"
+        ],
+        "type": "solid",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84.webp",
+                "alt": "Pañuelo amatista en satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "lavande-degrade-clair": {
+        "id": "lavande-degrade-clair",
+        "label": "Degradado lavanda claro",
+        "hexes": [
+          "#33398D",
+          "#99C4E6"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84.webp",
+                "alt": "Pañuelo degradado lavanda claro en satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Prueba de múltiples colores y materiales",
+      "Visualización compleja"
+    ],
+    "metaDescription": "Pañuelo con múltiples colores y materiales."
+  },
+  {
+    "slug": "libellule",
+    "title": "Libellule",
+    "description": "En esta composición redondeada, libélulas se esconden entre flores en tonos naranja y rosa.",
+    "colors": {
+      "rose": {
+        "id": "rose",
+        "label": "Rosa",
+        "hexes": [
+          "#BD1479"
+        ],
+        "type": "solid",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84.webp",
+                "alt": "Pañuelo rosa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "vert": {
+        "id": "vert",
+        "label": "Verde",
+        "hexes": [
+          "#6BAE23"
+        ],
+        "type": "solid",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/libellule/vert-BMS-84x84.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Prueba de múltiples colores y materiales",
+      "Visualización compleja"
+    ],
+    "metaDescription": "Pañuelo con múltiples colores y materiales."
+  },
+  {
+    "slug": "paon",
+    "title": "Paon",
+    "description": "Un majestuoso pavo real se destaca entre un ramo de flores contra un cielo de atardecer.",
+    "colors": {
+      "vert": {
+        "id": "vert",
+        "label": "Verde",
+        "hexes": [
+          "#65B846"
+        ],
+        "type": "solid",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "corail-degrade": {
+        "id": "corail-degrade",
+        "label": "Degradado coral",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/multi/corail/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Pañuelo coral en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise": {
+        "id": "bleu-turquoise",
+        "label": "Azul turquesa",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Pañuelo azul turquesa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-violet": {
+        "id": "rose-degrade-violet",
+        "label": "Degradado rosa-violeta",
+        "hexes": [
+          "#E109CE",
+          "#A831F5"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/paon/rose-degrade-violet-BMS-84x84.webp",
+                "alt": "Pañuelo degradado rosa-violeta en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-prune": {
+        "id": "rose-degrade-prune",
+        "label": "Degradado rosa-ciruela",
+        "hexes": [
+          "#E00ACE",
+          "#A831F5"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84.webp",
+                "alt": "Pañuelo degradado rosa-ciruela en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Prueba de múltiples colores y materiales",
+      "Visualización compleja"
+    ],
+    "metaDescription": "Pañuelo con múltiples colores y materiales."
+  },
+  {
+    "slug": "spirales",
+    "title": "Spirales",
+    "description": "Una composición de curvas y volutas en armonías de azul, naranja y rosa.",
+    "colors": {
+      "lie-de-vin": {
+        "id": "lie-de-vin",
+        "label": "Borra de vino",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/multi/lie-de-vin/satin-de-soie-1.avif",
+                "alt": "Pañuelo borra de vino en satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Prueba de múltiples colores y materiales",
+      "Visualización compleja"
+    ],
+    "metaDescription": "Pañuelo con múltiples colores y materiales."
+  },
+  {
+    "slug": "mamma-del-mondo",
+    "title": "Mamma del Mondo",
+    "description": "En esta composición, mariquitas y tréboles de cuatro hojas se esconden entre las flores para rendir homenaje, en varios idiomas, a todas las madres del mundo.",
+    "colors": {
+      "rose-degrade-violet": {
+        "id": "rose-degrade-violet",
+        "label": "Degradado rosa-violeta",
+        "hexes": [
+          "#E90195",
+          "#9E0CAB"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64.webp",
+                "alt": "Pañuelo degradado rosa-violeta en satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Prueba de múltiples colores y materiales",
+      "Visualización compleja"
+    ],
+    "metaDescription": "Pañuelo con múltiples colores y materiales."
+  },
+  {
+    "slug": "courbes",
+    "title": "Courbes",
+    "description": "Sobre un fondo amarillo-naranja y rosa definido por una curva sinuosa, flores en tonos cálidos de rosa y violeta puntúan esta elegante composición.",
+    "colors": {
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Degradado rosa",
+        "hexes": [
+          "#F47AB5",
+          "#E71F72"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/courbes/rose-degrade-BMS-40x170.webp",
+                "alt": "Pañuelo degradado rosa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "vert-degrade": {
+        "id": "vert-degrade",
+        "label": "Degradado verde",
+        "hexes": [
+          "#039787",
+          "#06D8D3"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x170.webp",
+                "alt": "Pañuelo degradado verde en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "violet-degrade-rose": {
+        "id": "violet-degrade-rose",
+        "label": "Degradado violeta-rosa",
+        "hexes": [
+          "#CF0F87",
+          "#9F42AD"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x170.webp",
+                "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-outremer-degrade-lavande": {
+        "id": "bleu-outremer-degrade-lavande",
+        "label": "Degradado ultramarino-lavanda",
+        "hexes": [
+          "#4659E0",
+          "#8AA6F5"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-T-40x170.webp",
+                "alt": "Pañuelo degradado ultramarino-lavanda en satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Prueba de múltiples colores y materiales",
+      "Visualización compleja"
+    ],
+    "metaDescription": "Pañuelo con múltiples colores y materiales."
+  },
+  {
+    "slug": "printemps-en-couleurs",
+    "title": "Printemps en Couleurs",
+    "description": "A ambos lados de este pañuelo, graciosas amapolas se realzan con delicadas gramíneas.",
+    "colors": {
+      "vert-degrade-turquoise": {
+        "id": "vert-degrade-turquoise",
+        "label": "Degradado verde-turquesa",
+        "hexes": [
+          "#01BED7",
+          "#029485"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x170.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Degradado rosa-naranja",
+        "hexes": [
+          "#FFCA08",
+          "#EF238F"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x170.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "outremer-degrade-turquoise": {
+        "id": "outremer-degrade-turquoise",
+        "label": "Degradado ultramarino-turquesa",
+        "hexes": [
+          "#2DC3E2",
+          "#1556F8"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "alt": "Pañuelo ultramarino en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "alt": "Pañuelo ultramarino en satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Degradado azul turquesa",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Pañuelo azul turquesa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Prueba de múltiples colores y materiales",
+      "Visualización compleja"
+    ],
+    "metaDescription": "Pañuelo con múltiples colores y materiales."
+  },
+  {
+    "slug": "paysage-de-roussillon",
+    "title": "Paysage de Roussillon",
+    "description": "El pueblo de Roussillon, con sus hierbas silvestres en primer plano, adorna este pañuelo a ambos lados de su longitud y se destaca contra un cielo luminoso.",
+    "colors": {
+      "vert-degrade": {
+        "id": "vert-degrade",
+        "label": "Degradado verde",
+        "hexes": [
+          "#01BED7",
+          "#009384"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x170.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Degradado rosa-naranja",
+        "hexes": [
+          "#F03B44",
+          "#FC9701"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-et-T-40x170.webp",
+                "alt": "Pañuelo degradado rosa-naranja en satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          },
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-et-T-40x170.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rouge-degrade-orange": {
+        "id": "rouge-degrade-orange",
+        "label": "Degradado rojo-naranja",
+        "hexes": [
+          "#EF3A43",
+          "#FC9701"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-BMS-et-T-40x170.webp",
+                "alt": "Pañuelo degradado rojo-naranja en satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          },
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-BMS-et-T-40x170.webp",
+                "alt": "Pañuelo degradado rojo-naranja en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "outremer-degrade": {
+        "id": "outremer-degrade",
+        "label": "Degradado ultramarino",
+        "hexes": [
+          "#2FC2E2",
+          "#1556F8"
+        ],
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x170.webp",
+                "alt": "Pañuelo ultramarino en satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          },
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x170.webp",
+                "alt": "Pañuelo ultramarino en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Prueba de múltiples colores y materiales",
+      "Visualización compleja"
+    ],
+    "metaDescription": "Pañuelo con múltiples colores y materiales."
+  },
+  {
+    "slug": "fleurs-et-papillons",
+    "title": "Fleurs et Papillons",
+    "description": "En esta composición vertical, líneas sinuosas sostienen graciosas flores silvestres y lavanda, cuna de múltiples mariposas.",
+    "colors": {
+      "bleu-outremer-degrade-lavande": {
+        "id": "bleu-outremer-degrade-lavande",
+        "label": "Degradado ultramarino-lavanda",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Pañuelo ultramarino en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": " 40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "violet-rose-degrade": {
+        "id": "violet-rose-degrade",
+        "label": "Degradado violeta-rosa",
+        "hexes": [
+          "#B441AA",
+          "#F737AC"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x170.webp",
+                "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Degradado rosa-naranja",
+        "hexes": [
+          "#FFBE0E",
+          "#ED1892"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x170.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Degradado azul turquesa",
+        "hexes": [
+          "#208AC3",
+          "#1FD2F7"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x170.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Prueba de múltiples colores y materiales",
+      "Visualización compleja"
+    ],
+    "metaDescription": "Pañuelo con múltiples colores y materiales."
+  },
+  {
+    "slug": "oiseaux-exotiques",
+    "title": "Oiseaux Exotiques",
+    "description": "Aves exóticas de colores tornasolados danzan entre flores de porcelana y plantas tropicales.",
+    "colors": {
+      "vert-degrade-turquoise": {
+        "id": "vert-degrade-turquoise",
+        "label": "Degradado verde-turquesa",
+        "hexes": [
+          "#039787",
+          "#06D8D1"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x170.webp",
+                "alt": "Pañuelo degradado verde-turquesa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "lavande-degrade": {
+        "id": "lavande-degrade",
+        "label": "Degradado lavanda",
+        "hexes": [
+          "#8DA9FD",
+          "#495CE2"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x170.webp",
+                "alt": "Pañuelo degradado lavanda en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "jaune-degrade-rose": {
+        "id": "jaune-degrade-rose",
+        "label": "Degradado amarillo-rosa",
+        "hexes": [
+          "#FECC06",
+          "#EE228D"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x170.webp",
+                "alt": "Pañuelo degradado amarillo-rosa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "jaune-degrade-rouge": {
+        "id": "jaune-degrade-rouge",
+        "label": "Degradado amarillo-rojo",
+        "hexes": [
+          "#F21B3D",
+          "#FFB309"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x170.webp",
+                "alt": "Pañuelo degradado amarillo-rojo en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Degradado azul turquesa",
+        "hexes": [
+          "#30C8E7",
+          "#1C80BC"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x170.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-outremer-degrade-lavande": {
+        "id": "bleu-outremer-degrade-lavande",
+        "label": "Degradado ultramarino-lavanda",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Pañuelo ultramarino en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-outremer-degrade-turquoise": {
+        "id": "bleu-outremer-degrade-turquoise",
+        "label": "Degradado ultramarino-turquesa",
+        "hexes": [
+          "#2FC2E2",
+          "#1556F7"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "alt": "Pañuelo degradado ultramarino-turquesa en satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          },
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "alt": "Pañuelo degradado ultramarino-turquesa en muselina y satén de seda"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Prueba de múltiples colores y materiales",
+      "Visualización compleja"
+    ],
+    "metaDescription": "Pañuelo con múltiples colores y materiales."
+  }
+]

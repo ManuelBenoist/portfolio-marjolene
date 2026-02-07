@@ -1,0 +1,134 @@
+{
+  "title": "Aviso legal",
+  "lastUpdated": "Última actualización: 31/01/2026",
+  "disclaimer": "Esta traducción al español se proporciona únicamente a título informativo. En caso de discrepancia entre esta traducción y la versión francesa, prevalecerá la versión francesa.",
+  "intro": "De conformidad con las disposiciones de la Ley francesa n.° 2004-575 de 21 de junio de 2004 sobre la confianza en la economía digital (LCEN), se pone en conocimiento de los usuarios y visitantes de este sitio la siguiente información legal.",
+  "sections": [
+    {
+      "title": "1. Editor del sitio",
+      "content": [
+        { "type": "paragraph", "text": "Este sitio está publicado por:" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "label": "Nombre", "value": "Marjolène Lasne" },
+            { "label": "Condición", "value": "Pintora, empresaria individual (micro-entrepreneur)" },
+            { "label": "Dirección", "value": "{address}" },
+            { "label": "SIRET", "value": "3441744300061" },
+            { "label": "Teléfono", "value": "{phone}" },
+            { "label": "Email", "value": "{email}" }
+          ]
+        },
+        { "type": "paragraph", "text": "Directora de publicación: Marjolène Lasne", "class": "mt-4 text-sm text-gray-600" }
+      ]
+    },
+    {
+      "title": "2. Proveedor de alojamiento",
+      "content": [
+        { "type": "paragraph", "text": "El sitio está alojado por:" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "label": "Empresa", "value": "GitHub Inc." },
+            { "label": "Dirección", "value": "88 Colin P Kelly Jr St, San Francisco, CA 94107, Estados Unidos" },
+            { "value": "Alojamiento mediante GitHub Pages" },
+            { "label": "Sitio web", "value": "https://github.com", "link": true }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Propiedad intelectual",
+      "content": [
+        { "type": "paragraph", "text": "Todo el contenido de este sitio (textos, imágenes, fotografías, ilustraciones, obras artísticas, logotipos, iconos) es propiedad exclusiva de Marjolène Lasne, salvo indicación contraria." },
+        { "type": "paragraph", "text": "Las obras artísticas presentadas en este sitio están protegidas por derechos de autor de conformidad con el Código de Propiedad Intelectual francés (artículos L.111-1 y ss.)." },
+        { "type": "paragraph", "text": "Queda prohibida toda reproducción, representación, modificación, publicación o adaptación, total o parcial, de los elementos de este sitio, por cualquier medio o procedimiento, sin la autorización previa y por escrito de Marjolène Lasne." },
+        { "type": "paragraph", "text": "Todo uso no autorizado del sitio o de cualquiera de sus elementos se considerará constitutivo de infracción y será perseguido de conformidad con las disposiciones de los artículos L.335-2 y ss. del Código de Propiedad Intelectual francés." }
+      ]
+    },
+    {
+      "title": "4. Recogida de datos personales y RGPD",
+      "content": [
+        {
+          "type": "subsection",
+          "title": "4.1 Formulario de contacto",
+          "text": "Este sitio dispone de un formulario de contacto que permite a los visitantes enviar mensajes al editor. Los datos recogidos (nombre, dirección de correo electrónico, mensaje) se utilizan exclusivamente para responder a las consultas de los usuarios. Estos datos se procesan a través del servicio Formspree (Formspree, Inc.) y no se conservan más allá del tiempo necesario para tramitar la solicitud."
+        },
+        {
+          "type": "subsection",
+          "title": "4.2 Medición de audiencia",
+          "paragraphs": [
+            "Este sitio utiliza Google Analytics 4, un servicio de análisis de audiencia proporcionado por Google LLC. Este servicio utiliza cookies para recopilar información anónima sobre la navegación de los visitantes (páginas consultadas, duración de la visita, origen geográfico aproximado). Estos datos se utilizan con fines estadísticos para mejorar la experiencia del usuario.",
+            "De conformidad con el Reglamento General de Protección de Datos (RGPD), puede rechazar el uso de estas cookies mediante el banner de consentimiento mostrado en su primera visita."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "4.3 Sus derechos",
+          "text": "De conformidad con el RGPD y la Ley francesa de Protección de Datos de 6 de enero de 1978 (modificada), dispone de los siguientes derechos respecto a sus datos personales:",
+          "list": [
+            "Derecho de acceso",
+            "Derecho de rectificación",
+            "Derecho de supresión",
+            "Derecho a la limitación del tratamiento",
+            "Derecho a la portabilidad de los datos",
+            "Derecho de oposición"
+          ],
+          "footer": "Para ejercer estos derechos, puede contactar con el editor en la siguiente dirección de correo electrónico: {email}. En caso de litigio, puede presentar una reclamación ante la CNIL (Comisión Nacional de Informática y Libertades francesa)."
+        }
+      ]
+    },
+    {
+      "title": "5. Cookies",
+      "content": [
+        { "type": "paragraph", "text": "Este sitio utiliza cookies, en particular para el funcionamiento de Google Analytics 4. Una cookie es un pequeño archivo de texto almacenado en su dispositivo (ordenador, tableta, teléfono inteligente) cuando visita un sitio web." },
+        { "type": "paragraph", "text": "Puede configurar su navegador para rechazar las cookies o para que le avise cuando se almacene una cookie. El rechazo de cookies puede limitar ciertas funcionalidades del sitio." },
+        { "type": "paragraph", "text": "Para más información sobre la gestión de cookies, puede visitar el sitio web de la CNIL: {cnilCookiesLink}", "link": { "url": "https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser", "text": "https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser" } }
+      ]
+    },
+    {
+      "title": "6. Responsabilidad",
+      "content": [
+        { "type": "paragraph", "text": "El editor se esfuerza por proporcionar en este sitio información lo más precisa posible. Sin embargo, no puede considerarse responsable de omisiones, inexactitudes o deficiencias en las actualizaciones, ya sean imputables al propio editor o a socios terceros que proporcionan esta información." },
+        { "type": "paragraph", "text": "Toda la información presentada en este sitio se proporciona a título indicativo, no es exhaustiva y está sujeta a cambios." },
+        { "type": "paragraph", "text": "El editor no puede ser considerado responsable de ningún daño directo o indirecto causado al equipo del usuario al acceder al sitio, ya sea resultado del uso de equipos que no cumplen con las especificaciones técnicas requeridas, o de la aparición de un error de software o incompatibilidad." }
+      ]
+    },
+    {
+      "title": "7. Enlaces externos",
+      "content": [
+        { "type": "paragraph", "text": "Este sitio puede contener hiperenlaces a otros sitios web. El editor no ejerce ningún control sobre estos sitios y declina toda responsabilidad sobre su contenido o las prácticas de privacidad de estos terceros." },
+        { "type": "paragraph", "text": "La inclusión de estos enlaces no implica que el editor respalde el contenido de estos sitios. Se aconseja a los usuarios revisar las condiciones de uso y la política de privacidad de cada sitio externo visitado." }
+      ]
+    },
+    {
+      "title": "8. Contacto",
+      "content": [
+        { "type": "paragraph", "text": "Para cualquier pregunta relativa a este aviso legal o cualquier consulta sobre el sitio, puede contactar con el editor:" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "label": "Por email", "value": "{email}" },
+            { "label": "Por teléfono", "value": "{phone}" },
+            { "label": "Por correo postal", "value": "{address}" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "9. Legislación aplicable",
+      "content": [
+        { "type": "paragraph", "text": "Este aviso legal se rige por la legislación francesa. En caso de litigio, y tras un intento de resolución amistosa, los tribunales franceses serán los únicos competentes." }
+      ]
+    }
+  ],
+  "privacyLink": "Consulte también nuestra {link}.",
+  "privacyLinkText": "Política de privacidad",
+  "seo": {
+    "title": "Aviso legal",
+    "description": "Aviso legal del sitio web del portfolio de Marjolène Lasne, pintora."
+  }
+}

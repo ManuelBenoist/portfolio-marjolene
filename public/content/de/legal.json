@@ -1,0 +1,134 @@
+{
+  "title": "Impressum",
+  "lastUpdated": "Letzte Aktualisierung: 31.01.2026",
+  "disclaimer": "Diese deutsche Übersetzung dient nur zu Informationszwecken. Bei Abweichungen zwischen dieser Übersetzung und der französischen Fassung hat die französische Fassung Vorrang.",
+  "intro": "Gemäß den Bestimmungen des französischen Gesetzes Nr. 2004-575 vom 21. Juni 2004 über das Vertrauen in die digitale Wirtschaft (LCEN) werden den Nutzern und Besuchern dieser Website folgende rechtliche Informationen zur Kenntnis gebracht.",
+  "sections": [
+    {
+      "title": "1. Herausgeber der Website",
+      "content": [
+        { "type": "paragraph", "text": "Diese Website wird herausgegeben von:" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "label": "Name", "value": "Marjolène Lasne" },
+            { "label": "Status", "value": "Malerin, Einzelunternehmerin (Micro-Entrepreneur)" },
+            { "label": "Adresse", "value": "{address}" },
+            { "label": "SIRET", "value": "3441744300061" },
+            { "label": "Telefon", "value": "{phone}" },
+            { "label": "E-Mail", "value": "{email}" }
+          ]
+        },
+        { "type": "paragraph", "text": "Verantwortlich für die Veröffentlichung: Marjolène Lasne", "class": "mt-4 text-sm text-gray-600" }
+      ]
+    },
+    {
+      "title": "2. Hosting-Anbieter",
+      "content": [
+        { "type": "paragraph", "text": "Die Website wird gehostet von:" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "label": "Unternehmen", "value": "GitHub Inc." },
+            { "label": "Adresse", "value": "88 Colin P Kelly Jr St, San Francisco, CA 94107, Vereinigte Staaten" },
+            { "value": "Hosting über GitHub Pages" },
+            { "label": "Website", "value": "https://github.com", "link": true }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Geistiges Eigentum",
+      "content": [
+        { "type": "paragraph", "text": "Alle Inhalte dieser Website (Texte, Bilder, Fotografien, Illustrationen, Kunstwerke, Logos, Icons) sind ausschließliches Eigentum von Marjolène Lasne, sofern nicht anders angegeben." },
+        { "type": "paragraph", "text": "Die auf dieser Website präsentierten Kunstwerke sind durch das Urheberrecht gemäß dem französischen Gesetzbuch über geistiges Eigentum (Artikel L.111-1 ff.) geschützt." },
+        { "type": "paragraph", "text": "Jede Vervielfältigung, Darstellung, Änderung, Veröffentlichung oder Anpassung der Elemente dieser Website, ganz oder teilweise, durch jedes Mittel oder Verfahren, ist ohne vorherige schriftliche Genehmigung von Marjolène Lasne untersagt." },
+        { "type": "paragraph", "text": "Jede unbefugte Nutzung der Website oder eines ihrer Elemente gilt als Urheberrechtsverletzung und wird gemäß den Bestimmungen der Artikel L.335-2 ff. des französischen Gesetzbuchs über geistiges Eigentum verfolgt." }
+      ]
+    },
+    {
+      "title": "4. Erhebung personenbezogener Daten und DSGVO",
+      "content": [
+        {
+          "type": "subsection",
+          "title": "4.1 Kontaktformular",
+          "text": "Diese Website verfügt über ein Kontaktformular, mit dem Besucher dem Herausgeber Nachrichten senden können. Die erhobenen Daten (Name, E-Mail-Adresse, Nachricht) werden ausschließlich zur Beantwortung von Nutzeranfragen verwendet. Diese Daten werden über den Dienst Formspree (Formspree, Inc.) verarbeitet und nicht über die zur Bearbeitung der Anfrage erforderliche Zeit hinaus gespeichert."
+        },
+        {
+          "type": "subsection",
+          "title": "4.2 Reichweitenmessung",
+          "paragraphs": [
+            "Diese Website verwendet Google Analytics 4, einen Analysedienst von Google LLC. Dieser Dienst verwendet Cookies, um anonyme Informationen über das Surfverhalten der Besucher zu sammeln (aufgerufene Seiten, Besuchsdauer, ungefähre geografische Herkunft). Diese Daten werden zu statistischen Zwecken verwendet, um das Nutzererlebnis zu verbessern.",
+            "Gemäß der Datenschutz-Grundverordnung (DSGVO) können Sie die Verwendung dieser Cookies über das bei Ihrem ersten Besuch angezeigte Einwilligungsbanner ablehnen."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "4.3 Ihre Rechte",
+          "text": "Gemäß der DSGVO und dem französischen Datenschutzgesetz vom 6. Januar 1978 (in der geänderten Fassung) haben Sie folgende Rechte bezüglich Ihrer personenbezogenen Daten:",
+          "list": [
+            "Recht auf Auskunft",
+            "Recht auf Berichtigung",
+            "Recht auf Löschung",
+            "Recht auf Einschränkung der Verarbeitung",
+            "Recht auf Datenübertragbarkeit",
+            "Widerspruchsrecht"
+          ],
+          "footer": "Um diese Rechte auszuüben, können Sie den Herausgeber unter folgender E-Mail-Adresse kontaktieren: {email}. Im Streitfall können Sie eine Beschwerde bei der CNIL (Französische Nationale Datenschutzkommission) einreichen."
+        }
+      ]
+    },
+    {
+      "title": "5. Cookies",
+      "content": [
+        { "type": "paragraph", "text": "Diese Website verwendet Cookies, insbesondere für den Betrieb von Google Analytics 4. Ein Cookie ist eine kleine Textdatei, die auf Ihrem Gerät (Computer, Tablet, Smartphone) gespeichert wird, wenn Sie eine Website besuchen." },
+        { "type": "paragraph", "text": "Sie können Ihren Browser so konfigurieren, dass er Cookies ablehnt oder Sie benachrichtigt, wenn ein Cookie gespeichert wird. Das Ablehnen von Cookies kann bestimmte Funktionen der Website einschränken." },
+        { "type": "paragraph", "text": "Weitere Informationen zur Verwaltung von Cookies finden Sie auf der Website der CNIL: {cnilCookiesLink}", "link": { "url": "https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser", "text": "https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser" } }
+      ]
+    },
+    {
+      "title": "6. Haftung",
+      "content": [
+        { "type": "paragraph", "text": "Der Herausgeber bemüht sich, auf dieser Website möglichst genaue Informationen bereitzustellen. Er kann jedoch nicht für Auslassungen, Ungenauigkeiten oder Mängel bei Aktualisierungen haftbar gemacht werden, ob diese ihm oder Drittpartnern, die diese Informationen bereitstellen, zuzurechnen sind." },
+        { "type": "paragraph", "text": "Alle auf dieser Website dargestellten Informationen werden zu Informationszwecken bereitgestellt, sind nicht erschöpfend und können sich ändern." },
+        { "type": "paragraph", "text": "Der Herausgeber kann nicht für direkte oder indirekte Schäden haftbar gemacht werden, die der Ausrüstung des Nutzers beim Zugriff auf die Website entstehen, sei es durch die Verwendung von Geräten, die nicht den erforderlichen technischen Spezifikationen entsprechen, oder durch das Auftreten eines Fehlers oder einer Inkompatibilität." }
+      ]
+    },
+    {
+      "title": "7. Externe Links",
+      "content": [
+        { "type": "paragraph", "text": "Diese Website kann Hyperlinks zu anderen Websites enthalten. Der Herausgeber übt keine Kontrolle über diese Websites aus und lehnt jede Verantwortung für deren Inhalte oder die Datenschutzpraktiken dieser Dritten ab." },
+        { "type": "paragraph", "text": "Das Einfügen dieser Links bedeutet nicht, dass der Herausgeber die Inhalte dieser Websites billigt. Den Nutzern wird empfohlen, die Nutzungsbedingungen und die Datenschutzerklärung jeder besuchten externen Website zu überprüfen." }
+      ]
+    },
+    {
+      "title": "8. Kontakt",
+      "content": [
+        { "type": "paragraph", "text": "Bei Fragen zu diesem Impressum oder Anfragen zur Website können Sie den Herausgeber kontaktieren:" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "label": "Per E-Mail", "value": "{email}" },
+            { "label": "Per Telefon", "value": "{phone}" },
+            { "label": "Per Post", "value": "{address}" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "9. Anwendbares Recht",
+      "content": [
+        { "type": "paragraph", "text": "Dieses Impressum unterliegt dem französischen Recht. Im Streitfall und nach dem Versuch einer gütlichen Einigung sind ausschließlich die französischen Gerichte zuständig." }
+      ]
+    }
+  ],
+  "privacyLink": "Siehe auch unsere {link}.",
+  "privacyLinkText": "Datenschutzerklärung",
+  "seo": {
+    "title": "Impressum",
+    "description": "Impressum für die Portfolio-Website von Marjolène Lasne, Malerin."
+  }
+}

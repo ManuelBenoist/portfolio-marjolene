@@ -1,0 +1,258 @@
+{
+  "collections": {
+    "Scènes d'Intérieur": [
+      {
+        "slug": "diva-venitienne",
+        "title": "Diva Vénitienne",
+        "description": "Una orquesta con una Diva envuelta en rojo se destaca contra la arquitectura de un teatro barroco a través del cual se vislumbra la silueta de la Salute en Venecia.",
+        "dimensions": "80×80 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/scenes-d-interieur/diva_venitienne.webp"
+      },
+      {
+        "slug": "duo-au-piano",
+        "title": "Duo au piano",
+        "description": "Las siluetas de dos músicos contrastan con las formas de papeles encolados sutilmente realzados con oro.",
+        "dimensions": "20×20 cm",
+        "technique": "Técnica mixta",
+        "image": "/img/peintures/scenes-d-interieur/duo_au_piano.webp"
+      },
+      {
+        "slug": "confidences-des-deux-amies",
+        "title": "Confidences des deux amies",
+        "description": "Dos amigas charlan en el ambiente cálido de un café parisino.",
+        "dimensions": "46×38 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/scenes-d-interieur/confidences_des_deux_amies.webp"
+      },
+      {
+        "slug": "conversation-a-saint-germain-des-pres",
+        "title": "Conversation à Saint-Germain-des-Prés",
+        "description": "Este café en la esquina de la Rue de Buci en París crea reflejos y perspectivas en constante movimiento.",
+        "dimensions": "55×46 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/scenes-d-interieur/conversation_a_saint_germain_des_pres.webp"
+      },
+      {
+        "slug": "autour-d-un-verre-a-venise",
+        "title": "Autour d'un verre à Venise (diptyque)",
+        "description": "Una composición en díptico que evoca tanto el interior de un café barroco como una perspectiva sobre la Salute, el Támesis y las barcas venecianas.",
+        "dimensions": "55×46 cm ×2",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/scenes-d-interieur/autour_d'un_verre_a_venise_diptyque.webp"
+      },
+      {
+        "slug": "le-temps-suspendu",
+        "title": "Le Temps Suspendu",
+        "description": "Este lienzo representa el restaurante 'La Cigale' en Nantes con sus cerámicas decoradas con cigarras, su ornamentada decoración y espejos que crean reflejos artísticos.",
+        "dimensions": "92×73 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/scenes-d-interieur/le_temps_suspendu.webp"
+      }
+    ],
+    "Terrasses et Marchés": [
+      {
+        "slug": "pause-apéritive",
+        "title": "Pause Apéritive (diptyque)",
+        "description": "En esta composición en díptico, las armonías principales son azul y naranja, colores complementarios puntuados de blanco y sutiles matices de verde cálido.",
+        "dimensions": "30×60 cm ×2",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/terrasses-et-marches/pause_aperitive_diptyque.webp"
+      },
+      {
+        "slug": "terrasse-ombragee",
+        "title": "Terrasse Ombragée",
+        "description": "Un restaurante provenzal realzado con una fuente. El azul matizado de la fachada comercial contrasta con la fachada bañada por el sol en tonos naranjas, aportando calidez, vitalidad y energía al lienzo.",
+        "dimensions": "81×65 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/terrasses-et-marches/terrasse_ombragee.webp"
+      },
+      {
+        "slug": "detente-a-gordes",
+        "title": "Détente à Gordes",
+        "description": "Árboles majestuosos dominan la plaza de este restaurante en Gordes, creando juegos cambiantes de sombra y luz.",
+        "dimensions": "",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/terrasses-et-marches/detente_a_gordes.webp"
+      },
+      {
+        "slug": "la-marchande-de-legumes",
+        "title": "La Marchande de Légumes",
+        "description": "Sombrillas de colores parecen bailar y puntuar la composición. Las verduras de múltiples colores ocupan el primer plano del lienzo, formando una diagonal. Los personajes animan la escena.",
+        "dimensions": "",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/terrasses-et-marches/la_marchande_de_legumes.webp"
+      },
+      {
+        "slug": "en-terrasse-parmi-les-fleurs",
+        "title": "En Terrasse Parmi Les fleurs",
+        "description": "Una escena animada de la vida cotidiana. Terraza de café, camarero, flores y cielo azul. El conjunto en los colores tornasolados de Provenza.",
+        "dimensions": "",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/terrasses-et-marches/en_terrasse_parmi_les_fleurs.webp"
+      },
+      {
+        "slug": "a-la-terrasse-du-fournil",
+        "title": "À la Terrasse du Fournil",
+        "description": "Una escena de terraza de café que transita suavemente de la sombra a la luz.",
+        "dimensions": "73×50 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/terrasses-et-marches/a_la_terrasse_du_fournil.webp"
+      },
+      {
+        "slug": "pause-aperitive-au-soleil-provencal",
+        "title": "Pause Apéritive au Soleil Provençal",
+        "description": "Frutas de colores en un puesto del mercado junto a una terraza de café, bañadas en contrastantes matices de azul.",
+        "dimensions": "50×50 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/terrasses-et-marches/pause_aperitive_au_soleil_provencal.webp"
+      },
+      {
+        "slug": "promenade-d-ete-en-famille-a-roussillon",
+        "title": "Promenade d'été en famille à Roussillon",
+        "description": "Niños jugando con el agua de la fuente bajo la atenta mirada de los padres que disfrutan del momento en una terraza.",
+        "dimensions": "65×54 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/terrasses-et-marches/promenade_d_ete_en_famille_a_roussillon.webp"
+      },
+      {
+        "slug": "les-heures-douces-a-la-fontaine",
+        "title": "Les Heures Douces à la Fontaine",
+        "description": "Serenidad en una terraza con vista a campos de colores al murmullo de la fuente.",
+        "dimensions": "",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/terrasses-et-marches/les_heures_douces_a_la_fontaine.webp"
+      },
+      {
+        "slug": "detente-au-jardin",
+        "title": "Détente au Jardin",
+        "description": "Una comida familiar de verano en el jardín bajo las ramas protectoras de un tilo.",
+        "dimensions": "",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/terrasses-et-marches/detente_au_jardin.webp"
+      },
+      {
+        "slug": "le-marche-de-roussillon",
+        "title": "Le Marché de Roussillon",
+        "description": "Un mercado representado en colores cálidos con toques de diversos verdes luminosos en contraste.",
+        "dimensions": "30×30 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/terrasses-et-marches/le_marche_de_roussillon.webp"
+      }
+    ],
+    "Paysages": [
+      {
+        "slug": "roussillon-aux-fleurs-sauvages",
+        "title": "Roussillon aux fleurs sauvages",
+        "description": "Estallidos de toques coloridos volando al viento contrastan con el aspecto estático de las casas ocres de Roussillon.",
+        "dimensions": "50×50 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/paysages/roussillon_aux_fleurs_sauvages.webp"
+      },
+      {
+        "slug": "camargue-secrete",
+        "title": "Camargue Secrète",
+        "description": "Este lienzo trabajado con dinamismo, mediante pincel y espátula, es una sutil combinación de tonos fríos y cálidos. Las extensiones inundadas de la Camarga, en tonos azules, contrastan con un primer plano amarillo realzado con toques de rosa.",
+        "dimensions": "50×50 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/paysages/camargue_secrete.webp"
+      },
+      {
+        "slug": "reflets-emeraude",
+        "title": "Reflets Émeraude",
+        "description": "Un sutil contraste entre las aguas turquesas del canal y las fachadas ocre amarillas y naranjas de las casas.",
+        "dimensions": "40×80 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/paysages/reflets_emeraude.webp"
+      },
+      {
+        "slug": "symphonie-automnale",
+        "title": "Symphonie Automnale",
+        "description": "Pintado predominantemente en tonos cálidos de ciruela, naranja y amarillo, este lienzo se anima con sutiles toques de violeta y verde lima que aportan dinamismo a la composición.",
+        "dimensions": "20×20 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/paysages/symphonie_automnale.webp"
+      },
+      {
+        "slug": "paysage-pourpre-et-vermillon",
+        "title": "Paysage Pourpre et Vermillon",
+        "description": "Un primer plano de viñas con toques multicolores contrasta con áreas planas de rosa, bermellón y amarillo.",
+        "dimensions": "20×20 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/paysages/paysage_pourpre_et_vermillon.webp"
+      },
+      {
+        "slug": "roussillon_au_soleil_joyeux",
+        "title": "Roussillon au Soleil Joyeux",
+        "description": "En este lienzo de tonos cálidos amarillo, naranja y rojo, los efectos de textura con espátula puntúan la composición con su dinamismo.",
+        "dimensions": "",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/paysages/roussillon_au_soleil_joyeux.webp"
+      },
+      {
+        "slug": "printemps-à-bonnieux",
+        "title": "Printemps à Bonnieux",
+        "description": "Este lienzo evoca la primavera en Bonnieux, un pueblo del Luberon. Sus cerezos en flor contrastan con el primer plano trabajado con espátula en tonos amarillo, naranja y rojo.",
+        "dimensions": "60×60 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/paysages/printemps_a_bonnieux.webp"
+      },
+      {
+        "slug": "de-pourpre-et-d-azur",
+        "title": "De Pourpre et d'Azur",
+        "description": "El pueblo de Roussillon y su campanario son el tema de este lienzo. Las casas se representan en tonos amarillo, naranja y rojo rosado. Toques de verde simbolizan los árboles.",
+        "dimensions": "30×30 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/paysages/de_pourpre_et_d_azur.webp"
+      },
+      {
+        "slug": "les-vignes-de-bonnieux",
+        "title": "Les Vignes de Bonnieux",
+        "description": "En este lienzo, una diagonal puntúa la composición, separando una zona plana amarilla de las viñas representadas con toques multicolores.",
+        "dimensions": "80×80 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/paysages/les_vignes_de_bonnieux.webp"
+      },
+      {
+        "slug": "gordes-aux-iris",
+        "title": "Gordes aux Iris",
+        "description": "Iris con su follaje se alzan dinámicamente en primer plano. Las piedras blancas del pueblo y los campos dorados aparecen en el fondo contrastante.",
+        "dimensions": "50×50 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/paysages/gordes_aux_iris.webp"
+      },
+      {
+        "slug": "dune-dans-le-vent",
+        "title": "Dune dans le Vent",
+        "description": "Trabajado con espátula y pigmentos para efectos de textura y materia, este lienzo ofrece degradados de naranja-amarillo y azul-verde que dan una impresión de espacio e infinito.",
+        "dimensions": "73×60 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/paysages/dune_dans_le_vent.webp"
+      },
+      {
+        "slug": "parfums-secrets-de-provence",
+        "title": "Parfums Secrets de Provence",
+        "description": "En este lienzo, la ligereza de las viñas representadas con toques multicolores contrasta con las áreas planas de campos de colores y tres árboles en tonos rosa desvaídos. Dos figuras vestidas de blanco animan la escena en el corazón del viñedo.",
+        "dimensions": "73×60 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/paysages/parfums_secrets_de_provence.webp"
+      },
+      {
+        "slug": "champs-d-herbes-sauvages",
+        "title": "Champs d'Herbes Sauvages",
+        "description": "Este lienzo luminoso de tonos cálidos dominantes se distingue por sus rojos y amarillos vibrantes mientras que toques coloridos subrayan la verticalidad de las hierbas silvestres en primer plano.",
+        "dimensions": "65×54 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/paysages/champs_d_herbes_sauvages.webp"
+      },
+      {
+        "slug": "paysage-pourpre-et-vermillon-au-soleil-couchant",
+        "title": "Paysage Pourpre et Vermillon au Soleil Couchant",
+        "description": "En este lienzo de tonos predominantemente cálidos, una diagonal subrayada por toques coloridos puntuados de rosa aporta dinamismo a la composición.",
+        "dimensions": "20×20 cm",
+        "technique": "Óleo sobre lienzo",
+        "image": "/img/peintures/paysages/paysage_pourpre_et_vermillon_au_soleil_couchant.webp"
+      }
+    ]
+  }
+}

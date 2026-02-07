@@ -1,0 +1,214 @@
+{
+  "home": {
+    "srTitle": "Marjolene Lasne – Pintora",
+    "logoAlt": "Marjolène Lasne",
+    "menuItems": [
+      {
+        "label": "La Artista",
+        "path": "/artiste",
+        "image": "/img/accueil/Marjolène-Lasne.webp"
+      },
+      {
+        "label": "Pinturas",
+        "path": "/peintures",
+        "image": "/img/accueil/en_terrasse_parmi_les_fleurs.webp"
+      },
+      {
+        "label": "Pañuelos",
+        "path": "/foulards",
+        "image": "/img/accueil/rose-degrade-orange-BMS-84x84.webp"
+      },
+      {
+        "label": "Otras actividades",
+        "path": "/autres-activites",
+        "image": "/img/accueil/gites_illu.webp"
+      },
+      {
+        "label": "Contacto",
+        "path": "/contact",
+        "image": "/img/accueil/gordes_aux_iris.webp"
+      }
+    ],
+    "imageAltPrefix": "Imagen de",
+    "imageAltDefault": "Obra de Marjolène Lasne",
+    "seo": {
+      "title": "Marjolene Lasne – Pintora",
+      "description": "Portfolio de Marjolene Lasne, pintora en Provenza. Pinturas originales, pañuelos de seda y universo artístico."
+    }
+  },
+  "artist": {
+    "title": "La Artista",
+    "subtitle": "Descubra el recorrido y la pasión de Marjolène Lasne, pintora francesa inspirada por la luz mediterránea y la belleza del sur de Francia.",
+    "timelineTitle": "Trayectoria y formación",
+    "quotes": [
+      {
+        "quote": "¡El color es soberano, las armonías contrastadas y la ejecución sabrosa! Marjolène Lasne tiene el don de exaltar la musicalidad de los tonos, de iluminar paisajes y personajes con su pincelada alerta y vibrante. Bellamente escenificadas, sus composiciones evocan momentos fugaces llenos de encanto y quietud. ¡Viva y jubilosa, su paleta es única!",
+        "author": "Gwénaëlle de Carné",
+        "role": "Crítica de Arte"
+      },
+      {
+        "quote": "Inspirada por lo cotidiano que capta con el cuaderno de bocetos en mano, esta artista reproduce escenas de la vida con una paleta de notas alegres. Esta alquimia colorida y armoniosa cuenta con los contrastes de color y materia para estigmatizar la composición. La escritura alerta revela las actitudes de los personajes, en el mercado o el café, en el concierto o la playa. Respetuosa de los ambientes, Marjolène Lasne juega con los volúmenes y las arquitecturas para dar un carácter panorámico a su obra, con una cualidad espacial para las orquestas cuyas siluetas se recortan sobre un fondo intemporal.",
+        "author": "Thierry Sznytka",
+        "role": "Crítico de Arte",
+        "source": "En ARTS ACTUALITÉS MAGAZINE – Edición especial enero 2006"
+      }
+    ],
+    "timeline": {
+      "personalExhibitions": "Exposiciones personales",
+      "shows": "Salones",
+      "awards": "Premios",
+      "noData": "No hay datos para este periodo.",
+      "preparing": "Cronología en preparación."
+    },
+    "seo": {
+      "title": "La Artista – Marjolene Lasne",
+      "description": "Biografía de Marjolene Lasne, pintora en Provenza, y presentación de su taller en Roussillon."
+    },
+    "breadcrumb": {
+      "home": "Inicio",
+      "current": "La Artista"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Para cualquier pregunta o pedido, rellene el formulario a continuación.",
+    "infoTitle": "Información",
+    "labels": {
+      "email": "Email",
+      "phone": "Teléfono",
+      "studioAddress": "Dirección del taller",
+      "visitByAppointment": "(Visitas solo con cita previa)"
+    },
+    "mapTitle": "Taller – Galería Marjolène LASNE en Roussillon",
+    "form": {
+      "lastName": "Apellido",
+      "firstName": "Nombre",
+      "email": "Email",
+      "subject": "Asunto",
+      "subjectPlaceholder": "Seleccione un asunto",
+      "subjectOptions": {
+        "general": "Consulta general",
+        "order": "Pedido",
+        "workInfo": "Información sobre una obra",
+        "other": "Otro"
+      },
+      "message": "Mensaje",
+      "send": "Enviar mensaje",
+      "sendAriaLabel": "Enviar mensaje de contacto",
+      "sending": "Enviando...",
+      "required": "*"
+    },
+    "success": "Gracias, su mensaje ha sido enviado correctamente.",
+    "errors": {
+      "title": "Ha ocurrido un error",
+      "requiredFields": "Por favor, rellene todos los campos del formulario antes de enviar su mensaje.",
+      "unknown": "Error desconocido en el formulario.",
+      "generic": "Ha ocurrido un error, por favor inténtelo de nuevo.",
+      "network": "Ha ocurrido un error de conexión. Por favor, compruebe su red."
+    },
+    "prefill": {
+      "greeting": "Buenos días,",
+      "closing": "Atentamente,",
+      "paintingRequest": "Me gustaría obtener información sobre la obra « {title} »{technique}.",
+      "paintingTechniqueFormat": " ({technique})",
+      "scarfRequest": "Me gustaría obtener información sobre el pañuelo « {product} »{details}.",
+      "scarfDetailsFormat": " ({details})",
+      "scarfColor": "color {color}",
+      "scarfSize": "talla {size}",
+      "scarfMaterial": "material {material}",
+      "activityRequest": "Me gustaría obtener información sobre la actividad « {activity} ».",
+      "artistRequest": "Me gustaría contactar con la artista Marjolène Lasne."
+    },
+    "formspreeSubject": "Contacto Marjolène Lasne: {subject}",
+    "seo": {
+      "title": "Contacto – Marjolene Lasne",
+      "description": "Contacte con Marjolene Lasne para cualquier consulta sobre sus pinturas, pañuelos de seda o para planificar una visita al taller en Provenza."
+    },
+    "breadcrumb": {
+      "home": "Inicio",
+      "current": "Contacto"
+    }
+  },
+  "activities": {
+    "title": "Otras actividades",
+    "subtitle": "Marjolène Lasne amplía su universo artístico ofreciendo diversas actividades además de la pintura.",
+    "buttons": {
+      "gites": "Descubrir los alojamientos",
+      "default": "Contactar con la artista"
+    },
+    "seo": {
+      "title": "Otras actividades – Marjolene Lasne",
+      "description": "Descubra las otras actividades de Marjolene Lasne: talleres, diseño textil, encargos y alojamientos en Provenza."
+    },
+    "breadcrumb": {
+      "home": "Inicio",
+      "current": "Otras actividades"
+    }
+  },
+  "paintings": {
+    "title": "Pinturas",
+    "subtitle": "Descubra una selección de obras originales de Marjolène Lasne, inspiradas por los paisajes, las escenas cotidianas y la atmósfera del Sur.",
+    "loading": "Cargando pinturas...",
+    "emptyState": "Ninguna pintura corresponde a su selección.",
+    "filters": {
+      "collections": "Colecciones",
+      "techniques": "Técnicas",
+      "all": "Todas"
+    },
+    "detail": {
+      "backToGallery": "Volver a la galería",
+      "collectionPrefix": "Colección",
+      "dimensions": "Dimensiones",
+      "technique": "Técnica",
+      "questionCta": "¿Tiene alguna pregunta?",
+      "loading": "Cargando obra…",
+      "notFound": "Pintura no encontrada.",
+      "previousPainting": "Pintura anterior",
+      "nextPainting": "Pintura siguiente",
+      "collectionStart": "Inicio de la colección",
+      "collectionEnd": "Fin de la colección",
+      "fallbackDescription": "Descubra una obra original de Marjolène Lasne.",
+      "imageAlt": "Pintura {title}",
+      "previousAriaLabel": "Ver la pintura anterior: {title}",
+      "nextAriaLabel": "Ver la pintura siguiente: {title}"
+    },
+    "seo": {
+      "title": "Pinturas – Marjolene Lasne",
+      "description": "Galería de pinturas originales de Marjolene Lasne, inspiradas por Provenza, las escenas cotidianas y los paisajes."
+    },
+    "breadcrumb": {
+      "home": "Inicio",
+      "current": "Pinturas"
+    }
+  },
+  "scarves": {
+    "title": "Pañuelos",
+    "subtitle": "Descubra la colección de pañuelos de seda de Marjolène Lasne, fabricados en Francia en edición limitada.",
+    "loading": "Cargando pañuelos...",
+    "emptyState": "Ningún pañuelo disponible en este momento.",
+    "detail": {
+      "backToScarves": "Volver a los pañuelos",
+      "backAriaLabel": "Volver a los pañuelos",
+      "enlargeImageAriaLabel": "Ampliar imagen de {title}",
+      "enlargeImageIndexAriaLabel": "Ampliar imagen {index}",
+      "imageViewAlt": "{title} – vista {index}",
+      "color": "Color",
+      "material": "Material",
+      "size": "Talla",
+      "contactArtist": "Contactar con la artista",
+      "contactAriaLabel": "Contactar con la artista sobre este pañuelo",
+      "loading": "Cargando pañuelo…",
+      "notFound": "Pañuelo no encontrado.",
+      "backToCollection": "Volver a la colección",
+      "fallbackDescription": "Descubra un pañuelo único de Marjolène Lasne."
+    },
+    "seo": {
+      "title": "Pañuelos – Marjolene Lasne",
+      "description": "Descubra los pañuelos de seda de Marjolene Lasne, piezas únicas fabricadas en Francia."
+    },
+    "breadcrumb": {
+      "home": "Inicio",
+      "current": "Pañuelos"
+    }
+  }
+}

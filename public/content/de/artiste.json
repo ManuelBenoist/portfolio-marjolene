@@ -1,0 +1,26 @@
+{
+  "biography": {
+    "title": "Biografie",
+    "image": "/img/artiste/Marjolène-Lasne.webp",
+    "caption": "Marjolène Lasne, ihre Pinsel und ihre Staffelei",
+    "position": "left",
+    "paragraphs": [
+      "Marjolène Lasne, Absolventin der Pariser Architekturschule Paris-Conflans, war zunächst fünf Jahre lang als Architektin tätig. Diese Ausbildung hat ihren Blick, ihr Gefühl für Volumen und Komposition nachhaltig geprägt.",
+      "Danach widmete sie sich ganz der Malerei. Seit 1984 werden ihre Werke regelmäßig in Galerien ausgestellt und befinden sich in Privatsammlungen in Frankreich und im Ausland."
+    ],
+    "sub_paragraphs": [
+      "In Roussillon, im Herzen der Provence ansässig, schafft sie Ölgemälde, Acrylbilder und Aquarelle in leuchtenden, schimmernden Farben, inspiriert von den Landschaften und dem Licht Südfrankreichs.",
+      "Aus ihren Aquarellen gestaltet sie auch Seidentücher, die in Frankreich in limitierter Auflage gedruckt werden. Jedes Design erweitert ihr malerisches Universum und bietet eine andere Art, ihre Malerei zu tragen."
+    ]
+  },
+  "studio": {
+    "title": "Atelier und Ausstellungsraum",
+    "image": "/img/autres-activites/commandes_visites_illu.webp",
+    "caption": "Marjolènes Atelier in Roussillon",
+    "position": "right",
+    "paragraphs": [
+      "Im Herzen des Dorfes Roussillon, im Luberon, empfängt Sie Marjolène Lasne in ihrem Atelier.",
+      "Ihre neuesten Gemälde werden nur wenige Schritte von ihrem Atelier entfernt im Kollektiv der Künstler von Roussillon ausgestellt, zusammen mit anderen Malern und Bildhauern. Dieser Ausstellungsraum ermöglicht es Ihnen, ihre Originalwerke in einem authentischen und lichtdurchfluteten Ambiente zu entdecken, direkt verbunden mit der provenzalischen Umgebung, die ihre Palette inspiriert."
+    ]
+  }
+}

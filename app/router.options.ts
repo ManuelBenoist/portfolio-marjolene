@@ -1,5 +1,11 @@
 import type { RouterConfig } from '@nuxt/schema'
 
+// Matches /peintures or /xx/peintures (where xx is a locale prefix)
+const peinturesPattern = /^(\/[a-z]{2})?\/peintures$/
+const peinturesDetailPattern = /^(\/[a-z]{2})?\/peintures\//
+const foulardsPattern = /^(\/[a-z]{2})?\/foulards$/
+const foulardsDetailPattern = /^(\/[a-z]{2})?\/foulards\//
+
 // Custom scroll behavior to handle gallery state restoration
 export default <RouterConfig>{
   scrollBehavior(to, from, savedPosition) {
@@ -10,7 +16,7 @@ export default <RouterConfig>{
 
     // Check if we're navigating to the paintings gallery from a detail page
     // and have an active slug to restore
-    if (to.path === '/peintures' && from?.path?.startsWith('/peintures/')) {
+    if (peinturesPattern.test(to.path) && from?.path && peinturesDetailPattern.test(from.path)) {
       const activePaintingSlug = useState<string>('peintures-active-slug')
       
       if (activePaintingSlug.value) {
@@ -21,7 +27,7 @@ export default <RouterConfig>{
     }
 
     // Check if we're navigating to the foulards gallery from a detail page
-    if (to.path === '/foulards' && from?.path?.startsWith('/foulards/')) {
+    if (foulardsPattern.test(to.path) && from?.path && foulardsDetailPattern.test(from.path)) {
       const activeFoulardSlug = useState<string>('foulards-active-slug')
       
       if (activeFoulardSlug.value) {

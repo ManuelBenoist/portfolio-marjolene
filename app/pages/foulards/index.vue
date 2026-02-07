@@ -1,10 +1,10 @@
 <template>
-  <div v-if="pageContent" class="max-w-[72rem] mx-auto px-6 py-12">
+  <div class="max-w-[72rem] mx-auto px-6 py-12">
     <div>
       <!-- Page Header -->
       <SectionTitle 
-          :title="pageContent.title"
-          :subtitle="pageContent.subtitle"
+          :title="$t('scarves.title')"
+          :subtitle="$t('scarves.subtitle')"
         />
 
         <!-- Separator -->
@@ -12,7 +12,7 @@
 
         <!-- Loading state -->
         <div v-if="pending" class="text-center py-12">
-          <p class="text-[#4A5565]">{{ pageContent.loading }}</p>
+          <p class="text-[#4A5565]">{{ $t('scarves.loading') }}</p>
         </div>
 
         <!-- Gallery -->
@@ -22,7 +22,7 @@
           </div>
 
           <div v-else class="text-center py-12">
-            <p class="text-[#4A5565]">{{ pageContent.emptyState }}</p>
+            <p class="text-[#4A5565]">{{ $t('scarves.emptyState') }}</p>
           </div>
         </template>
     </div>
@@ -36,10 +36,11 @@ import FoulardGrid from '~/components/FoulardGrid.vue'
 import { useSiteUrl } from '~/composables/useSiteUrl'
 import { useContent } from '~/composables/useContent'
 
+const { t } = useI18n()
+const localePath = useLocalePath()
+
 // Fetch raw data
 const { data: rawFoulards, pending } = await useContent<RawFoulard[]>('foulards.json')
-const { data: pages } = await useContent('pages.json')
-const pageContent = computed(() => pages.value?.scarves)
 
 // Gallery state for scroll restoration
 const { activeFoulardSlug } = useGalleryState()
@@ -99,8 +100,8 @@ const foulardsForGrid = computed(() => {
 })
 
 const { siteUrl, withSiteUrl } = useSiteUrl()
-const metaTitle = computed(() => pageContent.value?.seo?.title || '')
-const metaDescription = computed(() => pageContent.value?.seo?.description || '')
+const metaTitle = computed(() => t('scarves.seo.title'))
+const metaDescription = computed(() => t('scarves.seo.description'))
 const metaImage = computed(() => {
   const firstFoulard = rawFoulards.value?.[0]
   const firstColor = firstFoulard ? Object.values(firstFoulard.colors)[0] : null
@@ -131,14 +132,14 @@ const breadcrumbSchema = computed(() => {
       {
         '@type': 'ListItem',
         position: 1,
-        name: pageContent.value?.breadcrumb?.home || 'Accueil',
+        name: t('scarves.breadcrumb.home'),
         item: siteUrl,
       },
       {
         '@type': 'ListItem',
         position: 2,
-        name: pageContent.value?.breadcrumb?.current || 'Foulards',
-        item: withSiteUrl('/foulards'),
+        name: t('scarves.breadcrumb.current'),
+        item: withSiteUrl(localePath('/foulards')),
       },
     ],
   }

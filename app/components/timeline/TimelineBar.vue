@@ -7,7 +7,7 @@
         type="button"
         class="flex h-8 w-8 items-center justify-center rounded-full text-[#2E3D8B] transition-colors hover:text-[#C94E54] disabled:opacity-40"
         :disabled="isAtStart"
-        :aria-label="common?.actions?.previous"
+        :aria-label="$t('actions.previous')"
         @click="emitPrev"
       >
         <svg viewBox="0 0 24 24" class="h-5 w-5 rotate-180" fill="none" stroke="currentColor" stroke-width="2">
@@ -19,7 +19,7 @@
         type="button"
         class="flex h-8 w-8 items-center justify-center rounded-full text-[#2E3D8B] transition-colors hover:text-[#C94E54] disabled:opacity-40"
         :disabled="isAtEnd"
-        :aria-label="common?.actions?.next"
+        :aria-label="$t('actions.next')"
         @click="emitNext"
       >
         <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2">
@@ -91,9 +91,6 @@
 
 <script lang="ts" setup>
 import { ref, computed, watch, nextTick, onMounted, onBeforeUnmount } from 'vue'
-
-const { data: commonData } = await useContent<Record<string, any>>('common.json')
-const common = computed(() => commonData.value)
 
 const props = defineProps<{
   dates: string[]

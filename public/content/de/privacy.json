@@ -1,0 +1,144 @@
+{
+  "title": "Datenschutzerklärung",
+  "lastUpdated": "Letzte Aktualisierung: 31.01.2026",
+  "disclaimer": "Diese deutsche Übersetzung dient nur zu Informationszwecken. Bei Abweichungen zwischen dieser Übersetzung und der französischen Fassung hat die französische Fassung Vorrang.",
+  "intro": "Zweck dieser Datenschutzerklärung ist es, die Nutzer dieser Website darüber zu informieren, wie ihre personenbezogenen Daten erhoben und verarbeitet werden, in Übereinstimmung mit der Datenschutz-Grundverordnung (DSGVO) und dem französischen Datenschutzgesetz (in der geänderten Fassung).",
+  "sections": [
+    {
+      "title": "1. Verantwortlicher für die Datenverarbeitung",
+      "content": [
+        { "type": "paragraph", "text": "Die auf dieser Website erhobenen personenbezogenen Daten werden verarbeitet von:" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "label": "Name", "value": "Marjolène Lasne" },
+            { "label": "Status", "value": "Malerin, Einzelunternehmerin (Micro-Entrepreneur)" },
+            { "label": "Adresse", "value": "{address}" },
+            { "label": "SIRET", "value": "3441744300061" },
+            { "label": "DSGVO-Kontakt-E-Mail", "value": "{email}" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Erhobene personenbezogene Daten",
+      "content": [
+        { "type": "paragraph", "text": "Bei der Nutzung dieser Website können verschiedene Kategorien personenbezogener Daten erhoben werden:" },
+        {
+          "type": "subsection",
+          "title": "2.1 Über das Kontaktformular erhobene Daten",
+          "text": "Bei Nutzung des Kontaktformulars werden folgende Daten erhoben:",
+          "list": [
+            "Nachname und/oder Vorname",
+            "E-Mail-Adresse",
+            "Nachrichteninhalt"
+          ],
+          "footer": "Diese Daten werden auf freiwilliger Basis erhoben und nur verarbeitet, wenn Sie sich entscheiden, das Formular abzusenden."
+        },
+        {
+          "type": "subsection",
+          "title": "2.2 Surf- und Analysedaten",
+          "text": "Vorbehaltlich Ihrer Zustimmung können anonymisierte Surfdaten über Google Analytics erhoben werden (aufgerufene Seiten, Besuchsdauer, Gerätetyp, ungefährer Standort)."
+        },
+        {
+          "type": "subsection",
+          "title": "2.3 Technische Hosting-Daten",
+          "text": "Der Website-Host (GitHub Pages) kann im Rahmen der Bereitstellung des Hosting-Dienstes und zu Sicherheitszwecken automatisch bestimmte technische Daten wie IP-Adressen der Besucher erfassen."
+        }
+      ]
+    },
+    {
+      "title": "3. Zweck der Verarbeitung",
+      "content": [
+        { "type": "paragraph", "text": "Die erhobenen Daten werden für folgende Zwecke verwendet:" },
+        {
+          "type": "list",
+          "style": "disc",
+          "items": [
+            "Beantwortung von über das Kontaktformular gesendeten Nachrichten",
+            "Messung der Website-Reichweite und Verbesserung ihres Betriebs",
+            "Gewährleistung der Sicherheit und ordnungsgemäßen Funktion der Website"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Datenempfänger",
+      "content": [
+        { "type": "paragraph", "text": "Ihre personenbezogenen Daten können von folgenden technischen Dienstleistern verarbeitet werden:" },
+        {
+          "type": "list",
+          "style": "disc",
+          "items": [
+            { "bold": "Formspree, Inc.", "text": " (Verarbeitung des Kontaktformulars)" },
+            { "bold": "Google LLC", "text": " (Google Analytics 4 – Reichweitenmessung)" },
+            { "bold": "GitHub, Inc.", "text": " (Website-Hosting über GitHub Pages)" }
+          ]
+        },
+        { "type": "paragraph", "text": "Ihre Daten werden niemals an Dritte verkauft oder vermietet. Sie werden nicht an andere kommerzielle Unternehmen zu Werbe- oder Marketingzwecken weitergegeben." }
+      ]
+    },
+    {
+      "title": "5. Datenübermittlungen außerhalb der Europäischen Union",
+      "content": [
+        { "type": "paragraph", "text": "Einige der erhobenen Daten können im Rahmen der Nutzung der Dienste Formspree, Google Analytics und GitHub Pages in Länder außerhalb der Europäischen Union, insbesondere die Vereinigten Staaten, übermittelt werden." },
+        { "type": "paragraph", "text": "Diese Übermittlungen unterliegen DSGVO-konformen Schutzmaßnahmen (Standardvertragsklauseln oder von der Europäischen Kommission anerkannte Mechanismen)." }
+      ]
+    },
+    {
+      "title": "6. Aufbewahrungsdauer der Daten",
+      "content": [
+        { "type": "paragraph", "text": "Daten aus dem Kontaktformular werden nur für die zur Bearbeitung der Anfrage erforderliche Zeit aufbewahrt. Reichweitenmessungsdaten werden für einen maximalen Zeitraum von 14 Monaten aufbewahrt." }
+      ]
+    },
+    {
+      "title": "7. Cookies",
+      "content": [
+        { "type": "paragraph", "text": "Gemäß Artikel 82 des französischen Datenschutzgesetzes und den CNIL-Empfehlungen werden Reichweitenmessungs-Cookies (Google Analytics) erst nach Einholung Ihrer ausdrücklichen Einwilligung gesetzt." },
+        { "type": "paragraph", "text": "Bei Ihrem ersten Besuch auf der Website informiert Sie ein Banner über das Vorhandensein dieser Cookies und ermöglicht es Ihnen, diese zu akzeptieren oder abzulehnen." },
+        { "type": "paragraph", "text": "Die Ablehnung von Analyse-Cookies hat keinen Einfluss auf Ihr Surferlebnis auf der Website.", "class": "text-sm text-gray-600" }
+      ]
+    },
+    {
+      "title": "8. Ihre Rechte",
+      "content": [
+        { "type": "paragraph", "text": "Gemäß der DSGVO (Artikel 15 bis 22) und dem französischen Datenschutzgesetz haben Sie folgende Rechte bezüglich Ihrer personenbezogenen Daten: Auskunft, Berichtigung, Löschung, Einschränkung, Widerspruch und Übertragbarkeit." },
+        { "type": "paragraph", "text": "Um eines dieser Rechte auszuüben, können Sie Ihre Anfrage per E-Mail senden an: {email}" }
+      ]
+    },
+    {
+      "title": "9. Schutz Minderjähriger",
+      "content": [
+        { "type": "paragraph", "text": "Diese Website richtet sich nicht speziell an Minderjährige und erhebt nicht wissentlich personenbezogene Daten von Personen unter 16 Jahren." }
+      ]
+    },
+    {
+      "title": "10. Änderungen dieser Datenschutzerklärung",
+      "content": [
+        { "type": "paragraph", "text": "Diese Datenschutzerklärung kann jederzeit aktualisiert werden, um rechtlichen, regulatorischen oder technischen Entwicklungen Rechnung zu tragen oder bei Änderungen der Datenerhebungs- und -verarbeitungsverfahren." },
+        { "type": "paragraph", "text": "Das Datum der letzten Aktualisierung ist oben in diesem Dokument angegeben." }
+      ]
+    },
+    {
+      "title": "11. Kontakt",
+      "content": [
+        { "type": "paragraph", "text": "Bei Fragen zu dieser Datenschutzerklärung oder Anfragen zu Ihren personenbezogenen Daten können Sie uns kontaktieren:" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "label": "Per E-Mail", "value": "{email}" },
+            { "label": "Per Post", "value": "Marjolène Lasne – {address}" }
+          ]
+        }
+      ]
+    }
+  ],
+  "legalLink": "Siehe auch unser {link}.",
+  "legalLinkText": "Impressum",
+  "seo": {
+    "title": "Datenschutzerklärung",
+    "description": "Datenschutzerklärung und Verwaltung personenbezogener Daten in Übereinstimmung mit der DSGVO und den CNIL-Empfehlungen."
+  }
+}
