@@ -120,27 +120,27 @@ const menuItems = [
   { 
     label: "L'Artiste", 
     path: '/artiste', 
-    image: '/img/foulards/foulard-marjo-vert.avif' 
+    image: '/img/accueil/Marjolène-Lasne.webp' 
   },
   { 
     label: 'Peintures', 
     path: '/peintures', 
-    image: '/img/foulards/foulard-marjo-orange.avif' 
+    image: '/img/accueil/en_terrasse_parmi_les_fleurs.webp' 
   },
   { 
     label: 'Foulards', 
     path: '/foulards', 
-    image: '/img/foulards/foulard-marjo-bleu.avif' 
+    image: '/img/accueil/rose-degrade-orange-BMS-84x84.webp' 
   },
   { 
     label: 'Autres activités', 
     path: '/autres-activites', 
-    image: '/img/foulards/foulard-marjo-violet.avif' 
+    image: '/img/accueil/gites_illu.webp' 
   },
   { 
     label: 'Contact', 
     path: '/contact', 
-    image: '/img/foulards/foulard-marjo-bleu.avif' 
+    image: '/img/accueil/gordes_aux_iris.webp' 
   },
 ]
 
