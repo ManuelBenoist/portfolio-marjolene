@@ -7,7 +7,7 @@
       style="background-color: rgba(251, 250, 246, 0.8);"
     >
       <img
-        :src="image"
+        :src="withBaseImage(image)"
         :alt="title"
         class="max-w-full max-h-full object-contain" 
         style="border-radius:0;"
@@ -32,6 +32,8 @@
 </template>
 
 <script setup lang="ts">
+import { withBaseImage } from '~/utils/withBaseImage'
+
 defineProps<{
   image: string
   title: string

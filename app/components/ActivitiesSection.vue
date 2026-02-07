@@ -49,7 +49,7 @@
     <!-- Image Content -->
     <div class="image-reveal md:flex-none md:self-stretch md:max-w-[35%]" :style="{ '--target-height': targetHeight }">
       <img
-        :src="imageSrc"
+        :src="withBaseImage(imageSrc)"
         :alt="imageAlt"
         class="h-auto w-full rounded-[12px] object-cover md:h-[var(--target-height)] md:w-auto"
         loading="lazy"
@@ -60,6 +60,7 @@
 
 <script setup lang="ts">
 import type { RouteLocationRaw } from 'vue-router'
+import { withBaseImage } from '~/utils/withBaseImage'
 
 interface Props {
   title: string

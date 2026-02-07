@@ -236,6 +236,7 @@
 import { ref, onMounted } from 'vue'
 import { Icon } from '@iconify/vue'
 import { useSiteUrl } from '~/composables/useSiteUrl'
+import { withBaseImage } from '~/utils/withBaseImage'
 
 const config = useRuntimeConfig()
 const route = useRoute()
@@ -245,7 +246,7 @@ const localePath = useLocalePath()
 const { siteUrl, withSiteUrl } = useSiteUrl()
 const metaTitle = computed(() => t('contact.seo.title') || '')
 const metaDescription = computed(() => t('contact.seo.description') || '')
-const metaImage = withSiteUrl('/logo.png')
+const metaImage = withSiteUrl(withBaseImage('/logo.png'))
 
 useSeoMeta({
   title: metaTitle,

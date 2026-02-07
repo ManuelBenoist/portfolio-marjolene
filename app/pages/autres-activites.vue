@@ -33,6 +33,7 @@
 <script setup lang="ts">
 import type { RouteLocationRaw } from 'vue-router'
 import { useSiteUrl } from '~/composables/useSiteUrl'
+import { withBaseImage } from '~/utils/withBaseImage'
 
 interface Activity {
   id: string
@@ -79,7 +80,7 @@ const { t } = useI18n()
 const { siteUrl, withSiteUrl } = useSiteUrl()
 const metaTitle = computed(() => t('activities.seo.title'))
 const metaDescription = computed(() => t('activities.seo.description'))
-const metaImage = withSiteUrl('/logo.png')
+const metaImage = withSiteUrl(withBaseImage('/logo.png'))
 
 useSeoMeta({
   title: metaTitle,

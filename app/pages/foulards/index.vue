@@ -33,6 +33,7 @@
 import { computed, onMounted, nextTick } from 'vue'
 import SectionTitle from '~/components/SectionTitle.vue'
 import FoulardGrid from '~/components/FoulardGrid.vue'
+import { withBaseImage } from '~/utils/withBaseImage'
 import { useSiteUrl } from '~/composables/useSiteUrl'
 import { useContent } from '~/composables/useContent'
 
@@ -107,7 +108,7 @@ const metaImage = computed(() => {
   const firstColor = firstFoulard ? Object.values(firstFoulard.colors)[0] : null
   const firstMaterial = firstColor ? Object.values(firstColor.materials)[0] : null
   const image = firstMaterial?.images?.[0]?.src || '/logo.png'
-  return withSiteUrl(image)
+  return withSiteUrl(withBaseImage(image))
 })
 
 useSeoMeta({

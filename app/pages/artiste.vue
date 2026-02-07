@@ -71,6 +71,7 @@ import { useContent } from '~/composables/useContent'
 import TitleImageContent from '~/components/TitleImageContent.vue'
 import Timeline from '~/components/timeline/Timeline.vue'
 import QuoteBlock from '~/components/QuoteBlock.vue'
+import { withBaseImage } from '~/utils/withBaseImage'
 import { useSiteUrl } from '~/composables/useSiteUrl'
 
 interface BiographySection {
@@ -106,7 +107,7 @@ const metaTitle = computed(() => t('artist.seo.title') || '')
 const metaDescription = computed(() => t('artist.seo.description') || '')
 const metaImage = computed(() => {
   const image = artisteContent.value?.biography?.image || '/logo.png'
-  return withSiteUrl(image)
+  return withSiteUrl(withBaseImage(image))
 })
 
 useSeoMeta({
