@@ -125,30 +125,6 @@
           }
         }
       },
-      "rose-degrade-jaune": {
-        "id": "rose-degrade-jaune",
-        "label": "Rosa-Gelb-Verlauf",
-        "hex": "#000000",
-        "type": "gradient",
-        "materials": {
-          "mousseline-et-satin-de-soie": {
-            "id": "mousseline-et-satin-de-soie",
-            "label": "Seidenchiffon und Seidensatin",
-            "images": [
-              {
-                "src": "/img/foulards/roses/rose-degrade/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Tuch Roses Rosa-Verlauf in Seidenchiffon und Seidensatin – Hauptansicht"
-              }
-            ],
-            "sizes": [
-              {
-                "id": "84x84",
-                "label": "84×84 cm"
-              }
-            ]
-          }
-        }
-      },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
         "label": "Rosa-Orange-Verlauf",
@@ -489,29 +465,6 @@
               {
                 "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84.webp",
                 "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin"
-              }
-            ],
-            "sizes": [
-              {
-                "id": "84x84",
-                "label": "84×84 cm"
-              }
-            ]
-          }
-        }
-      },
-      "vert": {
-        "id": "vert",
-        "label": "Grün",
-        "hex": "#000000",
-        "materials": {
-          "mousseline-et-satin-de-soie": {
-            "id": "mousseline-et-satin-de-soie",
-            "label": "Seidenchiffon und Seidensatin",
-            "images": [
-              {
-                "src": "/img/foulards/longdesc/arc-en-ciel/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Regenbogentuch in Seidenchiffon und Seidensatin"
               }
             ],
             "sizes": [

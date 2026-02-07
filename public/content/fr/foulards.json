@@ -7,35 +7,54 @@
       "rose-degrade-orange-fond-blanc": {
         "id": "rose-degrade-orange-fond-blanc",
         "label": "Rose dégradé orange fond blanc",
-        "hexes": ["#E360B1","#FFFFFF","#FD9418"],
+        "hexes": [
+          "#E360B1",
+          "#FFFFFF",
+          "#FD9418"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie ",
             "images": [
-              { "src": "/img/foulards/pivoines/rose-degrade-orange-fond-blanc-BMS-84x84.webp", "alt": "Foulard Pivoines Rose dégradé orange fond blanc en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-fond-blanc-BMS-84x84.webp",
+                "alt": "Foulard Pivoines Rose dégradé orange fond blanc en mousseline et satin de soie"
+              }
             ],
-              "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
-              ]
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
           }
         }
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
         "label": "Rose dégradé orange",
-        "hexes": ["#FFC702","#E31C7F"],
+        "hexes": [
+          "#FFC702",
+          "#E31C7F"
+        ],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-64x64.webp", "alt": "Foulard Jardin Secret Rose dégradé orange en soie" }
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-64x64.webp",
+                "alt": "Foulard Jardin Secret Rose dégradé orange en soie"
+              }
             ],
             "sizes": [
-              { "id": "64x64", "label": "64x64 cm" }
-              ]
+              {
+                "id": "64x64",
+                "label": "64x64 cm"
+              }
+            ]
           }
         }
       }
@@ -55,17 +74,26 @@
       "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
         "label": "Rouge dégradé orange",
-        "hexes": ["#FFB409", "#F01F11"],
+        "hexes": [
+          "#FFB409",
+          "#F01F11"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64.webp", "alt": "Foulard Hibiscus Rouge dégradé orange en soie"}
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64.webp",
+                "alt": "Foulard Hibiscus Rouge dégradé orange en soie"
+              }
             ],
             "sizes": [
-              { "id": "64x64", "label": "64x64 cm" }
+              {
+                "id": "64x64",
+                "label": "64x64 cm"
+              }
             ]
           }
         }
@@ -73,35 +101,26 @@
       "rose-degrade": {
         "id": "rose-degrade",
         "label": "Rose dégradé",
-        "hexes": ["#F88CBE", "#E11C6A"],
+        "hexes": [
+          "#F88CBE",
+          "#E11C6A"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/hibiscus/rose-degrade-BMS-64x64.webp", "alt": "Foulard Hibiscus Rose dégradé en modal" }
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-BMS-64x64.webp",
+                "alt": "Foulard Hibiscus Rose dégradé en modal"
+              }
             ],
             "sizes": [
-              { "id": "64x64", "label": "64x64 cm" }
-            ]
-          }
-        }
-      },
-      "rose-degrade-jaune": {
-        "id": "rose-degrade-jaune",
-        "label": "Rose dégradé jaune",
-        "hex": "#000000",
-        "type": "gradient",
-        "materials": {
-          "mousseline-et-satin-de-soie": {
-            "id": "mousseline-et-satin-de-soie",
-            "label": "Mousseline et satin de soie",
-            "images": [
-              { "src": "/img/foulards/roses/rose-degrade/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard Roses Rose dégradé en mousseline et satin de soie - vue principale" }
-            ],
-            "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "64x64",
+                "label": "64x64 cm"
+              }
             ]
           }
         }
@@ -109,17 +128,26 @@
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
         "label": "Rose dégradé orange",
-        "hexes": ["#FDB308", "#EE1A8B"],
+        "hexes": [
+          "#FDB308",
+          "#EE1A8B"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84.webp", "alt": "Foulard Roses Rose dégradé en mousseline et satin de soie - vue principale" }
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84.webp",
+                "alt": "Foulard Roses Rose dégradé en mousseline et satin de soie - vue principale"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -140,27 +168,42 @@
       "rose-degrade-fond-blanc": {
         "id": "rose-degrade-fond-blanc",
         "label": "Rose dégradé fond blanc",
-        "hexes": ["#E72A8A", "#E72A8A"],
+        "hexes": [
+          "#E72A8A",
+          "#E72A8A"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-et-T-64x64.webp", "alt": "Foulard Roses Rose dégradé en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-et-T-64x64.webp",
+                "alt": "Foulard Roses Rose dégradé en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "64x64", "label": "64x64 cm" }
+              {
+                "id": "64x64",
+                "label": "64x64 cm"
+              }
             ]
           },
           "satin-de-soie": {
             "id": "satin-de-soie",
             "label": "Satin de soie",
             "images": [
-              { "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-et-T-64x64.webp", "alt": "Foulard Roses Rose dégradé en satin de soie" }
+              {
+                "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-et-T-64x64.webp",
+                "alt": "Foulard Roses Rose dégradé en satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "64x64", "label": "64x64 cm" }
+              {
+                "id": "64x64",
+                "label": "64x64 cm"
+              }
             ]
           }
         }
@@ -168,17 +211,26 @@
       "vert-degrade-fond-blanc": {
         "id": "vert-degrade-fond-blanc",
         "label": "Vert dégradé fond blanc",
-        "hexes": ["#09E6C7","#019686"],
+        "hexes": [
+          "#09E6C7",
+          "#019686"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/roses/vert-degrade-fond-blanc-BMS-84x84.webp", "alt": "Foulard Roses Vert dégradé fond blanc en mousseline" }
+              {
+                "src": "/img/foulards/roses/vert-degrade-fond-blanc-BMS-84x84.webp",
+                "alt": "Foulard Roses Vert dégradé fond blanc en mousseline"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -199,17 +251,26 @@
       "jaune-or": {
         "id": "jaune-or",
         "label": "Jaune d'or",
-        "hexes": ["#FFCA00","#FE9200"],
+        "hexes": [
+          "#FFCA00",
+          "#FE9200"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64.webp", "alt": "Foulard jaune d'or en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64.webp",
+                "alt": "Foulard jaune d'or en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "64x64", "label": "64x64 cm" }
+              {
+                "id": "64x64",
+                "label": "64x64 cm"
+              }
             ]
           }
         }
@@ -217,17 +278,26 @@
       "rose-degrade": {
         "id": "rose-degrade",
         "label": "Rose dégradé",
-        "hexes": ["#F78DBE", "#E01B68"],
+        "hexes": [
+          "#F78DBE",
+          "#E01B68"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/eclats-or/rose-degrade-BMS-64x64.webp", "alt": "Foulard noir en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/eclats-or/rose-degrade-BMS-64x64.webp",
+                "alt": "Foulard noir en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "64x64", "label": "64x64 cm" }
+              {
+                "id": "64x64",
+                "label": "64x64 cm"
+              }
             ]
           }
         }
@@ -235,17 +305,26 @@
       "rose-orange-degrade": {
         "id": "rose-orange-degrade",
         "label": "Rose orange dégradé",
-        "hexes": ["#FFA806", "#F73AA7"],
+        "hexes": [
+          "#FFA806",
+          "#F73AA7"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84.webp", "alt": "Foulard rose orange dégradé en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84.webp",
+                "alt": "Foulard rose orange dégradé en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -253,23 +332,34 @@
       "bleu-vert-degrade": {
         "id": "bleu-vert-degrade",
         "label": "Bleu vert dégradé",
-        "hexes": ["#41F5E6", "#279F94"],
+        "hexes": [
+          "#41F5E6",
+          "#279F94"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84.webp", "alt": "Foulard bleu vert dégradé en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84.webp",
+                "alt": "Foulard bleu vert dégradé en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
       }
     },
-    "mentions": ["Edition limitée"],
+    "mentions": [
+      "Edition limitée"
+    ],
     "metaDescription": "Foulard noir en laine, édition limitée."
   },
   {
@@ -280,18 +370,30 @@
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
         "label": "Bleu turquoise dégradé",
-        "hexes": ["#18BEEC", "#13809D"],
+        "hexes": [
+          "#18BEEC",
+          "#13809D"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84.webp", "alt": "Foulard bleu turquoise dégradé en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84.webp",
+                "alt": "Foulard bleu turquoise dégradé en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "64x64", "label": "64x64 cm" },
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "64x64",
+                "label": "64x64 cm"
+              },
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -299,67 +401,77 @@
       "rose-degrade": {
         "id": "rose-degrade",
         "label": "Rose dégradé",
-        "hexes": ["#E11C6A","#F88CBE"],
+        "hexes": [
+          "#E11C6A",
+          "#F88CBE"
+        ],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64.webp", "alt": "Foulard rose dégradé en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64.webp",
+                "alt": "Foulard rose dégradé en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "64x64", "label": "64x64 cm" }
+              {
+                "id": "64x64",
+                "label": "64x64 cm"
+              }
             ]
           }
         }
       },
-       "rouge-degrade-orange": {
+      "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
         "label": "Rouge dégradé orange",
-        "hexes": ["#EF1E10", "#FFB409"],
+        "hexes": [
+          "#EF1E10",
+          "#FFB409"
+        ],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64.webp", "alt": "Foulard rouge dégradé orange en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64.webp",
+                "alt": "Foulard rouge dégradé orange en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "64x64", "label": "64x64 cm" }
+              {
+                "id": "64x64",
+                "label": "64x64 cm"
+              }
             ]
           }
         }
       },
-       "rose-degrade-orange": {
+      "rose-degrade-orange": {
         "id": "rose-degrade-orange",
         "label": "Rose dégradé orange",
-        "hexes": ["#ED1890", "#FFA808"],
+        "hexes": [
+          "#ED1890",
+          "#FFA808"
+        ],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84.webp", "alt": "Foulard rose dégradé orange en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84.webp",
+                "alt": "Foulard rose dégradé orange en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
-            ]
-          }
-        }
-      },
-       "vert": {
-        "id": "vert",
-        "label": "Vert",
-        "hex": "#000000",
-        "materials": {
-          "mousseline-et-satin-de-soie": {
-            "id": "mousseline-et-satin-de-soie",
-            "label": "Mousseline et satin de soie",
-            "images": [
-              { "src": "/img/foulards/longdesc/arc-en-ciel/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard arc-en-ciel en mousseline et satin de soie" }
-            ],
-            "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -367,16 +479,25 @@
       "vert-degrade": {
         "id": "vert-degrade",
         "label": "Vert dégradé",
-        "hexes": ["#12D8BC","#019686"],
+        "hexes": [
+          "#12D8BC",
+          "#019686"
+        ],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/coquelicots/vert-degrade-BMS-84x84.webp", "alt": "Foulard vert dégradé en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BMS-84x84.webp",
+                "alt": "Foulard vert dégradé en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -390,10 +511,16 @@
             "id": "satin-de-soie",
             "label": "Satin de soie",
             "images": [
-              { "src": "/img/foulards/longdesc/arc-en-ciel/satin-de-soie-1.avif", "alt": "Foulard arc-en-ciel en satin de soie" }
+              {
+                "src": "/img/foulards/longdesc/arc-en-ciel/satin-de-soie-1.avif",
+                "alt": "Foulard arc-en-ciel en satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -414,17 +541,26 @@
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
         "label": "Rose dégradé orange",
-        "hexes": ["#F64984", "#FEB107"],
+        "hexes": [
+          "#F64984",
+          "#FEB107"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64.webp", "alt": "Foulard rose dégradé orange en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64.webp",
+                "alt": "Foulard rose dégradé orange en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "64x64", "label": "64x64 cm" }
+              {
+                "id": "64x64",
+                "label": "64x64 cm"
+              }
             ]
           }
         }
@@ -432,17 +568,26 @@
       "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
         "label": "Rouge dégradé orange",
-        "hexes": ["#F03333","#FEB009"],
+        "hexes": [
+          "#F03333",
+          "#FEB009"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84.webp", "alt": "Foulard rouge dégradé orange en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84.webp",
+                "alt": "Foulard rouge dégradé orange en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -450,17 +595,26 @@
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
         "label": "Bleu turquoise dégradé",
-        "hexes": ["#0CE5D0","#2C9F94"],
+        "hexes": [
+          "#0CE5D0",
+          "#2C9F94"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84.webp", "alt": "Foulard bleu turquoise dégradé en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84.webp",
+                "alt": "Foulard bleu turquoise dégradé en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -480,17 +634,26 @@
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
         "label": "Bleu turquoise dégradé",
-        "hexes": ["#25D1F1","#15909D"],
+        "hexes": [
+          "#25D1F1",
+          "#15909D"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/poisson/bleu-turquoise-degrade-BMS-84x84.webp", "alt": "Foulard bleu turquoise dégradé en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/poisson/bleu-turquoise-degrade-BMS-84x84.webp",
+                "alt": "Foulard bleu turquoise dégradé en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -498,17 +661,26 @@
       "bleu-degrade": {
         "id": "bleu-degrade",
         "label": "Bleu dégradé",
-        "hexes": ["#31D9FE","#002FE5"],
+        "hexes": [
+          "#31D9FE",
+          "#002FE5"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84.webp", "alt": "Foulard bleu dégradé en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84.webp",
+                "alt": "Foulard bleu dégradé en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -516,17 +688,26 @@
       "orange-degrade-sanguine": {
         "id": "orange-degrade-sanguine",
         "label": "Orange dégradé sanguine",
-        "hexes": ["#FAA01E","#EE3143"],
+        "hexes": [
+          "#FAA01E",
+          "#EE3143"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84.webp", "alt": "Foulard orange dégradé sanguine en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84.webp",
+                "alt": "Foulard orange dégradé sanguine en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -534,40 +715,57 @@
       "cerise": {
         "id": "cerise",
         "label": "Cerise",
-        "hexes": ["#EF0A4D"],
+        "hexes": [
+          "#EF0A4D"
+        ],
         "type": "solid",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/poisson/cerise-BMS-84x84.webp", "alt": "Foulard cerise en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/poisson/cerise-BMS-84x84.webp",
+                "alt": "Foulard cerise en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
       }
     },
     "jaune-orange-degrade": {
-        "id": "jaune-orange-degrade",
-        "label": "Jaune orange dégradé",
-        "hexes": ["#FFA63B","#F85B03"],
-        "type": "gradient",
-        "materials": {
-          "mousseline-et-satin-de-soie": {
-            "id": "mousseline-et-satin-de-soie",
-            "label": "Mousseline et satin de soie",
-            "images": [
-              { "src": "/img/foulards/poisson/jaune-orange-degrade-BMS-84x84.webp", "alt": "Foulard jaune orange dégradé en mousseline et satin de soie" }
-            ],
-            "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
-            ]
-          }
+      "id": "jaune-orange-degrade",
+      "label": "Jaune orange dégradé",
+      "hexes": [
+        "#FFA63B",
+        "#F85B03"
+      ],
+      "type": "gradient",
+      "materials": {
+        "mousseline-et-satin-de-soie": {
+          "id": "mousseline-et-satin-de-soie",
+          "label": "Mousseline et satin de soie",
+          "images": [
+            {
+              "src": "/img/foulards/poisson/jaune-orange-degrade-BMS-84x84.webp",
+              "alt": "Foulard jaune orange dégradé en mousseline et satin de soie"
+            }
+          ],
+          "sizes": [
+            {
+              "id": "84x84",
+              "label": "84x84 cm"
+            }
+          ]
         }
-      },
+      }
+    },
     "mentions": [
       "Test multi couleurs et matières",
       "Affichage complexe"
@@ -582,17 +780,25 @@
       "brique": {
         "id": "brique",
         "label": "Brique",
-        "hexes": ["#B70F1C"],
+        "hexes": [
+          "#B70F1C"
+        ],
         "type": "solid",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/herbes-folles/brique-BMS-84x84.webp", "alt": "Foulard rouge en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/herbes-folles/brique-BMS-84x84.webp",
+                "alt": "Foulard rouge en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -600,17 +806,26 @@
       "orange-degrade-sanguine": {
         "id": "orange-degrade-sanguine",
         "label": "Orange dégradé sanguine",
-        "hexes": ["#F99323","#EE3143"],
+        "hexes": [
+          "#F99323",
+          "#EE3143"
+        ],
         "type": "gradient",
         "materials": {
           "satin-de-soie": {
             "id": "satin-de-soie",
             "label": "Satin de soie",
             "images": [
-              { "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84.webp", "alt": "Foulard orange dégradé sanguine en satin de soie" }
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84.webp",
+                "alt": "Foulard orange dégradé sanguine en satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -618,17 +833,25 @@
       "amethyste": {
         "id": "amethyste",
         "label": "Amethyste",
-        "hexes": ["#8E144D"],
+        "hexes": [
+          "#8E144D"
+        ],
         "type": "solid",
         "materials": {
           "satin-de-soie": {
             "id": "satin-de-soie",
             "label": "Satin de soie",
             "images": [
-              { "src": "/img/foulards/herbes-folles/amethyste-T-84x84.webp", "alt": "Foulard amethyste en satin de soie" }
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84.webp",
+                "alt": "Foulard amethyste en satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -636,17 +859,26 @@
       "lavande-degrade-clair": {
         "id": "lavande-degrade-clair",
         "label": "Lavande dégradé clair",
-        "hexes": ["#33398D","#99C4E6"],
+        "hexes": [
+          "#33398D",
+          "#99C4E6"
+        ],
         "type": "gradient",
         "materials": {
           "satin-de-soie": {
             "id": "satin-de-soie",
             "label": "Satin de soie",
             "images": [
-              { "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84.webp", "alt": "Foulard lavande dégradé clair en satin de soie" }
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84.webp",
+                "alt": "Foulard lavande dégradé clair en satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -666,17 +898,25 @@
       "rose": {
         "id": "rose",
         "label": "Rose",
-        "hexes": ["#BD1479"],
+        "hexes": [
+          "#BD1479"
+        ],
         "type": "solid",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/libellule/rose-BMS-84x84.webp", "alt": "Foulard rose en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84.webp",
+                "alt": "Foulard rose en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -684,17 +924,25 @@
       "vert": {
         "id": "vert",
         "label": "Vert",
-        "hexes": ["#6BAE23"],
+        "hexes": [
+          "#6BAE23"
+        ],
         "type": "solid",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/libellule/vert-BMS-84x84.webp", "alt": "Foulard vert en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/libellule/vert-BMS-84x84.webp",
+                "alt": "Foulard vert en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -714,17 +962,25 @@
       "vert": {
         "id": "vert",
         "label": "Vert",
-        "hexes": ["#65B846"],
+        "hexes": [
+          "#65B846"
+        ],
         "type": "solid",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/paon/vert-BMS-84x84.webp", "alt": "Foulard vert en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84.webp",
+                "alt": "Foulard vert en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -738,10 +994,16 @@
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/multi/corail/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard corail en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/multi/corail/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Foulard corail en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -755,10 +1017,16 @@
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard bleu turquoise en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Foulard bleu turquoise en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -766,17 +1034,26 @@
       "rose-degrade-violet": {
         "id": "rose-degrade-violet",
         "label": "Rose dégradé violet",
-        "hexes": ["#E109CE","#A831F5"],
+        "hexes": [
+          "#E109CE",
+          "#A831F5"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/paon/rose-degrade-violet-BMS-84x84.webp", "alt": "Foulard rose dégradé violet en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/paon/rose-degrade-violet-BMS-84x84.webp",
+                "alt": "Foulard rose dégradé violet en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -784,17 +1061,26 @@
       "rose-degrade-prune": {
         "id": "rose-degrade-prune",
         "label": "Rose dégradé prune",
-        "hexes": ["#E00ACE","#A831F5"],
+        "hexes": [
+          "#E00ACE",
+          "#A831F5"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84.webp", "alt": "Foulard rose dégradé prune en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84.webp",
+                "alt": "Foulard rose dégradé prune en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "84x84", "label": "84x84 cm" }
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
             ]
           }
         }
@@ -820,10 +1106,16 @@
             "id": "satin-de-soie",
             "label": "Satin de soie",
             "images": [
-              { "src": "/img/foulards/multi/lie-de-vin/satin-de-soie-1.avif", "alt": "Foulard lie de vin en satin de soie" }
+              {
+                "src": "/img/foulards/multi/lie-de-vin/satin-de-soie-1.avif",
+                "alt": "Foulard lie de vin en satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "64x64", "label": "64x64 cm" }
+              {
+                "id": "64x64",
+                "label": "64x64 cm"
+              }
             ]
           }
         }
@@ -843,17 +1135,26 @@
       "rose-degrade-violet": {
         "id": "rose-degrade-violet",
         "label": "Rose dégradé violet",
-        "hexes": ["#E90195","#9E0CAB"],
+        "hexes": [
+          "#E90195",
+          "#9E0CAB"
+        ],
         "type": "gradient",
         "materials": {
           "satin-de-soie": {
             "id": "satin-de-soie",
             "label": "Satin de soie",
             "images": [
-              { "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64.webp", "alt": "Foulard rose dégradé violet en satin de soie" }
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64.webp",
+                "alt": "Foulard rose dégradé violet en satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "64x64", "label": "64x64 cm" }
+              {
+                "id": "64x64",
+                "label": "64x64 cm"
+              }
             ]
           }
         }
@@ -873,17 +1174,26 @@
       "rose-degrade": {
         "id": "rose-degrade",
         "label": "Rose dégradé",
-        "hexes": ["#F47AB5", "#E71F72"],
+        "hexes": [
+          "#F47AB5",
+          "#E71F72"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/courbes/rose-degrade-BMS-40x170.webp", "alt": "Foulard rose dégradé en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/courbes/rose-degrade-BMS-40x170.webp",
+                "alt": "Foulard rose dégradé en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -891,17 +1201,26 @@
       "vert-degrade": {
         "id": "vert-degrade",
         "label": "Vert dégradé",
-        "hexes": ["#039787","#06D8D3"],
+        "hexes": [
+          "#039787",
+          "#06D8D3"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/courbes/vert-degrade-BMS-40x170.webp", "alt": "Foulard vert dégradé en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x170.webp",
+                "alt": "Foulard vert dégradé en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -909,17 +1228,26 @@
       "violet-degrade-rose": {
         "id": "violet-degrade-rose",
         "label": "Violet dégradé rose",
-        "hexes": ["#CF0F87","#9F42AD"],
+        "hexes": [
+          "#CF0F87",
+          "#9F42AD"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x170.webp", "alt": "Foulard violet dégradé rose en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x170.webp",
+                "alt": "Foulard violet dégradé rose en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -927,17 +1255,26 @@
       "bleu-outremer-degrade-lavande": {
         "id": "bleu-outremer-degrade-lavande",
         "label": "Bleu outremer dégradé lavande",
-        "hexes": ["#4659E0","#8AA6F5"],
+        "hexes": [
+          "#4659E0",
+          "#8AA6F5"
+        ],
         "type": "gradient",
         "materials": {
           "satin-de-soie": {
             "id": "satin-de-soie",
             "label": "Satin de soie",
             "images": [
-              { "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-T-40x170.webp", "alt": "Foulard bleu outremer dégradé lavande en satin de soie" }
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-T-40x170.webp",
+                "alt": "Foulard bleu outremer dégradé lavande en satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -957,16 +1294,25 @@
       "vert-degrade-turquoise": {
         "id": "vert-degrade-turquoise",
         "label": "Vert dégradé turquoise",
-        "hexes": ["#01BED7","#029485"],
+        "hexes": [
+          "#01BED7",
+          "#029485"
+        ],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x170.webp", "alt": "Foulard vert en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x170.webp",
+                "alt": "Foulard vert en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -974,16 +1320,25 @@
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
         "label": "Rose dégradé orange",
-        "hexes": ["#FFCA08", "#EF238F"],
+        "hexes": [
+          "#FFCA08",
+          "#EF238F"
+        ],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x170.webp", "alt": "Foulard rose dégradé orange en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x170.webp",
+                "alt": "Foulard rose dégradé orange en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -991,26 +1346,41 @@
       "outremer-degrade-turquoise": {
         "id": "outremer-degrade-turquoise",
         "label": "Outremer dégradé turquoise",
-        "hexes": ["#2DC3E2","#1556F8"],
+        "hexes": [
+          "#2DC3E2",
+          "#1556F8"
+        ],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x170.webp", "alt": "Foulard outremer en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "alt": "Foulard outremer en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           },
           "satin-de-soie": {
             "id": "satin-de-soie",
             "label": "Satin de soie",
             "images": [
-              { "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x170.webp", "alt": "Foulard outremer en satin de soie" }
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "alt": "Foulard outremer en satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -1024,10 +1394,16 @@
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard bleu turquoise en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Foulard bleu turquoise en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -1047,16 +1423,25 @@
       "vert-degrade": {
         "id": "vert-degrade",
         "label": "Vert dégradé",
-        "hexes": ["#01BED7","#009384"],
+        "hexes": [
+          "#01BED7",
+          "#009384"
+        ],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x170.webp", "alt": "Foulard vert en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x170.webp",
+                "alt": "Foulard vert en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -1064,27 +1449,42 @@
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
         "label": "Rose dégradé orange",
-        "hexes": ["#F03B44","#FC9701"],
+        "hexes": [
+          "#F03B44",
+          "#FC9701"
+        ],
         "type": "gradient",
         "materials": {
           "satin-de-soie": {
             "id": "satin-de-soie",
             "label": "Satin de soie",
             "images": [
-              { "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-et-T-40x170.webp", "alt": "Foulard rose dégradé orange en satin de soie" }
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-et-T-40x170.webp",
+                "alt": "Foulard rose dégradé orange en satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           },
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-et-T-40x170.webp", "alt": "Foulard rose dégradé orange en satin de soie" }
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-et-T-40x170.webp",
+                "alt": "Foulard rose dégradé orange en satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -1092,27 +1492,42 @@
       "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
         "label": "Rouge dégradé orange",
-        "hexes": ["#EF3A43","#FC9701"],
+        "hexes": [
+          "#EF3A43",
+          "#FC9701"
+        ],
         "type": "gradient",
         "materials": {
           "satin-de-soie": {
             "id": "satin-de-soie",
             "label": "Satin de soie",
             "images": [
-              { "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-BMS-et-T-40x170.webp", "alt": "Foulard rouge dégradé orange en satin de soie" }
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-BMS-et-T-40x170.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           },
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-BMS-et-T-40x170.webp", "alt": "Foulard rouge dégradé orange en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-BMS-et-T-40x170.webp",
+                "alt": "Foulard rouge dégradé orange en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -1120,26 +1535,41 @@
       "outremer-degrade": {
         "id": "outremer-degrade",
         "label": "Outremer dégradé",
-        "hexes": ["#2FC2E2","#1556F8"],
+        "hexes": [
+          "#2FC2E2",
+          "#1556F8"
+        ],
         "materials": {
           "satin-de-soie": {
             "id": "satin-de-soie",
             "label": "Satin de soie",
             "images": [
-              { "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x170.webp", "alt": "Foulard outremer en satin de soie" }
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x170.webp",
+                "alt": "Foulard outremer en satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           },
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x170.webp", "alt": "Foulard outremer en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x170.webp",
+                "alt": "Foulard outremer en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -1165,10 +1595,16 @@
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard bleu outremer en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Foulard bleu outremer en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": " 40x170", "label": "40x170 cm" }
+              {
+                "id": " 40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -1176,16 +1612,25 @@
       "violet-rose-degrade": {
         "id": "violet-rose-degrade",
         "label": "Violet rose dégradé",
-        "hexes": ["#B441AA","#F737AC"],
+        "hexes": [
+          "#B441AA",
+          "#F737AC"
+        ],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x170.webp", "alt": "Foulard violet dégradé rose en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x170.webp",
+                "alt": "Foulard violet dégradé rose en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -1193,17 +1638,26 @@
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
         "label": "Rose dégradé orange",
-        "hexes": ["#FFBE0E","#ED1892"],
+        "hexes": [
+          "#FFBE0E",
+          "#ED1892"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x170.webp", "alt": "Foulard rose dégradé orange en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x170.webp",
+                "alt": "Foulard rose dégradé orange en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -1211,17 +1665,26 @@
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
         "label": "Bleu turquoise dégradé",
-        "hexes": ["#208AC3","#1FD2F7"],
+        "hexes": [
+          "#208AC3",
+          "#1FD2F7"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x170.webp", "alt": "Foulard bleu turquoise dégradé en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x170.webp",
+                "alt": "Foulard bleu turquoise dégradé en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -1241,16 +1704,25 @@
       "vert-degrade-turquoise": {
         "id": "vert-degrade-turquoise",
         "label": "Vert dégradé turquoise",
-        "hexes": ["#039787","#06D8D1"],
+        "hexes": [
+          "#039787",
+          "#06D8D1"
+        ],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x170.webp", "alt": "Foulard vert dégradé turquoise en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x170.webp",
+                "alt": "Foulard vert dégradé turquoise en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -1258,17 +1730,26 @@
       "lavande-degrade": {
         "id": "lavande-degrade",
         "label": "Lavande dégradé",
-        "hexes": ["#8DA9FD","#495CE2"],
+        "hexes": [
+          "#8DA9FD",
+          "#495CE2"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x170.webp", "alt": "Foulard lavande dégradé en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x170.webp",
+                "alt": "Foulard lavande dégradé en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -1276,17 +1757,26 @@
       "jaune-degrade-rose": {
         "id": "jaune-degrade-rose",
         "label": "Jaune dégradé rose",
-        "hexes": ["#FECC06","#EE228D"],
+        "hexes": [
+          "#FECC06",
+          "#EE228D"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x170.webp", "alt": "Foulard jaune dégradé rose en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x170.webp",
+                "alt": "Foulard jaune dégradé rose en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -1294,17 +1784,26 @@
       "jaune-degrade-rouge": {
         "id": "jaune-degrade-rouge",
         "label": "Jaune dégradé rouge",
-        "hexes": ["#F21B3D","#FFB309"],
+        "hexes": [
+          "#F21B3D",
+          "#FFB309"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x170.webp", "alt": "Foulard jaune dégradé rouge en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x170.webp",
+                "alt": "Foulard jaune dégradé rouge en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -1312,17 +1811,26 @@
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
         "label": "Bleu turquoise dégradé",
-        "hexes": ["#30C8E7","#1C80BC"],
+        "hexes": [
+          "#30C8E7",
+          "#1C80BC"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x170.webp", "alt": "Foulard bleu turquoise dégradé en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x170.webp",
+                "alt": "Foulard bleu turquoise dégradé en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -1336,10 +1844,16 @@
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif", "alt": "Foulard bleu outremer en mousseline et satin de soie" }
+              {
+                "src": "/img/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Foulard bleu outremer en mousseline et satin de soie"
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -1347,27 +1861,42 @@
       "bleu-outremer-degrade-turquoise": {
         "id": "bleu-outremer-degrade-turquoise",
         "label": "Bleu outremer dégradé turquoise",
-        "hexes": ["#2FC2E2","#1556F7"],
+        "hexes": [
+          "#2FC2E2",
+          "#1556F7"
+        ],
         "type": "gradient",
         "materials": {
           "satin-de-soie": {
             "id": "satin-de-soie",
             "label": "Satin de soie",
             "images": [
-              { "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x170.webp", "alt": "Foulard bleu outremer dégradé turquoise en satin de soie ou mousseline et satin de soie." }
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "alt": "Foulard bleu outremer dégradé turquoise en satin de soie ou mousseline et satin de soie."
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           },
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Mousseline et satin de soie",
             "images": [
-              { "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x170.webp", "alt": "Foulard bleu outremer dégradé turquoise en satin de soie ou mousseline et satin de soie." }
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "alt": "Foulard bleu outremer dégradé turquoise en satin de soie ou mousseline et satin de soie."
+              }
             ],
             "sizes": [
-              { "id": "40x170", "label": "40x170 cm" }
+              {
+                "id": "40x170",
+                "label": "40x170 cm"
+              }
             ]
           }
         }
@@ -1380,5 +1909,3 @@
     "metaDescription": "Foulard avec beaucoup de couleurs et matières."
   }
 ]
-
-

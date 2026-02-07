@@ -125,30 +125,6 @@
           }
         }
       },
-      "rose-degrade-jaune": {
-        "id": "rose-degrade-jaune",
-        "label": "Sfumatura dal rosa al giallo",
-        "hex": "#000000",
-        "type": "gradient",
-        "materials": {
-          "mousseline-et-satin-de-soie": {
-            "id": "mousseline-et-satin-de-soie",
-            "label": "Chiffon e satin di seta",
-            "images": [
-              {
-                "src": "/img/foulards/roses/rose-degrade/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Foulard Roses sfumatura rosa in chiffon e satin di seta – vista principale"
-              }
-            ],
-            "sizes": [
-              {
-                "id": "84x84",
-                "label": "84×84 cm"
-              }
-            ]
-          }
-        }
-      },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
         "label": "Sfumatura dal rosa all'arancione",
@@ -489,29 +465,6 @@
               {
                 "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84.webp",
                 "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta"
-              }
-            ],
-            "sizes": [
-              {
-                "id": "84x84",
-                "label": "84×84 cm"
-              }
-            ]
-          }
-        }
-      },
-      "vert": {
-        "id": "vert",
-        "label": "Verde",
-        "hex": "#000000",
-        "materials": {
-          "mousseline-et-satin-de-soie": {
-            "id": "mousseline-et-satin-de-soie",
-            "label": "Chiffon e satin di seta",
-            "images": [
-              {
-                "src": "/img/foulards/longdesc/arc-en-ciel/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Foulard arcobaleno in chiffon e satin di seta"
               }
             ],
             "sizes": [
