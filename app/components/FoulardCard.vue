@@ -33,7 +33,7 @@
       <!-- COLOR -->
       <div class="mb-5" @click.stop>
         <div class="text-xs uppercase tracking-wider text-[#4A5565] mb-2">
-          Couleur :
+          {{ t('scarves.detail.color') }} :
           <span class="font-semibold">{{ currentColor?.label }}</span>
         </div>
 
@@ -46,7 +46,7 @@
       <!-- MATERIAL -->
       <div class="mb-5" @click.stop>
         <div class="text-xs uppercase tracking-wider text-[#4A5565] mb-2">
-          Matière :
+          {{ t('scarves.detail.material') }} :
           <span class="font-semibold">{{ currentMaterial?.label }}</span>
         </div>
 
@@ -59,7 +59,7 @@
       <!-- SIZES -->
       <div @click.stop>
         <div class="text-xs uppercase tracking-wider text-[#4A5565] mb-2">
-          Tailles :
+          {{ t('scarves.detail.size') }} :
         </div>
 
         <SizeList
@@ -76,6 +76,8 @@ import { computed, ref, watch } from 'vue'
 import ColorSwatch from './ColorSwatch.vue'
 import MaterialBadge from './MaterialBadge.vue'
 import SizeList from './SizeList.vue'
+
+const { t } = useI18n()
 
 interface Image {
   src: string

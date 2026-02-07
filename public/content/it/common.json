@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "home": "Home",
+    "artist": "L'Artista",
+    "paintings": "Dipinti",
+    "scarves": "Foulard",
+    "activities": "Altre attività",
+    "contact": "Contatto"
+  },
+  "footer": {
+    "presentation": {
+      "name": "Marjolène Lasne",
+      "bio": "Pittrice con sede in Provenza, ispirata ai paesaggi colorati, alle scene di vita quotidiana e alla luce del Sud della Francia."
+    },
+    "navigation": "Navigazione",
+    "contact": "Contatto",
+    "studioLocation": "Studio a Roussillon, Provenza\nFrancia",
+    "followArtist": "Segui l'artista",
+    "copyright": "Tutti i diritti riservati.",
+    "legalLink": "Note legali",
+    "privacyLink": "Informativa sulla privacy"
+  },
+  "cookie": {
+    "ariaLabel": "Gestione dei cookie",
+    "message": "Questo sito utilizza cookie di analisi (Google Analytics) per misurare l'audience.",
+    "learnMore": "Scopri di più",
+    "accept": "Accetta",
+    "decline": "Rifiuta"
+  },
+  "actions": {
+    "contactArtist": "Contatta l'artista",
+    "contactArtistAboutWork": "Contatta l'artista per quest'opera",
+    "sendMessage": "Invia il messaggio",
+    "sending": "Invio in corso...",
+    "close": "Chiudi",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu",
+    "previousImage": "Immagine precedente",
+    "nextImage": "Immagine successiva",
+    "previous": "Precedente",
+    "next": "Successivo",
+    "selectColor": "Seleziona {label}",
+    "loading": "Caricamento...",
+    "back": "Indietro"
+  },
+  "aria": {
+    "home": "Home",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "linkedin": "LinkedIn",
+    "languageSwitcher": "Cambia lingua",
+    "language": "Lingua",
+    "paintingNavigation": "Naviga tra i dipinti",
+    "scarfImageAlt": "Immagine del foulard"
+  },
+  "seo": {
+    "global": {
+      "title": "Marjolene Lasne – Pittrice",
+      "description": "Portfolio di Marjolene Lasne, pittrice specializzata in ritratti e paesaggi.",
+      "keywords": "Marjolene Lasne, pittrice, dipinti, ritratti, paesaggi, arte contemporanea, galleria d'arte"
+    },
+    "structuredData": {
+      "websiteName": "Marjolene Lasne",
+      "websiteDescription": "Portfolio ufficiale di Marjolene Lasne, pittrice in Provenza.",
+      "personName": "Marjolene Lasne",
+      "jobTitle": "Pittrice",
+      "siteName": "Marjolene Lasne",
+      "locale": "it_IT"
+    }
+  }
+}

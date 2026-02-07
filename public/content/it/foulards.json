@@ -1,0 +1,1958 @@
+[
+  {
+    "slug": "pivoines",
+    "title": "Pivoines",
+    "description": "In questa composizione, alcune peonie stilizzate leggermente contornate di nero sono rese in toni caldi che vanno dal rosa all'arancione su uno sfondo sfumato blu e verde lime.",
+    "colors": {
+      "rose-degrade-orange-fond-blanc": {
+        "id": "rose-degrade-orange-fond-blanc",
+        "label": "Sfumatura dal rosa all'arancione su bianco",
+        "hexes": [
+          "#E360B1",
+          "#FFFFFF",
+          "#FD9418"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-fond-blanc-BMS-84x84.webp",
+                "alt": "Foulard Pivoines sfumatura dal rosa all'arancione su bianco in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Sfumatura dal rosa all'arancione",
+        "hexes": [
+          "#FFC702",
+          "#E31C7F"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-64x64.webp",
+                "alt": "Foulard Pivoines sfumatura dal rosa all'arancione in seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Pezzo unico realizzato in Francia",
+      "Disegno originale dell'artista",
+      "Cura: lavaggio a secco consigliato"
+    ],
+    "metaDescription": "Foulard in seta Pivoines di Marjolène Lasne, motivi floreali ispirati alla Provenza."
+  },
+  {
+    "slug": "hibiscus",
+    "title": "Hibiscus",
+    "description": "Fiori e graminacee varie danzano intorno a un maestoso fiore di ibisco al centro della composizione.",
+    "colors": {
+      "rouge-degrade-orange": {
+        "id": "rouge-degrade-orange",
+        "label": "Sfumatura dal rosso all'arancione",
+        "hexes": [
+          "#FFB409",
+          "#F01F11"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64.webp",
+                "alt": "Foulard Hibiscus sfumatura dal rosso all'arancione in seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Sfumatura rosa",
+        "hexes": [
+          "#F88CBE",
+          "#E11C6A"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-BMS-64x64.webp",
+                "alt": "Foulard Hibiscus sfumatura rosa in modal"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-jaune": {
+        "id": "rose-degrade-jaune",
+        "label": "Sfumatura dal rosa al giallo",
+        "hex": "#000000",
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/roses/rose-degrade/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Foulard Roses sfumatura rosa in chiffon e satin di seta – vista principale"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Sfumatura dal rosa all'arancione",
+        "hexes": [
+          "#FDB308",
+          "#EE1A8B"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84.webp",
+                "alt": "Foulard Hibiscus sfumatura dal rosa all'arancione in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Pezzo unico realizzato in Francia",
+      "Disegno originale dell'artista",
+      "Cura: lavaggio a secco consigliato"
+    ],
+    "metaDescription": "Foulard in seta Hibiscus di Marjolène Lasne, colori della Costa Azzurra."
+  },
+  {
+    "slug": "roses",
+    "title": "Roses",
+    "description": "Rose in tenere armonie di rosa intenso e prugna risaltano su questa composizione nei toni del verde lime e smeraldo.",
+    "colors": {
+      "rose-degrade-fond-blanc": {
+        "id": "rose-degrade-fond-blanc",
+        "label": "Sfumatura rosa su bianco",
+        "hexes": [
+          "#E72A8A",
+          "#E72A8A"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-et-T-64x64.webp",
+                "alt": "Foulard Roses sfumatura rosa in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-et-T-64x64.webp",
+                "alt": "Foulard Roses sfumatura rosa in satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "vert-degrade-fond-blanc": {
+        "id": "vert-degrade-fond-blanc",
+        "label": "Sfumatura verde su bianco",
+        "hexes": [
+          "#09E6C7",
+          "#019686"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/roses/vert-degrade-fond-blanc-BMS-84x84.webp",
+                "alt": "Foulard Roses sfumatura verde su bianco in chiffon"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Pezzo unico realizzato in Francia",
+      "Disegno originale dell'artista",
+      "Cura: lavaggio a secco consigliato"
+    ],
+    "metaDescription": "Foulard in seta Roses di Marjolène Lasne, colori della Costa Azzurra."
+  },
+  {
+    "slug": "eclats-or",
+    "title": "Eclats d'Or",
+    "description": "Questa composizione energica, con i suoi colori vividi, il trattamento allungato delle spighe e i fiori stilizzati, porta vigore e dinamismo.",
+    "colors": {
+      "jaune-or": {
+        "id": "jaune-or",
+        "label": "Giallo dorato",
+        "hexes": [
+          "#FFCA00",
+          "#FE9200"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64.webp",
+                "alt": "Foulard giallo dorato in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Sfumatura rosa",
+        "hexes": [
+          "#F78DBE",
+          "#E01B68"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/rose-degrade-BMS-64x64.webp",
+                "alt": "Foulard sfumatura rosa in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-orange-degrade": {
+        "id": "rose-orange-degrade",
+        "label": "Sfumatura rosa-arancio",
+        "hexes": [
+          "#FFA806",
+          "#F73AA7"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84.webp",
+                "alt": "Foulard sfumatura rosa-arancio in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-vert-degrade": {
+        "id": "bleu-vert-degrade",
+        "label": "Sfumatura blu-verde",
+        "hexes": [
+          "#41F5E6",
+          "#279F94"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84.webp",
+                "alt": "Foulard sfumatura blu-verde in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Edizione limitata"
+    ],
+    "metaDescription": "Foulard in edizione limitata di Marjolène Lasne."
+  },
+  {
+    "slug": "coquelicots",
+    "title": "Coquelicots",
+    "description": "In questa composizione diagonale, leggeri papaveri che volano nel vento si fronteggiano su uno sfondo di campi dorati e cielo radioso.",
+    "colors": {
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Sfumatura blu turchese",
+        "hexes": [
+          "#18BEEC",
+          "#13809D"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              },
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Sfumatura rosa",
+        "hexes": [
+          "#E11C6A",
+          "#F88CBE"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64.webp",
+                "alt": "Foulard sfumatura rosa in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rouge-degrade-orange": {
+        "id": "rouge-degrade-orange",
+        "label": "Sfumatura dal rosso all'arancione",
+        "hexes": [
+          "#EF1E10",
+          "#FFB409"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64.webp",
+                "alt": "Foulard sfumatura dal rosso all'arancione in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Sfumatura dal rosa all'arancione",
+        "hexes": [
+          "#ED1890",
+          "#FFA808"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "vert": {
+        "id": "vert",
+        "label": "Verde",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/longdesc/arc-en-ciel/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Foulard arcobaleno in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "vert-degrade": {
+        "id": "vert-degrade",
+        "label": "Sfumatura verde",
+        "hexes": [
+          "#12D8BC",
+          "#019686"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BMS-84x84.webp",
+                "alt": "Foulard sfumatura verde in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rouge-degrade-rose": {
+        "id": "rouge-degrade-rose",
+        "label": "Sfumatura dal rosso al rosa",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/longdesc/arc-en-ciel/satin-de-soie-1.avif",
+                "alt": "Foulard arcobaleno in satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test descrizione lunga",
+      "Disponibili più misure",
+      "Materiali multipli"
+    ],
+    "metaDescription": "Foulard con descrizione lunga per test dell'interfaccia."
+  },
+  {
+    "slug": "fleurs-de-porcelaine",
+    "title": "Fleurs de Porcelaine",
+    "description": "Volute sottili adornano questa composizione, in cui fiori e piante di porcellana risaltano su uno sfondo giallo dorato e rosa vibrante.",
+    "colors": {
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Sfumatura dal rosa all'arancione",
+        "hexes": [
+          "#F64984",
+          "#FEB107"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rouge-degrade-orange": {
+        "id": "rouge-degrade-orange",
+        "label": "Sfumatura dal rosso all'arancione",
+        "hexes": [
+          "#F03333",
+          "#FEB009"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84.webp",
+                "alt": "Foulard sfumatura dal rosso all'arancione in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Sfumatura blu turchese",
+        "hexes": [
+          "#0CE5D0",
+          "#2C9F94"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test di più colori e materiali",
+      "Visualizzazione complessa"
+    ],
+    "metaDescription": "Foulard con molti colori e materiali."
+  },
+  {
+    "slug": "poisson",
+    "title": "Poisson",
+    "description": "Tra coralli e fiori acquatici, due pesci si fronteggiano in una sfumatura di blu oltremare e turchese.",
+    "colors": {
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Sfumatura blu turchese",
+        "hexes": [
+          "#25D1F1",
+          "#15909D"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/poisson/bleu-turquoise-degrade-BMS-84x84.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-degrade": {
+        "id": "bleu-degrade",
+        "label": "Sfumatura blu",
+        "hexes": [
+          "#31D9FE",
+          "#002FE5"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84.webp",
+                "alt": "Foulard sfumatura blu in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "orange-degrade-sanguine": {
+        "id": "orange-degrade-sanguine",
+        "label": "Sfumatura dall'arancione al rosso sangue",
+        "hexes": [
+          "#FAA01E",
+          "#EE3143"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84.webp",
+                "alt": "Foulard sfumatura dall'arancione al rosso sangue in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "cerise": {
+        "id": "cerise",
+        "label": "Ciliegia",
+        "hexes": [
+          "#EF0A4D"
+        ],
+        "type": "solid",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/poisson/cerise-BMS-84x84.webp",
+                "alt": "Foulard ciliegia in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "jaune-orange-degrade": {
+      "id": "jaune-orange-degrade",
+      "label": "Sfumatura giallo-arancione",
+      "hexes": [
+        "#FFA63B",
+        "#F85B03"
+      ],
+      "type": "gradient",
+      "materials": {
+        "mousseline-et-satin-de-soie": {
+          "id": "mousseline-et-satin-de-soie",
+          "label": "Chiffon e satin di seta",
+          "images": [
+            {
+              "src": "/img/foulards/poisson/jaune-orange-degrade-BMS-84x84.webp",
+              "alt": "Foulard sfumatura giallo-arancione in chiffon e satin di seta"
+            }
+          ],
+          "sizes": [
+            {
+              "id": "84x84",
+              "label": "84×84 cm"
+            }
+          ]
+        }
+      }
+    },
+    "mentions": [
+      "Test di più colori e materiali",
+      "Visualizzazione complessa"
+    ],
+    "metaDescription": "Foulard con molti colori e materiali."
+  },
+  {
+    "slug": "herbes-folles",
+    "title": "Herbes Folles",
+    "description": "Un covone di erbe selvatiche, fiori ed erbe in una composizione vivace e dinamica.",
+    "colors": {
+      "brique": {
+        "id": "brique",
+        "label": "Mattone",
+        "hexes": [
+          "#B70F1C"
+        ],
+        "type": "solid",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/herbes-folles/brique-BMS-84x84.webp",
+                "alt": "Foulard rosso in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "orange-degrade-sanguine": {
+        "id": "orange-degrade-sanguine",
+        "label": "Sfumatura dall'arancione al rosso sangue",
+        "hexes": [
+          "#F99323",
+          "#EE3143"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84.webp",
+                "alt": "Foulard sfumatura dall'arancione al rosso sangue in satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "amethyste": {
+        "id": "amethyste",
+        "label": "Ametista",
+        "hexes": [
+          "#8E144D"
+        ],
+        "type": "solid",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84.webp",
+                "alt": "Foulard ametista in satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "lavande-degrade-clair": {
+        "id": "lavande-degrade-clair",
+        "label": "Sfumatura lavanda chiaro",
+        "hexes": [
+          "#33398D",
+          "#99C4E6"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84.webp",
+                "alt": "Foulard sfumatura lavanda chiaro in satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test di più colori e materiali",
+      "Visualizzazione complessa"
+    ],
+    "metaDescription": "Foulard con molti colori e materiali."
+  },
+  {
+    "slug": "libellule",
+    "title": "Libellule",
+    "description": "In questa composizione rotonda, le libellule si nascondono tra fiori nei toni dell'arancione e del rosa.",
+    "colors": {
+      "rose": {
+        "id": "rose",
+        "label": "Rosa",
+        "hexes": [
+          "#BD1479"
+        ],
+        "type": "solid",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84.webp",
+                "alt": "Foulard rosa in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "vert": {
+        "id": "vert",
+        "label": "Verde",
+        "hexes": [
+          "#6BAE23"
+        ],
+        "type": "solid",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/libellule/vert-BMS-84x84.webp",
+                "alt": "Foulard verde in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test di più colori e materiali",
+      "Visualizzazione complessa"
+    ],
+    "metaDescription": "Foulard con molti colori e materiali."
+  },
+  {
+    "slug": "paon",
+    "title": "Paon",
+    "description": "Un maestoso pavone risalta tra un mazzo di fiori su uno sfondo di cielo al tramonto.",
+    "colors": {
+      "vert": {
+        "id": "vert",
+        "label": "Verde",
+        "hexes": [
+          "#65B846"
+        ],
+        "type": "solid",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84.webp",
+                "alt": "Foulard verde in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "corail-degrade": {
+        "id": "corail-degrade",
+        "label": "Sfumatura corallo",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/multi/corail/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Foulard corallo in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise": {
+        "id": "bleu-turquoise",
+        "label": "Blu turchese",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Foulard blu turchese in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-violet": {
+        "id": "rose-degrade-violet",
+        "label": "Sfumatura dal rosa al viola",
+        "hexes": [
+          "#E109CE",
+          "#A831F5"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/paon/rose-degrade-violet-BMS-84x84.webp",
+                "alt": "Foulard sfumatura dal rosa al viola in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-prune": {
+        "id": "rose-degrade-prune",
+        "label": "Sfumatura dal rosa al prugna",
+        "hexes": [
+          "#E00ACE",
+          "#A831F5"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84.webp",
+                "alt": "Foulard sfumatura dal rosa al prugna in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84×84 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test di più colori e materiali",
+      "Visualizzazione complessa"
+    ],
+    "metaDescription": "Foulard con molti colori e materiali."
+  },
+  {
+    "slug": "spirales",
+    "title": "Spirales",
+    "description": "Una composizione di curve e volute in armonie di blu, arancione e rosa.",
+    "colors": {
+      "lie-de-vin": {
+        "id": "lie-de-vin",
+        "label": "Vinaccia",
+        "hex": "#000000",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/multi/lie-de-vin/satin-de-soie-1.avif",
+                "alt": "Foulard vinaccia in satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test di più colori e materiali",
+      "Visualizzazione complessa"
+    ],
+    "metaDescription": "Foulard con molti colori e materiali."
+  },
+  {
+    "slug": "mamma-del-mondo",
+    "title": "Mamma del Mondo",
+    "description": "In questa composizione, coccinelle e quadrifogli si nascondono tra i fiori per onorare, in diverse lingue, tutte le madri del mondo.",
+    "colors": {
+      "rose-degrade-violet": {
+        "id": "rose-degrade-violet",
+        "label": "Sfumatura dal rosa al viola",
+        "hexes": [
+          "#E90195",
+          "#9E0CAB"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64.webp",
+                "alt": "Foulard sfumatura dal rosa al viola in satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "64x64",
+                "label": "64×64 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test di più colori e materiali",
+      "Visualizzazione complessa"
+    ],
+    "metaDescription": "Foulard con molti colori e materiali."
+  },
+  {
+    "slug": "courbes",
+    "title": "Courbes",
+    "description": "Su uno sfondo giallo-arancio e rosa definito da una curva sinuosa, fiori nei toni caldi del rosa e del viola punteggiano questa composizione elegante.",
+    "colors": {
+      "rose-degrade": {
+        "id": "rose-degrade",
+        "label": "Sfumatura rosa",
+        "hexes": [
+          "#F47AB5",
+          "#E71F72"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/courbes/rose-degrade-BMS-40x170.webp",
+                "alt": "Foulard sfumatura rosa in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "vert-degrade": {
+        "id": "vert-degrade",
+        "label": "Sfumatura verde",
+        "hexes": [
+          "#039787",
+          "#06D8D3"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x170.webp",
+                "alt": "Foulard sfumatura verde in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "violet-degrade-rose": {
+        "id": "violet-degrade-rose",
+        "label": "Sfumatura dal viola al rosa",
+        "hexes": [
+          "#CF0F87",
+          "#9F42AD"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x170.webp",
+                "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-outremer-degrade-lavande": {
+        "id": "bleu-outremer-degrade-lavande",
+        "label": "Sfumatura dall'oltremare alla lavanda",
+        "hexes": [
+          "#4659E0",
+          "#8AA6F5"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-T-40x170.webp",
+                "alt": "Foulard sfumatura dall'oltremare alla lavanda in satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test di più colori e materiali",
+      "Visualizzazione complessa"
+    ],
+    "metaDescription": "Foulard con molti colori e materiali."
+  },
+  {
+    "slug": "printemps-en-couleurs",
+    "title": "Printemps en Couleurs",
+    "description": "Su entrambi i lati di questo foulard, papaveri aggraziati sono valorizzati da delicate graminacee.",
+    "colors": {
+      "vert-degrade-turquoise": {
+        "id": "vert-degrade-turquoise",
+        "label": "Sfumatura dal verde al turchese",
+        "hexes": [
+          "#01BED7",
+          "#029485"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x170.webp",
+                "alt": "Foulard verde in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Sfumatura dal rosa all'arancione",
+        "hexes": [
+          "#FFCA08",
+          "#EF238F"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x170.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "outremer-degrade-turquoise": {
+        "id": "outremer-degrade-turquoise",
+        "label": "Sfumatura dall'oltremare al turchese",
+        "hexes": [
+          "#2DC3E2",
+          "#1556F8"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "alt": "Foulard oltremare in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "alt": "Foulard oltremare in satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Sfumatura blu turchese",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Foulard blu turchese in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test di più colori e materiali",
+      "Visualizzazione complessa"
+    ],
+    "metaDescription": "Foulard con molti colori e materiali."
+  },
+  {
+    "slug": "paysage-de-roussillon",
+    "title": "Paysage de Roussillon",
+    "description": "Il villaggio di Roussillon, con le sue erbe selvatiche in primo piano, adorna questo foulard su entrambi i lati della sua lunghezza e risalta su un cielo luminoso.",
+    "colors": {
+      "vert-degrade": {
+        "id": "vert-degrade",
+        "label": "Sfumatura verde",
+        "hexes": [
+          "#01BED7",
+          "#009384"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x170.webp",
+                "alt": "Foulard verde in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Sfumatura dal rosa all'arancione",
+        "hexes": [
+          "#F03B44",
+          "#FC9701"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-et-T-40x170.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          },
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-et-T-40x170.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rouge-degrade-orange": {
+        "id": "rouge-degrade-orange",
+        "label": "Sfumatura dal rosso all'arancione",
+        "hexes": [
+          "#EF3A43",
+          "#FC9701"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-BMS-et-T-40x170.webp",
+                "alt": "Foulard sfumatura dal rosso all'arancione in satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          },
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-BMS-et-T-40x170.webp",
+                "alt": "Foulard sfumatura dal rosso all'arancione in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "outremer-degrade": {
+        "id": "outremer-degrade",
+        "label": "Sfumatura oltremare",
+        "hexes": [
+          "#2FC2E2",
+          "#1556F8"
+        ],
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x170.webp",
+                "alt": "Foulard oltremare in satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          },
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x170.webp",
+                "alt": "Foulard oltremare in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test di più colori e materiali",
+      "Visualizzazione complessa"
+    ],
+    "metaDescription": "Foulard con molti colori e materiali."
+  },
+  {
+    "slug": "fleurs-et-papillons",
+    "title": "Fleurs et Papillons",
+    "description": "In questa composizione verticale, linee sinuose sostengono fiori selvatici aggraziati e lavanda, una culla per molte farfalle.",
+    "colors": {
+      "bleu-outremer-degrade-lavande": {
+        "id": "bleu-outremer-degrade-lavande",
+        "label": "Sfumatura dall'oltremare alla lavanda",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Foulard oltremare in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": " 40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "violet-rose-degrade": {
+        "id": "violet-rose-degrade",
+        "label": "Sfumatura dal viola al rosa",
+        "hexes": [
+          "#B441AA",
+          "#F737AC"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x170.webp",
+                "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "rose-degrade-orange": {
+        "id": "rose-degrade-orange",
+        "label": "Sfumatura dal rosa all'arancione",
+        "hexes": [
+          "#FFBE0E",
+          "#ED1892"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x170.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Sfumatura blu turchese",
+        "hexes": [
+          "#208AC3",
+          "#1FD2F7"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x170.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test di più colori e materiali",
+      "Visualizzazione complessa"
+    ],
+    "metaDescription": "Foulard con molti colori e materiali."
+  },
+  {
+    "slug": "oiseaux-exotiques",
+    "title": "Oiseaux Exotiques",
+    "description": "Uccelli esotici dai colori scintillanti danzano tra fiori di porcellana e piante tropicali.",
+    "colors": {
+      "vert-degrade-turquoise": {
+        "id": "vert-degrade-turquoise",
+        "label": "Sfumatura dal verde al turchese",
+        "hexes": [
+          "#039787",
+          "#06D8D1"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x170.webp",
+                "alt": "Foulard sfumatura dal verde al turchese in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "lavande-degrade": {
+        "id": "lavande-degrade",
+        "label": "Sfumatura lavanda",
+        "hexes": [
+          "#8DA9FD",
+          "#495CE2"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x170.webp",
+                "alt": "Foulard sfumatura lavanda in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "jaune-degrade-rose": {
+        "id": "jaune-degrade-rose",
+        "label": "Sfumatura dal giallo al rosa",
+        "hexes": [
+          "#FECC06",
+          "#EE228D"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x170.webp",
+                "alt": "Foulard sfumatura dal giallo al rosa in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "jaune-degrade-rouge": {
+        "id": "jaune-degrade-rouge",
+        "label": "Sfumatura dal giallo al rosso",
+        "hexes": [
+          "#F21B3D",
+          "#FFB309"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x170.webp",
+                "alt": "Foulard sfumatura dal giallo al rosso in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise-degrade": {
+        "id": "bleu-turquoise-degrade",
+        "label": "Sfumatura blu turchese",
+        "hexes": [
+          "#30C8E7",
+          "#1C80BC"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x170.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-outremer-degrade-lavande": {
+        "id": "bleu-outremer-degrade-lavande",
+        "label": "Sfumatura dall'oltremare alla lavanda",
+        "hex": "#000000",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif",
+                "alt": "Foulard oltremare in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-outremer-degrade-turquoise": {
+        "id": "bleu-outremer-degrade-turquoise",
+        "label": "Sfumatura dall'oltremare al turchese",
+        "hexes": [
+          "#2FC2E2",
+          "#1556F7"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "alt": "Foulard sfumatura dall'oltremare al turchese in satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          },
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "alt": "Foulard sfumatura dall'oltremare al turchese in chiffon e satin di seta"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x170",
+                "label": "40×170 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Test di più colori e materiali",
+      "Visualizzazione complessa"
+    ],
+    "metaDescription": "Foulard con molti colori e materiali."
+  }
+]

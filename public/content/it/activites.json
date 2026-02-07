@@ -1,0 +1,52 @@
+[
+  {
+    "id": "stages",
+    "title": "Workshop",
+    "description": "Vieni a scoprire le tecniche dell'acrilico e dell'acquerello durante un corso introduttivo condotto da Marjolène!",
+    "items": [
+      "Su richiesta, sessioni individuali o di gruppo (max. 4 persone)",
+      "Per bambini e adulti, principianti o artisti esperti",
+      "Possibilità di dipingere all'aperto"
+    ],
+    "imageSrc": "/img/autres-activites/stages_illu.webp",
+    "imageAlt": "Laboratorio di pittura con corsi e stage introduttivi",
+    "position": "right"
+  },
+  {
+    "id": "design-textile",
+    "title": "Design tessile",
+    "description": "Dopo l'esposizione al salone Première Vision di Parigi nel 2015, Marjolène propone anche motivi per tessuti e stampe.",
+    "items": [
+      "Disegni realizzati a mano (acquerello, matita, collage) poi elaborati digitalmente con Photoshop",
+      "Motivi vari: floreali, geometrici, astratti…",
+      "Ordini personalizzati disponibili"
+    ],
+    "imageSrc": "/img/autres-activites/design_textile_illu.webp",
+    "imageAlt": "Creazioni tessili e stampe di Marjolène",
+    "position": "left"
+  },
+  {
+    "id": "gites",
+    "title": "Case vacanza e camere",
+    "description": "Scopri le nostre case vacanza e camere nel cuore di Roussillon in Provenza, classificato tra i 'Borghi più belli di Francia'.",
+    "items": [
+      "Aperto da aprile a ottobre",
+      "Alloggi eleganti, decorati in stile provenzale contemporaneo",
+      "Posizione ideale per esplorare il Luberon e la Provenza"
+    ],
+    "imageSrc": "/img/autres-activites/gites_illu.webp",
+    "imageAlt": "Case vacanza e camere a Roussillon",
+    "position": "right"
+  },
+  {
+    "id": "commandes-visites",
+    "title": "Commissioni",
+    "description": "L'artista propone la realizzazione di opere su misura, adattate all'arredo e ai colori del tuo interno.",
+    "items": [
+      "Creazione di opere originali su richiesta (dimensioni, tema, colori)"
+    ],
+    "imageSrc": "/img/autres-activites/commandes_visites_illu.webp",
+    "imageAlt": "Studio e commissioni di pittura",
+    "position": "left"
+  }
+]

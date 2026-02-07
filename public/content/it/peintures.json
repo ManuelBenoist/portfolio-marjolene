@@ -1,0 +1,258 @@
+{
+  "collections": {
+    "Scènes d'Intérieur": [
+      {
+        "slug": "diva-venitienne",
+        "title": "Diva Vénitienne",
+        "description": "Un'orchestra con una Diva avvolta di rosso si staglia sull'architettura di un teatro barocco, attraverso cui si intravede la sagoma della Salute a Venezia.",
+        "dimensions": "80×80 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/scenes-d-interieur/diva_venitienne.webp"
+      },
+      {
+        "slug": "duo-au-piano",
+        "title": "Duo au piano",
+        "description": "Le sagome di due musicisti contrastano con le forme di carte incollate sottilmente impreziosite d'oro.",
+        "dimensions": "20×20 cm",
+        "technique": "Tecniche miste",
+        "image": "/img/peintures/scenes-d-interieur/duo_au_piano.webp"
+      },
+      {
+        "slug": "confidences-des-deux-amies",
+        "title": "Confidences des deux amies",
+        "description": "Due amiche che chiacchierano nell'atmosfera calda di un caffè parigino.",
+        "dimensions": "46×38 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/scenes-d-interieur/confidences_des_deux_amies.webp"
+      },
+      {
+        "slug": "conversation-a-saint-germain-des-pres",
+        "title": "Conversation à Saint-Germain-des-Prés",
+        "description": "Questo caffè all'angolo di Rue de Buci a Parigi crea riflessi e prospettive in continuo movimento.",
+        "dimensions": "55×46 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/scenes-d-interieur/conversation_a_saint_germain_des_pres.webp"
+      },
+      {
+        "slug": "autour-d-un-verre-a-venise",
+        "title": "Autour d'un verre à Venise (diptyque)",
+        "description": "Una composizione in dittico che evoca sia l'interno di un caffè barocco sia una prospettiva sulla Salute, il Tamigi e le barche veneziane.",
+        "dimensions": "55×46 cm ×2",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/scenes-d-interieur/autour_d'un_verre_a_venise_diptyque.webp"
+      },
+      {
+        "slug": "le-temps-suspendu",
+        "title": "Le Temps Suspendu",
+        "description": "Questa tela rappresenta il ristorante “La Cigale” a Nantes con le sue ceramiche decorate da cicale, i decori elaborati e gli specchi che creano riflessi sapienti.",
+        "dimensions": "92×73 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/scenes-d-interieur/le_temps_suspendu.webp"
+      }
+    ],
+    "Terrasses et Marchés": [
+      {
+        "slug": "pause-apéritive",
+        "title": "Pause Apéritive (diptyque)",
+        "description": "In questa composizione in dittico, le armonie principali sono il blu e l'arancione, colori complementari punteggiati di bianco e di sottili sfumature di verde caldo.",
+        "dimensions": "30×60 cm ×2",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/terrasses-et-marches/pause_aperitive_diptyque.webp"
+      },
+      {
+        "slug": "terrasse-ombragee",
+        "title": "Terrasse Ombragée",
+        "description": "Un ristorante provenzale arricchito da una fontana. Il blu sfumato della facciata si contrappone alla facciata soleggiata dalle tonalità aranciate, portando calore, vitalità ed energia alla tela.",
+        "dimensions": "81×65 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/terrasses-et-marches/terrasse_ombragee.webp"
+      },
+      {
+        "slug": "detente-a-gordes",
+        "title": "Détente à Gordes",
+        "description": "Alberi maestosi dominano la piazza di questo ristorante a Gordes, creando giochi mobili di ombre e di luce.",
+        "dimensions": "",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/terrasses-et-marches/detente_a_gordes.webp"
+      },
+      {
+        "slug": "la-marchande-de-legumes",
+        "title": "La Marchande de Légumes",
+        "description": "Ombrelloni colorati sembrano danzare e scandiscono la composizione. Verdure multicolori occupano il primo piano della tela formando una diagonale. Le figure animano la scena.",
+        "dimensions": "",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/terrasses-et-marches/la_marchande_de_legumes.webp"
+      },
+      {
+        "slug": "en-terrasse-parmi-les-fleurs",
+        "title": "En Terrasse Parmi Les fleurs",
+        "description": "Una scena di vita gioiosa. Terrazza di caffè, cameriere, fiori e cielo azzurro. Il tutto nei colori scintillanti della Provenza.",
+        "dimensions": "",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/terrasses-et-marches/en_terrasse_parmi_les_fleurs.webp"
+      },
+      {
+        "slug": "a-la-terrasse-du-fournil",
+        "title": "À la Terrasse du Fournil",
+        "description": "Una scena di terrazza di caffè che passa dolcemente dall'ombra alla luce.",
+        "dimensions": "73×50 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/terrasses-et-marches/a_la_terrasse_du_fournil.webp"
+      },
+      {
+        "slug": "pause-aperitive-au-soleil-provencal",
+        "title": "Pause Apéritive au Soleil Provençal",
+        "description": "Frutti colorati su un banco di mercato accanto a una terrazza di caffè, immersi in tonalità blu contrastanti.",
+        "dimensions": "50×50 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/terrasses-et-marches/pause_aperitive_au_soleil_provencal.webp"
+      },
+      {
+        "slug": "promenade-d-ete-en-famille-a-roussillon",
+        "title": "Promenade d'été en famille à Roussillon",
+        "description": "Bambini che giocano con l'acqua della fontana sotto lo sguardo dei genitori che si godono il momento in terrazza.",
+        "dimensions": "65×54 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/terrasses-et-marches/promenade_d_ete_en_famille_a_roussillon.webp"
+      },
+      {
+        "slug": "les-heures-douces-a-la-fontaine",
+        "title": "Les Heures Douces à la Fontaine",
+        "description": "Serenità in terrazza con vista su campi colorati al mormorio della fontana.",
+        "dimensions": "",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/terrasses-et-marches/les_heures_douces_a_la_fontaine.webp"
+      },
+      {
+        "slug": "detente-au-jardin",
+        "title": "Détente au Jardin",
+        "description": "Un pranzo estivo in famiglia in giardino, sotto la protezione dei rami di un tiglio.",
+        "dimensions": "",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/terrasses-et-marches/detente_au_jardin.webp"
+      },
+      {
+        "slug": "le-marche-de-roussillon",
+        "title": "Le Marché de Roussillon",
+        "description": "Un mercato reso in toni caldi con tocchi di verdi luminosi in contrasto.",
+        "dimensions": "30×30 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/terrasses-et-marches/le_marche_de_roussillon.webp"
+      }
+    ],
+    "Paysages": [
+      {
+        "slug": "roussillon-aux-fleurs-sauvages",
+        "title": "Roussillon aux fleurs sauvages",
+        "description": "Esplosioni di tocchi colorati portati dal vento contrastano con l'aspetto statico delle case ocra di Roussillon.",
+        "dimensions": "50×50 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/paysages/roussillon_aux_fleurs_sauvages.webp"
+      },
+      {
+        "slug": "camargue-secrete",
+        "title": "Camargue Secrète",
+        "description": "Questa tela lavorata in modo dinamico, con pennello e spatola, è una combinazione sottile di toni freddi e caldi. Le distese allagate della Camargue, nelle tonalità del blu, contrastano con un primo piano giallo ravvivato da tocchi di rosa.",
+        "dimensions": "50×50 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/paysages/camargue_secrete.webp"
+      },
+      {
+        "slug": "reflets-emeraude",
+        "title": "Reflets Émeraude",
+        "description": "Un contrasto sottile tra le acque turchesi del canale e le facciate ocra gialle e arancioni delle case.",
+        "dimensions": "40×80 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/paysages/reflets_emeraude.webp"
+      },
+      {
+        "slug": "symphonie-automnale",
+        "title": "Symphonie Automnale",
+        "description": "Dipinta prevalentemente in toni caldi di prugna, arancione e giallo, questa tela è ravvivata da sottili tocchi di viola e verde lime che danno dinamismo alla composizione.",
+        "dimensions": "20×20 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/paysages/symphonie_automnale.webp"
+      },
+      {
+        "slug": "paysage-pourpre-et-vermillon",
+        "title": "Paysage Pourpre et Vermillon",
+        "description": "Un primo piano di viti con tocchi multicolori contrasta con superfici piatte di rosa, vermiglio e giallo.",
+        "dimensions": "20×20 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/paysages/paysage_pourpre_et_vermillon.webp"
+      },
+      {
+        "slug": "roussillon_au_soleil_joyeux",
+        "title": "Roussillon au Soleil Joyeux",
+        "description": "In questa tela dai toni caldi di giallo, arancione e rosso, gli effetti di texture della spatola punteggiano la composizione con il loro dinamismo.",
+        "dimensions": "",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/paysages/roussillon_au_soleil_joyeux.webp"
+      },
+      {
+        "slug": "printemps-à-bonnieux",
+        "title": "Printemps à Bonnieux",
+        "description": "Questa tela evoca la primavera a Bonnieux, un villaggio del Luberon. I fiori di ciliegio contrastano con il primo piano lavorato a spatola in tonalità di giallo, arancione e rosso.",
+        "dimensions": "60×60 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/paysages/printemps_a_bonnieux.webp"
+      },
+      {
+        "slug": "de-pourpre-et-d-azur",
+        "title": "De Pourpre et d'Azur",
+        "description": "Il villaggio di Roussillon e il suo campanile costituiscono il soggetto di questa tela. Le case sono rese in tonalità di giallo, arancione e rosso rosato. Tocchi di verde rappresentano simbolicamente gli alberi.",
+        "dimensions": "30×30 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/paysages/de_pourpre_et_d_azur.webp"
+      },
+      {
+        "slug": "les-vignes-de-bonnieux",
+        "title": "Les Vignes de Bonnieux",
+        "description": "In questa tela, una diagonale scandisce la composizione, separando una superficie piatta gialla dalle vigne rese con tocchi multicolori.",
+        "dimensions": "80×80 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/paysages/les_vignes_de_bonnieux.webp"
+      },
+      {
+        "slug": "gordes-aux-iris",
+        "title": "Gordes aux Iris",
+        "description": "Gli iris con il loro fogliame si stagliano in modo dinamico in primo piano. Le pietre bianche del villaggio e i campi dorati appaiono sullo sfondo in contrasto.",
+        "dimensions": "50×50 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/paysages/gordes_aux_iris.webp"
+      },
+      {
+        "slug": "dune-dans-le-vent",
+        "title": "Dune dans le Vent",
+        "description": "Lavorata con spatola e pigmenti per effetti di materia e texture, questa tela offre sfumature di giallo-arancio e blu-verde che danno un'impressione di spazio e infinito.",
+        "dimensions": "73×60 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/paysages/dune_dans_le_vent.webp"
+      },
+      {
+        "slug": "parfums-secrets-de-provence",
+        "title": "Parfums Secrets de Provence",
+        "description": "In questa tela, la leggerezza delle vigne rese con tocchi multicolori contrasta con le superfici piatte dei campi colorati e tre alberi dai toni di rosa sbiadito. Due figure vestite di bianco animano la scena nel cuore del vigneto.",
+        "dimensions": "73×60 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/paysages/parfums_secrets_de_provence.webp"
+      },
+      {
+        "slug": "champs-d-herbes-sauvages",
+        "title": "Champs d'Herbes Sauvages",
+        "description": "Questa tela luminosa dai toni caldi dominanti si distingue per i suoi rossi e gialli intensi mentre tocchi colorati sottolineano la verticalità delle erbe selvatiche in primo piano.",
+        "dimensions": "65×54 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/paysages/champs_d_herbes_sauvages.webp"
+      },
+      {
+        "slug": "paysage-pourpre-et-vermillon-au-soleil-couchant",
+        "title": "Paysage Pourpre et Vermillon au Soleil Couchant",
+        "description": "In questa tela dai toni prevalentemente caldi, una diagonale sottolineata da tocchi colorati punteggiati di rosa porta dinamismo alla composizione.",
+        "dimensions": "20×20 cm",
+        "technique": "Olio su tela",
+        "image": "/img/peintures/paysages/paysage_pourpre_et_vermillon_au_soleil_couchant.webp"
+      }
+    ]
+  }
+}

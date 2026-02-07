@@ -1,0 +1,144 @@
+{
+  "title": "Informativa sulla privacy",
+  "lastUpdated": "Ultimo aggiornamento: 31/01/2026",
+  "disclaimer": "Questa traduzione italiana è fornita esclusivamente a scopo informativo. In caso di discrepanza tra questa traduzione e la versione francese, prevale la versione francese.",
+  "intro": "Lo scopo di questa informativa sulla privacy è informare gli utenti di questo sito su come i loro dati personali vengono raccolti e trattati, nel rispetto del Regolamento generale sulla protezione dei dati (GDPR) e della legge francese sulla protezione dei dati (e successive modifiche).",
+  "sections": [
+    {
+      "title": "1. Titolare del trattamento",
+      "content": [
+        { "type": "paragraph", "text": "I dati personali raccolti su questo sito sono trattati da:" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "label": "Nome", "value": "Marjolène Lasne" },
+            { "label": "Status", "value": "Pittrice, lavoratrice autonoma (micro-impresa)" },
+            { "label": "Indirizzo", "value": "{address}" },
+            { "label": "SIRET", "value": "3441744300061" },
+            { "label": "Email per GDPR", "value": "{email}" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Dati personali raccolti",
+      "content": [
+        { "type": "paragraph", "text": "Nel corso dell'uso di questo sito possono essere raccolte diverse categorie di dati personali:" },
+        {
+          "type": "subsection",
+          "title": "2.1 Dati raccolti tramite il modulo di contatto",
+          "text": "Quando utilizzi il modulo di contatto, vengono raccolti i seguenti dati:",
+          "list": [
+            "Cognome e/o nome",
+            "Indirizzo email",
+            "Contenuto del messaggio"
+          ],
+          "footer": "Questi dati sono raccolti su base volontaria e sono trattati solo se decidi di inviare il modulo."
+        },
+        {
+          "type": "subsection",
+          "title": "2.2 Dati di navigazione e analytics",
+          "text": "Previo tuo consenso, possono essere raccolti dati di navigazione anonimizzati tramite Google Analytics (pagine visitate, durata della visita, tipo di dispositivo, localizzazione approssimativa)."
+        },
+        {
+          "type": "subsection",
+          "title": "2.3 Dati tecnici di hosting",
+          "text": "L'host del sito (GitHub Pages) può raccogliere automaticamente alcuni dati tecnici come gli indirizzi IP dei visitatori, nell'ambito della fornitura del servizio di hosting e per motivi di sicurezza."
+        }
+      ]
+    },
+    {
+      "title": "3. Finalità del trattamento",
+      "content": [
+        { "type": "paragraph", "text": "I dati raccolti vengono utilizzati per le seguenti finalità:" },
+        {
+          "type": "list",
+          "style": "disc",
+          "items": [
+            "Rispondere ai messaggi inviati tramite il modulo di contatto",
+            "Misurare l'audience del sito e migliorarne il funzionamento",
+            "Garantire la sicurezza e il corretto funzionamento del sito"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Destinatari dei dati",
+      "content": [
+        { "type": "paragraph", "text": "I tuoi dati personali possono essere trattati dai seguenti fornitori di servizi tecnici:" },
+        {
+          "type": "list",
+          "style": "disc",
+          "items": [
+            { "bold": "Formspree, Inc.", "text": " (gestione del modulo di contatto)" },
+            { "bold": "Google LLC", "text": " (Google Analytics 4 – misurazione dell'audience)" },
+            { "bold": "GitHub, Inc.", "text": " (hosting del sito tramite GitHub Pages)" }
+          ]
+        },
+        { "type": "paragraph", "text": "I tuoi dati non vengono mai venduti o noleggiati a terzi. Non sono condivisi con alcuna altra entità commerciale per scopi di prospezione o marketing." }
+      ]
+    },
+    {
+      "title": "5. Trasferimenti di dati fuori dall'Unione Europea",
+      "content": [
+        { "type": "paragraph", "text": "Alcuni dati raccolti possono essere trasferiti verso paesi al di fuori dell'Unione Europea, in particolare gli Stati Uniti, nell'ambito dell'uso dei servizi di Formspree, Google Analytics e GitHub Pages." },
+        { "type": "paragraph", "text": "Tali trasferimenti sono disciplinati da garanzie conformi al GDPR (clausole contrattuali standard o meccanismi riconosciuti dalla Commissione europea)." }
+      ]
+    },
+    {
+      "title": "6. Periodo di conservazione dei dati",
+      "content": [
+        { "type": "paragraph", "text": "I dati del modulo di contatto vengono conservati solo per il tempo necessario a gestire la richiesta. I dati di misurazione dell'audience sono conservati per un periodo massimo di 14 mesi." }
+      ]
+    },
+    {
+      "title": "7. Cookie",
+      "content": [
+        { "type": "paragraph", "text": "In conformità all'articolo 82 della legge francese sulla protezione dei dati e alle raccomandazioni della CNIL, i cookie di misurazione dell'audience (Google Analytics) vengono installati solo dopo aver ottenuto il tuo consenso esplicito." },
+        { "type": "paragraph", "text": "Alla tua prima visita sul sito, un banner ti informa della presenza di questi cookie e ti consente di accettarli o rifiutarli." },
+        { "type": "paragraph", "text": "Il rifiuto dei cookie di analytics non ha alcun impatto sulla tua navigazione del sito.", "class": "text-sm text-gray-600" }
+      ]
+    },
+    {
+      "title": "8. I tuoi diritti",
+      "content": [
+        { "type": "paragraph", "text": "In conformità al GDPR (articoli 15-22) e alla legge francese sulla protezione dei dati, hai i seguenti diritti riguardo ai tuoi dati personali: accesso, rettifica, cancellazione, limitazione, opposizione e portabilità." },
+        { "type": "paragraph", "text": "Per esercitare uno di questi diritti, puoi inviare la tua richiesta via email a: {email}" }
+      ]
+    },
+    {
+      "title": "9. Protezione dei minori",
+      "content": [
+        { "type": "paragraph", "text": "Questo sito non è specificamente rivolto ai minori e non raccoglie consapevolmente dati personali di persone al di sotto dei 16 anni." }
+      ]
+    },
+    {
+      "title": "10. Modifiche a questa informativa sulla privacy",
+      "content": [
+        { "type": "paragraph", "text": "Questa informativa sulla privacy può essere aggiornata in qualsiasi momento per riflettere evoluzioni legali, normative o tecniche, o in caso di cambiamenti nelle procedure di raccolta e trattamento dei dati." },
+        { "type": "paragraph", "text": "La data dell'ultimo aggiornamento è indicata nella parte superiore di questo documento." }
+      ]
+    },
+    {
+      "title": "11. Contatto",
+      "content": [
+        { "type": "paragraph", "text": "Per qualsiasi domanda relativa a questa informativa sulla privacy o qualsiasi richiesta riguardante i tuoi dati personali, puoi contattarci:" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "label": "Via email", "value": "{email}" },
+            { "label": "Per posta", "value": "Marjolène Lasne – {address}" }
+          ]
+        }
+      ]
+    }
+  ],
+  "legalLink": "Vedi anche le nostre {link}.",
+  "legalLinkText": "Note legali",
+  "seo": {
+    "title": "Informativa sulla privacy",
+    "description": "Informativa sulla privacy e gestione dei dati personali in conformità al GDPR e alle raccomandazioni della CNIL."
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "home": {
+    "srTitle": "Marjolene Lasne – Pittrice",
+    "logoAlt": "Marjolène Lasne",
+    "menuItems": [
+      {
+        "label": "L'Artista",
+        "path": "/artiste",
+        "image": "/img/accueil/Marjolène-Lasne.webp"
+      },
+      {
+        "label": "Dipinti",
+        "path": "/peintures",
+        "image": "/img/accueil/en_terrasse_parmi_les_fleurs.webp"
+      },
+      {
+        "label": "Foulard",
+        "path": "/foulards",
+        "image": "/img/accueil/rose-degrade-orange-BMS-84x84.webp"
+      },
+      {
+        "label": "Altre attività",
+        "path": "/autres-activites",
+        "image": "/img/accueil/gites_illu.webp"
+      },
+      {
+        "label": "Contatto",
+        "path": "/contact",
+        "image": "/img/accueil/gordes_aux_iris.webp"
+      }
+    ],
+    "imageAltPrefix": "Immagine per",
+    "imageAltDefault": "Opera di Marjolène Lasne",
+    "seo": {
+      "title": "Marjolene Lasne – Pittrice",
+      "description": "Portfolio di Marjolene Lasne, pittrice in Provenza. Dipinti originali, foulard in seta e universo artistico."
+    }
+  },
+  "artist": {
+    "title": "L'Artista",
+    "subtitle": "Scopri il percorso e la passione di Marjolène Lasne, artista francese ispirata dalla luce mediterranea e dalla bellezza del Sud della Francia.",
+    "timelineTitle": "Percorso e formazione",
+    "quotes": [
+      {
+        "quote": "Il colore regna sovrano, le armonie sono contrastate e l'esecuzione è squisita! Marjolène Lasne ha il dono di esaltare la musicalità dei toni, di illuminare paesaggi e figure con la sua pennellata viva e vibrante. Ben orchestrate, le sue composizioni evocano momenti fugaci pieni di fascino e serenità. Vivace e gioiosa, la sua tavolozza è unica!",
+        "author": "Gwénaëlle de Carné",
+        "role": "Critica d'arte"
+      },
+      {
+        "quote": "Ispirata alla vita quotidiana che cattura con il taccuino in mano, questa artista restituisce scene di vita con una tavolozza gioiosa. Questa alchimia colorata e armoniosa si affida ai contrasti di colore e di materia per sottolineare la composizione. La pennellata vivace rivela le posture delle figure, al mercato o al caffè, al concerto o in spiaggia. Rispettosa delle atmosfere, Marjolène Lasne gioca con i volumi e l'architettura per dare alla sua opera un carattere panoramico, con una dimensione spaziale per queste orchestre i cui profili si stagliano su uno sfondo senza tempo.",
+        "author": "Thierry Sznytka",
+        "role": "Critico d'arte",
+        "source": "In ARTS ACTUALITÉS MAGAZINE – Edizione speciale gennaio 2006"
+      }
+    ],
+    "timeline": {
+      "personalExhibitions": "Mostre personali",
+      "shows": "Saloni",
+      "awards": "Premi",
+      "noData": "Nessun dato per questo periodo.",
+      "preparing": "Cronologia in preparazione."
+    },
+    "seo": {
+      "title": "L'Artista – Marjolene Lasne",
+      "description": "Biografia di Marjolene Lasne, pittrice in Provenza, e presentazione del suo studio a Roussillon."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "L'Artista"
+    }
+  },
+  "contact": {
+    "title": "Contatto",
+    "subtitle": "Per qualsiasi domanda o ordine, compila il modulo qui sotto.",
+    "infoTitle": "Informazioni",
+    "labels": {
+      "email": "Email",
+      "phone": "Telefono",
+      "studioAddress": "Indirizzo dello studio",
+      "visitByAppointment": "(Visite solo su appuntamento)"
+    },
+    "mapTitle": "Studio – Galleria Marjolène LASNE a Roussillon",
+    "form": {
+      "lastName": "Cognome",
+      "firstName": "Nome",
+      "email": "Email",
+      "subject": "Oggetto",
+      "subjectPlaceholder": "Seleziona un oggetto",
+      "subjectOptions": {
+        "general": "Richiesta generale",
+        "order": "Ordine",
+        "workInfo": "Informazioni su un'opera",
+        "other": "Altro"
+      },
+      "message": "Messaggio",
+      "send": "Invia il messaggio",
+      "sendAriaLabel": "Invia il messaggio di contatto",
+      "sending": "Invio in corso...",
+      "required": "*"
+    },
+    "success": "Grazie, il tuo messaggio è stato inviato correttamente.",
+    "errors": {
+      "title": "Si è verificato un errore",
+      "requiredFields": "Compila tutti i campi del modulo prima di inviare il messaggio.",
+      "unknown": "Errore sconosciuto del modulo.",
+      "generic": "Si è verificato un errore, riprova.",
+      "network": "Si è verificato un errore di connessione. Controlla la tua rete."
+    },
+    "prefill": {
+      "greeting": "Buongiorno,",
+      "closing": "Cordiali saluti,",
+      "paintingRequest": "Vorrei ottenere informazioni sull'opera \"{title}\"{technique}.",
+      "paintingTechniqueFormat": " ({technique})",
+      "scarfRequest": "Vorrei ottenere informazioni sul foulard \"{product}\"{details}.",
+      "scarfDetailsFormat": " ({details})",
+      "scarfColor": "colore {color}",
+      "scarfSize": "taglia {size}",
+      "scarfMaterial": "materiale {material}",
+      "activityRequest": "Vorrei ottenere informazioni sull'attività \"{activity}\".",
+      "artistRequest": "Vorrei contattare l'artista Marjolène Lasne."
+    },
+    "formspreeSubject": "Contatto Marjolène Lasne: {subject}",
+    "seo": {
+      "title": "Contatto – Marjolene Lasne",
+      "description": "Contatta Marjolene Lasne per qualsiasi richiesta sui suoi dipinti, foulard in seta o per pianificare una visita allo studio in Provenza."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Contatto"
+    }
+  },
+  "activities": {
+    "title": "Altre attività",
+    "subtitle": "Marjolène Lasne amplia il suo universo artistico offrendo diverse attività in parallelo alla pittura.",
+    "buttons": {
+      "gites": "Scopri gli alloggi",
+      "default": "Contatta l'artista"
+    },
+    "seo": {
+      "title": "Altre attività – Marjolene Lasne",
+      "description": "Scopri le altre attività di Marjolene Lasne: workshop, design tessile, commissioni e alloggi in Provenza."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Altre attività"
+    }
+  },
+  "paintings": {
+    "title": "Dipinti",
+    "subtitle": "Scopri una selezione di opere originali di Marjolène Lasne, ispirate ai paesaggi, alle scene di vita quotidiana e all'atmosfera del Sud.",
+    "loading": "Caricamento dei dipinti...",
+    "emptyState": "Nessun dipinto corrisponde alla tua selezione.",
+    "filters": {
+      "collections": "Collezioni",
+      "techniques": "Tecniche",
+      "all": "Tutte"
+    },
+    "detail": {
+      "backToGallery": "Torna alla galleria",
+      "collectionPrefix": "Collezione",
+      "dimensions": "Dimensioni",
+      "technique": "Tecnica",
+      "questionCta": "Hai una domanda?",
+      "loading": "Caricamento dell'opera…",
+      "notFound": "Dipinto non trovato.",
+      "previousPainting": "Dipinto precedente",
+      "nextPainting": "Dipinto successivo",
+      "collectionStart": "Inizio della collezione",
+      "collectionEnd": "Fine della collezione",
+      "fallbackDescription": "Scopri un'opera originale di Marjolène Lasne.",
+      "imageAlt": "Dipinto {title}",
+      "previousAriaLabel": "Vedi il dipinto precedente: {title}",
+      "nextAriaLabel": "Vedi il dipinto successivo: {title}"
+    },
+    "seo": {
+      "title": "Dipinti – Marjolene Lasne",
+      "description": "Galleria di dipinti originali di Marjolene Lasne, ispirati alla Provenza, alle scene di vita e ai paesaggi."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Dipinti"
+    }
+  },
+  "scarves": {
+    "title": "Foulard",
+    "subtitle": "Scopri la collezione di foulard in seta di Marjolène Lasne, realizzati in Francia in edizione limitata.",
+    "loading": "Caricamento dei foulard...",
+    "emptyState": "Nessun foulard disponibile al momento.",
+    "detail": {
+      "backToScarves": "Torna ai foulard",
+      "backAriaLabel": "Torna ai foulard",
+      "enlargeImageAriaLabel": "Ingrandisci l'immagine di {title}",
+      "enlargeImageIndexAriaLabel": "Ingrandisci l'immagine {index}",
+      "imageViewAlt": "{title} – vista {index}",
+      "color": "Colore",
+      "material": "Materiale",
+      "size": "Taglia",
+      "contactArtist": "Contatta l'artista",
+      "contactAriaLabel": "Contatta l'artista per questo foulard",
+      "loading": "Caricamento del foulard…",
+      "notFound": "Foulard non trovato.",
+      "backToCollection": "Torna alla collezione",
+      "fallbackDescription": "Scopri un foulard unico di Marjolène Lasne."
+    },
+    "seo": {
+      "title": "Foulard – Marjolene Lasne",
+      "description": "Scopri i foulard in seta di Marjolene Lasne, pezzi unici realizzati in Francia."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Foulard"
+    }
+  }
+}
