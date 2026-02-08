@@ -43,7 +43,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      siteUrl: 'https://manuelbenoist.github.io/portfolio-marjolene',
+      siteUrl: 'https://marjolene-lasne.com',
       contact: {
         email: 'marjolenelasne@gmail.com',
         phone: '+33 6 08 77 08 24',
@@ -57,7 +57,7 @@ export default defineNuxtConfig({
     }
   },
   app: {
-    baseURL: '/portfolio-marjolene/', // si domaine custom, laisse '/' ; sinon '/nom-du-repo/' si pas domaine
+    baseURL: '/', // si domaine custom, laisse '/' ; sinon '/nom-du-repo/' si pas domaine
     head: {
       script: [],
       meta: [
