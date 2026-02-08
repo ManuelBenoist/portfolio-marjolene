@@ -22,7 +22,7 @@
         >
           <figure class="relative flex h-full items-center justify-center bg-background p-0">
             <img
-              :src="painting.image"
+              :src="withBaseImage(painting.image)"
               :alt="$t('paintings.detail.imageAlt', { title: painting.title })"
               class="max-h-[70vh] w-full object-contain"
               loading="lazy"
@@ -143,6 +143,7 @@
 
 <script setup lang="ts">
 import { Icon } from '@iconify/vue'
+import { withBaseImage } from '~/utils/withBaseImage'
 const route = useRoute()
 const { siteUrl, withSiteUrl } = useSiteUrl()
 const { t } = useI18n()
@@ -237,7 +238,7 @@ const metaDescription = computed(
 )
 const metaImage = computed(() => {
   const image = painting.value?.image || '/logo.png'
-  return withSiteUrl(image)
+  return withSiteUrl(withBaseImage(image))
 })
 
 useSeoMeta({
@@ -289,7 +290,7 @@ const artworkSchema = computed(() => {
     '@type': 'VisualArtwork',
     name: painting.value.title,
     description: metaDescription.value,
-    image: withSiteUrl(painting.value.image),
+    image: withSiteUrl(withBaseImage(painting.value.image)),
     artform: 'Peinture',
     artMedium: painting.value.technique,
     creator: {

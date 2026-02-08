@@ -57,7 +57,7 @@ export default defineNuxtConfig({
     }
   },
   app: {
-    baseURL: '/portfolio-marjolene/',
+    baseURL: '/portfolio-marjolene/', // si domaine custom, laisse '/' ; sinon '/nom-du-repo/' si pas domaine
     head: {
       script: [],
       meta: [
@@ -66,30 +66,20 @@ export default defineNuxtConfig({
         { name: 'author', content: 'Marjolène Lasne' },
       ],
     },
-    // Page transitions for premium navigation feel
-    pageTransition: {
-      name: 'page',
-      mode: 'out-in',
-    },
-    // Layout transitions disabled - all pages now use implicit default layout
+    pageTransition: { name: 'page', mode: 'out-in' },
     layoutTransition: false,
+    trailingSlash: true, // ✅ important pour GitHub Pages
   },
 
-  // Static site generation configuration
   nitro: {
+    preset: 'github_pages', // ✅ ajuste les chemins pour GitHub Pages
     prerender: {
-      routes: ['/sitemap.xml'],
       // Don't fail on 404 errors during prerender (some routes may be dynamically generated)
       failOnError: false,
-      // Crawl links to discover all pages
       crawlLinks: true,
     },
-    // Serve public files correctly during prerender
     publicAssets: [
-      {
-        dir: 'public',
-        baseURL: '/',
-      },
+      { dir: 'public', baseURL: '/' },
     ],
-  },
+  }
 })

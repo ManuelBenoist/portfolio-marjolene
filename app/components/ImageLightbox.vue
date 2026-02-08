@@ -47,7 +47,7 @@
           >
             <img 
               :key="currentIndex"
-              :src="currentImage.src" 
+              :src="withBaseImage(currentImage.src)" 
               :alt="currentImage.alt"
               class="w-auto h-auto max-w-[85vw] max-h-[85vh] min-w-[55vw] min-h-[55vh] object-contain shadow-2xl select-none"
               draggable="false"
@@ -80,6 +80,7 @@
 <script setup lang="ts">
 import { computed, watch, onMounted, onUnmounted, ref } from 'vue'
 import { Icon } from '@iconify/vue'
+import { withBaseImage } from '~/utils/withBaseImage'
 
 // Touch swipe support for mobile
 const touchStartX = ref<number | null>(null)

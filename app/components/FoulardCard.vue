@@ -9,7 +9,7 @@
     <div class="aspect-square w-full overflow-hidden bg-[#F8F6F2] image-reveal">
       <img
         v-if="currentImage"
-        :src="currentImage.src"
+        :src="withBaseImage(currentImage.src)"
         :alt="currentImage.alt || title"
         class="w-full h-full object-contain"
         loading="lazy"
@@ -73,6 +73,7 @@
 
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
+import { withBaseImage } from '~/utils/withBaseImage'
 import ColorSwatch from './ColorSwatch.vue'
 import MaterialBadge from './MaterialBadge.vue'
 import SizeList from './SizeList.vue'

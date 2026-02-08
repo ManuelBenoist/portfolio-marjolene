@@ -32,7 +32,7 @@
               @click="openLightbox(0)"
             >
               <img
-                :src="activeImages[0].src"
+                :src="withBaseImage(activeImages[0].src)"
                 :alt="activeImages[0].alt || foulard.title"
                 class="h-full w-full object-contain transition-opacity duration-300"
                 loading="lazy"
@@ -54,7 +54,7 @@
                   @click="openLightbox(idx + 1)"
                 >
                   <img
-                    :src="image.src"
+                    :src="withBaseImage(image.src)"
                     :alt="image.alt || $t('scarves.detail.imageViewAlt', { title: foulard.title, index: idx + 2 })"
                     class="h-full w-full object-contain"
                     loading="lazy"
@@ -179,6 +179,7 @@
 
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue'
+import { withBaseImage } from '~/utils/withBaseImage'
 import { Icon } from '@iconify/vue'
 import type { ComputedRef } from 'vue'
 
@@ -403,7 +404,7 @@ const metaDescription = computed(
 const { siteUrl, withSiteUrl } = useSiteUrl()
 const metaImage = computed(() => {
   const image = activeImages.value[0]?.src || '/img/foulards/foulard-marjo-bleu.avif'
-  return withSiteUrl(image)
+  return withSiteUrl(withBaseImage(image))
 })
 
 // Canonical URL optimization: Always point to the main product page without query parameters

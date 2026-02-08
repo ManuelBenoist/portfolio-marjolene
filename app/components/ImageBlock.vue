@@ -4,7 +4,7 @@
       <img
         v-if="currentImage?.src"
         :key="currentImage.src"
-        :src="currentImage.src"
+        :src="withBaseImage(currentImage.src)"
         :alt="currentImage.alt || altFallback"
         class="w-full h-full object-contain"
         style="aspect-ratio: 1/1; background: #FBFAF6;"
@@ -16,6 +16,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
+import { withBaseImage } from '~/utils/withBaseImage'
 
 type ImageSource = {
   src: string

@@ -62,6 +62,7 @@ import Filter from '~/components/Filter.vue'
 import CardGrid from '~/components/CardGrid.vue'
 import PaintingCard from '~/components/PaintingCard.vue'
 import PaintingCardWrapper from '~/components/PaintingCardWrapper.vue'
+import { withBaseImage } from '~/utils/withBaseImage'
 import { useSiteUrl } from '~/composables/useSiteUrl'
 
 const { t } = useI18n()
@@ -190,7 +191,7 @@ const metaTitle = computed(() => t('paintings.seo.title'))
 const metaDescription = computed(() => t('paintings.seo.description')) 
 const metaImage = computed(() => {
   const image = paintings.value[0]?.image || '/logo.png'
-  return withSiteUrl(image)
+  return withSiteUrl(withBaseImage(image))
 })
 
 // Canonical URL optimization: Always point to the main gallery page without filters

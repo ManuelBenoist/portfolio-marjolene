@@ -21,6 +21,7 @@
 <script setup>
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
+import { withBaseImage } from '~/utils/withBaseImage'
 
 const route = useRoute()
 const { t, locale } = useI18n()
@@ -53,7 +54,7 @@ const structuredData = computed(() => {
         name: t('seo.structuredData.personName') || 'Marjolene Lasne',
         jobTitle: t('seo.structuredData.jobTitle') || 'Artiste peintre',
         url: siteUrl,
-        image: withSiteUrl('/logo.png'),
+        image: withSiteUrl(withBaseImage('/logo.png')),
         address: {
           '@type': 'PostalAddress',
           streetAddress: "11 place de l'Abbe Avon",

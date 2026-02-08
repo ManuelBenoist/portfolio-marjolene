@@ -13,7 +13,7 @@
           :class="['logo-animate', { 'logo-visible': isLogoVisible }]"
         >
           <img 
-            src="/logo.png" 
+            :src="withBaseImage('/logo.png')" 
             :alt="$t('home.logoAlt')" 
             class="h-28 w-auto"
           />
@@ -55,7 +55,7 @@
         >
           <NuxtLink :to="localePath('/')" :aria-label="$t('aria.home')">
             <img 
-              src="/logo.png" 
+              :src="withBaseImage('/logo.png')" 
               :alt="$t('home.logoAlt')" 
               class="h-28 xl:h-36 w-auto"
             />
@@ -99,7 +99,7 @@
           <img 
             v-if="activeImage"
             :key="activeImage"
-            :src="activeImage"
+            :src="withBaseImage(activeImage)"
             :alt="activeImageAlt"
             class="absolute inset-0 w-full h-full object-cover"
           />
@@ -111,6 +111,7 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
+import { withBaseImage } from '~/utils/withBaseImage'
 import { useSiteUrl } from '~/composables/useSiteUrl'
 import { useContent } from '~/composables/useContent'
 
@@ -139,10 +140,13 @@ const menuItems = computed<MenuItem[]>(() => {
     '/autres-activites': 'home.menuItems.activities',
     '/contact': 'home.menuItems.contact',
   }
-  return items.map((item: MenuItem) => ({
-    ...item,
-    label: labelKeys[item.path] ? t(labelKeys[item.path]) : item.label,
-  }))
+  return items.map((item: MenuItem) => {
+    const labelKey = labelKeys[item.path]
+    return {
+      ...item,
+      label: labelKey ? t(labelKey) : item.label,
+    }
+  })
 })
 
 // Image active (null par défaut - apparaît uniquement au hover)
@@ -158,7 +162,7 @@ const isLoaded = ref(false)
 const { withSiteUrl } = useSiteUrl()
 const metaTitle = computed(() => t('home.seo.title') || '')
 const metaDescription = computed(() => t('home.seo.description') || '')
-const metaImage = withSiteUrl('/logo.png')
+const metaImage = withSiteUrl(withBaseImage('/logo.png'))
 
 useSeoMeta({
   title: metaTitle,
@@ -180,7 +184,7 @@ onMounted(() => {
   // Preload images for smoother hover interactions
   items.forEach(item => {
     const img = new Image()
-    img.src = item.image
+    img.src = withBaseImage(item.image)
   })
 
   // Initialize revealed flags
