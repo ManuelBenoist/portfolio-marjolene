@@ -107,7 +107,7 @@ const metaImage = computed(() => {
   const firstFoulard = rawFoulards.value?.[0]
   const firstColor = firstFoulard ? Object.values(firstFoulard.colors)[0] : null
   const firstMaterial = firstColor ? Object.values(firstColor.materials)[0] : null
-  const image = firstMaterial?.images?.[0]?.src || '/logo.png'
+  const image = firstMaterial?.images?.[0]?.src || '/logo-ligne.png'
   return withSiteUrl(withBaseImage(image))
 })
 

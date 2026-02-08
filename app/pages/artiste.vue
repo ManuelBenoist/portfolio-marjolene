@@ -106,7 +106,7 @@ const { siteUrl, withSiteUrl } = useSiteUrl()
 const metaTitle = computed(() => t('artist.seo.title') || '')
 const metaDescription = computed(() => t('artist.seo.description') || '')
 const metaImage = computed(() => {
-  const image = artisteContent.value?.biography?.image || '/logo.png'
+  const image = artisteContent.value?.biography?.image || '/logo-ligne.png'
   return withSiteUrl(withBaseImage(image))
 })
 
@@ -161,7 +161,7 @@ useHead(() => {
         '@type': 'Person',
         name: t('seo.structuredData.personName') || 'Marjolène Lasne',
         description: t('artist.seo.description'),
-        image: withSiteUrl(artisteContent.value?.biography?.image || '/logo.png'),
+        image: withSiteUrl(artisteContent.value?.biography?.image || '/logo-ligne.png'),
         url: withSiteUrl(localePath('/artiste'))
       }
     }

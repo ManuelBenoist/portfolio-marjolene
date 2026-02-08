@@ -80,7 +80,7 @@ const { t } = useI18n()
 const { siteUrl, withSiteUrl } = useSiteUrl()
 const metaTitle = computed(() => t('activities.seo.title'))
 const metaDescription = computed(() => t('activities.seo.description'))
-const metaImage = withSiteUrl(withBaseImage('/logo.png'))
+const metaImage = withSiteUrl(withBaseImage('/logo-ligne.png'))
 
 useSeoMeta({
   title: metaTitle,

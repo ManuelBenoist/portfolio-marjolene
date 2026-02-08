@@ -54,7 +54,7 @@ const structuredData = computed(() => {
         name: t('seo.structuredData.personName') || 'Marjolene Lasne',
         jobTitle: t('seo.structuredData.jobTitle') || 'Artiste peintre',
         url: siteUrl,
-        image: withSiteUrl(withBaseImage('/logo.png')),
+        image: withSiteUrl(withBaseImage('/logo-colonne.png')),
         address: {
           '@type': 'PostalAddress',
           streetAddress: "11 place de l'Abbe Avon",

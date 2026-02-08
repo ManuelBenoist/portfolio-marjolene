@@ -237,7 +237,7 @@ const metaDescription = computed(
   () => painting.value?.metaDescription ?? painting.value?.description ?? fallbackDescription.value
 )
 const metaImage = computed(() => {
-  const image = painting.value?.image || '/logo.png'
+  const image = painting.value?.image || '/logo-ligne.png'
   return withSiteUrl(withBaseImage(image))
 })
 

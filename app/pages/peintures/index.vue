@@ -190,7 +190,7 @@ const { siteUrl, withSiteUrl } = useSiteUrl()
 const metaTitle = computed(() => t('paintings.seo.title'))
 const metaDescription = computed(() => t('paintings.seo.description')) 
 const metaImage = computed(() => {
-  const image = paintings.value[0]?.image || '/logo.png'
+  const image = paintings.value[0]?.image || '/logo-ligne.png'
   return withSiteUrl(withBaseImage(image))
 })
 

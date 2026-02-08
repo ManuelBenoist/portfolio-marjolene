@@ -246,7 +246,7 @@ const localePath = useLocalePath()
 const { siteUrl, withSiteUrl } = useSiteUrl()
 const metaTitle = computed(() => t('contact.seo.title') || '')
 const metaDescription = computed(() => t('contact.seo.description') || '')
-const metaImage = withSiteUrl(withBaseImage('/logo.png'))
+const metaImage = withSiteUrl(withBaseImage('/logo-ligne.png'))
 
 useSeoMeta({
   title: metaTitle,
@@ -295,7 +295,7 @@ const contactPageSchema = computed(() => {
     mainEntity: {
       '@type': 'LocalBusiness',
       name: 'Marjolène Lasne',
-      image: withSiteUrl('/logo.png'),
+      image: withSiteUrl('/logo-ligne.png'),
       url: siteUrl,
       telephone: config.public.contact.phone,
       email: config.public.contact.email,

@@ -13,7 +13,7 @@
           :class="['logo-animate', { 'logo-visible': isLogoVisible }]"
         >
           <img 
-            :src="withBaseImage('/logo.png')" 
+            :src="withBaseImage('/logo-colonne.png')" 
             :alt="$t('home.logoAlt')" 
             class="h-28 w-auto"
           />
@@ -55,7 +55,7 @@
         >
           <NuxtLink :to="localePath('/')" :aria-label="$t('aria.home')">
             <img 
-              :src="withBaseImage('/logo.png')" 
+              :src="withBaseImage('/logo-colonne.png')" 
               :alt="$t('home.logoAlt')" 
               class="h-28 xl:h-36 w-auto"
             />
@@ -162,7 +162,7 @@ const isLoaded = ref(false)
 const { withSiteUrl } = useSiteUrl()
 const metaTitle = computed(() => t('home.seo.title') || '')
 const metaDescription = computed(() => t('home.seo.description') || '')
-const metaImage = withSiteUrl(withBaseImage('/logo.png'))
+const metaImage = withSiteUrl(withBaseImage('/logo-colonne.png'))
 
 useSeoMeta({
   title: metaTitle,
