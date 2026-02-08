@@ -193,6 +193,16 @@ const metaImage = computed(() => {
   return withSiteUrl(image)
 })
 
+// Canonical URL optimization: Always point to the main gallery page without filters
+// to prevent duplicate content issues with query parameters
+const canonicalUrl = computed(() => withSiteUrl(localePath('/peintures')))
+
+useHead({
+  link: [
+    { rel: 'canonical', href: canonicalUrl }
+  ]
+})
+
 useSeoMeta({
   title: metaTitle,
   ogTitle: metaTitle,

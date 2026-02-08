@@ -291,6 +291,26 @@ const contactPageSchema = computed(() => {
     name: metaTitle.value,
     url: withSiteUrl(localePath('/contact')),
     description: metaDescription.value,
+    mainEntity: {
+      '@type': 'LocalBusiness',
+      name: 'Marjolène Lasne',
+      image: withSiteUrl('/logo.png'),
+      url: siteUrl,
+      telephone: config.public.contact.phone,
+      email: config.public.contact.email,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: config.public.contact.address.street,
+        addressLocality: config.public.contact.address.city,
+        postalCode: config.public.contact.address.zip,
+        addressCountry: config.public.contact.address.country
+      },
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: 43.8997925,
+        longitude: 5.2758193
+      }
+    }
   }
 })
 

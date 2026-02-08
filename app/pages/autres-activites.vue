@@ -116,11 +116,32 @@ const breadcrumbSchema = computed(() => {
   }
 })
 
-useHead(() => ({
-  script: breadcrumbSchema.value
-    ? [{ type: 'application/ld+json', children: JSON.stringify(breadcrumbSchema.value) }]
-    : [],
-}))
+useHead(() => {
+  const scripts = []
+  
+  if (breadcrumbSchema.value) {
+    scripts.push({ type: 'application/ld+json', children: JSON.stringify(breadcrumbSchema.value) })
+  }
+
+  // Schema Service (pour chaque activité)
+  if (activities.value?.length) {
+    const services = activities.value.map(activity => ({
+      '@context': 'https://schema.org',
+      '@type': 'Service',
+      name: activity.title,
+      description: activity.description,
+      provider: {
+          '@type': 'Person',
+          name: t('seo.structuredData.personName') || 'Marjolène Lasne',
+      }
+    }))
+    services.forEach(service => {
+      scripts.push({ type: 'application/ld+json', children: JSON.stringify(service) })
+    })
+  }
+
+  return { script: scripts }
+})
 
 // Routing logic based on activity type
 const getRouteTo = (activityId: string): string | { path: string; query?: Record<string, string> } => {

@@ -145,10 +145,32 @@ const breadcrumbSchema = computed(() => {
   }
 })
 
+const collectionSchema = computed(() => {
+  if (!siteUrl) return null
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: metaTitle.value,
+    description: metaDescription.value,
+    url: withSiteUrl(localePath('/foulards')),
+    mainEntity: {
+       '@type': 'ItemList',
+       itemListElement: foulardsForGrid.value.map((f, index) => ({
+         '@type': 'ListItem',
+         position: index + 1,
+         url: withSiteUrl(localePath(`/foulards/${f.slug}`))
+       }))
+    }
+  }
+})
+
 useHead(() => ({
-  script: breadcrumbSchema.value
-    ? [{ type: 'application/ld+json', children: JSON.stringify(breadcrumbSchema.value) }]
-    : [],
+  script: [breadcrumbSchema.value, collectionSchema.value]
+    .filter(Boolean)
+    .map((schema) => ({
+      type: 'application/ld+json',
+      children: JSON.stringify(schema),
+    })),
 }))
 
 // Scroll restoration: scroll to the foulard card after returning from detail page

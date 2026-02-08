@@ -406,6 +406,16 @@ const metaImage = computed(() => {
   return withSiteUrl(image)
 })
 
+// Canonical URL optimization: Always point to the main product page without query parameters
+// to prevent duplicate content issues (colors/sizes)
+const canonicalUrl = computed(() => withSiteUrl(localePath(`/foulards/${foulard.value?.slug}`)))
+
+useHead({
+  link: [
+    { rel: 'canonical', href: canonicalUrl }
+  ]
+})
+
 useSeoMeta({
   title: metaTitle,
   ogTitle: metaTitle,

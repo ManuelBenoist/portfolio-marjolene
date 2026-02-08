@@ -144,11 +144,34 @@ const breadcrumbSchema = computed(() => {
   }
 })
 
-useHead(() => ({
-  script: breadcrumbSchema.value
-    ? [{ type: 'application/ld+json', children: JSON.stringify(breadcrumbSchema.value) }]
-    : [],
-}))
+useHead(() => {
+  const scripts = []
+  
+  if (breadcrumbSchema.value) {
+    scripts.push({ type: 'application/ld+json', children: JSON.stringify(breadcrumbSchema.value) })
+  }
+  
+  // ProfilePage schema
+  if (siteUrl && artisteContent.value) {
+    const profileSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'ProfilePage',
+      mainEntity: {
+        '@type': 'Person',
+        name: t('seo.structuredData.personName') || 'Marjolène Lasne',
+        description: t('artist.seo.description'),
+        image: withSiteUrl(artisteContent.value?.biography?.image || '/logo.png'),
+        url: withSiteUrl(localePath('/artiste'))
+      }
+    }
+    scripts.push({ type: 'application/ld+json', children: JSON.stringify(profileSchema) })
+  }
+
+  return {
+    script: scripts
+  }
+})
+
 </script>
 
 <style scoped>

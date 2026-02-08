@@ -9,11 +9,10 @@ export const useSiteUrl = () => {
 
   const withSiteUrl = (path: string) => {
     if (!siteUrl) return path
-    try {
-      return new URL(path, siteUrl).toString()
-    } catch {
-      return path
-    }
+    // Safe join without external dependencies
+    const base = siteUrl.replace(/\/$/, '')
+    const cleanPath = path.startsWith('/') ? path : `/${path}`
+    return `${base}${cleanPath}`
   }
 
   return {

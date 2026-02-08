@@ -43,7 +43,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      siteUrl: '',
+      siteUrl: 'https://manuelbenoist.github.io/portfolio-marjolene',
       contact: {
         email: 'marjolenelasne@gmail.com',
         phone: '+33 6 08 77 08 24',
@@ -57,6 +57,7 @@ export default defineNuxtConfig({
     }
   },
   app: {
+    baseURL: '/portfolio-marjolene/',
     head: {
       script: [],
       meta: [
@@ -77,6 +78,7 @@ export default defineNuxtConfig({
   // Static site generation configuration
   nitro: {
     prerender: {
+      routes: ['/sitemap.xml'],
       // Don't fail on 404 errors during prerender (some routes may be dynamically generated)
       failOnError: false,
       // Crawl links to discover all pages
