@@ -94,8 +94,14 @@ h1, h2, h3, h4, h5, h6 {
 .page-enter-active,
 .page-leave-active {
 	transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+/* During transition, prevent pages from stacking by using absolute positioning on leaving page only */
+.page-leave-active {
 	position: absolute;
 	width: 100%;
+	top: 0;
+	left: 0;
 }
 
 .page-enter-from {

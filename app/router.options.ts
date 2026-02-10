@@ -1,5 +1,8 @@
 import type { RouterConfig } from '@nuxt/schema'
 
+// Transition scroll delay for page navigation (ms)
+const TRANSITION_SCROLL_DELAY = 50
+
 // Matches /peintures or /xx/peintures (where xx is a locale prefix)
 const peinturesPattern = /^(\/[a-z]{2})?\/peintures$/
 const peinturesDetailPattern = /^(\/[a-z]{2})?\/peintures\//
@@ -51,7 +54,7 @@ export default <RouterConfig>{
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve({ top: 0, behavior: 'instant' })
-      }, 50) // Minimal delay for default transition mode
+      }, TRANSITION_SCROLL_DELAY)
     })
   }
 }

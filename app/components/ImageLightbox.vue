@@ -171,7 +171,7 @@ watch(() => props.show, (isShow) => {
       document.body.style.overflow = ''
     }
   }
-}, { immediate: true })
+})
 
 onMounted(() => {
   window.addEventListener('keydown', handleKeydown)
