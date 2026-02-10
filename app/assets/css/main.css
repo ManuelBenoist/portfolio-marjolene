@@ -94,6 +94,8 @@ h1, h2, h3, h4, h5, h6 {
 .page-enter-active,
 .page-leave-active {
 	transition: opacity 0.35s ease, transform 0.35s ease;
+	position: absolute;
+	width: 100%;
 }
 
 .page-enter-from {
@@ -104,6 +106,12 @@ h1, h2, h3, h4, h5, h6 {
 .page-leave-to {
 	opacity: 0;
 	transform: translateY(-8px);
+}
+
+.page-enter-to,
+.page-leave-from {
+	opacity: 1;
+	transform: translateY(0);
 }
 
 /* Layout Transitions (when switching between layouts) */

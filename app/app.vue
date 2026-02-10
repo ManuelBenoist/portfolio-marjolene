@@ -1,10 +1,10 @@
 <template>
-  <div class="min-h-screen bg-background text-gray-text flex flex-col">
+  <div class="min-h-screen bg-background text-gray-text flex flex-col relative">
     <!-- Header: shown on all pages except landing page (layout: false) -->
     <Header v-if="showHeaderFooter" />
     
     <!-- Main content area -->
-    <main class="flex-1 w-full" :class="{ 'flex flex-col': !showHeaderFooter }">
+    <main class="flex-1 w-full relative" :class="{ 'flex flex-col': !showHeaderFooter }">
       <NuxtLayout>
         <NuxtPage />
       </NuxtLayout>
