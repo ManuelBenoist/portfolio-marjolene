@@ -42,23 +42,26 @@ const props = defineProps<{ entry: any }>()
 const { data: pages } = await useContent<Record<string, any>>('pages.json')
 const labels = computed(() => pages.value?.artist?.timeline)
 
-// Trigger timeline item animations when entry changes (client-side only)
+// Trigger timeline item animations when entry changes
+// The v-stagger directive sets CSS custom properties (--stagger-delay) on list items
+// We manually add the 'revealed' class to trigger the CSS animations defined in main.css
+// This creates a sequential reveal effect when switching between timeline years
 const triggerAnimations = () => {
-  if (process.client) {
-    nextTick(() => {
-      const items = document.querySelectorAll('.timeline-item')
-      items.forEach(item => {
-        item.classList.add('revealed')
-      })
+  nextTick(() => {
+    const items = document.querySelectorAll('.timeline-item')
+    items.forEach(item => {
+      item.classList.add('revealed')
     })
-  }
+  })
 }
 
-watch(() => props.entry, triggerAnimations, { immediate: false })
-
+// onMounted is client-side only in Nuxt, so no need for process.client check
 onMounted(() => {
   triggerAnimations()
 })
+
+// Watch for timeline year changes and re-trigger animations
+watch(() => props.entry, triggerAnimations, { immediate: false })
 </script>
 
 <style>

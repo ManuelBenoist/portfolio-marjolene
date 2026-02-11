@@ -76,7 +76,15 @@ export default defineNuxtPlugin((nuxtApp) => {
 
       Array.from(children).forEach((child, index) => {
         const htmlChild = child as HTMLElement
+        // Set the stagger delay CSS custom property
         htmlChild.style.setProperty('--stagger-delay', `${index * baseDelay}ms`)
+        // Add initial hidden state and then reveal with animation
+        htmlChild.classList.add('stagger-hidden')
+        // Use requestAnimationFrame to ensure the initial state is painted before animating
+        requestAnimationFrame(() => {
+          htmlChild.classList.remove('stagger-hidden')
+          htmlChild.classList.add('revealed')
+        })
       })
     }
   })
