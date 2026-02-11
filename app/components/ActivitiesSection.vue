@@ -14,8 +14,8 @@
       
       <!-- Colored Box with Bullet Points -->
       <div class="mt-6 rounded-[12px] bg-accent/10 p-6">
-        <ul class="custom-list list-disc space-y-2 text-base text-gray-text">
-          <li v-for="(item, index) in items" :key="index">
+        <ul class="custom-list list-disc space-y-2 text-base text-gray-text" v-stagger="{ baseDelay: 60 }">
+          <li v-for="(item, index) in items" :key="index" class="stagger-item stagger-hidden">
             {{ item }}
           </li>
         </ul>
@@ -100,6 +100,15 @@ onMounted(() => {
     })
     resizeObserver.observe(textContainer.value)
   }
+  
+  // Trigger stagger item animations after mount
+  nextTick(() => {
+    const items = document.querySelectorAll('.stagger-item')
+    items.forEach(item => {
+      item.classList.remove('stagger-hidden')
+      item.classList.add('revealed')
+    })
+  })
 })
 
 onBeforeUnmount(() => {

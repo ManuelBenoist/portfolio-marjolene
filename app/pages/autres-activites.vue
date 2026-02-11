@@ -8,7 +8,7 @@
           />
           
           <!-- Separator Line -->
-          <div class="border-t border-[#D1D5DC] mt-8 mb-12"></div>
+          <div v-reveal="{ delay: 100 }" class="border-t border-[#D1D5DC] mt-8 mb-12"></div>
 
           <!-- Activities Sections -->
           <div class="space-y-24">
