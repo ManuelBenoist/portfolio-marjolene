@@ -101,7 +101,7 @@
             :key="activeImage"
             :src="withBaseImage(activeImage)"
             :alt="activeImageAlt"
-            class="absolute inset-0 w-full h-full object-cover"
+            class="absolute inset-0 w-full h-full object-contain"
           />
         </Transition>
       </div>
