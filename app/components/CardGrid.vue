@@ -60,7 +60,7 @@ onMounted(async () => {
     
     // Check if grid is already in viewport
     const rect = gridRef.value.getBoundingClientRect()
-    const isInViewport = rect.top < window.innerHeight && rect.bottom > 0
+    const isInViewport = rect.bottom > 0 && rect.top < window.innerHeight
     
     if (isInViewport) {
       // Grid is already visible, reveal immediately
