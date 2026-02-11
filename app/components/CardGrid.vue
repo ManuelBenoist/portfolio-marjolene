@@ -45,8 +45,11 @@ onMounted(async () => {
 
   // Small delay to ensure CSS is applied
   requestAnimationFrame(() => {
+    // Safety check: ensure grid ref is still available
+    if (!gridRef.value) return
+    
     // Check if grid is already in viewport
-    const rect = gridRef.value!.getBoundingClientRect()
+    const rect = gridRef.value.getBoundingClientRect()
     const isInViewport = rect.top < window.innerHeight && rect.bottom > 0
     
     if (isInViewport) {
@@ -77,7 +80,7 @@ onMounted(async () => {
         { threshold: 0.05, rootMargin: '0px 0px -20px 0px' }
       )
 
-      observer.observe(gridRef.value!)
+      observer.observe(gridRef.value)
     }
   })
 })
