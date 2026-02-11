@@ -15,7 +15,7 @@
           <img 
             :src="withBaseImage('/logo-colonne.png')" 
             :alt="$t('home.logoAlt')" 
-            class="h-28 w-auto"
+            class="h-36 w-auto"
           />
         </NuxtLink>
       </div>

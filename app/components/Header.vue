@@ -3,7 +3,7 @@
     <div class="max-w-6xl mx-auto flex items-center justify-between py-3 px-6">
       <!-- Logo à gauche -->
       <NuxtLink :to="localePath('/')" class="flex items-center shrink-0" :aria-label="$t('aria.home')">
-        <img :src="withBaseImage('/logo-ligne.png')" :alt="$t('footer.presentation.name')" class="h-20 w-auto" />
+        <img :src="withBaseImage('/logo-ligne.png')" :alt="$t('footer.presentation.name')" class="h-16 w-auto" />
       </NuxtLink>
 
       <!-- Menu aligné à droite (desktop) -->
@@ -44,8 +44,8 @@
     <transition name="fade">
       <nav v-if="menuOpen" class="lg:hidden fixed top-0 left-0 w-full h-full bg-white bg-opacity-95 z-50 flex flex-col items-center justify-center">
         <!-- Logo dans le menu burger -->
-        <NuxtLink :to="localePath('/')" class="absolute top-6 left-6" :aria-label="$t('aria.home')" @click="menuOpen = false">
-          <img :src="withBaseImage('/logo-ligne.png')" :alt="$t('footer.presentation.name')" class="h-12 w-auto" />
+        <NuxtLink :to="localePath('/')" class="absolute top-8 left-6" :aria-label="$t('aria.home')" @click="menuOpen = false">
+          <img :src="withBaseImage('/logo-ligne.png')" :alt="$t('footer.presentation.name')" class="h-16 w-auto" />
         </NuxtLink>
         <button @click="menuOpen = false" :aria-label="$t('actions.closeMenu')" class="absolute top-6 right-6 p-2">
           <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
