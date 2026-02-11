@@ -101,14 +101,16 @@ onMounted(() => {
     resizeObserver.observe(textContainer.value)
   }
   
-  // Trigger stagger item animations after mount
-  nextTick(() => {
-    const items = document.querySelectorAll('.stagger-item')
-    items.forEach(item => {
-      item.classList.remove('stagger-hidden')
-      item.classList.add('revealed')
+  // Trigger stagger item animations after mount (client-side only)
+  if (process.client) {
+    nextTick(() => {
+      const items = document.querySelectorAll('.stagger-item')
+      items.forEach(item => {
+        item.classList.remove('stagger-hidden')
+        item.classList.add('revealed')
+      })
     })
-  })
+  }
 })
 
 onBeforeUnmount(() => {

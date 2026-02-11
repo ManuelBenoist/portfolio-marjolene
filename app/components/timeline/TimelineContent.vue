@@ -35,21 +35,30 @@
 </template>
 
 <script lang="ts" setup>
-import { defineProps, watch, nextTick } from 'vue'
+import { defineProps, watch, nextTick, onMounted } from 'vue'
 
 const props = defineProps<{ entry: any }>()
 
 const { data: pages } = await useContent<Record<string, any>>('pages.json')
 const labels = computed(() => pages.value?.artist?.timeline)
 
-// Trigger timeline item animations when entry changes
-watch(() => props.entry, async () => {
-  await nextTick()
-  const items = document.querySelectorAll('.timeline-item')
-  items.forEach(item => {
-    item.classList.add('revealed')
-  })
-}, { immediate: true })
+// Trigger timeline item animations when entry changes (client-side only)
+const triggerAnimations = () => {
+  if (process.client) {
+    nextTick(() => {
+      const items = document.querySelectorAll('.timeline-item')
+      items.forEach(item => {
+        item.classList.add('revealed')
+      })
+    })
+  }
+}
+
+watch(() => props.entry, triggerAnimations, { immediate: false })
+
+onMounted(() => {
+  triggerAnimations()
+})
 </script>
 
 <style>
