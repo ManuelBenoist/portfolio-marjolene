@@ -14,7 +14,7 @@
             { "label": "Nom", "value": "Marjolène Lasne" },
             { "label": "Statut", "value": "Artiste peintre, micro-entrepreneur" },
             { "label": "Adresse", "value": "{address}" },
-            { "label": "SIRET", "value": "3441744300061" },
+            { "label": "SIRET", "value": "344 174 438 00061" },
             { "label": "Email de contact RGPD", "value": "{email}" }
           ]
         }

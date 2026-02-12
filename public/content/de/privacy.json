@@ -15,7 +15,7 @@
             { "label": "Name", "value": "Marjolène Lasne" },
             { "label": "Status", "value": "Malerin, Einzelunternehmerin (Micro-Entrepreneur)" },
             { "label": "Adresse", "value": "{address}" },
-            { "label": "SIRET", "value": "3441744300061" },
+            { "label": "SIRET", "value": "344 174 438 00061" },
             { "label": "DSGVO-Kontakt-E-Mail", "value": "{email}" }
           ]
         }

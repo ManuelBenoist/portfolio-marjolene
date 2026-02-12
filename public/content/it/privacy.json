@@ -15,7 +15,7 @@
             { "label": "Nome", "value": "Marjolène Lasne" },
             { "label": "Status", "value": "Pittrice, lavoratrice autonoma (micro-impresa)" },
             { "label": "Indirizzo", "value": "{address}" },
-            { "label": "SIRET", "value": "3441744300061" },
+            { "label": "SIRET", "value": "344 174 438 00061" },
             { "label": "Email per GDPR", "value": "{email}" }
           ]
         }

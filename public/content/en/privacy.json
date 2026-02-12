@@ -15,7 +15,7 @@
             { "label": "Name", "value": "Marjolène Lasne" },
             { "label": "Status", "value": "Painter, sole trader (micro-entrepreneur)" },
             { "label": "Address", "value": "{address}" },
-            { "label": "SIRET", "value": "3441744300061" },
+            { "label": "SIRET", "value": "344 174 438 00061" },
             { "label": "GDPR contact email", "value": "{email}" }
           ]
         }

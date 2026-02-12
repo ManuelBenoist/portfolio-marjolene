@@ -15,7 +15,7 @@
             { "label": "Name", "value": "Marjolène Lasne" },
             { "label": "Status", "value": "Painter, sole trader (micro-entrepreneur)" },
             { "label": "Address", "value": "{address}" },
-            { "label": "SIRET", "value": "3441744300061" },
+            { "label": "SIRET", "value": "344 174 438 00061" },
             { "label": "Phone", "value": "{phone}" },
             { "label": "Email", "value": "{email}" }
           ]
@@ -40,7 +40,21 @@
       ]
     },
     {
-      "title": "3. Intellectual Property",
+      "title": "3. Website Design, Development, and Maintenance",
+      "content": [
+        { "type": "paragraph", "text": "The design, technical development, and maintenance of this site are provided by:" },
+        {
+          "type": "list",
+          "style": "none",
+          "items": [
+            { "value": "Manuel BENOIST, manuelbenoist@gmail.com" },
+            { "value": "Vallencia MOULAIRE, moulaire.vallencia@gmail.com" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Intellectual Property",
       "content": [
         { "type": "paragraph", "text": "All content on this site (texts, images, photographs, illustrations, artworks, logos, icons) is the exclusive property of Marjolène Lasne, unless otherwise stated." },
         { "type": "paragraph", "text": "The artworks presented on this site are protected by copyright in accordance with the French Intellectual Property Code (articles L.111-1 et seq.)." },
@@ -49,16 +63,16 @@
       ]
     },
     {
-      "title": "4. Personal Data Collection and GDPR",
+      "title": "5. Personal Data Collection and GDPR",
       "content": [
         {
           "type": "subsection",
-          "title": "4.1 Contact Form",
+          "title": "5.1 Contact Form",
           "text": "This site has a contact form allowing visitors to send messages to the publisher. The data collected (name, email address, message) is used solely to respond to user enquiries. This data is processed via the Formspree service (Formspree, Inc.) and is not retained beyond the time required to process the request."
         },
         {
           "type": "subsection",
-          "title": "4.2 Audience Measurement",
+          "title": "5.2 Audience Measurement",
           "paragraphs": [
             "This site uses Google Analytics 4, an audience analysis service provided by Google LLC. This service uses cookies to collect anonymous information about visitors' browsing (pages viewed, visit duration, approximate geographical origin). This data is used for statistical purposes to improve the user experience.",
             "In accordance with the General Data Protection Regulation (GDPR), you may refuse the use of these cookies via the consent banner displayed on your first visit."
@@ -66,7 +80,7 @@
         },
         {
           "type": "subsection",
-          "title": "4.3 Your Rights",
+          "title": "5.3 Your Rights",
           "text": "In accordance with the GDPR and the French Data Protection Act of 6 January 1978 (as amended), you have the following rights regarding your personal data:",
           "list": [
             "Right of access",
@@ -81,7 +95,7 @@
       ]
     },
     {
-      "title": "5. Cookies",
+      "title": "6. Cookies",
       "content": [
         { "type": "paragraph", "text": "This site uses cookies, notably for the operation of Google Analytics 4. A cookie is a small text file stored on your device (computer, tablet, smartphone) when you visit a website." },
         { "type": "paragraph", "text": "You can configure your browser to refuse cookies or to alert you when a cookie is being stored. Refusing cookies may limit certain site features." },
@@ -89,7 +103,7 @@
       ]
     },
     {
-      "title": "6. Liability",
+      "title": "7. Liability",
       "content": [
         { "type": "paragraph", "text": "The publisher strives to provide information on this site that is as accurate as possible. However, they cannot be held responsible for omissions, inaccuracies or shortcomings in updates, whether attributable to themselves or to third-party partners who provide this information." },
         { "type": "paragraph", "text": "All information presented on this site is provided for indicative purposes, is non-exhaustive and is subject to change." },
@@ -97,14 +111,14 @@
       ]
     },
     {
-      "title": "7. External Links",
+      "title": "8. External Links",
       "content": [
         { "type": "paragraph", "text": "This site may contain hyperlinks to other websites. The publisher exercises no control over these sites and disclaims all responsibility for their content or the privacy practices of these third parties." },
         { "type": "paragraph", "text": "The inclusion of these links does not imply that the publisher endorses the content of these sites. Users are advised to review the terms of use and privacy policy of each external site visited." }
       ]
     },
     {
-      "title": "8. Contact",
+      "title": "9. Contact",
       "content": [
         { "type": "paragraph", "text": "For any questions relating to this legal notice or any enquiry about the site, you may contact the publisher:" },
         {
@@ -119,7 +133,7 @@
       ]
     },
     {
-      "title": "9. Applicable Law",
+      "title": "10. Applicable Law",
       "content": [
         { "type": "paragraph", "text": "This legal notice is governed by French law. In the event of a dispute, and after an attempt to seek an amicable resolution, the French courts shall have sole jurisdiction." }
       ]
