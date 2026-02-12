@@ -47,46 +47,48 @@
     <!-- ===================== -->
     <div class="hidden lg:grid lg:grid-cols-2 min-h-screen">
       <!-- Colonne Gauche: Navigation -->
-      <div class="relative flex flex-col justify-center px-12 xl:px-20">
-        <!-- Logo en haut à gauche -->
-        <div 
-          class="absolute top-8 left-8 xl:left-12"
-          :class="['logo-animate', { 'logo-visible': isLogoVisible }]"
-        >
-          <NuxtLink :to="localePath('/')" :aria-label="$t('aria.home')">
-            <img 
-              :src="withBaseImage('/logo-colonne.png')" 
-              :alt="$t('home.logoAlt')" 
-              class="h-28 xl:h-36 w-auto"
-            />
-          </NuxtLink>
-        </div>
+      <div class="relative flex min-h-screen flex-col px-12 xl:px-20">
+        <!-- Header: logo + language switcher -->
+        <div class="flex w-full items-start justify-between pt-8">
+          <div 
+            :class="['logo-animate', { 'logo-visible': isLogoVisible }]"
+          >
+            <NuxtLink :to="localePath('/')" :aria-label="$t('aria.home')">
+              <img 
+                :src="withBaseImage('/logo-colonne.png')" 
+                :alt="$t('home.logoAlt')" 
+                class="h-36 xl:h-48 w-auto"
+              />
+            </NuxtLink>
+          </div>
 
-        <!-- Language Switcher en haut à droite de la colonne gauche -->
-        <div 
-          class="absolute top-10 right-8 xl:right-12"
-          :class="['menu-item-animate', { 'menu-visible': isLoaded }]"
-          :style="{ '--menu-delay': '100ms' }"
-        >
-          <LanguageSwitcher />
+          <div 
+            class="pt-2"
+            :class="['menu-item-animate', { 'menu-visible': isLoaded }]"
+            :style="{ '--menu-delay': '100ms' }"
+          >
+            <LanguageSwitcher />
+          </div>
         </div>
 
         <!-- Menu vertical aligné à droite -->
-        <nav 
-          class="flex flex-col items-end gap-8 pr-8 xl:pr-16"
-          @mouseleave="activeImage = null"
-        >
-          <NuxtLink 
-            v-for="(item, index) in menuItems" 
-            :key="item.path"
-            :to="localePath(item.path)"
-            :class="['menu-item-animate group font-heading text-5xl xl:text-6xl 2xl:text-7xl text-primary transition-transform hover:text-accent hover:scale-105 origin-right', { 'menu-visible': revealedFlags[index], 'menu-smooth': true }]"
-            :style="{ 'transition': 'transform 0.25s ease-out, color 0.25s ease-out' }"
-            @mouseenter="activeImage = item.image"
+        <div class="flex flex-1 flex-col justify-center">
+          <nav 
+            class="flex flex-col items-end gap-8 pr-8 xl:pr-16"
+            @mouseleave="activeImage = null"
           >
-            {{ item.label }}
-          </NuxtLink>
-        </nav>
+            <NuxtLink 
+              v-for="(item, index) in menuItems" 
+              :key="item.path"
+              :to="localePath(item.path)"
+              :class="['menu-item-animate group font-heading text-5xl xl:text-6xl 2xl:text-7xl text-right text-primary transition-transform hover:text-accent hover:scale-105 origin-right', { 'menu-visible': revealedFlags[index], 'menu-smooth': true }]"
+              :style="{ 'transition': 'transform 0.25s ease-out, color 0.25s ease-out' }"
+              @mouseenter="activeImage = item.image"
+            >
+              {{ item.label }}
+            </NuxtLink>
+          </nav>
+        </div>
       </div>
 
       <!-- Colonne Droite: Image interactive -->
