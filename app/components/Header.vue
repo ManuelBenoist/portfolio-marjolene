@@ -3,7 +3,7 @@
     <div class="max-w-6xl mx-auto flex items-center justify-between py-3 px-6">
       <!-- Logo à gauche -->
       <NuxtLink :to="localePath('/')" class="flex items-center shrink-0" :aria-label="$t('aria.home')">
-        <img :src="withBaseImage('/logo-ligne.png')" :alt="$t('footer.presentation.name')" class="h-16 w-auto" />
+        <img :src="withBaseImage('/logo-ligne.png')" :alt="$t('footer.presentation.name')" class="h-20 w-auto" />
       </NuxtLink>
 
       <!-- Menu aligné à droite (desktop) -->
