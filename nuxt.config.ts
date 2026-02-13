@@ -60,6 +60,9 @@ export default defineNuxtConfig({
     baseURL: '/', // si domaine custom, laisse '/' ; sinon '/nom-du-repo/' si pas domaine
     head: {
       script: [],
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/favicon-painting.png' },
+      ],
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { charset: 'utf-8' },
