@@ -1185,14 +1185,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/courbes/rose-degrade-BMS-40x170.webp",
+                "src": "/img/foulards/courbes/rose-degrade-BMS-40x174.webp",
                 "alt": "Foulard sfumatura rosa in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1212,14 +1212,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/courbes/vert-degrade-BMS-40x170.webp",
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x174.webp",
                 "alt": "Foulard sfumatura verde in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1239,14 +1239,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x170.webp",
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174.webp",
                 "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1266,14 +1266,14 @@
             "label": "Satin di seta",
             "images": [
               {
-                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-T-40x170.webp",
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-T-40x174.webp",
                 "alt": "Foulard sfumatura dall'oltremare alla lavanda in satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1304,14 +1304,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x170.webp",
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174.webp",
                 "alt": "Foulard verde in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1330,14 +1330,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x170.webp",
+                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x174.webp",
                 "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1356,14 +1356,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x174.webp",
                 "alt": "Foulard oltremare in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           },
@@ -1372,14 +1372,14 @@
             "label": "Satin di seta",
             "images": [
               {
-                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x174.webp",
                 "alt": "Foulard oltremare in satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1401,8 +1401,8 @@
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1433,14 +1433,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x170.webp",
+                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x174.webp",
                 "alt": "Foulard verde in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1460,14 +1460,14 @@
             "label": "Satin di seta",
             "images": [
               {
-                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-et-T-40x170.webp",
+                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-et-T-40x174.webp",
                 "alt": "Foulard sfumatura dal rosa all'arancione in satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           },
@@ -1476,14 +1476,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-et-T-40x170.webp",
+                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-et-T-40x174.webp",
                 "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1503,14 +1503,14 @@
             "label": "Satin di seta",
             "images": [
               {
-                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-BMS-et-T-40x170.webp",
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-BMS-et-T-40x174.webp",
                 "alt": "Foulard sfumatura dal rosso all'arancione in satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           },
@@ -1519,14 +1519,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-BMS-et-T-40x170.webp",
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-BMS-et-T-40x174.webp",
                 "alt": "Foulard sfumatura dal rosso all'arancione in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1545,14 +1545,14 @@
             "label": "Satin di seta",
             "images": [
               {
-                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x170.webp",
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x174.webp",
                 "alt": "Foulard oltremare in satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           },
@@ -1561,14 +1561,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x170.webp",
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x174.webp",
                 "alt": "Foulard oltremare in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1602,8 +1602,8 @@
             ],
             "sizes": [
               {
-                "id": " 40x170",
-                "label": "40×170 cm"
+                "id": " 40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1622,14 +1622,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x170.webp",
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174.webp",
                 "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1649,14 +1649,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x170.webp",
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174.webp",
                 "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1676,14 +1676,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x170.webp",
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174.webp",
                 "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1714,14 +1714,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x170.webp",
+                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x174.webp",
                 "alt": "Foulard sfumatura dal verde al turchese in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1741,14 +1741,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x170.webp",
+                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x174.webp",
                 "alt": "Foulard sfumatura lavanda in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1768,14 +1768,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x170.webp",
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174.webp",
                 "alt": "Foulard sfumatura dal giallo al rosa in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1795,14 +1795,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x170.webp",
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x174.webp",
                 "alt": "Foulard sfumatura dal giallo al rosso in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1822,37 +1822,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x170.webp",
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174.webp",
                 "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
-              }
-            ]
-          }
-        }
-      },
-      "bleu-outremer-degrade-lavande": {
-        "id": "bleu-outremer-degrade-lavande",
-        "label": "Sfumatura dall'oltremare alla lavanda",
-        "hex": "#000000",
-        "materials": {
-          "mousseline-et-satin-de-soie": {
-            "id": "mousseline-et-satin-de-soie",
-            "label": "Chiffon e satin di seta",
-            "images": [
-              {
-                "src": "/img/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Foulard oltremare in chiffon e satin di seta"
-              }
-            ],
-            "sizes": [
-              {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
@@ -1872,14 +1849,14 @@
             "label": "Satin di seta",
             "images": [
               {
-                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x174.webp",
                 "alt": "Foulard sfumatura dall'oltremare al turchese in satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           },
@@ -1888,14 +1865,14 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x170.webp",
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x174.webp",
                 "alt": "Foulard sfumatura dall'oltremare al turchese in chiffon e satin di seta"
               }
             ],
             "sizes": [
               {
-                "id": "40x170",
-                "label": "40×170 cm"
+                "id": "40x174",
+                "label": "40×174 cm"
               }
             ]
           }
