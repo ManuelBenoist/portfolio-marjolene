@@ -647,6 +647,18 @@
               {
                 "src": "/img/foulards/poisson/bleu-turquoise-degrade-BMS-84x84.webp",
                 "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-turquoise-degrade-BMS-84x84-pose.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista posata"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-turquoise-degrade-BMS-84x84-porte1.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-turquoise-degrade-BMS-84x84-porte2.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 2"
               }
             ],
             "sizes": [
@@ -674,6 +686,22 @@
               {
                 "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84.webp",
                 "alt": "Foulard sfumatura blu in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84-pose.webp",
+                "alt": "Foulard sfumatura blu in chiffon e satin di seta - vista posata"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84-porte1.webp",
+                "alt": "Foulard sfumatura blu in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84-porte2.webp",
+                "alt": "Foulard sfumatura blu in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84-porte3.webp",
+                "alt": "Foulard sfumatura blu in chiffon e satin di seta - vista indossata 3"
               }
             ],
             "sizes": [
@@ -701,6 +729,14 @@
               {
                 "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84.webp",
                 "alt": "Foulard sfumatura dall'arancione al rosso sangue in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-pose.webp",
+                "alt": "Foulard sfumatura dall'arancione al rosso sangue in chiffon e satin di seta - vista posata"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-porte1.webp",
+                "alt": "Foulard sfumatura dall'arancione al rosso sangue in chiffon e satin di seta - vista indossata"
               }
             ],
             "sizes": [
@@ -727,6 +763,10 @@
               {
                 "src": "/img/foulards/poisson/cerise-BMS-84x84.webp",
                 "alt": "Foulard ciliegia in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/poisson/cerise-BMS-84x84-porte1.webp",
+                "alt": "Foulard ciliegia in chiffon e satin di seta - vista indossata 1"
               }
             ],
             "sizes": [
@@ -819,6 +859,18 @@
               {
                 "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84.webp",
                 "alt": "Foulard sfumatura dall'arancione al rosso sangue in satin di seta"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte1.webp",
+                "alt": "Foulard sfumatura dall'arancione al rosso sangue in satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte2.webp",
+                "alt": "Foulard sfumatura dall'arancione al rosso sangue in satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte3.webp",
+                "alt": "Foulard sfumatura dall'arancione al rosso sangue in satin di seta - vista indossata 3"
               }
             ],
             "sizes": [
@@ -910,6 +962,14 @@
               {
                 "src": "/img/foulards/libellule/rose-BMS-84x84.webp",
                 "alt": "Foulard rosa in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-pose.webp",
+                "alt": "Foulard rosa in chiffon e satin di seta - vista posata"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-porte1.webp",
+                "alt": "Foulard rosa in chiffon e satin di seta - vista indossata 1"
               }
             ],
             "sizes": [
@@ -936,6 +996,14 @@
               {
                 "src": "/img/foulards/libellule/vert-BMS-84x84.webp",
                 "alt": "Foulard verde in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/libellule/vert-BMS-84x84-pose.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista posata"
+              },
+              {
+                "src": "/img/foulards/libellule/vert-BMS-84x84-porte1.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 1"
               }
             ],
             "sizes": [
@@ -974,6 +1042,14 @@
               {
                 "src": "/img/foulards/paon/vert-BMS-84x84.webp",
                 "alt": "Foulard verde in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84-porte1.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84-porte2.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 2"
               }
             ],
             "sizes": [
@@ -988,7 +1064,10 @@
       "orange-degrade-sanguine": {
         "id": "orange-degrade-sanguine",
         "label": "Sfumatura arancione sanguigna",
-        "hexes": ["#F99324","#EE3143"],
+        "hexes": [
+          "#F99324",
+          "#EE3143"
+        ],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -1011,7 +1090,10 @@
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
         "label": "Blu turchese sfumato",
-        "hexes": ["#0CD2FD","#1671B9"],
+        "hexes": [
+          "#0CD2FD",
+          "#1671B9"
+        ],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -1020,6 +1102,14 @@
               {
                 "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84.webp",
                 "alt": "Foulard blu turchese sfumato in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-porte1.webp",
+                "alt": "Foulard blu turchese sfumato in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-porte2.webp",
+                "alt": "Foulard blu turchese sfumato in chiffon e satin di seta - vista indossata 2"
               }
             ],
             "sizes": [

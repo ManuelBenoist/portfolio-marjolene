@@ -647,6 +647,18 @@
               {
                 "src": "/img/foulards/poisson/bleu-turquoise-degrade-BMS-84x84.webp",
                 "alt": "Turquoise blue gradient scarf in silk chiffon and satin"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-turquoise-degrade-BMS-84x84-pose.webp",
+                "alt": "Turquoise blue gradient scarf in silk chiffon and satin - posed view"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-turquoise-degrade-BMS-84x84-porte1.webp",
+                "alt": "Turquoise blue gradient scarf in silk chiffon and satin - worn view 1"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-turquoise-degrade-BMS-84x84-porte2.webp",
+                "alt": "Turquoise blue gradient scarf in silk chiffon and satin - worn view 2"
               }
             ],
             "sizes": [
@@ -674,6 +686,22 @@
               {
                 "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84.webp",
                 "alt": "Blue gradient scarf in silk chiffon and satin"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84-pose.webp",
+                "alt": "Blue gradient scarf in silk chiffon and satin - posed view"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84-porte1.webp",
+                "alt": "Blue gradient scarf in silk chiffon and satin - worn view 1"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84-porte2.webp",
+                "alt": "Blue gradient scarf in silk chiffon and satin - worn view 2"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84-porte3.webp",
+                "alt": "Blue gradient scarf in silk chiffon and satin - worn view 3"
               }
             ],
             "sizes": [
@@ -701,6 +729,14 @@
               {
                 "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84.webp",
                 "alt": "Orange to blood-red gradient scarf in silk chiffon and satin"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-pose.webp",
+                "alt": "Orange to blood-red gradient scarf in silk chiffon and satin - posed view"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-porte1.webp",
+                "alt": "Orange to blood-red gradient scarf in silk chiffon and satin - worn view"
               }
             ],
             "sizes": [
@@ -727,6 +763,10 @@
               {
                 "src": "/img/foulards/poisson/cerise-BMS-84x84.webp",
                 "alt": "Cherry scarf in silk chiffon and satin"
+              },
+              {
+                "src": "/img/foulards/poisson/cerise-BMS-84x84-porte1.webp",
+                "alt": "Cherry scarf in silk chiffon and satin - worn view 1"
               }
             ],
             "sizes": [
@@ -819,6 +859,18 @@
               {
                 "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84.webp",
                 "alt": "Orange to blood-red gradient scarf in silk satin"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte1.webp",
+                "alt": "Orange to blood-red gradient scarf in silk satin - worn view 1"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte2.webp",
+                "alt": "Orange to blood-red gradient scarf in silk satin - worn view 2"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte3.webp",
+                "alt": "Orange to blood-red gradient scarf in silk satin - worn view 3"
               }
             ],
             "sizes": [
@@ -910,6 +962,14 @@
               {
                 "src": "/img/foulards/libellule/rose-BMS-84x84.webp",
                 "alt": "Pink scarf in silk chiffon and satin"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-pose.webp",
+                "alt": "Pink scarf in silk chiffon and satin - posed view"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-porte1.webp",
+                "alt": "Pink scarf in silk chiffon and satin - worn view 1"
               }
             ],
             "sizes": [
@@ -936,6 +996,14 @@
               {
                 "src": "/img/foulards/libellule/vert-BMS-84x84.webp",
                 "alt": "Green scarf in silk chiffon and satin"
+              },
+              {
+                "src": "/img/foulards/libellule/vert-BMS-84x84-pose.webp",
+                "alt": "Green scarf in silk chiffon and satin - posed view"
+              },
+              {
+                "src": "/img/foulards/libellule/vert-BMS-84x84-porte1.webp",
+                "alt": "Green scarf in silk chiffon and satin - worn view 1"
               }
             ],
             "sizes": [
@@ -974,6 +1042,14 @@
               {
                 "src": "/img/foulards/paon/vert-BMS-84x84.webp",
                 "alt": "Green scarf in silk chiffon and satin"
+              },
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84-porte1.webp",
+                "alt": "Green scarf in silk chiffon and satin - worn view 1"
+              },
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84-porte2.webp",
+                "alt": "Green scarf in silk chiffon and satin - worn view 2"
               }
             ],
             "sizes": [
@@ -988,7 +1064,10 @@
       "orange-degrade-sanguine": {
         "id": "orange-degrade-sanguine",
         "label": "Sanguine orange gradient",
-        "hexes": ["#F99324","#EE3143"],
+        "hexes": [
+          "#F99324",
+          "#EE3143"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
@@ -1012,7 +1091,10 @@
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
         "label": "Turquoise blue gradient",
-        "hexes": ["#0CD2FD","#1671B9"],
+        "hexes": [
+          "#0CD2FD",
+          "#1671B9"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
@@ -1022,6 +1104,14 @@
               {
                 "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84.webp",
                 "alt": "Turquoise blue gradient scarf in silk chiffon and satin"
+              },
+              {
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-porte1.webp",
+                "alt": "Turquoise blue gradient scarf in silk chiffon and satin - worn view 1"
+              },
+              {
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-porte2.webp",
+                "alt": "Turquoise blue gradient scarf in silk chiffon and satin - worn view 2"
               }
             ],
             "sizes": [

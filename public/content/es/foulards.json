@@ -647,6 +647,18 @@
               {
                 "src": "/img/foulards/poisson/bleu-turquoise-degrade-BMS-84x84.webp",
                 "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-turquoise-degrade-BMS-84x84-pose.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista posada"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-turquoise-degrade-BMS-84x84-porte1.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-turquoise-degrade-BMS-84x84-porte2.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 2"
               }
             ],
             "sizes": [
@@ -674,6 +686,22 @@
               {
                 "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84.webp",
                 "alt": "Pañuelo degradado azul en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84-pose.webp",
+                "alt": "Pañuelo degradado azul en muselina y satén de seda - vista posada"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84-porte1.webp",
+                "alt": "Pañuelo degradado azul en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84-porte2.webp",
+                "alt": "Pañuelo degradado azul en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/poisson/bleu-degrade-BMS-84x84-porte3.webp",
+                "alt": "Pañuelo degradado azul en muselina y satén de seda - vista puesta 3"
               }
             ],
             "sizes": [
@@ -701,6 +729,14 @@
               {
                 "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84.webp",
                 "alt": "Pañuelo degradado naranja-sanguina en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-pose.webp",
+                "alt": "Pañuelo degradado naranja-sanguina en muselina y satén de seda - vista posada"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-porte1.webp",
+                "alt": "Pañuelo degradado naranja-sanguina en muselina y satén de seda - vista puesta"
               }
             ],
             "sizes": [
@@ -727,6 +763,10 @@
               {
                 "src": "/img/foulards/poisson/cerise-BMS-84x84.webp",
                 "alt": "Pañuelo cereza en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/poisson/cerise-BMS-84x84-porte1.webp",
+                "alt": "Pañuelo cereza en muselina y satén de seda - vista puesta 1"
               }
             ],
             "sizes": [
@@ -819,6 +859,18 @@
               {
                 "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84.webp",
                 "alt": "Pañuelo degradado naranja-sanguina en satén de seda"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte1.webp",
+                "alt": "Pañuelo degradado naranja-sanguina en satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte2.webp",
+                "alt": "Pañuelo degradado naranja-sanguina en satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte3.webp",
+                "alt": "Pañuelo degradado naranja-sanguina en satén de seda - vista puesta 3"
               }
             ],
             "sizes": [
@@ -910,6 +962,14 @@
               {
                 "src": "/img/foulards/libellule/rose-BMS-84x84.webp",
                 "alt": "Pañuelo rosa en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-pose.webp",
+                "alt": "Pañuelo rosa en muselina y satén de seda - vista posada"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-porte1.webp",
+                "alt": "Pañuelo rosa en muselina y satén de seda - vista puesta 1"
               }
             ],
             "sizes": [
@@ -936,6 +996,14 @@
               {
                 "src": "/img/foulards/libellule/vert-BMS-84x84.webp",
                 "alt": "Pañuelo verde en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/libellule/vert-BMS-84x84-pose.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista posada"
+              },
+              {
+                "src": "/img/foulards/libellule/vert-BMS-84x84-porte1.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 1"
               }
             ],
             "sizes": [
@@ -974,6 +1042,14 @@
               {
                 "src": "/img/foulards/paon/vert-BMS-84x84.webp",
                 "alt": "Pañuelo verde en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84-porte1.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84-porte2.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 2"
               }
             ],
             "sizes": [
@@ -988,7 +1064,10 @@
       "orange-degrade-sanguine": {
         "id": "orange-degrade-sanguine",
         "label": "Degradado naranja sanguina",
-        "hexes": ["#F99324","#EE3143"],
+        "hexes": [
+          "#F99324",
+          "#EE3143"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
@@ -1012,7 +1091,10 @@
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
         "label": "Azul turquesa degradado",
-        "hexes": ["#0CD2FD","#1671B9"],
+        "hexes": [
+          "#0CD2FD",
+          "#1671B9"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
@@ -1022,6 +1104,14 @@
               {
                 "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84.webp",
                 "alt": "Pañuelo azul turquesa degradado en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-porte1.webp",
+                "alt": "Pañuelo azul turquesa degradado en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-porte2.webp",
+                "alt": "Pañuelo azul turquesa degradado en muselina y satén de seda - vista puesta 2"
               }
             ],
             "sizes": [
