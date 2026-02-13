@@ -49,7 +49,7 @@
       <!-- Colonne Gauche: Navigation -->
       <div class="relative flex min-h-screen flex-col px-12 xl:px-20">
         <!-- Header: logo + language switcher -->
-        <div class="flex w-full items-start justify-between pt-8">
+        <div class="absolute left-0 top-0 z-10 flex w-full items-start justify-between px-12 pt-8 xl:px-20">
           <div 
             :class="['logo-animate', { 'logo-visible': isLogoVisible }]"
           >
@@ -81,7 +81,7 @@
               v-for="(item, index) in menuItems" 
               :key="item.path"
               :to="localePath(item.path)"
-              :class="['menu-item-animate group font-heading text-5xl xl:text-6xl 2xl:text-7xl text-right text-primary transition-transform hover:text-accent hover:scale-105 origin-right', { 'menu-visible': revealedFlags[index], 'menu-smooth': true }]"
+              :class="['menu-item-animate group font-heading text-4xl xl:text-5xl 2xl:text-6xl text-right text-primary transition-transform hover:text-accent hover:scale-105 origin-right', { 'menu-visible': revealedFlags[index], 'menu-smooth': true }]"
               :style="{ 'transition': 'transform 0.25s ease-out, color 0.25s ease-out' }"
               @mouseenter="activeImage = item.image"
             >
@@ -130,7 +130,7 @@ interface MenuItem {
 
 // Load content from JSON (page-specific data: images, paths)
 const { data: pages } = await useContent<Record<string, any>>('pages.json')
-const pageContent = computed(() => pages.value?.home)
+const pageContent = computed(() => (pages.value as Record<string, any> | null)?.home)
 
 // Build menu items with translated labels but keep the paths/images from JSON
 const menuItems = computed<MenuItem[]>(() => {
