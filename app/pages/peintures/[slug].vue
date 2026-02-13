@@ -21,13 +21,20 @@
           class="grid flex-1 items-center gap-10 lg:grid-cols-2"
         >
           <figure class="relative flex h-full items-center justify-center bg-background p-0">
-            <img
-              :src="withBaseImage(painting.image)"
-              :alt="$t('paintings.detail.imageAlt', { title: painting.title })"
-              class="max-h-[70vh] w-full object-contain"
-              loading="lazy"
-              decoding="async"
-            />
+            <button
+              type="button"
+              class="w-full cursor-zoom-in"
+              :aria-label="$t('paintings.detail.imageAlt', { title: painting.title })"
+              @click="openLightbox"
+            >
+              <img
+                :src="withBaseImage(painting.image)"
+                :alt="$t('paintings.detail.imageAlt', { title: painting.title })"
+                class="max-h-[70vh] w-full object-contain"
+                loading="lazy"
+                decoding="async"
+              />
+            </button>
           </figure>
 
           <div class="flex flex-col gap-8 text-lg">
@@ -138,6 +145,12 @@
         </span>
       </nav>
     </div>
+
+    <ImageLightbox
+      v-model:show="isLightboxOpen"
+      v-model="lightboxIndex"
+      :images="lightboxImages"
+    />
   </div>
 </template>
 
@@ -209,6 +222,20 @@ if (currentIndex.value === -1) {
 const painting: ComputedRef<Painting | null | undefined> = computed(() =>
   currentIndex.value >= 0 ? paintings.value[currentIndex.value] : null
 )
+
+const isLightboxOpen = ref(false)
+const lightboxIndex = ref(0)
+const lightboxImages = computed(() => {
+  if (!painting.value) return []
+
+  return [
+    {
+      src: painting.value.image,
+      alt: t('paintings.detail.imageAlt', { title: painting.value.title }),
+    },
+  ]
+})
+
 const previousPainting = computed(() =>
   currentIndex.value > 0 ? paintings.value[currentIndex.value - 1] : null
 )
@@ -312,6 +339,11 @@ useHead(() => ({
 
 function scrollToTop(e: Event) {
   window.scrollTo({ top: 0, behavior: 'smooth' })
+}
+
+function openLightbox() {
+  lightboxIndex.value = 0
+  isLightboxOpen.value = true
 }
 </script>
 

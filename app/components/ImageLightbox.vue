@@ -58,7 +58,7 @@
           </Transition>
           
           <!-- Counter -->
-          <div class="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/80 text-sm font-medium tracking-widest bg-black/50 px-3 py-1 rounded-full pointer-events-none">
+          <div v-if="images.length > 1" class="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/80 text-sm font-medium tracking-widest bg-black/50 px-3 py-1 rounded-full pointer-events-none">
             {{ currentIndex + 1 }} / {{ images.length }}
           </div>
         </div>
