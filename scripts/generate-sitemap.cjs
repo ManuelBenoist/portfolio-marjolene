@@ -4,13 +4,16 @@ const { join } = require('path');
 
 const siteUrl = 'https://marjolene-lasne.com';
 
-const routes = [
+const mainRoutes = [
   '',
   '/artiste',
   '/peintures',
   '/foulards',
   '/autres-activites',
-  '/contact',
+  '/contact'
+];
+
+const legalRoutes = [
   '/mentions-legales',
   '/politique-confidentialite'
 ];
@@ -24,12 +27,15 @@ function getJson(filename) {
   }
 }
 
+// Collecte des routes dynamiques
+let dynamicRoutes = [];
+
 // Peintures
 const peinturesData = getJson('peintures.json');
 if (peinturesData && peinturesData.collections) {
   Object.values(peinturesData.collections).forEach(collection => {
     collection.forEach(p => {
-      if (p.slug) routes.push(`/peintures/${p.slug}`);
+      if (p.slug) dynamicRoutes.push(`/peintures/${p.slug}`);
     });
   });
 }
@@ -38,20 +44,39 @@ if (peinturesData && peinturesData.collections) {
 const foulardsData = getJson('foulards.json');
 if (Array.isArray(foulardsData)) {
   foulardsData.forEach(f => {
-    if (f.slug) routes.push(`/foulards/${f.slug}`);
+    if (f.slug) dynamicRoutes.push(`/foulards/${f.slug}`);
   });
 }
 
-// Générer le XML
+// Fonction pour générer une URL XML
+function urlEntry(loc, priority, changefreq = 'monthly') {
+  return `  <url>
+    <loc>${loc}</loc>
+    <changefreq>${changefreq}</changefreq>
+    <priority>${priority}</priority>
+  </url>\n`;
+}
+
+// Générer le XML complet
 let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
 xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
 
-routes.forEach(route => {
-  xml += `  <url>\n`;
-  xml += `    <loc>${siteUrl}${route}</loc>\n`;
-  xml += `    <changefreq>monthly</changefreq>\n`;
-  xml += `    <priority>${route === '/' ? '1.0' : '0.8'}</priority>\n`;
-  xml += `  </url>\n`;
+// Homepage
+xml += urlEntry(`${siteUrl}/`, '1.0');
+
+// Pages principales
+mainRoutes.forEach(route => {
+  if (route !== '') xml += urlEntry(`${siteUrl}${route}`, '0.9');
+});
+
+// Pages légales
+legalRoutes.forEach(route => {
+  xml += urlEntry(`${siteUrl}${route}`, '0.5');
+});
+
+// Pages individuelles
+dynamicRoutes.forEach(route => {
+  xml += urlEntry(`${siteUrl}${route}`, '0.8');
 });
 
 xml += '</urlset>';
