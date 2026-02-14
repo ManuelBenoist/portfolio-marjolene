@@ -62,6 +62,7 @@ export default defineNuxtConfig({
       script: [],
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon-painting.png' },
+        { rel: 'canonical', href: 'https://marjolene-lasne.com/' }
       ],
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },

@@ -3,9 +3,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
+    "generate-sitemap": "node scripts/generate-sitemap.cjs",
+    "build": "npm run generate-sitemap && nuxt build",
+    "generate": "npm run generate-sitemap && nuxt generate && node scripts/generate-redirects.cjs",
     "dev": "nuxt dev",
-    "generate": "nuxt generate && node scripts/generate-redirects.cjs",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
@@ -22,6 +23,8 @@
     "@nuxtjs/tailwindcss": "^6.14.0",
     "autoprefixer": "^10.4.23",
     "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.19"
+    "tailwindcss": "^3.4.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }
