@@ -2,7 +2,7 @@
 const { writeFileSync, readFileSync } = require('fs');
 const { join } = require('path');
 
-const siteUrl = 'https://marjolene-lasne.com';
+const siteUrl = 'https://marjolene-lasne.com'; // HTTPS obligatoire
 
 const mainRoutes = [
   '',
@@ -48,8 +48,10 @@ if (Array.isArray(foulardsData)) {
   });
 }
 
-// Fonction pour générer une URL XML
-function urlEntry(loc, priority, changefreq = 'monthly') {
+// Fonction pour générer une URL XML avec trailing slash
+function urlEntry(route, priority, changefreq = 'monthly') {
+  // ajoute le slash final sauf pour la homepage
+  const loc = route === '/' ? `${siteUrl}/` : `${siteUrl}${route.endsWith('/') ? route : route + '/'}`;
   return `  <url>
     <loc>${loc}</loc>
     <changefreq>${changefreq}</changefreq>
@@ -62,21 +64,21 @@ let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
 xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
 
 // Homepage
-xml += urlEntry(`${siteUrl}/`, '1.0');
+xml += urlEntry('/', '1.0');
 
 // Pages principales
 mainRoutes.forEach(route => {
-  if (route !== '') xml += urlEntry(`${siteUrl}${route}`, '0.9');
+  if (route !== '') xml += urlEntry(route, '0.9');
 });
 
 // Pages légales
 legalRoutes.forEach(route => {
-  xml += urlEntry(`${siteUrl}${route}`, '0.5');
+  xml += urlEntry(route, '0.5');
 });
 
-// Pages individuelles
+// Pages individuelles dynamiques
 dynamicRoutes.forEach(route => {
-  xml += urlEntry(`${siteUrl}${route}`, '0.8');
+  xml += urlEntry(route, '0.8');
 });
 
 xml += '</urlset>';
