@@ -61,8 +61,7 @@ export default defineNuxtConfig({
     head: {
       script: [],
       link: [
-        { rel: 'icon', type: 'image/png', href: '/favicon-painting.png' },
-        { rel: 'canonical', href: 'https://marjolene-lasne.com/' }
+        { rel: 'icon', type: 'image/png', href: '/favicon-painting.png' }
       ],
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -72,7 +71,6 @@ export default defineNuxtConfig({
     },
     pageTransition: { name: 'page', mode: 'out-in' },
     layoutTransition: false,
-    trailingSlash: true, // ✅ important pour GitHub Pages
   },
 
   nitro: {
