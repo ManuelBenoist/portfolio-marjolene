@@ -1,282 +1,282 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://marjolene-lasne.com</loc>
+    <loc>https://marjolene-lasne.com/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://marjolene-lasne.com/artiste/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://marjolene-lasne.com/peintures/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://marjolene-lasne.com/foulards/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://marjolene-lasne.com/autres-activites/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://marjolene-lasne.com/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://marjolene-lasne.com/mentions-legales/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://marjolene-lasne.com/politique-confidentialite/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://marjolene-lasne.com/peintures/diva-venitienne/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/artiste</loc>
+    <loc>https://marjolene-lasne.com/peintures/duo-au-piano/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures</loc>
+    <loc>https://marjolene-lasne.com/peintures/confidences-des-deux-amies/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/foulards</loc>
+    <loc>https://marjolene-lasne.com/peintures/conversation-a-saint-germain-des-pres/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/autres-activites</loc>
+    <loc>https://marjolene-lasne.com/peintures/autour-d-un-verre-a-venise/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/contact</loc>
+    <loc>https://marjolene-lasne.com/peintures/le-temps-suspendu/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/mentions-legales</loc>
+    <loc>https://marjolene-lasne.com/peintures/pause-apéritive/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/politique-confidentialite</loc>
+    <loc>https://marjolene-lasne.com/peintures/terrasse-ombragee/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/diva-venitienne</loc>
+    <loc>https://marjolene-lasne.com/peintures/detente-a-gordes/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/duo-au-piano</loc>
+    <loc>https://marjolene-lasne.com/peintures/la-marchande-de-legumes/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/confidences-des-deux-amies</loc>
+    <loc>https://marjolene-lasne.com/peintures/en-terrasse-parmi-les-fleurs/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/conversation-a-saint-germain-des-pres</loc>
+    <loc>https://marjolene-lasne.com/peintures/a-la-terrasse-du-fournil/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/autour-d-un-verre-a-venise</loc>
+    <loc>https://marjolene-lasne.com/peintures/pause-aperitive-au-soleil-provencal/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/le-temps-suspendu</loc>
+    <loc>https://marjolene-lasne.com/peintures/promenade-d-ete-en-famille-a-roussillon/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/pause-apéritive</loc>
+    <loc>https://marjolene-lasne.com/peintures/les-heures-douces-a-la-fontaine/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/terrasse-ombragee</loc>
+    <loc>https://marjolene-lasne.com/peintures/detente-au-jardin/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/detente-a-gordes</loc>
+    <loc>https://marjolene-lasne.com/peintures/le-marche-de-roussillon/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/la-marchande-de-legumes</loc>
+    <loc>https://marjolene-lasne.com/peintures/roussillon-aux-fleurs-sauvages/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/en-terrasse-parmi-les-fleurs</loc>
+    <loc>https://marjolene-lasne.com/peintures/camargue-secrete/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/a-la-terrasse-du-fournil</loc>
+    <loc>https://marjolene-lasne.com/peintures/reflets-emeraude/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/pause-aperitive-au-soleil-provencal</loc>
+    <loc>https://marjolene-lasne.com/peintures/symphonie-automnale/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/promenade-d-ete-en-famille-a-roussillon</loc>
+    <loc>https://marjolene-lasne.com/peintures/paysage-pourpre-et-vermillon/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/les-heures-douces-a-la-fontaine</loc>
+    <loc>https://marjolene-lasne.com/peintures/roussillon_au_soleil_joyeux/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/detente-au-jardin</loc>
+    <loc>https://marjolene-lasne.com/peintures/printemps-à-bonnieux/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/le-marche-de-roussillon</loc>
+    <loc>https://marjolene-lasne.com/peintures/de-pourpre-et-d-azur/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/roussillon-aux-fleurs-sauvages</loc>
+    <loc>https://marjolene-lasne.com/peintures/les-vignes-de-bonnieux/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/camargue-secrete</loc>
+    <loc>https://marjolene-lasne.com/peintures/gordes-aux-iris/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/reflets-emeraude</loc>
+    <loc>https://marjolene-lasne.com/peintures/dune-dans-le-vent/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/symphonie-automnale</loc>
+    <loc>https://marjolene-lasne.com/peintures/parfums-secrets-de-provence/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/paysage-pourpre-et-vermillon</loc>
+    <loc>https://marjolene-lasne.com/peintures/champs-d-herbes-sauvages/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/roussillon_au_soleil_joyeux</loc>
+    <loc>https://marjolene-lasne.com/peintures/paysage-pourpre-et-vermillon-au-soleil-couchant/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/printemps-à-bonnieux</loc>
+    <loc>https://marjolene-lasne.com/foulards/pivoines/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/de-pourpre-et-d-azur</loc>
+    <loc>https://marjolene-lasne.com/foulards/hibiscus/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/les-vignes-de-bonnieux</loc>
+    <loc>https://marjolene-lasne.com/foulards/roses/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/gordes-aux-iris</loc>
+    <loc>https://marjolene-lasne.com/foulards/eclats-or/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/dune-dans-le-vent</loc>
+    <loc>https://marjolene-lasne.com/foulards/coquelicots/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/parfums-secrets-de-provence</loc>
+    <loc>https://marjolene-lasne.com/foulards/fleurs-de-porcelaine/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/champs-d-herbes-sauvages</loc>
+    <loc>https://marjolene-lasne.com/foulards/poisson/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/peintures/paysage-pourpre-et-vermillon-au-soleil-couchant</loc>
+    <loc>https://marjolene-lasne.com/foulards/herbes-folles/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/foulards/pivoines</loc>
+    <loc>https://marjolene-lasne.com/foulards/libellule/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/foulards/hibiscus</loc>
+    <loc>https://marjolene-lasne.com/foulards/paon/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/foulards/roses</loc>
+    <loc>https://marjolene-lasne.com/foulards/spirales/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/foulards/eclats-or</loc>
+    <loc>https://marjolene-lasne.com/foulards/mamma-del-mondo/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/foulards/coquelicots</loc>
+    <loc>https://marjolene-lasne.com/foulards/courbes/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/foulards/fleurs-de-porcelaine</loc>
+    <loc>https://marjolene-lasne.com/foulards/printemps-en-couleurs/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/foulards/poisson</loc>
+    <loc>https://marjolene-lasne.com/foulards/paysage-de-roussillon/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/foulards/herbes-folles</loc>
+    <loc>https://marjolene-lasne.com/foulards/fleurs-et-papillons/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marjolene-lasne.com/foulards/libellule</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://marjolene-lasne.com/foulards/paon</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://marjolene-lasne.com/foulards/spirales</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://marjolene-lasne.com/foulards/mamma-del-mondo</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://marjolene-lasne.com/foulards/courbes</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://marjolene-lasne.com/foulards/printemps-en-couleurs</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://marjolene-lasne.com/foulards/paysage-de-roussillon</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://marjolene-lasne.com/foulards/fleurs-et-papillons</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://marjolene-lasne.com/foulards/oiseaux-exotiques</loc>
+    <loc>https://marjolene-lasne.com/foulards/oiseaux-exotiques/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
