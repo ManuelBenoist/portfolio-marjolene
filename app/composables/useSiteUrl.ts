@@ -9,7 +9,7 @@ export const useSiteUrl = () => {
 
   const siteUrl = runtimeSiteUrl || serverOrigin || clientOrigin
 
-  const withSiteUrl = (path: string) => {
+  const withSiteUrl = (path: string, options: { withEndSlash?: boolean } = {}) => {
     if (!siteUrl) return path
 
     const normalizedPath = path.startsWith('/')
@@ -19,7 +19,13 @@ export const useSiteUrl = () => {
       : path
 
     try {
-      return new URL(normalizedPath, siteUrl).toString()
+      const url = new URL(normalizedPath, siteUrl)
+
+      if (options.withEndSlash && url.pathname !== '/' && !url.pathname.endsWith('/')) {
+        url.pathname += '/'
+      }
+
+      return url.toString()
     } catch {
       return path
     }

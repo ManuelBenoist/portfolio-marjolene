@@ -27,7 +27,7 @@ const route = useRoute()
 const { t, locale } = useI18n()
 const { siteUrl, withSiteUrl } = useSiteUrl()
 
-const canonicalUrl = computed(() => (siteUrl ? withSiteUrl(route.fullPath) : ''))
+const canonicalUrl = computed(() => (siteUrl ? withSiteUrl(route.path, { withEndSlash: true }) : ''))
 
 const structuredData = computed(() => {
   if (!siteUrl) return null

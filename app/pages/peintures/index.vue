@@ -196,7 +196,7 @@ const metaImage = computed(() => {
 
 // Canonical URL optimization: Always point to the main gallery page without filters
 // to prevent duplicate content issues with query parameters
-const canonicalUrl = computed(() => withSiteUrl(localePath('/peintures')))
+const canonicalUrl = computed(() => withSiteUrl(localePath('/peintures'), { withEndSlash: true }))
 
 useHead({
   link: [
