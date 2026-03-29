@@ -621,7 +621,7 @@
             "label": "Mousseline et satin de soie",
             "images": [
               {
-                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84.webp",
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-et-T-84x84.webp",
                 "alt": "Foulard bleu turquoise dégradé en mousseline et satin de soie"
               }
             ],
@@ -631,10 +631,42 @@
                 "label": "84x84 cm"
               }
             ]
+          },
+            "satin-de-soie": {
+              "id": "satin-de-soie",
+              "label": "Satin de soie",
+              "images": [
+                {
+                  "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-et-T-84x84.webp",
+                  "alt": "Foulard bleu turquoise dégradé en satin de soie"
+                },
+                {
+                  "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p1.webp",
+                  "alt": "Foulard bleu turquoise dégradé en satin de soie - vue portée 1"
+                },
+                {
+                  "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p2.webp",
+                  "alt": "Foulard bleu turquoise dégradé en satin de soie - vue portée 2"
+                },
+                {
+                    "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p3.webp",
+                    "alt": "Foulard bleu turquoise dégradé en satin de soie - vue portée 3"
+                },
+                {
+                    "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p4.webp",
+                    "alt": "Foulard bleu turquoise dégradé en satin de soie - vue portée 4"
+                }
+              ],
+              "sizes": [
+                {
+                  "id": "84x84",
+                  "label": "84x84 cm"
+                }
+              ]
+            }
           }
         }
-      }
-    },
+      },
     "mentions": [
       "Pièce unique fabriquée en France",
       "Dessin original de l'artiste",
@@ -1678,6 +1710,18 @@
               {
                 "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p6.webp",
                 "alt": "Foulard rouge dégradé orange en satin de soie - vue portée 6"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p7.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - vue portée 7"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p8.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - vue portée 8"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p9.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - vue portée 9"
               }
             ],
             "sizes": [
