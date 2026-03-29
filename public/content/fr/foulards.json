@@ -219,13 +219,21 @@
         ],
         "type": "gradient",
         "materials": {
-          "mousseline-et-satin-de-soie": {
-            "id": "mousseline-et-satin-de-soie",
-            "label": "Mousseline et satin de soie",
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
             "images": [
               {
-                "src": "/img/foulards/roses/vert-degrade-fond-blanc-BMS-84x84.webp",
-                "alt": "Foulard Roses Vert dégradé fond blanc en mousseline"
+                "src": "/img/foulards/roses/vert-degrade-fond-blanc-T-84x84.webp",
+                "alt": "Foulard Roses Vert dégradé fond blanc en satin de soie"
+              },
+              {
+                "src": "/img/foulards/roses/vert-degrade-fond-blanc-T-84x84-p1.webp",
+                "alt": "Foulard Roses Vert dégradé fond blanc en satin de soie - vue portée 1"
+              },
+              {
+                "src": "/img/foulards/roses/vert-degrade-fond-blanc-T-84x84-p2.webp",
+                "alt": "Foulard Roses Vert dégradé fond blanc en satin de soie - vue portée 2"
               }
             ],
             "sizes": [
@@ -1489,6 +1497,30 @@
               {
                 "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x174.webp",
                 "alt": "Foulard outremer en satin de soie"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p1.webp",
+                "alt": "Foulard outremer en satin de soie - vue portée 1"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p2.webp",
+                "alt": "Foulard outremer en satin de soie - vue portée 2"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p3.webp",
+                "alt": "Foulard outremer en satin de soie - vue portée 3"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p4.webp",
+                "alt": "Foulard outremer en satin de soie - vue portée 4"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p5.webp",
+                "alt": "Foulard outremer en satin de soie - vue portée 5"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p6.webp",
+                "alt": "Foulard outremer en satin de soie - vue portée 6"
               }
             ],
             "sizes": [
