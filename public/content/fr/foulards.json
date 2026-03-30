@@ -3245,6 +3245,49 @@
             ]
           }
         }
+      },
+       "rose": {
+        "id": "rose",
+        "label": "Rose",
+        "hex": "#FF69B4",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p1.webp",
+                "alt": "Foulard Clochettes rose en satin de soie - vue portée 1"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p2.webp",
+                "alt": "Foulard Clochettes rose en satin de soie - vue portée 2"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p3.webp",
+                "alt": "Foulard Clochettes rose en satin de soie - vue portée 3"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p4.webp",
+                "alt": "Foulard Clochettes rose en satin de soie - vue portée 4"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p5.webp",
+                "alt": "Foulard Clochettes rose en satin de soie - vue portée 5"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p6.webp",
+                "alt": "Foulard Clochettes rose en satin de soie - vue portée 6"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        }
       }
     },
     "mentions": [
