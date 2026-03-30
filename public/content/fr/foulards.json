@@ -524,6 +524,26 @@
                 "label": "84x84 cm"
               }
             ]
+          },
+          "satin-de-soie":{
+            "id":"satin-de-soie",
+            "label":"Satin de soie",
+            "images":[
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-T-84x84-p1.webp",
+                "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie - vue portée 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-T-84x84-p2.webp",
+                "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie - vue portée 2"
+              }
+            ],
+            "sizes":[
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
           }
         }
       },
