@@ -2722,7 +2722,8 @@
       "bleu-outremer-degrade-lavande": {
         "id": "bleu-outremer-degrade-lavande",
         "label": "Bleu outremer dégradé lavande",
-        "hex": "#000000",
+        "hexes": ["#6F7FC5","#A4B7DC"],
+        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
