@@ -3362,5 +3362,59 @@
       "Édition limitée de 8 exemplaires"
     ],
     "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+  },
+    {
+    "slug": "roussillon",
+    "title": "Roussillon",
+    "description": "",
+    "colors": {
+      "orange": {
+        "id": "orange-degrade-rouge",
+        "label": "Orange dégradé rouge",
+        "hexes": ["#BC0214","#D86221"],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p1.webp",
+                "alt": "Foulard Roussillon orange en satin de soie - vue portée 1"
+              },
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p1.webp",
+                "alt": "Foulard Roussillon orange en satin de soie - vue portée 2"
+              },
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p3.webp",
+                "alt": "Foulard Roussillon orange en satin de soie - vue portée 3"
+              },
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p4.webp",
+                "alt": "Foulard Roussillon orange en satin de soie - vue portée 4"
+              },
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p5.webp",
+                "alt": "Foulard Roussillon orange en satin de soie - vue portée 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x174",
+                "label": "40x174 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Pièce unique fabriquée en France",
+      "Dessin original de l'artiste",
+      "100% soie, réalisé à partir d'aquarelles",
+      "Édition limitée de 8 exemplaires"
+    ],
+    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
   }
 ]
