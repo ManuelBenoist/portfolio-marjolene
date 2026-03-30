@@ -1350,6 +1350,48 @@
           }
         }
       },
+      "bleu":{
+        "id": "bleu",
+        "label": "Bleu",
+        "hexes": [
+          "#0175B8"
+        ],
+        "type": "solid",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p1.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 1"
+              },
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p2.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 2"
+              },
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p3.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 3"
+              },
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p4.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 4"
+              },
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p5.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        }
+      },
       "vert": {
         "id": "vert",
         "label": "Vert",
