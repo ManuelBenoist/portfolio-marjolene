@@ -526,6 +526,46 @@
             ]
           }
         }
+      },
+      "bleu-turquoise": {
+        "id": "bleu-turquoise",
+        "label": "Bleu turquoise",
+        "hex":"#0BD7FC",
+        "type": "solid",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p1.webp",
+                "alt": "Foulard bleu turquoise en mousseline et satin de soie - vue portée 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p2.webp",
+                "alt": "Foulard bleu turquoise en mousseline et satin de soie - vue portée 2"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p3.webp",
+                "alt": "Foulard bleu turquoise en mousseline et satin de soie - vue portée 3"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p4.webp",
+                "alt": "Foulard bleu turquoise en mousseline et satin de soie - vue portée 4"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p5.webp",
+                "alt": "Foulard bleu turquoise en mousseline et satin de soie - vue portée 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        }
       }
     },
     "mentions": [
@@ -534,7 +574,7 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard noir en laine, édition limitée."
+    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
   },
   {
     "slug": "coquelicots",
@@ -782,7 +822,7 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard avec description très longue pour test UI."
+    "metaDescription": "Foulard en soie Méditerranée par Marjolène Lasne, couleurs de la côte azuréenne."
   },
   {
     "slug": "fleurs-de-porcelaine",
