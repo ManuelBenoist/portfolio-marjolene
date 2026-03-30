@@ -567,7 +567,7 @@
             "label": "Mousseline et satin de soie",
             "images": [
               {
-                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64.webp",
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-et-T-64x64.webp",
                 "alt": "Foulard rouge dégradé orange en mousseline et satin de soie"
               }
             ],
@@ -575,6 +575,38 @@
               {
                 "id": "64x64",
                 "label": "64x64 cm"
+              }
+            ]
+          },
+          "satin-de-soie":{
+            "id":"satin-de-soie",
+            "label":"Satin de soie",
+            "images":[
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-et-T-64x64.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-T-84x84-p1.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - vue portée 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-T-84x84-p2.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - vue portée 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-T-84x84-p3.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - vue portée 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-T-84x84-p4.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - vue portée 4"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
