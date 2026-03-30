@@ -3274,5 +3274,50 @@
       "Édition limitée de 8 exemplaires"
     ],
     "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+  },
+  {
+    "slug": "jazz",
+    "title": "Jazz",
+    "description": "",
+    "colors": {
+      "orange": {
+        "id": "orange",
+        "label": "Orange",
+        "hex": "#EB5712",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              {
+                "src": "/img/foulards/jazz/orange-T-40x174-p1.webp",
+                "alt": "Foulard Jazz orange en satin de soie - vue portée 1"
+              },
+              {
+                "src": "/img/foulards/jazz/orange-T-40x174-p2.webp",
+                "alt": "Foulard Jazz orange en satin de soie - vue portée 2"
+              },
+              {
+                "src": "/img/foulards/jazz/orange-T-40x174-p3.webp",
+                "alt": "Foulard Jazz orange en satin de soie - vue portée 3"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x174",
+                "label": "40x174 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Pièce unique fabriquée en France",
+      "Dessin original de l'artiste",
+      "100% soie, réalisé à partir d'aquarelles",
+      "Édition limitée de 8 exemplaires"
+    ],
+    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
   }
 ]
