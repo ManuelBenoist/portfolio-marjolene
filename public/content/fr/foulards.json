@@ -1718,15 +1718,35 @@
       "lie-de-vin": {
         "id": "lie-de-vin",
         "label": "Lie de vin",
-        "hex": "#000000",
+        "hex": "#C55797",
         "materials": {
           "satin-de-soie": {
             "id": "satin-de-soie",
             "label": "Satin de soie",
             "images": [
               {
-                "src": "/img/foulards/multi/lie-de-vin/satin-de-soie-1.avif",
-                "alt": "Foulard lie de vin en satin de soie"
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p1.webp",
+                "alt": "Foulard Spirales lie de vin en satin de soie - vue portée 1"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p2.webp",
+                "alt": "Foulard Spirales lie de vin en satin de soie - vue portée 2"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p3.webp",
+                "alt": "Foulard Spirales lie de vin en satin de soie - vue portée 3"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p4.webp",
+                "alt": "Foulard Spirales lie de vin en satin de soie - vue portée 4"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p5.webp",
+                "alt": "Foulard Spirales lie de vin en satin de soie - vue portée 5"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p6.webp",
+                "alt": "Foulard Spirales lie de vin en satin de soie - vue portée 6"
               }
             ],
             "sizes": [
