@@ -57,14 +57,38 @@
             "label": "Mousseline et satin de soie",
             "images": [
               {
-                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-64x64.webp",
-                "alt": "Foulard Jardin Secret Rose dégradé orange en soie"
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84.webp",
+                "alt": "Foulard Pivoines rose dégradé orange en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p1.webp",
+                "alt": "Foulard Pivoines rose dégradé orange en mousseline et satin de soie - vue portée 1"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p2.webp",
+                "alt": "Foulard Pivoines rose dégradé orange en mousseline et satin de soie - vue portée 2"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p3.webp",
+                "alt": "Foulard Pivoines rose dégradé orange en mousseline et satin de soie - vue portée 3"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p4.webp",
+                "alt": "Foulard Pivoines rose dégradé orange en mousseline et satin de soie - vue portée 4"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p5.webp",
+                "alt": "Foulard Pivoines rose dégradé orange en mousseline et satin de soie - vue portée 5"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p6.webp",
+                "alt": "Foulard Pivoines rose dégradé orange en mousseline et satin de soie - vue portée 6"
               }
             ],
             "sizes": [
               {
-                "id": "64x64",
-                "label": "64x64 cm"
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
@@ -334,7 +358,31 @@
             "images": [
               {
                 "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64.webp",
-                "alt": "Foulard jaune d'or en mousseline et satin de soie"
+                "alt": "Foulard Eclats d'Or jaune d'or en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p1.webp",
+                "alt": "Foulard Eclats d'Or jaune d'or en mousseline et satin de soie - vue portée 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p2.webp",
+                "alt": "Foulard Eclats d'Or jaune d'or en mousseline et satin de soie - vue portée 2"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p3.webp",
+                "alt": "Foulard Eclats d'Or jaune d'or en mousseline et satin de soie - vue portée 3"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p4.webp",
+                "alt": "Foulard Eclats d'Or jaune d'or en mousseline et satin de soie - vue portée 4"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p5.webp",
+                "alt": "Foulard Eclats d'Or jaune d'or en mousseline et satin de soie - vue portée 5"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p6.webp",
+                "alt": "Foulard Eclats d'Or jaune d'or en mousseline et satin de soie - vue portée 6"
               }
             ],
             "sizes": [
