@@ -950,7 +950,7 @@
   {
     "slug": "fleurs-de-porcelaine",
     "title": "Fleurs de Porcelaine",
-    "description": "De subtiles volutes ornent cette composition dont les fleurs de procelaine et les végétaux se détachent sur un fond jaune d'or et rose tonique.",
+    "description": "De subtiles volutes ornent cette composition dont les fleurs de porcelaine et les végétaux se détachent sur un fond jaune d'or et rose tonique.",
     "colors": {
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
@@ -967,7 +967,31 @@
             "images": [
               {
                 "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64.webp",
-                "alt": "Foulard rose dégradé orange en mousseline et satin de soie"
+                "alt": "Foulard Fleurs de porcelaine - rose dégradé orange en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p1.webp",
+                "alt": "Foulard Fleurs de porcelaine - rose dégradé orange en mousseline et satin de soie - vue portée 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p2.webp",
+                "alt": "Foulard Fleurs de porcelaine - rose dégradé orange en mousseline et satin de soie - vue portée 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p3.webp",
+                "alt": "Foulard Fleurs de porcelaine - rose dégradé orange en mousseline et satin de soie - vue portée 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p4.webp",
+                "alt": "Foulard Fleurs de porcelaine - rose dégradé orange en mousseline et satin de soie - vue portée 4"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p5.webp",
+                "alt": "Foulard Fleurs de porcelaine - rose dégradé orange en mousseline et satin de soie - vue portée 5"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p6.webp",
+                "alt": "Foulard Fleurs de porcelaine - rose dégradé orange en mousseline et satin de soie - vue portée 6"
               }
             ],
             "sizes": [
