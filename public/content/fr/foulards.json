@@ -1947,8 +1947,16 @@
             "label": "Mousseline et satin de soie",
             "images": [
               {
-                "src": "/img/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Foulard bleu outremer en mousseline et satin de soie"
+                "src": "/img/foulards/fleurs-et-papillons/bleu-outremer-degrade-lavande-BMS-40x174-p1.webp",
+                "alt": "Foulard bleu outremer en mousseline et satin de soie - vue portée 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-outremer-degrade-lavande-BMS-40x174-p2.webp",
+                "alt": "Foulard bleu outremer en mousseline et satin de soie - vue portée 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-outremer-degrade-lavande-BMS-40x174-p3.webp",
+                "alt": "Foulard bleu outremer en mousseline et satin de soie - vue portée 3"
               }
             ],
             "sizes": [
