@@ -562,24 +562,28 @@
             "label": "Satin de soie",
             "images": [
               {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie"
+              },
+              {
                 "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p1.webp",
-                "alt": "Foulard bleu turquoise en mousseline et satin de soie - vue portée 1"
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - vue portée 1"
               },
               {
                 "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p2.webp",
-                "alt": "Foulard bleu turquoise en mousseline et satin de soie - vue portée 2"
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - vue portée 2"
               },
               {
                 "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p3.webp",
-                "alt": "Foulard bleu turquoise en mousseline et satin de soie - vue portée 3"
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - vue portée 3"
               },
               {
                 "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p4.webp",
-                "alt": "Foulard bleu turquoise en mousseline et satin de soie - vue portée 4"
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - vue portée 4"
               },
               {
                 "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p5.webp",
-                "alt": "Foulard bleu turquoise en mousseline et satin de soie - vue portée 5"
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - vue portée 5"
               }
             ],
             "sizes": [
@@ -1505,6 +1509,10 @@
                 "alt": "Foulard Herbes folles amethyste en satin de soie"
               },
               {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p1.webp",
+                "alt": "Foulard Herbes folles amethyste en satin de soie"
+              },
+              {
                 "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p2.webp",
                 "alt": "Foulard Herbes folles amethyste en satin de soie - vue portée 2"
               },
@@ -2047,8 +2055,55 @@
             ]
           }
         }
-      }
-    },
+      },
+      "jaune-degrade-orange": {
+        "id": "jaune-degrade-orange",
+        "label": "Jaune dégradé orange",
+        "hexes": [
+          "#F9E900",
+          "#F99324"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p1.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - vue portée 1"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p2.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - vue portée 2"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p3.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - vue portée 3"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p4.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - vue portée 4"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p5.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - vue portée 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "42x42",
+                "label": "42x42 cm"
+              }
+            ]
+          }
+        }
+    }  
+   },
     "mentions": [
       "Pièce unique fabriquée en France",
       "Dessin original de l'artiste",
