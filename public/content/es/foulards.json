@@ -6,7 +6,7 @@
     "colors": {
       "rose-degrade-orange-fond-blanc": {
         "id": "rose-degrade-orange-fond-blanc",
-        "label": "Degradado rosa-naranja sobre blanco",
+        "label": "Degradado rosa a naranja sobre blanco",
         "hexes": [
           "#E360B1",
           "#FFFFFF",
@@ -21,12 +21,24 @@
               {
                 "src": "/img/foulards/pivoines/rose-degrade-orange-fond-blanc-BMS-84x84.webp",
                 "alt": "Pañuelo Pivoines degradado rosa-naranja sobre blanco en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-fond-blanc-BMS-84x84-p1.webp",
+                "alt": "Pañuelo Pivoines degradado rosa-naranja sobre blanco en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-fond-blanc-BMS-84x84-p2.webp",
+                "alt": "Pañuelo Pivoines degradado rosa-naranja sobre blanco en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-fond-blanc-BMS-84x84-p3.webp",
+                "alt": "Pañuelo Pivoines degradado rosa-naranja sobre blanco en muselina y satén de seda - vista puesta 3"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -34,7 +46,7 @@
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Degradado rosa-naranja",
+        "label": "Degradado rosa a naranja",
         "hexes": [
           "#FFC702",
           "#E31C7F"
@@ -45,18 +57,43 @@
             "label": "Muselina y satén de seda",
             "images": [
               {
-                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-64x64.webp",
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84.webp",
                 "alt": "Pañuelo Pivoines degradado rosa-naranja en seda"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p1.webp",
+                "alt": "Pañuelo Pivoines degradado rosa-naranja en seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p2.webp",
+                "alt": "Pañuelo Pivoines degradado rosa-naranja en seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p3.webp",
+                "alt": "Pañuelo Pivoines degradado rosa-naranja en seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p4.webp",
+                "alt": "Pañuelo Pivoines degradado rosa-naranja en seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p5.webp",
+                "alt": "Pañuelo Pivoines degradado rosa-naranja en seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p6.webp",
+                "alt": "Pañuelo Pivoines degradado rosa-naranja en seda - vista puesta 6"
               }
             ],
             "sizes": [
               {
-                "id": "64x64",
-                "label": "64×64 cm"
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       }
     },
     "mentions": [
@@ -65,7 +102,7 @@
       "100 % seda, realizada a partir de acuarelas",
       "Edición limitada de 8 ejemplares"
     ],
-    "metaDescription": "Pañuelo de seda Pivoines de Marjolène Lasne, motivos florales inspirados en Provenza."
+    "metaDescription": "Pañuelo de seda Pivoines de Marjolène Lasne, peonías estilizadas sobre fondo azul degradado y verde anis."
   },
   {
     "slug": "hibiscus",
@@ -74,7 +111,7 @@
     "colors": {
       "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
-        "label": "Degradado rojo-naranja",
+        "label": "Degradado rojo a naranja",
         "hexes": [
           "#FFB409",
           "#F01F11"
@@ -88,12 +125,32 @@
               {
                 "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64.webp",
                 "alt": "Pañuelo Hibiscus degradado rojo-naranja en seda"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64-p1.webp",
+                "alt": "Pañuelo Hibiscus degradado rojo-naranja en seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64-p2.webp",
+                "alt": "Pañuelo Hibiscus degradado rojo-naranja en seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64-p3.webp",
+                "alt": "Pañuelo Hibiscus degradado rojo-naranja en seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64-p4.webp",
+                "alt": "Pañuelo Hibiscus degradado rojo-naranja en seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64-p5.webp",
+                "alt": "Pañuelo Hibiscus degradado rojo-naranja en seda - vista puesta 5"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -101,7 +158,7 @@
       },
       "rose-degrade": {
         "id": "rose-degrade",
-        "label": "Degradado rosa",
+        "label": "Rosa degradado",
         "hexes": [
           "#F88CBE",
           "#E11C6A"
@@ -120,7 +177,7 @@
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -128,7 +185,7 @@
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Degradado rosa-naranja",
+        "label": "Degradado rosa a naranja",
         "hexes": [
           "#FDB308",
           "#EE1A8B"
@@ -142,12 +199,36 @@
               {
                 "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84.webp",
                 "alt": "Pañuelo Hibiscus degradado rosa-naranja en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p1.webp",
+                "alt": "Pañuelo Hibiscus degradado rosa-naranja en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p2.webp",
+                "alt": "Pañuelo Hibiscus degradado rosa-naranja en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p3.webp",
+                "alt": "Pañuelo Hibiscus degradado rosa-naranja en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p4.webp",
+                "alt": "Pañuelo Hibiscus degradado rosa-naranja en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p5.webp",
+                "alt": "Pañuelo Hibiscus degradado rosa-naranja en muselina y satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p6.webp",
+                "alt": "Pañuelo Hibiscus degradado rosa-naranja en muselina y satén de seda - vista puesta 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -160,7 +241,7 @@
       "100 % seda, realizada a partir de acuarelas",
       "Edición limitada de 8 ejemplares"
     ],
-    "metaDescription": "Pañuelo de seda Hibiscus de Marjolène Lasne, colores de la Costa Azul."
+    "metaDescription": "Pañuelo de seda Hibiscus de Marjolène Lasne, flores y hierbas alrededor de un hibisco majestuoso."
   },
   {
     "slug": "roses",
@@ -183,12 +264,20 @@
               {
                 "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-et-T-64x64.webp",
                 "alt": "Pañuelo Roses degradado rosa en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-64x64-p1.webp",
+                "alt": "Pañuelo Roses degradado rosa en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-64x64-p2.webp",
+                "alt": "Pañuelo Roses degradado rosa en muselina y satén de seda - vista puesta 2"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           },
@@ -204,7 +293,7 @@
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -219,19 +308,27 @@
         ],
         "type": "gradient",
         "materials": {
-          "mousseline-et-satin-de-soie": {
-            "id": "mousseline-et-satin-de-soie",
-            "label": "Muselina y satén de seda",
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
             "images": [
               {
-                "src": "/img/foulards/roses/vert-degrade-fond-blanc-BMS-84x84.webp",
-                "alt": "Pañuelo Roses degradado verde sobre blanco en muselina"
+                "src": "/img/foulards/roses/vert-degrade-fond-blanc-T-84x84.webp",
+                "alt": "Foulard Roses Vert dégradé fond blanc en satin de soie"
+              },
+              {
+                "src": "/img/foulards/roses/vert-degrade-fond-blanc-T-84x84-p1.webp",
+                "alt": "Foulard Roses Vert dégradé fond blanc en satin de soie - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/roses/vert-degrade-fond-blanc-T-84x84-p2.webp",
+                "alt": "Foulard Roses Vert dégradé fond blanc en satin de soie - vista puesta 2"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -244,7 +341,7 @@
       "100 % seda, realizada a partir de acuarelas",
       "Edición limitada de 8 ejemplares"
     ],
-    "metaDescription": "Pañuelo de seda Roses de Marjolène Lasne, colores de la Costa Azul."
+    "metaDescription": "Pañuelo de seda Roses de Marjolène Lasne, rosas pruna y verde anis en una armonía floral."
   },
   {
     "slug": "eclats-or",
@@ -267,12 +364,36 @@
               {
                 "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64.webp",
                 "alt": "Pañuelo amarillo dorado en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p1.webp",
+                "alt": "Pañuelo amarillo dorado en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p2.webp",
+                "alt": "Pañuelo amarillo dorado en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p3.webp",
+                "alt": "Pañuelo amarillo dorado en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p4.webp",
+                "alt": "Pañuelo amarillo dorado en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p5.webp",
+                "alt": "Pañuelo amarillo dorado en muselina y satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p6.webp",
+                "alt": "Pañuelo amarillo dorado en muselina y satén de seda - vista puesta 6"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -280,7 +401,7 @@
       },
       "rose-degrade": {
         "id": "rose-degrade",
-        "label": "Degradado rosa",
+        "label": "Rosa degradado",
         "hexes": [
           "#F78DBE",
           "#E01B68"
@@ -294,12 +415,24 @@
               {
                 "src": "/img/foulards/eclats-or/rose-degrade-BMS-64x64.webp",
                 "alt": "Pañuelo degradado rosa en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-degrade-BMS-64x64-p1.webp",
+                "alt": "Pañuelo degradado rosa en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-degrade-BMS-64x64-p2.webp",
+                "alt": "Pañuelo degradado rosa en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-degrade-BMS-64x64-p3.webp",
+                "alt": "Pañuelo degradado rosa en muselina y satén de seda - vista puesta 3"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -307,7 +440,7 @@
       },
       "rose-orange-degrade": {
         "id": "rose-orange-degrade",
-        "label": "Degradado rosa-naranja",
+        "label": "Degradado rosa naranja",
         "hexes": [
           "#FFA806",
           "#F73AA7"
@@ -321,12 +454,28 @@
               {
                 "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84.webp",
                 "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84-p1.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84-p2.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84-p3.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84-p4.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 4"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -334,7 +483,7 @@
       },
       "bleu-vert-degrade": {
         "id": "bleu-vert-degrade",
-        "label": "Degradado azul-verde",
+        "label": "Degradado azul verde",
         "hexes": [
           "#41F5E6",
           "#279F94"
@@ -348,12 +497,100 @@
               {
                 "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84.webp",
                 "alt": "Pañuelo degradado azul-verde en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p1.webp",
+                "alt": "Pañuelo degradado azul-verde en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p2.webp",
+                "alt": "Pañuelo degradado azul-verde en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p3.webp",
+                "alt": "Pañuelo degradado azul-verde en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p4.webp",
+                "alt": "Pañuelo degradado azul-verde en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p5.webp",
+                "alt": "Pañuelo degradado azul-verde en muselina y satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p6.webp",
+                "alt": "Pañuelo degradado azul-verde en muselina y satén de seda - vista puesta 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-T-84x84-p1.webp",
+                "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie - vue portée 1 - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-T-84x84-p2.webp",
+                "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie - vue portée 1 - vista puesta 2"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise": {
+        "id": "bleu-turquoise",
+        "label": "Azul turquesa",
+        "hex": "#0BD7FC",
+        "type": "solid",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p1.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p2.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p3.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p4.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p5.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - vista puesta 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
@@ -366,7 +603,7 @@
       "100 % seda, realizada a partir de acuarelas",
       "Edición limitada de 8 ejemplares"
     ],
-    "metaDescription": "Pañuelo de edición limitada de Marjolène Lasne."
+    "metaDescription": "Pañuelo de seda Eclats d’Or de Marjolène Lasne, colores vivos, gavillas estilizadas y elegancia floral."
   },
   {
     "slug": "coquelicots",
@@ -389,16 +626,32 @@
               {
                 "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84.webp",
                 "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84-p1.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84-p2.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84-p3.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84-p4.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 4"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               },
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -406,7 +659,7 @@
       },
       "rose-degrade": {
         "id": "rose-degrade",
-        "label": "Degradado rosa",
+        "label": "Rosa degradado",
         "hexes": [
           "#E11C6A",
           "#F88CBE"
@@ -419,20 +672,45 @@
               {
                 "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64.webp",
                 "alt": "Pañuelo degradado rosa en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p1.webp",
+                "alt": "Pañuelo degradado rosa en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p2.webp",
+                "alt": "Pañuelo degradado rosa en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p3.webp",
+                "alt": "Pañuelo degradado rosa en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p4.webp",
+                "alt": "Pañuelo degradado rosa en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p5.webp",
+                "alt": "Pañuelo degradado rosa en muselina y satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p6.webp",
+                "alt": "Pañuelo degradado rosa en muselina y satén de seda - vista puesta 6"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
-        "label": "Degradado rojo-naranja",
+        "label": "Degradado rojo a naranja",
         "hexes": [
           "#EF1E10",
           "#FFB409"
@@ -443,22 +721,67 @@
             "label": "Muselina y satén de seda",
             "images": [
               {
-                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64.webp",
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-et-T-64x64.webp",
                 "alt": "Pañuelo degradado rojo-naranja en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64-p1.webp",
+                "alt": "Pañuelo degradado rojo-naranja en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64-p2.webp",
+                "alt": "Pañuelo degradado rojo-naranja en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64-p3.webp",
+                "alt": "Pañuelo degradado rojo-naranja en muselina y satén de seda - vista puesta 3"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-et-T-64x64.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-T-84x84-p1.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-T-84x84-p2.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-T-84x84-p3.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-T-84x84-p4.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - vista puesta 4"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Degradado rosa-naranja",
+        "label": "Degradado rosa a naranja",
         "hexes": [
           "#ED1890",
           "#FFA808"
@@ -471,16 +794,37 @@
               {
                 "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84.webp",
                 "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84-p1.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84-p2.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84-p3.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84-p4.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84-p5.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "vert-degrade": {
         "id": "vert-degrade",
@@ -495,22 +839,130 @@
             "label": "Muselina y satén de seda",
             "images": [
               {
-                "src": "/img/foulards/coquelicots/vert-degrade-BMS-84x84.webp",
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-et-T-84x84.webp",
                 "alt": "Pañuelo degradado verde en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p1.webp",
+                "alt": "Pañuelo degradado verde en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p2.webp",
+                "alt": "Pañuelo degradado verde en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p3.webp",
+                "alt": "Pañuelo degradado verde en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p4.webp",
+                "alt": "Pañuelo degradado verde en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p5.webp",
+                "alt": "Pañuelo degradado verde en muselina y satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p6.webp",
+                "alt": "Pañuelo degradado verde en muselina y satén de seda - vista puesta 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-et-T-84x84.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p1.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p2.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p3.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p4.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p5.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p6.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - vista puesta 6"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
+      },
+      "mauve-degrade-rose": {
+        "id": "mauve-degrade-rose",
+        "label": "Degradado malva a rosa",
+        "hexes": [
+          "#6D69BC",
+          "#7366A1"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/mauve-degrade-rose-BMS-84x84.webp",
+                "alt": "Foulard Coquelicots mauve dégradé rose en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/coquelicots/mauve-degrade-rose-BMS-84x84-p1.webp",
+                "alt": "Foulard Coquelicots mauve dégradé rose en mousseline et satin de soie - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/mauve-degrade-rose-BMS-84x84-p2.webp",
+                "alt": "Foulard Coquelicots mauve dégradé rose en mousseline et satin de soie - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/mauve-degrade-rose-BMS-84x84-p3.webp",
+                "alt": "Foulard Coquelicots mauve dégradé rose en mousseline et satin de soie - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/mauve-degrade-rose-BMS-84x84-p4.webp",
+                "alt": "Foulard Coquelicots mauve dégradé rose en mousseline et satin de soie - vista puesta 4"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        },
+        "type": "gradient"
       },
       "rouge-degrade-rose": {
         "id": "rouge-degrade-rose",
-        "label": "Degradado rojo-rosa",
+        "label": "Degradado rojo a rosa",
         "hex": "#000000",
         "materials": {
           "satin-de-soie": {
@@ -518,18 +970,39 @@
             "label": "Satén de seda",
             "images": [
               {
-                "src": "/img/foulards/longdesc/arc-en-ciel/satin-de-soie-1.avif",
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84.webp",
                 "alt": "Pañuelo arcoíris en satén de seda"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84-p1.webp",
+                "alt": "Pañuelo arcoíris en satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84-p2.webp",
+                "alt": "Pañuelo arcoíris en satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84-p3.webp",
+                "alt": "Pañuelo arcoíris en satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84-p4.webp",
+                "alt": "Pañuelo arcoíris en satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84-p5.webp",
+                "alt": "Pañuelo arcoíris en satén de seda - vista puesta 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "solid"
       }
     },
     "mentions": [
@@ -538,7 +1011,7 @@
       "100 % seda, realizada a partir de acuarelas",
       "Edición limitada de 8 ejemplares"
     ],
-    "metaDescription": "Pañuelo con descripción larga para prueba de interfaz."
+    "metaDescription": "Pañuelo de seda Coquelicots de Marjolène Lasne, amapolas en diagonal sobre campo dorado y cielo radiante."
   },
   {
     "slug": "fleurs-de-porcelaine",
@@ -547,7 +1020,7 @@
     "colors": {
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Degradado rosa-naranja",
+        "label": "Degradado rosa a naranja",
         "hexes": [
           "#F64984",
           "#FEB107"
@@ -561,12 +1034,36 @@
               {
                 "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64.webp",
                 "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p1.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p2.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p3.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p4.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p5.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p6.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 6"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -574,7 +1071,7 @@
       },
       "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
-        "label": "Degradado rojo-naranja",
+        "label": "Degradado rojo a naranja",
         "hexes": [
           "#F03333",
           "#FEB009"
@@ -588,12 +1085,28 @@
               {
                 "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84.webp",
                 "alt": "Pañuelo degradado rojo-naranja en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84-p1.webp",
+                "alt": "Pañuelo degradado rojo-naranja en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84-p2.webp",
+                "alt": "Pañuelo degradado rojo-naranja en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84-p3.webp",
+                "alt": "Pañuelo degradado rojo-naranja en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84-p4.webp",
+                "alt": "Pañuelo degradado rojo-naranja en muselina y satén de seda - vista puesta 4"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -613,14 +1126,62 @@
             "label": "Muselina y satén de seda",
             "images": [
               {
-                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84.webp",
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-et-T-84x84.webp",
                 "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84-p1.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84-p2.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84-p3.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84-p4.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 4"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-et-T-84x84.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p1.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p2.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p3.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p4.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie - vista puesta 4"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
@@ -633,7 +1194,7 @@
       "100 % seda, realizada a partir de acuarelas",
       "Edición limitada de 8 ejemplares"
     ],
-    "metaDescription": "Pañuelo con múltiples colores y materiales."
+    "metaDescription": "Pañuelo de seda Fleurs de Porcelaine de Marjolène Lasne, flores de porcelana y vegetación sobre fondo amarillo dorado y rosa vibrante."
   },
   {
     "slug": "poisson",
@@ -673,7 +1234,7 @@
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -716,7 +1277,7 @@
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -724,7 +1285,7 @@
       },
       "orange-degrade-sanguine": {
         "id": "orange-degrade-sanguine",
-        "label": "Degradado naranja-sanguina",
+        "label": "Naranja degradado sanguina",
         "hexes": [
           "#FAA01E",
           "#EE3143"
@@ -740,18 +1301,30 @@
                 "alt": "Pañuelo degradado naranja-sanguina en muselina y satén de seda"
               },
               {
-                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-pose.webp",
-                "alt": "Pañuelo degradado naranja-sanguina en muselina y satén de seda - vista posada"
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p1.webp",
+                "alt": "Pañuelo degradado naranja-sanguina en muselina y satén de seda - vista puesta 1"
               },
               {
-                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-porte1.webp",
-                "alt": "Pañuelo degradado naranja-sanguina en muselina y satén de seda - vista puesta"
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p2.webp",
+                "alt": "Pañuelo degradado naranja-sanguina en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p3.webp",
+                "alt": "Pañuelo degradado naranja-sanguina en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p4.webp",
+                "alt": "Pañuelo degradado naranja-sanguina en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p5.webp",
+                "alt": "Pañuelo degradado naranja-sanguina en muselina y satén de seda - vista puesta 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -759,7 +1332,7 @@
       },
       "cerise": {
         "id": "cerise",
-        "label": "Cereza",
+        "label": "Cerise",
         "hexes": [
           "#EF0A4D"
         ],
@@ -774,14 +1347,57 @@
                 "alt": "Pañuelo cereza en muselina y satén de seda"
               },
               {
-                "src": "/img/foulards/poisson/cerise-BMS-84x84-porte1.webp",
+                "src": "/img/foulards/poisson/cerise-BMS-84x84-p1.webp",
                 "alt": "Pañuelo cereza en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/poisson/cerise-BMS-84x84-p2.webp",
+                "alt": "Pañuelo cereza en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/poisson/cerise-BMS-84x84-p3.webp",
+                "alt": "Pañuelo cereza en muselina y satén de seda - vista puesta 3"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "jaune-orange-degrade": {
+        "id": "jaune-orange-degrade",
+        "label": "Amarillo degradado naranja",
+        "hexes": [
+          "#FFA63B",
+          "#F85B03"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/poisson/jaune-orange-degrade-BMS-84x84.webp",
+                "alt": "Foulard jaune orange dégradé en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/poisson/jaune-orange-degrade-BMS-84x84-pose.webp",
+                "alt": "Foulard jaune orange dégradé en mousseline et satin de soie - vista posada"
+              },
+              {
+                "src": "/img/foulards/poisson/jaune-orange-degrade-BMS-84x84-porte1.webp",
+                "alt": "Foulard jaune orange dégradé en mousseline et satin de soie - vista puesta 1"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
@@ -821,7 +1437,7 @@
       "100 % seda, realizada a partir de acuarelas",
       "Edición limitada de 8 ejemplares"
     ],
-    "metaDescription": "Pañuelo con múltiples colores y materiales."
+    "metaDescription": "Pañuelo de seda Poisson de Marjolène Lasne, peces y corales en tonos azul turquesa."
   },
   {
     "slug": "herbes-folles",
@@ -830,7 +1446,7 @@
     "colors": {
       "brique": {
         "id": "brique",
-        "label": "Ladrillo",
+        "label": "Brique",
         "hexes": [
           "#B70F1C"
         ],
@@ -843,12 +1459,20 @@
               {
                 "src": "/img/foulards/herbes-folles/brique-BMS-84x84.webp",
                 "alt": "Pañuelo rojo en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/brique-BMS-84x84-p1.webp",
+                "alt": "Pañuelo rojo en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/brique-BMS-84x84-p2.webp",
+                "alt": "Pañuelo rojo en muselina y satén de seda - vista puesta 2"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -856,7 +1480,7 @@
       },
       "orange-degrade-sanguine": {
         "id": "orange-degrade-sanguine",
-        "label": "Degradado naranja-sanguina",
+        "label": "Naranja degradado sanguina",
         "hexes": [
           "#F99323",
           "#EE3143"
@@ -872,22 +1496,34 @@
                 "alt": "Pañuelo degradado naranja-sanguina en satén de seda"
               },
               {
-                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte1.webp",
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p1.webp",
                 "alt": "Pañuelo degradado naranja-sanguina en satén de seda - vista puesta 1"
               },
               {
-                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte2.webp",
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p2.webp",
                 "alt": "Pañuelo degradado naranja-sanguina en satén de seda - vista puesta 2"
               },
               {
-                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte3.webp",
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p3.webp",
                 "alt": "Pañuelo degradado naranja-sanguina en satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p4.webp",
+                "alt": "Pañuelo degradado naranja-sanguina en satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p5.webp",
+                "alt": "Pañuelo degradado naranja-sanguina en satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p6.webp",
+                "alt": "Pañuelo degradado naranja-sanguina en satén de seda - vista puesta 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -895,9 +1531,9 @@
       },
       "amethyste": {
         "id": "amethyste",
-        "label": "Amatista",
+        "label": "Amethyste",
         "hexes": [
-          "#8E144D"
+          "#3A0C57"
         ],
         "type": "solid",
         "materials": {
@@ -908,12 +1544,36 @@
               {
                 "src": "/img/foulards/herbes-folles/amethyste-T-84x84.webp",
                 "alt": "Pañuelo amatista en satén de seda"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p1.webp",
+                "alt": "Pañuelo amatista en satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p2.webp",
+                "alt": "Pañuelo amatista en satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p3.webp",
+                "alt": "Pañuelo amatista en satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p4.webp",
+                "alt": "Pañuelo amatista en satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p5.webp",
+                "alt": "Pañuelo amatista en satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p6.webp",
+                "alt": "Pañuelo amatista en satén de seda - vista puesta 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -921,7 +1581,7 @@
       },
       "lavande-degrade-clair": {
         "id": "lavande-degrade-clair",
-        "label": "Degradado lavanda claro",
+        "label": "Lavanda degradado claro",
         "hexes": [
           "#33398D",
           "#99C4E6"
@@ -935,12 +1595,36 @@
               {
                 "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84.webp",
                 "alt": "Pañuelo degradado lavanda claro en satén de seda"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p1.webp",
+                "alt": "Pañuelo degradado lavanda claro en satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p2.webp",
+                "alt": "Pañuelo degradado lavanda claro en satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p3.webp",
+                "alt": "Pañuelo degradado lavanda claro en satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p4.webp",
+                "alt": "Pañuelo degradado lavanda claro en satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p5.webp",
+                "alt": "Pañuelo degradado lavanda claro en satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p6.webp",
+                "alt": "Pañuelo degradado lavanda claro en satén de seda - vista puesta 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -953,7 +1637,7 @@
       "100 % seda, realizada a partir de acuarelas",
       "Edición limitada de 8 ejemplares"
     ],
-    "metaDescription": "Pañuelo con múltiples colores y materiales."
+    "metaDescription": "Pañuelo de seda Herbes Folles de Marjolène Lasne, hierbas silvestres y flores en una composición dinámica."
   },
   {
     "slug": "libellule",
@@ -962,7 +1646,7 @@
     "colors": {
       "rose": {
         "id": "rose",
-        "label": "Rosa",
+        "label": "Rose",
         "hexes": [
           "#BD1479"
         ],
@@ -981,14 +1665,76 @@
                 "alt": "Pañuelo rosa en muselina y satén de seda - vista posada"
               },
               {
-                "src": "/img/foulards/libellule/rose-BMS-84x84-porte1.webp",
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p1.webp",
                 "alt": "Pañuelo rosa en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p2.webp",
+                "alt": "Pañuelo rosa en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p3.webp",
+                "alt": "Pañuelo rosa en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p4.webp",
+                "alt": "Pañuelo rosa en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p5.webp",
+                "alt": "Pañuelo rosa en muselina y satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p6.webp",
+                "alt": "Pañuelo rosa en muselina y satén de seda - vista puesta 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu": {
+        "id": "bleu",
+        "label": "Bleu",
+        "hexes": [
+          "#0175B8"
+        ],
+        "type": "solid",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p1.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 1 - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p2.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 1 - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p3.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 1 - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p4.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 1 - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p5.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 1 - vista puesta 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
@@ -996,7 +1742,7 @@
       },
       "vert": {
         "id": "vert",
-        "label": "Verde",
+        "label": "Vert",
         "hexes": [
           "#6BAE23"
         ],
@@ -1011,18 +1757,26 @@
                 "alt": "Pañuelo verde en muselina y satén de seda"
               },
               {
-                "src": "/img/foulards/libellule/vert-BMS-84x84-pose.webp",
-                "alt": "Pañuelo verde en muselina y satén de seda - vista posada"
+                "src": "/img/foulards/libellule/vert-BMS-84x84-p1.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 1"
               },
               {
-                "src": "/img/foulards/libellule/vert-BMS-84x84-porte1.webp",
-                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 1"
+                "src": "/img/foulards/libellule/vert-BMS-84x84-p2.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/libellule/vert-BMS-84x84-p3.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/libellule/vert-BMS-84x84-p4.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 4"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -1035,7 +1789,7 @@
       "100 % seda, realizada a partir de acuarelas",
       "Edición limitada de 8 ejemplares"
     ],
-    "metaDescription": "Pañuelo con múltiples colores y materiales."
+    "metaDescription": "Pañuelo de seda Libellule de Marjolène Lasne, libélulas y flores en tonos naranja y rosa."
   },
   {
     "slug": "paon",
@@ -1044,7 +1798,7 @@
     "colors": {
       "vert": {
         "id": "vert",
-        "label": "Verde",
+        "label": "Vert",
         "hexes": [
           "#65B846"
         ],
@@ -1059,18 +1813,30 @@
                 "alt": "Pañuelo verde en muselina y satén de seda"
               },
               {
-                "src": "/img/foulards/paon/vert-BMS-84x84-porte1.webp",
+                "src": "/img/foulards/paon/vert-BMS-84x84-p1.webp",
                 "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 1"
               },
               {
-                "src": "/img/foulards/paon/vert-BMS-84x84-porte2.webp",
+                "src": "/img/foulards/paon/vert-BMS-84x84-p2.webp",
                 "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84-p3.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84-p4.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84-p5.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -1078,12 +1844,11 @@
       },
       "orange-degrade-sanguine": {
         "id": "orange-degrade-sanguine",
-        "label": "Degradado naranja sanguina",
+        "label": "Naranja degradado sanguina",
         "hexes": [
           "#F99324",
           "#EE3143"
         ],
-        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -1092,25 +1857,45 @@
               {
                 "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84.webp",
                 "alt": "Pañuelo degradado naranja sanguina en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84-p1.webp",
+                "alt": "Pañuelo degradado naranja sanguina en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84-p2.webp",
+                "alt": "Pañuelo degradado naranja sanguina en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84-p3.webp",
+                "alt": "Pañuelo degradado naranja sanguina en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84-p4.webp",
+                "alt": "Pañuelo degradado naranja sanguina en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84-p5.webp",
+                "alt": "Pañuelo degradado naranja sanguina en muselina y satén de seda - vista puesta 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
-        "label": "Azul turquesa degradado",
+        "label": "Degradado azul turquesa",
         "hexes": [
           "#0CD2FD",
           "#1671B9"
         ],
-        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -1121,53 +1906,39 @@
                 "alt": "Pañuelo azul turquesa degradado en muselina y satén de seda"
               },
               {
-                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-porte1.webp",
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-p1.webp",
                 "alt": "Pañuelo azul turquesa degradado en muselina y satén de seda - vista puesta 1"
               },
               {
-                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-porte2.webp",
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-p2.webp",
                 "alt": "Pañuelo azul turquesa degradado en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-p3.webp",
+                "alt": "Pañuelo azul turquesa degradado en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-p4.webp",
+                "alt": "Pañuelo azul turquesa degradado en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-p5.webp",
+                "alt": "Pañuelo azul turquesa degradado en muselina y satén de seda - vista puesta 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
-        }
-      },
-      "rose-degrade-violet": {
-        "id": "rose-degrade-violet",
-        "label": "Degradado rosa-violeta",
-        "hexes": [
-          "#E109CE",
-          "#A831F5"
-        ],
-        "type": "gradient",
-        "materials": {
-          "mousseline-et-satin-de-soie": {
-            "id": "mousseline-et-satin-de-soie",
-            "label": "Muselina y satén de seda",
-            "images": [
-              {
-                "src": "/img/foulards/paon/rose-degrade-violet-BMS-84x84.webp",
-                "alt": "Pañuelo degradado rosa-violeta en muselina y satén de seda"
-              }
-            ],
-            "sizes": [
-              {
-                "id": "84x84",
-                "label": "84×84 cm"
-              }
-            ]
-          }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-prune": {
         "id": "rose-degrade-prune",
-        "label": "Degradado rosa-ciruela",
+        "label": "Degradado rosa a ciruela",
         "hexes": [
           "#E00ACE",
           "#A831F5"
@@ -1181,12 +1952,32 @@
               {
                 "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84.webp",
                 "alt": "Pañuelo degradado rosa-ciruela en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84-p1.webp",
+                "alt": "Pañuelo degradado rosa-ciruela en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84-p2.webp",
+                "alt": "Pañuelo degradado rosa-ciruela en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84-p3.webp",
+                "alt": "Pañuelo degradado rosa-ciruela en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84-p4.webp",
+                "alt": "Pañuelo degradado rosa-ciruela en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84-p5.webp",
+                "alt": "Pañuelo degradado rosa-ciruela en muselina y satén de seda - vista puesta 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -1199,7 +1990,7 @@
       "100 % seda, realizada a partir de acuarelas",
       "Edición limitada de 8 ejemplares"
     ],
-    "metaDescription": "Pañuelo con múltiples colores y materiales."
+    "metaDescription": "Pañuelo de seda Paon de Marjolène Lasne, pavo real majestuoso y flores contra un cielo al atardecer."
   },
   {
     "slug": "spirales",
@@ -1208,26 +1999,47 @@
     "colors": {
       "lie-de-vin": {
         "id": "lie-de-vin",
-        "label": "Borra de vino",
-        "hex": "#000000",
+        "label": "Lie de vin",
+        "hex": "#C55797",
         "materials": {
           "satin-de-soie": {
             "id": "satin-de-soie",
             "label": "Satén de seda",
             "images": [
               {
-                "src": "/img/foulards/multi/lie-de-vin/satin-de-soie-1.avif",
-                "alt": "Pañuelo borra de vino en satén de seda"
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p1.webp",
+                "alt": "Pañuelo borra de vino en satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p2.webp",
+                "alt": "Pañuelo borra de vino en satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p3.webp",
+                "alt": "Pañuelo borra de vino en satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p4.webp",
+                "alt": "Pañuelo borra de vino en satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p5.webp",
+                "alt": "Pañuelo borra de vino en satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p6.webp",
+                "alt": "Pañuelo borra de vino en satén de seda - vista puesta 6"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
-        }
+        },
+        "type": "solid"
       }
     },
     "mentions": [
@@ -1236,7 +2048,7 @@
       "100 % seda, realizada a partir de acuarelas",
       "Edición limitada de 8 ejemplares"
     ],
-    "metaDescription": "Pañuelo con múltiples colores y materiales."
+    "metaDescription": "Pañuelo de seda Spirales de Marjolène Lasne, curvas y volutas en azul, naranja y rosa."
   },
   {
     "slug": "mamma-del-mondo",
@@ -1245,7 +2057,7 @@
     "colors": {
       "rose-degrade-violet": {
         "id": "rose-degrade-violet",
-        "label": "Degradado rosa-violeta",
+        "label": "Rosa degradado violeta",
         "hexes": [
           "#E90195",
           "#9E0CAB"
@@ -1259,12 +2071,79 @@
               {
                 "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64.webp",
                 "alt": "Pañuelo degradado rosa-violeta en satén de seda"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64-p1.webp",
+                "alt": "Pañuelo degradado rosa-violeta en satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64-p2.webp",
+                "alt": "Pañuelo degradado rosa-violeta en satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64-p3.webp",
+                "alt": "Pañuelo degradado rosa-violeta en satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64-p4.webp",
+                "alt": "Pañuelo degradado rosa-violeta en satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64-p5.webp",
+                "alt": "Pañuelo degradado rosa-violeta en satén de seda - vista puesta 5"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "jaune-degrade-orange": {
+        "id": "jaune-degrade-orange",
+        "label": "Amarillo degradado naranja",
+        "hexes": [
+          "#F9E900",
+          "#F99324"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p1.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p2.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p3.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p4.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p5.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - vista puesta 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "42x42",
+                "label": "42x42 cm"
               }
             ]
           }
@@ -1277,7 +2156,7 @@
       "100 % seda, realizada a partir de acuarelas",
       "Edición limitada de 8 ejemplares"
     ],
-    "metaDescription": "Pañuelo con múltiples colores y materiales."
+    "metaDescription": "Pañuelo de seda Mamma del Mondo de Marjolène Lasne, mariquitas y tréboles celebran a las madres del mundo."
   },
   {
     "slug": "courbes",
@@ -1286,7 +2165,7 @@
     "colors": {
       "rose-degrade": {
         "id": "rose-degrade",
-        "label": "Degradado rosa",
+        "label": "Rosa degradado",
         "hexes": [
           "#F47AB5",
           "#E71F72"
@@ -1300,12 +2179,28 @@
               {
                 "src": "/img/foulards/courbes/rose-degrade-BMS-40x174.webp",
                 "alt": "Pañuelo degradado rosa en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/courbes/rose-degrade-BMS-40x174-p1.webp",
+                "alt": "Pañuelo degradado rosa en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/courbes/rose-degrade-BMS-40x174-p2.webp",
+                "alt": "Pañuelo degradado rosa en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/courbes/rose-degrade-BMS-40x174-p3.webp",
+                "alt": "Pañuelo degradado rosa en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/courbes/rose-degrade-BMS-40x174-p4.webp",
+                "alt": "Pañuelo degradado rosa en muselina y satén de seda - vista puesta 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1327,12 +2222,32 @@
               {
                 "src": "/img/foulards/courbes/vert-degrade-BMS-40x174.webp",
                 "alt": "Pañuelo degradado verde en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x174-p1.webp",
+                "alt": "Pañuelo degradado verde en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x174-p2.webp",
+                "alt": "Pañuelo degradado verde en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x174-p3.webp",
+                "alt": "Pañuelo degradado verde en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x174-p4.webp",
+                "alt": "Pañuelo degradado verde en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x174-p5.webp",
+                "alt": "Pañuelo degradado verde en muselina y satén de seda - vista puesta 5"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1340,7 +2255,7 @@
       },
       "violet-degrade-rose": {
         "id": "violet-degrade-rose",
-        "label": "Degradado violeta-rosa",
+        "label": "Violeta degradado rosa",
         "hexes": [
           "#CF0F87",
           "#9F42AD"
@@ -1354,12 +2269,44 @@
               {
                 "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174.webp",
                 "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p1.webp",
+                "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p2.webp",
+                "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p3.webp",
+                "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p4.webp",
+                "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p5.webp",
+                "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p6.webp",
+                "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda - vista puesta 6"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p7.webp",
+                "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda - vista puesta 7"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p8.webp",
+                "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda - vista puesta 8"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1367,26 +2314,50 @@
       },
       "bleu-outremer-degrade-lavande": {
         "id": "bleu-outremer-degrade-lavande",
-        "label": "Degradado ultramarino-lavanda",
+        "label": "Ultramar degradado lavanda",
         "hexes": [
           "#4659E0",
           "#8AA6F5"
         ],
         "type": "gradient",
         "materials": {
-          "satin-de-soie": {
-            "id": "satin-de-soie",
-            "label": "Satén de seda",
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Muselina y satén de seda",
             "images": [
               {
-                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-T-40x174.webp",
-                "alt": "Pañuelo degradado ultramarino-lavanda en satén de seda"
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p1.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p2.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p3.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p4.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p5.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p6.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - vista puesta 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1399,7 +2370,7 @@
       "100 % seda, realizada a partir de acuarelas",
       "Edición limitada de 8 ejemplares"
     ],
-    "metaDescription": "Pañuelo con múltiples colores y materiales."
+    "metaDescription": "Pañuelo de seda Courbes de Marjolène Lasne, flores cálidas y líneas sinuosas sobre fondo rosa anaranjado."
   },
   {
     "slug": "printemps-en-couleurs",
@@ -1408,7 +2379,7 @@
     "colors": {
       "vert-degrade-turquoise": {
         "id": "vert-degrade-turquoise",
-        "label": "Degradado verde-turquesa",
+        "label": "Verde degradado turquesa",
         "hexes": [
           "#01BED7",
           "#029485"
@@ -1421,20 +2392,45 @@
               {
                 "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174.webp",
                 "alt": "Pañuelo verde en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p1.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p2.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p3.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p4.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p5.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p6.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Degradado rosa-naranja",
+        "label": "Degradado rosa a naranja",
         "hexes": [
           "#FFCA08",
           "#EF238F"
@@ -1447,20 +2443,37 @@
               {
                 "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x174.webp",
                 "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x174-p1.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x174-p2.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x174-p3.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x174-p4.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "outremer-degrade-turquoise": {
         "id": "outremer-degrade-turquoise",
-        "label": "Degradado ultramarino-turquesa",
+        "label": "Ultramar degradado turquesa",
         "hexes": [
           "#2DC3E2",
           "#1556F8"
@@ -1473,12 +2486,40 @@
               {
                 "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x174.webp",
                 "alt": "Pañuelo ultramarino en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p1.webp",
+                "alt": "Pañuelo ultramarino en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p2.webp",
+                "alt": "Pañuelo ultramarino en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p3.webp",
+                "alt": "Pañuelo ultramarino en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p4.webp",
+                "alt": "Pañuelo ultramarino en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p5.webp",
+                "alt": "Pañuelo ultramarino en muselina y satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p6.webp",
+                "alt": "Pañuelo ultramarino en muselina y satén de seda - vista puesta 6"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p7.webp",
+                "alt": "Pañuelo ultramarino en muselina y satén de seda - vista puesta 7"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           },
@@ -1489,16 +2530,41 @@
               {
                 "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x174.webp",
                 "alt": "Pañuelo ultramarino en satén de seda"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p1.webp",
+                "alt": "Pañuelo ultramarino en satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p2.webp",
+                "alt": "Pañuelo ultramarino en satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p3.webp",
+                "alt": "Pañuelo ultramarino en satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p4.webp",
+                "alt": "Pañuelo ultramarino en satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p5.webp",
+                "alt": "Pañuelo ultramarino en satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p6.webp",
+                "alt": "Pañuelo ultramarino en satén de seda - vista puesta 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
@@ -1517,11 +2583,12 @@
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "solid"
       }
     },
     "mentions": [
@@ -1530,7 +2597,7 @@
       "100 % seda, realizada a partir de acuarelas",
       "Edición limitada de 8 ejemplares"
     ],
-    "metaDescription": "Pañuelo con múltiples colores y materiales."
+    "metaDescription": "Pañuelo de seda Printemps en Couleurs de Marjolène Lasne, amapolas y hierbas delicadas."
   },
   {
     "slug": "paysage-de-roussillon",
@@ -1552,20 +2619,37 @@
               {
                 "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x174.webp",
                 "alt": "Pañuelo verde en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x174-p1.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x174-p2.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x174-p3.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x174-p4.webp",
+                "alt": "Pañuelo verde en muselina y satén de seda - vista puesta 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Degradado rosa-naranja",
+        "label": "Degradado rosa a naranja",
         "hexes": [
           "#F03B44",
           "#FC9701"
@@ -1584,7 +2668,7 @@
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           },
@@ -1595,12 +2679,20 @@
               {
                 "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-et-T-40x174.webp",
                 "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-40x174-p1.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-40x174-p2.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 2"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1608,7 +2700,7 @@
       },
       "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
-        "label": "Degradado rojo-naranja",
+        "label": "Degradado rojo a naranja",
         "hexes": [
           "#EF3A43",
           "#FC9701"
@@ -1622,12 +2714,36 @@
               {
                 "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-BMS-et-T-40x174.webp",
                 "alt": "Pañuelo degradado rojo-naranja en satén de seda"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p1.webp",
+                "alt": "Pañuelo degradado rojo-naranja en satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p2.webp",
+                "alt": "Pañuelo degradado rojo-naranja en satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p3.webp",
+                "alt": "Pañuelo degradado rojo-naranja en satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p4.webp",
+                "alt": "Pañuelo degradado rojo-naranja en satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p5.webp",
+                "alt": "Pañuelo degradado rojo-naranja en satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p6.webp",
+                "alt": "Pañuelo degradado rojo-naranja en satén de seda - vista puesta 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           },
@@ -1643,15 +2759,15 @@
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
         }
       },
-      "outremer-degrade": {
-        "id": "outremer-degrade",
-        "label": "Degradado ultramarino",
+      "outremer-degrade-lavande": {
+        "id": "outremer-degrade-lavande",
+        "label": "Degradado ultramar a lavande",
         "hexes": [
           "#2FC2E2",
           "#1556F8"
@@ -1663,13 +2779,33 @@
             "images": [
               {
                 "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x174.webp",
-                "alt": "Pañuelo ultramarino en satén de seda"
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-lavande-T-40x174-p1.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-lavande-T-40x174-p2.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-lavande-T-40x174-p3.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-lavande-T-40x174-p4.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-lavande-T-40x174-p5.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie - vista puesta 5"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           },
@@ -1679,17 +2815,26 @@
             "images": [
               {
                 "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x174.webp",
-                "alt": "Pañuelo ultramarino en muselina y satén de seda"
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-40x174-p1.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en mousseline et satin de soie - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-40x174-p2.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en mousseline et satin de soie - vista puesta 2"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       }
     },
     "mentions": [
@@ -1698,7 +2843,7 @@
       "100 % seda, realizada a partir de acuarelas",
       "Edición limitada de 8 ejemplares"
     ],
-    "metaDescription": "Pañuelo con múltiples colores y materiales."
+    "metaDescription": "Pañuelo de seda Paysage de Roussillon de Marjolène Lasne, pueblo ocre y cielo luminoso."
   },
   {
     "slug": "fleurs-et-papillons",
@@ -1707,22 +2852,34 @@
     "colors": {
       "bleu-outremer-degrade-lavande": {
         "id": "bleu-outremer-degrade-lavande",
-        "label": "Degradado ultramarino-lavanda",
-        "hex": "#000000",
+        "label": "Ultramar degradado lavanda",
+        "hexes": [
+          "#6F7FC5",
+          "#A4B7DC"
+        ],
+        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Muselina y satén de seda",
             "images": [
               {
-                "src": "/img/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Pañuelo ultramarino en muselina y satén de seda"
+                "src": "/img/foulards/fleurs-et-papillons/bleu-outremer-degrade-lavande-BMS-40x174-p1.webp",
+                "alt": "Pañuelo ultramarino en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-outremer-degrade-lavande-BMS-40x174-p2.webp",
+                "alt": "Pañuelo ultramarino en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-outremer-degrade-lavande-BMS-40x174-p3.webp",
+                "alt": "Pañuelo ultramarino en muselina y satén de seda - vista puesta 3"
               }
             ],
             "sizes": [
               {
-                "id": " 40x174",
-                "label": "40×174 cm"
+                "id": "40x174",
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1730,7 +2887,7 @@
       },
       "violet-rose-degrade": {
         "id": "violet-rose-degrade",
-        "label": "Degradado violeta-rosa",
+        "label": "Degradado violeta rosa",
         "hexes": [
           "#B441AA",
           "#F737AC"
@@ -1743,20 +2900,49 @@
               {
                 "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174.webp",
                 "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p1.webp",
+                "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p2.webp",
+                "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p3.webp",
+                "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p4.webp",
+                "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p5.webp",
+                "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p6.webp",
+                "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda - vista puesta 6"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p7.webp",
+                "alt": "Pañuelo degradado violeta-rosa en muselina y satén de seda - vista puesta 7"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Degradado rosa-naranja",
+        "label": "Degradado rosa a naranja",
         "hexes": [
           "#FFBE0E",
           "#ED1892"
@@ -1770,12 +2956,40 @@
               {
                 "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174.webp",
                 "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p1.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p2.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p3.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p4.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p5.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p6.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 6"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p7.webp",
+                "alt": "Pañuelo degradado rosa-naranja en muselina y satén de seda - vista puesta 7"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1797,12 +3011,36 @@
               {
                 "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174.webp",
                 "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p1.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p2.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p3.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p4.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p5.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p6.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1815,7 +3053,7 @@
       "100 % seda, realizada a partir de acuarelas",
       "Edición limitada de 8 ejemplares"
     ],
-    "metaDescription": "Pañuelo con múltiples colores y materiales."
+    "metaDescription": "Pañuelo de seda Fleurs et Papillons de Marjolène Lasne, lavanda y mariposas en armonía vertical."
   },
   {
     "slug": "oiseaux-exotiques",
@@ -1824,7 +3062,7 @@
     "colors": {
       "vert-degrade-turquoise": {
         "id": "vert-degrade-turquoise",
-        "label": "Degradado verde-turquesa",
+        "label": "Verde degradado turquesa",
         "hexes": [
           "#039787",
           "#06D8D1"
@@ -1837,20 +3075,37 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x174.webp",
                 "alt": "Pañuelo degradado verde-turquesa en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x174-p1.webp",
+                "alt": "Pañuelo degradado verde-turquesa en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x174-p2.webp",
+                "alt": "Pañuelo degradado verde-turquesa en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x174-p3.webp",
+                "alt": "Pañuelo degradado verde-turquesa en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x174-p4.webp",
+                "alt": "Pañuelo degradado verde-turquesa en muselina y satén de seda - vista puesta 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "lavande-degrade": {
         "id": "lavande-degrade",
-        "label": "Degradado lavanda",
+        "label": "Degradado lavande",
         "hexes": [
           "#8DA9FD",
           "#495CE2"
@@ -1864,12 +3119,28 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x174.webp",
                 "alt": "Pañuelo degradado lavanda en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x174-p1.webp",
+                "alt": "Pañuelo degradado lavanda en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x174-p2.webp",
+                "alt": "Pañuelo degradado lavanda en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x174-p3.webp",
+                "alt": "Pañuelo degradado lavanda en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x174-p4.webp",
+                "alt": "Pañuelo degradado lavanda en muselina y satén de seda - vista puesta 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1877,7 +3148,7 @@
       },
       "jaune-degrade-rose": {
         "id": "jaune-degrade-rose",
-        "label": "Degradado amarillo-rosa",
+        "label": "Degradado amarillo a rosa",
         "hexes": [
           "#FECC06",
           "#EE228D"
@@ -1891,12 +3162,36 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174.webp",
                 "alt": "Pañuelo degradado amarillo-rosa en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p1.webp",
+                "alt": "Pañuelo degradado amarillo-rosa en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p2.webp",
+                "alt": "Pañuelo degradado amarillo-rosa en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p3.webp",
+                "alt": "Pañuelo degradado amarillo-rosa en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p4.webp",
+                "alt": "Pañuelo degradado amarillo-rosa en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p5.webp",
+                "alt": "Pañuelo degradado amarillo-rosa en muselina y satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p6.webp",
+                "alt": "Pañuelo degradado amarillo-rosa en muselina y satén de seda - vista puesta 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1904,7 +3199,7 @@
       },
       "jaune-degrade-rouge": {
         "id": "jaune-degrade-rouge",
-        "label": "Degradado amarillo-rojo",
+        "label": "Degradado amarillo a rojo",
         "hexes": [
           "#F21B3D",
           "#FFB309"
@@ -1918,12 +3213,28 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x174.webp",
                 "alt": "Pañuelo degradado amarillo-rojo en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x174-p1.webp",
+                "alt": "Pañuelo degradado amarillo-rojo en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x174-p2.webp",
+                "alt": "Pañuelo degradado amarillo-rojo en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x174-p3.webp",
+                "alt": "Pañuelo degradado amarillo-rojo en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x174-p4.webp",
+                "alt": "Pañuelo degradado amarillo-rojo en muselina y satén de seda - vista puesta 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1945,12 +3256,32 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174.webp",
                 "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174-p1.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174-p2.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174-p3.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174-p4.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174-p5.webp",
+                "alt": "Pañuelo degradado azul turquesa en muselina y satén de seda - vista puesta 5"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1958,7 +3289,7 @@
       },
       "bleu-outremer-degrade-turquoise": {
         "id": "bleu-outremer-degrade-turquoise",
-        "label": "Degradado ultramarino-turquesa",
+        "label": "Degradado azul ultramar a turquesa",
         "hexes": [
           "#2FC2E2",
           "#1556F7"
@@ -1972,12 +3303,24 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x174.webp",
                 "alt": "Pañuelo degradado ultramarino-turquesa en satén de seda"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-T-40x174-p1.webp",
+                "alt": "Pañuelo degradado ultramarino-turquesa en satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-T-40x174-p2.webp",
+                "alt": "Pañuelo degradado ultramarino-turquesa en satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-T-40x174-p3.webp",
+                "alt": "Pañuelo degradado ultramarino-turquesa en satén de seda - vista puesta 3"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           },
@@ -1988,12 +3331,20 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x174.webp",
                 "alt": "Pañuelo degradado ultramarino-turquesa en muselina y satén de seda"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-40x174-p1.webp",
+                "alt": "Pañuelo degradado ultramarino-turquesa en muselina y satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-40x174-p2.webp",
+                "alt": "Pañuelo degradado ultramarino-turquesa en muselina y satén de seda - vista puesta 2"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -2006,6 +3357,215 @@
       "100 % seda, realizada a partir de acuarelas",
       "Edición limitada de 8 ejemplares"
     ],
-    "metaDescription": "Pañuelo con múltiples colores y materiales."
+    "metaDescription": "Pañuelo de seda Oiseaux Exotiques de Marjolène Lasne, aves tropicales en colores brillantes."
+  },
+  {
+    "slug": "clochettes",
+    "title": "Clochettes",
+    "description": "Dos campanas marcan el ritmo de este pañuelo en azul turquesa y rosa, entre delicadeza y luminosidad.",
+    "colors": {
+      "bleu-turquoise": {
+        "id": "bleu-turquoise",
+        "label": "Azul turquesa",
+        "hex": "#0BD7FC",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84.webp",
+                "alt": "Pañuelo Clochettes Azul turquesa en Satén de seda"
+              },
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84-p1.webp",
+                "alt": "Pañuelo Clochettes Azul turquesa en Satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84-p2.webp",
+                "alt": "Pañuelo Clochettes Azul turquesa en Satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84-p3.webp",
+                "alt": "Pañuelo Clochettes Azul turquesa en Satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84-p4.webp",
+                "alt": "Pañuelo Clochettes Azul turquesa en Satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84-p5.webp",
+                "alt": "Pañuelo Clochettes Azul turquesa en Satén de seda - vista puesta 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        },
+        "type": "solid"
+      },
+      "rose": {
+        "id": "rose",
+        "label": "Rose",
+        "hex": "#FF69B4",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84.webp",
+                "alt": "Pañuelo Clochettes Rosa en Satén de seda"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p1.webp",
+                "alt": "Pañuelo Clochettes Rosa en Satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p2.webp",
+                "alt": "Pañuelo Clochettes Rosa en Satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p3.webp",
+                "alt": "Pañuelo Clochettes Rosa en Satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p4.webp",
+                "alt": "Pañuelo Clochettes Rosa en Satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p5.webp",
+                "alt": "Pañuelo Clochettes Rosa en Satén de seda - vista puesta 5"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p6.webp",
+                "alt": "Pañuelo Clochettes Rosa en Satén de seda - vista puesta 6"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        },
+        "type": "solid"
+      }
+    },
+    "mentions": [
+      "Pièce unique fabriquée en France",
+      "Dessin original de l'artiste",
+      "100% soie, réalisé à partir d'aquarelles",
+      "Édition limitée de 8 exemplaires"
+    ],
+    "metaDescription": "Pañuelo de seda Clochettes de Marjolène Lasne, campanitas luminosas en azul turquesa y rosa."
+  },
+  {
+    "slug": "jazz",
+    "title": "Jazz",
+    "description": "Un motivo enérgico en naranja intenso compone el pañuelo Jazz, vibrante y moderno.",
+    "colors": {
+      "orange": {
+        "id": "orange",
+        "label": "Orange",
+        "hex": "#EB5712",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/jazz/orange-T-40x174-p1.webp",
+                "alt": "Pañuelo Jazz Naranja en Satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/jazz/orange-T-40x174-p2.webp",
+                "alt": "Pañuelo Jazz Naranja en Satén de seda - vista puesta 2"
+              },
+              {
+                "src": "/img/foulards/jazz/orange-T-40x174-p3.webp",
+                "alt": "Pañuelo Jazz Naranja en Satén de seda - vista puesta 3"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x174",
+                "label": "40x174 cm"
+              }
+            ]
+          }
+        },
+        "type": "solid"
+      }
+    },
+    "mentions": [
+      "Pièce unique fabriquée en France",
+      "Dessin original de l'artiste",
+      "100% soie, réalisé à partir d'aquarelles",
+      "Édition limitée de 8 exemplaires"
+    ],
+    "metaDescription": "Pañuelo de seda Jazz de Marjolène Lasne, un motivo naranja dinámico y cálido."
+  },
+  {
+    "slug": "roussillon",
+    "title": "Roussillon",
+    "description": "Ocres cálidos y un degradado rojo-naranja dibujan la evasión del pañuelo Roussillon.",
+    "colors": {
+      "orange": {
+        "id": "orange-degrade-rouge",
+        "label": "Degradado naranja a rojo",
+        "hexes": [
+          "#BC0214",
+          "#D86221"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satén de seda",
+            "images": [
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p1.webp",
+                "alt": "Pañuelo Roussillon Naranja en Satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p1.webp",
+                "alt": "Pañuelo Roussillon Naranja en Satén de seda - vista puesta 1"
+              },
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p3.webp",
+                "alt": "Pañuelo Roussillon Naranja en Satén de seda - vista puesta 3"
+              },
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p4.webp",
+                "alt": "Pañuelo Roussillon Naranja en Satén de seda - vista puesta 4"
+              },
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p5.webp",
+                "alt": "Pañuelo Roussillon Naranja en Satén de seda - vista puesta 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x174",
+                "label": "40x174 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Pièce unique fabriquée en France",
+      "Dessin original de l'artiste",
+      "100% soie, réalisé à partir d'aquarelles",
+      "Édition limitée de 8 exemplaires"
+    ],
+    "metaDescription": "Pañuelo de seda Roussillon de Marjolène Lasne, tonos cálidos inspirados en tierras ocres."
   }
 ]

@@ -6,7 +6,7 @@
     "colors": {
       "rose-degrade-orange-fond-blanc": {
         "id": "rose-degrade-orange-fond-blanc",
-        "label": "Sfumatura dal rosa all'arancione su bianco",
+        "label": "rosa sfumato arancione su bianco",
         "hexes": [
           "#E360B1",
           "#FFFFFF",
@@ -21,12 +21,24 @@
               {
                 "src": "/img/foulards/pivoines/rose-degrade-orange-fond-blanc-BMS-84x84.webp",
                 "alt": "Foulard Pivoines sfumatura dal rosa all'arancione su bianco in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-fond-blanc-BMS-84x84-p1.webp",
+                "alt": "Foulard Pivoines sfumatura dal rosa all'arancione su bianco in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-fond-blanc-BMS-84x84-p2.webp",
+                "alt": "Foulard Pivoines sfumatura dal rosa all'arancione su bianco in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-fond-blanc-BMS-84x84-p3.webp",
+                "alt": "Foulard Pivoines sfumatura dal rosa all'arancione su bianco in chiffon e satin di seta - vista indossata 3"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -34,7 +46,7 @@
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Sfumatura dal rosa all'arancione",
+        "label": "rosa sfumato arancione",
         "hexes": [
           "#FFC702",
           "#E31C7F"
@@ -45,18 +57,43 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-64x64.webp",
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84.webp",
                 "alt": "Foulard Pivoines sfumatura dal rosa all'arancione in seta"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p1.webp",
+                "alt": "Foulard Pivoines sfumatura dal rosa all'arancione in seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p2.webp",
+                "alt": "Foulard Pivoines sfumatura dal rosa all'arancione in seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p3.webp",
+                "alt": "Foulard Pivoines sfumatura dal rosa all'arancione in seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p4.webp",
+                "alt": "Foulard Pivoines sfumatura dal rosa all'arancione in seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p5.webp",
+                "alt": "Foulard Pivoines sfumatura dal rosa all'arancione in seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p6.webp",
+                "alt": "Foulard Pivoines sfumatura dal rosa all'arancione in seta - vista indossata 6"
               }
             ],
             "sizes": [
               {
-                "id": "64x64",
-                "label": "64×64 cm"
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       }
     },
     "mentions": [
@@ -65,7 +102,7 @@
       "100% seta, realizzato a partire da acquerelli",
       "Edizione limitata di 8 esemplari"
     ],
-    "metaDescription": "Foulard in seta Pivoines di Marjolène Lasne, motivi floreali ispirati alla Provenza."
+    "metaDescription": "Foulard in seta Pivoines di Marjolène Lasne, peonie stilizzate su uno sfondo blu sfumato e verde acido."
   },
   {
     "slug": "hibiscus",
@@ -74,7 +111,7 @@
     "colors": {
       "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
-        "label": "Sfumatura dal rosso all'arancione",
+        "label": "rosso sfumato arancione",
         "hexes": [
           "#FFB409",
           "#F01F11"
@@ -88,12 +125,32 @@
               {
                 "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64.webp",
                 "alt": "Foulard Hibiscus sfumatura dal rosso all'arancione in seta"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64-p1.webp",
+                "alt": "Foulard Hibiscus sfumatura dal rosso all'arancione in seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64-p2.webp",
+                "alt": "Foulard Hibiscus sfumatura dal rosso all'arancione in seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64-p3.webp",
+                "alt": "Foulard Hibiscus sfumatura dal rosso all'arancione in seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64-p4.webp",
+                "alt": "Foulard Hibiscus sfumatura dal rosso all'arancione in seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64-p5.webp",
+                "alt": "Foulard Hibiscus sfumatura dal rosso all'arancione in seta - vista indossata 5"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -101,7 +158,7 @@
       },
       "rose-degrade": {
         "id": "rose-degrade",
-        "label": "Sfumatura rosa",
+        "label": "Rosa sfumato",
         "hexes": [
           "#F88CBE",
           "#E11C6A"
@@ -120,7 +177,7 @@
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -128,7 +185,7 @@
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Sfumatura dal rosa all'arancione",
+        "label": "rosa sfumato arancione",
         "hexes": [
           "#FDB308",
           "#EE1A8B"
@@ -142,12 +199,36 @@
               {
                 "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84.webp",
                 "alt": "Foulard Hibiscus sfumatura dal rosa all'arancione in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p1.webp",
+                "alt": "Foulard Hibiscus sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p2.webp",
+                "alt": "Foulard Hibiscus sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p3.webp",
+                "alt": "Foulard Hibiscus sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p4.webp",
+                "alt": "Foulard Hibiscus sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p5.webp",
+                "alt": "Foulard Hibiscus sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p6.webp",
+                "alt": "Foulard Hibiscus sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -160,7 +241,7 @@
       "100% seta, realizzato a partire da acquerelli",
       "Edizione limitata di 8 esemplari"
     ],
-    "metaDescription": "Foulard in seta Hibiscus di Marjolène Lasne, colori della Costa Azzurra."
+    "metaDescription": "Foulard in seta Hibiscus di Marjolène Lasne, fiori e erbe attorno a un maestoso ibisco."
   },
   {
     "slug": "roses",
@@ -169,7 +250,7 @@
     "colors": {
       "rose-degrade-fond-blanc": {
         "id": "rose-degrade-fond-blanc",
-        "label": "Sfumatura rosa su bianco",
+        "label": "rosa sfumato su bianco",
         "hexes": [
           "#E72A8A",
           "#E72A8A"
@@ -183,12 +264,20 @@
               {
                 "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-et-T-64x64.webp",
                 "alt": "Foulard Roses sfumatura rosa in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-64x64-p1.webp",
+                "alt": "Foulard Roses sfumatura rosa in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-64x64-p2.webp",
+                "alt": "Foulard Roses sfumatura rosa in chiffon e satin di seta - vista indossata 2"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           },
@@ -204,7 +293,7 @@
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -212,26 +301,34 @@
       },
       "vert-degrade-fond-blanc": {
         "id": "vert-degrade-fond-blanc",
-        "label": "Sfumatura verde su bianco",
+        "label": "verde sfumato su bianco",
         "hexes": [
           "#09E6C7",
           "#019686"
         ],
         "type": "gradient",
         "materials": {
-          "mousseline-et-satin-de-soie": {
-            "id": "mousseline-et-satin-de-soie",
-            "label": "Chiffon e satin di seta",
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
             "images": [
               {
-                "src": "/img/foulards/roses/vert-degrade-fond-blanc-BMS-84x84.webp",
-                "alt": "Foulard Roses sfumatura verde su bianco in chiffon"
+                "src": "/img/foulards/roses/vert-degrade-fond-blanc-T-84x84.webp",
+                "alt": "Foulard Roses Vert dégradé fond blanc en satin de soie"
+              },
+              {
+                "src": "/img/foulards/roses/vert-degrade-fond-blanc-T-84x84-p1.webp",
+                "alt": "Foulard Roses Vert dégradé fond blanc en satin de soie - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/roses/vert-degrade-fond-blanc-T-84x84-p2.webp",
+                "alt": "Foulard Roses Vert dégradé fond blanc en satin de soie - vista indossata 2"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -244,7 +341,7 @@
       "100% seta, realizzato a partire da acquerelli",
       "Edizione limitata di 8 esemplari"
     ],
-    "metaDescription": "Foulard in seta Roses di Marjolène Lasne, colori della Costa Azzurra."
+    "metaDescription": "Foulard in seta Roses di Marjolène Lasne, rose prugna e verde acido in un’armonia floreale."
   },
   {
     "slug": "eclats-or",
@@ -253,7 +350,7 @@
     "colors": {
       "jaune-or": {
         "id": "jaune-or",
-        "label": "Giallo dorato",
+        "label": "Giallo oro",
         "hexes": [
           "#FFCA00",
           "#FE9200"
@@ -267,12 +364,36 @@
               {
                 "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64.webp",
                 "alt": "Foulard giallo dorato in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p1.webp",
+                "alt": "Foulard giallo dorato in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p2.webp",
+                "alt": "Foulard giallo dorato in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p3.webp",
+                "alt": "Foulard giallo dorato in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p4.webp",
+                "alt": "Foulard giallo dorato in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p5.webp",
+                "alt": "Foulard giallo dorato in chiffon e satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p6.webp",
+                "alt": "Foulard giallo dorato in chiffon e satin di seta - vista indossata 6"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -280,7 +401,7 @@
       },
       "rose-degrade": {
         "id": "rose-degrade",
-        "label": "Sfumatura rosa",
+        "label": "Rosa sfumato",
         "hexes": [
           "#F78DBE",
           "#E01B68"
@@ -294,12 +415,24 @@
               {
                 "src": "/img/foulards/eclats-or/rose-degrade-BMS-64x64.webp",
                 "alt": "Foulard sfumatura rosa in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-degrade-BMS-64x64-p1.webp",
+                "alt": "Foulard sfumatura rosa in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-degrade-BMS-64x64-p2.webp",
+                "alt": "Foulard sfumatura rosa in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-degrade-BMS-64x64-p3.webp",
+                "alt": "Foulard sfumatura rosa in chiffon e satin di seta - vista indossata 3"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -307,7 +440,7 @@
       },
       "rose-orange-degrade": {
         "id": "rose-orange-degrade",
-        "label": "Sfumatura rosa-arancio",
+        "label": "rosa arancione sfumato",
         "hexes": [
           "#FFA806",
           "#F73AA7"
@@ -321,12 +454,28 @@
               {
                 "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84.webp",
                 "alt": "Foulard sfumatura rosa-arancio in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84-p1.webp",
+                "alt": "Foulard sfumatura rosa-arancio in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84-p2.webp",
+                "alt": "Foulard sfumatura rosa-arancio in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84-p3.webp",
+                "alt": "Foulard sfumatura rosa-arancio in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84-p4.webp",
+                "alt": "Foulard sfumatura rosa-arancio in chiffon e satin di seta - vista indossata 4"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -334,7 +483,7 @@
       },
       "bleu-vert-degrade": {
         "id": "bleu-vert-degrade",
-        "label": "Sfumatura blu-verde",
+        "label": "blu verde sfumato",
         "hexes": [
           "#41F5E6",
           "#279F94"
@@ -348,12 +497,100 @@
               {
                 "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84.webp",
                 "alt": "Foulard sfumatura blu-verde in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p1.webp",
+                "alt": "Foulard sfumatura blu-verde in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p2.webp",
+                "alt": "Foulard sfumatura blu-verde in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p3.webp",
+                "alt": "Foulard sfumatura blu-verde in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p4.webp",
+                "alt": "Foulard sfumatura blu-verde in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p5.webp",
+                "alt": "Foulard sfumatura blu-verde in chiffon e satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p6.webp",
+                "alt": "Foulard sfumatura blu-verde in chiffon e satin di seta - vista indossata 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-T-84x84-p1.webp",
+                "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie - vue portée 1 - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-T-84x84-p2.webp",
+                "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie - vue portée 1 - vista indossata 2"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise": {
+        "id": "bleu-turquoise",
+        "label": "Blu turchese",
+        "hex": "#0BD7FC",
+        "type": "solid",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p1.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p2.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p3.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p4.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p5.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - vista indossata 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
@@ -366,7 +603,7 @@
       "100% seta, realizzato a partire da acquerelli",
       "Edizione limitata di 8 esemplari"
     ],
-    "metaDescription": "Foulard in edizione limitata di Marjolène Lasne."
+    "metaDescription": "Foulard in seta Eclats d’Or di Marjolène Lasne, colori vivaci, covoni stilizzati ed eleganza floreale."
   },
   {
     "slug": "coquelicots",
@@ -375,7 +612,7 @@
     "colors": {
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
-        "label": "Sfumatura blu turchese",
+        "label": "blu turchese sfumato",
         "hexes": [
           "#18BEEC",
           "#13809D"
@@ -389,16 +626,32 @@
               {
                 "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84.webp",
                 "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84-p1.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84-p2.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84-p3.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84-p4.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 4"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               },
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -406,7 +659,7 @@
       },
       "rose-degrade": {
         "id": "rose-degrade",
-        "label": "Sfumatura rosa",
+        "label": "Rosa sfumato",
         "hexes": [
           "#E11C6A",
           "#F88CBE"
@@ -419,20 +672,45 @@
               {
                 "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64.webp",
                 "alt": "Foulard sfumatura rosa in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p1.webp",
+                "alt": "Foulard sfumatura rosa in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p2.webp",
+                "alt": "Foulard sfumatura rosa in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p3.webp",
+                "alt": "Foulard sfumatura rosa in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p4.webp",
+                "alt": "Foulard sfumatura rosa in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p5.webp",
+                "alt": "Foulard sfumatura rosa in chiffon e satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p6.webp",
+                "alt": "Foulard sfumatura rosa in chiffon e satin di seta - vista indossata 6"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
-        "label": "Sfumatura dal rosso all'arancione",
+        "label": "rosso sfumato arancione",
         "hexes": [
           "#EF1E10",
           "#FFB409"
@@ -443,22 +721,67 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64.webp",
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-et-T-64x64.webp",
                 "alt": "Foulard sfumatura dal rosso all'arancione in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64-p1.webp",
+                "alt": "Foulard sfumatura dal rosso all'arancione in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64-p2.webp",
+                "alt": "Foulard sfumatura dal rosso all'arancione in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64-p3.webp",
+                "alt": "Foulard sfumatura dal rosso all'arancione in chiffon e satin di seta - vista indossata 3"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-et-T-64x64.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-T-84x84-p1.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-T-84x84-p2.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-T-84x84-p3.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-T-84x84-p4.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - vista indossata 4"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Sfumatura dal rosa all'arancione",
+        "label": "rosa sfumato arancione",
         "hexes": [
           "#ED1890",
           "#FFA808"
@@ -471,20 +794,41 @@
               {
                 "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84.webp",
                 "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84-p1.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84-p2.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84-p3.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84-p4.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84-p5.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "vert-degrade": {
         "id": "vert-degrade",
-        "label": "Sfumatura verde",
+        "label": "verde sfumato",
         "hexes": [
           "#12D8BC",
           "#019686"
@@ -495,22 +839,130 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/coquelicots/vert-degrade-BMS-84x84.webp",
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-et-T-84x84.webp",
                 "alt": "Foulard sfumatura verde in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p1.webp",
+                "alt": "Foulard sfumatura verde in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p2.webp",
+                "alt": "Foulard sfumatura verde in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p3.webp",
+                "alt": "Foulard sfumatura verde in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p4.webp",
+                "alt": "Foulard sfumatura verde in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p5.webp",
+                "alt": "Foulard sfumatura verde in chiffon e satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p6.webp",
+                "alt": "Foulard sfumatura verde in chiffon e satin di seta - vista indossata 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-et-T-84x84.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p1.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p2.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p3.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p4.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p5.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p6.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - vista indossata 6"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
+      },
+      "mauve-degrade-rose": {
+        "id": "mauve-degrade-rose",
+        "label": "malva sfumato rosa",
+        "hexes": [
+          "#6D69BC",
+          "#7366A1"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/mauve-degrade-rose-BMS-84x84.webp",
+                "alt": "Foulard Coquelicots mauve dégradé rose en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/coquelicots/mauve-degrade-rose-BMS-84x84-p1.webp",
+                "alt": "Foulard Coquelicots mauve dégradé rose en mousseline et satin de soie - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/mauve-degrade-rose-BMS-84x84-p2.webp",
+                "alt": "Foulard Coquelicots mauve dégradé rose en mousseline et satin de soie - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/mauve-degrade-rose-BMS-84x84-p3.webp",
+                "alt": "Foulard Coquelicots mauve dégradé rose en mousseline et satin de soie - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/mauve-degrade-rose-BMS-84x84-p4.webp",
+                "alt": "Foulard Coquelicots mauve dégradé rose en mousseline et satin de soie - vista indossata 4"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        },
+        "type": "gradient"
       },
       "rouge-degrade-rose": {
         "id": "rouge-degrade-rose",
-        "label": "Sfumatura dal rosso al rosa",
+        "label": "rosso sfumato rosa",
         "hex": "#000000",
         "materials": {
           "satin-de-soie": {
@@ -518,18 +970,39 @@
             "label": "Satin di seta",
             "images": [
               {
-                "src": "/img/foulards/longdesc/arc-en-ciel/satin-de-soie-1.avif",
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84.webp",
                 "alt": "Foulard arcobaleno in satin di seta"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84-p1.webp",
+                "alt": "Foulard arcobaleno in satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84-p2.webp",
+                "alt": "Foulard arcobaleno in satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84-p3.webp",
+                "alt": "Foulard arcobaleno in satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84-p4.webp",
+                "alt": "Foulard arcobaleno in satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84-p5.webp",
+                "alt": "Foulard arcobaleno in satin di seta - vista indossata 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "solid"
       }
     },
     "mentions": [
@@ -538,7 +1011,7 @@
       "100% seta, realizzato a partire da acquerelli",
       "Edizione limitata di 8 esemplari"
     ],
-    "metaDescription": "Foulard con descrizione lunga per test dell'interfaccia."
+    "metaDescription": "Foulard in seta Coquelicots di Marjolène Lasne, papaveri in diagonale su campo dorato e cielo radioso."
   },
   {
     "slug": "fleurs-de-porcelaine",
@@ -547,7 +1020,7 @@
     "colors": {
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Sfumatura dal rosa all'arancione",
+        "label": "rosa sfumato arancione",
         "hexes": [
           "#F64984",
           "#FEB107"
@@ -561,12 +1034,36 @@
               {
                 "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64.webp",
                 "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p1.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p2.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p3.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p4.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p5.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p6.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 6"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -574,7 +1071,7 @@
       },
       "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
-        "label": "Sfumatura dal rosso all'arancione",
+        "label": "rosso sfumato arancione",
         "hexes": [
           "#F03333",
           "#FEB009"
@@ -588,12 +1085,28 @@
               {
                 "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84.webp",
                 "alt": "Foulard sfumatura dal rosso all'arancione in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84-p1.webp",
+                "alt": "Foulard sfumatura dal rosso all'arancione in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84-p2.webp",
+                "alt": "Foulard sfumatura dal rosso all'arancione in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84-p3.webp",
+                "alt": "Foulard sfumatura dal rosso all'arancione in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84-p4.webp",
+                "alt": "Foulard sfumatura dal rosso all'arancione in chiffon e satin di seta - vista indossata 4"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -601,7 +1114,7 @@
       },
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
-        "label": "Sfumatura blu turchese",
+        "label": "blu turchese sfumato",
         "hexes": [
           "#0CE5D0",
           "#2C9F94"
@@ -613,14 +1126,62 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84.webp",
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-et-T-84x84.webp",
                 "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84-p1.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84-p2.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84-p3.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84-p4.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 4"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-et-T-84x84.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p1.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p2.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p3.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p4.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie - vista indossata 4"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
@@ -633,7 +1194,7 @@
       "100% seta, realizzato a partire da acquerelli",
       "Edizione limitata di 8 esemplari"
     ],
-    "metaDescription": "Foulard con molti colori e materiali."
+    "metaDescription": "Foulard in seta Fleurs de Porcelaine di Marjolène Lasne, fiori di porcellana e vegetazione su sfondo giallo dorato e rosa vivace."
   },
   {
     "slug": "poisson",
@@ -642,7 +1203,7 @@
     "colors": {
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
-        "label": "Sfumatura blu turchese",
+        "label": "blu turchese sfumato",
         "hexes": [
           "#25D1F1",
           "#15909D"
@@ -673,7 +1234,7 @@
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -681,7 +1242,7 @@
       },
       "bleu-degrade": {
         "id": "bleu-degrade",
-        "label": "Sfumatura blu",
+        "label": "blu sfumato",
         "hexes": [
           "#31D9FE",
           "#002FE5"
@@ -716,7 +1277,7 @@
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -724,7 +1285,7 @@
       },
       "orange-degrade-sanguine": {
         "id": "orange-degrade-sanguine",
-        "label": "Sfumatura dall'arancione al rosso sangue",
+        "label": "Arancione sfumato sanguigna",
         "hexes": [
           "#FAA01E",
           "#EE3143"
@@ -740,18 +1301,30 @@
                 "alt": "Foulard sfumatura dall'arancione al rosso sangue in chiffon e satin di seta"
               },
               {
-                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-pose.webp",
-                "alt": "Foulard sfumatura dall'arancione al rosso sangue in chiffon e satin di seta - vista posata"
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p1.webp",
+                "alt": "Foulard sfumatura dall'arancione al rosso sangue in chiffon e satin di seta - vista indossata 1"
               },
               {
-                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-porte1.webp",
-                "alt": "Foulard sfumatura dall'arancione al rosso sangue in chiffon e satin di seta - vista indossata"
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p2.webp",
+                "alt": "Foulard sfumatura dall'arancione al rosso sangue in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p3.webp",
+                "alt": "Foulard sfumatura dall'arancione al rosso sangue in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p4.webp",
+                "alt": "Foulard sfumatura dall'arancione al rosso sangue in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p5.webp",
+                "alt": "Foulard sfumatura dall'arancione al rosso sangue in chiffon e satin di seta - vista indossata 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -759,7 +1332,7 @@
       },
       "cerise": {
         "id": "cerise",
-        "label": "Ciliegia",
+        "label": "Cerise",
         "hexes": [
           "#EF0A4D"
         ],
@@ -774,14 +1347,57 @@
                 "alt": "Foulard ciliegia in chiffon e satin di seta"
               },
               {
-                "src": "/img/foulards/poisson/cerise-BMS-84x84-porte1.webp",
+                "src": "/img/foulards/poisson/cerise-BMS-84x84-p1.webp",
                 "alt": "Foulard ciliegia in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/poisson/cerise-BMS-84x84-p2.webp",
+                "alt": "Foulard ciliegia in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/poisson/cerise-BMS-84x84-p3.webp",
+                "alt": "Foulard ciliegia in chiffon e satin di seta - vista indossata 3"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "jaune-orange-degrade": {
+        "id": "jaune-orange-degrade",
+        "label": "Giallo sfumato arancione",
+        "hexes": [
+          "#FFA63B",
+          "#F85B03"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/poisson/jaune-orange-degrade-BMS-84x84.webp",
+                "alt": "Foulard jaune orange dégradé en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/poisson/jaune-orange-degrade-BMS-84x84-pose.webp",
+                "alt": "Foulard jaune orange dégradé en mousseline et satin de soie - vista posata"
+              },
+              {
+                "src": "/img/foulards/poisson/jaune-orange-degrade-BMS-84x84-porte1.webp",
+                "alt": "Foulard jaune orange dégradé en mousseline et satin de soie - vista indossata 1"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
@@ -821,7 +1437,7 @@
       "100% seta, realizzato a partire da acquerelli",
       "Edizione limitata di 8 esemplari"
     ],
-    "metaDescription": "Foulard con molti colori e materiali."
+    "metaDescription": "Foulard in seta Poisson di Marjolène Lasne, pesci e coralli in tonalità di blu turchese."
   },
   {
     "slug": "herbes-folles",
@@ -830,7 +1446,7 @@
     "colors": {
       "brique": {
         "id": "brique",
-        "label": "Mattone",
+        "label": "Brique",
         "hexes": [
           "#B70F1C"
         ],
@@ -843,12 +1459,20 @@
               {
                 "src": "/img/foulards/herbes-folles/brique-BMS-84x84.webp",
                 "alt": "Foulard rosso in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/brique-BMS-84x84-p1.webp",
+                "alt": "Foulard rosso in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/brique-BMS-84x84-p2.webp",
+                "alt": "Foulard rosso in chiffon e satin di seta - vista indossata 2"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -856,7 +1480,7 @@
       },
       "orange-degrade-sanguine": {
         "id": "orange-degrade-sanguine",
-        "label": "Sfumatura dall'arancione al rosso sangue",
+        "label": "Arancione sfumato sanguigna",
         "hexes": [
           "#F99323",
           "#EE3143"
@@ -872,22 +1496,34 @@
                 "alt": "Foulard sfumatura dall'arancione al rosso sangue in satin di seta"
               },
               {
-                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte1.webp",
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p1.webp",
                 "alt": "Foulard sfumatura dall'arancione al rosso sangue in satin di seta - vista indossata 1"
               },
               {
-                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte2.webp",
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p2.webp",
                 "alt": "Foulard sfumatura dall'arancione al rosso sangue in satin di seta - vista indossata 2"
               },
               {
-                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte3.webp",
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p3.webp",
                 "alt": "Foulard sfumatura dall'arancione al rosso sangue in satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p4.webp",
+                "alt": "Foulard sfumatura dall'arancione al rosso sangue in satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p5.webp",
+                "alt": "Foulard sfumatura dall'arancione al rosso sangue in satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p6.webp",
+                "alt": "Foulard sfumatura dall'arancione al rosso sangue in satin di seta - vista indossata 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -895,9 +1531,9 @@
       },
       "amethyste": {
         "id": "amethyste",
-        "label": "Ametista",
+        "label": "Amethyste",
         "hexes": [
-          "#8E144D"
+          "#3A0C57"
         ],
         "type": "solid",
         "materials": {
@@ -908,12 +1544,36 @@
               {
                 "src": "/img/foulards/herbes-folles/amethyste-T-84x84.webp",
                 "alt": "Foulard ametista in satin di seta"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p1.webp",
+                "alt": "Foulard ametista in satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p2.webp",
+                "alt": "Foulard ametista in satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p3.webp",
+                "alt": "Foulard ametista in satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p4.webp",
+                "alt": "Foulard ametista in satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p5.webp",
+                "alt": "Foulard ametista in satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p6.webp",
+                "alt": "Foulard ametista in satin di seta - vista indossata 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -921,7 +1581,7 @@
       },
       "lavande-degrade-clair": {
         "id": "lavande-degrade-clair",
-        "label": "Sfumatura lavanda chiaro",
+        "label": "Lavanda sfumata chiara",
         "hexes": [
           "#33398D",
           "#99C4E6"
@@ -935,12 +1595,36 @@
               {
                 "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84.webp",
                 "alt": "Foulard sfumatura lavanda chiaro in satin di seta"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p1.webp",
+                "alt": "Foulard sfumatura lavanda chiaro in satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p2.webp",
+                "alt": "Foulard sfumatura lavanda chiaro in satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p3.webp",
+                "alt": "Foulard sfumatura lavanda chiaro in satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p4.webp",
+                "alt": "Foulard sfumatura lavanda chiaro in satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p5.webp",
+                "alt": "Foulard sfumatura lavanda chiaro in satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p6.webp",
+                "alt": "Foulard sfumatura lavanda chiaro in satin di seta - vista indossata 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -953,7 +1637,7 @@
       "100% seta, realizzato a partire da acquerelli",
       "Edizione limitata di 8 esemplari"
     ],
-    "metaDescription": "Foulard con molti colori e materiali."
+    "metaDescription": "Foulard in seta Herbes Folles di Marjolène Lasne, erbe selvatiche e fiori in una composizione dinamica."
   },
   {
     "slug": "libellule",
@@ -962,7 +1646,7 @@
     "colors": {
       "rose": {
         "id": "rose",
-        "label": "Rosa",
+        "label": "Rose",
         "hexes": [
           "#BD1479"
         ],
@@ -981,14 +1665,76 @@
                 "alt": "Foulard rosa in chiffon e satin di seta - vista posata"
               },
               {
-                "src": "/img/foulards/libellule/rose-BMS-84x84-porte1.webp",
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p1.webp",
                 "alt": "Foulard rosa in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p2.webp",
+                "alt": "Foulard rosa in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p3.webp",
+                "alt": "Foulard rosa in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p4.webp",
+                "alt": "Foulard rosa in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p5.webp",
+                "alt": "Foulard rosa in chiffon e satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p6.webp",
+                "alt": "Foulard rosa in chiffon e satin di seta - vista indossata 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu": {
+        "id": "bleu",
+        "label": "Bleu",
+        "hexes": [
+          "#0175B8"
+        ],
+        "type": "solid",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p1.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 1 - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p2.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 1 - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p3.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 1 - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p4.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 1 - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p5.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 1 - vista indossata 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
@@ -996,7 +1742,7 @@
       },
       "vert": {
         "id": "vert",
-        "label": "Verde",
+        "label": "Vert",
         "hexes": [
           "#6BAE23"
         ],
@@ -1011,18 +1757,26 @@
                 "alt": "Foulard verde in chiffon e satin di seta"
               },
               {
-                "src": "/img/foulards/libellule/vert-BMS-84x84-pose.webp",
-                "alt": "Foulard verde in chiffon e satin di seta - vista posata"
+                "src": "/img/foulards/libellule/vert-BMS-84x84-p1.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 1"
               },
               {
-                "src": "/img/foulards/libellule/vert-BMS-84x84-porte1.webp",
-                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 1"
+                "src": "/img/foulards/libellule/vert-BMS-84x84-p2.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/libellule/vert-BMS-84x84-p3.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/libellule/vert-BMS-84x84-p4.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 4"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -1035,7 +1789,7 @@
       "100% seta, realizzato a partire da acquerelli",
       "Edizione limitata di 8 esemplari"
     ],
-    "metaDescription": "Foulard con molti colori e materiali."
+    "metaDescription": "Foulard in seta Libellule di Marjolène Lasne, libellule e fiori in toni arancioni e rosa."
   },
   {
     "slug": "paon",
@@ -1044,7 +1798,7 @@
     "colors": {
       "vert": {
         "id": "vert",
-        "label": "Verde",
+        "label": "Vert",
         "hexes": [
           "#65B846"
         ],
@@ -1059,18 +1813,30 @@
                 "alt": "Foulard verde in chiffon e satin di seta"
               },
               {
-                "src": "/img/foulards/paon/vert-BMS-84x84-porte1.webp",
+                "src": "/img/foulards/paon/vert-BMS-84x84-p1.webp",
                 "alt": "Foulard verde in chiffon e satin di seta - vista indossata 1"
               },
               {
-                "src": "/img/foulards/paon/vert-BMS-84x84-porte2.webp",
+                "src": "/img/foulards/paon/vert-BMS-84x84-p2.webp",
                 "alt": "Foulard verde in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84-p3.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84-p4.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84-p5.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -1078,7 +1844,7 @@
       },
       "orange-degrade-sanguine": {
         "id": "orange-degrade-sanguine",
-        "label": "Sfumatura arancione sanguigna",
+        "label": "Arancione sfumato sanguigna",
         "hexes": [
           "#F99324",
           "#EE3143"
@@ -1091,20 +1857,41 @@
               {
                 "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84.webp",
                 "alt": "Foulard arancione sanguigna in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84-p1.webp",
+                "alt": "Foulard arancione sanguigna in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84-p2.webp",
+                "alt": "Foulard arancione sanguigna in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84-p3.webp",
+                "alt": "Foulard arancione sanguigna in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84-p4.webp",
+                "alt": "Foulard arancione sanguigna in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84-p5.webp",
+                "alt": "Foulard arancione sanguigna in chiffon e satin di seta - vista indossata 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
-        "label": "Blu turchese sfumato",
+        "label": "blu turchese sfumato",
         "hexes": [
           "#0CD2FD",
           "#1671B9"
@@ -1119,53 +1906,39 @@
                 "alt": "Foulard blu turchese sfumato in chiffon e satin di seta"
               },
               {
-                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-porte1.webp",
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-p1.webp",
                 "alt": "Foulard blu turchese sfumato in chiffon e satin di seta - vista indossata 1"
               },
               {
-                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-porte2.webp",
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-p2.webp",
                 "alt": "Foulard blu turchese sfumato in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-p3.webp",
+                "alt": "Foulard blu turchese sfumato in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-p4.webp",
+                "alt": "Foulard blu turchese sfumato in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-p5.webp",
+                "alt": "Foulard blu turchese sfumato in chiffon e satin di seta - vista indossata 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
-        }
-      },
-      "rose-degrade-violet": {
-        "id": "rose-degrade-violet",
-        "label": "Sfumatura dal rosa al viola",
-        "hexes": [
-          "#E109CE",
-          "#A831F5"
-        ],
-        "type": "gradient",
-        "materials": {
-          "mousseline-et-satin-de-soie": {
-            "id": "mousseline-et-satin-de-soie",
-            "label": "Chiffon e satin di seta",
-            "images": [
-              {
-                "src": "/img/foulards/paon/rose-degrade-violet-BMS-84x84.webp",
-                "alt": "Foulard sfumatura dal rosa al viola in chiffon e satin di seta"
-              }
-            ],
-            "sizes": [
-              {
-                "id": "84x84",
-                "label": "84×84 cm"
-              }
-            ]
-          }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-prune": {
         "id": "rose-degrade-prune",
-        "label": "Sfumatura dal rosa al prugna",
+        "label": "rosa sfumato prugna",
         "hexes": [
           "#E00ACE",
           "#A831F5"
@@ -1179,12 +1952,32 @@
               {
                 "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84.webp",
                 "alt": "Foulard sfumatura dal rosa al prugna in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84-p1.webp",
+                "alt": "Foulard sfumatura dal rosa al prugna in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84-p2.webp",
+                "alt": "Foulard sfumatura dal rosa al prugna in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84-p3.webp",
+                "alt": "Foulard sfumatura dal rosa al prugna in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84-p4.webp",
+                "alt": "Foulard sfumatura dal rosa al prugna in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84-p5.webp",
+                "alt": "Foulard sfumatura dal rosa al prugna in chiffon e satin di seta - vista indossata 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -1197,7 +1990,7 @@
       "100% seta, realizzato a partire da acquerelli",
       "Edizione limitata di 8 esemplari"
     ],
-    "metaDescription": "Foulard con molti colori e materiali."
+    "metaDescription": "Foulard in seta Paon di Marjolène Lasne, maestoso pavone e fiori contro un cielo al tramonto."
   },
   {
     "slug": "spirales",
@@ -1206,26 +1999,47 @@
     "colors": {
       "lie-de-vin": {
         "id": "lie-de-vin",
-        "label": "Vinaccia",
-        "hex": "#000000",
+        "label": "Lie de vin",
+        "hex": "#C55797",
         "materials": {
           "satin-de-soie": {
             "id": "satin-de-soie",
             "label": "Satin di seta",
             "images": [
               {
-                "src": "/img/foulards/multi/lie-de-vin/satin-de-soie-1.avif",
-                "alt": "Foulard vinaccia in satin di seta"
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p1.webp",
+                "alt": "Foulard vinaccia in satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p2.webp",
+                "alt": "Foulard vinaccia in satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p3.webp",
+                "alt": "Foulard vinaccia in satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p4.webp",
+                "alt": "Foulard vinaccia in satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p5.webp",
+                "alt": "Foulard vinaccia in satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p6.webp",
+                "alt": "Foulard vinaccia in satin di seta - vista indossata 6"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
-        }
+        },
+        "type": "solid"
       }
     },
     "mentions": [
@@ -1234,7 +2048,7 @@
       "100% seta, realizzato a partire da acquerelli",
       "Edizione limitata di 8 esemplari"
     ],
-    "metaDescription": "Foulard con molti colori e materiali."
+    "metaDescription": "Foulard in seta Spirales di Marjolène Lasne, curve e volute in blu, arancione e rosa."
   },
   {
     "slug": "mamma-del-mondo",
@@ -1243,7 +2057,7 @@
     "colors": {
       "rose-degrade-violet": {
         "id": "rose-degrade-violet",
-        "label": "Sfumatura dal rosa al viola",
+        "label": "Rosa sfumato viola",
         "hexes": [
           "#E90195",
           "#9E0CAB"
@@ -1257,12 +2071,79 @@
               {
                 "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64.webp",
                 "alt": "Foulard sfumatura dal rosa al viola in satin di seta"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64-p1.webp",
+                "alt": "Foulard sfumatura dal rosa al viola in satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64-p2.webp",
+                "alt": "Foulard sfumatura dal rosa al viola in satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64-p3.webp",
+                "alt": "Foulard sfumatura dal rosa al viola in satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64-p4.webp",
+                "alt": "Foulard sfumatura dal rosa al viola in satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64-p5.webp",
+                "alt": "Foulard sfumatura dal rosa al viola in satin di seta - vista indossata 5"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "jaune-degrade-orange": {
+        "id": "jaune-degrade-orange",
+        "label": "Giallo sfumato arancione",
+        "hexes": [
+          "#F9E900",
+          "#F99324"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p1.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p2.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p3.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p4.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p5.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - vista indossata 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "42x42",
+                "label": "42x42 cm"
               }
             ]
           }
@@ -1275,7 +2156,7 @@
       "100% seta, realizzato a partire da acquerelli",
       "Edizione limitata di 8 esemplari"
     ],
-    "metaDescription": "Foulard con molti colori e materiali."
+    "metaDescription": "Foulard in seta Mamma del Mondo di Marjolène Lasne, coccinelle e trifogli celebrano le mamme del mondo."
   },
   {
     "slug": "courbes",
@@ -1284,7 +2165,7 @@
     "colors": {
       "rose-degrade": {
         "id": "rose-degrade",
-        "label": "Sfumatura rosa",
+        "label": "Rosa sfumato",
         "hexes": [
           "#F47AB5",
           "#E71F72"
@@ -1298,12 +2179,28 @@
               {
                 "src": "/img/foulards/courbes/rose-degrade-BMS-40x174.webp",
                 "alt": "Foulard sfumatura rosa in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/courbes/rose-degrade-BMS-40x174-p1.webp",
+                "alt": "Foulard sfumatura rosa in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/courbes/rose-degrade-BMS-40x174-p2.webp",
+                "alt": "Foulard sfumatura rosa in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/courbes/rose-degrade-BMS-40x174-p3.webp",
+                "alt": "Foulard sfumatura rosa in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/courbes/rose-degrade-BMS-40x174-p4.webp",
+                "alt": "Foulard sfumatura rosa in chiffon e satin di seta - vista indossata 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1311,7 +2208,7 @@
       },
       "vert-degrade": {
         "id": "vert-degrade",
-        "label": "Sfumatura verde",
+        "label": "verde sfumato",
         "hexes": [
           "#039787",
           "#06D8D3"
@@ -1325,12 +2222,32 @@
               {
                 "src": "/img/foulards/courbes/vert-degrade-BMS-40x174.webp",
                 "alt": "Foulard sfumatura verde in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x174-p1.webp",
+                "alt": "Foulard sfumatura verde in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x174-p2.webp",
+                "alt": "Foulard sfumatura verde in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x174-p3.webp",
+                "alt": "Foulard sfumatura verde in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x174-p4.webp",
+                "alt": "Foulard sfumatura verde in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x174-p5.webp",
+                "alt": "Foulard sfumatura verde in chiffon e satin di seta - vista indossata 5"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1338,7 +2255,7 @@
       },
       "violet-degrade-rose": {
         "id": "violet-degrade-rose",
-        "label": "Sfumatura dal viola al rosa",
+        "label": "Viola sfumato rosa",
         "hexes": [
           "#CF0F87",
           "#9F42AD"
@@ -1352,12 +2269,44 @@
               {
                 "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174.webp",
                 "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p1.webp",
+                "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p2.webp",
+                "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p3.webp",
+                "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p4.webp",
+                "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p5.webp",
+                "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p6.webp",
+                "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta - vista indossata 6"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p7.webp",
+                "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta - vista indossata 7"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p8.webp",
+                "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta - vista indossata 8"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1365,26 +2314,50 @@
       },
       "bleu-outremer-degrade-lavande": {
         "id": "bleu-outremer-degrade-lavande",
-        "label": "Sfumatura dall'oltremare alla lavanda",
+        "label": "Oltremare sfumato lavanda",
         "hexes": [
           "#4659E0",
           "#8AA6F5"
         ],
         "type": "gradient",
         "materials": {
-          "satin-de-soie": {
-            "id": "satin-de-soie",
-            "label": "Satin di seta",
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-T-40x174.webp",
-                "alt": "Foulard sfumatura dall'oltremare alla lavanda in satin di seta"
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p1.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p2.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p3.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p4.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p5.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p6.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - vista indossata 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1397,7 +2370,7 @@
       "100% seta, realizzato a partire da acquerelli",
       "Edizione limitata di 8 esemplari"
     ],
-    "metaDescription": "Foulard con molti colori e materiali."
+    "metaDescription": "Foulard in seta Courbes di Marjolène Lasne, fiori caldi e linee sinuose su sfondo rosa-arancio."
   },
   {
     "slug": "printemps-en-couleurs",
@@ -1406,7 +2379,7 @@
     "colors": {
       "vert-degrade-turquoise": {
         "id": "vert-degrade-turquoise",
-        "label": "Sfumatura dal verde al turchese",
+        "label": "Verde sfumato turchese",
         "hexes": [
           "#01BED7",
           "#029485"
@@ -1419,20 +2392,45 @@
               {
                 "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174.webp",
                 "alt": "Foulard verde in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p1.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p2.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p3.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p4.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p5.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p6.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Sfumatura dal rosa all'arancione",
+        "label": "rosa sfumato arancione",
         "hexes": [
           "#FFCA08",
           "#EF238F"
@@ -1445,20 +2443,37 @@
               {
                 "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x174.webp",
                 "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x174-p1.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x174-p2.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x174-p3.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x174-p4.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "outremer-degrade-turquoise": {
         "id": "outremer-degrade-turquoise",
-        "label": "Sfumatura dall'oltremare al turchese",
+        "label": "Oltremare sfumato turchese",
         "hexes": [
           "#2DC3E2",
           "#1556F8"
@@ -1471,12 +2486,40 @@
               {
                 "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x174.webp",
                 "alt": "Foulard oltremare in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p1.webp",
+                "alt": "Foulard oltremare in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p2.webp",
+                "alt": "Foulard oltremare in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p3.webp",
+                "alt": "Foulard oltremare in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p4.webp",
+                "alt": "Foulard oltremare in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p5.webp",
+                "alt": "Foulard oltremare in chiffon e satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p6.webp",
+                "alt": "Foulard oltremare in chiffon e satin di seta - vista indossata 6"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p7.webp",
+                "alt": "Foulard oltremare in chiffon e satin di seta - vista indossata 7"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           },
@@ -1487,20 +2530,45 @@
               {
                 "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x174.webp",
                 "alt": "Foulard oltremare in satin di seta"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p1.webp",
+                "alt": "Foulard oltremare in satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p2.webp",
+                "alt": "Foulard oltremare in satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p3.webp",
+                "alt": "Foulard oltremare in satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p4.webp",
+                "alt": "Foulard oltremare in satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p5.webp",
+                "alt": "Foulard oltremare in satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p6.webp",
+                "alt": "Foulard oltremare in satin di seta - vista indossata 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
-        "label": "Sfumatura blu turchese",
+        "label": "blu turchese sfumato",
         "hex": "#000000",
         "materials": {
           "mousseline-et-satin-de-soie": {
@@ -1515,11 +2583,12 @@
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "solid"
       }
     },
     "mentions": [
@@ -1528,7 +2597,7 @@
       "100% seta, realizzato a partire da acquerelli",
       "Edizione limitata di 8 esemplari"
     ],
-    "metaDescription": "Foulard con molti colori e materiali."
+    "metaDescription": "Foulard in seta Printemps en Couleurs di Marjolène Lasne, papaveri e erbe delicate."
   },
   {
     "slug": "paysage-de-roussillon",
@@ -1537,7 +2606,7 @@
     "colors": {
       "vert-degrade": {
         "id": "vert-degrade",
-        "label": "Sfumatura verde",
+        "label": "verde sfumato",
         "hexes": [
           "#01BED7",
           "#009384"
@@ -1550,20 +2619,37 @@
               {
                 "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x174.webp",
                 "alt": "Foulard verde in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x174-p1.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x174-p2.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x174-p3.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x174-p4.webp",
+                "alt": "Foulard verde in chiffon e satin di seta - vista indossata 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Sfumatura dal rosa all'arancione",
+        "label": "rosa sfumato arancione",
         "hexes": [
           "#F03B44",
           "#FC9701"
@@ -1582,7 +2668,7 @@
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           },
@@ -1593,12 +2679,20 @@
               {
                 "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-et-T-40x174.webp",
                 "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-40x174-p1.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-40x174-p2.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 2"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1606,7 +2700,7 @@
       },
       "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
-        "label": "Sfumatura dal rosso all'arancione",
+        "label": "rosso sfumato arancione",
         "hexes": [
           "#EF3A43",
           "#FC9701"
@@ -1620,12 +2714,36 @@
               {
                 "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-BMS-et-T-40x174.webp",
                 "alt": "Foulard sfumatura dal rosso all'arancione in satin di seta"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p1.webp",
+                "alt": "Foulard sfumatura dal rosso all'arancione in satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p2.webp",
+                "alt": "Foulard sfumatura dal rosso all'arancione in satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p3.webp",
+                "alt": "Foulard sfumatura dal rosso all'arancione in satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p4.webp",
+                "alt": "Foulard sfumatura dal rosso all'arancione in satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p5.webp",
+                "alt": "Foulard sfumatura dal rosso all'arancione in satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p6.webp",
+                "alt": "Foulard sfumatura dal rosso all'arancione in satin di seta - vista indossata 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           },
@@ -1641,15 +2759,15 @@
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
         }
       },
-      "outremer-degrade": {
-        "id": "outremer-degrade",
-        "label": "Sfumatura oltremare",
+      "outremer-degrade-lavande": {
+        "id": "outremer-degrade-lavande",
+        "label": "oltremare sfumato lavande",
         "hexes": [
           "#2FC2E2",
           "#1556F8"
@@ -1661,13 +2779,33 @@
             "images": [
               {
                 "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x174.webp",
-                "alt": "Foulard oltremare in satin di seta"
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-lavande-T-40x174-p1.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-lavande-T-40x174-p2.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-lavande-T-40x174-p3.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-lavande-T-40x174-p4.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-lavande-T-40x174-p5.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie - vista indossata 5"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           },
@@ -1677,17 +2815,26 @@
             "images": [
               {
                 "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x174.webp",
-                "alt": "Foulard oltremare in chiffon e satin di seta"
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-40x174-p1.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en mousseline et satin de soie - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-40x174-p2.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en mousseline et satin de soie - vista indossata 2"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       }
     },
     "mentions": [
@@ -1696,7 +2843,7 @@
       "100% seta, realizzato a partire da acquerelli",
       "Edizione limitata di 8 esemplari"
     ],
-    "metaDescription": "Foulard con molti colori e materiali."
+    "metaDescription": "Foulard in seta Paysage de Roussillon di Marjolène Lasne, villaggio ocra e cielo luminoso."
   },
   {
     "slug": "fleurs-et-papillons",
@@ -1705,22 +2852,34 @@
     "colors": {
       "bleu-outremer-degrade-lavande": {
         "id": "bleu-outremer-degrade-lavande",
-        "label": "Sfumatura dall'oltremare alla lavanda",
-        "hex": "#000000",
+        "label": "Oltremare sfumato lavanda",
+        "hexes": [
+          "#6F7FC5",
+          "#A4B7DC"
+        ],
+        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Foulard oltremare in chiffon e satin di seta"
+                "src": "/img/foulards/fleurs-et-papillons/bleu-outremer-degrade-lavande-BMS-40x174-p1.webp",
+                "alt": "Foulard oltremare in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-outremer-degrade-lavande-BMS-40x174-p2.webp",
+                "alt": "Foulard oltremare in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-outremer-degrade-lavande-BMS-40x174-p3.webp",
+                "alt": "Foulard oltremare in chiffon e satin di seta - vista indossata 3"
               }
             ],
             "sizes": [
               {
-                "id": " 40x174",
-                "label": "40×174 cm"
+                "id": "40x174",
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1728,7 +2887,7 @@
       },
       "violet-rose-degrade": {
         "id": "violet-rose-degrade",
-        "label": "Sfumatura dal viola al rosa",
+        "label": "viola rosa sfumato",
         "hexes": [
           "#B441AA",
           "#F737AC"
@@ -1741,20 +2900,49 @@
               {
                 "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174.webp",
                 "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p1.webp",
+                "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p2.webp",
+                "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p3.webp",
+                "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p4.webp",
+                "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p5.webp",
+                "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p6.webp",
+                "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta - vista indossata 6"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p7.webp",
+                "alt": "Foulard sfumatura dal viola al rosa in chiffon e satin di seta - vista indossata 7"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Sfumatura dal rosa all'arancione",
+        "label": "rosa sfumato arancione",
         "hexes": [
           "#FFBE0E",
           "#ED1892"
@@ -1768,12 +2956,40 @@
               {
                 "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174.webp",
                 "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p1.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p2.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p3.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p4.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p5.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p6.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 6"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p7.webp",
+                "alt": "Foulard sfumatura dal rosa all'arancione in chiffon e satin di seta - vista indossata 7"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1781,7 +2997,7 @@
       },
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
-        "label": "Sfumatura blu turchese",
+        "label": "blu turchese sfumato",
         "hexes": [
           "#208AC3",
           "#1FD2F7"
@@ -1795,12 +3011,36 @@
               {
                 "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174.webp",
                 "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p1.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p2.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p3.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p4.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p5.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p6.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1813,7 +3053,7 @@
       "100% seta, realizzato a partire da acquerelli",
       "Edizione limitata di 8 esemplari"
     ],
-    "metaDescription": "Foulard con molti colori e materiali."
+    "metaDescription": "Foulard in seta Fleurs et Papillons di Marjolène Lasne, lavanda e farfalle in armonia verticale."
   },
   {
     "slug": "oiseaux-exotiques",
@@ -1822,7 +3062,7 @@
     "colors": {
       "vert-degrade-turquoise": {
         "id": "vert-degrade-turquoise",
-        "label": "Sfumatura dal verde al turchese",
+        "label": "Verde sfumato turchese",
         "hexes": [
           "#039787",
           "#06D8D1"
@@ -1835,20 +3075,37 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x174.webp",
                 "alt": "Foulard sfumatura dal verde al turchese in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x174-p1.webp",
+                "alt": "Foulard sfumatura dal verde al turchese in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x174-p2.webp",
+                "alt": "Foulard sfumatura dal verde al turchese in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x174-p3.webp",
+                "alt": "Foulard sfumatura dal verde al turchese in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x174-p4.webp",
+                "alt": "Foulard sfumatura dal verde al turchese in chiffon e satin di seta - vista indossata 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "lavande-degrade": {
         "id": "lavande-degrade",
-        "label": "Sfumatura lavanda",
+        "label": "lavande sfumato",
         "hexes": [
           "#8DA9FD",
           "#495CE2"
@@ -1862,12 +3119,28 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x174.webp",
                 "alt": "Foulard sfumatura lavanda in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x174-p1.webp",
+                "alt": "Foulard sfumatura lavanda in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x174-p2.webp",
+                "alt": "Foulard sfumatura lavanda in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x174-p3.webp",
+                "alt": "Foulard sfumatura lavanda in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x174-p4.webp",
+                "alt": "Foulard sfumatura lavanda in chiffon e satin di seta - vista indossata 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1875,7 +3148,7 @@
       },
       "jaune-degrade-rose": {
         "id": "jaune-degrade-rose",
-        "label": "Sfumatura dal giallo al rosa",
+        "label": "giallo sfumato rosa",
         "hexes": [
           "#FECC06",
           "#EE228D"
@@ -1889,12 +3162,36 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174.webp",
                 "alt": "Foulard sfumatura dal giallo al rosa in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p1.webp",
+                "alt": "Foulard sfumatura dal giallo al rosa in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p2.webp",
+                "alt": "Foulard sfumatura dal giallo al rosa in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p3.webp",
+                "alt": "Foulard sfumatura dal giallo al rosa in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p4.webp",
+                "alt": "Foulard sfumatura dal giallo al rosa in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p5.webp",
+                "alt": "Foulard sfumatura dal giallo al rosa in chiffon e satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p6.webp",
+                "alt": "Foulard sfumatura dal giallo al rosa in chiffon e satin di seta - vista indossata 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1902,7 +3199,7 @@
       },
       "jaune-degrade-rouge": {
         "id": "jaune-degrade-rouge",
-        "label": "Sfumatura dal giallo al rosso",
+        "label": "giallo sfumato rosso",
         "hexes": [
           "#F21B3D",
           "#FFB309"
@@ -1916,12 +3213,28 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x174.webp",
                 "alt": "Foulard sfumatura dal giallo al rosso in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x174-p1.webp",
+                "alt": "Foulard sfumatura dal giallo al rosso in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x174-p2.webp",
+                "alt": "Foulard sfumatura dal giallo al rosso in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x174-p3.webp",
+                "alt": "Foulard sfumatura dal giallo al rosso in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x174-p4.webp",
+                "alt": "Foulard sfumatura dal giallo al rosso in chiffon e satin di seta - vista indossata 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1929,7 +3242,7 @@
       },
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
-        "label": "Sfumatura blu turchese",
+        "label": "blu turchese sfumato",
         "hexes": [
           "#30C8E7",
           "#1C80BC"
@@ -1943,12 +3256,32 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174.webp",
                 "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174-p1.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174-p2.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174-p3.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174-p4.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174-p5.webp",
+                "alt": "Foulard sfumatura blu turchese in chiffon e satin di seta - vista indossata 5"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1956,7 +3289,7 @@
       },
       "bleu-outremer-degrade-turquoise": {
         "id": "bleu-outremer-degrade-turquoise",
-        "label": "Sfumatura dall'oltremare al turchese",
+        "label": "blu oltremare sfumato turchese",
         "hexes": [
           "#2FC2E2",
           "#1556F7"
@@ -1970,12 +3303,24 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x174.webp",
                 "alt": "Foulard sfumatura dall'oltremare al turchese in satin di seta"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-T-40x174-p1.webp",
+                "alt": "Foulard sfumatura dall'oltremare al turchese in satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-T-40x174-p2.webp",
+                "alt": "Foulard sfumatura dall'oltremare al turchese in satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-T-40x174-p3.webp",
+                "alt": "Foulard sfumatura dall'oltremare al turchese in satin di seta - vista indossata 3"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           },
@@ -1986,12 +3331,20 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x174.webp",
                 "alt": "Foulard sfumatura dall'oltremare al turchese in chiffon e satin di seta"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-40x174-p1.webp",
+                "alt": "Foulard sfumatura dall'oltremare al turchese in chiffon e satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-40x174-p2.webp",
+                "alt": "Foulard sfumatura dall'oltremare al turchese in chiffon e satin di seta - vista indossata 2"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -2004,6 +3357,215 @@
       "100% seta, realizzato a partire da acquerelli",
       "Edizione limitata di 8 esemplari"
     ],
-    "metaDescription": "Foulard con molti colori e materiali."
+    "metaDescription": "Foulard in seta Oiseaux Exotiques di Marjolène Lasne, uccelli tropicali in colori brillanti."
+  },
+  {
+    "slug": "clochettes",
+    "title": "Clochettes",
+    "description": "Due campanelle scandiscono questo foulard in turchese e rosa, tra delicatezza e luminosità.",
+    "colors": {
+      "bleu-turquoise": {
+        "id": "bleu-turquoise",
+        "label": "Blu turchese",
+        "hex": "#0BD7FC",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84.webp",
+                "alt": "Foulard Clochettes Blu turchese in Satin di seta"
+              },
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84-p1.webp",
+                "alt": "Foulard Clochettes Blu turchese in Satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84-p2.webp",
+                "alt": "Foulard Clochettes Blu turchese in Satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84-p3.webp",
+                "alt": "Foulard Clochettes Blu turchese in Satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84-p4.webp",
+                "alt": "Foulard Clochettes Blu turchese in Satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84-p5.webp",
+                "alt": "Foulard Clochettes Blu turchese in Satin di seta - vista indossata 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        },
+        "type": "solid"
+      },
+      "rose": {
+        "id": "rose",
+        "label": "Rose",
+        "hex": "#FF69B4",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84.webp",
+                "alt": "Foulard Clochettes Rosa in Satin di seta"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p1.webp",
+                "alt": "Foulard Clochettes Rosa in Satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p2.webp",
+                "alt": "Foulard Clochettes Rosa in Satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p3.webp",
+                "alt": "Foulard Clochettes Rosa in Satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p4.webp",
+                "alt": "Foulard Clochettes Rosa in Satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p5.webp",
+                "alt": "Foulard Clochettes Rosa in Satin di seta - vista indossata 5"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p6.webp",
+                "alt": "Foulard Clochettes Rosa in Satin di seta - vista indossata 6"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        },
+        "type": "solid"
+      }
+    },
+    "mentions": [
+      "Pièce unique fabriquée en France",
+      "Dessin original de l'artiste",
+      "100% soie, réalisé à partir d'aquarelles",
+      "Édition limitée de 8 exemplaires"
+    ],
+    "metaDescription": "Foulard in seta Clochettes di Marjolène Lasne, campanelline luminose in turchese e rosa."
+  },
+  {
+    "slug": "jazz",
+    "title": "Jazz",
+    "description": "Un motivo energico in arancione intenso compone il foulard Jazz, vibrante e moderno.",
+    "colors": {
+      "orange": {
+        "id": "orange",
+        "label": "Orange",
+        "hex": "#EB5712",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/jazz/orange-T-40x174-p1.webp",
+                "alt": "Foulard Jazz Arancione in Satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/jazz/orange-T-40x174-p2.webp",
+                "alt": "Foulard Jazz Arancione in Satin di seta - vista indossata 2"
+              },
+              {
+                "src": "/img/foulards/jazz/orange-T-40x174-p3.webp",
+                "alt": "Foulard Jazz Arancione in Satin di seta - vista indossata 3"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x174",
+                "label": "40x174 cm"
+              }
+            ]
+          }
+        },
+        "type": "solid"
+      }
+    },
+    "mentions": [
+      "Pièce unique fabriquée en France",
+      "Dessin original de l'artiste",
+      "100% soie, réalisé à partir d'aquarelles",
+      "Édition limitée de 8 exemplaires"
+    ],
+    "metaDescription": "Foulard in seta Jazz di Marjolène Lasne, un motivo arancione dinamico e caldo."
+  },
+  {
+    "slug": "roussillon",
+    "title": "Roussillon",
+    "description": "Ocra caldi e un degradé rosso-arancione disegnano l’evasione del foulard Roussillon.",
+    "colors": {
+      "orange": {
+        "id": "orange-degrade-rouge",
+        "label": "arancione sfumato rosso",
+        "hexes": [
+          "#BC0214",
+          "#D86221"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin di seta",
+            "images": [
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p1.webp",
+                "alt": "Foulard Roussillon Arancione in Satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p1.webp",
+                "alt": "Foulard Roussillon Arancione in Satin di seta - vista indossata 1"
+              },
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p3.webp",
+                "alt": "Foulard Roussillon Arancione in Satin di seta - vista indossata 3"
+              },
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p4.webp",
+                "alt": "Foulard Roussillon Arancione in Satin di seta - vista indossata 4"
+              },
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p5.webp",
+                "alt": "Foulard Roussillon Arancione in Satin di seta - vista indossata 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x174",
+                "label": "40x174 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Pièce unique fabriquée en France",
+      "Dessin original de l'artiste",
+      "100% soie, réalisé à partir d'aquarelles",
+      "Édition limitée de 8 exemplaires"
+    ],
+    "metaDescription": "Foulard in seta Roussillon di Marjolène Lasne, tonalità calde ispirate alle terre ocra."
   }
 ]
