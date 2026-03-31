@@ -967,7 +967,11 @@
       "rouge-degrade-rose": {
         "id": "rouge-degrade-rose",
         "label": "Rouge dégradé rose",
-        "hex": "#000000",
+        "hexes": [
+          "#ef398f",
+          "#ec4222"
+        ],
+        "type": "gradient",
         "materials": {
           "satin-de-soie": {
             "id": "satin-de-soie",
@@ -1005,8 +1009,7 @@
               }
             ]
           }
-        },
-        "type": "solid"
+        }
       }
     },
     "mentions": [

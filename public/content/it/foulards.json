@@ -495,7 +495,7 @@
             "label": "Chiffon e satin di seta",
             "images": [
               {
-                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84.webp",
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-et-T-84x84.webp",
                 "alt": "Foulard sfumatura blu-verde in chiffon e satin di seta"
               },
               {
@@ -535,12 +535,12 @@
             "label": "Satin di seta",
             "images": [
               {
-                "src": "/img/foulards/eclats-or/bleu-vert-degrade-T-84x84-p1.webp",
-                "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie - vue portée 1 - vista indossata 1"
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-et-T-84x84.webp",
+                "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie "
               },
               {
-                "src": "/img/foulards/eclats-or/bleu-vert-degrade-T-84x84-p2.webp",
-                "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie - vue portée 1 - vista indossata 2"
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-T-84x84-p1.webp",
+                "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie vista indossata 1"
               }
             ],
             "sizes": [
@@ -963,7 +963,11 @@
       "rouge-degrade-rose": {
         "id": "rouge-degrade-rose",
         "label": "rosso sfumato rosa",
-        "hex": "#000000",
+        "hexes": [
+          "#ef398f",
+          "#ec4222"
+        ],
+        "type": "gradient",
         "materials": {
           "satin-de-soie": {
             "id": "satin-de-soie",
@@ -1001,8 +1005,7 @@
               }
             ]
           }
-        },
-        "type": "solid"
+        }
       }
     },
     "mentions": [
@@ -2565,30 +2568,6 @@
           }
         },
         "type": "gradient"
-      },
-      "bleu-turquoise-degrade": {
-        "id": "bleu-turquoise-degrade",
-        "label": "blu turchese sfumato",
-        "hex": "#000000",
-        "materials": {
-          "mousseline-et-satin-de-soie": {
-            "id": "mousseline-et-satin-de-soie",
-            "label": "Chiffon e satin di seta",
-            "images": [
-              {
-                "src": "/img/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Foulard blu turchese in chiffon e satin di seta"
-              }
-            ],
-            "sizes": [
-              {
-                "id": "40x174",
-                "label": "40x174 cm"
-              }
-            ]
-          }
-        },
-        "type": "solid"
       }
     },
     "mentions": [

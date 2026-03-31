@@ -495,7 +495,7 @@
             "label": "Muselina y satén de seda",
             "images": [
               {
-                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84.webp",
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-et-T-84x84.webp",
                 "alt": "Pañuelo degradado azul-verde en muselina y satén de seda"
               },
               {
@@ -535,12 +535,12 @@
             "label": "Satén de seda",
             "images": [
               {
-                "src": "/img/foulards/eclats-or/bleu-vert-degrade-T-84x84-p1.webp",
-                "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie - vue portée 1 - vista puesta 1"
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-et-T-84x84.webp",
+                "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie"
               },
               {
-                "src": "/img/foulards/eclats-or/bleu-vert-degrade-T-84x84-p2.webp",
-                "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie - vue portée 1 - vista puesta 2"
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-T-84x84-p1.webp",
+                "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie - vista puesta 1"
               }
             ],
             "sizes": [
@@ -963,7 +963,11 @@
       "rouge-degrade-rose": {
         "id": "rouge-degrade-rose",
         "label": "Degradado rojo a rosa",
-        "hex": "#000000",
+        "hexes": [
+          "#ef398f",
+          "#ec4222"
+        ],
+        "type": "gradient",
         "materials": {
           "satin-de-soie": {
             "id": "satin-de-soie",
@@ -1001,8 +1005,7 @@
               }
             ]
           }
-        },
-        "type": "solid"
+        }
       }
     },
     "mentions": [
@@ -2565,30 +2568,6 @@
           }
         },
         "type": "gradient"
-      },
-      "bleu-turquoise-degrade": {
-        "id": "bleu-turquoise-degrade",
-        "label": "Degradado azul turquesa",
-        "hex": "#000000",
-        "materials": {
-          "mousseline-et-satin-de-soie": {
-            "id": "mousseline-et-satin-de-soie",
-            "label": "Muselina y satén de seda",
-            "images": [
-              {
-                "src": "/img/foulards/multi/bleu-turquoise/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Pañuelo azul turquesa en muselina y satén de seda"
-              }
-            ],
-            "sizes": [
-              {
-                "id": "40x174",
-                "label": "40x174 cm"
-              }
-            ]
-          }
-        },
-        "type": "solid"
       }
     },
     "mentions": [
