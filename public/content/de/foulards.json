@@ -6,7 +6,7 @@
     "colors": {
       "rose-degrade-orange-fond-blanc": {
         "id": "rose-degrade-orange-fond-blanc",
-        "label": "Rosa-Orange-Verlauf auf Weiß",
+        "label": "rosa-orange Verlauf auf Weiß",
         "hexes": [
           "#E360B1",
           "#FFFFFF",
@@ -21,12 +21,24 @@
               {
                 "src": "/img/foulards/pivoines/rose-degrade-orange-fond-blanc-BMS-84x84.webp",
                 "alt": "Tuch Pivoines Rosa-Orange-Verlauf auf Weiß in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-fond-blanc-BMS-84x84-p1.webp",
+                "alt": "Tuch Pivoines Rosa-Orange-Verlauf auf Weiß in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-fond-blanc-BMS-84x84-p2.webp",
+                "alt": "Tuch Pivoines Rosa-Orange-Verlauf auf Weiß in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-fond-blanc-BMS-84x84-p3.webp",
+                "alt": "Tuch Pivoines Rosa-Orange-Verlauf auf Weiß in Seidenchiffon und Seidensatin - getragene Ansicht 3"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -34,7 +46,7 @@
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Rosa-Orange-Verlauf",
+        "label": "rosa-orange Verlauf",
         "hexes": [
           "#FFC702",
           "#E31C7F"
@@ -45,18 +57,43 @@
             "label": "Seidenchiffon und Seidensatin",
             "images": [
               {
-                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-64x64.webp",
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84.webp",
                 "alt": "Tuch Pivoines Rosa-Orange-Verlauf in Seide"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p1.webp",
+                "alt": "Tuch Pivoines Rosa-Orange-Verlauf in Seide - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p2.webp",
+                "alt": "Tuch Pivoines Rosa-Orange-Verlauf in Seide - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p3.webp",
+                "alt": "Tuch Pivoines Rosa-Orange-Verlauf in Seide - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p4.webp",
+                "alt": "Tuch Pivoines Rosa-Orange-Verlauf in Seide - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p5.webp",
+                "alt": "Tuch Pivoines Rosa-Orange-Verlauf in Seide - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/pivoines/rose-degrade-orange-BMS-84x84-p6.webp",
+                "alt": "Tuch Pivoines Rosa-Orange-Verlauf in Seide - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
-                "id": "64x64",
-                "label": "64×64 cm"
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       }
     },
     "mentions": [
@@ -65,7 +102,7 @@
       "100 % Seide, aus Aquarellen gefertigt",
       "Limitierte Auflage von 8 Exemplaren"
     ],
-    "metaDescription": "Seidentuch Pivoines von Marjolène Lasne, florale Motive inspiriert von der Provence."
+    "metaDescription": "Seidentuch Pivoines von Marjolène Lasne, stilisierte Pfingstrosen auf blauem Farbverlauf und limettengrünem Hintergrund."
   },
   {
     "slug": "hibiscus",
@@ -74,7 +111,7 @@
     "colors": {
       "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
-        "label": "Rot-Orange-Verlauf",
+        "label": "rot-orange Verlauf",
         "hexes": [
           "#FFB409",
           "#F01F11"
@@ -88,12 +125,32 @@
               {
                 "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64.webp",
                 "alt": "Tuch Hibiscus Rot-Orange-Verlauf in Seide"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64-p1.webp",
+                "alt": "Tuch Hibiscus Rot-Orange-Verlauf in Seide - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64-p2.webp",
+                "alt": "Tuch Hibiscus Rot-Orange-Verlauf in Seide - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64-p3.webp",
+                "alt": "Tuch Hibiscus Rot-Orange-Verlauf in Seide - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64-p4.webp",
+                "alt": "Tuch Hibiscus Rot-Orange-Verlauf in Seide - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64-p5.webp",
+                "alt": "Tuch Hibiscus Rot-Orange-Verlauf in Seide - getragene Ansicht 5"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -101,7 +158,7 @@
       },
       "rose-degrade": {
         "id": "rose-degrade",
-        "label": "Rosa-Verlauf",
+        "label": "rosa Verlauf",
         "hexes": [
           "#F88CBE",
           "#E11C6A"
@@ -120,7 +177,7 @@
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -128,7 +185,7 @@
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Rosa-Orange-Verlauf",
+        "label": "rosa-orange Verlauf",
         "hexes": [
           "#FDB308",
           "#EE1A8B"
@@ -142,12 +199,36 @@
               {
                 "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84.webp",
                 "alt": "Tuch Hibiscus Rosa-Orange-Verlauf in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p1.webp",
+                "alt": "Tuch Hibiscus Rosa-Orange-Verlauf in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p2.webp",
+                "alt": "Tuch Hibiscus Rosa-Orange-Verlauf in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p3.webp",
+                "alt": "Tuch Hibiscus Rosa-Orange-Verlauf in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p4.webp",
+                "alt": "Tuch Hibiscus Rosa-Orange-Verlauf in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p5.webp",
+                "alt": "Tuch Hibiscus Rosa-Orange-Verlauf in Seidenchiffon und Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/hibiscus/rose-degrade-orange-BMS-84x84-p6.webp",
+                "alt": "Tuch Hibiscus Rosa-Orange-Verlauf in Seidenchiffon und Seidensatin - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -160,7 +241,7 @@
       "100 % Seide, aus Aquarellen gefertigt",
       "Limitierte Auflage von 8 Exemplaren"
     ],
-    "metaDescription": "Seidentuch Hibiscus von Marjolène Lasne, Farben der Côte d'Azur."
+    "metaDescription": "Seidentuch Hibiscus von Marjolène Lasne, Blumen und Gräser um eine majestätische Hibiskusblüte."
   },
   {
     "slug": "roses",
@@ -169,7 +250,7 @@
     "colors": {
       "rose-degrade-fond-blanc": {
         "id": "rose-degrade-fond-blanc",
-        "label": "Rosa-Verlauf auf Weiß",
+        "label": "rosa Verlauf auf Weiß",
         "hexes": [
           "#E72A8A",
           "#E72A8A"
@@ -183,12 +264,20 @@
               {
                 "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-et-T-64x64.webp",
                 "alt": "Tuch Roses Rosa-Verlauf in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-64x64-p1.webp",
+                "alt": "Tuch Roses Rosa-Verlauf in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/roses/rose-degrade-fond-blanc-BMS-64x64-p2.webp",
+                "alt": "Tuch Roses Rosa-Verlauf in Seidenchiffon und Seidensatin - getragene Ansicht 2"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           },
@@ -204,7 +293,7 @@
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -212,26 +301,34 @@
       },
       "vert-degrade-fond-blanc": {
         "id": "vert-degrade-fond-blanc",
-        "label": "Grün-Verlauf auf Weiß",
+        "label": "grün Verlauf auf Weiß",
         "hexes": [
           "#09E6C7",
           "#019686"
         ],
         "type": "gradient",
         "materials": {
-          "mousseline-et-satin-de-soie": {
-            "id": "mousseline-et-satin-de-soie",
-            "label": "Seidenchiffon und Seidensatin",
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Seidensatin",
             "images": [
               {
-                "src": "/img/foulards/roses/vert-degrade-fond-blanc-BMS-84x84.webp",
-                "alt": "Tuch Roses Grün-Verlauf auf Weiß in Chiffon"
+                "src": "/img/foulards/roses/vert-degrade-fond-blanc-T-84x84.webp",
+                "alt": "Foulard Roses Vert dégradé fond blanc en satin de soie"
+              },
+              {
+                "src": "/img/foulards/roses/vert-degrade-fond-blanc-T-84x84-p1.webp",
+                "alt": "Foulard Roses Vert dégradé fond blanc en satin de soie - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/roses/vert-degrade-fond-blanc-T-84x84-p2.webp",
+                "alt": "Foulard Roses Vert dégradé fond blanc en satin de soie - getragene Ansicht 2"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -244,7 +341,7 @@
       "100 % Seide, aus Aquarellen gefertigt",
       "Limitierte Auflage von 8 Exemplaren"
     ],
-    "metaDescription": "Seidentuch Roses von Marjolène Lasne, Farben der Côte d'Azur."
+    "metaDescription": "Seidentuch Roses von Marjolène Lasne, Pfingstrosen in Pflaume und Limettengrün in floraler Harmonie."
   },
   {
     "slug": "eclats-or",
@@ -267,12 +364,36 @@
               {
                 "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64.webp",
                 "alt": "Goldgelbes Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p1.webp",
+                "alt": "Goldgelbes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p2.webp",
+                "alt": "Goldgelbes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p3.webp",
+                "alt": "Goldgelbes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p4.webp",
+                "alt": "Goldgelbes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p5.webp",
+                "alt": "Goldgelbes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/eclats-or/jaune-or-degrade-BMS-64x64-p6.webp",
+                "alt": "Goldgelbes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -280,7 +401,7 @@
       },
       "rose-degrade": {
         "id": "rose-degrade",
-        "label": "Rosa-Verlauf",
+        "label": "rosa Verlauf",
         "hexes": [
           "#F78DBE",
           "#E01B68"
@@ -294,12 +415,24 @@
               {
                 "src": "/img/foulards/eclats-or/rose-degrade-BMS-64x64.webp",
                 "alt": "Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-degrade-BMS-64x64-p1.webp",
+                "alt": "Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-degrade-BMS-64x64-p2.webp",
+                "alt": "Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-degrade-BMS-64x64-p3.webp",
+                "alt": "Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -307,7 +440,7 @@
       },
       "rose-orange-degrade": {
         "id": "rose-orange-degrade",
-        "label": "Rosa-Orange-Verlauf",
+        "label": "rosa orange Verlauf",
         "hexes": [
           "#FFA806",
           "#F73AA7"
@@ -321,12 +454,28 @@
               {
                 "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84.webp",
                 "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84-p1.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84-p2.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84-p3.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/eclats-or/rose-orange-degrade-BMS-84x84-p4.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -334,7 +483,7 @@
       },
       "bleu-vert-degrade": {
         "id": "bleu-vert-degrade",
-        "label": "Blau-Grün-Verlauf",
+        "label": "blau grün Verlauf",
         "hexes": [
           "#41F5E6",
           "#279F94"
@@ -348,12 +497,100 @@
               {
                 "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84.webp",
                 "alt": "Blau-Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p1.webp",
+                "alt": "Blau-Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p2.webp",
+                "alt": "Blau-Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p3.webp",
+                "alt": "Blau-Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p4.webp",
+                "alt": "Blau-Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p5.webp",
+                "alt": "Blau-Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-BMS-84x84-p6.webp",
+                "alt": "Blau-Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Seidensatin",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-T-84x84-p1.webp",
+                "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie - vue portée 1 - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-vert-degrade-T-84x84-p2.webp",
+                "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie - vue portée 1 - getragene Ansicht 2"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu-turquoise": {
+        "id": "bleu-turquoise",
+        "label": "Türkisblau",
+        "hex": "#0BD7FC",
+        "type": "solid",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Seidensatin",
+            "images": [
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p1.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p2.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p3.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p4.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/eclats-or/bleu-turquoise-T-84x84-p5.webp",
+                "alt": "Foulard Eclats d'Or bleu turquoise en mousseline et satin de soie - getragene Ansicht 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
@@ -366,7 +603,7 @@
       "100 % Seide, aus Aquarellen gefertigt",
       "Limitierte Auflage von 8 Exemplaren"
     ],
-    "metaDescription": "Tuch in limitierter Auflage von Marjolène Lasne."
+    "metaDescription": "Seidentuch Eclats d’Or von Marjolène Lasne, kräftige Farben, stilisierte Garben und florale Eleganz."
   },
   {
     "slug": "coquelicots",
@@ -375,7 +612,7 @@
     "colors": {
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
-        "label": "Türkisblau-Verlauf",
+        "label": "blau türkis Verlauf",
         "hexes": [
           "#18BEEC",
           "#13809D"
@@ -389,16 +626,32 @@
               {
                 "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84.webp",
                 "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84-p1.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84-p2.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84-p3.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/bleu-turquoise-degrade-BMS-84x84-p4.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               },
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -406,7 +659,7 @@
       },
       "rose-degrade": {
         "id": "rose-degrade",
-        "label": "Rosa-Verlauf",
+        "label": "rosa Verlauf",
         "hexes": [
           "#E11C6A",
           "#F88CBE"
@@ -419,20 +672,45 @@
               {
                 "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64.webp",
                 "alt": "Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p1.webp",
+                "alt": "Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p2.webp",
+                "alt": "Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p3.webp",
+                "alt": "Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p4.webp",
+                "alt": "Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p5.webp",
+                "alt": "Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-BMS-64x64-p6.webp",
+                "alt": "Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
-        "label": "Rot-Orange-Verlauf",
+        "label": "rot-orange Verlauf",
         "hexes": [
           "#EF1E10",
           "#FFB409"
@@ -443,22 +721,67 @@
             "label": "Seidenchiffon und Seidensatin",
             "images": [
               {
-                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64.webp",
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-et-T-64x64.webp",
                 "alt": "Rot-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64-p1.webp",
+                "alt": "Rot-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64-p2.webp",
+                "alt": "Rot-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-64x64-p3.webp",
+                "alt": "Rot-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Seidensatin",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-et-T-64x64.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-T-84x84-p1.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-T-84x84-p2.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-T-84x84-p3.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-orange-T-84x84-p4.webp",
+                "alt": "Foulard rouge dégradé orange en satin de soie - getragene Ansicht 4"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Rosa-Orange-Verlauf",
+        "label": "rosa-orange Verlauf",
         "hexes": [
           "#ED1890",
           "#FFA808"
@@ -471,20 +794,41 @@
               {
                 "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84.webp",
                 "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84-p1.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84-p2.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84-p3.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84-p4.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rose-degrade-orange-BMS-84x84-p5.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "vert-degrade": {
         "id": "vert-degrade",
-        "label": "Grün-Verlauf",
+        "label": "grün Verlauf",
         "hexes": [
           "#12D8BC",
           "#019686"
@@ -495,22 +839,130 @@
             "label": "Seidenchiffon und Seidensatin",
             "images": [
               {
-                "src": "/img/foulards/coquelicots/vert-degrade-BMS-84x84.webp",
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-et-T-84x84.webp",
                 "alt": "Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p1.webp",
+                "alt": "Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p2.webp",
+                "alt": "Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p3.webp",
+                "alt": "Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p4.webp",
+                "alt": "Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p5.webp",
+                "alt": "Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-84x84-p6.webp",
+                "alt": "Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Seidensatin",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-BSM-et-T-84x84.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p1.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p2.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p3.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p4.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p5.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/coquelicots/vert-degrade-T-84x84-p6.webp",
+                "alt": "Foulard Coquelicots vert dégradé en satin de soie - getragene Ansicht 6"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
+      },
+      "mauve-degrade-rose": {
+        "id": "mauve-degrade-rose",
+        "label": "malve-rosa Verlauf",
+        "hexes": [
+          "#6D69BC",
+          "#7366A1"
+        ],
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Seidenchiffon und Seidensatin",
+            "images": [
+              {
+                "src": "/img/foulards/coquelicots/mauve-degrade-rose-BMS-84x84.webp",
+                "alt": "Foulard Coquelicots mauve dégradé rose en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/coquelicots/mauve-degrade-rose-BMS-84x84-p1.webp",
+                "alt": "Foulard Coquelicots mauve dégradé rose en mousseline et satin de soie - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/mauve-degrade-rose-BMS-84x84-p2.webp",
+                "alt": "Foulard Coquelicots mauve dégradé rose en mousseline et satin de soie - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/mauve-degrade-rose-BMS-84x84-p3.webp",
+                "alt": "Foulard Coquelicots mauve dégradé rose en mousseline et satin de soie - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/mauve-degrade-rose-BMS-84x84-p4.webp",
+                "alt": "Foulard Coquelicots mauve dégradé rose en mousseline et satin de soie - getragene Ansicht 4"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        },
+        "type": "gradient"
       },
       "rouge-degrade-rose": {
         "id": "rouge-degrade-rose",
-        "label": "Rot-Rosa-Verlauf",
+        "label": "rot-rosa Verlauf",
         "hex": "#000000",
         "materials": {
           "satin-de-soie": {
@@ -518,18 +970,39 @@
             "label": "Seidensatin",
             "images": [
               {
-                "src": "/img/foulards/longdesc/arc-en-ciel/satin-de-soie-1.avif",
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84.webp",
                 "alt": "Regenbogentuch in Seidensatin"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84-p1.webp",
+                "alt": "Regenbogentuch in Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84-p2.webp",
+                "alt": "Regenbogentuch in Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84-p3.webp",
+                "alt": "Regenbogentuch in Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84-p4.webp",
+                "alt": "Regenbogentuch in Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/coquelicots/rouge-degrade-rose-T-84x84-p5.webp",
+                "alt": "Regenbogentuch in Seidensatin - getragene Ansicht 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "solid"
       }
     },
     "mentions": [
@@ -538,7 +1011,7 @@
       "100 % Seide, aus Aquarellen gefertigt",
       "Limitierte Auflage von 8 Exemplaren"
     ],
-    "metaDescription": "Tuch mit ausführlicher Beschreibung für UI-Tests."
+    "metaDescription": "Seidentuch Coquelicots von Marjolène Lasne, Mohnblumen diagonal auf goldenem Feld und strahlendem Himmel."
   },
   {
     "slug": "fleurs-de-porcelaine",
@@ -547,7 +1020,7 @@
     "colors": {
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Rosa-Orange-Verlauf",
+        "label": "rosa-orange Verlauf",
         "hexes": [
           "#F64984",
           "#FEB107"
@@ -561,12 +1034,36 @@
               {
                 "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64.webp",
                 "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p1.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p2.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p3.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p4.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p5.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rose-degrade-orange-BMS-64x64-p6.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
@@ -574,7 +1071,7 @@
       },
       "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
-        "label": "Rot-Orange-Verlauf",
+        "label": "rot-orange Verlauf",
         "hexes": [
           "#F03333",
           "#FEB009"
@@ -588,12 +1085,28 @@
               {
                 "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84.webp",
                 "alt": "Rot-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84-p1.webp",
+                "alt": "Rot-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84-p2.webp",
+                "alt": "Rot-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84-p3.webp",
+                "alt": "Rot-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/rouge-degrade-orange-BMS-84x84-p4.webp",
+                "alt": "Rot-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -601,7 +1114,7 @@
       },
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
-        "label": "Türkisblau-Verlauf",
+        "label": "blau türkis Verlauf",
         "hexes": [
           "#0CE5D0",
           "#2C9F94"
@@ -613,14 +1126,62 @@
             "label": "Seidenchiffon und Seidensatin",
             "images": [
               {
-                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84.webp",
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-et-T-84x84.webp",
                 "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84-p1.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84-p2.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84-p3.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-84x84-p4.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
+              }
+            ]
+          },
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Seidensatin",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-et-T-84x84.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p1.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p2.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p3.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p4.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie - getragene Ansicht 4"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
@@ -633,7 +1194,7 @@
       "100 % Seide, aus Aquarellen gefertigt",
       "Limitierte Auflage von 8 Exemplaren"
     ],
-    "metaDescription": "Tuch mit vielen Farben und Materialien."
+    "metaDescription": "Seidentuch Fleurs de Porcelaine von Marjolène Lasne, Porzellanblumen und Pflanzen auf goldenem Gelb und lebhaftem Rosa."
   },
   {
     "slug": "poisson",
@@ -642,7 +1203,7 @@
     "colors": {
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
-        "label": "Türkisblau-Verlauf",
+        "label": "blau türkis Verlauf",
         "hexes": [
           "#25D1F1",
           "#15909D"
@@ -673,7 +1234,7 @@
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -681,7 +1242,7 @@
       },
       "bleu-degrade": {
         "id": "bleu-degrade",
-        "label": "Blau-Verlauf",
+        "label": "blau Verlauf",
         "hexes": [
           "#31D9FE",
           "#002FE5"
@@ -716,7 +1277,7 @@
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -724,7 +1285,7 @@
       },
       "orange-degrade-sanguine": {
         "id": "orange-degrade-sanguine",
-        "label": "Orange-Blutrot-Verlauf",
+        "label": "orange-blutrot Verlauf",
         "hexes": [
           "#FAA01E",
           "#EE3143"
@@ -740,18 +1301,30 @@
                 "alt": "Orange-Blutrot-Verlauf-Tuch in Seidenchiffon und Seidensatin"
               },
               {
-                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-pose.webp",
-                "alt": "Orange-Blutrot-Verlauf-Tuch in Seidenchiffon und Seidensatin - liegende Ansicht"
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p1.webp",
+                "alt": "Orange-Blutrot-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
               },
               {
-                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-porte1.webp",
-                "alt": "Orange-Blutrot-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht"
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p2.webp",
+                "alt": "Orange-Blutrot-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p3.webp",
+                "alt": "Orange-Blutrot-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p4.webp",
+                "alt": "Orange-Blutrot-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p5.webp",
+                "alt": "Orange-Blutrot-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -759,7 +1332,7 @@
       },
       "cerise": {
         "id": "cerise",
-        "label": "Kirsche",
+        "label": "Cerise",
         "hexes": [
           "#EF0A4D"
         ],
@@ -774,14 +1347,57 @@
                 "alt": "Kirschfarbenes Tuch in Seidenchiffon und Seidensatin"
               },
               {
-                "src": "/img/foulards/poisson/cerise-BMS-84x84-porte1.webp",
+                "src": "/img/foulards/poisson/cerise-BMS-84x84-p1.webp",
                 "alt": "Kirschfarbenes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/poisson/cerise-BMS-84x84-p2.webp",
+                "alt": "Kirschfarbenes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/poisson/cerise-BMS-84x84-p3.webp",
+                "alt": "Kirschfarbenes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "jaune-orange-degrade": {
+        "id": "jaune-orange-degrade",
+        "label": "gelb-orange Verlauf",
+        "hexes": [
+          "#FFA63B",
+          "#F85B03"
+        ],
+        "type": "gradient",
+        "materials": {
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Seidenchiffon und Seidensatin",
+            "images": [
+              {
+                "src": "/img/foulards/poisson/jaune-orange-degrade-BMS-84x84.webp",
+                "alt": "Foulard jaune orange dégradé en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/poisson/jaune-orange-degrade-BMS-84x84-pose.webp",
+                "alt": "Foulard jaune orange dégradé en mousseline et satin de soie - liegende Ansicht"
+              },
+              {
+                "src": "/img/foulards/poisson/jaune-orange-degrade-BMS-84x84-porte1.webp",
+                "alt": "Foulard jaune orange dégradé en mousseline et satin de soie - getragene Ansicht 1"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
@@ -821,7 +1437,7 @@
       "100 % Seide, aus Aquarellen gefertigt",
       "Limitierte Auflage von 8 Exemplaren"
     ],
-    "metaDescription": "Tuch mit vielen Farben und Materialien."
+    "metaDescription": "Seidentuch Poisson von Marjolène Lasne, Fische und Korallen in türkisblauen Tönen."
   },
   {
     "slug": "herbes-folles",
@@ -830,7 +1446,7 @@
     "colors": {
       "brique": {
         "id": "brique",
-        "label": "Ziegelrot",
+        "label": "Brique",
         "hexes": [
           "#B70F1C"
         ],
@@ -843,12 +1459,20 @@
               {
                 "src": "/img/foulards/herbes-folles/brique-BMS-84x84.webp",
                 "alt": "Rotes Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/brique-BMS-84x84-p1.webp",
+                "alt": "Rotes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/brique-BMS-84x84-p2.webp",
+                "alt": "Rotes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -856,7 +1480,7 @@
       },
       "orange-degrade-sanguine": {
         "id": "orange-degrade-sanguine",
-        "label": "Orange-Blutrot-Verlauf",
+        "label": "orange-blutrot Verlauf",
         "hexes": [
           "#F99323",
           "#EE3143"
@@ -872,22 +1496,34 @@
                 "alt": "Orange-Blutrot-Verlauf-Tuch in Seidensatin"
               },
               {
-                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte1.webp",
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p1.webp",
                 "alt": "Orange-Blutrot-Verlauf-Tuch in Seidensatin - getragene Ansicht 1"
               },
               {
-                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte2.webp",
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p2.webp",
                 "alt": "Orange-Blutrot-Verlauf-Tuch in Seidensatin - getragene Ansicht 2"
               },
               {
-                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-porte3.webp",
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p3.webp",
                 "alt": "Orange-Blutrot-Verlauf-Tuch in Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p4.webp",
+                "alt": "Orange-Blutrot-Verlauf-Tuch in Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p5.webp",
+                "alt": "Orange-Blutrot-Verlauf-Tuch in Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/orange-degrade-sanguine-T-84x84-p6.webp",
+                "alt": "Orange-Blutrot-Verlauf-Tuch in Seidensatin - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -895,9 +1531,9 @@
       },
       "amethyste": {
         "id": "amethyste",
-        "label": "Amethyst",
+        "label": "Amethyste",
         "hexes": [
-          "#8E144D"
+          "#3A0C57"
         ],
         "type": "solid",
         "materials": {
@@ -908,12 +1544,36 @@
               {
                 "src": "/img/foulards/herbes-folles/amethyste-T-84x84.webp",
                 "alt": "Amethystfarbenes Tuch in Seidensatin"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p1.webp",
+                "alt": "Amethystfarbenes Tuch in Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p2.webp",
+                "alt": "Amethystfarbenes Tuch in Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p3.webp",
+                "alt": "Amethystfarbenes Tuch in Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p4.webp",
+                "alt": "Amethystfarbenes Tuch in Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p5.webp",
+                "alt": "Amethystfarbenes Tuch in Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/amethyste-T-84x84-p6.webp",
+                "alt": "Amethystfarbenes Tuch in Seidensatin - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -921,7 +1581,7 @@
       },
       "lavande-degrade-clair": {
         "id": "lavande-degrade-clair",
-        "label": "Heller Lavendel-Verlauf",
+        "label": "hell-lavendel Verlauf",
         "hexes": [
           "#33398D",
           "#99C4E6"
@@ -935,12 +1595,36 @@
               {
                 "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84.webp",
                 "alt": "Heller Lavendel-Verlauf-Tuch in Seidensatin"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p1.webp",
+                "alt": "Heller Lavendel-Verlauf-Tuch in Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p2.webp",
+                "alt": "Heller Lavendel-Verlauf-Tuch in Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p3.webp",
+                "alt": "Heller Lavendel-Verlauf-Tuch in Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p4.webp",
+                "alt": "Heller Lavendel-Verlauf-Tuch in Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p5.webp",
+                "alt": "Heller Lavendel-Verlauf-Tuch in Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/herbes-folles/lavande-degrade-clair-T-84x84-p6.webp",
+                "alt": "Heller Lavendel-Verlauf-Tuch in Seidensatin - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -953,7 +1637,7 @@
       "100 % Seide, aus Aquarellen gefertigt",
       "Limitierte Auflage von 8 Exemplaren"
     ],
-    "metaDescription": "Tuch mit vielen Farben und Materialien."
+    "metaDescription": "Seidentuch Herbes Folles von Marjolène Lasne, wilde Gräser und Blumen in dynamischer Komposition."
   },
   {
     "slug": "libellule",
@@ -962,7 +1646,7 @@
     "colors": {
       "rose": {
         "id": "rose",
-        "label": "Rosa",
+        "label": "Rose",
         "hexes": [
           "#BD1479"
         ],
@@ -981,14 +1665,76 @@
                 "alt": "Rosafarbenes Tuch in Seidenchiffon und Seidensatin - liegende Ansicht"
               },
               {
-                "src": "/img/foulards/libellule/rose-BMS-84x84-porte1.webp",
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p1.webp",
                 "alt": "Rosafarbenes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p2.webp",
+                "alt": "Rosafarbenes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p3.webp",
+                "alt": "Rosafarbenes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p4.webp",
+                "alt": "Rosafarbenes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p5.webp",
+                "alt": "Rosafarbenes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/libellule/rose-BMS-84x84-p6.webp",
+                "alt": "Rosafarbenes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        }
+      },
+      "bleu": {
+        "id": "bleu",
+        "label": "Bleu",
+        "hexes": [
+          "#0175B8"
+        ],
+        "type": "solid",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Seidensatin",
+            "images": [
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p1.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 1 - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p2.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 1 - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p3.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 1 - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p4.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 1 - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/libellule/bleu-T-84x84-p5.webp",
+                "alt": "Foulard bleu en mousseline et satin de soie - vue portée 1 - getragene Ansicht 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
               }
             ]
           }
@@ -996,7 +1742,7 @@
       },
       "vert": {
         "id": "vert",
-        "label": "Grün",
+        "label": "Vert",
         "hexes": [
           "#6BAE23"
         ],
@@ -1011,18 +1757,26 @@
                 "alt": "Grünes Tuch in Seidenchiffon und Seidensatin"
               },
               {
-                "src": "/img/foulards/libellule/vert-BMS-84x84-pose.webp",
-                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - liegende Ansicht"
+                "src": "/img/foulards/libellule/vert-BMS-84x84-p1.webp",
+                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
               },
               {
-                "src": "/img/foulards/libellule/vert-BMS-84x84-porte1.webp",
-                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+                "src": "/img/foulards/libellule/vert-BMS-84x84-p2.webp",
+                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/libellule/vert-BMS-84x84-p3.webp",
+                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/libellule/vert-BMS-84x84-p4.webp",
+                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -1035,7 +1789,7 @@
       "100 % Seide, aus Aquarellen gefertigt",
       "Limitierte Auflage von 8 Exemplaren"
     ],
-    "metaDescription": "Tuch mit vielen Farben und Materialien."
+    "metaDescription": "Seidentuch Libellule von Marjolène Lasne, Libellen und Blumen in Orange- und Rosatönen."
   },
   {
     "slug": "paon",
@@ -1044,7 +1798,7 @@
     "colors": {
       "vert": {
         "id": "vert",
-        "label": "Grün",
+        "label": "Vert",
         "hexes": [
           "#65B846"
         ],
@@ -1059,18 +1813,30 @@
                 "alt": "Grünes Tuch in Seidenchiffon und Seidensatin"
               },
               {
-                "src": "/img/foulards/paon/vert-BMS-84x84-porte1.webp",
+                "src": "/img/foulards/paon/vert-BMS-84x84-p1.webp",
                 "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
               },
               {
-                "src": "/img/foulards/paon/vert-BMS-84x84-porte2.webp",
+                "src": "/img/foulards/paon/vert-BMS-84x84-p2.webp",
                 "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84-p3.webp",
+                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84-p4.webp",
+                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/paon/vert-BMS-84x84-p5.webp",
+                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -1078,12 +1844,11 @@
       },
       "orange-degrade-sanguine": {
         "id": "orange-degrade-sanguine",
-        "label": "Sanguine Orange Verlauf",
+        "label": "orange-blutrot Verlauf",
         "hexes": [
           "#F99324",
           "#EE3143"
         ],
-        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -1092,25 +1857,45 @@
               {
                 "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84.webp",
                 "alt": "Sanguine Orange Verlauf Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84-p1.webp",
+                "alt": "Sanguine Orange Verlauf Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84-p2.webp",
+                "alt": "Sanguine Orange Verlauf Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84-p3.webp",
+                "alt": "Sanguine Orange Verlauf Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84-p4.webp",
+                "alt": "Sanguine Orange Verlauf Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/paon/orange-degrade-sanguine-BMS-84x84-p5.webp",
+                "alt": "Sanguine Orange Verlauf Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
-        "label": "Türkisblau Verlauf",
+        "label": "blau türkis Verlauf",
         "hexes": [
           "#0CD2FD",
           "#1671B9"
         ],
-        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -1121,53 +1906,39 @@
                 "alt": "Türkisblaues Tuch in Seidenchiffon und Seidensatin"
               },
               {
-                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-porte1.webp",
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-p1.webp",
                 "alt": "Türkisblaues Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
               },
               {
-                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-porte2.webp",
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-p2.webp",
                 "alt": "Türkisblaues Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-p3.webp",
+                "alt": "Türkisblaues Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-p4.webp",
+                "alt": "Türkisblaues Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/paon/bleu-turquoise-degrade-BMS-84x84-p5.webp",
+                "alt": "Türkisblaues Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
-        }
-      },
-      "rose-degrade-violet": {
-        "id": "rose-degrade-violet",
-        "label": "Rosa-Violett-Verlauf",
-        "hexes": [
-          "#E109CE",
-          "#A831F5"
-        ],
-        "type": "gradient",
-        "materials": {
-          "mousseline-et-satin-de-soie": {
-            "id": "mousseline-et-satin-de-soie",
-            "label": "Seidenchiffon und Seidensatin",
-            "images": [
-              {
-                "src": "/img/foulards/paon/rose-degrade-violet-BMS-84x84.webp",
-                "alt": "Rosa-Violett-Verlauf-Tuch in Seidenchiffon und Seidensatin"
-              }
-            ],
-            "sizes": [
-              {
-                "id": "84x84",
-                "label": "84×84 cm"
-              }
-            ]
-          }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-prune": {
         "id": "rose-degrade-prune",
-        "label": "Rosa-Pflaume-Verlauf",
+        "label": "rosa-pflaume Verlauf",
         "hexes": [
           "#E00ACE",
           "#A831F5"
@@ -1181,12 +1952,32 @@
               {
                 "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84.webp",
                 "alt": "Rosa-Pflaume-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84-p1.webp",
+                "alt": "Rosa-Pflaume-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84-p2.webp",
+                "alt": "Rosa-Pflaume-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84-p3.webp",
+                "alt": "Rosa-Pflaume-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84-p4.webp",
+                "alt": "Rosa-Pflaume-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/paon/rose-degrade-prune-BMS-84x84-p5.webp",
+                "alt": "Rosa-Pflaume-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
               }
             ],
             "sizes": [
               {
                 "id": "84x84",
-                "label": "84×84 cm"
+                "label": "84x84 cm"
               }
             ]
           }
@@ -1199,7 +1990,7 @@
       "100 % Seide, aus Aquarellen gefertigt",
       "Limitierte Auflage von 8 Exemplaren"
     ],
-    "metaDescription": "Tuch mit vielen Farben und Materialien."
+    "metaDescription": "Seidentuch Paon von Marjolène Lasne, majestätischer Pfau und Blumen vor einem Sonnenuntergangshimmel."
   },
   {
     "slug": "spirales",
@@ -1208,26 +1999,47 @@
     "colors": {
       "lie-de-vin": {
         "id": "lie-de-vin",
-        "label": "Weinrot",
-        "hex": "#000000",
+        "label": "Lie de vin",
+        "hex": "#C55797",
         "materials": {
           "satin-de-soie": {
             "id": "satin-de-soie",
             "label": "Seidensatin",
             "images": [
               {
-                "src": "/img/foulards/multi/lie-de-vin/satin-de-soie-1.avif",
-                "alt": "Weinrotes Tuch in Seidensatin"
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p1.webp",
+                "alt": "Weinrotes Tuch in Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p2.webp",
+                "alt": "Weinrotes Tuch in Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p3.webp",
+                "alt": "Weinrotes Tuch in Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p4.webp",
+                "alt": "Weinrotes Tuch in Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p5.webp",
+                "alt": "Weinrotes Tuch in Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/spirales/lie-de-vin-T-64x64-p6.webp",
+                "alt": "Weinrotes Tuch in Seidensatin - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
               }
             ]
           }
-        }
+        },
+        "type": "solid"
       }
     },
     "mentions": [
@@ -1236,7 +2048,7 @@
       "100 % Seide, aus Aquarellen gefertigt",
       "Limitierte Auflage von 8 Exemplaren"
     ],
-    "metaDescription": "Tuch mit vielen Farben und Materialien."
+    "metaDescription": "Seidentuch Spirales von Marjolène Lasne, Kurven und Schnörkel in Blau, Orange und Rosa."
   },
   {
     "slug": "mamma-del-mondo",
@@ -1245,7 +2057,7 @@
     "colors": {
       "rose-degrade-violet": {
         "id": "rose-degrade-violet",
-        "label": "Rosa-Violett-Verlauf",
+        "label": "rosa-violett Verlauf",
         "hexes": [
           "#E90195",
           "#9E0CAB"
@@ -1259,12 +2071,79 @@
               {
                 "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64.webp",
                 "alt": "Rosa-Violett-Verlauf-Tuch in Seidensatin"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64-p1.webp",
+                "alt": "Rosa-Violett-Verlauf-Tuch in Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64-p2.webp",
+                "alt": "Rosa-Violett-Verlauf-Tuch in Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64-p3.webp",
+                "alt": "Rosa-Violett-Verlauf-Tuch in Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64-p4.webp",
+                "alt": "Rosa-Violett-Verlauf-Tuch in Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/rose-degrade-violet-T-64x64-p5.webp",
+                "alt": "Rosa-Violett-Verlauf-Tuch in Seidensatin - getragene Ansicht 5"
               }
             ],
             "sizes": [
               {
                 "id": "64x64",
-                "label": "64×64 cm"
+                "label": "64x64 cm"
+              }
+            ]
+          }
+        }
+      },
+      "jaune-degrade-orange": {
+        "id": "jaune-degrade-orange",
+        "label": "gelb-orange Verlauf",
+        "hexes": [
+          "#F9E900",
+          "#F99324"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Seidensatin",
+            "images": [
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p1.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p2.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p3.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p4.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/mamma-del-mondo/jaune-degrade-orange-T-42x42-p5.webp",
+                "alt": "Foulard Mamma del Mondo jaune dégradé orange en satin de soie - getragene Ansicht 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "42x42",
+                "label": "42x42 cm"
               }
             ]
           }
@@ -1277,7 +2156,7 @@
       "100 % Seide, aus Aquarellen gefertigt",
       "Limitierte Auflage von 8 Exemplaren"
     ],
-    "metaDescription": "Tuch mit vielen Farben und Materialien."
+    "metaDescription": "Seidentuch Mamma del Mondo von Marjolène Lasne, Marienkäfer und Kleeblätter feiern Mütter weltweit."
   },
   {
     "slug": "courbes",
@@ -1286,7 +2165,7 @@
     "colors": {
       "rose-degrade": {
         "id": "rose-degrade",
-        "label": "Rosa-Verlauf",
+        "label": "rosa Verlauf",
         "hexes": [
           "#F47AB5",
           "#E71F72"
@@ -1300,12 +2179,28 @@
               {
                 "src": "/img/foulards/courbes/rose-degrade-BMS-40x174.webp",
                 "alt": "Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/courbes/rose-degrade-BMS-40x174-p1.webp",
+                "alt": "Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/courbes/rose-degrade-BMS-40x174-p2.webp",
+                "alt": "Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/courbes/rose-degrade-BMS-40x174-p3.webp",
+                "alt": "Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/courbes/rose-degrade-BMS-40x174-p4.webp",
+                "alt": "Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1313,7 +2208,7 @@
       },
       "vert-degrade": {
         "id": "vert-degrade",
-        "label": "Grün-Verlauf",
+        "label": "grün Verlauf",
         "hexes": [
           "#039787",
           "#06D8D3"
@@ -1327,12 +2222,32 @@
               {
                 "src": "/img/foulards/courbes/vert-degrade-BMS-40x174.webp",
                 "alt": "Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x174-p1.webp",
+                "alt": "Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x174-p2.webp",
+                "alt": "Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x174-p3.webp",
+                "alt": "Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x174-p4.webp",
+                "alt": "Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/courbes/vert-degrade-BMS-40x174-p5.webp",
+                "alt": "Grün-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1340,7 +2255,7 @@
       },
       "violet-degrade-rose": {
         "id": "violet-degrade-rose",
-        "label": "Violett-Rosa-Verlauf",
+        "label": "violett-rosa Verlauf",
         "hexes": [
           "#CF0F87",
           "#9F42AD"
@@ -1354,12 +2269,44 @@
               {
                 "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174.webp",
                 "alt": "Violett-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p1.webp",
+                "alt": "Violett-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p2.webp",
+                "alt": "Violett-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p3.webp",
+                "alt": "Violett-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p4.webp",
+                "alt": "Violett-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p5.webp",
+                "alt": "Violett-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p6.webp",
+                "alt": "Violett-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 6"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p7.webp",
+                "alt": "Violett-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 7"
+              },
+              {
+                "src": "/img/foulards/courbes/violet-degrade-rose-BMS-40x174-p8.webp",
+                "alt": "Violett-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 8"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1367,26 +2314,50 @@
       },
       "bleu-outremer-degrade-lavande": {
         "id": "bleu-outremer-degrade-lavande",
-        "label": "Ultramarin-Lavendel-Verlauf",
+        "label": "ultramarin-violett Verlauf",
         "hexes": [
           "#4659E0",
           "#8AA6F5"
         ],
         "type": "gradient",
         "materials": {
-          "satin-de-soie": {
-            "id": "satin-de-soie",
-            "label": "Seidensatin",
+          "mousseline-et-satin-de-soie": {
+            "id": "mousseline-et-satin-de-soie",
+            "label": "Seidenchiffon und Seidensatin",
             "images": [
               {
-                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-T-40x174.webp",
-                "alt": "Ultramarin-Lavendel-Verlauf-Tuch in Seidensatin"
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p1.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p2.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p3.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p4.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p5.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/courbes/bleu-outremer-degrade-lavande-BMS-40x174-p6.webp",
+                "alt": "Foulard Courbes bleu outremer dégradé lavande en mousseline et satin de soie - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1399,7 +2370,7 @@
       "100 % Seide, aus Aquarellen gefertigt",
       "Limitierte Auflage von 8 Exemplaren"
     ],
-    "metaDescription": "Tuch mit vielen Farben und Materialien."
+    "metaDescription": "Seidentuch Courbes von Marjolène Lasne, warme Blumen und geschwungene Linien auf einem rosa-orangenen Hintergrund."
   },
   {
     "slug": "printemps-en-couleurs",
@@ -1408,7 +2379,7 @@
     "colors": {
       "vert-degrade-turquoise": {
         "id": "vert-degrade-turquoise",
-        "label": "Grün-Türkis-Verlauf",
+        "label": "grün-türkis Verlauf",
         "hexes": [
           "#01BED7",
           "#029485"
@@ -1421,20 +2392,45 @@
               {
                 "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174.webp",
                 "alt": "Grünes Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p1.webp",
+                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p2.webp",
+                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p3.webp",
+                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p4.webp",
+                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p5.webp",
+                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/vert-degrade-turquoise-BMS-40x174-p6.webp",
+                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Rosa-Orange-Verlauf",
+        "label": "rosa-orange Verlauf",
         "hexes": [
           "#FFCA08",
           "#EF238F"
@@ -1447,20 +2443,37 @@
               {
                 "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x174.webp",
                 "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x174-p1.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x174-p2.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x174-p3.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/rose-degrade-orange-BMS-40x174-p4.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "outremer-degrade-turquoise": {
         "id": "outremer-degrade-turquoise",
-        "label": "Ultramarin-Türkis-Verlauf",
+        "label": "ultramarin-türkis Verlauf",
         "hexes": [
           "#2DC3E2",
           "#1556F8"
@@ -1473,12 +2486,40 @@
               {
                 "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x174.webp",
                 "alt": "Ultramarintuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p1.webp",
+                "alt": "Ultramarintuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p2.webp",
+                "alt": "Ultramarintuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p3.webp",
+                "alt": "Ultramarintuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p4.webp",
+                "alt": "Ultramarintuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p5.webp",
+                "alt": "Ultramarintuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p6.webp",
+                "alt": "Ultramarintuch in Seidenchiffon und Seidensatin - getragene Ansicht 6"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BSM-40x174-p7.webp",
+                "alt": "Ultramarintuch in Seidenchiffon und Seidensatin - getragene Ansicht 7"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           },
@@ -1489,20 +2530,45 @@
               {
                 "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-BMS-et-T-40x174.webp",
                 "alt": "Ultramarintuch in Seidensatin"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p1.webp",
+                "alt": "Ultramarintuch in Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p2.webp",
+                "alt": "Ultramarintuch in Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p3.webp",
+                "alt": "Ultramarintuch in Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p4.webp",
+                "alt": "Ultramarintuch in Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p5.webp",
+                "alt": "Ultramarintuch in Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/printemps-en-couleurs/outremer-degrade-turquoise-T-40x174-p6.webp",
+                "alt": "Ultramarintuch in Seidensatin - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
-        "label": "Türkisblau-Verlauf",
+        "label": "blau türkis Verlauf",
         "hex": "#000000",
         "materials": {
           "mousseline-et-satin-de-soie": {
@@ -1517,11 +2583,12 @@
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "solid"
       }
     },
     "mentions": [
@@ -1530,7 +2597,7 @@
       "100 % Seide, aus Aquarellen gefertigt",
       "Limitierte Auflage von 8 Exemplaren"
     ],
-    "metaDescription": "Tuch mit vielen Farben und Materialien."
+    "metaDescription": "Seidentuch Printemps en Couleurs von Marjolène Lasne, Mohnblumen und zarte Gräser."
   },
   {
     "slug": "paysage-de-roussillon",
@@ -1539,7 +2606,7 @@
     "colors": {
       "vert-degrade": {
         "id": "vert-degrade",
-        "label": "Grün-Verlauf",
+        "label": "grün Verlauf",
         "hexes": [
           "#01BED7",
           "#009384"
@@ -1552,20 +2619,37 @@
               {
                 "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x174.webp",
                 "alt": "Grünes Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x174-p1.webp",
+                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x174-p2.webp",
+                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x174-p3.webp",
+                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/vert-degrade-BMS-40x174-p4.webp",
+                "alt": "Grünes Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Rosa-Orange-Verlauf",
+        "label": "rosa-orange Verlauf",
         "hexes": [
           "#F03B44",
           "#FC9701"
@@ -1584,7 +2668,7 @@
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           },
@@ -1595,12 +2679,20 @@
               {
                 "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-et-T-40x174.webp",
                 "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-40x174-p1.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rose-degrade-orange-BMS-40x174-p2.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1608,7 +2700,7 @@
       },
       "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
-        "label": "Rot-Orange-Verlauf",
+        "label": "rot-orange Verlauf",
         "hexes": [
           "#EF3A43",
           "#FC9701"
@@ -1622,12 +2714,36 @@
               {
                 "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-BMS-et-T-40x174.webp",
                 "alt": "Rot-Orange-Verlauf-Tuch in Seidensatin"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p1.webp",
+                "alt": "Rot-Orange-Verlauf-Tuch in Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p2.webp",
+                "alt": "Rot-Orange-Verlauf-Tuch in Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p3.webp",
+                "alt": "Rot-Orange-Verlauf-Tuch in Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p4.webp",
+                "alt": "Rot-Orange-Verlauf-Tuch in Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p5.webp",
+                "alt": "Rot-Orange-Verlauf-Tuch in Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/rouge-degrade-orange-T-40x174-p6.webp",
+                "alt": "Rot-Orange-Verlauf-Tuch in Seidensatin - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           },
@@ -1643,15 +2759,15 @@
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
         }
       },
-      "outremer-degrade": {
-        "id": "outremer-degrade",
-        "label": "Ultramarin-Verlauf",
+      "outremer-degrade-lavande": {
+        "id": "outremer-degrade-lavande",
+        "label": "ultramarin-lavande Verlauf",
         "hexes": [
           "#2FC2E2",
           "#1556F8"
@@ -1663,13 +2779,33 @@
             "images": [
               {
                 "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x174.webp",
-                "alt": "Ultramarintuch in Seidensatin"
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-lavande-T-40x174-p1.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-lavande-T-40x174-p2.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-lavande-T-40x174-p3.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-lavande-T-40x174-p4.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-lavande-T-40x174-p5.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en satin de soie - getragene Ansicht 5"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           },
@@ -1679,17 +2815,26 @@
             "images": [
               {
                 "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-et-T-40x174.webp",
-                "alt": "Ultramarintuch in Seidenchiffon und Seidensatin"
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en mousseline et satin de soie"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-40x174-p1.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en mousseline et satin de soie - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/paysage-de-roussillon/outremer-degrade-BMS-40x174-p2.webp",
+                "alt": "Foulard Paysage de Roussillon outremer dégradé lavande en mousseline et satin de soie - getragene Ansicht 2"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       }
     },
     "mentions": [
@@ -1698,7 +2843,7 @@
       "100 % Seide, aus Aquarellen gefertigt",
       "Limitierte Auflage von 8 Exemplaren"
     ],
-    "metaDescription": "Tuch mit vielen Farben und Materialien."
+    "metaDescription": "Seidentuch Paysage de Roussillon von Marjolène Lasne, ockerfarbenes Dorf und leuchtender Himmel."
   },
   {
     "slug": "fleurs-et-papillons",
@@ -1707,22 +2852,34 @@
     "colors": {
       "bleu-outremer-degrade-lavande": {
         "id": "bleu-outremer-degrade-lavande",
-        "label": "Ultramarin-Lavendel-Verlauf",
-        "hex": "#000000",
+        "label": "ultramarin-violett Verlauf",
+        "hexes": [
+          "#6F7FC5",
+          "#A4B7DC"
+        ],
+        "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
             "label": "Seidenchiffon und Seidensatin",
             "images": [
               {
-                "src": "/img/foulards/multi/bleu-outremer/mousseline-et-satin-de-soie-1.avif",
-                "alt": "Ultramarintuch in Seidenchiffon und Seidensatin"
+                "src": "/img/foulards/fleurs-et-papillons/bleu-outremer-degrade-lavande-BMS-40x174-p1.webp",
+                "alt": "Ultramarintuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-outremer-degrade-lavande-BMS-40x174-p2.webp",
+                "alt": "Ultramarintuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-outremer-degrade-lavande-BMS-40x174-p3.webp",
+                "alt": "Ultramarintuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
               }
             ],
             "sizes": [
               {
-                "id": " 40x174",
-                "label": "40×174 cm"
+                "id": "40x174",
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1730,7 +2887,7 @@
       },
       "violet-rose-degrade": {
         "id": "violet-rose-degrade",
-        "label": "Violett-Rosa-Verlauf",
+        "label": "violett rosa Verlauf",
         "hexes": [
           "#B441AA",
           "#F737AC"
@@ -1743,20 +2900,49 @@
               {
                 "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174.webp",
                 "alt": "Violett-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p1.webp",
+                "alt": "Violett-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p2.webp",
+                "alt": "Violett-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p3.webp",
+                "alt": "Violett-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p4.webp",
+                "alt": "Violett-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p5.webp",
+                "alt": "Violett-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p6.webp",
+                "alt": "Violett-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 6"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/violet-rose-degrade-BMS-40x174-p7.webp",
+                "alt": "Violett-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 7"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
-        "label": "Rosa-Orange-Verlauf",
+        "label": "rosa-orange Verlauf",
         "hexes": [
           "#FFBE0E",
           "#ED1892"
@@ -1770,12 +2956,40 @@
               {
                 "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174.webp",
                 "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p1.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p2.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p3.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p4.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p5.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p6.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 6"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/rose-degrade-orange-BMS-40x174-p7.webp",
+                "alt": "Rosa-Orange-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 7"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1783,7 +2997,7 @@
       },
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
-        "label": "Türkisblau-Verlauf",
+        "label": "blau türkis Verlauf",
         "hexes": [
           "#208AC3",
           "#1FD2F7"
@@ -1797,12 +3011,36 @@
               {
                 "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174.webp",
                 "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p1.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p2.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p3.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p4.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p5.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/fleurs-et-papillons/bleu-turquoise-degrade-BMS-40x174-p6.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1815,7 +3053,7 @@
       "100 % Seide, aus Aquarellen gefertigt",
       "Limitierte Auflage von 8 Exemplaren"
     ],
-    "metaDescription": "Tuch mit vielen Farben und Materialien."
+    "metaDescription": "Seidentuch Fleurs et Papillons von Marjolène Lasne, Lavendel und Schmetterlinge in vertikaler Harmonie."
   },
   {
     "slug": "oiseaux-exotiques",
@@ -1824,7 +3062,7 @@
     "colors": {
       "vert-degrade-turquoise": {
         "id": "vert-degrade-turquoise",
-        "label": "Grün-Türkis-Verlauf",
+        "label": "grün-türkis Verlauf",
         "hexes": [
           "#039787",
           "#06D8D1"
@@ -1837,20 +3075,37 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x174.webp",
                 "alt": "Grün-Türkis-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x174-p1.webp",
+                "alt": "Grün-Türkis-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x174-p2.webp",
+                "alt": "Grün-Türkis-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x174-p3.webp",
+                "alt": "Grün-Türkis-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/vert-degrade-turquoise-BMS-40x174-p4.webp",
+                "alt": "Grün-Türkis-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "lavande-degrade": {
         "id": "lavande-degrade",
-        "label": "Lavendel-Verlauf",
+        "label": "lavande Verlauf",
         "hexes": [
           "#8DA9FD",
           "#495CE2"
@@ -1864,12 +3119,28 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x174.webp",
                 "alt": "Lavendel-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x174-p1.webp",
+                "alt": "Lavendel-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x174-p2.webp",
+                "alt": "Lavendel-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x174-p3.webp",
+                "alt": "Lavendel-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/lavande-degrade-BMS-40x174-p4.webp",
+                "alt": "Lavendel-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1877,7 +3148,7 @@
       },
       "jaune-degrade-rose": {
         "id": "jaune-degrade-rose",
-        "label": "Gelb-Rosa-Verlauf",
+        "label": "gelb-rosa Verlauf",
         "hexes": [
           "#FECC06",
           "#EE228D"
@@ -1891,12 +3162,36 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174.webp",
                 "alt": "Gelb-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p1.webp",
+                "alt": "Gelb-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p2.webp",
+                "alt": "Gelb-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p3.webp",
+                "alt": "Gelb-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p4.webp",
+                "alt": "Gelb-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p5.webp",
+                "alt": "Gelb-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rose-BMS-40x174-p6.webp",
+                "alt": "Gelb-Rosa-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 6"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1904,7 +3199,7 @@
       },
       "jaune-degrade-rouge": {
         "id": "jaune-degrade-rouge",
-        "label": "Gelb-Rot-Verlauf",
+        "label": "gelb-rot Verlauf",
         "hexes": [
           "#F21B3D",
           "#FFB309"
@@ -1918,12 +3213,28 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x174.webp",
                 "alt": "Gelb-Rot-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x174-p1.webp",
+                "alt": "Gelb-Rot-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x174-p2.webp",
+                "alt": "Gelb-Rot-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x174-p3.webp",
+                "alt": "Gelb-Rot-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/jaune-degrade-rouge-BMS-40x174-p4.webp",
+                "alt": "Gelb-Rot-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1931,7 +3242,7 @@
       },
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
-        "label": "Türkisblau-Verlauf",
+        "label": "blau türkis Verlauf",
         "hexes": [
           "#30C8E7",
           "#1C80BC"
@@ -1945,12 +3256,32 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174.webp",
                 "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174-p1.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174-p2.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174-p3.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174-p4.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-turquoise-degrade-BMS-40x174-p5.webp",
+                "alt": "Türkisblau-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 5"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -1958,7 +3289,7 @@
       },
       "bleu-outremer-degrade-turquoise": {
         "id": "bleu-outremer-degrade-turquoise",
-        "label": "Ultramarin-Türkis-Verlauf",
+        "label": "blau ultramarin-türkis Verlauf",
         "hexes": [
           "#2FC2E2",
           "#1556F7"
@@ -1972,12 +3303,24 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x174.webp",
                 "alt": "Ultramarin-Türkis-Verlauf-Tuch in Seidensatin"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-T-40x174-p1.webp",
+                "alt": "Ultramarin-Türkis-Verlauf-Tuch in Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-T-40x174-p2.webp",
+                "alt": "Ultramarin-Türkis-Verlauf-Tuch in Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-T-40x174-p3.webp",
+                "alt": "Ultramarin-Türkis-Verlauf-Tuch in Seidensatin - getragene Ansicht 3"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           },
@@ -1988,12 +3331,20 @@
               {
                 "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-et-T-40x174.webp",
                 "alt": "Ultramarin-Türkis-Verlauf-Tuch in Seidenchiffon und Seidensatin"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-40x174-p1.webp",
+                "alt": "Ultramarin-Türkis-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/oiseaux-exotiques/bleu-outremer-degrade-turquoise-BMS-40x174-p2.webp",
+                "alt": "Ultramarin-Türkis-Verlauf-Tuch in Seidenchiffon und Seidensatin - getragene Ansicht 2"
               }
             ],
             "sizes": [
               {
                 "id": "40x174",
-                "label": "40×174 cm"
+                "label": "40x174 cm"
               }
             ]
           }
@@ -2006,6 +3357,215 @@
       "100 % Seide, aus Aquarellen gefertigt",
       "Limitierte Auflage von 8 Exemplaren"
     ],
-    "metaDescription": "Tuch mit vielen Farben und Materialien."
+    "metaDescription": "Seidentuch Oiseaux Exotiques von Marjolène Lasne, tropische Vögel in schimmernden Farben."
+  },
+  {
+    "slug": "clochettes",
+    "title": "Clochettes",
+    "description": "Zwei Glöckchen rhythmisieren diesen Schal in Türkisblau und Rosa, zwischen Zartheit und Leuchtkraft.",
+    "colors": {
+      "bleu-turquoise": {
+        "id": "bleu-turquoise",
+        "label": "Türkisblau",
+        "hex": "#0BD7FC",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Seidensatin",
+            "images": [
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84.webp",
+                "alt": "Schal Clochettes Türkisblau in Seidensatin"
+              },
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84-p1.webp",
+                "alt": "Schal Clochettes Türkisblau in Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84-p2.webp",
+                "alt": "Schal Clochettes Türkisblau in Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84-p3.webp",
+                "alt": "Schal Clochettes Türkisblau in Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84-p4.webp",
+                "alt": "Schal Clochettes Türkisblau in Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/clochettes/bleu-turquoise-T-84x84-p5.webp",
+                "alt": "Schal Clochettes Türkisblau in Seidensatin - getragene Ansicht 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        },
+        "type": "solid"
+      },
+      "rose": {
+        "id": "rose",
+        "label": "Rose",
+        "hex": "#FF69B4",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Seidensatin",
+            "images": [
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84.webp",
+                "alt": "Schal Clochettes Rosa in Seidensatin"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p1.webp",
+                "alt": "Schal Clochettes Rosa in Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p2.webp",
+                "alt": "Schal Clochettes Rosa in Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p3.webp",
+                "alt": "Schal Clochettes Rosa in Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p4.webp",
+                "alt": "Schal Clochettes Rosa in Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p5.webp",
+                "alt": "Schal Clochettes Rosa in Seidensatin - getragene Ansicht 5"
+              },
+              {
+                "src": "/img/foulards/clochettes/rose-T-84x84-p6.webp",
+                "alt": "Schal Clochettes Rosa in Seidensatin - getragene Ansicht 6"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
+          }
+        },
+        "type": "solid"
+      }
+    },
+    "mentions": [
+      "Pièce unique fabriquée en France",
+      "Dessin original de l'artiste",
+      "100% soie, réalisé à partir d'aquarelles",
+      "Édition limitée de 8 exemplaires"
+    ],
+    "metaDescription": "Seidentuch Clochettes von Marjolène Lasne, leuchtende Glöckchen in Türkisblau und Rosa."
+  },
+  {
+    "slug": "jazz",
+    "title": "Jazz",
+    "description": "Ein energiegeladenes Motiv in intensivem Orange prägt den Schal Jazz, lebhaft und modern.",
+    "colors": {
+      "orange": {
+        "id": "orange",
+        "label": "Orange",
+        "hex": "#EB5712",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Seidensatin",
+            "images": [
+              {
+                "src": "/img/foulards/jazz/orange-T-40x174-p1.webp",
+                "alt": "Schal Jazz Orange in Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/jazz/orange-T-40x174-p2.webp",
+                "alt": "Schal Jazz Orange in Seidensatin - getragene Ansicht 2"
+              },
+              {
+                "src": "/img/foulards/jazz/orange-T-40x174-p3.webp",
+                "alt": "Schal Jazz Orange in Seidensatin - getragene Ansicht 3"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x174",
+                "label": "40x174 cm"
+              }
+            ]
+          }
+        },
+        "type": "solid"
+      }
+    },
+    "mentions": [
+      "Pièce unique fabriquée en France",
+      "Dessin original de l'artiste",
+      "100% soie, réalisé à partir d'aquarelles",
+      "Édition limitée de 8 exemplaires"
+    ],
+    "metaDescription": "Seidentuch Jazz von Marjolène Lasne, ein dynamisches warmes orangefarbenes Motiv."
+  },
+  {
+    "slug": "roussillon",
+    "title": "Roussillon",
+    "description": "Warme Ockertöne und ein rot-oranger Farbverlauf zeichnen die Flucht des Schals Roussillon.",
+    "colors": {
+      "orange": {
+        "id": "orange-degrade-rouge",
+        "label": "orange-rot Verlauf",
+        "hexes": [
+          "#BC0214",
+          "#D86221"
+        ],
+        "type": "gradient",
+        "materials": {
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Seidensatin",
+            "images": [
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p1.webp",
+                "alt": "Schal Roussillon Orange in Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p1.webp",
+                "alt": "Schal Roussillon Orange in Seidensatin - getragene Ansicht 1"
+              },
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p3.webp",
+                "alt": "Schal Roussillon Orange in Seidensatin - getragene Ansicht 3"
+              },
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p4.webp",
+                "alt": "Schal Roussillon Orange in Seidensatin - getragene Ansicht 4"
+              },
+              {
+                "src": "/img/foulards/roussillon/orange-degrade-rouge-T-40x174-p5.webp",
+                "alt": "Schal Roussillon Orange in Seidensatin - getragene Ansicht 5"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "40x174",
+                "label": "40x174 cm"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mentions": [
+      "Pièce unique fabriquée en France",
+      "Dessin original de l'artiste",
+      "100% soie, réalisé à partir d'aquarelles",
+      "Édition limitée de 8 exemplaires"
+    ],
+    "metaDescription": "Seidentuch Roussillon von Marjolène Lasne, warme Töne inspiriert von ockerfarbenen Landschaften."
   }
 ]
