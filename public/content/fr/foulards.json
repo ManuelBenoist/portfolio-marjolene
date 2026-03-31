@@ -92,7 +92,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       }
     },
     "mentions": [
@@ -101,7 +102,7 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard en soie Jardin Secret par Marjolène Lasne, motifs floraux inspirés de Provence."
+    "metaDescription": "Foulard Pivoines en soie par Marjolène Lasne, pivoines stylisées sur fond bleu dégradé et vert anis."
   },
   {
     "slug": "hibiscus",
@@ -144,7 +145,7 @@
               {
                 "src": "/img/foulards/hibiscus/rouge-degrade-orange-BMS-64x64-p5.webp",
                 "alt": "Foulard Hibiscus rouge dégradé orange en mousseline et satin de soie - vue portée 5"
-              }  
+              }
             ],
             "sizes": [
               {
@@ -240,7 +241,7 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard en soie Méditerranée par Marjolène Lasne, couleurs de la côte azuréenne."
+    "metaDescription": "Foulard Hibiscus en soie par Marjolène Lasne, fleurs et graminées autour d’un hibiscus majestueux."
   },
   {
     "slug": "roses",
@@ -340,7 +341,7 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard en soie Méditerranée par Marjolène Lasne, couleurs de la côte azuréenne."
+    "metaDescription": "Foulard Roses en soie par Marjolène Lasne, roses prune et vert anis dans une harmonie florale."
   },
   {
     "slug": "eclats-or",
@@ -529,10 +530,10 @@
               }
             ]
           },
-          "satin-de-soie":{
-            "id":"satin-de-soie",
-            "label":"Satin de soie",
-            "images":[
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
               {
                 "src": "/img/foulards/eclats-or/bleu-vert-degrade-T-84x84-p1.webp",
                 "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie - vue portée 1"
@@ -542,7 +543,7 @@
                 "alt": "Foulard Eclats d'Or bleu-vert dégradé satin de soie - vue portée 2"
               }
             ],
-            "sizes":[
+            "sizes": [
               {
                 "id": "84x84",
                 "label": "84x84 cm"
@@ -554,7 +555,7 @@
       "bleu-turquoise": {
         "id": "bleu-turquoise",
         "label": "Bleu turquoise",
-        "hex":"#0BD7FC",
+        "hex": "#0BD7FC",
         "type": "solid",
         "materials": {
           "satin-de-soie": {
@@ -602,7 +603,7 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+    "metaDescription": "Foulard Eclats d’Or en soie par Marjolène Lasne, couleurs vives, gerbes stylisées et élégance florale."
   },
   {
     "slug": "coquelicots",
@@ -704,7 +705,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rouge-degrade-orange": {
         "id": "rouge-degrade-orange",
@@ -742,10 +744,10 @@
               }
             ]
           },
-          "satin-de-soie":{
-            "id":"satin-de-soie",
-            "label":"Satin de soie",
-            "images":[
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
               {
                 "src": "/img/foulards/coquelicots/rouge-degrade-orange-BMS-et-T-64x64.webp",
                 "alt": "Foulard rouge dégradé orange en satin de soie"
@@ -774,7 +776,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
@@ -820,7 +823,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "vert-degrade": {
         "id": "vert-degrade",
@@ -870,10 +874,10 @@
               }
             ]
           },
-          "satin-de-soie":{
+          "satin-de-soie": {
             "id": "satin-de-soie",
             "label": "Satin de soie",
-            "images":[
+            "images": [
               {
                 "src": "/img/foulards/coquelicots/vert-degrade-BSM-et-T-84x84.webp",
                 "alt": "Foulard Coquelicots vert dégradé en satin de soie"
@@ -903,19 +907,23 @@
                 "alt": "Foulard Coquelicots vert dégradé en satin de soie - vue portée 6"
               }
             ],
-            "sizes":[
+            "sizes": [
               {
                 "id": "84x84",
                 "label": "84x84 cm"
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
-      "mauve-degrade-rose":{
+      "mauve-degrade-rose": {
         "id": "mauve-degrade-rose",
         "label": "Mauve dégradé rose",
-        "hexes": ["#6D69BC", "#7366A1"],
+        "hexes": [
+          "#6D69BC",
+          "#7366A1"
+        ],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -949,7 +957,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rouge-degrade-rose": {
         "id": "rouge-degrade-rose",
@@ -992,7 +1001,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "solid"
       }
     },
     "mentions": [
@@ -1001,7 +1011,7 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard en soie Méditerranée par Marjolène Lasne, couleurs de la côte azuréenne."
+    "metaDescription": "Foulard Coquelicots en soie par Marjolène Lasne, coquelicots en diagonale sur un fond doré et ciel radieux."
   },
   {
     "slug": "fleurs-de-porcelaine",
@@ -1143,48 +1153,48 @@
               }
             ]
           },
-            "satin-de-soie": {
-              "id": "satin-de-soie",
-              "label": "Satin de soie",
-              "images": [
-                {
-                  "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-et-T-84x84.webp",
-                  "alt": "Foulard bleu turquoise dégradé en satin de soie"
-                },
-                {
-                  "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p1.webp",
-                  "alt": "Foulard bleu turquoise dégradé en satin de soie - vue portée 1"
-                },
-                {
-                  "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p2.webp",
-                  "alt": "Foulard bleu turquoise dégradé en satin de soie - vue portée 2"
-                },
-                {
-                    "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p3.webp",
-                    "alt": "Foulard bleu turquoise dégradé en satin de soie - vue portée 3"
-                },
-                {
-                    "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p4.webp",
-                    "alt": "Foulard bleu turquoise dégradé en satin de soie - vue portée 4"
-                }
-              ],
-              "sizes": [
-                {
-                  "id": "84x84",
-                  "label": "84x84 cm"
-                }
-              ]
-            }
+          "satin-de-soie": {
+            "id": "satin-de-soie",
+            "label": "Satin de soie",
+            "images": [
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-BMS-et-T-84x84.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p1.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie - vue portée 1"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p2.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie - vue portée 2"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p3.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie - vue portée 3"
+              },
+              {
+                "src": "/img/foulards/fleurs-de-porcelaine/bleu-turquoise-degrade-T-84x84-p4.webp",
+                "alt": "Foulard bleu turquoise dégradé en satin de soie - vue portée 4"
+              }
+            ],
+            "sizes": [
+              {
+                "id": "84x84",
+                "label": "84x84 cm"
+              }
+            ]
           }
         }
-      },
+      }
+    },
     "mentions": [
       "Pièce unique fabriquée en France",
       "Dessin original de l'artiste",
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+    "metaDescription": "Foulard Fleurs de Porcelaine en soie par Marjolène Lasne, porcelaines et végétaux sur fond jaune et rose tonique."
   },
   {
     "slug": "poisson",
@@ -1290,26 +1300,26 @@
                 "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84.webp",
                 "alt": "Foulard orange dégradé sanguine en mousseline et satin de soie"
               },
-                {
-                  "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p1.webp",
-                  "alt": "Foulard orange dégradé sanguine en mousseline et satin de soie - vue portée 1"
-                },
-                {
-                  "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p2.webp",
-                  "alt": "Foulard orange dégradé sanguine en mousseline et satin de soie - vue portée 2"
-                },
-                {
-                  "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p3.webp",
-                  "alt": "Foulard orange dégradé sanguine en mousseline et satin de soie - vue portée 3"
-                },
-                {
-                  "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p4.webp",
-                  "alt": "Foulard orange dégradé sanguine en mousseline et satin de soie - vue portée 4"
-                },
-                {
-                  "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p5.webp",
-                  "alt": "Foulard orange dégradé sanguine en mousseline et satin de soie - vue portée 5"
-                }
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p1.webp",
+                "alt": "Foulard orange dégradé sanguine en mousseline et satin de soie - vue portée 1"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p2.webp",
+                "alt": "Foulard orange dégradé sanguine en mousseline et satin de soie - vue portée 2"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p3.webp",
+                "alt": "Foulard orange dégradé sanguine en mousseline et satin de soie - vue portée 3"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p4.webp",
+                "alt": "Foulard orange dégradé sanguine en mousseline et satin de soie - vue portée 4"
+              },
+              {
+                "src": "/img/foulards/poisson/orange-degrade-sanguine-BMS-84x84-p5.webp",
+                "alt": "Foulard orange dégradé sanguine en mousseline et satin de soie - vue portée 5"
+              }
             ],
             "sizes": [
               {
@@ -1400,7 +1410,7 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+    "metaDescription": "Foulard Poisson en soie par Marjolène Lasne, poissons et coraux en camaïeu de bleu turquoise."
   },
   {
     "slug": "herbes-folles",
@@ -1600,7 +1610,7 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+    "metaDescription": "Foulard Herbes Folles en soie par Marjolène Lasne, herbes sauvages et fleurs dans une composition dynamique."
   },
   {
     "slug": "libellule",
@@ -1661,7 +1671,7 @@
           }
         }
       },
-      "bleu":{
+      "bleu": {
         "id": "bleu",
         "label": "Bleu",
         "hexes": [
@@ -1752,7 +1762,7 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+    "metaDescription": "Foulard Libellule en soie par Marjolène Lasne, libellules et fleurs en tons orange et rose."
   },
   {
     "slug": "paon",
@@ -1808,7 +1818,10 @@
       "orange-degrade-sanguine": {
         "id": "orange-degrade-sanguine",
         "label": "Orange dégradé sanguine ",
-        "hexes": ["#F99324","#EE3143"],
+        "hexes": [
+          "#F99324",
+          "#EE3143"
+        ],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -1846,12 +1859,16 @@
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
         "label": "Bleu turquoise dégradé",
-        "hexes": ["#0CD2FD","#1671B9"],
+        "hexes": [
+          "#0CD2FD",
+          "#1671B9"
+        ],
         "materials": {
           "mousseline-et-satin-de-soie": {
             "id": "mousseline-et-satin-de-soie",
@@ -1889,7 +1906,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-prune": {
         "id": "rose-degrade-prune",
@@ -1945,7 +1963,7 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+    "metaDescription": "Foulard Paon en soie par Marjolène Lasne, paon majestueux et fleurs sur un ciel de coucher de soleil."
   },
   {
     "slug": "spirales",
@@ -1993,7 +2011,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "solid"
       }
     },
     "mentions": [
@@ -2002,7 +2021,7 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+    "metaDescription": "Foulard Spirales en soie par Marjolène Lasne, courbes et volutes en bleu, orange et rose."
   },
   {
     "slug": "mamma-del-mondo",
@@ -2110,7 +2129,7 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+    "metaDescription": "Foulard Mamma del Mondo en soie par Marjolène Lasne, coccinelles et trèfles célèbrent les mamans du monde."
   },
   {
     "slug": "courbes",
@@ -2324,7 +2343,7 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+    "metaDescription": "Foulard Courbes en soie par Marjolène Lasne, fleurs chaudes et lignes sinueuses sur fond rose orangé."
   },
   {
     "slug": "printemps-en-couleurs",
@@ -2379,7 +2398,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
@@ -2421,7 +2441,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "outremer-degrade-turquoise": {
         "id": "outremer-degrade-turquoise",
@@ -2515,7 +2536,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "bleu-turquoise-degrade": {
         "id": "bleu-turquoise-degrade",
@@ -2538,7 +2560,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "solid"
       }
     },
     "mentions": [
@@ -2547,7 +2570,7 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+    "metaDescription": "Foulard Printemps en Couleurs en soie par Marjolène Lasne, coquelicots et herbes délicates."
   },
   {
     "slug": "paysage-de-roussillon",
@@ -2594,7 +2617,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
@@ -2782,7 +2806,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       }
     },
     "mentions": [
@@ -2791,7 +2816,7 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+    "metaDescription": "Foulard Paysage de Roussillon en soie par Marjolène Lasne, village ocre et ciel lumineux."
   },
   {
     "slug": "fleurs-et-papillons",
@@ -2801,7 +2826,10 @@
       "bleu-outremer-degrade-lavande": {
         "id": "bleu-outremer-degrade-lavande",
         "label": "Bleu outremer dégradé lavande",
-        "hexes": ["#6F7FC5","#A4B7DC"],
+        "hexes": [
+          "#6F7FC5",
+          "#A4B7DC"
+        ],
         "type": "gradient",
         "materials": {
           "mousseline-et-satin-de-soie": {
@@ -2882,7 +2910,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "rose-degrade-orange": {
         "id": "rose-degrade-orange",
@@ -2997,7 +3026,7 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+    "metaDescription": "Foulard Fleurs et Papillons en soie par Marjolène Lasne, lavandes et papillons en verticalité."
   },
   {
     "slug": "oiseaux-exotiques",
@@ -3044,7 +3073,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "gradient"
       },
       "lavande-degrade": {
         "id": "lavande-degrade",
@@ -3300,12 +3330,12 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+    "metaDescription": "Foulard Oiseaux Exotiques en soie par Marjolène Lasne, oiseaux tropicaux en couleurs chatoyantes."
   },
   {
     "slug": "clochettes",
     "title": "Clochettes",
-    "description": "",
+    "description": "Deux clochettes rythment ce foulard en bleu turquoise et rose, entre délicatesse et luminosité.",
     "colors": {
       "bleu-turquoise": {
         "id": "bleu-turquoise",
@@ -3348,9 +3378,10 @@
               }
             ]
           }
-        }
+        },
+        "type": "solid"
       },
-       "rose": {
+      "rose": {
         "id": "rose",
         "label": "Rose",
         "hex": "#FF69B4",
@@ -3395,7 +3426,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "solid"
       }
     },
     "mentions": [
@@ -3404,12 +3436,12 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+    "metaDescription": "Foulard Clochettes en soie par Marjolène Lasne, clochettes lumineuses en bleu turquoise et rose."
   },
   {
     "slug": "jazz",
     "title": "Jazz",
-    "description": "",
+    "description": "Un motif énergique en orange intense compose le foulard Jazz, à la fois vibrant et moderne.",
     "colors": {
       "orange": {
         "id": "orange",
@@ -3440,7 +3472,8 @@
               }
             ]
           }
-        }
+        },
+        "type": "solid"
       }
     },
     "mentions": [
@@ -3449,17 +3482,20 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+    "metaDescription": "Foulard Jazz en soie par Marjolène Lasne, motif dynamique et chaleureux en orange."
   },
-    {
+  {
     "slug": "roussillon",
     "title": "Roussillon",
-    "description": "",
+    "description": "Des ocres chaleureux et un dégradé rouge-orangé dessinent l’évasion du foulard Roussillon.",
     "colors": {
       "orange": {
         "id": "orange-degrade-rouge",
         "label": "Orange dégradé rouge",
-        "hexes": ["#BC0214","#D86221"],
+        "hexes": [
+          "#BC0214",
+          "#D86221"
+        ],
         "type": "gradient",
         "materials": {
           "satin-de-soie": {
@@ -3503,6 +3539,6 @@
       "100% soie, réalisé à partir d'aquarelles",
       "Édition limitée de 8 exemplaires"
     ],
-    "metaDescription": "Foulard avec beaucoup de couleurs et matières."
+    "metaDescription": "Foulard Roussillon en soie par Marjolène Lasne, tonalités chaudes inspirées des terres ocres."
   }
 ]
