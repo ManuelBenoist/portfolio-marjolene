@@ -253,6 +253,184 @@
         "technique": "Olio su tela",
         "image": "/img/peintures/paysages/paysage_pourpre_et_vermillon_au_soleil_couchant.webp"
       }
+    ],
+    "Collection aquarelles": [
+      {
+        "slug": "champs-d-ete",
+        "title": "Champs d'été",
+        "description": "",
+        "dimensions": "21x15 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/paysages/aqua_champs_d_ete.webp"
+      },
+      {
+        "slug": "clarte-rose",
+        "title": "Clarté rose",
+        "description": "",
+        "dimensions": "14.5x21 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/paysages/aqua_clarte_rose.webp"
+      },
+      {
+        "slug": "au-large-des-calanques-de-cassis",
+        "title": "Au large des calanques de Cassis",
+        "description": "",
+        "dimensions": "23x23 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/paysages/aqua_au_large_des_calanques_de_cassis.webp"
+      },
+      {
+        "slug": "falaises-d-ocres-aux-champs-dores",
+        "title": "Falaises d'ocres aux champs dorés",
+        "description": "",
+        "dimensions": "35x18 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/paysages/aqua_falaises_d_ocres_aux_champs_dores.webp"
+      },
+      {
+        "slug": "herbes-et-fleurs-des-champs",
+        "title": "Herbes et fleurs des champs",
+        "description": "",
+        "dimensions": "14.5x21 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/paysages/aqua_herbes_et_fleurs_des_champs.webp"
+      },
+      {
+        "slug": "herbes-folles-aux-lavandes",
+        "title": "Herbes folles aux lavandes",
+        "description": "",
+        "dimensions": "20.5x15 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/paysages/aqua_herbes_folles_aux_lavandes.webp"
+      },
+      {
+        "slug": "l-amandier-en-fleurs",
+        "title": "L'amandier en fleurs",
+        "description": "",
+        "dimensions": "21x15 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/paysages/aqua_l_amandier_en_fleurs.webp"
+      },
+      {
+        "slug": "les-vignes-ensoleillees",
+        "title": "Les vignes ensoleillées",
+        "description": "",
+        "dimensions": "14.5x14.5 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/paysages/aqua_les_vignes_ensoleillees.webp"
+      },
+      {
+        "slug": "mas-aux-champs-de-coquelicots",
+        "title": "Mas aux champs de coquelicots",
+        "description": "",
+        "dimensions": "15x22 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/paysages/aqua_mas_aux_champs_de_coquelicots.webp"
+      },
+      {
+        "slug": "roussillon-aux-coquelicots",
+        "title": "Roussillon aux coquelicots",
+        "description": "",
+        "dimensions": "23x31 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/paysages/aqua_roussillon_aux_coquelicots.webp"
+      },
+      {
+        "slug": "roussillon-aux-iris",
+        "title": "Roussillon aux iris",
+        "description": "",
+        "dimensions": "18x19 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/paysages/aqua_roussillon_aux_iris.webp"
+      },
+      {
+        "slug": "roussillon-dans-le-lointain",
+        "title": "Roussillon dans le lointain",
+        "description": "",
+        "dimensions": "14.5x21 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/paysages/aqua_roussillon_dans_le_lointain.webp"
+      },
+      {
+        "slug": "roussillon",
+        "title": "Roussillon",
+        "description": "",
+        "dimensions": "18x14.5 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/paysages/aqua_roussillon.webp"
+      },
+      {
+        "slug": "soleil-joyeux",
+        "title": "Soleil joyeux",
+        "description": "",
+        "dimensions": "31x23 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/paysages/aqua_soleil_joyeux.webp"
+      },
+      {
+        "slug": "village-au-loin-au-coeur-des-lavandes",
+        "title": "Village au loin au coeur des lavandes",
+        "description": "",
+        "dimensions": "14.5x20 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/paysages/aqua_village_au_loin_au_coeur_des_lavandes.webp"
+      },
+      {
+        "slug": "duo-au-piano",
+        "title": "Duo au piano",
+        "description": "",
+        "dimensions": "23x23 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/scenes-d-interieur/aqua_duo_au_piano.webp"
+      },
+      {
+        "slug": "musiciens-oranges",
+        "title": "Musiciens orangés",
+        "description": "",
+        "dimensions": "23x23 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/scenes-d-interieur/aqua_musiciens_oranges.webp"
+      },
+      {
+        "slug": "en-terrasse",
+        "title": "En terrasse",
+        "description": "",
+        "dimensions": "21x14.5 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/terrasses-et-marches/aqua_en_terrasse.webp"
+      },
+      {
+        "slug": "l_aperitif",
+        "title": "L'apéritif",
+        "description": "",
+        "dimensions": "21x15 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/terrasses-et-marches/aqua_l_aperitif.webp"
+      },
+      {
+        "slug": "le-petit-marche-de-menerbes",
+        "title": "Le petit marché de Ménerbes",
+        "description": "",
+        "dimensions": "13.5x19.5 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/terrasses-et-marches/aqua_le_petit_marche_de_menerbes.webp"
+      },
+      {
+        "slug": "le-temps-d-un-aperitif-en-provence",
+        "title": "Le temps d'un apéritif en Provence",
+        "description": "",
+        "dimensions": "14.5x14.5 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/terrasses-et-marches/aqua_le_temps_d_un_aperitif_en_provence.webp"
+      },
+      {
+        "slug": "reverie",
+        "title": "Rêverie",
+        "description": "",
+        "dimensions": "10.5x25 cm",
+        "technique": "Acquerello",
+        "image": "/img/peintures/terrasses-et-marches/aqua_reverie.webp"
+      }
     ]
   }
 }
