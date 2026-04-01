@@ -20,21 +20,21 @@
         <div
           v-if="foulard"
           :key="foulard.slug"
-          class="grid gap-10 lg:grid-cols-2 lg:gap-16"
+          class="grid gap-10 lg:[grid-template-columns:1.35fr_1fr] lg:items-start lg:gap-16"
         >
           <!-- Left Column: Images -->
-          <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-4 lg:pr-4">
             <!-- Main Image (always first image) -->
             <button
               type="button"
-              class="relative aspect-square w-full overflow-hidden bg-white shadow-sm cursor-zoom-in focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54]"
+              class="relative w-full overflow-hidden cursor-zoom-in focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54]"
               :aria-label="$t('scarves.detail.enlargeImageAriaLabel', { title: foulard.title })"
               @click="openLightbox(0)"
             >
               <img
                 :src="withBaseImage(activeImages[0].src)"
                 :alt="activeImages[0].alt || foulard.title"
-                class="h-full w-full object-contain transition-opacity duration-300"
+                class="block w-full h-auto object-contain transition-opacity duration-300"
                 loading="lazy"
                 decoding="async"
               />
@@ -49,7 +49,7 @@
                   v-for="(image, idx) in activeImages.slice(1)"
                   :key="idx"
                   type="button"
-                  class="relative aspect-square w-full h-auto overflow-hidden bg-white shadow-sm transition-all duration-200 cursor-zoom-in focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54] opacity-80 hover:opacity-100"
+                  class="relative aspect-square w-full h-auto overflow-hidden transition-all duration-200 cursor-zoom-in focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54]"
                   :aria-label="$t('scarves.detail.enlargeImageIndexAriaLabel', { index: idx + 2 })"
                   @click="openLightbox(idx + 1)"
                 >
@@ -66,7 +66,7 @@
           </div>
 
           <!-- Right Column: Details -->
-          <div class="flex flex-col gap-6">
+          <div class="flex flex-col gap-6 lg:sticky lg:top-6 lg:self-start lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto">
             <!-- Title & Description -->
             <div>
               <h1 class="font-['Averia_Serif_Libre'] text-3xl font-light text-[#2E3D8B] sm:text-4xl">
