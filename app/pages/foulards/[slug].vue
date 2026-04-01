@@ -14,13 +14,13 @@
     </div>
 
     <!-- Main Content -->
-    <div class="mx-auto max-w-screen-2xl px-6 sm:px-8 lg:px-12 pb-16">
+    <div class="mx-auto max-w-screen-2xl px-4 sm:px-6 md:px-8 lg:px-12 pb-16">
       <Transition name="page-fade" mode="out-in" appear>
         <!-- Foulard Found -->
         <div
           v-if="foulard"
           :key="foulard.slug"
-          class="grid gap-10 lg:[grid-template-columns:1.35fr_1fr] lg:items-start lg:gap-16"
+          class="grid gap-8 sm:gap-10 lg:[grid-template-columns:1.35fr_1fr] lg:items-start lg:gap-16"
         >
           <!-- Left Column: Images -->
           <div class="flex flex-col gap-4 lg:pr-4">
@@ -43,7 +43,7 @@
             <!-- Thumbnail Gallery: 2 per row, skip main image -->
             <div v-if="activeImages.length > 1" class="flex flex-col gap-4">
               <div
-                class="grid grid-cols-2 gap-4 w-full"
+                class="grid grid-cols-2 gap-3 sm:gap-4 w-full"
               >
                 <button
                   v-for="(image, idx) in activeImages.slice(1)"
