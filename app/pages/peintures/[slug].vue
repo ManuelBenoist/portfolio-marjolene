@@ -23,15 +23,15 @@
           <figure class="relative flex h-full items-center justify-center bg-background p-0">
             <button
               type="button"
-              class="w-full cursor-zoom-in"
+              class="w-full cursor-zoom-in overflow-hidden aspect-[4/3] max-h-[70vh] bg-background"
               :aria-label="$t('paintings.detail.imageAlt', { title: painting.title })"
               @click="openLightbox"
             >
               <img
                 :src="withBaseImage(painting.image)"
                 :alt="$t('paintings.detail.imageAlt', { title: painting.title })"
-                class="max-h-[70vh] w-full object-contain"
-                loading="lazy"
+                class="w-full h-full object-contain"
+                loading="eager"
                 decoding="async"
               />
             </button>
@@ -236,6 +236,10 @@ const lightboxImages = computed(() => {
   ]
 })
 
+const heroImageHref = computed(() =>
+  withBaseImage(painting.value?.image || '/logo-ligne.png')
+)
+
 const previousPainting = computed(() =>
   currentIndex.value > 0 ? paintings.value[currentIndex.value - 1] : null
 )
@@ -279,6 +283,12 @@ useSeoMeta({
   twitterDescription: metaDescription,
   twitterImage: metaImage,
 })
+
+useHead(() => ({
+  link: [
+    { rel: 'preload', as: 'image', href: heroImageHref.value }
+  ].filter(Boolean)
+}))
 
 const breadcrumbSchema = computed(() => {
   if (!siteUrl || !painting.value) return null

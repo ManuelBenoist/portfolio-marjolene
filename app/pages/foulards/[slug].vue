@@ -27,15 +27,15 @@
             <!-- Main Image (always first image) -->
             <button
               type="button"
-              class="relative w-full overflow-hidden cursor-zoom-in focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54]"
+              class="relative w-full overflow-hidden aspect-[4/3] bg-[#FBFAF6] cursor-zoom-in focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54]"
               :aria-label="$t('scarves.detail.enlargeImageAriaLabel', { title: foulard.title })"
               @click="openLightbox(0)"
             >
               <img
-                :src="withBaseImage(activeImages[0].src)"
-                :alt="activeImages[0].alt || foulard.title"
-                class="block w-full h-auto object-contain transition-opacity duration-300"
-                loading="lazy"
+                :src="withBaseImage(activeImage.src)"
+                :alt="activeImage.alt || foulard.title"
+                class="block w-full h-full object-contain transition-opacity duration-300"
+                loading="eager"
                 decoding="async"
               />
             </button>
@@ -361,20 +361,25 @@ const activeSize = computed(() =>
   activeMaterial.value?.sizes.find((s) => s.id === selectedSizeId.value) ?? null
 )
 
-const activeImages = computed(() => {
+const activeImages = computed<ImageSource[]>(() => {
   if (activeMaterial.value && activeMaterial.value.images.length > 0) {
     return activeMaterial.value.images
   }
   // fallback: images d'une autre matière de la couleur
-  if (activeColor.value) {
-    const mats = Object.values(activeColor.value.materials)
-    if (mats.length > 0) return mats[0].images
-  }
+  const mats = activeColor.value ? Object.values(activeColor.value.materials) : []
+  const firstMaterial = mats[0]
+  if (firstMaterial) return firstMaterial.images
   // fallback: image générique
   return [{ src: '/img/foulards/foulard-marjo-bleu.avif', alt: 'Foulard' }]
 })
 
-const activeImage = computed(() => activeImages.value[activeImageIndex.value] ?? activeImages.value[0])
+const activeImage = computed<ImageSource>(() =>
+  activeImages.value[activeImageIndex.value] ?? activeImages.value[0] ?? { src: '/img/foulards/foulard-marjo-bleu.avif', alt: 'Foulard' }
+)
+
+const heroImageHref = computed(() =>
+  withBaseImage(activeImage.value?.src || '/img/foulards/foulard-marjo-bleu.avif')
+)
 
 // Plus besoin de thumbnailRows ni imageIndexInList : grid-cols-2 natif
 
@@ -411,11 +416,12 @@ const metaImage = computed(() => {
 // to prevent duplicate content issues (colors/sizes)
 const canonicalUrl = computed(() => withSiteUrl(localePath(`/foulards/${foulard.value?.slug}`), { withEndSlash: true }))
 
-useHead({
+useHead(() => ({
   link: [
-    { rel: 'canonical', href: canonicalUrl }
+    { rel: 'canonical', href: canonicalUrl.value },
+    { rel: 'preload', as: 'image' as const, href: heroImageHref.value }
   ]
-})
+}))
 
 useSeoMeta({
   title: metaTitle,
@@ -423,7 +429,6 @@ useSeoMeta({
   description: metaDescription,
   ogDescription: metaDescription,
   ogImage: metaImage,
-  ogType: 'product',
   twitterCard: 'summary_large_image',
   twitterTitle: metaTitle,
   twitterDescription: metaDescription,
