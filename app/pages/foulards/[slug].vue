@@ -49,14 +49,14 @@
                   v-for="(image, idx) in activeImages.slice(1)"
                   :key="idx"
                   type="button"
-                  class="relative aspect-square w-full h-auto overflow-hidden transition-all duration-200 cursor-zoom-in focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54]"
+                  class="relative w-full overflow-hidden transition-all duration-200 cursor-zoom-in focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C94E54]"
                   :aria-label="$t('scarves.detail.enlargeImageIndexAriaLabel', { index: idx + 2 })"
                   @click="openLightbox(idx + 1)"
                 >
                   <img
                     :src="withBaseImage(image.src)"
                     :alt="image.alt || $t('scarves.detail.imageViewAlt', { title: foulard.title, index: idx + 2 })"
-                    class="h-full w-full object-contain"
+                    class="block w-full h-auto object-contain"
                     loading="lazy"
                     decoding="async"
                   />
@@ -78,7 +78,7 @@
             </div>
 
             <!-- Color Selection -->
-            <section class="flex flex-col gap-2">
+            <section class="flex flex-col gap-2 pl-1">
               <div class="text-sm font-medium text-[#4A5565]">
                 {{ $t('scarves.detail.color') }} : 
                 <span class="font-semibold text-[#2E3D8B]">{{ activeColor?.label || '—' }}</span>
