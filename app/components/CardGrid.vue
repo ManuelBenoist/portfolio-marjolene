@@ -43,27 +43,44 @@ onMounted(async () => {
     child.classList.add('stagger-hidden')
   })
 
+  // Helper function to reveal children with stagger animation
+  const revealChildren = () => {
+    children.forEach((child, index) => {
+      setTimeout(() => {
+        child.classList.remove('stagger-hidden')
+        child.classList.add('revealed')
+      }, index * 60)
+    })
+  }
+
   // Small delay to ensure CSS is applied
   requestAnimationFrame(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            // Stagger reveal children
-            children.forEach((child, index) => {
-              setTimeout(() => {
-                child.classList.remove('stagger-hidden')
-                child.classList.add('revealed')
-              }, index * 60)
-            })
-            observer.disconnect()
-          }
-        })
-      },
-      { threshold: 0.05, rootMargin: '0px 0px -20px 0px' }
-    )
+    // Safety check: ensure grid ref is still available
+    if (!gridRef.value) return
+    
+    // Check if grid is already in viewport
+    const rect = gridRef.value.getBoundingClientRect()
+    const isInViewport = rect.bottom > 0 && rect.top < window.innerHeight
+    
+    if (isInViewport) {
+      // Grid is already visible, reveal immediately
+      revealChildren()
+    } else {
+      // Grid is not visible, use IntersectionObserver
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              revealChildren()
+              observer.disconnect()
+            }
+          })
+        },
+        { threshold: 0.05, rootMargin: '0px 0px -20px 0px' }
+      )
 
-    observer.observe(gridRef.value!)
+      observer.observe(gridRef.value)
+    }
   })
 })
 </script>
