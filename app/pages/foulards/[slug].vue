@@ -128,7 +128,7 @@
               :to="contactLink"
               :label="$t('scarves.detail.contactArtist')"
               :aria-label="$t('scarves.detail.contactAriaLabel')"
-              class="w-full justify-center mt-4"
+              class="mt-4 self-start"
             />
 
             <!-- Separator -->
@@ -424,6 +424,7 @@ useHead(() => ({
 }))
 
 useSeoMeta({
+  ogType: 'product',
   title: metaTitle,
   ogTitle: metaTitle,
   description: metaDescription,
