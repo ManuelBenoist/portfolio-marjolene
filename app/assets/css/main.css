@@ -96,6 +96,14 @@ h1, h2, h3, h4, h5, h6 {
 	transition: opacity 0.35s ease, transform 0.35s ease;
 }
 
+/* During transition, prevent pages from stacking by using absolute positioning on leaving page only */
+.page-leave-active {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
 .page-enter-from {
 	opacity: 0;
 	transform: translateY(12px);
@@ -104,6 +112,12 @@ h1, h2, h3, h4, h5, h6 {
 .page-leave-to {
 	opacity: 0;
 	transform: translateY(-8px);
+}
+
+.page-enter-to,
+.page-leave-from {
+	opacity: 1;
+	transform: translateY(0);
 }
 
 /* Layout Transitions (when switching between layouts) */

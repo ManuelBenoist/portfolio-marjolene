@@ -165,7 +165,11 @@ function handleKeydown(e: KeyboardEvent) {
 // Lock body scroll when modal is open
 watch(() => props.show, (isShow) => {
   if (typeof document !== 'undefined') {
-    document.body.style.overflow = isShow ? 'hidden' : ''
+    if (isShow) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = ''
+    }
   }
 })
 
@@ -175,6 +179,7 @@ onMounted(() => {
 
 onUnmounted(() => {
   window.removeEventListener('keydown', handleKeydown)
+  // Always restore scroll on unmount, even if lightbox was open
   if (typeof document !== 'undefined') {
     document.body.style.overflow = ''
   }

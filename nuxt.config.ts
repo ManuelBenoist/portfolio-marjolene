@@ -69,7 +69,7 @@ export default defineNuxtConfig({
         { name: 'author', content: 'Marjolène Lasne' },
       ],
     },
-    pageTransition: { name: 'page', mode: 'out-in' },
+    pageTransition: { name: 'page', mode: 'default' },
     layoutTransition: false,
   },
 
