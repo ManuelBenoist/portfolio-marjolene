@@ -1,5 +1,5 @@
 <template>
-  <div class="quote-block relative py-16 px-6 md:px-12 my-12 md:my-16 overflow-hidden">
+  <div v-reveal class="quote-block relative py-16 px-6 md:px-12 my-12 md:my-16 overflow-hidden">
     <!-- Brush stroke SVG en fond -->
     <svg class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-auto opacity-[0.04]" viewBox="0 0 800 200" fill="none" aria-hidden="true">
       <path d="M50 100 Q200 20 400 100 T750 100" stroke="#C94E54" stroke-width="80" stroke-linecap="round" fill="none"/>

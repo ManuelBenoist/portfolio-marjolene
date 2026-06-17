@@ -5,8 +5,8 @@
 
       <div v-if="entry.expositions_personnelles && entry.expositions_personnelles.length">
         <h3 class="text-2xl sm:text-3xl font-heading text-[#4A5565] mb-2">{{ labels?.personalExhibitions }}</h3>
-        <ul class="mb-6 ml-4 list-disc">
-          <li v-for="expo in entry.expositions_personnelles" :key="expo.titre + expo.lieu + expo.date" class="text-lg text-[#2E3D8B]">
+        <ul class="mb-6 ml-4 list-disc" v-stagger="{ baseDelay: 50 }">
+          <li v-for="expo in entry.expositions_personnelles" :key="expo.titre + expo.lieu + expo.date" class="text-lg text-[#2E3D8B] timeline-item">
             {{ expo.titre }}<span v-if="expo.lieu">, {{ expo.lieu }}</span><span v-if="expo.date"> ({{ expo.date }})</span>
           </li>
         </ul>
@@ -14,8 +14,8 @@
 
       <div v-if="entry.salons && entry.salons.length">
         <h3 class="text-2xl sm:text-3xl font-heading text-[#4A5565] mb-2">{{ labels?.shows }}</h3>
-        <ul class="mb-6 ml-4 list-disc">
-          <li v-for="salon in entry.salons" :key="salon.titre + salon.lieu + salon.date" class="text-lg text-[#2E3D8B]">
+        <ul class="mb-6 ml-4 list-disc" v-stagger="{ baseDelay: 50 }">
+          <li v-for="salon in entry.salons" :key="salon.titre + salon.lieu + salon.date" class="text-lg text-[#2E3D8B] timeline-item">
             {{ salon.titre }}<span v-if="salon.lieu">, {{ salon.lieu }}</span><span v-if="salon.date"> ({{ salon.date }})</span>
           </li>
         </ul>
@@ -23,8 +23,8 @@
 
       <div v-if="entry.prix && entry.prix.length">
         <h3 class="text-2xl sm:text-3xl font-heading text-[#4A5565] mb-2">{{ labels?.awards }}</h3>
-        <ul class="mb-6 ml-4 list-disc">
-          <li v-for="prix in entry.prix" :key="prix.titre + prix.lieu + prix.date" class="text-lg text-[#2E3D8B]">
+        <ul class="mb-6 ml-4 list-disc" v-stagger="{ baseDelay: 50 }">
+          <li v-for="prix in entry.prix" :key="prix.titre + prix.lieu + prix.date" class="text-lg text-[#2E3D8B] timeline-item">
             {{ prix.titre }}<span v-if="prix.lieu">, {{ prix.lieu }}</span><span v-if="prix.date"> ({{ prix.date }})</span>
           </li>
         </ul>
@@ -35,12 +35,33 @@
 </template>
 
 <script lang="ts" setup>
-import { defineProps } from 'vue'
+import { defineProps, watch, nextTick, onMounted } from 'vue'
 
 const props = defineProps<{ entry: any }>()
 
 const { data: pages } = await useContent<Record<string, any>>('pages.json')
 const labels = computed(() => pages.value?.artist?.timeline)
+
+// Trigger timeline item animations when entry changes
+// The v-stagger directive sets CSS custom properties (--stagger-delay) on list items
+// We manually add the 'revealed' class to trigger the CSS animations defined in main.css
+// This creates a sequential reveal effect when switching between timeline years
+const triggerAnimations = () => {
+  nextTick(() => {
+    const items = document.querySelectorAll('.timeline-item')
+    items.forEach(item => {
+      item.classList.add('revealed')
+    })
+  })
+}
+
+// onMounted is client-side only in Nuxt, so no need for process.client check
+onMounted(() => {
+  triggerAnimations()
+})
+
+// Watch for timeline year changes and re-trigger animations
+watch(() => props.entry, triggerAnimations, { immediate: false })
 </script>
 
 <style>
